@@ -1,0 +1,29 @@
+---
+import { pagePath, type PageId } from '../i18n/routes';
+import { ui, type Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  pageId?: PageId;
+}
+const { locale, pageId } = Astro.props;
+---
+
+<nav aria-label={ui[locale].languages} class="language-switcher">
+  <a
+    href={pagePath(pageId ?? 'home', 'pt')}
+    lang="pt-BR"
+    hreflang="pt-BR"
+    aria-current={pageId && locale === 'pt' ? 'page' : undefined}
+  >
+    Português
+  </a>
+  <span aria-hidden="true">/</span>
+  <a
+    href={pagePath(pageId ?? 'home', 'en')}
+    lang="en"
+    hreflang="en"
+    aria-current={pageId && locale === 'en' ? 'page' : undefined}
+  >
+    English
+  </a>
+</nav>

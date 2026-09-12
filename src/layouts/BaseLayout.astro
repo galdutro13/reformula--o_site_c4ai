@@ -1,0 +1,58 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { pagePath, withBase, type PageId } from '../i18n/routes';
+import { ui, locales, type Locale } from '../i18n/ui';
+import '../styles/tokens.css';
+import '../styles/global.css';
+interface Props {
+  locale: Locale;
+  title: string;
+  description: string;
+  pageId?: PageId;
+  notFound?: boolean;
+}
+const { locale, title, description, pageId, notFound = false } = Astro.props;
+const canonical = pageId ? pagePath(pageId, locale) : withBase('/');
+---
+
+<!doctype html>
+<html lang={ui[locale].lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={withBase('/favicon.svg')} type="image/svg+xml" />
+    {(!import.meta.env.PUBLIC_INDEXABLE || notFound) && (
+      <meta name="robots" content="noindex, nofollow" />
+    )}
+    {!notFound && (
+      <>
+        <link rel="canonical" href={new URL(canonical, Astro.site)} />
+        {locales.map((language) => (
+          <link
+            rel="alternate"
+            hreflang={ui[language].lang}
+            href={new URL(pagePath(pageId ?? 'home', language), Astro.site)}
+          />
+        ))}
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href={new URL(withBase('/'), Astro.site)}
+        />
+      </>
+    )}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      {ui[locale].skip}
+    </a>
+    <Header locale={locale} pageId={pageId} />
+    <main id="main" tabindex="-1" class="container">
+      <slot />
+    </main>
+    <Footer locale={locale} />
+  </body>
+</html>

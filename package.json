@@ -1,0 +1,46 @@
+{
+  "name": "c4ai-institutional-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.19.0",
+  "engines": {
+    "node": "24.21.0",
+    "npm": "11.19.0"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env scripts/astro.mjs dev local",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "lint": "eslint . && stylelint 'src/**/*.css'",
+    "check": "node --env-file-if-exists=.env scripts/astro.mjs check local",
+    "build": "node --env-file-if-exists=.env scripts/astro.mjs build production",
+    "build:local": "node scripts/astro.mjs build local",
+    "preview": "node --env-file-if-exists=.env scripts/astro.mjs preview production",
+    "preview:local": "node scripts/astro.mjs preview local",
+    "test:config": "node --test tests/config/*.test.mjs",
+    "test:e2e": "npm run build:local && playwright test",
+    "quality": "npm run format:check && npm run lint && npm run check && npm run test:config && npm run test:e2e"
+  },
+  "dependencies": {
+    "astro": "7.3.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@axe-core/playwright": "4.13.0",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.63.0",
+    "@types/node": "24.13.4",
+    "eslint": "10.10.0",
+    "eslint-plugin-astro": "3.1.0",
+    "prettier": "3.9.6",
+    "prettier-plugin-astro": "1.0.0",
+    "stylelint": "17.15.0",
+    "stylelint-config-standard": "40.0.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.70.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

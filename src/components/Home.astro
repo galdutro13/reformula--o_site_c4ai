@@ -1,0 +1,37 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getDemonstration } from '../content/demonstrations';
+import { ui, type Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const entry = await getDemonstration('home', locale);
+const { Content } = await render(entry);
+const t = ui[locale];
+---
+
+<BaseLayout
+  locale={locale}
+  pageId="home"
+  title={`C4AI | ${t.home}`}
+  description={entry.data.description}
+>
+  <section class="hero" aria-labelledby="page-title">
+    <p class="eyebrow">{t.demonstration}</p>
+    <h1 id="page-title">{entry.data.title}</h1>
+    <p class="lead">{t.note}</p>
+    <a class="button-link" href="#demonstration">
+      {t.explore}
+      <span aria-hidden="true"> ↗</span>
+    </a>
+  </section>
+  <section
+    id="demonstration"
+    class="content-panel prose"
+    aria-label={t.demonstration}
+  >
+    <Content />
+  </section>
+</BaseLayout>

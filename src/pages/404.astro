@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { pagePath } from '../i18n/routes';
+---
+
+<BaseLayout
+  locale="pt"
+  title="C4AI | Página não encontrada / Page not found"
+  description="Página não encontrada. Volte ao início. Page not found. Return to the home page."
+  notFound
+>
+  <section class="hero" aria-labelledby="page-title">
+    <p class="eyebrow">404</p>
+    <h1 id="page-title">
+      Página não encontrada
+      <span class="heading-translation" lang="en">
+        Page not found
+      </span>
+    </h1>
+    <p class="lead">
+      O endereço solicitado não está disponível.{' '}
+      <span lang="en">The requested address is not available.</span>
+    </p>
+    <div class="language-choices">
+      <a class="button-link" href={pagePath('home', 'pt')}>
+        Voltar ao início
+      </a>
+      <a class="button-link secondary" href={pagePath('home', 'en')} lang="en">
+        Return to home
+      </a>
+    </div>
+  </section>
+</BaseLayout>
