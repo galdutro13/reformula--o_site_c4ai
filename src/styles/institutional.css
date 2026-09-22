@@ -1,0 +1,265 @@
+.page-hero {
+  position: relative;
+  background: linear-gradient(135deg, #1c434a, #347e8b);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+}
+
+.hero-inner {
+  position: relative;
+}
+
+.home-hero {
+  color: var(--color-text);
+  background: #fff;
+  padding: 3rem 0;
+}
+
+.home-illustration {
+  width: 100%;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid currentcolor;
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+
+.promotional-cards {
+  background: var(--color-accent);
+  color: #fff;
+  margin-top: -3rem;
+  position: relative;
+  padding: 0;
+}
+
+.source-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-block: 2rem;
+}
+
+.page-hero a {
+  color: inherit;
+}
+
+.page-hero h1 {
+  margin-top: 0;
+}
+
+.home-hero h1 {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-weight: 700;
+}
+
+.promotional-cards a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.source-gallery img {
+  width: 100%;
+  max-height: 18rem;
+  object-fit: cover;
+}
+
+.page-home h2 {
+  font-size: 2rem;
+}
+
+.page-about .page-hero {
+  min-height: 23rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.page-research .hero-inner {
+  max-width: 58rem;
+  text-align: center;
+}
+
+.page-hero .layout-section {
+  padding: 0;
+}
+
+.home-hero .hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.page-home .source-content {
+  text-align: center;
+}
+
+.page-about .hero-inner {
+  max-width: 52rem;
+}
+
+.promotional-cards .layout-section {
+  padding: 0;
+}
+
+.promotional-cards .layout-row {
+  margin: 0;
+  gap: 0;
+}
+
+.promotional-cards .layout-column {
+  padding: 1rem 1.5rem;
+}
+
+.page-home .rich-text a {
+  border: 1px solid var(--color-border);
+  display: block;
+  height: 100%;
+  padding: 1rem;
+  box-shadow: 0 0 0 3px #347e8b25;
+}
+
+.page-home .source-content a {
+  text-decoration: none;
+}
+
+.page-home .layout-row.columns-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.page-home .layout-row.columns-3 {
+  max-width: 50rem;
+  margin-inline: auto;
+}
+
+.promotional-cards .layout-column:nth-child(2) {
+  background: #306d7d;
+}
+
+.promotional-cards .layout-column:nth-child(3) {
+  background: #367d7e;
+}
+
+.page-home #cta {
+  margin-top: 3rem;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.page-home .source-content,
+.page-home #source-content,
+.page-home #reusable-sections {
+  padding-top: 0;
+}
+
+.page-about #lideranca h3,
+.page-about #leadership h3 {
+  margin-top: 1.5rem;
+}
+
+.page-home #cta a {
+  color: #fff;
+}
+
+.page-research #overlappable a {
+  color: #fff;
+}
+
+.page-research #overlappable h3 {
+  font-size: 0.95rem;
+}
+
+.page-about #lideranca .editorial-image,
+.page-about #leadership .editorial-image {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.page-research #overlappable .layout-column {
+  background: var(--color-accent);
+  color: #fff;
+  padding: 1rem;
+}
+
+.page-home #cta .rich-text a {
+  box-shadow: none;
+}
+
+@media (width <= 600px) {
+  .page-hero {
+    padding: 2.5rem 0;
+  }
+
+  .home-hero .hero-inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .layout-row.columns-5,
+  .page-home .layout-row.columns-5,
+  .source-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page-research #overlappable .layout-section {
+    padding: 0;
+  }
+}
+
+.promotional-cards h2 {
+  font-size: 1.2rem;
+}
+
+.page-research #overlappable {
+  max-width: 53rem;
+  margin-inline: auto;
+}
+
+.page-research #overlappable .layout-row {
+  gap: 0;
+  margin: 0;
+  align-items: stretch;
+}
+
+.page-research #overlappable .layout-column:nth-child(1) {
+  background: #626566;
+}
+
+.page-research #overlappable .layout-column:nth-child(2) {
+  background: #34777c;
+}
+
+.page-research #overlappable .layout-column:nth-child(3) {
+  background: #2e6e7e;
+}
+
+.page-research
+  #overlappable
+  .layout-row:first-child
+  .layout-column:nth-child(4) {
+  background: #b4ff63;
+  color: #243d40;
+}
+
+.page-research
+  #overlappable
+  .layout-row:first-child
+  .layout-column:nth-child(4)
+  a {
+  color: #243d40;
+}

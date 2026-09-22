@@ -1,0 +1,200 @@
+{
+  "id": "home-pt",
+  "kind": "home",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/inicio/",
+  "retrievedAt": "2026-09-19T17:41:08.110368+00:00",
+  "path": "/pt/",
+  "translationId": "home",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/pt/sobre/\"> Saiba mais</a>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "image",
+                      "src": "/media/d59b07c37db0.png",
+                      "alt": "",
+                      "width": 856,
+                      "height": 580
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "Exemplos de atividades de pesquisa do C4AI:"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#NLP2_B_eng\">Recursos para processamento automático do português.</a>\n</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#ProIndL_B_eng\">Preservando as línguas indígenas brasileiras com IA.</a>\n</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#OceanML_B_eng\">Explorando o oceano com aprendizado de máquina.</a>\n</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#Climate_B_eng\">Tomada de decisões climáticas com múltiplos critérios.</a>\n</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#OBIA_B_eng\">Observatório da IA: impactos e regulamentação.</a>\n</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#AlHealth_B_eng\">Aprendizado de máquina para diagnóstico e reabilitação.</a>\n</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#KEML_B_eng\">Agentes para raciocínio e conversação.</a>\n</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>\n<a href=\"/pt/pesquisas/#AgriBio_B_eng\">IA no agronegócio sustentável e redes alimentares.</a>\n</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "reusable-sections"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "Nós nos preocupamos com diversidade e inclusão!"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"https://c4ai.inova.usp.br/cid/\"> Veja nossas iniciativas</a>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "cta"
+        }
+      ],
+      "id": "source-content"
+    }
+  ],
+  "title": "Um centro de pesquisa para inteligência artificial avançada no Brasil",
+  "description": "Um centro de pesquisa para inteligência artificial avançada no Brasil",
+  "image": "/media/d59b07c37db0.png"
+}

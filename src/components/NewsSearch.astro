@@ -1,0 +1,78 @@
+---
+import { getEntry } from 'astro:content';
+import { searchSegments, type SearchItem } from '../search/segments';
+import { articles } from '../content/editorial';
+import { contentUrl } from '../i18n/routes';
+import { labels } from '../i18n/navigation';
+import type { Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = labels[locale];
+const all = await articles(locale);
+const index: SearchItem[] = await Promise.all(
+  all.map(async (a) => ({
+    title: a.title,
+    path: contentUrl(a.path),
+    segments: await searchSegments(a.blocks, async (ref) => {
+      const entry = await getEntry('challenges', ref);
+      if (!entry) throw new Error(`Desafio ausente: ${ref}`);
+      return entry.data.blocks;
+    }),
+  })),
+);
+---
+
+<div class="news-search" data-news-search>
+  <label for="news-query">{t.search}</label>
+  <input id="news-query" type="search" disabled autocomplete="off" />
+  <p class="search-status" role="status" aria-live="polite"></p>
+  <script
+    type="application/json"
+    is:inline
+    set:html={JSON.stringify(index).replace(/</g, '\\u003c')}
+  ></script>
+  <noscript>
+    <p>{t.searchHint}</p>
+  </noscript>
+  <ul class="search-results" hidden></ul>
+</div>
+<script>
+  import type { SearchItem } from '../search/segments';
+  import { fold, segmentText } from '../search/text';
+  document
+    .querySelectorAll<HTMLElement>('[data-news-search]')
+    .forEach((root) => {
+      const input = root.querySelector<HTMLInputElement>('input')!;
+      const items: SearchItem[] = JSON.parse(
+        root.querySelector('script')!.textContent!,
+      );
+      const searchable = items.map((item) => ({
+        ...item,
+        text: fold([item.title, ...item.segments.map(segmentText)].join(' ')),
+      }));
+      const output = root.querySelector<HTMLUListElement>('.search-results')!;
+      const status = root.querySelector<HTMLElement>('[role="status"]')!;
+      input.disabled = false;
+      input.addEventListener('input', () => {
+        const query = fold(input.value);
+        const matches = query
+          ? searchable.filter((item) => item.text.includes(query))
+          : [];
+        output.replaceChildren();
+        matches.forEach((item) => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = item.path;
+          a.textContent = item.title;
+          li.append(a);
+          output.append(li);
+        });
+        output.hidden = !query;
+        status.textContent = query
+          ? `${matches.length} ${document.documentElement.lang.startsWith('pt') ? 'resultados' : 'results'}`
+          : '';
+      });
+    });
+</script>

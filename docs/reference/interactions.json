@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-12",
+  "observations": [
+    {
+      "url": "https://c4ai.inova.usp.br/pt/inicio/",
+      "viewport": "390x844",
+      "action": "Enter no link Menu; Tab seguinte",
+      "result": "Menu abriu; foco seguinte em Saiba mais fora do painel; submenus e Escape não concluídos",
+      "evidence": "home-pt-mobile-menu-viewport.png"
+    },
+    {
+      "url": "https://c4ai.inova.usp.br/research_2/",
+      "viewport": "390x844",
+      "action": "Enter no link a[href=\"#5-c53\"], depois clique no mesmo link",
+      "result": "Após Enter, fragmento #5-c53 e link View NLP2 team invisível; após clique visível",
+      "evidence": "research-en-mobile-team-expanded.png"
+    },
+    {
+      "url": "https://c4ai.inova.usp.br/pt/publicacoes/",
+      "viewport": "390x844",
+      "action": "Inspeção DOM da tabela",
+      "result": {
+        "table": "tablepress-5",
+        "visible_rows_including_header": 21,
+        "table_width": 749.640625,
+        "parent_width": 336,
+        "parent_scrollWidth": 750,
+        "parent_overflowX": "visible",
+        "info": "Mostrando de 1 até 20 de 280 registros"
+      },
+      "evidence": "publications-pt-mobile-viewport.png"
+    },
+    {
+      "url": "https://c4ai.inova.usp.br/pt/inicio/",
+      "viewport": "1440x900",
+      "action": "Abrir botão Accessibility Tools",
+      "result": "Classe pojo-a11y-toolbar-open; controles em inglês",
+      "evidence": "home-pt-desktop-accessibility.png"
+    }
+  ],
+  "limits": "Interações amostrais. Nenhum formulário ou mensagem enviado; não é auditoria WCAG."
+}

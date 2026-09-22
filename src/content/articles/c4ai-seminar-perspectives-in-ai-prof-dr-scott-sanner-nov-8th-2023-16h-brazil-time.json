@@ -1,0 +1,73 @@
+{
+  "id": "c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time",
+  "kind": "article",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/",
+  "retrievedAt": "2026-09-19T17:41:33.517750+00:00",
+  "path": "/en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/",
+  "title": "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Scott Sanner (Nov. 8th 2023, 16h​​ Brazil Time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/b8451b1761e1.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 536
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>[C4AI – Perspectives in A.I. Seminar]</strong> Next talk of the Perspectives in AI seminar of the C4AI will host: <strong>Prof. Dr. Scott Sanner,</strong> (Associate Professor in Industrial Engineering and Cross-appointed in Computer Science at the University of Toronto) on<strong> November 8th 2023, 16h </strong>– 17h30​​ Brasilia time (2pm – 3:30pm EST), to talk about<strong> “Symbolic AI 3.0: Rise of the LLMs”.</strong>  (open/free/online event).  <br/><br/><strong>Title: “Symbolic AI 3.0: Rise of the LLMs” (Seminar in English)</strong><br/><strong>Open and Free seminar – Add to your Agenda!</strong><br/>Add to you agenda (google calendar): <a href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M3MyM2cwbm91OWw4NnIzY3F0dW12OTc3ZzEgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br\">https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M3MyM2cwbm91OWw4NnIzY3F0dW12OTc3ZzEgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br</a> </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>C4AI Youtube Channel </strong>: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a> <br/><strong>Seminar Link: </strong><a href=\"https://www.youtube.com/watch?v=ko8YYmiJqX0\">https://www.youtube.com/watch?v=ko8YYmiJqX0</a>   (set reminder)</p>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Perspectives in A.I. Seminar: Prof. Dr. Scott Sanner, to talk about “Symbolic AI 3.0: Rise of the LLMs”"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Abstract:</strong></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Large Language Models (LLMs) such as ChatGPT have emerged as a revolutionary technology for natural language reasoning and numerous related AI applications. I’ll discuss some of my group’s own work on abstract reasoning and interactive conversational systems leveraging LLMs and the game-changing realizations that I have taken away from these investigations. This talk will then discuss some general implications of the LLM era and my conjectures as to how it will shift research foci in the near future and enable levels of user-facing AI deployment that were unthinkable just two years ago.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Brief bio:</strong><br/>Dr. Scott Sanner is an Associate Professor in Industrial Engineering and Cross-appointed in Computer Science at the University of Toronto. Scott’s research focuses on a broad range of AI topics spanning sequential decision-making, (conversational) recommender systems, and applications of machine/deep learning. Scott is currently an Associate Editor for ACM Transactions on Recommender Systems (TORS), the Machine Learning Journal (MLJ), and the Journal of Artificial Intelligence Research (JAIR). Scott was a co-recipient of paper awards from the AI Journal (2014), Transport Research Board (2016), and CPAIOR (2018). He was a recipient of a Google Faculty Research Award in 2020 and a Visiting Researcher at Google while on sabbatical during 2022-23.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>About Dr. Scott Sanner – WebSite: https://www.mie.utoronto.ca/faculty_staff/sanner/ </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>#c4ai #ArtificialIntelligence #AIResearch #LLMs</p>"
+    }
+  ],
+  "description": "[C4AI – Perspectives in A.I. Seminar] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. Dr. Scott Sanner, (Associate Professor in Industrial Engineering and Cross-appo",
+  "dateLabel": "November 6, 2023",
+  "date": "2023-11-06",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Seminars",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 1
+}

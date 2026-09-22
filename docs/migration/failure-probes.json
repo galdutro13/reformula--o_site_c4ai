@@ -1,0 +1,23 @@
+[
+  {
+    "probe": "Página obrigatória ausente",
+    "mutation": ".test-dist/en/about/index.html removido temporariamente",
+    "exit": 1,
+    "detector": "Contrato independente exige HTTP 200; recebeu 404",
+    "restored": true
+  },
+  {
+    "probe": "Link interno quebrado",
+    "mutation": "href do salto em /pt/ aponta temporariamente para /broken-migration-probe/",
+    "exit": 1,
+    "detector": "Percurso de todos os HTML detecta destino HTTP 404",
+    "restored": true
+  },
+  {
+    "probe": "Conteúdo obrigatório removido",
+    "mutation": "Parágrafo da missão da pesquisa substituído temporariamente; esquema continua válido",
+    "exit": 1,
+    "detector": "Fixture independente de texto da fonte acusa trecho obrigatório ausente",
+    "restored": true
+  }
+]

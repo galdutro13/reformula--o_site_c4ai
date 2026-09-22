@@ -1,0 +1,51 @@
+[
+  {
+    "challenge": "oceanml",
+    "locale": "pt",
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "reason": "Contato a confirmar: a fonte apresenta endereço associado a outro grupo.",
+    "action": "Texto original preservado; sem inferência de endereço correto"
+  },
+  {
+    "challenge": "oceanml",
+    "locale": "en",
+    "source": "https://c4ai.inova.usp.br/research_2/",
+    "reason": "Contact to be confirmed: the source shows an address associated with another group.",
+    "action": "Texto original preservado; sem inferência de endereço correto"
+  },
+  {
+    "challenge": "mclimate",
+    "locale": "pt",
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "reason": "Contato a confirmar: a fonte apresenta endereço associado a outro grupo.",
+    "action": "Texto original preservado; sem inferência de endereço correto"
+  },
+  {
+    "challenge": "mclimate",
+    "locale": "en",
+    "source": "https://c4ai.inova.usp.br/research_2/",
+    "reason": "Contact to be confirmed: the source shows an address associated with another group.",
+    "action": "Texto original preservado; sem inferência de endereço correto"
+  },
+  {
+    "challenge": "keml",
+    "locale": "en",
+    "source": "https://c4ai.inova.usp.br/research_2/",
+    "reason": "Contact to be confirmed: the source shows an address associated with another group.",
+    "action": "Texto original preservado; sem inferência de endereço correto"
+  },
+  {
+    "challenge": "ai-health",
+    "locale": "pt",
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "reason": "Contato a confirmar: a fonte apresenta endereço associado a outro grupo.",
+    "action": "Texto original preservado; sem inferência de endereço correto"
+  },
+  {
+    "challenge": "ai-health",
+    "locale": "en",
+    "source": "https://c4ai.inova.usp.br/research_2/",
+    "reason": "Contact to be confirmed: the source shows an address associated with another group.",
+    "action": "Texto original preservado; sem inferência de endereço correto"
+  }
+]

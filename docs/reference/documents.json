@@ -1,0 +1,1683 @@
+[
+  {
+    "requested": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf",
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 25 Aug 2026 18:06:16 GMT",
+    "length": "709069",
+    "source_url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf",
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 25 Aug 2026 18:06:16 GMT",
+    "length": "1403837",
+    "source_url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf",
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 25 Aug 2026 18:06:16 GMT",
+    "length": "7272567",
+    "source_url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf",
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 25 Aug 2026 18:06:16 GMT",
+    "length": "1451778",
+    "source_url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+        "label": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://ceur-ws.org/Vol-3128/paper4.pdf",
+    "final": "https://ceur-ws.org/Vol-3128/paper4.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 25 Apr 2022 12:55:03 GMT",
+    "length": "288168",
+    "source_url": "https://ceur-ws.org/Vol-3128/paper4.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/",
+        "label": "artigo",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/corpus-carolina-nlp-c4ai/",
+        "label": "artigo",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Ingles_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Ingles_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 20 Mar 2023 23:54:21 GMT",
+    "length": "88240",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2 _Ingles_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research_2/",
+        "label": "View NLP2 team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/research-activities-in-the-c4ai/",
+        "label": "View NLP2 team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+        "label": "View NLP2 team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+        "label": "View NLP2 team",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_eng.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_eng.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 27 Mar 2023 14:14:39 GMT",
+    "length": "68195",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL _eng.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research_2/",
+        "label": "View PROINDL team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/research-activities-in-the-c4ai/",
+        "label": "View PROINDL team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+        "label": "View PROINDL team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+        "label": "View PROINDL team",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Ingles_Equipes_modeloC4AI.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Ingles_Equipes_modeloC4AI.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Wed, 08 Feb 2023 19:52:53 GMT",
+    "length": "76127",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Ingles_Equipes_modeloC4AI.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research_2/",
+        "label": "View AI Health team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/research-activities-in-the-c4ai/",
+        "label": "View GOML team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+        "label": "View AI Health team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+        "label": "View GOML team",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Eng_Equipes_C4AI_16_04_24_ex_members.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Eng_Equipes_C4AI_16_04_24_ex_members.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Fri, 19 Apr 2024 00:52:22 GMT",
+    "length": "85726",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Eng_Equipes_C4AI_16_04_24_ex_members.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research_2/",
+        "label": "See the KEML former members",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+        "label": "See the KEML former members",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Eng_.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Eng_.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 23 May 2024 13:14:39 GMT",
+    "length": "76501",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Eng_.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research_2/",
+        "label": "View MClimate team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+        "label": "View MClimate team",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Ingles_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Ingles_Equipes_modeloC4AI_23.pdf",
+    "status": 404,
+    "type": "text/html; charset=UTF-8",
+    "error": "HTTP Error 404: Not Found",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Ingles_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research_2/",
+        "label": "View AgriBio team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/research-activities-in-the-c4ai/",
+        "label": "View AgriBio team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+        "label": "View AgriBio team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+        "label": "View AgriBio team",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Eng__ex_members_24.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Eng__ex_members_24.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 23 May 2024 13:24:47 GMT",
+    "length": "76080",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Eng__ex_members_24.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research_2/",
+        "label": "See the AgriBio former members",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+        "label": "See the AgriBio former members",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Ingles_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Ingles_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 25 Apr 2023 17:34:11 GMT",
+    "length": "77673",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML _Ingles_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research-activities-in-the-c4ai/",
+        "label": "View KEML team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+        "label": "View KEML team",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/Al%20Humanity_Ingles_Equipes_modeloC4AI_22.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/Al%20Humanity_Ingles_Equipes_modeloC4AI_22.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Wed, 08 Feb 2023 12:08:31 GMT",
+    "length": "70913",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/Al%20Humanity_Ingles_Equipes_modeloC4AI_22.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/research-activities-in-the-c4ai/",
+        "label": "View AL HUMANITY team",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+        "label": "View AL HUMANITY team",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF21PESQ001_eng.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF21PESQ001_eng.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 20:57:45 GMT",
+    "length": "124524",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF21PESQ001_eng.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22TT4-003_eng.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22TT4-003_eng.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 21:44:43 GMT",
+    "length": "134340",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22TT4-003_eng.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22PDR001_eng.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22PDR001_eng.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 21:28:06 GMT",
+    "length": "132646",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22PDR001_eng.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22PHD002_eng.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22PHD002_eng.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 21:36:47 GMT",
+    "length": "141988",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF22PHD002_eng.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/cid/edital/EDITAL_IC_2022_2023.pdf",
+    "final": "https://c4ai.inova.usp.br/cid/edital/EDITAL_IC_2022_2023.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Sun, 30 Oct 2022 12:59:02 GMT",
+    "length": "77067",
+    "source_url": "https://c4ai.inova.usp.br/cid/edital/EDITAL_IC_2022_2023.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23TT4-004.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23TT4-004.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 19 Sep 2023 16:55:52 GMT",
+    "length": "141041",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23TT4-004.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF%2023TT4-005.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF%2023TT4-005.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 07 Dec 2023 19:21:41 GMT",
+    "length": "151136",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF%2023TT4-005.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF%2023TT4-006.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF%2023TT4-006.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 07 Dec 2023 19:21:43 GMT",
+    "length": "146845",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF%2023TT4-006.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23PESQ-003_eng.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23PESQ-003_eng.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 30 Sep 2024 18:25:58 GMT",
+    "length": "140755",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23PESQ-003_eng.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23TT4-007_eng.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23TT4-007_eng.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 30 Sep 2024 18:25:58 GMT",
+    "length": "137322",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/positions/REF23TT4-007_eng.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+        "label": "Click here for details",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://aclanthology.org/2020.emnlp-main.123.pdf",
+    "final": "https://aclanthology.org/2020.emnlp-main.123.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Wed, 11 Nov 2020 21:31:34 GMT",
+    "length": "361281",
+    "source_url": "https://aclanthology.org/2020.emnlp-main.123.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "https://aclanthology.org/2020.emnlp-main.123.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "https://aclanthology.org/2020.emnlp-main.123.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "https://aclanthology.org/2020.emnlp-main.123.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "https://aclanthology.org/2020.emnlp-main.123.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.715.pdf",
+    "final": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.715.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 13 Jun 2022 16:05:23 GMT",
+    "length": "325724",
+    "source_url": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.715.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.715.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.715.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.715.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.715.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.407.pdf",
+    "final": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.407.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 13 Jun 2022 16:04:00 GMT",
+    "length": "188853",
+    "source_url": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.407.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.407.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.407.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.407.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.407.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://webnlg-challenge.loria.fr/files/2020.webnlg-papers.14.pdf",
+    "final": null,
+    "status": null,
+    "type": "",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>",
+    "source_url": "https://webnlg-challenge.loria.fr/files/2020.webnlg-papers.14.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "https://webnlg-challenge.loria.fr/files/2020.webnlg-papers.14.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "https://webnlg-challenge.loria.fr/files/2020.webnlg-papers.14.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "https://webnlg-challenge.loria.fr/files/2020.webnlg-papers.14.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "https://webnlg-challenge.loria.fr/files/2020.webnlg-papers.14.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://aclanthology.org/2020.msr-1.6.pdf",
+    "final": "https://aclanthology.org/2020.msr-1.6.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 30 Nov 2020 02:26:58 GMT",
+    "length": "282159",
+    "source_url": "https://aclanthology.org/2020.msr-1.6.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "https://aclanthology.org/2020.msr-1.6.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "https://aclanthology.org/2020.msr-1.6.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "https://aclanthology.org/2020.msr-1.6.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "https://aclanthology.org/2020.msr-1.6.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://wiki.rnp.br/pages/viewpage.action?pageid=155661847&preview=/155661847/172139645/relatorio_marco_4_final.pdf",
+    "final": null,
+    "status": null,
+    "type": "",
+    "error": "<urlopen error timed out>",
+    "source_url": "https://wiki.rnp.br/pages/viewpage.action?pageid=155661847&preview=/155661847/172139645/relatorio_marco_4_final.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "https://wiki.rnp.br/pages/viewpage.action?pageid=155661847&preview=/155661847/172139645/relatorio_marco_4_final.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "https://wiki.rnp.br/pages/viewpage.action?pageid=155661847&preview=/155661847/172139645/relatorio_marco_4_final.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "https://wiki.rnp.br/pages/viewpage.action?pageid=155661847&preview=/155661847/172139645/relatorio_marco_4_final.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "https://wiki.rnp.br/pages/viewpage.action?pageid=155661847&preview=/155661847/172139645/relatorio_marco_4_final.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "action",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://congress.cimne.com/cmn2022/doc/ebook_cmn_2022.pdf",
+    "final": "https://congress.cimne.com/cmn2022/doc/ebook_cmn_2022.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 12 Sep 2022 08:18:58 GMT",
+    "length": "36878716",
+    "source_url": "https://congress.cimne.com/cmn2022/doc/ebook_cmn_2022.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "https://congress.cimne.com/cmn2022/doc/ebook_cmn_2022.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "https://congress.cimne.com/cmn2022/doc/ebook_cmn_2022.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "https://congress.cimne.com/cmn2022/doc/ebook_cmn_2022.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "https://congress.cimne.com/cmn2022/doc/ebook_cmn_2022.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://http://ceur-ws.org/vol-3235/paper26.pdf",
+    "final": null,
+    "status": null,
+    "type": "",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "source_url": "https://http://ceur-ws.org/vol-3235/paper26.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/publications/",
+        "label": "https://http://ceur-ws.org/vol-3235/paper26.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/publicacoes/",
+        "label": "https://http://ceur-ws.org/vol-3235/paper26.pdf",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+        "label": "https://http://ceur-ws.org/vol-3235/paper26.pdf",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+        "label": "https://http://ceur-ws.org/vol-3235/paper26.pdf",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 20 Mar 2023 23:54:21 GMT",
+    "length": "88218",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2 _Portugues_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe NLP2",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe NLP2",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 27 Mar 2023 14:14:39 GMT",
+    "length": "68248",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL _port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe PROINDL",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe PROINDL",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 25 Apr 2023 17:34:11 GMT",
+    "length": "77723",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML _Portugues_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe KEML",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe KEML",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Portugues_Equipes_modeloC4AI.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Portugues_Equipes_modeloC4AI.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Wed, 08 Feb 2023 19:52:53 GMT",
+    "length": "76274",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Portugues_Equipes_modeloC4AI.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe GOML",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Clique para ver a equipe AI Health",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe GOML",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Clique para ver a equipe AI Health",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Portugues_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Portugues_Equipes_modeloC4AI_23.pdf",
+    "status": 404,
+    "type": "text/html; charset=UTF-8",
+    "error": "HTTP Error 404: Not Found",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Portugues_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe AgriBio",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe AgriBio",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/Al%20Humanity_Portugues_Equipes_modeloC4AI_22.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/Al%20Humanity_Portugues_Equipes_modeloC4AI_22.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Wed, 08 Feb 2023 12:08:31 GMT",
+    "length": "70702",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/Al%20Humanity_Portugues_Equipes_modeloC4AI_22.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe AL HUMANITY",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas/",
+        "label": "Clique para ver a equipe AL HUMANITY",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF21PESQ001_port.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF21PESQ001_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 20:57:52 GMT",
+    "length": "171018",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF21PESQ001_port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22TT4-003_port.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22TT4-003_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 21:44:47 GMT",
+    "length": "136154",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22TT4-003_port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22PDR001_port.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22PDR001_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 21:28:14 GMT",
+    "length": "132585",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22PDR001_port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22PHD002_port.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22PHD002_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 14 Jul 2022 21:36:43 GMT",
+    "length": "142144",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF22PHD002_port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23TT4-004.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23TT4-004.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 19 Sep 2023 16:55:48 GMT",
+    "length": "141041",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23TT4-004.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF%2023TT4-005.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF%2023TT4-005.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 07 Dec 2023 19:21:28 GMT",
+    "length": "151136",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF%2023TT4-005.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF%2023TT4-006.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF%2023TT4-006.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 07 Dec 2023 19:21:31 GMT",
+    "length": "146845",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF%2023TT4-006.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23PESQ-003_port.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23PESQ-003_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 30 Sep 2024 18:12:14 GMT",
+    "length": "144034",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23PESQ-003_port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23TT4-007_port.pdf",
+    "final": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23TT4-007_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 30 Sep 2024 18:12:14 GMT",
+    "length": "138192",
+    "source_url": "https://c4ai.inova.usp.br/oportunidades-repositorio/posicoes/REF23TT4-007_port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+        "label": "Clique aqui para ver os detalhes",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 20 Mar 2023 23:54:21 GMT",
+    "length": "88218",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Clique para ver a equipe NLP2",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Clique para ver a equipe NLP2",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 27 Mar 2023 14:14:39 GMT",
+    "length": "68248",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Clique para ver a equipe PROINDL",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Clique para ver a equipe PROINDL",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Tue, 25 Apr 2023 17:34:11 GMT",
+    "length": "77723",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Veja a equipe KEML",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Veja a equipe KEML",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Port_Equipes_C4AI_16_04_24_ex_membros.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Port_Equipes_C4AI_16_04_24_ex_membros.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Fri, 19 Apr 2024 00:52:22 GMT",
+    "length": "79407",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Port_Equipes_C4AI_16_04_24_ex_membros.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Veja os ex-membros da KEML",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Veja os ex-membros da KEML",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Port_.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Port_.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 23 May 2024 13:14:39 GMT",
+    "length": "76782",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Port_.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Veja a equipe MClimate",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Veja a equipe MClimate",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port_24.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port_24.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 23 May 2024 13:14:38 GMT",
+    "length": "90306",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port_24.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Veja a equipe AgriBio",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Veja a equipe AgriBio",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port__ex_members_24.pdf",
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port__ex_members_24.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Thu, 23 May 2024 13:24:47 GMT",
+    "length": "76341",
+    "source_url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port__ex_members_24.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+        "label": "Veja os ex-membros da AgriBio",
+        "context_lang": "pt-BR"
+      },
+      {
+        "page": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+        "label": "Veja os ex-membros da AgriBio",
+        "context_lang": "pt-BR"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/BRACIS-2021-Registration-Information.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/BRACIS-2021-Registration-Information.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:43 GMT",
+    "length": "576034",
+    "source_url": "https://c4ai.inova.usp.br/bracis/BRACIS-2021-Registration-Information.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "Registration",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "Information",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "Registration",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "Information",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/index.php/about-us/",
+        "label": "Information",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/Programa%20BRACIS%20ENIAC%20STIL%20KDD%20Web.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/Programa%20BRACIS%20ENIAC%20STIL%20KDD%20Web.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:42 GMT",
+    "length": "1392447",
+    "source_url": "https://c4ai.inova.usp.br/bracis/Programa%20BRACIS%20ENIAC%20STIL%20KDD%20Web.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "Click here to know the program",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "Click here to know the program",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/index.php/about-us/",
+        "label": "Click here to know the program",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/speakers/Levi-Lelis2.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/speakers/Levi-Lelis2.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:45 GMT",
+    "length": "178686",
+    "source_url": "https://c4ai.inova.usp.br/bracis/speakers/Levi-Lelis2.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "see more",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "see more",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/speakers/Rodrigo-Barros2.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/speakers/Rodrigo-Barros2.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:46 GMT",
+    "length": "115765",
+    "source_url": "https://c4ai.inova.usp.br/bracis/speakers/Rodrigo-Barros2.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "see more",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "see more",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/speakers/Lucia-Specia.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/speakers/Lucia-Specia.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:46 GMT",
+    "length": "160373",
+    "source_url": "https://c4ai.inova.usp.br/bracis/speakers/Lucia-Specia.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "see more",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "see more",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/speakers/Mausam.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/speakers/Mausam.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:46 GMT",
+    "length": "139807",
+    "source_url": "https://c4ai.inova.usp.br/bracis/speakers/Mausam.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "see more",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "see more",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/speakers/Gabriela-Ochoa.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/speakers/Gabriela-Ochoa.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:45 GMT",
+    "length": "212896",
+    "source_url": "https://c4ai.inova.usp.br/bracis/speakers/Gabriela-Ochoa.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/",
+        "label": "see more",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021",
+        "label": "see more",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/BRACIS-2021-CFPv3.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/BRACIS-2021-CFPv3.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:42 GMT",
+    "length": "331408",
+    "source_url": "https://c4ai.inova.usp.br/bracis/BRACIS-2021-CFPv3.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/index.php/about-us/",
+        "label": "",
+        "context_lang": "en-US"
+      },
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/index.php/eniac/",
+        "label": "Call for Papers in PDF Download",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/List-of-Accepted-Papers-BRACIS-2021.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/List-of-Accepted-Papers-BRACIS-2021.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:37 GMT",
+    "length": "189121",
+    "source_url": "https://c4ai.inova.usp.br/bracis/List-of-Accepted-Papers-BRACIS-2021.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/index.php/about-us/",
+        "label": "Click here to see the list of Accepted Papers, BRACIS 2021",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/bracis/ENIAC-2021-List-of-Accepted-Papers.pdf",
+    "final": "https://c4ai.inova.usp.br/bracis/ENIAC-2021-List-of-Accepted-Papers.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "last_modified": "Mon, 14 Mar 2022 22:27:37 GMT",
+    "length": "431547",
+    "source_url": "https://c4ai.inova.usp.br/bracis/ENIAC-2021-List-of-Accepted-Papers.pdf",
+    "uses": [
+      {
+        "page": "https://c4ai.inova.usp.br/bracis2021/index.php/eniac/",
+        "label": "https://c4ai.inova.usp.br/bracis/ENIAC-2021-List-of-Accepted-Papers.pdf",
+        "context_lang": "en-US"
+      }
+    ],
+    "format": "pdf",
+    "language": "Não verificado no arquivo; context_lang registra idioma da página, não do documento",
+    "availability_method": "HEAD; 200 indica resposta, não revisão do conteúdo ou direitos"
+  }
+]

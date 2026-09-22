@@ -1,0 +1,60 @@
+{
+  "id": "c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models",
+  "kind": "article",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+  "retrievedAt": "2026-09-19T17:41:41.299762+00:00",
+  "path": "/pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+  "title": "C4AI – Seminário: “Perspectivas in AI” – Dr. Luis Lamb (Feb. 24 18h Brazil time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/7ae48ad50277.jpg",
+      "alt": "",
+      "width": null,
+      "height": null
+    },
+    {
+      "type": "html",
+      "html": "C4AI Perspectives in AI Seminar – Dr. Luis Lamb"
+    },
+    {
+      "type": "html",
+      "html": "<p>O Centro de I.A. da USP (C4AI) está organizando mais um <strong>“C4AI Perspectives in AI Seminar</strong>“.  O seminário é aberto/gratuíto/online e será nesta próxima quinta-feira 24/02/2022 às 17h00 (Brasil Standard Time – BRT), apresentado pelo <strong>Dr. Luis Lamb</strong> (Full Professor of Computer Science UFRGS and MIT Sloan Visiting Fellow). Transmitido no canal do Youtube do C4AI: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a><br/><strong>Título: “Neurosymbolic AI: Building Robust AI Models”</strong>   (Seminário em Inglês)<br/><strong>Aberto/Gratuito – Adicione em sua Agenda! “Set Reminder”!</strong></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>C4AI Youtube Channel</strong>: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a> <br/><strong>Seminar Link</strong>: <a href=\"https://www.youtube.com/watch?v=7a7vslr1q2w\">https://www.youtube.com/watch?v=7a7vslr1q2w</a> </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Abstract:</strong> This talk will be about the Luis Lamb main research interests that are: Machine Learning and Reasoning, Neuro-Symbolic Computing, Logic in Computation and Artificial Intelligence, Cognitive and Neural Computation. Luis recently released a paper on “Neurosymbolic AI: the third wave”. It beautifully articulated the key ingredients needed in the next generation of AI systems, integrating AI approaches, and it summarizes all the achievements of the last 20 years of research. We invite everyone to this talk that presents the past, present and future in Neuro-Symbolic AI Systems.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Short Bio:</strong> Luis C. Lamb is a Full Professor at UFRGS, at present, MIT Sloan Visiting Fellow and former Secretary of Innovation, Science and Technology of the State of Rio Grande do Sul, Brazil. He was formerly Vice President for Research (2016-2018) and Dean of the Institute of Informatics (2011-2016) at the Federal University of Rio Grande do Sul (UFRGS), Brazil. He holds both the Ph.D. in Computer Science from Imperial College London (2000) and the Diploma of the Imperial College, MSc by research (1995) and BSc in Computer Science (1992) from UFRGS, Brazil. His research interest includes neural-symbolic computing, the integration of learning and reasoning, and ethics in AI. He co-authored two research monographs: Neural-Symbolic Cognitive Reasoning, with Garcez and Gabbay (Springer, 2009) and Compiled Labelled Deductive Systems, with Broda, Gabbay, and Russo (IoP, 2004). His research has led to publications at flagship journals, AI and neural computation conferences. He was co-organizer of two Dagstuhl Seminars on Neuro-symbolic AI: the Dagstuhl Seminar 14381: Neural-Symbolic Learning and Reasoning (2014) and Dagstuhl Seminar 17192: Human-Like Neural-Symbolic Computing (2017) and several workshops on neural-symbolic learning and reasoning at AAAI and IJCAI. </p>"
+    }
+  ],
+  "description": "O Centro de I.A. da USP (C4AI) está organizando mais um “C4AI Perspectives in AI Seminar “. O seminário é aberto/gratuíto/online e será nesta próxima quinta-feira 24/02/2022 às 17h00 (Brasil",
+  "dateLabel": "fevereiro 27, 2022",
+  "date": "2022-02-27",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/fosorio/",
+  "categories": [
+    {
+      "label": "Eventos",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/eventos/"
+    },
+    {
+      "label": "Notícias",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+    },
+    {
+      "label": "Seminários",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/seminarios/"
+    }
+  ],
+  "image": "",
+  "translationId": "luis-lamb-2022",
+  "sourceOrder": 99
+}

@@ -1,0 +1,108 @@
+{
+  "id": "c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias",
+  "kind": "article",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+  "retrievedAt": "2026-09-19T17:41:57.259175+00:00",
+  "path": "/pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+  "title": "C4AI da USP desenvolve técnicas que aprimoram previsão de condições oceânicas em áreas portuárias",
+  "blocks": [
+    {
+      "type": "html",
+      "html": "<p><em>Capaz de aumentar em 20% a confiabilidade das estimativas, tecnologia já está sendo testada no Porto de Santos</em></p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/dd2eaeb41443.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 577
+    },
+    {
+      "type": "html",
+      "html": "Foto: Canva"
+    },
+    {
+      "type": "html",
+      "html": "<p>O comportamento do oceano influencia diretamente a vida humana. As cidades costeiras, em especial, são ainda mais impactadas. Em Santos, litoral de São Paulo, por exemplo, a influência é constante. Fenômenos como ressacas, em que a água chega até o nível das avenidas, assolam frequentemente a população. Os efeitos das mudanças climáticas somados ao comportamento do mar afetam o porto da cidade, considerado o principal do Brasil e uma importante porta de entrada para o comércio internacional no País. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Por essa razão, prever o comportamento do oceano torna-se fundamental para otimizar a operação do porto. Saber, por exemplo, quais navios poderão entrar ou sair de acordo com as condições de maré, neblina e vento adequadas para as manobras são fatores imprescindíveis para o bom funcionamento do local. Diante desse contexto, cientistas do Centro de Inteligência Artificial (<em>Center for Artificial Intelligence – C4AI</em>) da USP desenvolveram novos algoritmos – códigos de computador que executam determinada tarefa – capazes de prever condições meteorológicas e oceânicas com uma precisão 20% maior em comparação aos métodos convencionais. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>“A previsão é feita da seguinte forma: nós ensinamos para a inteligência artificial o que aconteceu em séries históricas de fenômenos climáticos. A máquina, então, aprende as consequências de determinadas ocorrências – chuvas intensas, temperaturas mais altas, etc -, e passa a prever os desdobramentos de cada condição, auxiliando na tomada de decisão mais rápida e precisa”, explica Marlon Sproesser Mathias, pesquisador do Instituto de Estudos Avançados (IEA) da USP e membro do C4AI.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Os dados utilizados para as estimativas são obtidos por meio de informações meteorológicas e de sensores que são instalados em diversas partes do oceano, tanto em canais de navegação como em alto mar. “Nos dias atuais, as previsões oceânicas e meteorológicas de ventos, correntes, ondas, neblinas e das marés estão cada vez melhores, mas há ainda espaço para o aumento dos níveis de agilidade e confiabilidade. Uma melhor previsibilidade permite que o porto tenha mais segurança, tarifas menores, menos tempo de espera e uma logística mais eficiente”, afirma o professor da Escola Politécnica (Poli) da USP e também membro do C4AI, Eduardo Aoun Tannuri.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Com um sistema de previsão confiável, também é possível promover ações portuárias mais sustentáveis. Isso porque medidas como a dragagem – remoção de partes do fundo do mar a fim de torná-lo mais fundo para receber navios de grande porte – podem ser otimizadas e ter seus impactos ambientais reduzidos. Aproveitando a abundância de informações e ampliando o conhecimento a respeito do que deve ser feito a partir das análises do sistema, a capacidade de atendimento de um porto pode ser estendida com menor dano ao meio ambiente. “Podemos aumentar o calado (parte submersa do navio) com menor dragagem e impacto ambiental, aumentando a capacidade de operação do porto”, completa o docente.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>A fusão da Física com a IA</strong> – Em meio a tantas informações obtidas por meio de sensores e de outras fontes, realizar estimativas e previsões pelos métodos tradicionais –  utilizando apenas modelos físicos – é difícil e demorado. Por isso, os pesquisadores decidiram unir duas áreas do conhecimento: a Inteligência Artificial e a Física, promovendo a fusão do <em>machine learnin</em>g com a engenharia costeira e a oceanografia. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>“Se chover muito em um canal, por exemplo, nós sabemos que essa situação vai acarretar no aumento da corrente rio abaixo, isso é uma relação física. Porém, a inteligência artificial leva certo tempo para aprender esse cenário, pois ela precisa que aquilo aconteça muitas vezes para que esta correlação fique clara; por isso, no caso de um evento ainda não ocorrido ou mais extremo, a máquina não terá essa compreensão, o que se torna ainda mais relevante em um cenário com mudanças climáticas cada vez mais intensas. Ao adicionarmos conhecimento físico ao modelo de IA, ele consegue se adaptar melhor a diferentes cenários, pois terá a informação do que é fisicamente possível. Vai além de uma modelagem com dados ou de uma simulação física, tentamos unir o melhor dessas duas abordagens.”, explica Marlon.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Em termos internacionais, já existem sistemas automáticos de monitoramento ambiental. No entanto, a proposta de utilizar a fusão dos fenômenos físicos com o aprendizado de máquina para previsões oceânicas em áreas portuárias é inédita, diferenciando-se de análises que já são realizadas com o modelo em outros locais, como em represas. Isso faz com que as pesquisas do C4AI, que é financiado pela Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) em parceria com a IBM, estejam na fronteira do conhecimento.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Unindo a física com os dados históricos, as previsões nos portos de Santos e de Paranaguá, no Paraná, onde o método do C4AI tem sido testado, melhoraram consideravelmente. A previsibilidade se tornou mais rápida e confiável, permitindo que, em um futuro próximo, testes em escalas maiores sejam realizados tanto nestes como em outros locais, já que o modelo pode ser aplicado em qualquer porto. Com cada vez mais informações, sensores, sistemas e um tratamento de dados intenso, a tendência é de que as estimativas se tornem ainda mais ágeis e precisas. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Confira, abaixo, alguns artigos científicos já publicados ou apresentados pela equipe do C4AI envolvida no trabalho: </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Artigo 1 – <a href=\"https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf\">https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf</a> </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Artigo 2 – <a href=\"https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf\">https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf</a></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Artigo 3 – <a href=\"https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf\">https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf</a> </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Artigo 4 – <a href=\"https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf\">https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf</a> </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><em>Por Fabrício Santos e Henrique Fontes, para o C4AI</em></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Contato para esta pauta</strong><br/>Assessoria de Comunicação do C4AI<br/>E-mail: fontesccientifica@gmail.com<br/>Telefone: (16) 9 9727-2257 – Whatsapp exclusivo para atendimento à imprensa, com Henrique Fontes</p>"
+    }
+  ],
+  "description": "Capaz de aumentar em 20% a confiabilidade das estimativas, tecnologia já está sendo testada no Porto de Santos",
+  "dateLabel": "outubro 6, 2022",
+  "date": "2022-10-06",
+  "author": "Henrique Fontes",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/henrique/",
+  "categories": [
+    {
+      "label": "Imprensa",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/"
+    },
+    {
+      "label": "Notícias",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 4
+}

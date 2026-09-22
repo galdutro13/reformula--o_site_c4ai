@@ -1,0 +1,84 @@
+{
+  "id": "c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time",
+  "kind": "article",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/",
+  "retrievedAt": "2026-09-19T17:41:24.853961+00:00",
+  "path": "/en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/",
+  "title": "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Irina Rish (August 31th 2022 – 17h-18h30 Brazil Time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/436c162686e7.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 536
+    },
+    {
+      "type": "html",
+      "html": "<p>[ <strong>C4AI – Perspectives in AI Seminar</strong> ]</p>"
+    },
+    {
+      "type": "html",
+      "html": "&gt;&gt;&gt; Seminar Postponed / Seminário Adiado &lt;&lt;&lt;"
+    },
+    {
+      "type": "html",
+      "html": "Sorry: We regret to inform that… Due to unexpected problems, the"
+    },
+    {
+      "type": "html",
+      "html": "Perspective in AI Seminar"
+    },
+    {
+      "type": "html",
+      "html": "with Dr. Irina Rish"
+    },
+    {
+      "type": "html",
+      "html": "was postponed"
+    },
+    {
+      "type": "html",
+      "html": ". As soon as possible, we will inform the new scheduled date for this seminar."
+    },
+    {
+      "type": "html",
+      "html": "C4AI – Center for A.I. – USP+IBM+FAPESP."
+    },
+    {
+      "type": "html",
+      "html": "<p>————————————————</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>C4AI will host Prof. <strong>Dr. Irina Rish</strong> (Associate Professor, Université de Montréal and MILA Research Institute in AI) on <strong>POSTPONED</strong> <strong>August 31th, 17h  – 18h30​​ Brasilia time (4pm – 5:30pm EST)</strong>, to talk about “<strong>Towards General and Robust AI at Scale</strong>“.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Seminar:  <strong>Towards General and Robust AI at Scale by Dr. Irina Rish – August 31, 2022 – 5pm (Brazil)</strong><br/>Add to your agenda (link):  Google Calendar / Agenda<br/><strong>Youtube</strong> Event Link: (To be Announced)<br/><strong>C4AI Youtube Channel:</strong> <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a> <br/><strong>OPEN/FREE/ONLINE Event</strong> (in English) – Add to your Agenda! <strong>Set Reminder</strong>!<br/><br/>#c4ai #artificialintelligence #AIResearch #ExplainableAI #XAI #MachineLearning<br/><br/>Dr.  Irina Rish  – Website: <a href=\"https://irina-rish.com/\">https://irina-rish.com/</a><br/><br/><strong>Abstract</strong>: Modern AI systems have achieved impressive results in many specific domains, from image and speech recognition to natural language processing and mastering complex games such as chess and Go. However, they often remain inflexible, fragile and narrow, unable to continually adapt to a wide range of changing environments and novel tasks without “catastrophically forgetting” what they have learned before, to infer higher-order abstractions allowing for systematic generalization to out-of-distribution data, and to achieve the level of robustness necessary to “survive” various perturbations in their environment – a natural property of most biological intelligent systems, and a necessary property for successfully deploying AI systems in real-life applications. In this talk, I will provide a brief overview of our recent efforts towards making AI more broad (i.e., general/versatile) and more robust, focusing on continual learning, invariance and adversarial robustness. I will also emphasize the importance of developing an empirical science of AI behaviors, and focus on rapidly expanding field of neural scaling laws, which allow us to better compare and extrapolate behavior of various algorithms and models with increasing amounts of data, model size and computational resources. <br/><br/> <strong>Biography</strong>: Irina Rish is an Associate Professor at the Université de Montréal (UdeM) and a core faculty member of MILA – Quebec AI Institute. She holds Canada Excellence Research Chair (CERC) in Autonomous AI and a CIFAR Canada AI Chair. She received her MSc and PhD in AI from University of California, Irvine and MSc in Applied Mathematics from Moscow Gubkin Institute. Dr. Rish’s research focus is on machine learning, neural data analysis and neuroscience-inspired AI. Before joining UdeM and MILA in 2019, Irina was a research scientist at the IBM T.J. Watson Research Center. She received multiple IBM awards, including IBM Eminence &amp; Excellence Award and IBM Outstanding Innovation Award in 2018, IBM Outstanding Technical Achievement Award in 2017, and IBM Research Accomplishment Award in 2009. Dr. Rish holds 64 patents, has published over 80 research papers in peer-reviewed conferences and journals, several book chapters, three edited books, and a monograph on Sparse Modeling.</p>"
+    }
+  ],
+  "description": "[ C4AI – Perspectives in AI Seminar ]",
+  "dateLabel": "August 29, 2022",
+  "date": "2022-08-29",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Seminars",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 99
+}

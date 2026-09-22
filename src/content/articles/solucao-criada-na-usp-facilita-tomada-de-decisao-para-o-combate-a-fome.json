@@ -1,0 +1,98 @@
+{
+  "id": "solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome",
+  "kind": "article",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+  "retrievedAt": "2026-09-19T17:41:41.572400+00:00",
+  "path": "/pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+  "title": "Solução criada na USP facilita tomada de decisão para o combate à fome",
+  "blocks": [
+    {
+      "type": "html",
+      "html": "<p><em>Tecnologia poderá ser importante ferramenta para ajudar na construção de políticas públicas mais eficazes contra a insegurança alimentar</em></p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/78c64c598ef2.jpg",
+      "alt": "",
+      "width": 870,
+      "height": 456
+    },
+    {
+      "type": "html",
+      "html": "Projeto da USP pretende auxiliar autoridades no enfrentamento da fome. Foto: Canva"
+    },
+    {
+      "type": "html",
+      "html": "<p>Uma solução inédita que utiliza Inteligência Artificial poderá contribuir para o combate de um dos maiores problemas enfrentados no Brasil atualmente: a fome. Por meio da análise e interpretação de informações de centenas de bancos de dados diferentes, novos algoritmos desenvolvidos por pesquisadores do <a href=\"/en/\">Centro de Inteligência Artificial (C4AI)</a> da USP são capazes de identificar quais regiões de uma determinada cidade carecem de infraestrutura e de opções adequadas para o fornecimento de alimentos. A inovação busca mostrar onde o poder público, uma empresa ou outro tipo de organização deve agir para tomar decisões mais precisas e eficientes para enfrentar a insegurança alimentar.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Um dos protótipos criados pelos pesquisadores foi pensado para identificar regiões mais suscetíveis à fome na cidade de São Paulo, com base em demandas de dois Grupos Interinstitucionais que atuam no município com foco em ações e políticas para melhorar a qualidade da alimentação. Nesse caso, o solução tem sido alimentada com dados abertos do Governo Federal, do Instituto Brasileiro de Geografia e Estatística (IBGE), da Companhia Nacional de Abastecimento (Conab), além de informações relacionadas à Indústria de Alimentos, como o número de estabelecimentos que vendem comida por região – sejam feiras livres, mercados ou lanchonetes. “A integralização de informações diversas e espalhadas ainda é um problema no Brasil, também por causa do tamanho do território. Há muitos bancos de dados separados. Em países menores e mais ricos é muito mais fácil juntá- los, mas nós estamos buscando integrar mais de 100 bases de dados. Agora, com a nossa solução que cruza as informações de forma automática, a Inteligência Artificial apresenta as localidades mais críticas e diversos outros tipos de análises”, ressalta o professor Alexandre Delbem, docente do Instituto de Ciências Matemáticas e de Computação (ICMC) da USP, em São Carlos, e pesquisador do C4AI, que é financiado pela IBM e pela Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP).</p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/3b00c364f268.jpg",
+      "alt": "",
+      "width": 726,
+      "height": 381
+    },
+    {
+      "type": "html",
+      "html": "Software identifica quais os bairros em situação mais crítica com base em dados sobre o número de feiras, supermercados, restaurantes, moradores, entre outras informações de determinada localidade. Foto: Alexandre Delbem"
+    },
+    {
+      "type": "html",
+      "html": "<p>O professor, que criou a nova tecnologia em apenas 11 dias, ressalta que ela pode mapear múltiplas áreas e se moldar de forma autônoma a diferentes tipos de informações: “Ela se adapta aos dados que possui e descobre, sozinha, como pode cruzar aqueles que se complementam, mesmo que sejam poucos, e tirar o melhor proveito para contribuir com a tomada de decisão. Basta colocar informações cruas, sem tratamento, que a Inteligência Artificial interpreta e apresenta resultados e previsões em relatórios, planilhas, gráficos ou mapas”, explica. Como a tecnologia pode ser adaptada para trabalhar com qualquer tipo de dado, a Inteligência Artificial ainda pode reunir informações sobre mudanças climáticas e prever possíveis desabastecimentos na agricultura, além de ajudar a driblar a seca durante um período de estiagem. “O agricultor poderia se preparar para isso com antecedência. Cada tomador de decisão vai analisar os aspectos de interesse. A solução poderia ser abastecida com qualquer outro tipo de dado”, esclarece Alexandre. A inovação pode facilitar ainda a comunicação entre profissionais de áreas distintas, já que a tecnologia consegue juntar dados de diferentes áreas sobre o mesmo objeto. “Ela conecta as informações e apresenta dados confiáveis para a tomada de decisão. Os gestores vão poder dialogar. Isso pode ajudar as prefeituras fazendo com que secretários de diferentes áreas tomem decisões juntos”, descreve o cientista.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Segundo o professor da Escola Politécnica da USP e pesquisador do C4AI, Antonio Mauro Saraiva, o caso da fome é um problema de muitas dimensões e, por isso, a integração dos dados é fundamental para sua solução. “Tem fome por falta de alimento, fome de quantidade, fome de qualidade, fome por falta de acesso, por falta de nutrientes, fome porque não teve produção naquele ano. É um problema real e muito grave que precisamos resolver de forma concreta. As informações de cada uma dessas áreas estão em bancos diferentes. São dados geográficos, sanitários, médicos e cada um deles representa um mundo distinto. A integração dessas informações era um obstáculo enorme, mas que estamos resolvendo”, observa o especialista, que já atuou como assessor técnico da Organização das Nações Unidas (ONU) e trabalha na criação de soluções para o setor agrícola utilizando Tecnologias de Informação e Comunicação.</p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/dad3a3da5e8f.jpg",
+      "alt": "",
+      "width": 745,
+      "height": 391
+    },
+    {
+      "type": "html",
+      "html": "Inteligência Artificial pode reunir informações sobre mudanças climáticas e prever possíveis desabastecimentos na agricultura. Foto: Alexandre Delbem"
+    },
+    {
+      "type": "html",
+      "html": "<p>No país, a situação é grave, ainda mais com o aumento da pobreza. De acordo com o Inquérito Nacional sobre Insegurança Alimentar no contexto da pandemia da Covid-19 no Brasil, desenvolvido e divulgado em 2021 pela Rede Brasileira de Pesquisa em Soberania e Segurança Alimentar e Nutricional, 19 milhões de pessoas estavam sem fazer refeições durante um dia ou mais, na época em que o estudo foi realizado. “É muita gente com fome, com problemas alimentares e de saúde. O país é diverso e desigual, por isso é complicado pensar no geral. Se não tivermos informações detalhadas fica muito difícil tomar decisões corretas. Estamos contribuindo para tentar achar um caminho. Esse é um grande desafio, mas a tecnologia pode ajudar muito. Tendo acesso a dados confiáveis, é possível analisar, ver o que efetivamente acontece, articular e manter diálogo com tomadores de decisão”, afirma Alexandre.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Criado a partir de uma demanda da própria Reitoria da USP, por meio do Grupo de Trabalho sobre Políticas Públicas de Combate à Fome e Insegurança Alimentar, o projeto interdisciplinar para a criação da nova tecnologia é fruto de diferentes parcerias. “Temos pesquisadores das áreas de ciências sociais, agricultura, nutrição, economia, engenharia da computação, dentre outros. Estamos trabalhando com diversos Institutos dentro da USP, como o Instituto de Estudos Avançados (IEA), e fazendo parcerias com outras universidades. Todos os países relevantes estão trabalhando com esse tipo de desenvolvimento. Estados Unidos e China investem muito em Inteligência Artificial para aplicação em políticas sociais. Aliás, nos últimos anos, foram divulgados investimentos bilionários em grandes centros de pesquisa. É essencial esse tipo de estudo”, defende Antonio.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Para o professor Alexandre, a Inteligência Artificial pode potencializar cada vez mais o uso dos recursos disponíveis, mas, para isso, o caminho entre a universidade, o poder público e a sociedade ainda deve ser melhor pavimentado: “Esse tipo de tecnologia está cada vez mais presente na sociedade e com suas funções mais evidentes. A criação do C4AI fomenta pesquisas nesse sentido, que são muito importantes para diversos tipos de serviços. Nós desenvolvemos pesquisas que nos trouxeram até essas técnicas que provam que vale investir na área, pois elas possuem um grande potencial. Seguimos promovendo melhorias, buscando outros benefícios e estamos abertos a novas parcerias”, conclui.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><em>Por Eduardo Sotto Mayor, da Fontes Comunicação Científica, para o C4AI</em></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Contato para esta pauta</strong><br/>Assessoria de Comunicação do C4AI<br/>E-mail: <a href=\"mailto:fontesccientifica@gmail.com\">fontesccientifica@gmail.com</a><br/>Telefone: (16) 9 9727-2257 – Whatsapp exclusivo para atendimento à imprensa, com Henrique Fontes</p>"
+    }
+  ],
+  "description": "Tecnologia poderá ser importante ferramenta para ajudar na construção de políticas públicas mais eficazes contra a insegurança alimentar",
+  "dateLabel": "março 15, 2022",
+  "date": "2022-03-15",
+  "author": "Henrique Fontes",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/henrique/",
+  "categories": [
+    {
+      "label": "Notícias",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 99
+}

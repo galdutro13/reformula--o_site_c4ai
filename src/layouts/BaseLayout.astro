@@ -1,7 +1,12 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { pagePath, withBase, type PageId } from '../i18n/routes';
+import {
+  routes,
+  withBase,
+  type PageId,
+  type Translations,
+} from '../i18n/routes';
 import { ui, locales, type Locale } from '../i18n/ui';
 import '../styles/tokens.css';
 import '../styles/global.css';
@@ -11,9 +16,20 @@ interface Props {
   description: string;
   pageId?: PageId;
   notFound?: boolean;
+  path?: string;
+  translations?: Translations;
 }
-const { locale, title, description, pageId, notFound = false } = Astro.props;
-const canonical = pageId ? pagePath(pageId, locale) : withBase('/');
+const {
+  locale,
+  title,
+  description,
+  pageId,
+  notFound = false,
+  path,
+} = Astro.props;
+const translations = Astro.props.translations ?? routes[pageId ?? 'home'];
+const canonical = withBase(path ?? (pageId ? routes[pageId][locale] : '/'));
+const paired = Boolean(translations.pt && translations.en);
 ---
 
 <!doctype html>
@@ -28,13 +44,15 @@ const canonical = pageId ? pagePath(pageId, locale) : withBase('/');
       <meta name="robots" content="noindex, nofollow" />
     )}
     {!notFound && (
+      <link rel="canonical" href={new URL(canonical, Astro.site)} />
+    )}
+    {!notFound && paired && (
       <>
-        <link rel="canonical" href={new URL(canonical, Astro.site)} />
-        {locales.map((language) => (
+        {locales.map((lang) => (
           <link
             rel="alternate"
-            hreflang={ui[language].lang}
-            href={new URL(pagePath(pageId ?? 'home', language), Astro.site)}
+            hreflang={ui[lang].lang}
+            href={new URL(withBase(translations[lang]!), Astro.site)}
           />
         ))}
         <link
@@ -49,8 +67,8 @@ const canonical = pageId ? pagePath(pageId, locale) : withBase('/');
     <a class="skip-link" href="#main">
       {ui[locale].skip}
     </a>
-    <Header locale={locale} pageId={pageId} />
-    <main id="main" tabindex="-1" class="container">
+    <Header locale={locale} translations={translations} />
+    <main id="main" tabindex="-1">
       <slot />
     </main>
     <Footer locale={locale} />

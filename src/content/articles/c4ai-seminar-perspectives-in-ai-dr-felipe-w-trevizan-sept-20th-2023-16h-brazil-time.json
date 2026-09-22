@@ -1,0 +1,73 @@
+{
+  "id": "c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time",
+  "kind": "article",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/",
+  "retrievedAt": "2026-09-19T17:41:33.140355+00:00",
+  "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/",
+  "title": "C4AI – Seminar: “Perspectives in AI” – Dr. Felipe W. Trevizan (Sept 20th 2023, 16h​​ Brazil Time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/efb963ac7163.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 536
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>[C4AI – Perspectives in A.I. Seminar]</strong> Next talk of the Perspectives in AI seminar of the C4AI will host: <strong>Prof. Dr.  Felipe W. Trevizan, </strong>(Senior Lecturer, School of Computing. Australian National University – ANU) on<strong> September 20th 2023, 16h </strong>– 17h30​​ Brasilia time (3pm – 4:30pm EST), to talk about<strong> “Deep Learning for Automated Planning”.</strong>  (open/free/online event).  <br/><br/><strong>Title: “<strong>Deep Learning for Automated Planning</strong>” (Seminar in English)</strong><br/><strong>Open and Free seminar – Add to your Agenda!</strong><br/>Add to you agenda (google calendar): <a href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmZjNG5ncXJhYjhxZWlnMDhuMzJvdG51MzcgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br\">https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmZjNG5ncXJhYjhxZWlnMDhuMzJvdG51MzcgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br</a>  </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>C4AI Youtube Channel </strong>: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a> <br/><strong>Seminar Link:</strong>  <a href=\"https://www.youtube.com/watch?v=iEuuNRvhSwI\">https://www.youtube.com/watch?v=iEuuNRvhSwI</a> (set reminder)</p>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Perspectives in A.I. Seminar: Prof. Dr. Felipe W. Trevizan to talk about “ Deep Learning for Automated Planning “"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Abstract:</strong></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Deep learning has become the method of choice for tasks related to perception and natural language processing. Yet, it remains an open question as to how this breakthrough can extend to tasks typically seen as requiring reasoning, such as planning. In this talk, I will introduce neural network architectures that leverage the structure of planning problems, as captured by traditional planning representations, to learn generalized policies and heuristic estimators with minimal training time and data. The obtained policies can adapt to planning problems with different initial states, goals, objects, and sizes. Furthermore, the learnt heuristics generalize to problems from different planning domains. While there are significant limitations, these architectures have showcased remarkable performance on select planning competition benchmark domains. I will conclude by offering a glimpse into my ongoing work in this area.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Brief bio:</strong><br/>Dr. Felipe Trevizan is a Senior Lecturer at the School of Computing at the Australian National University (ANU). Previously, Felipe was a Senior Research Scientist at NICTA (now Data61/CSIRO). Felipe earned his Ph.D. (2013) and M.Sc. (2010) in Machine Learning from Carnegie Mellon University and his M.Sc. (2006) and B.Sc. (2004) in Computer Science from University of São Paulo. Felipe’s research interests lie at the intersection of Artificial Intelligence, Operations Research and Machine Learning including automated planning and scheduling, reasoning under uncertainty, heuristic search, and learning for planning. Along with colleagues and students, Felipe is the co-recipient of the 2016 best paper award from the Transport Research Board and the best paper award at the International Conference on Automated Planning and Scheduling (ICAPS) in 2016 and 2017.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>About Dr. Dr. Felipe Trevizan – WebSite: <a href=\"https://felipe.trevizan.org/\">https://felipe.trevizan.org/</a>   </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>#c4ai #ArtificialIntelligence #Machine Learning #Planning #PerspectivesInAI</p>"
+    }
+  ],
+  "description": "[C4AI – Perspectives in A.I. Seminar] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. Dr. Felipe W. Trevizan, (Senior Lecturer, School of Computing. Australian Natio",
+  "dateLabel": "September 18, 2023",
+  "date": "2023-09-18",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Seminars",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 3
+}

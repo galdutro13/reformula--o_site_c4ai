@@ -1,0 +1,72 @@
+{
+  "id": "oceanml-pt",
+  "translationId": "oceanml",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+  "retrievedAt": "2026-09-19T17:41:08.089160+00:00",
+  "anchor": "OceanML_B_eng",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "OceanML"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Aprendizado de Máquina Baseado em Oceanografia Líderes: Eduardo Tannuri e Zhao Liang"
+        },
+        {
+          "type": "html",
+          "html": "<p>Este desafio de pesquisa visa combinar o conhecimento da física com métodos baseados em dados para a previsão de variáveis oceânicas, com foco especial na região costeira brasileira (conhecida como Blue Amazon), uma zona econômica exclusiva\nde cerca de 200 milhas náuticas no oceano Atlântico. Integrando algoritmos de aprendiza-do de máquina de ponta com um rico histórico de modelagem física, a equipe melhorou as previsões computacionais atuais e reduziu o tamanho dos\nconjuntos de dados necessários para obter essas previsões. Os resultados são aplicados a situações com impacto social, como previsão de enchentes e marés de tempestade, estimativa de movimentos de vazamentos de petróleo e posicionamento\nideal de turbinas eólicas e hidrelétricas.</p>"
+        },
+        {
+          "type": "details",
+          "id": "16252-c97",
+          "label": "Equipe",
+          "children": [
+            {
+              "type": "html",
+              "html": " Clique para ver a equipe OceanML"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " Contato"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " c4ai-keml@usp.br"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "html": "<p class=\"resource-note\">Contato a confirmar: a fonte apresenta endereço associado a outro grupo.</p>"
+        }
+      ],
+      "id": "OceanML_B_eng"
+    }
+  ]
+}

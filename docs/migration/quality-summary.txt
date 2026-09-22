@@ -1,0 +1,10 @@
+19/09/2026 — npm run quality — saída 0
+Node 24.21.0 / npm 11.19.0 / Astro 7.3.2
+Prettier: todos os arquivos conformes
+ESLint: 0 erros; aviso complexity 15 > 10 no cenário de metadados de site.spec.ts
+Stylelint: aprovado
+Astro check: 47 arquivos; 0 erros, 0 avisos, 0 hints
+Configuração: 4 aprovados, 0 falhas
+Build: 38 páginas
+Playwright: 464 passed (50.4s), incluindo 88 cenários axe sem violações selecionadas
+Logs integrais e evidências de falhas: playwright-report/ e test-results/ (gerados, ignorados pelo Git)

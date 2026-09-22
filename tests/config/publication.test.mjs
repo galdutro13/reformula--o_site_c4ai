@@ -1,7 +1,14 @@
 import { test } from 'node:test';
+import { URL } from 'node:url';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
-import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import {
+  mkdtempSync,
+  readFileSync,
+  rmSync,
+  readdirSync,
+  existsSync,
+} from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import process from 'node:process';
@@ -103,6 +110,34 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
       assert.match(html, /href="\/centro\/en\/"/);
       assert.doesNotMatch(html, /name="robots"/);
       assert.doesNotMatch(html, /<script\b/);
+    }
+    const files = readdirSync(output, { recursive: true, encoding: 'utf8' });
+    for (const file of files.filter((f) => f.endsWith('.html'))) {
+      const html = readFileSync(join(output, file), 'utf8');
+      for (const match of html.matchAll(/(?:href|src)="(\/[^"]+)"/g)) {
+        const raw = match[1];
+        assert.ok(
+          raw.startsWith('/centro/'),
+          `${file}: caminho ignora BASE_PATH: ${raw}`,
+        );
+        const local = new URL(raw, 'https://usp.br').pathname.slice(
+          '/centro/'.length,
+        );
+        assert.ok(
+          existsSync(join(output, local)),
+          `${file}: arquivo local ausente ${local}`,
+        );
+      }
+    }
+    const news = readFileSync(join(output, 'pt/noticias/index.html'), 'utf8');
+    assert.match(news, /"path":"\/centro\/pt\/noticias\//);
+    for (const css of files.filter((f) => f.endsWith('.css'))) {
+      const text = readFileSync(join(output, css), 'utf8');
+      for (const match of text.matchAll(/url\(["']?(\/[^"')]+)["']?\)/g))
+        assert.ok(
+          match[1].startsWith('/centro/'),
+          `Asset CSS ignora BASE_PATH: ${match[1]}`,
+        );
     }
     const notFound = readFileSync(join(output, '404.html'), 'utf8');
     assert.match(notFound, /noindex, nofollow/);

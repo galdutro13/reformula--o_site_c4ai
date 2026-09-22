@@ -1,0 +1,46 @@
+
+
+Running 1 test using 1 worker
+
+
+
+[1/1] [desktop] › tests/e2e/site.spec.ts:269:1 › links, âncoras, imagens e arquivos locais de todos os HTML compilados
+  1) [desktop] › tests/e2e/site.spec.ts:269:1 › links, âncoras, imagens e arquivos locais de todos os HTML compilados 
+
+    Error: /pt/ → http://127.0.0.1:4321/broken-migration-probe/
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 404
+
+      309 |     const url = new URL(href);
+      310 |     const response = await request.get(url.href);
+    > 311 |     expect(response.status(), `${from} → ${href}`).toBe(200);
+          |                                                    ^
+      312 |     if (url.hash)
+      313 |       expect(idsByPath.get(url.pathname), `${from} → ${href}`).toContain(
+      314 |         decodeURIComponent(url.hash.slice(1)),
+        at /Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts:311:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-links-âncoras-imagens-e046b-de-todos-os-HTML-compilados-desktop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-links-âncoras-imagens-e046b-de-todos-os-HTML-compilados-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-links-âncoras-imagens-e046b-de-todos-os-HTML-compilados-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-links-âncoras-imagens-e046b-de-todos-os-HTML-compilados-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    [desktop] › tests/e2e/site.spec.ts:269:1 › links, âncoras, imagens e arquivos locais de todos os HTML compilados 
+[WebServer] (node:9042) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:9043) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

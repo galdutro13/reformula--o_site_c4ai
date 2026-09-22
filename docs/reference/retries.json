@@ -1,0 +1,26 @@
+[
+  {
+    "requested": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/",
+    "final": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/",
+    "status": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "length": null
+  },
+  {
+    "requested": "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "final": "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "status": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "length": null
+  },
+  {
+    "requested": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-news-and-events-2/",
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-news-and-events-2/",
+    "status": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "length": null
+  }
+]

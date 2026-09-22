@@ -1,0 +1,951 @@
+[
+  {
+    "source": "https://c4ai.inova.usp.br/pt/inicio/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/inicio/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Um centro de pesquisa para inteligência artificial avançada no Brasil",
+      "Exemplos de atividades de pesquisa do C4AI:",
+      "Nós nos preocupamos com diversidade e inclusão!"
+    ],
+    "currentHeadings": [
+      "Um centro de pesquisa para inteligência artificial avançada no Brasil",
+      "Exemplos de atividades de pesquisa do C4AI:",
+      "Nós nos preocupamos com diversidade e inclusão!"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/sobre/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/sobre/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI",
+      "Localização",
+      "Missão",
+      "Visão",
+      "Liderança",
+      "Diretor Fabio Cozman, USP",
+      "Vice Diretor Claudio Pinhanez, IBM",
+      "Coordenador de Divulgação Fernando Osório, USP",
+      "Coordenador de Impacto Glauco Arbix, USP (de licença)",
+      "Coordenador de Impacto João Paulo Veiga, USP (atuação)",
+      "Coordenador de Infraestrutura Alexandre Delbem, USP",
+      "Gerente Executivo Jairo Carlos Filho, USP",
+      "Gerente de Difusão Maurício Klein, USP",
+      "Assistente Administrativo Eliana Futenma, FUSP",
+      "Comitê Executivo",
+      "Comitê de Direção",
+      "Comitê de Estratégia",
+      "Comitê de Indústria e Sociedade",
+      "O Comitê Consultivo Internacional",
+      "Difusão",
+      "Educação e Disseminação",
+      "Diversidade e Inclusão",
+      "Impacto & Parceiros",
+      "Inovação, Parcerias, e Spin-offs",
+      "Assista o vídeo do Workshop!",
+      "Endereço",
+      "Telefone",
+      "Contato"
+    ],
+    "currentHeadings": [
+      "C4AI",
+      "Localização",
+      "Missão",
+      "Visão",
+      "Liderança",
+      "Diretor Fabio Cozman, USP",
+      "Vice Diretor Claudio Pinhanez, IBM",
+      "Coordenador de Divulgação Fernando Osório, USP",
+      "Coordenador de Impacto Glauco Arbix, USP (de licença)",
+      "Coordenador de Impacto João Paulo Veiga, USP (atuação)",
+      "Coordenador de Infraestrutura Alexandre Delbem, USP",
+      "Gerente Executivo Jairo Carlos Filho, USP",
+      "Gerente de Difusão Maurício Klein, USP",
+      "Assistente Administrativo Eliana Futenma, FUSP",
+      "Comitê Executivo",
+      "Comitê de Direção",
+      "Comitê de Estratégia",
+      "Comitê de Indústria e Sociedade",
+      "O Comitê Consultivo Internacional",
+      "Difusão",
+      "Educação e Disseminação",
+      "Diversidade e Inclusão",
+      "Impacto & Parceiros",
+      "Inovação, Parcerias, e Spin-offs",
+      "Assista o vídeo do Workshop!",
+      "Endereço",
+      "Telefone",
+      "Contato"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "processamento de linguagem nATURAL para o português",
+      "aprendizado de Máquina baseado em oceanografia",
+      "T omada de Decisões Multicritério sobre o Clima",
+      "observatório da ia: IMPACTo da IA",
+      "Fortalecimento das Línguas Indígenas Brasileiras com IA",
+      "Aprendizado de Máquina com Conhecimento Aprimorado",
+      "Aprendizado de Máquina para Diagnóstico e Reabilitação",
+      "TOMADA DE DECISÃO EM REDES DE ALIMENTOS",
+      "NLP2",
+      "Processamento de Linguagem Natural para o Português Líderes: Marcelo Finger, Sandra M. Aluísio e Thiago A. S. Pardo",
+      "ProIndL",
+      "Fortalecimento das Línguas Indígenas Brasileiras com IA Líderes: Luciana Storto e Claudio Pinhanez",
+      "KEML",
+      "Aprendizado de Máquinas com Conhecimento Aprimorado Líderes: Sarajane Peres e Fabio Cozman",
+      "OceanML",
+      "Aprendizado de Máquina Baseado em Oceanografia Líderes: Eduardo Tannuri e Zhao Liang",
+      "MClimate",
+      "Tomada de Decisões Multicritério sobre o Clima Líderes: Alexandre Delbem e Antonio Saraiva",
+      "OBIA@C4AI",
+      "Observação e Discussão do Impacto da Inteligência Artificial Líderes: Cristina Oliveira e João Veiga",
+      "AI Health",
+      "Aprendizado de Máquina para Diagnóstico e Reabilitação Líderes: José Krieger e Zhao Liang",
+      "AgriBio",
+      "Tomada de Decisão Causal Multicritério em Redes de Produção Alimentar Líderes: Alexandre Delbem e Antonio Saraiva"
+    ],
+    "currentHeadings": [
+      "processamento de linguagem nATURAL para o português",
+      "aprendizado de Máquina baseado em oceanografia",
+      "T omada de Decisões Multicritério sobre o Clima",
+      "observatório da ia: IMPACTo da IA",
+      "Fortalecimento das Línguas Indígenas Brasileiras com IA",
+      "Aprendizado de Máquina com Conhecimento Aprimorado",
+      "Aprendizado de Máquina para Diagnóstico e Reabilitação",
+      "TOMADA DE DECISÃO EM REDES DE ALIMENTOS",
+      "NLP2",
+      "Processamento de Linguagem Natural para o Português Líderes: Marcelo Finger, Sandra M. Aluísio e Thiago A. S. Pardo",
+      "ProIndL",
+      "Fortalecimento das Línguas Indígenas Brasileiras com IA Líderes: Luciana Storto e Claudio Pinhanez",
+      "KEML",
+      "Aprendizado de Máquinas com Conhecimento Aprimorado Líderes: Sarajane Peres e Fabio Cozman",
+      "OceanML",
+      "Aprendizado de Máquina Baseado em Oceanografia Líderes: Eduardo Tannuri e Zhao Liang",
+      "MClimate",
+      "Tomada de Decisões Multicritério sobre o Clima Líderes: Alexandre Delbem e Antonio Saraiva",
+      "OBIA@C4AI",
+      "Observação e Discussão do Impacto da Inteligência Artificial Líderes: Cristina Oliveira e João Veiga",
+      "AI Health",
+      "Aprendizado de Máquina para Diagnóstico e Reabilitação Líderes: José Krieger e Zhao Liang",
+      "AgriBio",
+      "Tomada de Decisão Causal Multicritério em Redes de Produção Alimentar Líderes: Alexandre Delbem e Antonio Saraiva"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Trabalhos do C4AI são “Best Paper” do BRACIS’23 e do STIL’23",
+      "Banco inédito de áudios facilita o reconhecimento automático de falas espontâneas em português",
+      "Centro de Inteligência Artificial da USP completa 2 anos com significativas contribuições",
+      "USP lança programa que estimula a diversidade entre futuros profissionais da área de Inteligência Artificial",
+      "C4AI da USP desenvolve técnicas que aprimoram previsão de condições oceânicas em áreas portuárias",
+      "C4AI da USP debate marco regulatório da Inteligência Artificial no Brasil ￼",
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “IA e o Combate à Fome e à Insegurança Alimentar”",
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “Discriminação Algorítmica: o Papel da Diversidade e Inclusão em IA”",
+      "Posts navigation",
+      "Posts navigation",
+      "Histórico dos Eventos",
+      "ChatBot & ChatGPT",
+      "Perspectivas em Seminários",
+      "Mesa Redonda",
+      "Tech Law | Seminários",
+      "Encontros C4AI",
+      "Press & Media",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Trabalhos do C4AI são “Best Paper” do BRACIS’23 e do STIL’23",
+      "Banco inédito de áudios facilita o reconhecimento automático de falas espontâneas em português",
+      "Centro de Inteligência Artificial da USP completa 2 anos com significativas contribuições",
+      "USP lança programa que estimula a diversidade entre futuros profissionais da área de Inteligência Artificial",
+      "C4AI da USP desenvolve técnicas que aprimoram previsão de condições oceânicas em áreas portuárias",
+      "C4AI da USP debate marco regulatório da Inteligência Artificial no Brasil ￼",
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “IA e o Combate à Fome e à Insegurança Alimentar”",
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “Discriminação Algorítmica: o Papel da Diversidade e Inclusão em IA”",
+      "Posts navigation",
+      "Posts navigation",
+      "Histórico dos Eventos",
+      "ChatBot & ChatGPT",
+      "Perspectivas em Seminários",
+      "Mesa Redonda",
+      "Tech Law | Seminários",
+      "Encontros C4AI",
+      "Press & Media",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/",
+    "inventorySource": "https://c4ai.inova.usp.br/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "A research center for advanced artificial intelligence in Brazil",
+      "Some examples of research activities in the C4AI:",
+      "We care about diversity and inclusion!"
+    ],
+    "currentHeadings": [
+      "A research center for advanced artificial intelligence in Brazil",
+      "Some examples of research activities in the C4AI:",
+      "We care about diversity and inclusion!"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/about/",
+    "inventorySource": "https://c4ai.inova.usp.br/about/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI",
+      "Location",
+      "Mission",
+      "Vision",
+      "Leadership",
+      "Director Fabio Cozman, USP",
+      "Deputy Director Claudio Pinhanez, IBM",
+      "Outreach Coordinator Fernando Osório, USP",
+      "Impact Coordinator Glauco Arbix, USP (on leave)",
+      "Impact Coordinator João Paulo Veiga, USP (acting)",
+      "Infrastructure Coordinator Alexandre Delbem, USP",
+      "Executive Manager Jairo Carlos Filho, USP",
+      "Diffusion Manager Maurício Klein, USP",
+      "Administrative Assistant Eliana Futenma, FUSP",
+      "Executive Committee",
+      "Steering Committee",
+      "Strategy Committee",
+      "The Industry and Society Committee",
+      "The International Advisory Board",
+      "Outreach",
+      "Education and Diversity",
+      "Diversity and Inclusion",
+      "Impact & Partners",
+      "Innovation, Partnerships and Spin-offs",
+      "See the Workshop video!",
+      "Address",
+      "Phone",
+      "Contact"
+    ],
+    "currentHeadings": [
+      "C4AI",
+      "Location",
+      "Mission",
+      "Vision",
+      "Leadership",
+      "Director Fabio Cozman, USP",
+      "Deputy Director Claudio Pinhanez, IBM",
+      "Outreach Coordinator Fernando Osório, USP",
+      "Impact Coordinator Glauco Arbix, USP (on leave)",
+      "Impact Coordinator João Paulo Veiga, USP (acting)",
+      "Infrastructure Coordinator Alexandre Delbem, USP",
+      "Executive Manager Jairo Carlos Filho, USP",
+      "Diffusion Manager Maurício Klein, USP",
+      "Administrative Assistant Eliana Futenma, FUSP",
+      "Executive Committee",
+      "Steering Committee",
+      "Strategy Committee",
+      "The Industry and Society Committee",
+      "The International Advisory Board",
+      "Outreach",
+      "Education and Diversity",
+      "Diversity and Inclusion",
+      "Impact & Partners",
+      "Innovation, Partnerships and Spin-offs",
+      "See the Workshop video!",
+      "Address",
+      "Phone",
+      "Contact"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/research_2/",
+    "inventorySource": "https://c4ai.inova.usp.br/research_2/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "NATURAL LANGUAGE PROCESSING FOR PORTUGUESE",
+      "OCEANOGRAPHY-BASED MACHINE LEARNING",
+      "MULTICRITERIA DECISION-MAKING ON CLIMATE",
+      "AI Observatory: iMPACT OF AI",
+      "STRENGTHENING BRAZILIAN INDIGENOUS LANGUAGES",
+      "KNOWLEDGE-ENHANCED MACHINE LEARNING",
+      "MACHINE LEARNING FOR DIAGNOSIS AND REHABILITATION",
+      "DECISION MAKING IN FOOD NETWORKS",
+      "NLP2",
+      "Natural Language Processing for Portuguese Leaders: Marcelo Finger, Sandra M. Aluísio and Thiago A. S. Pardo",
+      "ProIndL",
+      "Strengthening Brazilian Indigenous Languages with AI Leaders: Luciana Storto and Claudio Pinhanez",
+      "KEML",
+      "Knowledge Enhanced Machine Learning Leaders: Sarajane Peres and Fabio Cozman",
+      "OceanML",
+      "Oceanography-based Machine Learning Leaders: Eduardo Tannuri and Zhao Liang",
+      "MClimate",
+      "Multicriteria Decision-Making on Climate Leaders: Alexandre Delbem and Antonio Saraiva",
+      "OBIA@C4AI",
+      "Observing and Discussing the Impact of Artificial Intelligence Leaders: Cristina Oliveira and João Veiga",
+      "AI Health",
+      "Machine Learning for Diagnosis and Rehabilitation Leaders: Jos´e Krieger and Zhao Liang",
+      "AgriBio",
+      "Causal Multicriteria Decision Making in Food Production Networks Leaders: Alexandre Delbem and Antonio Saraiva"
+    ],
+    "currentHeadings": [
+      "NATURAL LANGUAGE PROCESSING FOR PORTUGUESE",
+      "OCEANOGRAPHY-BASED MACHINE LEARNING",
+      "MULTICRITERIA DECISION-MAKING ON CLIMATE",
+      "AI Observatory: iMPACT OF AI",
+      "STRENGTHENING BRAZILIAN INDIGENOUS LANGUAGES",
+      "KNOWLEDGE-ENHANCED MACHINE LEARNING",
+      "MACHINE LEARNING FOR DIAGNOSIS AND REHABILITATION",
+      "DECISION MAKING IN FOOD NETWORKS",
+      "NLP2",
+      "Natural Language Processing for Portuguese Leaders: Marcelo Finger, Sandra M. Aluísio and Thiago A. S. Pardo",
+      "ProIndL",
+      "Strengthening Brazilian Indigenous Languages with AI Leaders: Luciana Storto and Claudio Pinhanez",
+      "KEML",
+      "Knowledge Enhanced Machine Learning Leaders: Sarajane Peres and Fabio Cozman",
+      "OceanML",
+      "Oceanography-based Machine Learning Leaders: Eduardo Tannuri and Zhao Liang",
+      "MClimate",
+      "Multicriteria Decision-Making on Climate Leaders: Alexandre Delbem and Antonio Saraiva",
+      "OBIA@C4AI",
+      "Observing and Discussing the Impact of Artificial Intelligence Leaders: Cristina Oliveira and João Veiga",
+      "AI Health",
+      "Machine Learning for Diagnosis and Rehabilitation Leaders: Jos´e Krieger and Zhao Liang",
+      "AgriBio",
+      "Causal Multicriteria Decision Making in Food Production Networks Leaders: Alexandre Delbem and Antonio Saraiva"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/category/news/",
+    "inventorySource": "https://c4ai.inova.usp.br/category/news/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Susan Ariel Aaronson (Dec. 20th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Scott Sanner (Nov. 8th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Franz Baader (Oct. 31th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Felipe W. Trevizan (Sept 20th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. António Horta Branco (May 31th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Fabio Ramos (April 26th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Tommie Meyer (Nov. 09th 2022, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Bouveyron and Dr. Villata (October 10th 2022 – 16h-17h30 Brazil Time)",
+      "Posts navigation",
+      "Posts navigation",
+      "Events History",
+      "ChatBot & ChatGPT",
+      "Perspectives in AI Seminars",
+      "Round Table",
+      "Tech Law | Joint Seminars",
+      "C4AI Meetings",
+      "Press & Media",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Susan Ariel Aaronson (Dec. 20th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Scott Sanner (Nov. 8th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Franz Baader (Oct. 31th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Felipe W. Trevizan (Sept 20th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. António Horta Branco (May 31th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Fabio Ramos (April 26th 2023, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Tommie Meyer (Nov. 09th 2022, 16h​​ Brazil Time)",
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Bouveyron and Dr. Villata (October 10th 2022 – 16h-17h30 Brazil Time)",
+      "Posts navigation",
+      "Posts navigation",
+      "Events History",
+      "ChatBot & ChatGPT",
+      "Perspectives in AI Seminars",
+      "Round Table",
+      "Tech Law | Joint Seminars",
+      "C4AI Meetings",
+      "Press & Media",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Luis Lamb (Feb. 24 18h Brazil time)",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Luis Lamb (Feb. 24 18h Brazil time)",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Guy Van den Broeck (March 31th 2022, 16h – 17h30​​ Brazil time)",
+      "Perspective in A.I. Seminar Computational Probabilistic Models",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Guy Van den Broeck (March 31th 2022, 16h – 17h30​​ Brazil time)",
+      "Perspective in A.I. Seminar Computational Probabilistic Models",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Vaishak Belle (June 8th 2022 – 16h-17h30 Brazil Time)",
+      "Perspectives in A.I. Seminar: “Principles of Explainable Machine Learning: Interpretability, Reasoning and Beyond”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Vaishak Belle (June 8th 2022 – 16h-17h30 Brazil Time)",
+      "Perspectives in A.I. Seminar: “Principles of Explainable Machine Learning: Interpretability, Reasoning and Beyond”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Irina Rish (August 31th 2022 – 17h-18h30 Brazil Time)",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Irina Rish (August 31th 2022 – 17h-18h30 Brazil Time)",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Bouveyron and Dr. Villata (October 10th 2022 – 16h-17h30 Brazil Time)",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Bouveyron and Dr. Villata (October 10th 2022 – 16h-17h30 Brazil Time)",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Tommie Meyer (Nov. 09th 2022, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Tommie Meyer “Knowledge Representation and Reasoning in the age of Machine Learning”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Tommie Meyer (Nov. 09th 2022, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Tommie Meyer “Knowledge Representation and Reasoning in the age of Machine Learning”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. António Horta Branco (May 31th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. António Horta Branco to talk about “How to better represent the meaning of words?”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. António Horta Branco (May 31th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. António Horta Branco to talk about “How to better represent the meaning of words?”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Fabio Ramos (April 26th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Fabio Ramos to talk about “Leveraging Differentiable Simulation for Reinforcement Learning and Bayesian Domain Randomization”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Fabio Ramos (April 26th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Fabio Ramos to talk about “Leveraging Differentiable Simulation for Reinforcement Learning and Bayesian Domain Randomization”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Felipe W. Trevizan (Sept 20th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Felipe W. Trevizan to talk about “ Deep Learning for Automated Planning “",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Felipe W. Trevizan (Sept 20th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Felipe W. Trevizan to talk about “ Deep Learning for Automated Planning “",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Scott Sanner (Nov. 8th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Scott Sanner, to talk about “Symbolic AI 3.0: Rise of the LLMs”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Prof. Dr. Scott Sanner (Nov. 8th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Scott Sanner, to talk about “Symbolic AI 3.0: Rise of the LLMs”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Franz Baader (Oct. 31th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Franz Baader to talk about “”A Description Logic Journey”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Franz Baader (Oct. 31th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Franz Baader to talk about “”A Description Logic Journey”",
+      "Post navigation",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/",
+    "inventorySource": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Susan Ariel Aaronson (Dec. 20th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Susan Ariel Aaronson , to talk about “ Data Disquiet: How Policymakers Have Failed to Effectively Govern Data for Generative AI “",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminar: “Perspectives in AI” – Dr. Susan Ariel Aaronson (Dec. 20th 2023, 16h​​ Brazil Time)",
+      "Perspectives in A.I. Seminar: Prof. Dr. Susan Ariel Aaronson , to talk about “ Data Disquiet: How Policymakers Have Failed to Effectively Govern Data for Generative AI “",
+      "Post navigation",
+      "Categories",
+      "Recent Posts"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Seminário: “Perspectivas in AI” – Dr. Luis Lamb (Feb. 24 18h Brazil time)",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "C4AI – Seminário: “Perspectivas in AI” – Dr. Luis Lamb (Feb. 24 18h Brazil time)",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+    "titleChanged": false,
+    "headingsChanged": true,
+    "oldHeadings": [
+      "Solução criada na USP facilita tomada de decisão para o combate à fome",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Solução criada na USP facilita tomada de decisão para o combate à fome",
+      "",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “Accountability algorítmica e políticas públicas”",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “Accountability algorítmica e políticas públicas”",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “Discriminação Algorítmica: o Papel da Diversidade e Inclusão em IA”",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “Discriminação Algorítmica: o Papel da Diversidade e Inclusão em IA”",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “IA e o Combate à Fome e à Insegurança Alimentar”",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "C4AI – Mesa Redonda C4AI – AI em Foco: “IA e o Combate à Fome e à Insegurança Alimentar”",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI da USP debate marco regulatório da Inteligência Artificial no Brasil ￼",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "C4AI da USP debate marco regulatório da Inteligência Artificial no Brasil ￼",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "C4AI da USP desenvolve técnicas que aprimoram previsão de condições oceânicas em áreas portuárias",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "C4AI da USP desenvolve técnicas que aprimoram previsão de condições oceânicas em áreas portuárias",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "USP lança programa que estimula a diversidade entre futuros profissionais da área de Inteligência Artificial",
+      "Navegação de Post",
+      "Navegação de Post",
+      "No responses yet",
+      "Deixe uma resposta Cancelar resposta",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "USP lança programa que estimula a diversidade entre futuros profissionais da área de Inteligência Artificial",
+      "Navegação de Post",
+      "Navegação de Post",
+      "No responses yet",
+      "Deixe uma resposta Cancelar resposta",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Centro de Inteligência Artificial da USP completa 2 anos com significativas contribuições",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Centro de Inteligência Artificial da USP completa 2 anos com significativas contribuições",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Corpus Carolina – NLP/C4AI",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Corpus Carolina – NLP/C4AI",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Aplicativo desenvolvido na USP vence prêmio internacional e do IABsp",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Aplicativo desenvolvido na USP vence prêmio internacional e do IABsp",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Banco inédito de áudios facilita o reconhecimento automático de falas espontâneas em português",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Banco inédito de áudios facilita o reconhecimento automático de falas espontâneas em português",
+      "Navegação de Post",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Projeto que utiliza inteligência artificial pretende fortalecer línguas indígenas no Brasil",
+      "Navegação de Post",
+      "Navegação de Post",
+      "No responses yet",
+      "Deixe uma resposta Cancelar resposta",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Projeto que utiliza inteligência artificial pretende fortalecer línguas indígenas no Brasil",
+      "Navegação de Post",
+      "Navegação de Post",
+      "No responses yet",
+      "Deixe uma resposta Cancelar resposta",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "inventorySource": "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "titleChanged": false,
+    "headingsChanged": false,
+    "oldHeadings": [
+      "Trabalhos do C4AI são “Best Paper” do BRACIS’23 e do STIL’23",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "currentHeadings": [
+      "Trabalhos do C4AI são “Best Paper” do BRACIS’23 e do STIL’23",
+      "Navegação de Post",
+      "Categorias",
+      "Posts recentes"
+    ],
+    "scope": "Comparação de títulos e cabeçalhos registrados; o inventário não contém cópia integral do corpo HTML"
+  }
+]

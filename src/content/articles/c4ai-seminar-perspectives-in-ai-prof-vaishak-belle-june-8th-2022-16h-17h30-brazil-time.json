@@ -1,0 +1,65 @@
+{
+  "id": "c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time",
+  "kind": "article",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/",
+  "retrievedAt": "2026-09-19T17:41:25.023258+00:00",
+  "path": "/en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/",
+  "title": "C4AI – Seminar: “Perspectives in AI” – Prof. Vaishak Belle (June 8th 2022 – 16h-17h30 Brazil Time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/f5c94902e88f.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 536
+    },
+    {
+      "type": "html",
+      "html": "<p>[<strong>C4AI – Perspectives in A.I. Seminar</strong>] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. <strong>Dr. Vaishak Belle</strong> (Academic, Chancellor’s Fellow, Royal Society University Research Fellow, and Alan Turing Faculty Fellow at the University of Edinburgh) on <strong>June 8th 2022, 16h – 17h30​​ Brasilia time (12pm – 13:30pm PDT)</strong>, to talk about <strong>“Principles of Explainable Machine Learning: Interpretability, Reasoning and Beyond”</strong> (open/free/online event).<br/><br/><strong>Title: “Principles of Explainable Machine Learning: Interpretability, Reasoning and Beyond” </strong>(Seminar in English)<br/><strong>Open and Free seminar – Hybrid (Online + Live at USP Inova C4AI) – Add to your Agenda!</strong><br/>Add to you <strong>agenda </strong>(google calendar): <a href=\"https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MG5iNDZiOGN0MWIybnBmcDc5dDRjZDZ2dTUgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br\">LINK HERE – Add Google Calendar</a></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>C4AI Youtube Channel </strong>: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a><br/><strong>Seminar Link</strong>: <a href=\"https://www.youtube.com/watch?v=YXBF085aQmE\">https://www.youtube.com/watch?v=YXBF085aQmE</a>   (set reminder)<br/><strong>Participation Certificates</strong> – Should register (free) at: <a href=\"https://www.even3.com.br/perspectivesai080622\">https://www.even3.com.br/perspectivesai080622</a></p>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Perspectives in A.I. Seminar: “Principles of Explainable Machine Learning: Interpretability, Reasoning and Beyond”"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Abstract</strong>: <br/>Discovering patterns and structures in large troves of data in an automated manner is a core component of data science, and currently drives applications in diverse areas such as computational biology, law and finance. However, such a highly positive impact is coupled with significant challenges: how do we understand the decisions suggested by these systems in order that we can trust them? In the first part of the talk, we survey and distill results and observations from the literature, focusing primarily on machine learning models. We build a narrative around a putative data scientist, and discuss how she might go about explaining her models by asking the right questions. In the second part of the talk, we look at recent results on inherently transparent models that are also often computational attractive, mainly stemming from the integration of logic &amp; learning.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Brief bio: </strong><br/>Dr Vaishak Belle is a Chancellor’s Fellow and Faculty at the School of Informatics, University of Edinburgh, an Alan Turing Institute Faculty Fellow, a Royal Society University Research Fellow, and a member of the RSE (Royal Society of Edinburgh) Young Academy of Scotland. At the University of Edinburgh, he directs a research lab on artificial intelligence, specialising in the unification of logic and machine learning, with a recent emphasis on explainability and ethics. He has given research seminars at academic institutions, tutorials at AI conferences, and talks at venues such as Ars Electronica and the Samsung AI Forum. He has co-authored over 60 scientific articles on AI, at venues such as IJCAI, UAI, AAAI, MLJ, AIJ, JAIR, AAMAS, and along with his co-authors, he has won the Microsoft best paper award at UAI, the Machine learning journal best student paper award at ECML-PKDD, and the Machine Learning Journal best student paper award at ILP. In 2014, he received a silver medal by the Kurt Goedel Society. Recently, he has consulted with major banks on explainable AI and its impact in financial institutions.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>#c4ai #artificialintelligence #AISystems #AIResearch #AIHybridSystems #XAI </p>"
+    }
+  ],
+  "description": "[ C4AI – Perspectives in A.I. Seminar ] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. Dr. Vaishak Belle (Academic, Chancellor’s Fellow, Royal Society University Re",
+  "dateLabel": "June 5, 2022",
+  "date": "2022-06-05",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Seminars",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 99
+}

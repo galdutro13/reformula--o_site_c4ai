@@ -1,0 +1,73 @@
+{
+  "id": "c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time",
+  "kind": "article",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/",
+  "retrievedAt": "2026-09-19T17:41:32.916739+00:00",
+  "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/",
+  "title": "C4AI – Seminar: “Perspectives in AI” – Dr. Fabio Ramos (April 26th 2023, 16h​​ Brazil Time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/b5bed56d674c.jpg",
+      "alt": "",
+      "width": null,
+      "height": null
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>[C4AI – Perspectives in A.I. Seminar]</strong> Next talk of the Perspectives in AI seminar of the C4AI will host: <strong>Prof. Dr.  Fabio Ramos (</strong>Professor in Robotics and Machine Learning at the School of Computer Science at the University of Sydney and Principal Research Scientist at NVIDIA), on <strong>April 26th, 16h</strong> <strong>– 17h30​​ Brasilia time (3pm – 4:30pm EST)</strong>, to talk about <strong>“Leveraging Differentiable Simulation for Reinforcement Learning and Bayesian Domain Randomization”</strong>  (open/free/online event).  <br/><br/><strong>Title: “Leveraging Differentiable Simulation for Reinforcement Learning and Bayesian Domain Randomization” (Seminar in English)</strong><br/><strong>Open and Free seminar – Add to your Agenda!</strong><br/>Add to you agenda (google calendar): <br/><a href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2FzYzg3NXNkYzlhaHYxMGs1Yjc0MTEwdG4gYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br\">https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2FzYzg3NXNkYzlhaHYxMGs1Yjc0MTEwdG4gYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br</a></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>C4AI Youtube Channel </strong>: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a> <br/><strong>Seminar Link:</strong> <a href=\"https://www.youtube.com/watch?v=xKpSSVUoy5k\">https://www.youtube.com/watch?v=xKpSSVUoy5k</a>  (set reminder)</p>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Perspectives in A.I. Seminar: Prof. Dr. Fabio Ramos to talk about “Leveraging Differentiable Simulation for Reinforcement Learning and Bayesian Domain Randomization”"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Abstract:</strong></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Differentiable simulation can play a key role in scaling reinforcement learning to higher dimensional state and action spaces, while, at the same time, leveraging recent probabilistic inference methods for Bayesian domain randomization. In this talk, I will discuss advantages and disadvantages of differentiable simulation and connect it with two methods that use differentiability to speed up Bayesian inference, stochastic gradient Langevin dynamics and Stein Variational Gradient Descent. Our resulting Bayesian domain randomization approach can quickly produce posterior distributions over simulation parameters given real state-action trajectories, leading to robust controllers and policies. I will show examples in legged locomotion, robotics manipulation, and robotics cutting.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Brief bio:</strong><br/>Fabio Ramos is a Professor in robotics and machine learning at the School of Computer Science at the University of Sydney and a Principal Research Scientist at NVIDIA. He received the <strong>BSc and MSc degrees in Mechatronics Engineering at University of Sao Paulo, Brazil,</strong> and the <strong>PhD degree at the University of Sydney, Australia.</strong> His research focuses on statistical machine learning techniques for large-scale Bayesian inference and decision making with applications in robotics, mining, environmental monitoring and healthcare. Between 2008 and 2011 he led the research team that designed the first autonomous open-pit iron mine in the world. He has over 150 peer-review publications and received Best Paper Awards and Student Best Paper Awards at several conferences including International Conference on Intelligent Robots and Systems (IROS), Australasian Conference on Robotics and Automation (ACRA), European Conference on Machine Learning (ECML), and Robotics Science and Systems (RSS). </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>About Dr. Fabio Ramos:<br/>BSc and MSc in Mechatronics at <strong>USP, Brazil</strong><br/>PhD ay University of Sydney (ML and Robotics)<br/>Linkedin: <a href=\"https://www.google.com/url?q=https://www.linkedin.com/in/fabio-ramos-3256b421/&amp;sa=D&amp;source=calendar&amp;ust=1682606887419658&amp;usg=AOvVaw39IM0f77VTFy-z9yBXNxkP\">https://www.linkedin.com/in/fabio-ramos-3256b421/</a> <br/>WebSite: <a href=\"https://www.google.com/url?q=https://fabioramos.github.io/Home.html&amp;sa=D&amp;source=calendar&amp;ust=1682606887419658&amp;usg=AOvVaw1_NLJXYiyanZuAlHqOBE8i\">https://fabioramos.github.io/Home.html</a></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>#c4ai #ArtificialIntelligence #Machine Learning #Robotics #PerspectivesInAI </p>"
+    }
+  ],
+  "description": "[C4AI – Perspectives in A.I. Seminar] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. Dr. Fabio Ramos ( Professor in Robotics and Machine Learning at the School of C",
+  "dateLabel": "April 22, 2023",
+  "date": "2023-04-22",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Seminars",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 5
+}

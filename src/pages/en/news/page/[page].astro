@@ -1,0 +1,16 @@
+---
+import NewsPage from '../../../../components/NewsPage.astro';
+import { articles } from '../../../../content/editorial';
+export async function getStaticPaths() {
+  const entries = (await articles('en')).filter((a) =>
+    a.categories.some((c) => c.label === 'News'),
+  );
+  return Array.from(
+    { length: Math.max(0, Math.ceil(entries.length / 8) - 1) },
+    (_, i) => ({ params: { page: String(i + 2) }, props: { page: i + 2 } }),
+  );
+}
+const { page } = Astro.props;
+---
+
+<NewsPage locale="en" page={page} />

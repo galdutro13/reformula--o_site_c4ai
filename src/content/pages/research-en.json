@@ -1,0 +1,309 @@
+{
+  "id": "research-en",
+  "kind": "research",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/research_2/",
+  "retrievedAt": "2026-09-19T17:41:08.407988+00:00",
+  "path": "/en/research/",
+  "translationId": "research",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#NLP2_B_eng\">\nNATURAL LANGUAGE PROCESSING FOR PORTUGUESE\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#NLP2_B_eng\"> NLP2</a>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#OceanML_B_eng\">\nOCEANOGRAPHY-BASED MACHINE LEARNING\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#OceanML_B_eng\"> OceanML</a>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#Climate_B_eng\">\nMULTICRITERIA DECISION-MAKING ON CLIMATE\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#Climate_B_eng\"> MClimate</a>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#OBIA_B_eng\">\nAI Observatory:\n<br/>iMPACT OF AI\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#OBIA_B_eng\">OBIA@C4AI</a>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#ProIndL_B_eng\">\nSTRENGTHENING BRAZILIAN INDIGENOUS LANGUAGES\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#ProIndL_B_eng\"> ProIndL</a>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#KEML_B_eng\">\nKNOWLEDGE-ENHANCED MACHINE LEARNING\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#KEML_B_eng\"> KEML</a>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#AlHealth_B_eng\">\nMACHINE LEARNING FOR DIAGNOSIS AND REHABILITATION\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#AlHealth_B_eng\"> Al Health</a>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#AgriBio_B_eng\">\nDECISION MAKING IN FOOD NETWORKS\n</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"/en/research/#AgriBio_B_eng\"> AgriBio</a>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "overlappable"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "nlp2-en"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "proindl-en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "editorial-source-content"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "keml-en"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "oceanml-en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "testimonials"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "mclimate-en"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "obia-en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "reusable-sections"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "ai-health-en"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "challenge",
+                      "ref": "agribio-en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "reusable-sections-2"
+        }
+      ],
+      "id": "source-content"
+    }
+  ],
+  "title": "Research in the C4AI",
+  "heroBlocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<p>A key mission of the C4AI is to produce advanced research in Artificial Intelligence. The center congregates about 250 researchers, including faculty, post-docs, graduate and undergraduate students. These researchers investigate a variety of issues, from Machine Learning to Knowledge Representation, from Reasoning to Planning. \n<br/>Many research activities in the C4AI are organized around selected Research Challenges that combine fundamental aspects of artificial intelligence with applications in selected fields such as agribusiness, climate, and health. The current challenges are:\n<br/>\n</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "hero-section-1"
+    }
+  ],
+  "heroImages": [],
+  "description": "Research in the C4AI"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "agribio-pt",
+  "translationId": "agribio",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+  "retrievedAt": "2026-09-19T17:41:08.089160+00:00",
+  "anchor": "AgriBio_B_eng",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "AgriBio"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tomada de Decisão Causal Multicritério em Redes de Produção Alimentar Líderes: Alexandre Delbem e Antonio Saraiva"
+        },
+        {
+          "type": "html",
+          "html": "<p>Este grupo de pesquisa está interessado em modelos de IA multicritério causais para tomada de decisões em ambientes de produção de alimentos, especialmente relacionados à segurança alimentar, em meio à incerteza. A equipe investiga métodos\npara encontrar e representar automaticamente as estruturas fundamentais de subsistemas sociais, econômicos e físicos relacionados à produção de alimentos, criando modelos confiáveis (causais). Muitas das investigações em AgriBio são\norientadas por dados, utilizando bancos de dados heterogêneos de várias fontes com milhares de variáveis da Parceria para Governo Aberto (OGP). </p>"
+        },
+        {
+          "type": "details",
+          "id": "16252-c137",
+          "label": "Equipe",
+          "children": [
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port_24.pdf\"> Veja a equipe AgriBio</a>"
+            },
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port__ex_members_24.pdf\"> Veja os ex-membros da AgriBio</a>"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<a href=\"mailto:c4ai-agribio@usp.br\"> Contato</a>"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " c4ai-agribio@usp.br"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "AgriBio_B_eng"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+---
+import { articles, getPage } from '../content/editorial';
+import { contentUrl } from '../i18n/routes';
+import { labels } from '../i18n/navigation';
+import type { Locale } from '../i18n/ui';
+import Embed from './Embed.astro';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = labels[locale];
+const all = await articles(locale);
+const entry = await getPage('news', locale);
+---
+
+<aside aria-label={locale === 'pt' ? 'Recursos de notícias' : 'News resources'}>
+  <h2>{t.categories}</h2>
+  <ul>
+    {entry.sidebarLinks.map((link) => (
+      <li>
+        <a href={contentUrl(link.href)}>
+          {link.label}{' '}
+          {link.href.startsWith('http') && <small>({t.external})</small>}
+        </a>
+      </li>
+    ))}
+  </ul>
+  <h2>{t.recent}</h2>
+  <ul>
+    {all.slice(0, 5).map((a) => (
+      <li>
+        <a href={contentUrl(a.path)}>{a.title}</a>
+        <br />
+        <time datetime={a.date}>{a.dateLabel}</time>
+      </li>
+    ))}
+  </ul>
+  <Embed
+    url={entry.calendar}
+    label={locale === 'pt' ? 'Agenda C4AI' : 'C4AI calendar'}
+    locale={locale}
+  />
+</aside>

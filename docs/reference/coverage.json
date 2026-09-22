@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-12",
+  "pages": 182,
+  "statuses": {
+    "200": 172,
+    "404": 10
+  },
+  "families": {
+    "Arquivos e paginação": {
+      "discovered": 64,
+      "http200": 64,
+      "http404": 0,
+      "access_error": 0
+    },
+    "Destino inexistente": {
+      "discovered": 9,
+      "http200": 0,
+      "http404": 9,
+      "access_error": 0
+    },
+    "Institucional": {
+      "discovered": 8,
+      "http200": 8,
+      "http404": 0,
+      "access_error": 0
+    },
+    "Notícia ou evento individual": {
+      "discovered": 53,
+      "http200": 53,
+      "http404": 0,
+      "access_error": 0
+    },
+    "Oportunidades": {
+      "discovered": 8,
+      "http200": 8,
+      "http404": 0,
+      "access_error": 0
+    },
+    "Parceiros": {
+      "discovered": 5,
+      "http200": 5,
+      "http404": 0,
+      "access_error": 0
+    },
+    "Pesquisas": {
+      "discovered": 8,
+      "http200": 8,
+      "http404": 0,
+      "access_error": 0
+    },
+    "Portais associados": {
+      "discovered": 11,
+      "http200": 10,
+      "http404": 1,
+      "access_error": 0
+    },
+    "Publicações": {
+      "discovered": 4,
+      "http200": 4,
+      "http404": 0,
+      "access_error": 0
+    },
+    "Páginas auxiliares ou antigas": {
+      "discovered": 12,
+      "http200": 12,
+      "http404": 0,
+      "access_error": 0
+    }
+  },
+  "links_unique": 1401,
+  "image_use_records": 5217,
+  "image_urls_unique": 786,
+  "documents_unique": 64,
+  "document_statuses": {
+    "200": 59,
+    "404": 2,
+    "None": 3
+  },
+  "language_relations": {
+    "recíproco técnico": 32,
+    "candidato não recíproco": 29,
+    "inválido: aponta para si próprio": 2
+  },
+  "fragments_checked": 2885,
+  "missing_fragment_references": 0,
+  "sitemap_urls": 64,
+  "reciprocal_url_pairs": 16,
+  "distinct_paths": 115,
+  "screenshots": 56,
+  "captured_urls": 13,
+  "captured_categories": {
+    "Pesquisas": 2,
+    "Institucional": 4,
+    "Arquivos e paginação": 2,
+    "Oportunidades": 1,
+    "Publicações": 1,
+    "Portais associados": 1,
+    "Parceiros": 1,
+    "Notícia ou evento individual": 1
+  }
+}

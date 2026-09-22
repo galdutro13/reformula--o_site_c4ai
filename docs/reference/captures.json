@@ -1,0 +1,948 @@
+[
+  {
+    "file": "home-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/pt/inicio/",
+    "final": "https://c4ai.inova.usp.br/pt/inicio/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:35.282Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/inicio/"
+  },
+  {
+    "file": "home-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/pt/inicio/",
+    "final": "https://c4ai.inova.usp.br/pt/inicio/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:37.223Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/inicio/"
+  },
+  {
+    "file": "home-en-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/",
+    "final": "https://c4ai.inova.usp.br/",
+    "language": "en",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:39.442Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/"
+  },
+  {
+    "file": "home-en-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/",
+    "final": "https://c4ai.inova.usp.br/",
+    "language": "en",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:41.629Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/"
+  },
+  {
+    "file": "about-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/pt/sobre/",
+    "final": "https://c4ai.inova.usp.br/pt/sobre/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:44.220Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/sobre/"
+  },
+  {
+    "file": "about-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/pt/sobre/",
+    "final": "https://c4ai.inova.usp.br/pt/sobre/#lideranca",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:47.151Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/sobre/#lideranca"
+  },
+  {
+    "file": "about-en-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/about/",
+    "final": "https://c4ai.inova.usp.br/about/",
+    "language": "en",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:49.780Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/about/"
+  },
+  {
+    "file": "about-en-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/about/",
+    "final": "https://c4ai.inova.usp.br/about/#leadership",
+    "language": "en",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:52.905Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/about/#leadership"
+  },
+  {
+    "file": "research-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "final": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:55.304Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/pesquisas_2/"
+  },
+  {
+    "file": "research-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "final": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:39:57.782Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/pesquisas_2/"
+  },
+  {
+    "file": "research-en-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/research_2/",
+    "final": "https://c4ai.inova.usp.br/research_2/",
+    "language": "en",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:40:00.273Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/research_2/"
+  },
+  {
+    "file": "research-en-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/research_2/",
+    "final": "https://c4ai.inova.usp.br/research_2/",
+    "language": "en",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:40:03.206Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/research_2/"
+  },
+  {
+    "file": "news-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "final": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:40:14.055Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/category/noticias/"
+  },
+  {
+    "file": "news-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "final": "https://c4ai.inova.usp.br/pt/category/noticias/#techLaw_port",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:40:16.824Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/category/noticias/#techLaw_port"
+  },
+  {
+    "file": "post-best-paper-pt-desktop.png",
+    "requested": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:40:43.046Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/"
+  },
+  {
+    "file": "post-best-paper-pt-mobile.png",
+    "requested": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:40:45.366Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/"
+  },
+  {
+    "file": "publications-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "final": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:40:58.755Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/publicacoes/"
+  },
+  {
+    "file": "publications-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "final": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:41:00.922Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/publicacoes/"
+  },
+  {
+    "file": "opportunities-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "final": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:41:03.087Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/oportunidades/"
+  },
+  {
+    "file": "opportunities-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "final": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:41:05.256Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/oportunidades/"
+  },
+  {
+    "file": "partners-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "final": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:41:15.272Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/parceiros/"
+  },
+  {
+    "file": "partners-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "final": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:41:17.377Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/pt/parceiros/"
+  },
+  {
+    "file": "cid-pt-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/cid/",
+    "final": "https://c4ai.inova.usp.br/cid/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:41:25.995Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/cid/"
+  },
+  {
+    "file": "cid-pt-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/cid/",
+    "final": "https://c4ai.inova.usp.br/cid/#empresa",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira após rolagem e retorno ao topo; possíveis artefatos de composição da ferramenta",
+    "capturedAt": "2026-09-12T22:41:28.729Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/cid/#empresa"
+  },
+  {
+    "file": "home-pt-mobile-menu-open.png",
+    "url": "https://c4ai.inova.usp.br/pt/inicio/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "capturedAt": "2026-09-12T22:34:59.240Z",
+    "state": "Menu móvel aberto com Enter no link Menu",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "requested": "https://c4ai.inova.usp.br/pt/inicio/",
+    "final": "https://c4ai.inova.usp.br/pt/inicio/"
+  },
+  {
+    "file": "home-pt-mobile-menu-viewport.png",
+    "url": "https://c4ai.inova.usp.br/pt/inicio/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "capturedAt": "2026-09-12T22:35:33.927Z",
+    "state": "Menu móvel aberto; apenas viewport, complemento à captura longa",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "requested": "https://c4ai.inova.usp.br/pt/inicio/",
+    "final": "https://c4ai.inova.usp.br/pt/inicio/"
+  },
+  {
+    "file": "research-en-mobile-team-expanded.png",
+    "url": "https://c4ai.inova.usp.br/research_2/#5-c53",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "capturedAt": "2026-09-12T22:35:43.590Z",
+    "state": "Painel Team NLP2 após clique; captura da viewport",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "requested": "https://c4ai.inova.usp.br/research_2/#5-c53",
+    "final": "https://c4ai.inova.usp.br/research_2/#5-c53"
+  },
+  {
+    "file": "news-en-desktop.png",
+    "requested": "https://c4ai.inova.usp.br/category/news/",
+    "final": "https://c4ai.inova.usp.br/category/news/#05",
+    "language": "en",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Página inteira; rolagem prévia para conteúdo sob demanda; topo restaurado",
+    "capturedAt": "2026-09-12T22:37:00.389Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/category/news/#05"
+  },
+  {
+    "file": "news-en-mobile.png",
+    "requested": "https://c4ai.inova.usp.br/category/news/",
+    "final": "https://c4ai.inova.usp.br/category/news/#techLaw",
+    "language": "en",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Página inteira; rolagem prévia para conteúdo sob demanda; topo restaurado",
+    "capturedAt": "2026-09-12T22:37:02.503Z",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "url": "https://c4ai.inova.usp.br/category/news/#techLaw"
+  },
+  {
+    "file": "home-pt-desktop-accessibility.png",
+    "url": "https://c4ai.inova.usp.br/pt/inicio/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "capturedAt": "2026-09-12T22:37:02.907Z",
+    "state": "Barra Accessibility Tools aberta; viewport",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "requested": "https://c4ai.inova.usp.br/pt/inicio/",
+    "final": "https://c4ai.inova.usp.br/pt/inicio/"
+  },
+  {
+    "file": "home-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/inicio/",
+    "final": "https://c4ai.inova.usp.br/pt/inicio/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:35.282Z",
+    "url": "https://c4ai.inova.usp.br/pt/inicio/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "home-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/inicio/",
+    "final": "https://c4ai.inova.usp.br/pt/inicio/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:37.223Z",
+    "url": "https://c4ai.inova.usp.br/pt/inicio/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "home-en-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/",
+    "final": "https://c4ai.inova.usp.br/",
+    "language": "en",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:39.442Z",
+    "url": "https://c4ai.inova.usp.br/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "home-en-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/",
+    "final": "https://c4ai.inova.usp.br/",
+    "language": "en",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:41.629Z",
+    "url": "https://c4ai.inova.usp.br/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "about-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/sobre/",
+    "final": "https://c4ai.inova.usp.br/pt/sobre/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:44.220Z",
+    "url": "https://c4ai.inova.usp.br/pt/sobre/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "about-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/sobre/",
+    "final": "https://c4ai.inova.usp.br/pt/sobre/#lideranca",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:47.151Z",
+    "url": "https://c4ai.inova.usp.br/pt/sobre/#lideranca",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "about-en-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/about/",
+    "final": "https://c4ai.inova.usp.br/about/",
+    "language": "en",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:49.780Z",
+    "url": "https://c4ai.inova.usp.br/about/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "about-en-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/about/",
+    "final": "https://c4ai.inova.usp.br/about/#leadership",
+    "language": "en",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:52.905Z",
+    "url": "https://c4ai.inova.usp.br/about/#leadership",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "research-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "final": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:55.304Z",
+    "url": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "research-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "final": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:39:57.782Z",
+    "url": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "research-en-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/research_2/",
+    "final": "https://c4ai.inova.usp.br/research_2/",
+    "language": "en",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:40:00.273Z",
+    "url": "https://c4ai.inova.usp.br/research_2/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "research-en-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/research_2/",
+    "final": "https://c4ai.inova.usp.br/research_2/",
+    "language": "en",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:40:03.206Z",
+    "url": "https://c4ai.inova.usp.br/research_2/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "news-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "final": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:40:14.055Z",
+    "url": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "news-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "final": "https://c4ai.inova.usp.br/pt/category/noticias/#techLaw_port",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:40:16.824Z",
+    "url": "https://c4ai.inova.usp.br/pt/category/noticias/#techLaw_port",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "post-best-paper-pt-desktop-viewport.png",
+    "requested": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:40:43.046Z",
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "post-best-paper-pt-mobile-viewport.png",
+    "requested": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:40:45.366Z",
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "publications-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "final": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:40:58.755Z",
+    "url": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "publications-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "final": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:41:00.922Z",
+    "url": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "opportunities-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "final": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:41:03.087Z",
+    "url": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "opportunities-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "final": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:41:05.256Z",
+    "url": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "partners-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "final": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:41:15.272Z",
+    "url": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "partners-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "final": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:41:17.377Z",
+    "url": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "cid-pt-desktop-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/cid/",
+    "final": "https://c4ai.inova.usp.br/cid/",
+    "language": "pt",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:41:25.995Z",
+    "url": "https://c4ai.inova.usp.br/cid/",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "cid-pt-mobile-viewport.png",
+    "requested": "https://c4ai.inova.usp.br/cid/",
+    "final": "https://c4ai.inova.usp.br/cid/#empresa",
+    "language": "pt",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "state": "Viewport após rolagem e estabilização; scrollY=0",
+    "capturedAt": "2026-09-12T22:41:28.729Z",
+    "url": "https://c4ai.inova.usp.br/cid/#empresa",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    }
+  },
+  {
+    "file": "news-en-desktop-viewport.png",
+    "url": "https://c4ai.inova.usp.br/category/news/#05",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "capturedAt": "2026-09-12T22:42:18.152Z",
+    "state": "Topo estabilizado; viewport",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "requested": "https://c4ai.inova.usp.br/category/news/#05",
+    "final": "https://c4ai.inova.usp.br/category/news/#05"
+  },
+  {
+    "file": "news-en-mobile-viewport.png",
+    "url": "https://c4ai.inova.usp.br/category/news/#05",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "capturedAt": "2026-09-12T22:42:18.728Z",
+    "state": "Topo estabilizado; viewport",
+    "png_dimensions": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "requested": "https://c4ai.inova.usp.br/category/news/#05",
+    "final": "https://c4ai.inova.usp.br/category/news/#05"
+  }
+]

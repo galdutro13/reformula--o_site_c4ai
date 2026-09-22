@@ -1,0 +1,44 @@
+
+
+Running 1 test using 1 worker
+
+
+
+[1/1] [desktop] › tests/e2e/site.spec.ts:23:3 › /en/about/: conteúdo, metadados e estrutura
+  1) [desktop] › tests/e2e/site.spec.ts:23:3 › /en/about/: conteúdo, metadados e estrutura ─────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 200
+    Received: 404
+
+      24 |     page,
+      25 |   }) => {
+    > 26 |     expect((await page.goto(required.path))?.status()).toBe(200);
+         |                                                        ^
+      27 |     await expect(page).toHaveTitle(required.title);
+      28 |     await expect(page.locator('html')).toHaveAttribute('lang', required.lang);
+      29 |     await expect(page.getByRole('main')).toBeVisible();
+        at /Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts:26:56
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site--en-about-conteúdo-metadados-e-estrutura-desktop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site--en-about-conteúdo-metadados-e-estrutura-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site--en-about-conteúdo-metadados-e-estrutura-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site--en-about-conteúdo-metadados-e-estrutura-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    [desktop] › tests/e2e/site.spec.ts:23:3 › /en/about/: conteúdo, metadados e estrutura ──────────
+[WebServer] (node:8970) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:8985) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

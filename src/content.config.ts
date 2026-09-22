@@ -1,15 +1,18 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
-import { z } from 'astro/zod';
+import { editorialSchema, challengeSchema } from './content/model';
 
-const demonstrations = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/demonstrations' }),
-  schema: z.object({
-    translationId: z.string().min(1),
-    locale: z.enum(['pt', 'en']),
-    title: z.string().min(1),
-    description: z.string().min(1),
-    demonstration: z.literal(true),
+export const collections = {
+  challenges: defineCollection({
+    loader: glob({ pattern: '*.json', base: './src/content/challenges' }),
+    schema: challengeSchema,
   }),
-});
-export const collections = { demonstrations };
+  pages: defineCollection({
+    loader: glob({ pattern: '*.json', base: './src/content/pages' }),
+    schema: editorialSchema,
+  }),
+  articles: defineCollection({
+    loader: glob({ pattern: '*.json', base: './src/content/articles' }),
+    schema: editorialSchema,
+  }),
+};

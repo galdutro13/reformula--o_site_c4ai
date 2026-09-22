@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "home",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 580,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/home-header.png",
+        "visible": true,
+        "width": 856
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 1418,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/inicio/"
+          }
+        ]
+      }
+    ],
+    "title": "C4AI – Centro de Inteligência Artificial",
+    "url": "https://c4ai.inova.usp.br/pt/inicio/",
+    "width": 1440
+  },
+  {
+    "id": "home",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 264,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/home-header.png",
+        "visible": true,
+        "width": 389
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 3208,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/inicio/"
+          }
+        ]
+      }
+    ],
+    "title": "C4AI – Centro de Inteligência Artificial",
+    "url": "https://c4ai.inova.usp.br/pt/inicio/",
+    "width": 390
+  },
+  {
+    "id": "home",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "http://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "http://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 580,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/home-header.png",
+        "visible": true,
+        "width": 856
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 1219,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/inicio/"
+          }
+        ]
+      }
+    ],
+    "title": "C4AI – Centro de Inteligência Artificial",
+    "url": "https://c4ai.inova.usp.br/",
+    "width": 1440
+  },
+  {
+    "id": "home",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 264,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/home-header.png",
+        "visible": true,
+        "width": 389
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 3056,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/inicio/"
+          }
+        ]
+      }
+    ],
+    "title": "C4AI – Centro de Inteligência Artificial",
+    "url": "https://c4ai.inova.usp.br/",
+    "width": 390
+  },
+  {
+    "id": "about",
+    "device": "desktop",
+    "h1": ["Um centro de pesquisa de\ninteligência artificial no Brasil"],
+    "height": 900,
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 1067,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1a.jpg",
+        "visible": true,
+        "width": 1067
+      },
+      {
+        "alt": "",
+        "height": 448,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1b-1.jpg",
+        "visible": true,
+        "width": 626
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-fabio-cozman.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 373,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Claudio.jpg",
+        "visible": true,
+        "width": 388
+      },
+      {
+        "alt": "",
+        "height": 785,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-Fernando-1.jpg",
+        "visible": true,
+        "width": 939
+      },
+      {
+        "alt": "",
+        "height": 400,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/GlaucoArbix_400x400.jpg",
+        "visible": true,
+        "width": 400
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/JoaoPauloCandiaVeiga540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Alexandre-Delbem-USP_540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Jairo540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Mauricio540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Eliana540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 861,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0235_site-1536x919.jpg",
+        "visible": true,
+        "width": 1439
+      },
+      {
+        "alt": "",
+        "height": 959,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Fernando-Osorio_Foto-Marcos-Santos_U0Y0104-1536x1024.jpg",
+        "visible": true,
+        "width": 1439
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 7417,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/about/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/sobre/"
+          }
+        ]
+      }
+    ],
+    "title": "Sobre – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/sobre/",
+    "width": 1440
+  },
+  {
+    "id": "about",
+    "device": "mobile",
+    "h1": ["Um centro de pesquisa de\ninteligência artificial no Brasil"],
+    "height": 844,
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 389,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1a.jpg",
+        "visible": true,
+        "width": 389
+      },
+      {
+        "alt": "",
+        "height": 279,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1b-1.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-fabio-cozman.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 373,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Claudio.jpg",
+        "visible": true,
+        "width": 388
+      },
+      {
+        "alt": "",
+        "height": 326,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-Fernando-1.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/GlaucoArbix_400x400.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/JoaoPauloCandiaVeiga540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Alexandre-Delbem-USP_540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Jairo540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Mauricio540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Eliana540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 233,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0235_site.jpg",
+        "visible": true,
+        "width": 389
+      },
+      {
+        "alt": "",
+        "height": 260,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Fernando-Osorio_Foto-Marcos-Santos_U0Y0104-1536x1024.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 15523,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/about/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/sobre/"
+          }
+        ]
+      }
+    ],
+    "title": "Sobre – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/sobre/#lideranca",
+    "width": 390
+  },
+  {
+    "id": "about",
+    "device": "desktop",
+    "h1": ["A research center for advanced\nartificial intelligence in Brazil"],
+    "height": 900,
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 1067,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1a.jpg",
+        "visible": true,
+        "width": 1067
+      },
+      {
+        "alt": "",
+        "height": 448,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1b-1.jpg",
+        "visible": true,
+        "width": 626
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-fabio-cozman.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 373,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Claudio.jpg",
+        "visible": true,
+        "width": 388
+      },
+      {
+        "alt": "",
+        "height": 785,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-Fernando-1.jpg",
+        "visible": true,
+        "width": 939
+      },
+      {
+        "alt": "",
+        "height": 400,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/GlaucoArbix_400x400.jpg",
+        "visible": true,
+        "width": 400
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/JoaoPauloCandiaVeiga540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Alexandre-Delbem-USP_540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Jairo540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Mauricio540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 540,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Eliana540x540.jpg",
+        "visible": true,
+        "width": 540
+      },
+      {
+        "alt": "",
+        "height": 861,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0235_site.jpg",
+        "visible": true,
+        "width": 1440
+      },
+      {
+        "alt": "",
+        "height": 959,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Fernando-Osorio_Foto-Marcos-Santos_U0Y0104-1536x1024.jpg",
+        "visible": true,
+        "width": 1439
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 7277,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/about/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/sobre/"
+          }
+        ]
+      }
+    ],
+    "title": "About – C4AI",
+    "url": "https://c4ai.inova.usp.br/about/",
+    "width": 1440
+  },
+  {
+    "id": "about",
+    "device": "mobile",
+    "h1": ["A research center for advanced\nartificial intelligence in Brazil"],
+    "height": 844,
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 389,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1a.jpg",
+        "visible": true,
+        "width": 389
+      },
+      {
+        "alt": "",
+        "height": 279,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1b-1.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-fabio-cozman.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 373,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Claudio.jpg",
+        "visible": true,
+        "width": 388
+      },
+      {
+        "alt": "",
+        "height": 326,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-Fernando-1.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/GlaucoArbix_400x400.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/JoaoPauloCandiaVeiga540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Alexandre-Delbem-USP_540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Jairo540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Mauricio540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Eliana540x540.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 233,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0235_site.jpg",
+        "visible": true,
+        "width": 389
+      },
+      {
+        "alt": "",
+        "height": 260,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Fernando-Osorio_Foto-Marcos-Santos_U0Y0104-1536x1024.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 15262,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/about/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/sobre/"
+          }
+        ]
+      }
+    ],
+    "title": "About – C4AI",
+    "url": "https://c4ai.inova.usp.br/about/#leadership",
+    "width": 390
+  },
+  {
+    "id": "research",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 5422,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/research_2/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/pesquisas_2/"
+          }
+        ]
+      }
+    ],
+    "title": "Pesquisas_2 – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "width": 1440
+  },
+  {
+    "id": "research",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 16112,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/research_2/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/pesquisas_2/"
+          }
+        ]
+      }
+    ],
+    "title": "Pesquisas_2 – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "width": 390
+  },
+  {
+    "id": "research",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 5353,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/research_2/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/pesquisas_2/"
+          }
+        ]
+      }
+    ],
+    "title": "Research_2 – C4AI",
+    "url": "https://c4ai.inova.usp.br/research_2/",
+    "width": 1440
+  },
+  {
+    "id": "research",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 16011,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/research_2/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/pesquisas_2/"
+          }
+        ]
+      }
+    ],
+    "title": "Research_2 – C4AI",
+    "url": "https://c4ai.inova.usp.br/research_2/",
+    "width": 390
+  },
+  {
+    "id": "news",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [
+      {
+        "src": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 6213,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+          }
+        ]
+      }
+    ],
+    "title": "Notícias – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "width": 1440
+  },
+  {
+    "id": "news",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [
+      {
+        "src": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 10778,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+          }
+        ]
+      }
+    ],
+    "title": "Notícias – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/category/noticias/#techLaw_port",
+    "width": 390
+  },
+  {
+    "id": "post-best-paper",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [
+      {
+        "src": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2023/10/Premios-IA.jpeg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 454,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2023/10/Premios-IA-1-768x768.jpeg",
+        "visible": true,
+        "width": 454
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 2948,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/"
+          }
+        ]
+      }
+    ],
+    "title": "Trabalhos do C4AI são “Best Paper” do BRACIS’23 e do STIL’23  – C4AI",
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "width": 1440
+  },
+  {
+    "id": "post-best-paper",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [
+      {
+        "src": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2023/10/Premios-IA.jpeg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2023/10/Premios-IA-1-768x768.jpeg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 6100,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/"
+          }
+        ]
+      }
+    ],
+    "title": "Trabalhos do C4AI são “Best Paper” do BRACIS’23 e do STIL’23  – C4AI",
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "width": 390
+  },
+  {
+    "id": "publications",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 4180,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "",
+        "options": [
+          {
+            "label": "10",
+            "value": "10"
+          },
+          {
+            "label": "20",
+            "value": "20"
+          },
+          {
+            "label": "25",
+            "value": "25"
+          },
+          {
+            "label": "50",
+            "value": "50"
+          },
+          {
+            "label": "100",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/publications/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/"
+          }
+        ]
+      }
+    ],
+    "title": "Publicações – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "width": 1440
+  },
+  {
+    "id": "publications",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 6987,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "",
+        "options": [
+          {
+            "label": "10",
+            "value": "10"
+          },
+          {
+            "label": "20",
+            "value": "20"
+          },
+          {
+            "label": "25",
+            "value": "25"
+          },
+          {
+            "label": "50",
+            "value": "50"
+          },
+          {
+            "label": "100",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/publications/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/"
+          }
+        ]
+      }
+    ],
+    "title": "Publicações – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "width": 390
+  },
+  {
+    "id": "opportunities",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "http://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 1952,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "",
+        "options": [
+          {
+            "label": "10",
+            "value": "10"
+          },
+          {
+            "label": "25",
+            "value": "25"
+          },
+          {
+            "label": "50",
+            "value": "50"
+          },
+          {
+            "label": "100",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/opportunities/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/oportunidades/"
+          }
+        ]
+      }
+    ],
+    "title": "Oportunidades – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "width": 1440
+  },
+  {
+    "id": "opportunities",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 0
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 4053,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "",
+        "options": [
+          {
+            "label": "10",
+            "value": "10"
+          },
+          {
+            "label": "25",
+            "value": "25"
+          },
+          {
+            "label": "50",
+            "value": "50"
+          },
+          {
+            "label": "100",
+            "value": "100"
+          }
+        ]
+      },
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai.inova.usp.br/opportunities/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai.inova.usp.br/pt/oportunidades/"
+          }
+        ]
+      }
+    ],
+    "title": "Oportunidades – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "width": 390
+  },
+  {
+    "id": "partners",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/cropped-c4ai-technical-hour_52015649994_o.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/cropped-c4ai-inovausp_51970855941_o-scaled-1.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/cropped-c4ai-technical-hour_52014132992_o-scaled-1.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/ita-logo135x135.png",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/PUC_logo135x135.png",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/FEI_logo135x135.png",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 2346,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/partners/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/parceiros/"
+          }
+        ]
+      }
+    ],
+    "title": "Parceiros – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "width": 1440
+  },
+  {
+    "id": "partners",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 389,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2022/11/cropped-c4ai-technical-hour_52015649994_o.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 389,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2022/11/cropped-c4ai-inovausp_51970855941_o-scaled-1.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 390,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2022/11/cropped-c4ai-technical-hour_52014132992_o-scaled-1.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 135,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/ita-logo135x135.png",
+        "visible": true,
+        "width": 135
+      },
+      {
+        "alt": "",
+        "height": 135,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/PUC_logo135x135.png",
+        "visible": true,
+        "width": 135
+      },
+      {
+        "alt": "",
+        "height": 135,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/FEI_logo135x135.png",
+        "visible": true,
+        "width": 135
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+        "visible": false,
+        "width": 181
+      }
+    ],
+    "lang": "pt-BR",
+    "scrollHeight": 4234,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/partners/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/parceiros/"
+          }
+        ]
+      }
+    ],
+    "title": "Parceiros – C4AI",
+    "url": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "width": 390
+  },
+  {
+    "id": "cid",
+    "device": "desktop",
+    "h1": ["Comitê de Inclusão e Diversidade"],
+    "height": 900,
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": false,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": false,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": false,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 45,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/LGBTIcone45x45.png",
+        "visible": true,
+        "width": 45
+      },
+      {
+        "alt": "",
+        "height": 45,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/movimentoNegroIcone45x45.png",
+        "visible": true,
+        "width": 45
+      },
+      {
+        "alt": "",
+        "height": 200,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/icone.png",
+        "visible": true,
+        "width": 200
+      },
+      {
+        "alt": "",
+        "height": 927,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/team-g1c686e405_1920-1536x989.jpg",
+        "visible": true,
+        "width": 1439
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/photomontage-gc879aec1d_1920.jpg",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/faces-g2b53135c4_1920.jpg",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/people-gd16b8a878_1920.jpg",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/cropped-cropped-2.png",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 268,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/tira1-1536x286.jpg",
+        "visible": true,
+        "width": 1439
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/willian_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/be_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/ange_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/Yasmin_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/vanda_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/mariluce.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/rafaela_30x30.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/Washington_30x30.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/bruna_30x30.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-1_grey-1.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-2_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-3_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-4_colorido.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-5_colorido.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-6_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-7_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-8_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-9_colorido.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-10_colorido.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-11_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-12_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-13_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-14_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-15_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-16_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-17_grey.jpg",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/Selo_450.png",
+        "visible": true,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 8117,
+    "scrollWidth": 1440,
+    "selects": [],
+    "title": "CID – Diversidade e Inclusão",
+    "url": "https://c4ai.inova.usp.br/cid/",
+    "width": 1440
+  },
+  {
+    "id": "cid",
+    "device": "mobile",
+    "h1": ["Comitê de Inclusão e Diversidade"],
+    "height": 844,
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": false,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 45,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/LGBTIcone45x45.png",
+        "visible": true,
+        "width": 45
+      },
+      {
+        "alt": "",
+        "height": 45,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/movimentoNegroIcone45x45.png",
+        "visible": true,
+        "width": 45
+      },
+      {
+        "alt": "",
+        "height": 200,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/icone.png",
+        "visible": true,
+        "width": 200
+      },
+      {
+        "alt": "",
+        "height": 251,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/team-g1c686e405_1920-1536x989.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/photomontage-gc879aec1d_1920.jpg",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/faces-g2b53135c4_1920.jpg",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/people-gd16b8a878_1920.jpg",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/cropped-cropped-2.png",
+        "visible": false,
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/tira1-1536x286.jpg",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/bruna_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/willian_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/be_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/ange_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/Yasmin_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/vanda_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/mariluce.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/rafaela_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/Washington_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/bruna_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 85,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/07/willian_30x30.jpg",
+        "visible": true,
+        "width": 85
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-1_grey-1.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-2_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-3_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-4_colorido.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-5_colorido.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-6_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-7_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-8_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-9_colorido.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-10_colorido.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-11_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-12_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-13_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-14_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-15_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-16_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 300,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/ODS-17_grey.jpg",
+        "visible": true,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 145,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/11/Selo_450.png",
+        "visible": true,
+        "width": 390
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/logo__usp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      },
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": false,
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 120,
+        "src": "https://c4ai.inova.usp.br/cid/wp-content/uploads/2022/05/LogoCenterAlta.png",
+        "visible": false,
+        "width": 300
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 14652,
+    "scrollWidth": 390,
+    "selects": [],
+    "title": "CID – Diversidade e Inclusão",
+    "url": "https://c4ai.inova.usp.br/cid/#empresa",
+    "width": 390
+  },
+  {
+    "id": "news",
+    "device": "desktop",
+    "h1": [],
+    "height": 900,
+    "iframes": [
+      {
+        "src": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 6347,
+    "scrollWidth": 1440,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+          }
+        ]
+      }
+    ],
+    "title": "News – C4AI",
+    "url": "https://c4ai.inova.usp.br/category/news/#05",
+    "width": 1440
+  },
+  {
+    "id": "news",
+    "device": "mobile",
+    "h1": [],
+    "height": 844,
+    "iframes": [
+      {
+        "src": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+        "title": ""
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "height": 72,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/LogoCenter_White.png",
+        "visible": true,
+        "width": 181
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2024/03/logo__usp_90-1.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 100,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+        "visible": true,
+        "width": 230
+      },
+      {
+        "alt": "",
+        "height": 39,
+        "src": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+        "visible": true,
+        "width": 190
+      }
+    ],
+    "lang": "en-US",
+    "scrollHeight": 10757,
+    "scrollWidth": 390,
+    "selects": [
+      {
+        "id": "lang_choice_1",
+        "options": [
+          {
+            "label": "English",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+          },
+          {
+            "label": "Português",
+            "value": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+          }
+        ]
+      }
+    ],
+    "title": "News – C4AI",
+    "url": "https://c4ai.inova.usp.br/category/news/#techLaw",
+    "width": 390
+  }
+]

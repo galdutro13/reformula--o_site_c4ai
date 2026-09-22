@@ -1,0 +1,65 @@
+{
+  "id": "c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time",
+  "kind": "article",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+  "retrievedAt": "2026-09-19T17:41:17.150932+00:00",
+  "path": "/en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+  "title": "C4AI – Seminar: “Perspectives in AI” – Dr. Guy Van den Broeck (March 31th 2022, 16h – 17h30​​ Brazil time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/d9e47317037d.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 536
+    },
+    {
+      "type": "html",
+      "html": "<p>[<strong>C4AI – Perspectives in A.I. Seminar</strong>] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. <strong>Dr. Guy Van den Broeck</strong>, (Associate Professor and Samueli Fellow at UCLA, in the Computer Science Department) on <strong>March 31th 2022, 16h – 17h30​​ Brasilia time (12pm – 13:30pm PDT)</strong>, to talk about <strong>“Computational Probabilistic Models</strong>” (open/free event).<br/><br/><strong>Title: “Computational Probabilistic Models”</strong> (Seminar in English)<br/><strong>Open and Free seminar – Add to your Agenda! “Set Reminder”!</strong><br/>Add to you <strong>agenda </strong>(google calendar):  <a href=\"https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MzdvaDBodDI3MzRzazMzbGZqM2tidTZoaHEgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br\">LINK HERE – Add Google Calendar</a><br/></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>C4AI Youtube Channel  </strong>: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a> <br/><strong>Seminar Link</strong>: <a href=\"https://www.youtube.com/watch?v=lW3pFpYbo1c\">https://www.youtube.com/watch?v=lW3pFpYbo1c</a> </p>"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Perspective in A.I. Seminar Computational Probabilistic Models"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Abstract</strong>:<br/>Probabilistic graphical models (PGMs) are a rich staple of probabilistic AI centered around variable-level (in)dependencies. In this talk I present some recent work on probabilistic models that go beyond classical PGMs, and make a radically different choice of abstraction; one that is computational. Concretely, I will discuss two up-and-coming classes of models: probabilistic circuits and probabilistic programs. Probabilistic circuits represent distributions through the computation graph of probabilistic inference, as a type of neural network. They move beyond PGMs and other deep generative models by guaranteeing tractable inference for certain classes of queries, thereby enabling new solutions to some key problems in machine learning. Probabilistic programs represent distributions through higher-level primitives of computation: iteration, branching, and procedural abstraction. They move beyond PGMs by looking “inside” of the dependencies. Finally, I will illustrate how these two computational abstractions are themselves closely related, by showing how the Dice probabilistic programming language compiles probabilistic programs into probabilistic circuits for inference.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Short Bio</strong>:<br/>Guy Van den Broeck is an Associate Professor and Samueli Fellow at UCLA, in the Computer Science Department, where he directs the Statistical and Relational Artificial Intelligence (StarAI) lab. His research interests are in Machine Learning, Knowledge Representation and Reasoning, and Artificial Intelligence in general. His papers have been recognized with awards from key conferences such as AAAI, UAI, KR, OOPSLA, and ILP. Guy is the recipient of an NSF CAREER award, a Sloan Fellowship, and the IJCAI-19 Computers and Thought Award.<br/>Website: <a href=\"https://web.cs.ucla.edu/~guyvdb/\">https://web.cs.ucla.edu/~guyvdb/</a></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>#c4ai #artificialintelligence #AISystems #AIResearch #AIHybridSystems</p>"
+    }
+  ],
+  "description": "[ C4AI – Perspectives in A.I. Seminar ] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. Dr. Guy Van den Broeck , (Associate Professor and Samueli Fellow at UCLA, in ",
+  "dateLabel": "March 25, 2022",
+  "date": "2022-03-25",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Seminars",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 99
+}

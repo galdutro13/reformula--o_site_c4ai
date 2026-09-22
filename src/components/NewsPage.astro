@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Content from './Content.astro';
+import NewsSearch from './NewsSearch.astro';
+import NewsSidebar from './NewsSidebar.astro';
+import { articles, getPage } from '../content/editorial';
+import { labels } from '../i18n/navigation';
+import {
+  routes,
+  pagePath,
+  contentUrl,
+  type Translations,
+} from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  page?: number;
+}
+const { locale, page = 1 } = Astro.props;
+const t = labels[locale];
+const entry = await getPage('news', locale);
+const all = await articles(locale);
+const listed = all.filter((a) =>
+  a.categories.some((c) => c.label === (locale === 'pt' ? 'Notícias' : 'News')),
+);
+const pages = Math.ceil(listed.length / 8);
+const associated = all.filter((a) => !listed.includes(a));
+const shown = listed.slice((page - 1) * 8, page * 8);
+const path = routes.news[locale] + (page > 1 ? `page/${page}/` : '');
+const translations: Translations = {
+  pt: routes.news.pt + (page > 1 ? `page/${page}/` : ''),
+  en: routes.news.en + (page > 1 ? `page/${page}/` : ''),
+};
+---
+
+<BaseLayout
+  locale={locale}
+  pageId="news"
+  path={path}
+  translations={translations}
+  title={`C4AI | ${t.news}${page > 1 ? ` — ${t.page} ${page}` : ''}`}
+  description={entry.description}
+>
+  <div class="page-news">
+    <section class="page-hero">
+      <div class="container">
+        <h1>{entry.title}</h1>
+        <Content blocks={entry.heroBlocks} locale={locale} />
+      </div>
+    </section>
+    <div class="container news-layout">
+      <div>
+        <section aria-label={t.archive}>
+          <NewsSearch locale={locale} />
+          <div class="news-grid" data-news-list>
+            {shown.map((article) => (
+              <article class="news-card">
+                <h2>
+                  <a href={contentUrl(article.path)}>{article.title}</a>
+                </h2>
+                <time datetime={article.date}>{article.dateLabel}</time>
+                <a
+                  href={contentUrl(article.path)}
+                  aria-label={`${t.read}: ${article.title}`}
+                >
+                  {t.read} →
+                </a>
+              </article>
+            ))}
+          </div>
+          <nav
+            class="pagination"
+            aria-label={
+              locale === 'pt' ? 'Paginação de notícias' : 'News pagination'
+            }
+          >
+            {Array.from({ length: pages }, (_, i) => (
+              <a
+                href={pagePath('news', locale) + (i ? `page/${i + 1}/` : '')}
+                aria-current={i + 1 === page ? 'page' : undefined}
+              >
+                {t.page} {i + 1}
+              </a>
+            ))}
+          </nav>
+          {associated.length > 0 && (
+            <div class="associated-articles">
+              <h2>
+                {locale === 'pt'
+                  ? 'Outros artigos em português no acervo'
+                  : 'Other articles in English in the archive'}
+              </h2>
+              <ul>
+                {associated.map((a) => (
+                  <li>
+                    <a href={contentUrl(a.path)}>{a.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+        <div class="source-content events-history">
+          <Content blocks={entry.blocks} locale={locale} />
+        </div>
+      </div>
+      <NewsSidebar locale={locale} />
+    </div>
+  </div>
+</BaseLayout>

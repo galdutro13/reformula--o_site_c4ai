@@ -1,0 +1,83 @@
+{
+  "id": "keml-pt",
+  "translationId": "keml",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+  "retrievedAt": "2026-09-19T17:41:08.089160+00:00",
+  "anchor": "KEML_B_eng",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "KEML"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Aprendizado de Máquinas com Conhecimento Aprimorado Líderes: Sarajane Peres e Fabio Cozman"
+        },
+        {
+          "type": "html",
+          "html": "<p>O objetivo amplo deste desafio de pesquisa tem sido mesclar aprendizado baseado em dados e raciocínio baseado em conhecimento; embora a IA seja agora muito bem-sucedida devido às inovações no aprendizado de máquina, mais atenção deve\nser dada ao raciocínio com garantias formais. A equipe de pesquisa trabalhou em um agente conversacional que combina várias fontes de informação sobre o oceano, olhando tanto para interfaces baseadas na web quanto para interfaces baseadas\nem robôs. Atualmente, um esforço significativo é dedicado à avaliação de modelos de linguagem grandes para obter garantias de factualidade. A equipe também investigou combinações neuro-simbólicas de programação probabilística e redes\nneurais para abordar a argumentação automatizada.</p>"
+        },
+        {
+          "type": "details",
+          "id": "16252-c87",
+          "label": "Equipe",
+          "children": [
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf\"> Veja a equipe KEML</a>"
+            },
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Port_Equipes_C4AI_16_04_24_ex_membros.pdf\"> Veja os ex-membros da KEML</a>"
+            }
+          ]
+        },
+        {
+          "type": "details",
+          "id": "16252-c165",
+          "label": "Recursos",
+          "children": [
+            {
+              "type": "html",
+              "html": "<p>\n<a href=\"https://sites.usp.br/keml\"><strong>KEML</strong></a>\n<a href=\"https://sites.usp.br/keml\">Abrir referência</a>– Página Principal</p>"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<a href=\"mailto:c4ai-keml@usp.br\"> Contato</a>"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " c4ai-keml@usp.br"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "KEML_B_eng"
+    }
+  ]
+}

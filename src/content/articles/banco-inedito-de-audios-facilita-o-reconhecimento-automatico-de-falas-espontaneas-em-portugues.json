@@ -1,0 +1,98 @@
+{
+  "id": "banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues",
+  "kind": "article",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+  "retrievedAt": "2026-09-19T17:42:05.413092+00:00",
+  "path": "/pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+  "title": "Banco inédito de áudios facilita o reconhecimento automático de falas espontâneas em português",
+  "blocks": [
+    {
+      "type": "html",
+      "html": "<p><em>Recurso auxilia na construção e melhoria de sistemas de assistentes pessoais, closed caption para TVs, legendas de transmissões ao vivo, transcrições de conversas, entre outras ferramentas</em></p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/5505876b501f.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 577
+    },
+    {
+      "type": "html",
+      "html": "<p>Em um mundo cada vez mais tecnológico e computadorizado, a busca por facilidade e acessibilidade nos mais diversos segmentos da vida é uma constante no desenvolvimento científico. Um exemplo dentro desse contexto é a criação de bases de dados para o Reconhecimento Automático de Fala (da sigla em inglês, ASR), área interdisciplinar com origem na linguística computacional cujo objetivo é produzir métodos e tecnologias que permitam o reconhecimento e a transcrição de linguagem falada de maneira automática. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Complexa e desafiadora, a tarefa agora acaba de ganhar um importante reforço com o lançamento da <a href=\"https://link.springer.com/article/10.1007/s10579-022-09621-4\">CORAA (<em>Corpus of Annotated Áudios)</em> ASR</a>, primeira base de dados de voz em português brasileiro direcionada para o reconhecimento automático de falas espontâneas, como entrevistas, conversas e declarações informais. A tecnologia foi criada por pesquisadores do <strong>Centro de Inteligência Artificial (C4AI) da USP</strong>, com apoio do Centro de Excelência em Inteligência Artificial (CEIA) da Universidade Federal de Goiás (UFG), que ofereceu diversas bolsas de estudo para jovens estudantes atuarem no projeto. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>A CORAA ASR, que pode ser acessada gratuitamente por meio do seguinte <a href=\"https://github.com/nilc-nlp/CORAA\">link</a>, aprimora as bases até então disponíveis, que eram compostas apenas de falas lidas ou preparadas, dificultando a criação de <em>softwares</em> flexíveis para reconhecimento de fala. A nova base pode ser aplicada, por exemplo, para auxiliar na construção ou melhoria de assistentes pessoais – Siri, Google Now e Alexa -, sistemas de <em>closed caption</em> para TV e para gerar legendas automáticas – como é feito no YouTube em <em>streamings</em> de vídeos. Além disso, o recurso também pode ser utilizado para a criação automática de atas de reuniões, como assistente de ditados e para a conversão de mensagens de voz em mensagens de texto dentro de aplicativos como o WhatsApp. </p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/24d2093c5ab4.jpg",
+      "alt": "",
+      "width": 1024,
+      "height": 577
+    },
+    {
+      "type": "html",
+      "html": "<p>A CORAA ASR começou a ser estruturada ainda em 2020 e teve a participação de mais de 60 alunos na revisão de trechos de áudio-fala, já que a nova tecnologia partiu de outras bases disponíveis na literatura científica, como o NURC-Recife, o Projeto ALIP, o C-Oral Brasil I e o Projeto SP2010. Até o segundo semestre daquele ano, havia pouco mais de 376 horas de arquivos disponíveis publicamente para a tarefa de ASR. Em 2021, este número subiu para 574h, graças ao lançamento de outras bases. No entanto, uma limitação persistia: os recursos existentes ainda não contemplavam diálogos espontâneos, essenciais para muitos cenários de Reconhecimento Automático de Fala. Com o CORAA ASR, foram adicionadas 290h de falas dessa modalidade, mais da metade da quantidade de horas que as versões anteriores dos recursos de fala para o português possuíam, sanando a lacuna até então existente. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Uma ferramenta construída utilizando a nova base, que também conta com áudios em português europeu – cerca de 4,6h -, obteve uma taxa de acerto no reconhecimento de palavras de 70%, índice considerado adequado pelos cientistas devido às complexidades da fala espontânea e o estado da arte em reconhecimento dessa modalidade de diálogo. O projeto foi coordenado pelo professor Arnaldo Candido Junior, da Unesp, em São José do Rio Preto, e pela professora Sandra Maria Aluísio e pelo então doutorando Edresson Casanova, ambos do Instituto de Ciências Matemáticas e de Computação (ICMC) da USP, em São Carlos. Os três pesquisadores integram a equipe <a href=\"https://c4ai.inova.usp.br/pt/pesquisas/#NLP2_port\">NLP2</a> do C4AI, grupo que atua na produção de ferramentas computacionais de suporte ao Português do Brasil para facilitar o desenvolvimento de aplicativos de última geração. Os especialistas trabalham tanto com a modalidade escrita como a falada do idioma. </p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/fba9f7b0bd26.jpg",
+      "alt": "Foto: Canva",
+      "width": 1024,
+      "height": 577
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Os desafios para a construção da base</strong> – Até o lançamento do CORAA ASR, as maiores e mais importantes bases de dados abertas disponíveis para treinamento e avaliação de sistemas de Reconhecimento Automático de Fala com foco em diálogos espontâneos eram voltadas para o inglês. Isso se dava pela predominância do idioma no mundo, na ciência e nos negócios. Além de contemplar o português brasileiro, o novo projeto ainda aprimorou a qualidade dos áudios, aproximando-se muito mais de situações reais e, dessa forma, ampliando seu poder de uso.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Como a fala espontânea apresenta variáveis como risos, tosses, pausas preenchidas, fragmentos de palavras resultantes de repetições, reinícios e revisões do discurso, é bastante complexo desenvolver sistemas de reconhecimento automático de fala capazes de compreender conversas ou diálogos em ambientes barulhentos. Para que tecnologias baseadas no CORAA ASR atuem com melhor desempenho – de acordo com a finalidade -, algumas “dicas” podem ser dadas ao sistema, como informá-lo previamente se o áudio possui ruídos ou vozes de fundo, risadas, hesitações e disfluências.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>A base de dados agora segue com o objetivo de fomentar mais ações e projetos para a língua portuguesa brasileira. O Spotify, por exemplo, lançou recentemente o <span>recurso de DJ com inteligência artificial — indisponível; revisão editorial pendente</span> e trabalha neste sentido para potencializar o mundo da tarefa ASR. Estimulado pelo desejo de facilitar ainda mais a vida das pessoas, o CORAA se solidifica como um protagonista dentro deste universo que promete revolucionar a forma como trabalhamos, lidamos com as máquinas e com o nosso dia a dia.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>O C4AI é um projeto financiado pela Fundação de Amparo à Pesquisa do Estado de São Paulo (Fapesp) em parceria com a IBM.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><em>Por Fabrício Santos e Henrique Fontes<br/>Fotos: Canva</em></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Contato para esta pauta</strong><br/>Assessoria de Comunicação do C4AI/USP<br/>E-mail: <a href=\"mailto:fontesccientifica@gmail.com\">fontesccientifica@gmail.com</a><br/>Telefone: (16) 9 9727-2257 – Whatsapp exclusivo para atendimento à imprensa, com Henrique Fontes </p>"
+    }
+  ],
+  "description": "Recurso auxilia na construção e melhoria de sistemas de assistentes pessoais, closed caption para TVs, legendas de transmissões ao vivo, transcrições de conversas, entre outras ferramentas",
+  "dateLabel": "março 14, 2023",
+  "date": "2023-03-14",
+  "author": "Henrique Fontes",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/henrique/",
+  "categories": [
+    {
+      "label": "Imprensa",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/"
+    },
+    {
+      "label": "Notícias",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 1
+}

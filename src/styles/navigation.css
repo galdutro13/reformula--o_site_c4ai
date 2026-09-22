@@ -1,0 +1,167 @@
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 2px 5px #173c4020;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  min-height: 5.5rem;
+}
+
+.wordmark {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.main-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.mobile-navigation {
+  display: none;
+}
+
+.language-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding-block: 0.4rem;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+}
+
+.translation-missing {
+  color: var(--color-muted);
+}
+
+.wordmark img {
+  width: 181px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.main-menu,
+.main-menu ul,
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu > li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.main-menu a,
+.main-menu summary {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.main-menu small {
+  font-size: 0.75rem;
+}
+
+.main-menu > li > a,
+.resource-menu > summary {
+  padding: 0.7rem 0;
+}
+
+.main-menu details summary {
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  text-align: center;
+  padding: 0.65rem 0.25rem;
+  list-style: none;
+}
+
+.main-menu details > ul {
+  position: absolute;
+  z-index: 20;
+  right: 0;
+  min-width: 16rem;
+  background: #fff;
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 5px 12px #173c4020;
+}
+
+.main-menu details summary::-webkit-details-marker {
+  display: none;
+}
+
+.main-menu details li a {
+  display: block;
+  padding: 0.5rem;
+}
+
+.language-switcher [aria-current] {
+  font-weight: 700;
+}
+
+@media (width <= 1050px) {
+  .desktop-navigation {
+    display: none;
+  }
+
+  .header-main {
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+  }
+
+  .mobile-navigation {
+    display: block;
+    width: 100%;
+  }
+
+  .main-menu {
+    display: block;
+  }
+
+  .mobile-navigation > summary {
+    padding: 0.6rem 0;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .main-menu > li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .main-menu details > ul {
+    position: static;
+    box-shadow: none;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .main-menu .submenu {
+    flex: 1;
+  }
+
+  .main-menu .resource-menu {
+    width: 100%;
+  }
+}
+
+@media (width <= 600px) {
+  .language-bar {
+    justify-content: flex-start;
+    padding-block: 0.75rem;
+  }
+}

@@ -1,23 +1,29 @@
 import { test, expect } from '@playwright/test';
 import { readdirSync } from 'node:fs';
-import { requiredPages, expectedAlternates } from './requirements';
-
+import {
+  requiredPages,
+  principalPages,
+  challenges,
+  aboutAnchors,
+  newsAnchors,
+} from './requirements';
+import editorial from './editorial-requirements.json' with { type: 'json' };
+import articleRequirements from './article-requirements.json' with { type: 'json' };
+import newsOrder from './news-order.json' with { type: 'json' };
+const origin = 'http://127.0.0.1:4321';
+const compact = (value: string) => value.replace(/\s/g, '');
 test.beforeEach(async ({ page }) => {
-  // Falha se conteúdo obrigatório passar a depender de rede externa.
-  await page.route('**/*', (route) => {
-    const url = new URL(route.request().url());
-    return url.origin === 'http://127.0.0.1:4321'
+  await page.route('**/*', (route) =>
+    new URL(route.request().url()).origin === origin
       ? route.continue()
-      : route.abort();
-  });
+      : route.abort(),
+  );
 });
-
 for (const required of requiredPages) {
   test(`${required.path}: conteúdo, metadados e estrutura`, async ({
     page,
   }) => {
-    const response = await page.goto(required.path);
-    expect(response?.status()).toBe(required.status);
+    expect((await page.goto(required.path))?.status()).toBe(200);
     await expect(page).toHaveTitle(required.title);
     await expect(page.locator('html')).toHaveAttribute('lang', required.lang);
     await expect(page.getByRole('main')).toBeVisible();
@@ -25,78 +31,210 @@ for (const required of requiredPages) {
     await expect(page.getByRole('heading', { level: 1 })).toContainText(
       required.heading,
     );
-    await expect(page.locator('meta[name="description"]')).toHaveAttribute(
-      'content',
-      required.description,
-    );
+    const description = page.locator('meta[name="description"]');
+    if (required.description)
+      await expect(description).toHaveAttribute(
+        'content',
+        required.description,
+      );
+    else
+      expect(
+        (await description.getAttribute('content'))?.length,
+      ).toBeGreaterThan(20);
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
       'content',
       'noindex, nofollow',
     );
     if (required.path === '/404.html') {
       await expect(
-        page.locator('link[rel="canonical"], link[rel="alternate"]'),
+        page.locator('link[rel="canonical"],link[rel="alternate"]'),
       ).toHaveCount(0);
       await expect(page.locator('main [lang="en"]').first()).toBeVisible();
     } else {
       await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
         'href',
-        `http://127.0.0.1:4321${required.path}`,
+        origin + required.path,
       );
-      await expect(page.locator('link[rel="alternate"]')).toHaveCount(3);
-      for (const [lang, href] of Object.entries(expectedAlternates)) {
-        await expect(
-          page.locator(`link[rel="alternate"][hreflang="${lang}"]`),
-        ).toHaveAttribute('href', href);
+      await expect(page.locator('link[rel="alternate"]')).toHaveCount(
+        required.pair ? 3 : 0,
+      );
+      if (required.pair) {
+        const pt =
+          required.path === '/'
+            ? '/pt/'
+            : required.lang === 'pt-BR'
+              ? required.path
+              : required.pair;
+        const en = required.lang === 'en' ? required.path : required.pair;
+        for (const [lang, path] of Object.entries({
+          'pt-BR': pt,
+          en,
+          'x-default': '/',
+        }))
+          await expect(
+            page.locator(`link[rel="alternate"][hreflang="${lang}"]`),
+          ).toHaveAttribute('href', origin + path);
       }
     }
+    const article = articleRequirements.find((a) => a.path === required.path);
+    if (article) {
+      await expect(page.locator('.article-heading')).toContainText(
+        article.author,
+      );
+      await expect(page.locator('.article-heading time')).toHaveText(
+        article.dateLabel,
+      );
+    }
+    const expected = editorial.find((e) => e.path === required.path);
+    if (expected) {
+      const text = compact((await page.locator('main').textContent()) ?? '');
+      for (const fragment of expected.texts)
+        expect(
+          text,
+          `Trecho obrigatório da fonte ${expected.source}: ${fragment}`,
+        ).toContain(compact(fragment));
+    }
   });
-
   test(`${required.path}: sem transbordamento`, async ({ page }) => {
     await page.goto(required.path);
-    expect(
-      await page.evaluate(
-        () =>
-          document.documentElement.scrollWidth <=
-          document.documentElement.clientWidth,
-      ),
-    ).toBe(true);
-    await page.setViewportSize({ width: 320, height: 800 });
-    expect(
-      await page.evaluate(
-        () =>
-          document.documentElement.scrollWidth <=
-          document.documentElement.clientWidth,
-      ),
-    ).toBe(true);
+    for (const width of [page.viewportSize()!.width, 320]) {
+      await page.setViewportSize({ width, height: 800 });
+      expect(
+        await page.evaluate(
+          () =>
+            document.documentElement.scrollWidth <=
+            document.documentElement.clientWidth,
+        ),
+      ).toBe(true);
+    }
   });
 }
-
-test('conteúdo demonstrativo renderizado nos dois idiomas', async ({
+for (const required of principalPages) {
+  test(`${required.path}: idioma correspondente e retorno`, async ({
+    page,
+  }) => {
+    await page.goto(required.path);
+    const english = required.lang === 'pt-BR';
+    await page
+      .getByRole('navigation', {
+        name: english ? 'Idioma' : 'Language',
+        exact: true,
+      })
+      .getByRole('link', {
+        name: english ? 'English' : 'Português',
+        exact: true,
+      })
+      .click();
+    await expect(page).toHaveURL(required.pair);
+    await page
+      .getByRole('navigation', {
+        name: english ? 'Language' : 'Idioma',
+        exact: true,
+      })
+      .getByRole('link', {
+        name: english ? 'Português' : 'English',
+        exact: true,
+      })
+      .click();
+    await expect(page).toHaveURL(required.path);
+  });
+}
+for (const locale of ['pt', 'en'] as const) {
+  const pt = locale === 'pt';
+  test(`${locale}: submenus, âncoras e teclado`, async ({ page }) => {
+    await page.goto(pt ? '/pt/sobre/' : '/en/about/');
+    const mobile = page.viewportSize()!.width < 1050;
+    if (mobile) {
+      await page.locator('.mobile-navigation>summary').focus();
+      await page.keyboard.press('Enter');
+    }
+    const nav = page.getByRole('navigation', {
+      name: pt
+        ? mobile
+          ? 'Principal móvel'
+          : 'Principal'
+        : mobile
+          ? 'Mobile main'
+          : 'Main',
+      exact: true,
+    });
+    const summary = nav.locator('summary').filter({ hasText: '⌄' }).first();
+    await summary.focus();
+    await page.keyboard.press('Enter');
+    await expect(summary).toHaveCSS('outline-style', 'solid');
+    await page.keyboard.press('Tab');
+    await expect(
+      nav.locator(`a[href$="#${aboutAnchors[locale][0]}"]`),
+    ).toBeFocused();
+    await page.keyboard.press('Shift+Tab');
+    await expect(summary).toBeFocused();
+    await page.keyboard.press('Tab');
+    await page.keyboard.press('Enter');
+    await expect(page).toHaveURL(new RegExp(`#${aboutAnchors[locale][0]}$`));
+    for (const id of aboutAnchors[locale])
+      await expect(page.locator(`[id="${id}"]`)).toHaveCount(1);
+    await page.goto(pt ? '/pt/noticias/' : '/en/news/');
+    for (const id of newsAnchors[locale])
+      await expect(page.locator(`[id="${id}"]`)).toHaveCount(1);
+  });
+  test(`${locale}: oito desafios e painéis nativos`, async ({ page }) => {
+    await page.goto(pt ? '/pt/pesquisas/' : '/en/research/');
+    for (const name of challenges)
+      await expect(
+        page.getByRole('heading', { name, exact: true }),
+      ).toBeVisible();
+    const panels = page.locator('main details');
+    expect(await panels.count()).toBeGreaterThanOrEqual(10);
+    for (const panel of await panels.all()) {
+      const summary = panel.locator('summary');
+      await summary.focus();
+      await page.keyboard.press('Enter');
+      await expect(panel).toHaveAttribute('open', '');
+      await expect(panel.locator('.panel-body')).toBeVisible();
+      await page.keyboard.press('Enter');
+      await expect(panel).not.toHaveAttribute('open');
+    }
+  });
+  test(`${locale}: paginação e ausência de tradução`, async ({
+    page,
+    javaScriptEnabled,
+  }) => {
+    const path = pt ? '/pt/noticias/' : '/en/news/';
+    await page.goto(path);
+    await expect(page.locator('.news-card')).toHaveCount(8);
+    expect(
+      await page
+        .locator('.news-card h2 a')
+        .evaluateAll((es) => es.map((e) => e.getAttribute('href'))),
+    ).toEqual(newsOrder[locale]);
+    const input = page.getByRole('searchbox');
+    if (javaScriptEnabled) await expect(input).toBeEnabled();
+    else await expect(input).toBeDisabled();
+    await page
+      .getByRole('navigation', {
+        name: pt ? 'Paginação de notícias' : 'News pagination',
+      })
+      .getByRole('link', { name: pt ? 'Página 2' : 'Page 2' })
+      .click();
+    await expect(page).toHaveURL(path + 'page/2/');
+    await expect(page.locator('.news-card')).toHaveCount(pt ? 3 : 4);
+    const unpaired = articleRequirements.find(
+      (a) => a.locale === locale && !a.path.includes('luis-lamb'),
+    )!;
+    await page.goto(unpaired.path);
+    await expect(page.locator('.translation-missing')).toContainText(
+      pt
+        ? 'Este artigo não possui tradução disponível.'
+        : 'No translation is available for this article.',
+    );
+    await expect(page.locator('link[rel="alternate"]')).toHaveCount(0);
+    await page.locator('.translation-missing a').click();
+    await expect(page).toHaveURL(pt ? '/en/news/' : '/pt/noticias/');
+  });
+}
+test('escolha de idioma, recuperação da 404 e salto por teclado', async ({
   page,
 }) => {
-  await page.goto('/pt/');
-  await expect(page.getByRole('main')).toContainText('Conteúdo demonstrativo');
-  await expect(
-    page.getByRole('heading', { name: 'Feito para evoluir' }),
-  ).toBeVisible();
-  await page
-    .getByRole('navigation', { name: 'Idioma' })
-    .getByRole('link', { name: 'English' })
-    .click();
-  await expect(page).toHaveURL('/en/');
-  await expect(
-    page.getByRole('heading', { name: 'Built to evolve' }),
-  ).toBeVisible();
-  await expect(page.getByRole('main')).toContainText('Demonstration content');
-  await page
-    .getByRole('navigation', { name: 'Language' })
-    .getByRole('link', { name: 'Português' })
-    .click();
-  await expect(page).toHaveURL('/pt/');
-});
-
-test('escolha de idioma e recuperação da 404', async ({ page }) => {
   await page.goto('/');
   await page
     .getByRole('link', { name: 'Continue in English', exact: true })
@@ -107,16 +245,6 @@ test('escolha de idioma e recuperação da 404', async ({ page }) => {
     .getByRole('link', { name: 'Continuar em português', exact: true })
     .click();
   await expect(page).toHaveURL('/pt/');
-  const response = await page.goto('/pagina-que-nao-existe/');
-  expect(response?.status()).toBe(404);
-  await expect(page.getByRole('heading', { level: 1 })).toContainText(
-    'Página não encontrada',
-  );
-  await page.getByRole('link', { name: 'Return to home', exact: true }).click();
-  await expect(page).toHaveURL('/en/');
-});
-
-test('teclado: salto, foco e seletor de idioma', async ({ page }) => {
   await page.goto('/pt/');
   await page.keyboard.press('Tab');
   const skip = page.getByRole('link', { name: 'Pular para o conteúdo' });
@@ -127,67 +255,87 @@ test('teclado: salto, foco e seletor de idioma', async ({ page }) => {
   await expect(page.getByRole('main')).toBeFocused();
   await page.keyboard.press('Tab');
   await expect(
-    page.getByRole('link', { name: 'Explorar esta demonstração' }),
+    page.getByRole('link', { name: 'Saiba mais', exact: true }),
   ).toBeFocused();
   await page.keyboard.press('Enter');
-  await expect(page).toHaveURL('/pt/#demonstration');
-  await page.goto('/pt/');
-  await page.keyboard.press('Tab'); // salto
-  await page.keyboard.press('Tab'); // marca
-  await page.keyboard.press('Tab'); // português
-  await page.keyboard.press('Tab'); // inglês
-  const english = page
-    .getByRole('navigation')
-    .getByRole('link', { name: 'English' });
-  await expect(english).toBeFocused();
-  await expect(english).toHaveCSS('outline-style', 'solid');
-  await page.keyboard.press('Shift+Tab');
-  await expect(
-    page.getByRole('navigation').getByRole('link', { name: 'Português' }),
-  ).toBeFocused();
-  await page.keyboard.press('Tab');
-  await page.keyboard.press('Enter');
+  await expect(page).toHaveURL('/pt/sobre/');
+  expect((await page.goto('/pagina-que-nao-existe/'))?.status()).toBe(404);
+  await expect(page.getByRole('heading', { level: 1 })).toContainText(
+    'Página não encontrada',
+  );
+  await page.getByRole('link', { name: 'Return to home', exact: true }).click();
   await expect(page).toHaveURL('/en/');
 });
-
-test('links internos e âncoras de todos os HTML compilados', async ({
+test('links, âncoras, imagens e arquivos locais de todos os HTML compilados', async ({
   page,
   request,
 }) => {
+  test.setTimeout(120000);
   const files = readdirSync('.test-dist', {
     recursive: true,
     encoding: 'utf8',
-  }).filter((file) => file.endsWith('.html'));
-  expect(files).toEqual(
-    expect.arrayContaining([
-      'index.html',
-      'pt/index.html',
-      'en/index.html',
-      '404.html',
-    ]),
-  );
+  }).filter((f) => f.endsWith('.html'));
+  for (const required of requiredPages)
+    expect(files).toContain(
+      required.path.endsWith('.html')
+        ? required.path.slice(1)
+        : required.path.slice(1) + 'index.html',
+    );
+  const destinations = new Map<string, string>();
+  const idsByPath = new Map<string, string[]>();
   for (const file of files) {
     const path = `/${file.replace(/(^|\/)index\.html$/, '$1')}`;
     await page.goto(path);
-    const links = await page
-      .locator('a[href]')
-      .evaluateAll((anchors) =>
-        anchors.map((anchor) => (anchor as HTMLAnchorElement).href),
+    const ids = await page
+      .locator('[id]')
+      .evaluateAll((es) => es.map((e) => e.id));
+    expect(new Set(ids).size, `IDs duplicados em ${path}`).toBe(ids.length);
+    idsByPath.set(path, ids);
+    const urls = await page
+      .locator('a[href],img[src],script[src],link[href]')
+      .evaluateAll((es) =>
+        es.map((e) => e.getAttribute('href') ?? e.getAttribute('src') ?? ''),
       );
-    for (const href of new Set(links)) {
-      const url = new URL(href);
-      if (url.origin !== 'http://127.0.0.1:4321') continue;
-      const response = await request.get(url.href);
-      expect(response.status(), `${path} → ${href}`).toBe(200);
-      if (url.hash) {
-        await page.goto(url.href);
-        const ids = await page
-          .locator('[id]')
-          .evaluateAll((elements) => elements.map((element) => element.id));
-        expect(ids, `${path} → ${href}`).toContain(
-          decodeURIComponent(url.hash.slice(1)),
-        );
-      }
+    for (const value of urls) {
+      const url = new URL(value, origin + path);
+      if (url.origin === origin) destinations.set(url.href, path);
+    }
+    const images = page.locator('img');
+    for (const img of await images.all()) {
+      expect(await img.getAttribute('alt')).not.toBeNull();
     }
   }
+  for (const [href, from] of destinations) {
+    const url = new URL(href);
+    const response = await request.get(url.href);
+    expect(response.status(), `${from} → ${href}`).toBe(200);
+    if (url.hash)
+      expect(idsByPath.get(url.pathname), `${from} → ${href}`).toContain(
+        decodeURIComponent(url.hash.slice(1)),
+      );
+    if (/\.(png|jpe?g|gif|webp|svg)$/.test(url.pathname)) {
+      expect(response.headers()['content-type']).toMatch(/^image\//);
+      expect((await response.body()).length, href).toBeGreaterThan(100);
+    }
+  }
+});
+
+test('par real de artigos: seletor explícito e retorno', async ({ page }) => {
+  const pt = articleRequirements.find(
+    (a) => a.locale === 'pt' && a.path.includes('luis-lamb'),
+  )!;
+  const en = articleRequirements.find(
+    (a) => a.locale === 'en' && a.path.includes('luis-lamb'),
+  )!;
+  await page.goto(pt.path);
+  await page
+    .getByRole('navigation', { name: 'Idioma', exact: true })
+    .getByRole('link', { name: 'English', exact: true })
+    .click();
+  await expect(page).toHaveURL(en.path);
+  await page
+    .getByRole('navigation', { name: 'Language', exact: true })
+    .getByRole('link', { name: 'Português', exact: true })
+    .click();
+  await expect(page).toHaveURL(pt.path);
 });

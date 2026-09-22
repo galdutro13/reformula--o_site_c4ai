@@ -1,0 +1,79 @@
+{
+  "id": "obia-en",
+  "translationId": "obia",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/research_2/",
+  "retrievedAt": "2026-09-19T17:41:08.407988+00:00",
+  "anchor": "OBIA_B_eng",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "OBIA@C4AI"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Observing and Discussing the Impact of Artificial Intelligence Leaders: Cristina Oliveira and João Veiga"
+        },
+        {
+          "type": "html",
+          "html": "<p>The goal of this big challenge is to map, understand, and debate the impact of AI in Brazil and to extent this analysis to other emerging countries. Interests in the team range from disinformation to regulation to ethical behavior. Given AI’s broad impact, these pressing questions can only be successfully addressed from a multi-disciplinary perspective. Since June 2022 the team has participated as an academic branch in the Brazilian AI Observatory led by NIC.br (the agency that regulates and controls the Brazilian internet). The AI Observatory has been created by the federal Ministry of Science, Technology and Innovation, and is usually referred to as “OBIA” (for Observatório Brasileiro de Inteligência Artificial”).</p>"
+        },
+        {
+          "type": "details",
+          "id": "5-c147",
+          "label": "Resources",
+          "children": [
+            {
+              "type": "html",
+              "html": "<a href=\"https://obia.nic.br/\"> OBIA – Main Site</a>"
+            }
+          ]
+        },
+        {
+          "type": "details",
+          "id": "5-c151",
+          "label": "Resources",
+          "children": [
+            {
+              "type": "html",
+              "html": "<a href=\"https://obia.nic.br/\"> OBIA – Main Site</a>"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " Contact"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<p>c4ai-humanities@usp.br</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "OBIA_B_eng"
+    }
+  ]
+}

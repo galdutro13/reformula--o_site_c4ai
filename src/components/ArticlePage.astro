@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsSidebar from './NewsSidebar.astro';
+import NewsSearch from './NewsSearch.astro';
+import Content from './Content.astro';
+import Media from './Media.astro';
+import {
+  articles,
+  getPage,
+  articleTranslations,
+  type Editorial,
+} from '../content/editorial';
+import { labels } from '../i18n/navigation';
+import { contentUrl, pagePath } from '../i18n/routes';
+interface Props {
+  entry: Editorial;
+}
+const { entry } = Astro.props;
+const all = await articles();
+const about = await getPage('about', entry.locale);
+const news = await getPage('news', entry.locale);
+const t = labels[entry.locale];
+const siblings = all.filter((e) => e.locale === entry.locale);
+const index = siblings.findIndex((e) => e.id === entry.id);
+const previous = siblings[index + 1];
+const next = siblings[index - 1];
+---
+
+<BaseLayout
+  locale={entry.locale}
+  title={`${entry.title} | C4AI`}
+  description={entry.description}
+  path={entry.path}
+  translations={articleTranslations(entry, all)}
+>
+  <div class="article-banner">
+    <Media
+      class="hero-background"
+      src={about.heroImages[0]}
+      alt=""
+      loading="eager"
+    />
+    <p class="container">{news.title}</p>
+  </div>
+  <div class="container news-layout">
+    <article class="article-body">
+      <div class="article-heading">
+        <a href={pagePath('news', entry.locale)}>{t.news}</a>
+        <h1>{entry.title}</h1>
+        <p>
+          <a href={entry.authorUrl}>{entry.author}</a> ·{' '}
+          <time datetime={entry.date}>{entry.dateLabel}</time>
+        </p>
+      </div>
+      {entry.image && (
+        <Media class="article-cover" src={entry.image} alt="" loading="eager" />
+      )}
+      <div class="source-content">
+        <Content blocks={entry.blocks} locale={entry.locale} />
+      </div>
+      <div class="article-meta">
+        <h2>{t.categories}</h2>
+        <ul>
+          {entry.categories.map((c) => (
+            <li>
+              <a href={c.href}>
+                {c.label} ({t.external})
+              </a>
+            </li>
+          ))}
+        </ul>
+        <a href={entry.source}>{t.source} ↗</a>
+      </div>
+      <nav
+        class="article-navigation"
+        aria-label={
+          entry.locale === 'pt' ? 'Navegação de artigos' : 'Article navigation'
+        }
+      >
+        {previous && <a href={contentUrl(previous.path)}>← {previous.title}</a>}
+        {next && <a href={contentUrl(next.path)}>{next.title} →</a>}
+      </nav>
+    </article>
+    <div>
+      <NewsSearch locale={entry.locale} />
+      <NewsSidebar locale={entry.locale} />
+    </div>
+  </div>
+</BaseLayout>

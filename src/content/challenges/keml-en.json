@@ -1,0 +1,87 @@
+{
+  "id": "keml-en",
+  "translationId": "keml",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/research_2/",
+  "retrievedAt": "2026-09-19T17:41:08.407988+00:00",
+  "anchor": "KEML_B_eng",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "KEML"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Knowledge Enhanced Machine Learning Leaders: Sarajane Peres and Fabio Cozman"
+        },
+        {
+          "type": "html",
+          "html": "<p>The broad goal of this research challenge has been to merge data-driven learning and knowledge-based reasoning; even though AI is now very successful due to machine learning breakthroughs, more attention must be devoted to reasoning that has formal guarantees. The research team has worked on a conversational agent that combines several sources of information about the ocean, looking both at web-based and at robot-based interfaces. Significant effort is now devoted to evaluation of large language models so as to obtain guarantees of factuality. The team has also investigated neuro-symbolic combinations of probabilistic programming and neural networks to address automated argumentation.</p>"
+        },
+        {
+          "type": "details",
+          "id": "5-c98",
+          "label": "Team",
+          "children": [
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Ingles_Equipes_modeloC4AI.pdf\"> View AI Health team</a>"
+            },
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Eng_Equipes_C4AI_16_04_24_ex_members.pdf\"> See the KEML former members</a>"
+            }
+          ]
+        },
+        {
+          "type": "details",
+          "id": "5-c102",
+          "label": "Resources",
+          "children": [
+            {
+              "type": "html",
+              "html": "<p>\n<a href=\"https://sites.usp.br/keml/en/keml-en\"><strong>KEML</strong></a>\n<a href=\"https://sites.usp.br/keml/en/keml-en\">Open reference</a>– Main Site</p>"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " Contact"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<p>c4ai-graphml@usp.br</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "html": "<p class=\"resource-note\">Contact to be confirmed: the source shows an address associated with another group.</p>"
+        }
+      ],
+      "id": "KEML_B_eng"
+    }
+  ]
+}

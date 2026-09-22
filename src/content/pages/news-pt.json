@@ -1,0 +1,815 @@
+{
+  "id": "news-pt",
+  "kind": "news",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/category/noticias/",
+  "retrievedAt": "2026-09-19T17:41:16.418213+00:00",
+  "path": "/pt/noticias/",
+  "translationId": "news",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "text": "Histórico dos Eventos"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>Confira eventos, seminários, mesas redondas organizadas pelo C4AI</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "section",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"/pt/noticias/#chat_port\"> ChatGPT</a>"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"/pt/noticias/#seminar_port\"> Seminários</a>"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"/pt/noticias/#mesaRedonda\"> Mesa Redonda</a>"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"/pt/noticias/#techLaw_port\"> Tech Law</a>"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"/pt/noticias/#05_port\"> C4AI</a>"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"/pt/noticias/#press\"> Press</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "id": "topo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "section",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "ChatBot & ChatGPT"
+                            }
+                          ],
+                          "id": "chat_port"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/ym2IRniESj0\">A Universidade tem obrigação de estudar o ChatGPT e mostrar seus defeitos e virtudes</a> - Glauco Arbix - 21/04/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>I\n<a href=\"https://youtu.be/djlowF9xiPs\">LP CICLE - FAPESP DE CIÊNCIA E INOVAÇÃO - Inteligência Artificial: ChatGPT, colaboração ou ameaça?</a> - Dora Kaufman, João Paulo, Marcelo Finger, Frederico Bortolato, Carlos Américo Pacheco - 27/03/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/_UsfguxAF8A\">Agentes conversacionais, modelos de linguagem, chatbots </a>- Fábio Cozman - 21/03/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/xOkQlCVzb3o\">ChatGPT: potencialidades, limites e implicações para a Universidade - Comunidade USP e especialistas</a> - Comunidade USP e especialistas - 21/03/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/lBrDeibUjQk\">Diálogos com Glauco Arbix: ChatGPT</a> - Diálogos: Glauco Arbix - 18/03/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/-vmRlv4rX_4\">ChatGPT na ciência </a>- Fernando Osório - 28/02/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/OGUZaQkHabI\">É hora do ChatGPT: por que um chatbot gera tanto debate?</a> - Solange Rezende, Fernando Osório, Seiji Isotnai e Thiago Pardo - 11/02/2023</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "section",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Perspectivas em Seminários"
+                            }
+                          ],
+                          "id": "seminar_port"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/IbDcMPbumlU\">Como representar melhor o significado das palavras?</a> - Antônio Horta Branco - 31/05/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/xKpSSVUoy5k\">Alavancando simulação diferenciável para aprendizado por reforço e randomização de domínio bayesiano</a> - Fábio Ramos - 26/04/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/65o6dzOcK8s\">Computação de problemas de decisão e enumeração de quadros de argumentação abstrata: aspectos teóricos e práticos</a> - Odinaldo Rodrigues - 08/03/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/YXBF085aQmE\">Princípios de aprendizado de máquina explicável: interpretabilidade, raciocínio e além </a>- Vaishak Belle - 08/06/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Ef33n3l3glI\">Aplicando a teoria à prática: do algoritmo de limiar às redes neurais lógicas</a> - Ronald Fagin - 29/11/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/2r5Oo0YyKUk\">A terceira onda da IA</a> ​​- Kristian Kersting - 21/10/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/JAeLgSn3ZzM\">Inteligência artificial a serviço da sociedade para analisar argumentos humano</a> - Charles Bouveyron and Serena Villata - 10/10/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/-rzCDoBi5SA\">Ciência de dados contra o COVID-19</a> - Nuria Oliver - 09/09/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/8IeheJ6959s\">Computação de problemas de decisão e enumeração de frameworks de argumentação abstrata: aspectos teóricos e práticos</a> - Tommie Meyer - 08/07/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/4IJfCOac_XE\">Rumo ao aprendizado totalmente não supervisionado e aconselhável</a> - Trevor Darrell - 17/06/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/lW3pFpYbo1c\">Modelos probabilísticos computacionais</a> - Guy Van den Broeck - 31/03/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/oG2vpGlWs1g\">Robótica socialmente assistida: implicações para a saúde, educação, formação e futuro do trabalho</a> - Maja Matarić - 18/03/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Md8Ynon6OaY\">Foco no gol, não na bola: oportunidades críticas para o futuro da inteligência artificial e aprendizado de máquina</a> - Scott Sanner - 25/02/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/7a7vslr1q2w\">Modelos probabilísticos computacionais</a> - Luis Lamb - 24/02/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/dfXLfuOflJ0\">Melhorando a cognição humana</a> - Pattie Maes - 08/12/2020</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/IbDcMPbumlU\">BRACIS + C4AI Keynote Speaker # David Cox - Talk: neuro symbolic AI</a> - David Cox - 22/10/2020</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "section",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Mesa Redonda"
+                            }
+                          ],
+                          "id": "mesaRedonda"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/d3ad2tp4AeA\">Seminário online: integração de agrodata - Embrapa</a> - Embrapa, Universidade de São Paulo, Lawgorithm, Legal Grounds Institute, Center for Artificial Intelligence (C4AI) - 11/05/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/rzn_WIrMX1Y\">IA e o combate à fome e insegurança alimentar </a>- Semíramis Martins Álvares Domene (UNIFESP e IEA-USP), Marcelo Cândido da Silva (FFLCH-USP, e GT USP de Combate à Fome e Insegurança Alimentar), Evandro Saidel Ribeiro (FEARP-USP),\ne Rodrigo Yoiti Tsukahara (Fundação ABC). O evento será mediado por Antonio M. Saraiva (IEA e Poli-USP) e Alexandre C.B. Delbem (ICMC-USP) - 02/06/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/loxGAhgpoFQ\">Discriminação algorítmica: o papel da diversidade e inclusão na IA</a> - Andreza Rocha, Tarcízio Silva, Valdinei Freire, Laura Simões Camargo - 19/05/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/URrRl3Owm4Y\">Responsabilidades e políticas públicas</a> - Cristina Godoy e Manoel Galdino - Rodrigo Brandão - 28/04/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Y8iLJIwlyVw\">Inteligência artificial e democracia</a> - Cristina Godoy, Rubens Beçak e Alfredo Attié Kaleo Dornaika - 24/11/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/pW3OJ1r41tQ\">A regulamentação do uso de IA no Brasil</a> - Eduardo Bismarck (PDT-CE) e Fabio Rua (IBM) - 27/10/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/ZzpKTaZEeW8\">A superindústria do imaginário</a> - Eugênio Bucci, Dora Kaufman, Vitor Blotta e Rodrigo Brandão - 23/09/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/34sz3j1fQ6k\">Centros brasileiros de inteligência artificial</a> - André C. de Carvalho, Virgílio A. Almeida, João M. Romano, Antônio S. Neto, Jefferson de O. Gomes, Francisco R. Cavalcanti e Fabio G. Cozman - 24/06/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/CTXA2C3BHko\">Estratégia brasileira de inteligência artificial</a> - Paulo C. Alvim, Glauco Arbix, André Carlos de Carvalho, Fabio Cozman - 07/05/2021</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "section",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Tech Law | Seminários"
+                            }
+                          ],
+                          "id": "techLaw_port"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/GuCKTsICAng\">Desmistificando a inteligência artificial </a>- Renato Tinós - 12/04/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/LdCnczgeG0k\">Conferência: a relação entre direito e tecnologia</a> - Ricardo Campos - 24/03/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/_ptCAS_2FsA\">Tripé de aceleração da inovação: conceito e prática para as organizações</a> - Daniela Motta Monte Serrat Cabella - 23/11/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/b1HemhIX0Uc\">Segurança da informação: computação confidencial</a> - Fernando Kaway Carvalho Ota - 26/10/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/oC_mppWDnWM\">(inglês) HS 2021</a> - 14 de dezembro - conferências matinais - Palestrante principal: Keeley Crockett (Manchester Metropolitan University), Renata Wasserman - 14/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/ruv4YlM-0b4\">(áudio original) HS 2021</a> - 14 de dezembro - Manhã - Palestrante principal: Keeley Crockett (Manchester Metropolitan University) - Renata Wasserman - 14/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/5ZUYAbecq_Y\">(português) HS 2021</a> - 14 de dezembro - conferências matinais - Palestrante principal: Keeley Crockett (Manchester Metropolitan University) - Renata Wasserman - 14/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://www.youtube.com/live/vQR9zcfuyVU?feature=share\">(original audio) HS 2021</a> - December 14 - Afternoon - João Paulo Cândia Veiga, Gabriella Seiler - 14/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/5ZUYAbecq_Y\">(português) HS 2021</a> - 14 de dezembro - tarde - João Paulo Cândia Veiga, Gabriella Seiler - 14/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://www.youtube.com/watch?v=LQfRFY96e2E\">(inglês) HS 2021</a> - 14 de dezembro - tarde - Genevieve Bell - 14/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Z5hSQGAdRJQ\">HS 2021 - Painel I - Sobre governança e regulação de IA</a> - João Paulo Cândia Veiga Comentadores: Cristina Godoy - 13/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/TG1Cs-XgB9Y\">HS 2021 - Painel II e III</a> - Álvaro Comin Comentadores: Valdinei Freire - 13/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/bRPupEtVCdU\">Sessão de abertura e palestra altos riscos no tribunal superior</a> - Burkhard Schafer (Edimburgo University) Mediador: Ary Plonsky - 13/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/tWI_oWDKsPA\">(português) HS 2021 - Sessão de abertura e palestra altos riscos no superior tribunal de justiça</a> - Burkhard Schafer (Edimburgo University) Mediador: Ary Plonsky - 13/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://www.youtube.com/watch?v=iqsF0wUY3Qc\">(inglês) HS 2021 - Sessão de abertura e palestras altos riscos no superior tribunal de justiça</a> - Burkhard Schafer (Edimburgo University) Mediador: Ary Plonsky - 13/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/F5WwcP-bYEA\">1° Workshop do Centro de Inteligência Artificial (C4AI)</a> - Ronald Fagin, (IBM Research - Almaden) - 29/11/202</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Ef33n3l3glI\">1º Workshop do C4AI | Perspectivas no seminário de IA do C4AI</a> - Ronald Fagin - Ronald Fagin, (IBM Research - Almaden) - 29/11/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://c4ai.inova.usp.br/bracis2021\">10º congresso brasileiro de sistemas inteligentes</a> - C4AI, USP, FEI - 29/11/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://c4ai.inova.usp.br/wc4ai2021\">1\n<sup>st</sup> Workshop C4AI - Evento co-realizado com a Bracis 2021</a> - 29/11/2021</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "section",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Encontros C4AI"
+                            }
+                          ],
+                          "id": "05_port"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/phUWTycvj8E\">Comemoração do 2° aniversário do C4AI</a> - 2022- 19/10/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/F5WwcP-bYEA\">Apresentar o centro C4AI e suas atividades</a> - Dr. Ronald Fagin, (IBM Research - Almaden) - 29/11/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/IkNn0REmmWU\">Kickoff meeting Center for Artificial Intelligence C4AI</a> - Fábio Cozman (USP - Deputy Director, C4AI of IBM/USP/FAPESP) e Cláudio Pinhanez (IBM - Deputy Director, C4AI of IBM/USP/FAPESP) - 18/10/2020</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "section",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Press & Media"
+                            }
+                          ],
+                          "id": "press"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/1X_0rl4Td_g\">Webinar \"Hi Innovation\" - inteligência artificial com C4AI e IBM</a> - Claudio Pinhanez, Fábio Gagliardi Cozman, Luiz Henrique Catalani - 12/04/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/7fZLkcmGNeY\">Ex_Machina chat: instinto artificial | CineCiência</a> - José Luiz Goldfarb - 21/03/2023</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/P6bqNvyUSu4\">Racismo, proteção de dados e reconhecimento facial</a> - Assembleia Legislativa do Estado de São Paulo - 13/12/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/JtYg6lxJk5s\">Programa especial de iniciação científica da comissão de inclusão e diversidade</a> - C4AI 2022 - Renata Wassermann, Valdinei Freire da Silva - 09/11/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/c-0X0mJA-zk\">C4AI: parceria USP+IBM+FAPESP com foco em inteligência Artificial (português)</a> - IV SEnC - Alexandre Delbem, Fabio Gagliardi Cozman, Fernando Santos Osório e Marcelo Finger. - 26/10/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/8PULFcVityM\">Democracia e inteligência artificial (língua portuguesa</a>) – Comissão de Juristas - 09/06/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/loxGAhgpoFQ\">Discriminação algorítmica: o papel da diversidade e inclusão na IA</a> - Andreza Rocha, Tarcízio Silva, Valdinei Freire, Laura Simões Camargo - 19/05/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/LMKzn16cdxQ\">Audiências públicas sobre inteligência artificial</a> – Comissão de Juristas - 18/05/20222</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/jd2Fq7j_E1Q\">Quarto dia de debates sobre inteligência artificial</a> - 2ª parte - Comissão de Juristas 13/05/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/I8PgkmCNafA\">Quarto dia de debates sobre inteligência artificial</a> - 1ª parte - Comissão de Juristas 13/05/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/JCFjDLrZOoQ\">Regulamentação da inteligência artificial continua em discussão na comissão de juristas - 2ª parte</a> - Comissão de Juristas - 12/05/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/sbKqIC3xE3c\">Regulamentação da inteligência artificial em discussão na comissão de juristas - 1ª parte</a> - Comissão de Juristas - 12/05/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/xmXU3npvQOs\">Debate sobre regulamentação da inteligência artificial - 2ª parte</a> – Comissão de Juristas - 29/04/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/btvUKSdnc3g\">Debate na regulamentação da inteligência artificial - 1ª parte</a> – Comissão de Juristas - 28/04/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/btvUKSdnc3g\">Comissão de juristas debatem sobre a inteligência artificial - 1ª parte</a> - Commission of Jurists - 28/04/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/P_yWp-2ZIZs\">Comissão de juristas promove debates sobre regulamentação da inteligência artificial - 2ª parte</a> - Comissão de Juristas - 19/04/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Xx3Jue8SFc4\">Agenda 2023 - política econômica para o desenvolvimento da CT&amp;I</a> - Guilherme Ary Plonski (Diretor do IEA/USP) - 14/04/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/N-mci5BKJ_w\">Agenda 2023 – reconstruindo as políticas brasileiras de CT&amp;I: por onde começar?</a> - Luiz Eugênio Mello, Glauco Arbix - 05/04/2022</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Z5hSQGAdRJQ\">HS 2021 - Painel I – sobre governança e regulação da IA</a> - João Paulo Cândia Veiga Comentadores: Cristina Godoy - 13/12/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/tSVpE_XPapU\">O uso da inteligência artificial na educação: ampliando o acesso ouautomatizando a desigualdade?</a> - Giselle Ferreira (Professora Adjunta no Departamento de Educação da PUC-RJ) e Luis Junqueira (sócio-fundador da Letrus) - Mediação:\nMurillo Marschner (FFLCH-USP e C4AI) - 20/11/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/nQ6OJNsr_lI\">Marco legal da inteligência artificial</a> - Conversas - Francisco Brito Cruz (FD-USP e Internetlab) e Juliano Maranhão (FD-USP), João Paulo Cândia Veiga (FFLCH-USP e C4AI)] - 18/11/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/8Co4qiwefr0\">As implicações sociais do reconhecimento facial: o caso da segurança pública</a> - Lívia Ruback (Universidade Federal Rural do Rio de Janeiro – UFRRJ) e Pablo Nunes (Centro de Estudos de Segurança e Cidadania – CESeC) - 26/10/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/JtYg6lxJk5s\">Programa especial de iniciação científica do Comitê de Inclusão e Diversidade</a> – C4AI - Renata Wassermann, Fabio Cozman, Valdinei Freire da Silva, Claudio Pinhanez - 27/09/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/Oureyq-pLVk\">Inteligência artificial e trabalho: os desafios da educação pelas novas interfaces homem-máquina</a> - Ibrahim Kushchu (TheNextMinds) e Alexandre Le Voci Sayad (ZeitGeist Educação/UNESCO MIL Alliance, Dora Kaufman (PUC-SP) - 19/10/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/sV0zVdwK7zA\">A robótica está chegando à escola, ao hospital... à nossa casa! Estamos prontos?</a> Esther Luna Colombini (Instituto de Computação da Universidade Estadual de Campinas) e Anna Priscilla de Albuquerque Wheler (Ontario Tech University,\nCanadian National Institute for the Blind, CNIB Research e Mitacs) - Sarajane Marques Peres (Escola de Artes, Ciências e Humanidades da Universidade de São Paulo-EACH USP e Center for Artificial Intelligence-C4AI - USP/IBM/FAPESP\n- 20/09/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/X3zgvRtcLYg\">Direito, inovação e inteligência artificial</a>- Cristina Godoy Bernardo de Oliveira (IEA USP) Eduardo Altomare Ariente (OIC IEA USP e UPM) e Maria Edelvacy Marinho (OIC IEA USP e UPM) - 19/07/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/P6bqNvyUSu4\">A Evolução da Indústria Brasileira rumo ao padrão 4.0 e sua Implementação no IPT AI Cente</a>r - IPT - 23/06/2021</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/ZsLiL4IYYvI\">SciBiz 2020 - Painel C4AI (Center for A.I.)</a> - Claudio Pinhanez, Fernando Osório, Marcelo Finger, Alexandre Delbem - 18/11/2020</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/IbDcMPbumlU\">BRACIS + C4AI Keynote Speaker # David Cox - Talk: neuro symbolic aI</a> - David Cox - 22/10/2020</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/akgybTjRjNY\">[SAIF 2020] Dia 2: Live Streaming | Samsung</a> - Samsung AI Forum 2020 - Dia 2 - 11/02/2020</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/7QCepggAQNs\">Diálogos na USP - Inteligência artificial (Bloco 1)</a> - Glauco Arbix e Fabio G. Cozman - 18/08/2019</p>"
+                },
+                {
+                  "type": "html",
+                  "html": "<p>\n<a href=\"https://youtu.be/v9w5dl_b_Wo\">Diálogos na USP - Inteligência artificial (Bloco 2)</a> - Glauco Arbix e Fabio G. Cozman - 18/08/2019</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "custom"
+    }
+  ],
+  "title": "C4AI notícias e eventos",
+  "heroBlocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<p>Esta página apresenta as notícias, eventos, seminários e cursos relacionados/ organizados pelo C4AI, e outras notícias relevantes de Inteligência Artificial.</p>"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "level": 2,
+                          "text": "CAnal do YOUTUBE"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<p>Acompanhe no nosso canal no YouTube os seminários e as mesas redondas.</p>"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<a href=\"https://www.youtube.com/c/C4AIUSP\"> veja mais</a>"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "level": 2,
+                          "text": "instagram"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<p><em>Não fique fora dos nossos encontros, nos acompanhe no Instagram.</em></p>"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<a href=\"https://www.instagram.com/c4aiusp/\"> confira</a>"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "level": 2,
+                          "text": "flickr"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<p><em>Visite nossa galeria de fotos dos eventos realizados pelo C4AI.</em></p>"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<a href=\"https://www.flickr.com/photos/195298871@N06/albums\"> veja mais</a>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "hero"
+    }
+  ],
+  "sidebarLinks": [
+    {
+      "label": "Eventos",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/eventos/"
+    },
+    {
+      "label": "Imprensa",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/"
+    },
+    {
+      "label": "Notícias",
+      "href": "/pt/noticias/"
+    },
+    {
+      "label": "Reportagens",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/reportagens/"
+    },
+    {
+      "label": "Seminários",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/seminarios/"
+    }
+  ],
+  "calendar": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+  "listedArticles": [
+    "/pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "/pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "/pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/",
+    "/pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/",
+    "/pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+    "/pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/",
+    "/pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/",
+    "/pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/",
+    "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/page/2/",
+    "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/page/2/"
+  ],
+  "description": "C4AI notícias e eventos"
+}

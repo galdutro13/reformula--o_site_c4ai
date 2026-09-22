@@ -1,21 +1,47 @@
 ---
 import LanguageSwitcher from './LanguageSwitcher.astro';
-import { pagePath, type PageId } from '../i18n/routes';
-import { ui, type Locale } from '../i18n/ui';
+import Navigation from './Navigation.astro';
+import { pagePath, withBase, type Translations } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+import { labels } from '../i18n/navigation';
+import marks from '../data/marks.json';
 interface Props {
   locale: Locale;
-  pageId?: PageId;
+  translations: Translations;
 }
-const { locale, pageId } = Astro.props;
+const { locale, translations } = Astro.props;
 ---
 
-<header class="site-header container">
-  <a
-    class="wordmark"
-    href={pagePath('home', locale)}
-    aria-label={`C4AI — ${ui[locale].home}`}
-  >
-    C4AI<span aria-hidden="true">.</span>
-  </a>
-  <LanguageSwitcher locale={locale} pageId={pageId} />
+<header class="site-header">
+  <div class="header-main container">
+    <a
+      class="wordmark"
+      href={pagePath('home', locale)}
+      aria-label={`C4AI — ${labels[locale].home}`}
+    >
+      <img
+        src={withBase(marks.logo)}
+        width="181"
+        height="72"
+        alt="Center for Artificial Intelligence"
+      />
+    </a>
+    <nav
+      class="desktop-navigation"
+      aria-label={locale === 'pt' ? 'Principal' : 'Main'}
+    >
+      <Navigation locale={locale} />
+    </nav>
+    <details class="mobile-navigation">
+      <summary>
+        {labels[locale].menu} <span aria-hidden="true">☰</span>
+      </summary>
+      <nav aria-label={locale === 'pt' ? 'Principal móvel' : 'Mobile main'}>
+        <Navigation locale={locale} />
+      </nav>
+    </details>
+  </div>
+  <div class="language-bar container">
+    <LanguageSwitcher locale={locale} translations={translations} />
+  </div>
 </header>

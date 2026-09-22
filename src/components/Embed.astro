@@ -1,0 +1,63 @@
+---
+import type { Locale } from '../i18n/ui';
+import { labels } from '../i18n/navigation';
+interface Props {
+  url: string;
+  label: string;
+  locale: Locale;
+}
+const { url, label, locale } = Astro.props;
+const t = labels[locale];
+const source = new URL(url);
+let embed = url;
+if (source.hostname === 'youtu.be')
+  embed = `https://www.youtube-nocookie.com/embed/${source.pathname.slice(1)}`;
+if (source.hostname.includes('youtube.com') && source.searchParams.has('v'))
+  embed = `https://www.youtube-nocookie.com/embed/${source.searchParams.get('v')}`;
+const allowed = [
+  'www.youtube-nocookie.com',
+  'calendar.google.com',
+  'www.google.com',
+].includes(new URL(embed).hostname);
+---
+
+<div
+  class="external-embed"
+  data-embed={allowed ? embed : undefined}
+  data-title={label}
+>
+  <p>
+    <a href={url}>
+      {label} — {t.open} ↗
+    </a>
+  </p>
+  {allowed && (
+    <button type="button" class="load-embed" hidden>
+      {t.load}: {label}
+    </button>
+  )}
+  <div class="embed-slot"></div>
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-embed]').forEach((element) => {
+    const button = element.querySelector<HTMLButtonElement>('button');
+    if (!button) return;
+    button.hidden = false;
+    button.addEventListener(
+      'click',
+      () => {
+        const frame = document.createElement('iframe');
+        frame.src = element.dataset.embed!;
+        frame.title = element.dataset.title!;
+        frame.referrerPolicy =
+          new URL(frame.src).hostname === 'www.youtube-nocookie.com'
+            ? 'strict-origin-when-cross-origin'
+            : 'no-referrer';
+        frame.allowFullscreen = true;
+        element.querySelector('.embed-slot')!.replaceChildren(frame);
+        button.hidden = true;
+      },
+      { once: true },
+    );
+  });
+</script>

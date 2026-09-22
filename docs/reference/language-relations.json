@@ -1,0 +1,569 @@
+[
+  {
+    "source": "https://c4ai.inova.usp.br/pt/inicio/",
+    "target": "https://c4ai.inova.usp.br/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/research_2/",
+    "target": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/research-activities-in-the-c4ai/",
+    "target": "https://c4ai.inova.usp.br/pt/pesquisas/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/about/",
+    "target": "https://c4ai.inova.usp.br/pt/sobre/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/",
+    "target": "https://c4ai.inova.usp.br/pt/inicio/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-news-and-events-2/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/noticias/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/opportunities/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/opportunities-application/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades-de-aplicacao/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/publications/",
+    "target": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/partners/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/parceiros/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/sobre/",
+    "target": "https://c4ai.inova.usp.br/about/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/noticias/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-news-and-events-2/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/oportunidades-de-aplicacao/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/opportunities-application/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "target": "https://c4ai.inova.usp.br/opportunities/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/partners/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "target": "https://c4ai.inova.usp.br/research_2/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/category/seminars/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/seminarios/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/category/news/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/category/events/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/eventos/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/category/press/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/category/seminarios/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/news/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/category/eventos/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/events/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/category/imprensa/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/press/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/author/fosorio/",
+    "target": "https://c4ai.inova.usp.br/author/fosorio/",
+    "status": "inválido: aponta para si próprio",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/author/fosorio/",
+    "target": "https://c4ai.inova.usp.br/pt/author/fosorio/",
+    "status": "inválido: aponta para si próprio",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "http://c4ai.inova.usp.br/partners/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/parceiros/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/research_2/",
+    "target": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+    "target": "https://c4ai.inova.usp.br/pt/pesquisas/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/about/",
+    "target": "https://c4ai.inova.usp.br/pt/sobre/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/",
+    "target": "https://c4ai.inova.usp.br/pt/inicio/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-news-and-events-2/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/noticias/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/opportunities/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/opportunities-application/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades-de-aplicacao/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+    "target": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/partners/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/parceiros/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/inicio/",
+    "target": "https://c4ai.inova.usp.br/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/sobre/",
+    "target": "https://c4ai.inova.usp.br/about/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/research-activities-in-the-c4ai/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/noticias/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/c4ai-news-and-events-2/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades-de-aplicacao/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/opportunities-application/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/oportunidades/",
+    "target": "https://c4ai.inova.usp.br/opportunities/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/publicacoes/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/publications/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/parceiros/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/partners/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/pesquisas_2/",
+    "target": "https://c4ai.inova.usp.br/research_2/",
+    "status": "candidato não recíproco",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": false,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/seminarios/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/category/news/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/category/events/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/eventos/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/category/press/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/seminarios/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/news/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/eventos/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/events/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/category/press/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/fosorio/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/fosorio/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/2022/02/27/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/pt/2022/02/27/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  },
+  {
+    "source": "https://c4ai2023.webhostusp.sti.usp.br/pt/2022/02/27/",
+    "target": "https://c4ai2023.webhostusp.sti.usp.br/2022/02/27/",
+    "status": "recíproco técnico",
+    "selector_matches": true,
+    "target_status": 200,
+    "reciprocal": true,
+    "content_equivalence": "Não presumida; ver pares editoriais no inventário"
+  }
+]

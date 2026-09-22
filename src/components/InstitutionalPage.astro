@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Content from './Content.astro';
+import Media from './Media.astro';
+import { getPage } from '../content/editorial';
+import { pagePath, type PageId } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  pageId: PageId;
+}
+const { locale, pageId } = Astro.props;
+const entry = await getPage(pageId, locale);
+const home = pageId === 'home';
+const body = home
+  ? entry.blocks.map((block) =>
+      block.type === 'group'
+        ? {
+            ...block,
+            children: block.children.map((child) =>
+              child.type === 'group' && child.id === 'reusable-sections'
+                ? { ...child, children: child.children.slice(1) }
+                : child,
+            ),
+          }
+        : block,
+    )
+  : entry.blocks;
+---
+
+<BaseLayout
+  locale={locale}
+  pageId={pageId}
+  title={`C4AI | ${pageId === 'home' ? (locale === 'pt' ? 'Início' : 'Home') : pageId === 'about' ? (locale === 'pt' ? 'Sobre' : 'About') : locale === 'pt' ? 'Pesquisas' : 'Research'}`}
+  description={entry.description}
+>
+  <div class:list={['institutional', `page-${pageId}`]}>
+    <section class:list={['page-hero', { 'home-hero': home }]}>
+      {!home && entry.heroImages[0] && (
+        <Media
+          class="hero-background"
+          src={entry.heroImages[0]}
+          alt=""
+          fetchpriority="high"
+          loading="eager"
+        />
+      )}
+      <div class="container hero-inner">
+        <div>
+          <h1>{entry.title}</h1>
+          {home ? (
+            <a class="button-link" href={pagePath('about', locale)}>
+              {locale === 'pt' ? 'Saiba mais' : 'About us'}
+            </a>
+          ) : (
+            <Content blocks={entry.heroBlocks} locale={locale} />
+          )}
+        </div>
+        {home && (
+          <Media
+            class="home-illustration"
+            src={entry.image}
+            alt=""
+            fetchpriority="high"
+            loading="eager"
+          />
+        )}
+      </div>
+    </section>
+    <div class="container source-content">
+      {entry.promos.length > 0 && (
+        <div class="promotional-cards">
+          <Content blocks={entry.promos} locale={locale} />
+        </div>
+      )}
+      <Content blocks={body} locale={locale} />
+      {entry.heroImages.length > 1 && (
+        <div
+          class="source-gallery"
+          role="group"
+          aria-label={
+            locale === 'pt'
+              ? 'Outras imagens do destaque original'
+              : 'Other images from the original feature'
+          }
+        >
+          {entry.heroImages.slice(1).map((src) => (
+            <Media src={src} alt="" loading="lazy" />
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout>

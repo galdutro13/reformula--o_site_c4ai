@@ -1,0 +1,1170 @@
+{
+  "id": "about-en",
+  "kind": "about",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/about/",
+  "retrievedAt": "2026-09-19T17:41:08.258994+00:00",
+  "path": "/en/about/",
+  "translationId": "about",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "C4AI"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Center for Artificial Intelligence</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The Center for Artificial Intelligence (C4AI) of the University of São Paulo, sponsored by IBM and FAPESP, is committed to state-of-art research in Artificial Intelligence (AI), exploring both\nfoundational issues and applied research. The C4AI also supports studies on the social and economic impact of AI and carries activities aimed at technology transfer and knowledge diffusion, looking for ways to improve human well-\nbeing and to increase diversity and inclusion.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI was established in 2020 through a large grant by IBM and FAPESP. The host institution is the Universidade de São Paulo, operating with partnering institutions ITA, PUC-SP and FEI. The University of São Paulo matches the funding\nby supporting personnel and providing space for the C4AI activities.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI is based on the belief that the next level of AI performance can only be attained by emphasizing the combination of machine learning, decision making, knowledge representation and reasoning, and also by increasing collaboration\nbetween these core areas and applications. The connection between core AI research and application areas works both ways: the core AI research addresses large scale problems in the selected application areas and is informed by the\nscale challenges in those application areas.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI is a member of IBM’s\n<a href=\"https://research.ibm.com/collaborate/horizons-network\">AI Horizons Network (AIHN)</a>, created in 2016 to promote collaboration amongst leading universities around the world to accelerate the research and applications of AI.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI is part of the\n<a href=\"https://www.fapesp.br/cpe\">Engineering Research Centers Program</a> of FAPESP where long-term funding is directed to key broad themes.</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Location"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>The C4AI is headquartered at InovaUSP, a space for multidisciplinary research and innovation at the heart of the Butantã campus of the Universidade de São Paulo. A second facility is located at the ICMC-USP in São Carlos.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "image",
+                      "src": "/media/8b64dc5090e1.jpg",
+                      "alt": "",
+                      "width": 1067,
+                      "height": 1067
+                    },
+                    {
+                      "type": "image",
+                      "src": "/media/42ddc70db70c.jpg",
+                      "alt": "",
+                      "width": 626,
+                      "height": 448
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>In addition, the C4AI has an Outreach team which looks at technology dissemination and education of AI within society. Also, the C4AI has an Impact team aiming to foster the use of AI in enterprises and the growth and creation of AI\ntechnology providers in Brazil.</p>"
+                    },
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Mission"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>To produce advanced research in Artificial Intelligence in Brazil, disseminate and debate its main results, train students and professionals, and transfer the technology to society.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Vision"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>To be a world-class center of excellence in Artificial Intelligence and an essential organization for the scientific community and the society in Brazil.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "about-2"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "Leadership"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>C4AI is managed by an Executive Committee under the supervision of a\n<br/>Steering Committee and a Strategy Committee. The C4Al is advised by three committees: an Industry and Society Committee, a Diversity and Inclusion Committee, and an International Advisory Board.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/efe3a205cbf2.jpg",
+                              "alt": "",
+                              "width": 540,
+                              "height": 540
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Director Fabio Cozman, USP"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>Engineer (Escola Politécnica – USP) and PhD (School of Computer Science, Carnegie Mellon University, USA). Full Professor at Escola Politécnica – USP.</p>"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<a href=\"http://sites.poli.usp.br/p/fabio.cozman/\"> Site Fabio Cozman</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/aa650db47c54.jpg",
+                              "alt": "",
+                              "width": 388,
+                              "height": 373
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Deputy Director Claudio Pinhanez, IBM"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>He got his Ph.D. in 1999 from the MIT Media Laboratory. Claudio is currently the manager of the Conversational Intelligence Research group in the IBM Research Brazil laboratory.</p>"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<span>Researcher IBM — unavailable; editorial review pending</span>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/f907124dd99d.jpg",
+                              "alt": "",
+                              "width": 939,
+                              "height": 785
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Outreach Coordinator Fernando Osório, USP"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>PhD. in Computer Science (AI Hybrid Neuro-Symbolic Systems) from Institut National Polytechique de Grenoble – INPG/IMAG, France (1998). Professor and Researcher of the ICMC Institute (Computing Dept.) at USP – University of São Paulo / Campus São Carlos.</p>"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<a href=\"http://lattes.cnpq.br/7396818382676736\"> Lattes</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/6ba22890a385.jpg",
+                              "alt": "",
+                              "width": 400,
+                              "height": 400
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Impact Coordinator Glauco Arbix, USP (on leave)"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>PhD in Sociology from USP, with post-docs at MIT (2010), Columbia University (2009) and University of California at Berkeley (2008). Full/Head professor at USP and former president of FINEP (2011-2015) and IPEA (2003-2006).</p>"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<a href=\"http://lattes.cnpq.br/6513212204220783\"> Lattes</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/b6008f555305.jpg",
+                              "alt": "",
+                              "width": 540,
+                              "height": 540
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Impact Coordinator João Paulo Veiga, USP (acting)"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>Full Professor at the Department of Computer Systems of the Institute of Mathematical and Computer Sciences in the University of São Paulo (ICMC-USP) and Research Productivity Fellow 1C at CNPq. Bachelor, MSc and PhD in Electrical Engineering at USP.</p>"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<a href=\"http://lattes.cnpq.br/1059788774957753\"> Lattes</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/92426cbf59c5.jpg",
+                              "alt": "",
+                              "width": 540,
+                              "height": 540
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Infrastructure Coordinator Alexandre Delbem, USP"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>Full Professor at the Department of Computer Systems of the Institute of Mathematical and Computer Sciences in the University of São Paulo (ICMC-USP) and Research Productivity Fellow 1C at CNPq. Bachelor, MSc and PhD in Electrical Engineering at USP.</p>"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<a href=\"http://lattes.cnpq.br/1201079310363734\"> Lattes</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/c071e689c793.jpg",
+                              "alt": "",
+                              "width": 540,
+                              "height": 540
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Executive Manager Jairo Carlos Filho, USP"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>Bachelor in Electronics/Electrical Engineering from Faculdade de Engenharia Industrial (FEI) with a MBA in Quality Engineering from Escola Politécnica da USP (EP-USP) and Public Management from Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto (FEARP).</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/73844d6075ec.jpg",
+                              "alt": "",
+                              "width": 540,
+                              "height": 540
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Diffusion Manager Maurício Klein, USP"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>Bachelor in Urban and Architectural Design (1999) and Master in Work’s Security Engineer (2006). Communication Analyst, Digital Designer and Media Manager at USP since 2006.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/109798fa012e.jpg",
+                              "alt": "",
+                              "width": 540,
+                              "height": 540
+                            },
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Administrative Assistant Eliana Futenma, FUSP"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>Bachelor in business administration from ESAN/FEI Business School with technical formation in secretariat from ETEC.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "leadership"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Executive Committee"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<ul>\n<li>\n\n \n Director: Fabio Cozman, USP\n\n\n\n\n\n</li>\n<li>\n\n\n Deputy Director: Claudio Pinhanez, IBM\n\n\n\n\n\n</li>\n<li>\n\n\n Outreach Coordinator: Fernando Osório, USP\n\n\n\n\n\n</li>\n<li>\n\n\n Impact Coordinator: Glauco Arbix, USP\n\n\n\n\n\n\n</li>\n</ul>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Steering Committee"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<ul>\n<li>\n\n \n Lisa Amini, IBM\n\n\n\n\n\n</li>\n<li>\n\n\n Bruno Flach, IBM\n\n\n\n\n\n</li>\n<li>\n\n\n USP\n\n\n\n\n\n</li>\n<li>\n\n\n USP\n\n\n\n\n\n\n</li>\n</ul>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "Strategy Committee"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<ul>\n<li>\n\n \n Dario Gil, Director of IBM Research\n\n\n\n\n\n</li>\n<li>\n\n\n USP, Provost of Research\n\n\n\n\n\n\n</li>\n</ul>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "reusable-sections-6"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/d353c08ee8d0.jpg",
+                              "alt": "",
+                              "width": 1920,
+                              "height": 1149
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "The Industry and Society Committee"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>The Industry and Society Committee\n is a counseling body, aiming both at a better relationship between researchers in the center and public and private leading figures, and at the advancement of technology transfer from the center to the market and to\nsociety.\n</p>"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<a href=\"mailto:c4ai-cis@usp.br\"> Contact CIS</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "heading",
+                              "level": 3,
+                              "text": "The International Advisory Board"
+                            },
+                            {
+                              "type": "html",
+                              "html": "<p>The International Advisory Board\n, consisting of a set of well-known international researchers, advises the operation of the Center, guiding it towards new opportunities for research, aiming at increasing its international competitiveness.\n</p>"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "image",
+                              "src": "/media/face5360cac4.jpg",
+                              "alt": "",
+                              "width": 2560,
+                              "height": 1707
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "features"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "Outreach"
+                    },
+                    {
+                      "type": "heading",
+                      "level": 3,
+                      "text": "Education and Diversity"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI supports a range of scientific diffusion and knowledge dissemination activities, organizing and supporting scientific meetings and events, and promoting the AI knowledge dissemination among researchers and to the society in general. Activities also include working with press and media, scientific journalists, and with the general public through social media sites.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p><strong>Coordinators:</strong></p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Fernando Osório, USP</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Claudio Pinhanez, IBM</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"mailto:c4ai-outreach@usp.br\"> Contact</a>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "outreach"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "Diversity and Inclusion"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI also is active in the support of diversity and inclusion activities in AI for under-represented communities, with special activities for young female researchers, black students and professors, and similar groups, towards more diversity and inclusion in the current and future AI professionals.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p><strong>Coordinators:</strong></p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Valdinei Freire da Silva, USP</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Renata Wassermann, USP</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"mailto:c4ai-cid@usp.br\"> Contact</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"https://c4ai.inova.usp.br/cid/\"> See more</a>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "diversity"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "Impact & Partners"
+                    },
+                    {
+                      "type": "heading",
+                      "level": 3,
+                      "text": "Innovation, Partnerships and Spin-offs"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Working with universities, companies, governments, startups, and other organizations to effectively use AI technology towards economic and societal impact..</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Coordinators: Glauco Arbix and Claudio Pinhanez</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"mailto:c4ai-impact@usp.br\"> contact</a>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"http://c4ai.inova.usp.br/partners/\"> partners</a>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI works actively with the research and industry ecosystem towards employing the technology it develops to promote economic and societal impact.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI is establishing partnerships to collaborate with other universities and research centers in Brazil and in the world, aiming to integrate and diversify the availability of AI technology\nand tools.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI aims to help collecting, structuring, and organizing open data and code sources related to AI in the context of the Brazilian scientific and technological community. </p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>Working with partners, the goal is to support the creation of repositories of training datasets, source code for tools, and knowledge bases essential to promote research (basic and applied) and economic development based on AI.</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>The C4AI strives to work with enterprises, the startup ecosystem, and governments to foster applications of AI in business and the empowering and creation of sustainable AI technology\nproviders in Brazil. The center aims to become an active participant in the discussions related to AI public policies and strategy roadmaps for research and adoption of AI in Brazil.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "impact"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "embed",
+                      "url": "https://youtu.be/F5WwcP-bYEA",
+                      "label": "Workshop video"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "reusable-sections-2"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 2,
+                      "text": "See the Workshop video!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "reusable-sections-3"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "html",
+                      "html": "<p>C4AI is committed to preserving the personal data and privacy of users and partners, as well as adhering to LGPD (General Data Protection Law) guidelines. In case of inquiries, please contact us through the following email addresses:</p>"
+                    },
+                    {
+                      "type": "group",
+                      "layout": "row",
+                      "children": [
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"mailto:c4ai-ouvidoria@usp.br\"> c4ai-ouvidoria@usp.br</a>"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "group",
+                          "layout": "column",
+                          "children": [
+                            {
+                              "type": "html",
+                              "html": "<a href=\"mailto:c4ai-ombudsman@usp.br\"> c4ai-ombudsman@usp.br</a>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 3,
+                      "text": "Address"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Center for Artificial Intelligence – C4AI</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Inova-USP Building – USP – Universidade de São Paulo – Campus Butantã</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>Av. Profº Lúcio Martins Rodrigues, 370 – Butantã – São Paulo – SP</p>"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>CEP: 05508-020</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 3,
+                      "text": "Phone"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<p>+55 11 2648-1695</p>"
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "heading",
+                      "level": 3,
+                      "text": "Contact"
+                    },
+                    {
+                      "type": "html",
+                      "html": "<a href=\"mailto:c4ai@usp.br\"> c4ai@usp.br</a>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "contact"
+        },
+        {
+          "type": "group",
+          "layout": "section",
+          "children": [
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "column",
+                  "children": [
+                    {
+                      "type": "embed",
+                      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+                      "label": "Google Maps"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "id": "reusable-sections-5"
+        }
+      ],
+      "id": "source-content"
+    }
+  ],
+  "title": "A research center for advanced artificial intelligence in Brazil",
+  "heroBlocks": [],
+  "promos": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "level": 2,
+                          "text": "C4Ai two years"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<p>For further information please visit\n<a href=\"/pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/\">our website</a>\n</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "level": 2,
+                          "text": "Youtube Channel"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<p>Follow our\n<a href=\"https://www.youtube.com/c/C4AIUSP\">YouTube Channel</a> with seminars and talks.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "group",
+                  "layout": "row",
+                  "children": [
+                    {
+                      "type": "group",
+                      "layout": "column",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "level": 2,
+                          "text": "Flickr"
+                        },
+                        {
+                          "type": "html",
+                          "html": "<p>See our photo Gallery of\n<a href=\"https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753\">events and workshops.</a>\n</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "Overlappable"
+    }
+  ],
+  "heroImages": [
+    "/media/06fcd48f000b.jpg",
+    "/media/d353c08ee8d0.jpg",
+    "/media/452d5f95428a.jpg"
+  ],
+  "description": "A research center for advanced artificial intelligence in Brazil"
+}

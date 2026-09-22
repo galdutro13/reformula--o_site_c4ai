@@ -1,0 +1,72 @@
+{
+  "id": "mclimate-en",
+  "translationId": "mclimate",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/research_2/",
+  "retrievedAt": "2026-09-19T17:41:08.407988+00:00",
+  "anchor": "Climate_B_eng",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "MClimate"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Multicriteria Decision-Making on Climate Leaders: Alexandre Delbem and Antonio Saraiva"
+        },
+        {
+          "type": "html",
+          "html": "<p>Climate modeling has shown notable advances in the last decades. However, the challenge of gluing climate measurements to mathematical models remains, specially with respect to extreme weather events. New possibilities emerge with machine learning advances in physics-informed neural networks. This research challenge investigates hyperparameter many-objective optimization to find proper trade-offs among performance criteria (such as accuracy, computing cost, and model complexity or size) and physical constraints (arranged as margins to maximize). The team looks at physics-based models that can compete or cooperate, at causal models, at knowledge-based constraints within data-driven machine learning.</p>"
+        },
+        {
+          "type": "details",
+          "id": "5-c133",
+          "label": "Team",
+          "children": [
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Eng_.pdf\"> View MClimate team</a>"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " Contact"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<p>c4ai-agribio@usp.br</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "html": "<p class=\"resource-note\">Contact to be confirmed: the source shows an address associated with another group.</p>"
+        }
+      ],
+      "id": "Climate_B_eng"
+    }
+  ]
+}

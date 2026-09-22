@@ -1,12 +1,65 @@
 ---
-import { ui, type Locale } from '../i18n/ui';
+import { withBase } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+import { labels } from '../i18n/navigation';
+import marks from '../data/marks.json';
 interface Props {
   locale: Locale;
 }
 const { locale } = Astro.props;
+const t = labels[locale];
+const social = [
+  ['YouTube', 'https://www.youtube.com/c/C4AIUSP'],
+  ['Instagram', 'https://www.instagram.com/c4aiusp/'],
+  ['Facebook', 'https://www.facebook.com/groups/C4AI.USP'],
+  ['LinkedIn', 'https://bit.ly/C4AI-Linkedin'],
+  ['Flickr', 'https://www.flickr.com/photos/195298871@N06/albums'],
+  ['Linktree', 'https://linktr.ee/c4aiusp'],
+];
 ---
 
 <footer class="site-footer container">
-  <p>{ui[locale].footer}</p>
-  <p>{ui[locale].demonstration}</p>
+  <p>{t.partnership}</p>
+  <div class="partner-marks">
+    {(['usp', 'ibm', 'fapesp'] as const).map((name) => (
+      <img
+        src={withBase(marks[name])}
+        alt={name.toUpperCase()}
+        width="230"
+        height="100"
+        loading="lazy"
+      />
+    ))}
+  </div>
+  <div class="footer-bottom">
+    <a class="host-mark" href="https://inova.usp.br/">
+      {t.hosted}
+      <img
+        src={withBase(marks.inova)}
+        alt="Inova USP"
+        width="190"
+        height="39"
+        loading="lazy"
+      />
+    </a>
+    <nav aria-label={locale === 'pt' ? 'Redes sociais' : 'Social media'}>
+      <ul>
+        {social.map(([name, href]) => (
+          <li>
+            <a href={href}>
+              {name}
+              <span class="sr-only"> ({t.external})</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <p>
+      ©{' '}
+      {locale === 'pt'
+        ? 'Centro de Inteligência Artificial'
+        : 'Center for Artificial Intelligence'}{' '}
+      2020 – 2024
+    </p>
+  </div>
 </footer>

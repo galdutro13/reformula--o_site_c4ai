@@ -1,0 +1,240 @@
+[
+  {
+    "source": "https://c4ai.inova.usp.br/pt/inicio/",
+    "destination": "/pt/",
+    "locale": "pt",
+    "translationId": "home",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/sobre/",
+    "destination": "/pt/sobre/",
+    "locale": "pt",
+    "translationId": "about",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+    "destination": "/pt/pesquisas/",
+    "locale": "pt",
+    "translationId": "research",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/category/noticias/",
+    "destination": "/pt/noticias/",
+    "locale": "pt",
+    "translationId": "news",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/",
+    "destination": "/en/",
+    "locale": "en",
+    "translationId": "home",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/about/",
+    "destination": "/en/about/",
+    "locale": "en",
+    "translationId": "about",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/research_2/",
+    "destination": "/en/research/",
+    "locale": "en",
+    "translationId": "research",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/category/news/",
+    "destination": "/en/news/",
+    "locale": "en",
+    "translationId": "news",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "locale": "en",
+    "translationId": "luis-lamb-2022",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+    "destination": "/en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/",
+    "destination": "/en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/",
+    "locale": "en",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "destination": "/pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "locale": "pt",
+    "translationId": "luis-lamb-2022",
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+    "destination": "/pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/",
+    "destination": "/pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/",
+    "destination": "/pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/",
+    "destination": "/pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/",
+    "destination": "/pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+    "destination": "/pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/",
+    "destination": "/pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/",
+    "destination": "/pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/",
+    "destination": "/pt/noticias/corpus-carolina-nlp-c4ai/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/",
+    "destination": "/pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "destination": "/pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/",
+    "destination": "/pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  },
+  {
+    "source": "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "destination": "/pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "locale": "pt",
+    "translationId": null,
+    "status": "Implementado localmente; sem redirecionamento de servidor"
+  }
+]

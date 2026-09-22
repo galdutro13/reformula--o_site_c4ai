@@ -1,0 +1,72 @@
+{
+  "id": "ai-health-pt",
+  "translationId": "ai-health",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+  "retrievedAt": "2026-09-19T17:41:08.089160+00:00",
+  "anchor": "AlHealth_B_eng",
+  "blocks": [
+    {
+      "type": "group",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "AI Health"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Aprendizado de Máquina para Diagnóstico e Reabilitação Líderes: José Krieger e Zhao Liang"
+        },
+        {
+          "type": "html",
+          "html": "<p>Os avanços recentes do aprendizado de máquina na medicina têm sido notáveis. No entanto, ainda existem questões importantes a serem abordadas; por exemplo: 1) Como integrar e selecionar características médicas relevantes (biomarcadores)\na partir de fontes heterogêneas e dinâmicas em larga escala? 2) Como interpretar as decisões tomadas por algoritmos de aprendizado de máquina e como integrar a inteligência humana e artificial? Este grupo de pesquisa aborda tais questões,\nconcentrando-se em grande parte em acidentes cerebrovasculares (ACV), câncer e Covid-19. A equipe desenvolveu uma série de técnicas de IA.</p>"
+        },
+        {
+          "type": "details",
+          "id": "16252-c127",
+          "label": "Equipe",
+          "children": [
+            {
+              "type": "html",
+              "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Portugues_Equipes_modeloC4AI.pdf\"> Clique para ver a equipe AI Health</a>"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "layout": "row",
+          "children": [
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": "<a href=\"mailto:c4ai-graphml@usp.br\"> Contato</a>"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "layout": "column",
+              "children": [
+                {
+                  "type": "html",
+                  "html": " c4ai-graphml@usp.br"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "html",
+          "html": "<p class=\"resource-note\">Contato a confirmar: a fonte apresenta endereço associado a outro grupo.</p>"
+        }
+      ],
+      "id": "AlHealth_B_eng"
+    }
+  ]
+}

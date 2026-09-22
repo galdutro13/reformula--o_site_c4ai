@@ -1,0 +1,26 @@
+---
+import dimensions from '../data/media.json';
+import { withBase } from '../i18n/routes';
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  loading?: 'eager' | 'lazy';
+  fetchpriority?: 'high' | 'low' | 'auto';
+}
+const { src, alt, loading = 'lazy', fetchpriority } = Astro.props;
+const size = (dimensions as Record<string, { width: number; height: number }>)[
+  src
+];
+if (!size) throw new Error(`Dimensões da imagem ausentes: ${src}`);
+---
+
+<img
+  src={withBase(src)}
+  alt={alt}
+  width={size.width}
+  height={size.height}
+  class={Astro.props.class}
+  loading={loading}
+  fetchpriority={fetchpriority}
+/>

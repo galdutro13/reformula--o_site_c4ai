@@ -1,0 +1,70 @@
+---
+import { pagePath } from '../i18n/routes';
+import {
+  labels,
+  aboutSections,
+  newsSections,
+  externalResources,
+} from '../i18n/navigation';
+import type { Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = labels[locale];
+---
+
+<ul class="main-menu">
+  <li>
+    <a href={pagePath('home', locale)}>{t.home}</a>
+  </li>
+  {[
+    { id: 'about' as const, sections: aboutSections[locale] },
+    { id: 'research' as const, sections: [] },
+    { id: 'news' as const, sections: newsSections[locale] },
+  ].map((item) => (
+    <li>
+      <a href={pagePath(item.id, locale)}>{t[item.id]}</a>
+      {item.sections.length > 0 && (
+        <details class="submenu">
+          <summary aria-label={`${t.sections} ${t[item.id]}`}>
+            <span aria-hidden="true">⌄</span>
+          </summary>
+          <ul>
+            {item.sections.map(([id, label]) => (
+              <li>
+                <a href={`${pagePath(item.id, locale)}#${id}`}>{label}</a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+    </li>
+  ))}
+  <li>
+    <details class="resource-menu">
+      <summary>
+        {t.resources} <span aria-hidden="true">⌄</span>
+      </summary>
+      <ul>
+        {externalResources(locale).map((link) => (
+          <li>
+            <a href={link.href}>
+              {link.label} <small>({t.external})</small>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </details>
+  </li>
+  <li>
+    <a
+      href={`https://c4ai.inova.usp.br/${locale === 'pt' ? 'pt/oportunidades' : 'opportunities'}/`}
+    >
+      {t.opportunities}{' '}
+      <small>
+        ↗ <span class="sr-only">{t.external}</span>
+      </small>
+    </a>
+  </li>
+</ul>

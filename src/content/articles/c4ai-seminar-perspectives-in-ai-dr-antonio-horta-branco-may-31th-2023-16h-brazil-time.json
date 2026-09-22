@@ -1,0 +1,77 @@
+{
+  "id": "c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time",
+  "kind": "article",
+  "locale": "en",
+  "source": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+  "retrievedAt": "2026-09-19T17:41:32.924345+00:00",
+  "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+  "title": "C4AI – Seminar: “Perspectives in AI” – Dr. António Horta Branco (May 31th 2023, 16h​​ Brazil Time)",
+  "blocks": [
+    {
+      "type": "image",
+      "src": "/media/4c7e3a325e3c.jpg",
+      "alt": "",
+      "width": null,
+      "height": null
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>[C4AI – Perspectives in A.I. Seminar]</strong> Next talk of the Perspectives in AI seminar of the C4AI will host: <strong>Prof. Dr.  António Horta Branco (</strong>Associate Professor with Habilitation at Department of Informatics, Faculty of Sciences, University of Lisbon), on <strong>May 31th, 16h</strong> <strong>– 17h30​​ Brasilia time (3pm – 4:30pm EST)</strong>, to talk about <strong>“How to better represent the meaning of words?”</strong>  (open/free/online event).  <br/><br/><strong>Title: “How to better represent the meaning of words?” (Seminar in English)</strong><br/><strong>Open and Free seminar – Add to your Agenda!</strong><br/>Add to you agenda (google calendar): <br/><a href=\"https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWdxcnBxdDlibzU5cTllNHFsM2liOWFqbXAgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br\">https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWdxcnBxdDlibzU5cTllNHFsM2liOWFqbXAgYzRhaUB1c3AuYnI&amp;tmsrc=c4ai%40usp.br</a> </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>C4AI Youtube Channel </strong>: <a href=\"https://www.youtube.com/c/C4AIUSP\">https://www.youtube.com/c/C4AIUSP</a> <br/><strong>Seminar Link: </strong><a href=\"https://www.youtube.com/watch?v=l2SzkvqcdC8\">https://www.youtube.com/watch?v=l2SzkvqcdC8</a>   (set reminder)</p>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Perspectives in A.I. Seminar: Prof. Dr. António Horta Branco to talk about “How to better represent the meaning of words?”"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Abstract:</strong></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Language is made of words and words are basic linguistic forms that convey linguistic meanings, and that can be combined into larger expressions conveying more complex and articulate information. The question about how to represent the meaning of words is thus at the very heart of the research on the science and technology of language. While differing in the primitives they embrace, theories about how to represent the meaning of words come to cluster among themselves basically in three large families of lexical semantics. For decades, these theories differ in advocating that the meaning of words is represented as an inference graph, a feature mapping or rather as a vector space. Like wherever there are competing theories, this raises the inescapable research question: In an antagonistic stance: is it the case that one of these approaches is superior to the others in representing lexical semantics appropriately? Or in its ecumenical counterpart: could there be a unified account of lexical semantics where these approaches seamlessly emerge as (partial) renderings of (different) aspects of a core semantic knowledge base? In this talk, I will present joint work with colleagues where we seek to contribute to these research questions with a number of experiments that empirically, systematically and comparatively probe different lexical semantics theories for their levels of cognitive plausibility and of technological usefulness. The empirical findings obtained from these experiments advance our insight on lexical semantics as, somewhat surprisingly, the approach typically less favored by mainstream approaches to AI and Natural Language Processing, either past (inferential) or present (connectionist) — namely the feature-based approach to lexical semantics — emerges as superior to the other two approaches. Arguably these results also move us closer to finding answers to the driving research questions above.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Brief bio:</strong><br/>I am a SCIENTIST whose research is devoted to Artificial Intelligence and its subarea of Natural Language Processing, with a special focus on the technological preparation of the Portuguese language for the digital age, aiming thus at contributing to enhance the citizenship of its speakers in the information society. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>About Dr. António Branco:</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Short CV: <a href=\"https://www.google.com/url?q=http://www.di.fc.ul.pt/~ahb/%23resume&amp;sa=D&amp;source=calendar&amp;ust=1685409734888801&amp;usg=AOvVaw3ae4tY5xTacGemaAIpkUwV\">http://www.di.fc.ul.pt/~ahb/#resume</a> <br/>Linkedin: <a href=\"https://www.google.com/url?q=https://www.linkedin.com/in/antonio-branco-7357694/&amp;sa=D&amp;source=calendar&amp;ust=1685409734888801&amp;usg=AOvVaw3mUY75PfW6xkEaDBRV2gww\">https://www.linkedin.com/in/antonio-branco-7357694/</a> <br/>WebSite: <a href=\"https://www.google.com/url?q=http://www.di.fc.ul.pt/~ahb/&amp;sa=D&amp;source=calendar&amp;ust=1685409734888801&amp;usg=AOvVaw0aXjvHe8U50n7ukaEZj60K\">http://www.di.fc.ul.pt/~ahb/</a>  </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>#c4ai #ArtificialIntelligence #Machine Learning #NLP #PerspectivesInAI</p>"
+    }
+  ],
+  "description": "[C4AI – Perspectives in A.I. Seminar] Next talk of the Perspectives in AI seminar of the C4AI will host: Prof. Dr. António Horta Branco ( Associate Professor with Habilitation at Department ",
+  "dateLabel": "May 24, 2023",
+  "date": "2023-05-24",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Seminars",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 4
+}

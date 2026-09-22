@@ -1,0 +1,56 @@
+.site-footer {
+  padding-block: 3rem 2rem;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.partner-marks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0 3rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--color-border);
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.host-mark {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.partner-marks img {
+  width: 160px;
+}
+
+.host-mark img {
+  width: 140px;
+}
+
+.site-footer ul {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (width <= 1050px) {
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+
+@media (width <= 600px) {
+  .partner-marks {
+    flex-direction: column;
+  }
+}

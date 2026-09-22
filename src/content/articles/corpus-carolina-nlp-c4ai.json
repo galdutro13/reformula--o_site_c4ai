@@ -1,0 +1,88 @@
+{
+  "id": "corpus-carolina-nlp-c4ai",
+  "kind": "article",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/",
+  "retrievedAt": "2026-09-19T17:41:57.662969+00:00",
+  "path": "/pt/noticias/corpus-carolina-nlp-c4ai/",
+  "title": "Corpus Carolina – NLP/C4AI",
+  "blocks": [
+    {
+      "type": "html",
+      "html": "<p>Caros colegas e caras colegas,</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>É com muita alegria que anunciamos o lançamento da segunda versão pública do <strong><a href=\"https://sites.usp.br/corpuscarolina/\">Córpus Carolina</a></strong>.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>O Carolina é um córpus aberto do português brasileiro, com informações de tipologia e proveniência dos textos e que se utiliza de um desenvolvimento versionado para oferecer um cuidado especial com as licenças de uso de cada texto.</p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/a3ff2bf6bda2.jpg",
+      "alt": "",
+      "width": null,
+      "height": null
+    },
+    {
+      "type": "html",
+      "html": "<p><br/>O córpus possui cabeçalhos para cada texto, com vários metadados concebidos para serem úteis para diversas aplicações e investigações em processamento de linguagem natural e em linguística.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>O Carolina é resultado de uma parceria entre o <a href=\"https://lavihd.fflch.usp.br/\">Laboratório Virtual de Humanidades Digitais (LaViHD)</a> da Faculdade de Filosofia, Letras e Ciências Humanas da USP e o <a href=\"/en/\">C4AI, Centro de Inteligência Artificial</a> da USP, IBM e Fapesp.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Atualmente, o Córpus Carolina está sendo distribuído em duas plataformas: <br/>o <a href=\"https://huggingface.co/datasets/carolina-c4ai/corpus-carolina\">HuggingFace</a> e o <a href=\"https://hdl.handle.net/21.11129/0000-000F-486A-A\">Portulin Clarin</a>.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>O <a href=\"https://ceur-ws.org/Vol-3128/paper4.pdf\">artigo</a> em que a metodologia de construção do Carolina é apresentada e um <a href=\"https://doi.org/10.48550/arXiv.2303.16098\">pré-print</a> do artigo em que apresentamos sua primeira versão pública já estão disponíveis para leitura. No nosso <a href=\"https://sites.usp.br/corpuscarolina/\">site</a> vocês também encontram a documentação e mais detalhes do projeto.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Sintam-se convidados e convidadas a acessar o Carolina e usá-lo em suas áreas de interesse, bem como encaminhar essa mensagem a outros pesquisadores interessados.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Obrigado pela sua atenção.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Atenciosamente,</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Equipe do Carolina</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Texto reproduzido pelo setor de Divulgação do C4AI <br/>a partir de material de divulgação da Equipe do Carolina<br/>C4AI – <a href=\"https://linktr.ee/c4aiusp\">https://linktr.ee/c4aiusp</a> </p>"
+    }
+  ],
+  "description": "Caros colegas e caras colegas,",
+  "dateLabel": "maio 28, 2023",
+  "date": "2023-05-28",
+  "author": "Fernando Osório",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/fosorio/",
+  "categories": [
+    {
+      "label": "Events",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+    },
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Press",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/press/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 99
+}

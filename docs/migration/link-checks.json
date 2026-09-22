@@ -1,0 +1,1408 @@
+[
+  {
+    "url": "http://c4ai.inova.usp.br/partners/",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/partners/"
+  },
+  {
+    "url": "http://demonumenta.fau.usp.br/sobre/",
+    "status": 200,
+    "final": "http://demonumenta.fau.usp.br/sobre/"
+  },
+  {
+    "url": "http://lattes.cnpq.br/1059788774957753",
+    "status": 200,
+    "final": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4784247H0"
+  },
+  {
+    "url": "http://lattes.cnpq.br/1201079310363734",
+    "status": 200,
+    "final": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4791417E0"
+  },
+  {
+    "url": "http://lattes.cnpq.br/6513212204220783",
+    "status": 200,
+    "final": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4792497H4"
+  },
+  {
+    "url": "http://lattes.cnpq.br/7396818382676736",
+    "status": 200,
+    "final": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4785269E5"
+  },
+  {
+    "url": "http://sites.poli.usp.br/p/fabio.cozman/",
+    "status": 200,
+    "final": "http://sites.poli.usp.br/p/fabio.cozman/"
+  },
+  {
+    "url": "http://www.cs.uct.ac.za/~tmeyer",
+    "status": 200,
+    "final": "https://people.cs.uct.ac.za/~tmeyer/"
+  },
+  {
+    "url": "http://www.iea.usp.br/eventos/direito-inovacao-e-ia",
+    "status": 200,
+    "final": "https://www.iea.usp.br/eventos/direito-inovacao-e-ia"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Eng__ex_members_24.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Eng__ex_members_24.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Ingles_Equipes_modeloC4AI_23.pdf",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "getStatus": 404
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port_24.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port_24.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port__ex_members_24.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/AgriBio_Port__ex_members_24.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Ingles_Equipes_modeloC4AI.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Ingles_Equipes_modeloC4AI.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Portugues_Equipes_modeloC4AI.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/GOML_Portugues_Equipes_modeloC4AI.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML%20_Portugues_Equipes_modeloC4AI_23.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Eng_Equipes_C4AI_16_04_24_ex_members.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Eng_Equipes_C4AI_16_04_24_ex_members.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Port_Equipes_C4AI_16_04_24_ex_membros.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/KEML_Port_Equipes_C4AI_16_04_24_ex_membros.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Eng_.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Eng_.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Port_.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/MClimate_Port_.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2 _Ingles_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Ingles_Equipes_modeloC4AI_23.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL _eng.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_eng.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/bracis2021",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 403
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/cid/",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/cid/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/cid/#contact-2",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/cid/#contact-2"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/author/henrique/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai.inova.usp.br/pt/author/henrique/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/_wp_link_placeholder",
+    "status": null,
+    "error": "The read operation timed out",
+    "getError": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/parceiros/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai.inova.usp.br/pt/parceiros/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/pesquisas/#NLP2_port",
+    "status": null,
+    "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>",
+    "getStatus": 200,
+    "final": "https://c4ai.inova.usp.br/pt/pesquisas/#NLP2_port"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wc4ai2021",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 403
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/author/fosorio/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/category/events/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/category/events/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/category/press/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/category/press/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/category/reports/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/category/reports/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/category/seminars/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getError": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/fosorio/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getError": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/henrique/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getError": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/eventos/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/eventos/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/imprensa/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/reportagens/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getError": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/seminarios/",
+    "status": null,
+    "error": "The read operation timed out",
+    "getStatus": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/seminarios/"
+  },
+  {
+    "url": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo",
+    "status": 200,
+    "final": "https://calendar.google.com/calendar/embed?src=c4ai%40usp.br&ctz=America%2FSao_Paulo"
+  },
+  {
+    "url": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2FzYzg3NXNkYzlhaHYxMGs1Yjc0MTEwdG4gYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DM2FzYzg3NXNkYzlhaHYxMGs1Yjc0MTEwdG4gYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DM2FzYzg3NXNkYzlhaHYxMGs1Yjc0MTEwdG4gYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1981865358:1789839954923569"
+  },
+  {
+    "url": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3MyM2cwbm91OWw4NnIzY3F0dW12OTc3ZzEgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DM3MyM2cwbm91OWw4NnIzY3F0dW12OTc3ZzEgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DM3MyM2cwbm91OWw4NnIzY3F0dW12OTc3ZzEgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S338319138:1789839955667100"
+  },
+  {
+    "url": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MWdxcnBxdDlibzU5cTllNHFsM2liOWFqbXAgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMWdxcnBxdDlibzU5cTllNHFsM2liOWFqbXAgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMWdxcnBxdDlibzU5cTllNHFsM2liOWFqbXAgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1610703636:1789839956415513"
+  },
+  {
+    "url": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MmZjNG5ncXJhYjhxZWlnMDhuMzJvdG51MzcgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMmZjNG5ncXJhYjhxZWlnMDhuMzJvdG51MzcgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMmZjNG5ncXJhYjhxZWlnMDhuMzJvdG51MzcgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1981865358:1789839957137067"
+  },
+  {
+    "url": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NXZoNDFwY3BzZDdtMGJmdG5jM3RmajhydXEgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DNXZoNDFwY3BzZDdtMGJmdG5jM3RmajhydXEgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DNXZoNDFwY3BzZDdtMGJmdG5jM3RmajhydXEgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S338319138:1789839957193512"
+  },
+  {
+    "url": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Nm12ZHJyMWVyanQwMGNybXBqMGptNmtiazkgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DNm12ZHJyMWVyanQwMGNybXBqMGptNmtiazkgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DNm12ZHJyMWVyanQwMGNybXBqMGptNmtiazkgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-784883686:1789839957905745"
+  },
+  {
+    "url": "https://calendar.google.com/event?action=TEMPLATE&tmeid=M3JwbGl0OXBqaXFocG40dG9zMHVkZW5rb2ogYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DM3JwbGl0OXBqaXFocG40dG9zMHVkZW5rb2ogYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DM3JwbGl0OXBqaXFocG40dG9zMHVkZW5rb2ogYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-2143849787:1789839958169439"
+  },
+  {
+    "url": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MDB2OWthZTVsMjhhc3ZwNnBkcGVibWtvcnIgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMDB2OWthZTVsMjhhc3ZwNnBkcGVibWtvcnIgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMDB2OWthZTVsMjhhc3ZwNnBkcGVibWtvcnIgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1546342585:1789839958889149"
+  },
+  {
+    "url": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MDB2OWthZTVsMjhhc3ZwNnBkcGVibWtvcnIgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br&fbclid=IwAR20JEox3ylyydbrFlzezI25Q1Iu52u8EKXr2Yh-1WiZyP-3pfHCnUTkqB0",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMDB2OWthZTVsMjhhc3ZwNnBkcGVibWtvcnIgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br%26fbclid%3DIwAR20JEox3ylyydbrFlzezI25Q1Iu52u8EKXr2Yh-1WiZyP-3pfHCnUTkqB0&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMDB2OWthZTVsMjhhc3ZwNnBkcGVibWtvcnIgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br%26fbclid%3DIwAR20JEox3ylyydbrFlzezI25Q1Iu52u8EKXr2Yh-1WiZyP-3pfHCnUTkqB0&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S338319138:1789839959172902"
+  },
+  {
+    "url": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MG5iNDZiOGN0MWIybnBmcDc5dDRjZDZ2dTUgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMG5iNDZiOGN0MWIybnBmcDc5dDRjZDZ2dTUgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMG5iNDZiOGN0MWIybnBmcDc5dDRjZDZ2dTUgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-784883686:1789839959472228"
+  },
+  {
+    "url": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MWRtcjJycnQ0a2sycWQ4dTRob2FtdGNraDUgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMWRtcjJycnQ0a2sycWQ4dTRob2FtdGNraDUgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMWRtcjJycnQ0a2sycWQ4dTRob2FtdGNraDUgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S2063681211:1789839959835102"
+  },
+  {
+    "url": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MzdvaDBodDI3MzRzazMzbGZqM2tidTZoaHEgYzRhaUB1c3AuYnI&tmsrc=c4ai%40usp.br",
+    "status": 200,
+    "final": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMzdvaDBodDI3MzRzazMzbGZqM2tidTZoaHEgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&emr=1&followup=https://calendar.google.com/calendar/event?action%3DTEMPLATE%26tmeid%3DMzdvaDBodDI3MzRzazMzbGZqM2tidTZoaHEgYzRhaUB1c3AuYnI%26tmsrc%3Dc4ai@usp.br&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-583637473:1789839960153673"
+  },
+  {
+    "url": "https://ceur-ws.org/Vol-3128/paper4.pdf",
+    "status": 200,
+    "final": "https://ceur-ws.org/Vol-3128/paper4.pdf"
+  },
+  {
+    "url": "https://conexoesoriginarias.github.io/",
+    "status": 200,
+    "final": "https://conexoesoriginarias.github.io/"
+  },
+  {
+    "url": "https://doi.org/10.48550/arXiv.2303.16098",
+    "status": 200,
+    "final": "https://arxiv.org/abs/2303.16098"
+  },
+  {
+    "url": "https://doity.com.br/x-festival-games-for-change-america-latina",
+    "status": 200,
+    "final": "https://doity.com.br/x-festival-games-for-change-america-latina"
+  },
+  {
+    "url": "https://drive.google.com/file/d/1QYdPzJZnHc6RYSk_gDRIN6aUku5QCHEQ/view",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "getStatus": 404
+  },
+  {
+    "url": "https://drive.google.com/file/d/1aFnaszMhzGu8ZgztmxCySL-i7LI9kBVH/view",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "getStatus": 404
+  },
+  {
+    "url": "https://felipe.trevizan.org/",
+    "status": 200,
+    "final": "https://felipe.trevizan.org/"
+  },
+  {
+    "url": "https://g1.globo.com/economia/concursos-e-emprego/noticia/2021/07/16/pesquisa-mostra-que-minorias-nao-chegam-a-10percent-do-quadro-de-colaboradores-nas-empresas.ghtml",
+    "status": 200,
+    "final": "https://g1.globo.com/economia/concursos-e-emprego/noticia/2021/07/16/pesquisa-mostra-que-minorias-nao-chegam-a-10percent-do-quadro-de-colaboradores-nas-empresas.ghtml"
+  },
+  {
+    "url": "https://github.com/nilc-nlp/CORAA",
+    "status": 200,
+    "final": "https://github.com/nilc-nlp/CORAA"
+  },
+  {
+    "url": "https://hdl.handle.net/21.11129/0000-000F-486A-A",
+    "status": 200,
+    "final": "https://portulanclarin.net/repository/browse/f3751b34e36611ecaa5802420a870112f00a37650c304dbda703d85e14a2e945"
+  },
+  {
+    "url": "https://hseminar.webhostusp.sti.usp.br/2021/?lang=pt",
+    "status": 503,
+    "error": "HTTP Error 503: Service Unavailable",
+    "getStatus": 503
+  },
+  {
+    "url": "https://huggingface.co/datasets/carolina-c4ai/corpus-carolina",
+    "status": 200,
+    "final": "https://huggingface.co/datasets/carolina-c4ai/corpus-carolina"
+  },
+  {
+    "url": "https://irina-rish.com/",
+    "status": 405,
+    "error": "HTTP Error 405: Method Not Allowed",
+    "getStatus": 200,
+    "final": "https://sites.google.com/view/irinarish/"
+  },
+  {
+    "url": "https://jornal.usp.br/ciencias/por-meio-de-inteligencia-artificial-solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+    "status": 200,
+    "final": "https://jornal.usp.br/ciencias/por-meio-de-inteligencia-artificial-solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/"
+  },
+  {
+    "url": "https://jornal.usp.br/ciencias/usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+    "status": 200,
+    "final": "https://jornal.usp.br/ciencias/usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/"
+  },
+  {
+    "url": "https://jornal.usp.br/diversidade/diversidade-17-10-usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/",
+    "status": 200,
+    "final": "https://jornal.usp.br/diversidade/diversidade-17-10-usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/"
+  },
+  {
+    "url": "https://latam.gamesforchange.org/xfestival2022",
+    "status": 500,
+    "error": "HTTP Error 500: Internal Server Error",
+    "getStatus": 403
+  },
+  {
+    "url": "https://lavihd.fflch.usp.br/",
+    "status": 200,
+    "final": "http://aegird8.fflch.usp.br/hosting/disabled/lavihd.fflch.usp.br"
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10579-022-09621-4",
+    "status": 200,
+    "final": "https://link.springer.com/article/10.1007/s10579-022-09621-4"
+  },
+  {
+    "url": "https://linktr.ee/c4aiusp",
+    "status": 200,
+    "final": "https://linktr.ee/c4aiusp"
+  },
+  {
+    "url": "https://mundolivrefm.com.br/spotify-lanca-recurso-com-locutor-robo-por-meio-da-inteligencia-artificial/",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "getStatus": 404
+  },
+  {
+    "url": "https://obia.nic.br/",
+    "status": 200,
+    "final": "https://obia.nic.br/"
+  },
+  {
+    "url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf",
+    "status": 200,
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-01.pdf"
+  },
+  {
+    "url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf",
+    "status": 200,
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-03.pdf"
+  },
+  {
+    "url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf",
+    "status": 200,
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-04.pdf"
+  },
+  {
+    "url": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf",
+    "status": 200,
+    "final": "https://oceania.inria.cl/assets/pdfs/aimocc22/paper-05.pdf"
+  },
+  {
+    "url": "https://research.ibm.com/collaborate/horizons-network",
+    "status": 200,
+    "final": "https://research.ibm.com/contact?inquiryType=collaborations"
+  },
+  {
+    "url": "https://researcher.watson.ibm.com/researcher/view.php?person=br-csantosp",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "getStatus": 404
+  },
+  {
+    "url": "https://sites.google.com/icmc.usp.br/nlp2",
+    "status": 200,
+    "final": "https://sites.google.com/icmc.usp.br/nlp2"
+  },
+  {
+    "url": "https://sites.google.com/icmc.usp.br/poetisa",
+    "status": 200,
+    "final": "https://sites.google.com/icmc.usp.br/poetisa"
+  },
+  {
+    "url": "https://sites.google.com/view/tarsila-c4ai",
+    "status": 200,
+    "final": "https://sites.google.com/view/tarsila-c4ai"
+  },
+  {
+    "url": "https://sites.usp.br/corpuscarolina",
+    "status": 200,
+    "final": "https://sites.usp.br/corpuscarolina/"
+  },
+  {
+    "url": "https://sites.usp.br/corpuscarolina/",
+    "status": 200,
+    "final": "https://sites.usp.br/corpuscarolina/"
+  },
+  {
+    "url": "https://sites.usp.br/gaia/quem-somos/",
+    "status": 200,
+    "final": "https://sites.usp.br/gaia/quem-somos/"
+  },
+  {
+    "url": "https://sites.usp.br/keml",
+    "status": 200,
+    "final": "https://sites.usp.br/keml/"
+  },
+  {
+    "url": "https://sites.usp.br/keml/en/keml-en",
+    "status": 200,
+    "final": "https://sites.usp.br/keml/en/keml-en/"
+  },
+  {
+    "url": "https://sol.sbc.org.br/index.php/stil/article/view/25438",
+    "status": 200,
+    "final": "https://sol.sbc.org.br/index.php/stil/article/view/25438"
+  },
+  {
+    "url": "https://synestech.ai",
+    "status": null,
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "getError": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "url": "https://web.cs.ucla.edu/~guyvdb/",
+    "status": 200,
+    "final": "https://web.cs.ucla.edu/~guyvdb/"
+  },
+  {
+    "url": "https://www.bracis.dcc.ufmg.br/home",
+    "status": 200,
+    "final": "https://www.bracis.dcc.ufmg.br/home"
+  },
+  {
+    "url": "https://www.even3.com.br/perspectivesai080622",
+    "status": 200,
+    "final": "https://www.even3.com.br/e/perspectivesai080622-245435"
+  },
+  {
+    "url": "https://www.facebook.com/groups/C4AI.USP/",
+    "status": 200,
+    "final": "https://www.facebook.com/groups/C4AI.USP/"
+  },
+  {
+    "url": "https://www.facebook.com/hashtag/aihumanity?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZXbAOxqXN_z10z9wBF2onfIGUipW9cdJuCjajglEtKTIE9Il5a8o1tqs-eiZ4Gl9RLNgyfKvCkWyodwaUaNe2liB7jyJ8hRSI8iso3gmYud9J7DQrPgjP_2a7KQqAdcFGmjQUj6W8WNlcApKuwmZliYpzntw7qWiRSmvw-obvO0c5MCtsPyvi6XyrxP1RIp6ks&__tn__=*NK-R",
+    "status": 200,
+    "final": "https://www.facebook.com/hashtag/aihumanity?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZXbAOxqXN_z10z9wBF2onfIGUipW9cdJuCjajglEtKTIE9Il5a8o1tqs-eiZ4Gl9RLNgyfKvCkWyodwaUaNe2liB7jyJ8hRSI8iso3gmYud9J7DQrPgjP_2a7KQqAdcFGmjQUj6W8WNlcApKuwmZliYpzntw7qWiRSmvw-obvO0c5MCtsPyvi6XyrxP1RIp6ks&__tn__=*NK-R"
+  },
+  {
+    "url": "https://www.facebook.com/hashtag/airesearch?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R",
+    "status": 200,
+    "final": "https://www.facebook.com/hashtag/airesearch?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R"
+  },
+  {
+    "url": "https://www.facebook.com/hashtag/aisystems?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R",
+    "status": 200,
+    "final": "https://www.facebook.com/hashtag/aisystems?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R"
+  },
+  {
+    "url": "https://www.facebook.com/hashtag/artificialintelligence?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R",
+    "status": 200,
+    "final": "https://www.facebook.com/hashtag/artificialintelligence?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R"
+  },
+  {
+    "url": "https://www.facebook.com/hashtag/artificialintelligence?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZXbAOxqXN_z10z9wBF2onfIGUipW9cdJuCjajglEtKTIE9Il5a8o1tqs-eiZ4Gl9RLNgyfKvCkWyodwaUaNe2liB7jyJ8hRSI8iso3gmYud9J7DQrPgjP_2a7KQqAdcFGmjQUj6W8WNlcApKuwmZliYpzntw7qWiRSmvw-obvO0c5MCtsPyvi6XyrxP1RIp6ks&__tn__=-UK-R",
+    "status": 200,
+    "final": "https://www.facebook.com/hashtag/artificialintelligence?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZXbAOxqXN_z10z9wBF2onfIGUipW9cdJuCjajglEtKTIE9Il5a8o1tqs-eiZ4Gl9RLNgyfKvCkWyodwaUaNe2liB7jyJ8hRSI8iso3gmYud9J7DQrPgjP_2a7KQqAdcFGmjQUj6W8WNlcApKuwmZliYpzntw7qWiRSmvw-obvO0c5MCtsPyvi6XyrxP1RIp6ks&__tn__=-UK-R"
+  },
+  {
+    "url": "https://www.facebook.com/hashtag/c4ai?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R",
+    "status": 200,
+    "final": "https://www.facebook.com/hashtag/c4ai?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZX95kFUrogTCrKYDoRQb45mozYST_jx5PlRLaoNNa5wVbwB7sEMitVF8taZf5bwJxqgc6GLHy8Zt2kgJhmW1auTP_7wpJLUR4d2z4jQPnd_TDrDBuoH4QzjWyk5tm8nWp62x7C0qdKvabwnd8UMFPaLkvO2tpDF8qas387jyDtr2jeM4w0MXOAxPkdD_F9sH58&__tn__=-UK-R"
+  },
+  {
+    "url": "https://www.facebook.com/hashtag/c4ai?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZXbAOxqXN_z10z9wBF2onfIGUipW9cdJuCjajglEtKTIE9Il5a8o1tqs-eiZ4Gl9RLNgyfKvCkWyodwaUaNe2liB7jyJ8hRSI8iso3gmYud9J7DQrPgjP_2a7KQqAdcFGmjQUj6W8WNlcApKuwmZliYpzntw7qWiRSmvw-obvO0c5MCtsPyvi6XyrxP1RIp6ks&__tn__=-UK-R",
+    "status": 200,
+    "final": "https://www.facebook.com/hashtag/c4ai?__eep__=6&__gid__=1451132865035806&__cft__[0]=AZXbAOxqXN_z10z9wBF2onfIGUipW9cdJuCjajglEtKTIE9Il5a8o1tqs-eiZ4Gl9RLNgyfKvCkWyodwaUaNe2liB7jyJ8hRSI8iso3gmYud9J7DQrPgjP_2a7KQqAdcFGmjQUj6W8WNlcApKuwmZliYpzntw7qWiRSmvw-obvO0c5MCtsPyvi6XyrxP1RIp6ks&__tn__=-UK-R"
+  },
+  {
+    "url": "https://www.fapesp.br/cpe",
+    "status": 200,
+    "final": "https://fapesp.br/cpa"
+  },
+  {
+    "url": "https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753",
+    "status": 200,
+    "final": "https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753"
+  },
+  {
+    "url": "https://www.flickr.com/photos/195298871@N06/albums",
+    "status": 200,
+    "final": "https://www.flickr.com/photos/195298871@N06/albums"
+  },
+  {
+    "url": "https://www.flickr.com/photos/195298871@N06/albums/72177720303125255",
+    "status": 200,
+    "final": "https://www.flickr.com/photos/195298871@N06/albums/72177720303125255"
+  },
+  {
+    "url": "https://www.google.com/url?q=http%3A%2F%2Fc4ai.inova.usp.br%2F&sa=D&source=calendar&ust=1650804974067977&usg=AOvVaw2qUqa5Jg0TFkbn6lIfnqFO&fbclid=IwAR2d-lL5R_ImNhMiDY4QtAAz92SKDYuqKCRWsiPUF_FbRRLrFZR3tM7WEeA",
+    "status": 200,
+    "final": "https://www.google.com/url?q=http%3A%2F%2Fc4ai.inova.usp.br%2F&sa=D&source=calendar&ust=1650804974067977&usg=AOvVaw2qUqa5Jg0TFkbn6lIfnqFO&fbclid=IwAR2d-lL5R_ImNhMiDY4QtAAz92SKDYuqKCRWsiPUF_FbRRLrFZR3tM7WEeA"
+  },
+  {
+    "url": "https://www.google.com/url?q=http://www.di.fc.ul.pt/~ahb/%23resume&sa=D&source=calendar&ust=1685409734888801&usg=AOvVaw3ae4tY5xTacGemaAIpkUwV",
+    "status": 200,
+    "final": "https://www.google.com/url?q=http://www.di.fc.ul.pt/~ahb/%23resume&sa=D&source=calendar&ust=1685409734888801&usg=AOvVaw3ae4tY5xTacGemaAIpkUwV"
+  },
+  {
+    "url": "https://www.google.com/url?q=http://www.di.fc.ul.pt/~ahb/&sa=D&source=calendar&ust=1685409734888801&usg=AOvVaw0aXjvHe8U50n7ukaEZj60K",
+    "status": 200,
+    "final": "https://www.google.com/url?q=http://www.di.fc.ul.pt/~ahb/&sa=D&source=calendar&ust=1685409734888801&usg=AOvVaw0aXjvHe8U50n7ukaEZj60K"
+  },
+  {
+    "url": "https://www.google.com/url?q=https://fabioramos.github.io/Home.html&sa=D&source=calendar&ust=1682606887419658&usg=AOvVaw1_NLJXYiyanZuAlHqOBE8i",
+    "status": 200,
+    "final": "https://www.google.com/url?q=https://fabioramos.github.io/Home.html&sa=D&source=calendar&ust=1682606887419658&usg=AOvVaw1_NLJXYiyanZuAlHqOBE8i"
+  },
+  {
+    "url": "https://www.google.com/url?q=https://www.linkedin.com/in/antonio-branco-7357694/&sa=D&source=calendar&ust=1685409734888801&usg=AOvVaw3mUY75PfW6xkEaDBRV2gww",
+    "status": 200,
+    "final": "https://www.google.com/url?q=https://www.linkedin.com/in/antonio-branco-7357694/&sa=D&source=calendar&ust=1685409734888801&usg=AOvVaw3mUY75PfW6xkEaDBRV2gww"
+  },
+  {
+    "url": "https://www.google.com/url?q=https://www.linkedin.com/in/fabio-ramos-3256b421/&sa=D&source=calendar&ust=1682606887419658&usg=AOvVaw39IM0f77VTFy-z9yBXNxkP",
+    "status": 200,
+    "final": "https://www.google.com/url?q=https://www.linkedin.com/in/fabio-ramos-3256b421/&sa=D&source=calendar&ust=1682606887419658&usg=AOvVaw39IM0f77VTFy-z9yBXNxkP"
+  },
+  {
+    "url": "https://www.i3s.unice.fr/~villata/Home.html",
+    "status": 200,
+    "final": "https://webusers.i3s.unice.fr/~villata/Home.html"
+  },
+  {
+    "url": "https://www.instagram.com/c4aiusp/",
+    "status": 200,
+    "final": "https://www.instagram.com/c4aiusp/"
+  },
+  {
+    "url": "https://www.linkedin.com/groups/8980226/",
+    "status": 200,
+    "final": "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F8980226%2F"
+  },
+  {
+    "url": "https://www.linkedin.com/in/susan-aaronson-b60bb45/",
+    "status": 405,
+    "error": "HTTP Error 405: Method Not Allowed",
+    "getStatus": 999
+  },
+  {
+    "url": "https://www.nvidia.com/pt-br/data-center/dgx-station-a100/",
+    "status": 200,
+    "final": "https://www.nvidia.com/pt-br/data-center/dgx-platform/"
+  },
+  {
+    "url": "https://www.youtube.com/c/C4AIUSP",
+    "status": 200,
+    "final": "https://www.youtube.com/c/C4AIUSP"
+  },
+  {
+    "url": "https://www.youtube.com/live/JCFjDLrZOoQ?feature=share",
+    "status": 200,
+    "final": "https://www.youtube.com/live/JCFjDLrZOoQ?feature=share"
+  },
+  {
+    "url": "https://www.youtube.com/live/vQR9zcfuyVU?feature=share",
+    "status": 200,
+    "final": "https://www.youtube.com/live/vQR9zcfuyVU?feature=share"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PL4w4yEaOWuOZdBsR8cuuHFl0XLjfYwMjj",
+    "status": 200,
+    "final": "https://www.youtube.com/playlist?list=PL4w4yEaOWuOZdBsR8cuuHFl0XLjfYwMjj"
+  },
+  {
+    "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0lNMTBjVkdoSEdHbVRLNW15SXlKWE44X0VJd3xBQ3Jtc0ttV3MybHlEbVhleFNRZ05wQVAyNk1QaTBmOGZIX1c1bW1xQTVGLU56YTlvWFFrcXkyN0RVR3dNNzNEczFqdGlWUGJERVVNYjhLeVZ2eHI4OXNlN19wSGdmZ2xKdUlYZW1xczFyalA4MUpSUS1iUEdFRQ&q=https%3A%2F%2Fmath.unice.fr%2F%7Ecbouveyr%2F&v=JAeLgSn3ZzM",
+    "status": 200,
+    "final": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0lNMTBjVkdoSEdHbVRLNW15SXlKWE44X0VJd3xBQ3Jtc0ttV3MybHlEbVhleFNRZ05wQVAyNk1QaTBmOGZIX1c1bW1xQTVGLU56YTlvWFFrcXkyN0RVR3dNNzNEczFqdGlWUGJERVVNYjhLeVZ2eHI4OXNlN19wSGdmZ2xKdUlYZW1xczFyalA4MUpSUS1iUEdFRQ&q=https%3A%2F%2Fmath.unice.fr%2F%7Ecbouveyr%2F&v=JAeLgSn3ZzM"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=3WBIQY-LBzI",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=3WBIQY-LBzI"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7a7vslr1q2w",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=7a7vslr1q2w"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8IeheJ6959s",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=8IeheJ6959s"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=JAeLgSn3ZzM",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=JAeLgSn3ZzM"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=LQfRFY96e2E",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=LQfRFY96e2E"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=URrRl3Owm4Y",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=URrRl3Owm4Y"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=YXBF085aQmE",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=YXBF085aQmE"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=b0UPnBzuQAw",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=b0UPnBzuQAw"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=iEuuNRvhSwI",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=iEuuNRvhSwI"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=iqsF0wUY3Qc",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=iqsF0wUY3Qc"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ko8YYmiJqX0",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=ko8YYmiJqX0"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=l2SzkvqcdC8",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=l2SzkvqcdC8"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=lW3pFpYbo1c",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=lW3pFpYbo1c"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=phUWTycvj8E",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=phUWTycvj8E"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rzn_WIrMX1Y",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=rzn_WIrMX1Y"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=xKpSSVUoy5k",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=xKpSSVUoy5k"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ym2IRniESj0",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=ym2IRniESj0"
+  },
+  {
+    "url": "https://youtu.be/-rzCDoBi5SA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=-rzCDoBi5SA&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/-vmRlv4rX_4",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=-vmRlv4rX_4&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/1X_0rl4Td_g",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=1X_0rl4Td_g&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/1ikSZUx5_9c",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=1ikSZUx5_9c&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/2r5Oo0YyKUk",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=2r5Oo0YyKUk&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/34sz3j1fQ6k",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=34sz3j1fQ6k&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/4IJfCOac_XE",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=4IJfCOac_XE&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/5ZUYAbecq_Y",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=5ZUYAbecq_Y&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/65o6dzOcK8s",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=65o6dzOcK8s&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/7QCepggAQNs",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=7QCepggAQNs&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/7a7vslr1q2w",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=7a7vslr1q2w&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/7fZLkcmGNeY",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=7fZLkcmGNeY&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/8Co4qiwefr0",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=8Co4qiwefr0&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/8IeheJ6959s",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=8IeheJ6959s&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/8PULFcVityM",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=8PULFcVityM&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/CTXA2C3BHko",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=CTXA2C3BHko&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/Ef33n3l3glI",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=Ef33n3l3glI&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/F5WwcP-bYEA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=F5WwcP-bYEA&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/GuCKTsICAng",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=GuCKTsICAng&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/I8PgkmCNafA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=I8PgkmCNafA&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/IbDcMPbumlU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=IbDcMPbumlU&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/IkNn0REmmWU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=IkNn0REmmWU&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/JAeLgSn3ZzM",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=JAeLgSn3ZzM&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/JCFjDLrZOoQ",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=JCFjDLrZOoQ&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/JtYg6lxJk5s",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=JtYg6lxJk5s&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/LMKzn16cdxQ",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=LMKzn16cdxQ&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/LQfRFY96e2E",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=LQfRFY96e2E&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/LdCnczgeG0k",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=LdCnczgeG0k&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/Md8Ynon6OaY",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=Md8Ynon6OaY&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/N-mci5BKJ_w",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=N-mci5BKJ_w&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/OGUZaQkHabI",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=OGUZaQkHabI&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/Oureyq-pLVk",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=Oureyq-pLVk&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/P6bqNvyUSu4",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=P6bqNvyUSu4&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/P_yWp-2ZIZs",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=P_yWp-2ZIZs&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/TG1Cs-XgB9Y",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=TG1Cs-XgB9Y&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/URrRl3Owm4Y",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=URrRl3Owm4Y&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/X3zgvRtcLYg",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=X3zgvRtcLYg&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/Xx3Jue8SFc4",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=Xx3Jue8SFc4&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/Y8iLJIwlyVw",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=Y8iLJIwlyVw&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/YXBF085aQmE",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=YXBF085aQmE&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/Z5hSQGAdRJQ",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=Z5hSQGAdRJQ&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/ZsLiL4IYYvI",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=ZsLiL4IYYvI&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/ZzpKTaZEeW8",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=ZzpKTaZEeW8&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/_UsfguxAF8A",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=_UsfguxAF8A&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/_ptCAS_2FsA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=_ptCAS_2FsA&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/ab2YTzwZ1vg",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=ab2YTzwZ1vg&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/akgybTjRjNY",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=akgybTjRjNY&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/b1HemhIX0Uc",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=b1HemhIX0Uc&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/bRPupEtVCdU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=bRPupEtVCdU&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/btvUKSdnc3g",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=btvUKSdnc3g&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/c-0X0mJA-zk",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=c-0X0mJA-zk&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/d3ad2tp4AeA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=d3ad2tp4AeA&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/dfXLfuOflJ0",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=dfXLfuOflJ0&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/djlowF9xiPs",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=djlowF9xiPs&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/gdmGaMSCB4c",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=gdmGaMSCB4c&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/iqsF0wUY3Qc",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=iqsF0wUY3Qc&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/jd2Fq7j_E1Q",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=jd2Fq7j_E1Q&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/lBrDeibUjQk",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=lBrDeibUjQk&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/lW3pFpYbo1c",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=lW3pFpYbo1c&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/loxGAhgpoFQ",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=loxGAhgpoFQ&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/nQ6OJNsr_lI",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=nQ6OJNsr_lI&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/oC_mppWDnWM",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=oC_mppWDnWM&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/oG2vpGlWs1g",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=oG2vpGlWs1g&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/pW3OJ1r41tQ",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=pW3OJ1r41tQ&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/phUWTycvj8E",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=phUWTycvj8E&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/ruv4YlM-0b4",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=ruv4YlM-0b4&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/rzn_WIrMX1Y",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=rzn_WIrMX1Y&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/sV0zVdwK7zA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=sV0zVdwK7zA&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/sbKqIC3xE3c",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=sbKqIC3xE3c&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/tSVpE_XPapU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=tSVpE_XPapU&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/tWI_oWDKsPA",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=tWI_oWDKsPA&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/v9w5dl_b_Wo",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=v9w5dl_b_Wo&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/vQR9zcfuyVU",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=vQR9zcfuyVU&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/xKpSSVUoy5k",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=xKpSSVUoy5k&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/xOkQlCVzb3o",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=xOkQlCVzb3o&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/xmXU3npvQOs",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=xmXU3npvQOs&feature=youtu.be"
+  },
+  {
+    "url": "https://youtu.be/ym2IRniESj0",
+    "status": 200,
+    "final": "https://www.youtube.com/watch?v=ym2IRniESj0&feature=youtu.be"
+  },
+  {
+    "url": "https://bit.ly/C4AI-Linkedin",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:02.161260+00:00",
+    "status": 200,
+    "final": "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F8980226%2F"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:02.161702+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:02.161781+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:02.161841+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:02.161892+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:02.161932+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:03.354826+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:10.545680+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:10.600550+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:11.103615+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:11.615515+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:11.959578+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:15.387889+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/category/news/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:19.072459+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/category/reports/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:19.602894+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/opportunities/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:23.130435+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/partners/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:23.649912+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:23.989517+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:27.420431+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:31.100686+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:31.632440+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:35.165957+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:35.679662+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:36.021122+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:39.447051+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:43.128746+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:43.661097+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/oportunidades/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:43.975118+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/oportunidades/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:47.729382+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/publicacoes/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:48.056665+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/publicacoes/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:48.908856+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:48.981062+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:51.137065+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/"
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/publications/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:51.557413+00:00",
+    "status": 200,
+    "final": "https://c4ai.inova.usp.br/publications/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/category/news/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:51.832580+00:00",
+    "status": 200,
+    "final": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/pt/category/noticias/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:51.959460+00:00",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://inova.usp.br/",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:57.004572+00:00",
+    "status": 200,
+    "final": "https://inova.usp.br/"
+  },
+  {
+    "url": "https://www.facebook.com/groups/C4AI.USP",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:57.387502+00:00",
+    "status": 200,
+    "final": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FC4AI.USP"
+  },
+  {
+    "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr",
+    "method": "GET",
+    "retrievedAt": "2026-09-19T18:11:57.771262+00:00",
+    "status": 200,
+    "final": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3086507557664!2d-46.7298293238391!3d-23.557355761446694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577101e1b9f3%3A0xa0747cf8b7a130f2!2sCenter%20for%20Artificial%20Intelligence%20(C4AI)!5e0!3m2!1spt-BR!2sbr!4v1693488572013!5m2!1spt-BR!2sbr"
+  }
+]

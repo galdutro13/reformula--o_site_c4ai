@@ -1,0 +1,996 @@
+[
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/home-header.png",
+    "path": "/media/d59b07c37db0.png",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/inicio/",
+      "https://c4ai.inova.usp.br/"
+    ],
+    "bytes": 74183,
+    "sha256": "d19f7e9ba24d0faad89b55821c66d60f062980a470f0e5564b93af6cd9ac0ab9",
+    "width": 856,
+    "height": 580,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1a.jpg",
+    "path": "/media/8b64dc5090e1.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 200157,
+    "sha256": "15bfe907c5dfa1c03e3dd942297d173eef4c0f92a09fece2e3cef16901e1c88c",
+    "width": 1067,
+    "height": 1067,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-contact__1b-1.jpg",
+    "path": "/media/42ddc70db70c.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 139922,
+    "sha256": "7622cb84b8e5f36114cd2683bd3d55549a939caea2367665716a63153dccfb3c",
+    "width": 626,
+    "height": 448,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-fabio-cozman.jpg",
+    "path": "/media/efe3a205cbf2.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 46278,
+    "sha256": "b349da4e08b4f3f8f4dd202ab1286b3948c0887af4a2c4a5fb323b6cb6829eac",
+    "width": 540,
+    "height": 540,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Claudio.jpg",
+    "path": "/media/aa650db47c54.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 58981,
+    "sha256": "f212ffde9fc68fcb419330f2dd49dadb6b6ab719f509c88c8e766f537bef881d",
+    "width": 388,
+    "height": 373,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/cropped-Fernando-1.jpg",
+    "path": "/media/f907124dd99d.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 72427,
+    "sha256": "51376f475ea62e9ae677ea29c04fce277967b4ebe0bdc36e066342af790f1b73",
+    "width": 939,
+    "height": 785,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/GlaucoArbix_400x400.jpg",
+    "path": "/media/6ba22890a385.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 27113,
+    "sha256": "318e875b337e78288d8d02fcd430db7ea4d6f0afd51c5cf9df9f593eea847896",
+    "width": 400,
+    "height": 400,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/JoaoPauloCandiaVeiga540x540.jpg",
+    "path": "/media/b6008f555305.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 51935,
+    "sha256": "2d60c6a0d5bfdb9aafd4e4bc3953f5e33b208526e8acf79dd7ef524f24a77ad7",
+    "width": 540,
+    "height": 540,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Alexandre-Delbem-USP_540x540.jpg",
+    "path": "/media/92426cbf59c5.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 34120,
+    "sha256": "18a819fe907ae312e60056e4f9bf145e1fffce63985cfe774f4655a44b22b88a",
+    "width": 540,
+    "height": 540,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Jairo540x540.jpg",
+    "path": "/media/c071e689c793.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 44966,
+    "sha256": "ef077b44984aa9b5a6dd3dc58541270b35c48fcc6fadc6b154cd4be77e31b079",
+    "width": 540,
+    "height": 540,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Mauricio540x540.jpg",
+    "path": "/media/73844d6075ec.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 42137,
+    "sha256": "9aa92f94acb810ff2856c1ddca660755b5c46c52b3b389dfce3d7d356c700d03",
+    "width": 540,
+    "height": 540,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Eliana540x540.jpg",
+    "path": "/media/109798fa012e.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 64981,
+    "sha256": "ffc77e68aee6d140f5454d180bccdeadeb069b69bddcb8051e8fc313795d1418",
+    "width": 540,
+    "height": 540,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0235_site.jpg",
+    "path": "/media/d353c08ee8d0.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 378516,
+    "sha256": "1030c9e3bbee573c14b82c7e6aa3a31631789bae0497077282c580acdba8c14d",
+    "width": 1920,
+    "height": 1149,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/01/Fernando-Osorio_Foto-Marcos-Santos_U0Y0104-scaled.jpg",
+    "path": "/media/face5360cac4.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 609252,
+    "sha256": "5e6155371f9728a2b74709c0c387c47de3a63c887f00b9e35b9b7d7324c10c05",
+    "width": 2560,
+    "height": 1707,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0230-scaled.jpg",
+    "path": "/media/06fcd48f000b.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 465510,
+    "sha256": "5883d807714208ea2206780ee08cc5f4c25b1f05e2440d6036c24b95fe831709",
+    "width": 2560,
+    "height": 1707,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0254_site.jpg",
+    "path": "/media/452d5f95428a.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/sobre/",
+      "https://c4ai.inova.usp.br/about/"
+    ],
+    "bytes": 382529,
+    "sha256": "882d9dbc4176a83620ee6b9fbe98a7dd0f5ffaa5ba48c5746c67568d82faaee7",
+    "width": 1920,
+    "height": 1149,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": true
+  },
+  {
+    "url": "http://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0230-scaled.jpg",
+    "path": "/media/1f8e68496b74.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+      "https://c4ai.inova.usp.br/research_2/"
+    ],
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": false,
+    "availability": "Resposta vazia no host de desenvolvimento; não distribuída. Fundo decorativo substituído pelo gradiente."
+  },
+  {
+    "url": "http://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0254_site.jpg",
+    "path": "/media/b652b98815c3.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+      "https://c4ai.inova.usp.br/research_2/"
+    ],
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": false,
+    "availability": "Resposta vazia no host de desenvolvimento; não distribuída. Fundo decorativo substituído pelo gradiente."
+  },
+  {
+    "url": "http://dev-c4ai.webhostusp.sti.usp.br/wp-content/uploads/2021/12/Centro-de-Inteligencia-Artificial-C4AI-Worshop-WC4AI_Foto-Marcos-Santos_U0Y0235_site.jpg",
+    "path": "/media/db89a21a16d1.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/pesquisas_2/",
+      "https://c4ai.inova.usp.br/research_2/"
+    ],
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": false,
+    "availability": "Resposta vazia no host de desenvolvimento; não distribuída. Fundo decorativo substituído pelo gradiente."
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/event_856.jpg",
+    "path": "/media/387cc553fb5d.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/"
+    ],
+    "bytes": 104185,
+    "sha256": "4263f46cc2b8eaeb063a5b8f94c89954d7b2dab40638ee24822928917ac5003f",
+    "width": 856,
+    "height": 448,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/03/event_20220331-1024x536.jpg",
+    "path": "/media/d9e47317037d.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/"
+    ],
+    "bytes": 86505,
+    "sha256": "790c99e861972e0a65d22c2a67470c9c0b1ce24c9530349fe81c0b99755f6102",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/06/event_20220608-1024x536.jpg",
+    "path": "/media/f5c94902e88f.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/"
+    ],
+    "bytes": 94114,
+    "sha256": "2cced96ce24623c6ae9425c305eb846e8905101e16f5f5fb13fdc11d2bdcd7a1",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/08/event_20220831-Postponed-1024x536.jpg",
+    "path": "/media/436c162686e7.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/"
+    ],
+    "bytes": 103494,
+    "sha256": "c3bc70d2d907be66e6d18e947dcc6e206893efb0159c94d8b7cd1554010a1f0e",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/event_20221010-1-1024x536.jpg",
+    "path": "/media/9cea53e29e93.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/"
+    ],
+    "bytes": 97488,
+    "sha256": "41d0fe059a8d3db3f4476693b8c414e6dd3415889e6827d23e16831b55d6725f",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/11/event_20221109-new-1024x536.jpg",
+    "path": "/media/b34965e9d29c.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/"
+    ],
+    "bytes": 89847,
+    "sha256": "8a18e53de69ddcdf7c51f83294a18f43a8615b5ccb357c9c698da306191c54a2",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/05/event_20230531-1-1024x536.jpg",
+    "path": "/media/4c7e3a325e3c.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/"
+    ],
+    "bytes": 86631,
+    "sha256": "4158cb2d0bd7d872851c447f642ce2f84edc21aa845c35b8af7dbe8f662f21f1",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/04/event_20230426-1024x536.jpg",
+    "path": "/media/b5bed56d674c.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/"
+    ],
+    "bytes": 97926,
+    "sha256": "4a38a780258699c5be9b235003b8a3d6e6d846064c351bbcf8b56c74a6757c14",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/09/Perspectives-Event_20230920sept23-1024x536.jpg",
+    "path": "/media/efb963ac7163.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/"
+    ],
+    "bytes": 80625,
+    "sha256": "d8316482650114527482d8d004a2245d5013e335d4bd534d870a112223eb9b05",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/11/Perspectives-event_20231108-Scott-Sanner-1024x536.jpg",
+    "path": "/media/b8451b1761e1.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/"
+    ],
+    "bytes": 87762,
+    "sha256": "8b20800b550f35552d7fca2fcdfa5f232af8f5821fddfece2e08dd758e42318d",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/11/Perspectives-AI-event_20231031-1024x536.jpg",
+    "path": "/media/160f4c711ce5.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/"
+    ],
+    "bytes": 89203,
+    "sha256": "c7df7c19e1ddea1fc1636b28976093f730ebc91c0a65198937f5cd570ac5391f",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/12/Perspectives-event_20231220-1024x536.jpg",
+    "path": "/media/18c84dfb7852.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/"
+    ],
+    "bytes": 92378,
+    "sha256": "ab7a25771e44c31b33eada85a750a75977a502e0b2e912e7b0d8efa713976d22",
+    "width": 1024,
+    "height": 536,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/event_856-1.jpg",
+    "path": "/media/7ae48ad50277.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/"
+    ],
+    "bytes": 104185,
+    "sha256": "4263f46cc2b8eaeb063a5b8f94c89954d7b2dab40638ee24822928917ac5003f",
+    "width": 856,
+    "height": 448,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/04/Foto-1-fome-1024x538.jpg",
+    "path": "/media/78c64c598ef2.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/"
+    ],
+    "bytes": 52462,
+    "sha256": "46e73e0b66af710ee1dc022d0d1453795b7c06ec26f03c120b89ea4d7aa7b2c6",
+    "width": 1024,
+    "height": 538,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/04/Foto-2-fome.jpg",
+    "path": "/media/3b00c364f268.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/"
+    ],
+    "bytes": 127943,
+    "sha256": "3f9c15f90ba75d50371ee1484c49fcccb478ad83c23ef031587a3eda44c212a8",
+    "width": 1024,
+    "height": 538,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/04/Foto-3-fome.jpg",
+    "path": "/media/dad3a3da5e8f.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/"
+    ],
+    "bytes": 107405,
+    "sha256": "d0f78ebfcd27e873ac2e5801f25a6864f0466d6739665c85a4af46599b109ff5",
+    "width": 1024,
+    "height": 538,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/04/C4AI_roundtable_20210428-300x157.jpg",
+    "path": "/media/16e8eb8304aa.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/"
+    ],
+    "bytes": 15016,
+    "sha256": "dcdacd0fdf392464796b58a25cd25b06b9e3e9a368fbe841519712ec2da5b669",
+    "width": 300,
+    "height": 157,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": ["C4AI Mesa Redonda 28Abril22"],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/05/C4AI_roundtable_20210519-300x157.jpg",
+    "path": "/media/0ecf93614fdd.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/"
+    ],
+    "bytes": 15428,
+    "sha256": "cc3b73ae6f5ae4a22c918c2f23a9cdbffefd075315f58b2b27f206b6062a28b1",
+    "width": 300,
+    "height": 157,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": ["C4AI Anuncio Mesa Redonda 19 maio 2022"],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/05/C4AI_roundtable_20220602-Edit-1024x576.jpg",
+    "path": "/media/9e2702cc0f59.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/"
+    ],
+    "bytes": 95154,
+    "sha256": "17d4bfa3f2712722af206672a73fd1750df0992f714e47a6da38b44e5b8c87f0",
+    "width": 1024,
+    "height": 576,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/06/Design-sem-nome-5-1024x577.jpg",
+    "path": "/media/8e708fe329b4.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/"
+    ],
+    "bytes": 47116,
+    "sha256": "c46e33bbb18323effd535ff5d4341e637d4aeb4f8d8b436a2e6882a72e5167bd",
+    "width": 1024,
+    "height": 577,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/06/Foto-2-1024x577.jpg",
+    "path": "/media/656a5eee621e.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil-%ef%bf%bc/"
+    ],
+    "bytes": 60705,
+    "sha256": "5fd90ec518554ebea52a49f9d1be3fd326d8b13e457a1b152c5515eb0ea88d25",
+    "width": 1024,
+    "height": 577,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/Porto-de-Santos-1024x577.jpg",
+    "path": "/media/dd2eaeb41443.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/"
+    ],
+    "bytes": 92529,
+    "sha256": "1231022b3e23f5a2617186637fab550d79ab1b2c791abb019a792ea06aaca339",
+    "width": 1024,
+    "height": 577,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/Diversidade-IA-1024x577.jpg",
+    "path": "/media/1b9fd50847a5.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/"
+    ],
+    "bytes": 109668,
+    "sha256": "d70ee34b654373d7c181303f75830dceb35c9caa292915abecf5e85b0969a31f",
+    "width": 1024,
+    "height": 577,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/Washington-3-608x1024.jpg",
+    "path": "/media/51c4f8cb535a.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/"
+    ],
+    "bytes": 95540,
+    "sha256": "50dc062d75d9e1fc472ef6600f5b29427262062a7b2a74d71f669e1fc43984ce",
+    "width": 608,
+    "height": 1024,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/Mariluce-1-768x1024.jpg",
+    "path": "/media/f72d2b70bfa3.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/"
+    ],
+    "bytes": 75752,
+    "sha256": "1d9a5e3cc778dde2cbbf87cfacfbaee88f7f3e85d95476b02ca2cf3f5bbd0402",
+    "width": 768,
+    "height": 1024,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/Foto-1-1024x732.jpg",
+    "path": "/media/fddabb1c76f2.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/"
+    ],
+    "bytes": 94613,
+    "sha256": "b72e9726de5efda24c481a86e9a97cfe518daa580e269fbfbb4da349741f73a0",
+    "width": 1024,
+    "height": 732,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/Foto-2-300x200.jpg",
+    "path": "/media/b09fcf7ba916.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/"
+    ],
+    "bytes": 14248,
+    "sha256": "0912a38471b918aedc9f55ab4a3aeefe2a85281d8a3caa343d1750aeac6ac607",
+    "width": 300,
+    "height": 200,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/10/Foto-3-300x200.jpg",
+    "path": "/media/c69c2b9030cd.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/"
+    ],
+    "bytes": 17783,
+    "sha256": "d7ca3bd7028db2f461ecc1c41a0a42ffa1f686ed59f04e2179b1534cbf633530",
+    "width": 300,
+    "height": 200,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/05/Corpus-Carolina-Capa1.jpg",
+    "path": "/media/a3ff2bf6bda2.jpg",
+    "uses": ["https://c4ai.inova.usp.br/pt/corpus-carolina-nlp-c4ai/"],
+    "bytes": 190027,
+    "sha256": "2555d2677bd4d4edef40b8950a132ff1e8532beaea39a9c971265e83ecdbc94e",
+    "width": 1061,
+    "height": 601,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/01/Foto-1-1024x737.png",
+    "path": "/media/3b3e3f341d63.png",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/"
+    ],
+    "bytes": 1194970,
+    "sha256": "30dd0de07fa035eda826bdcb73dc13a75948d27ecf64ca2d116af3fd40ff0629",
+    "width": 1024,
+    "height": 737,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/01/Foto-3-1024x597.png",
+    "path": "/media/d6ce154b3589.png",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/"
+    ],
+    "bytes": 1048525,
+    "sha256": "0bb114e647c670fc197dd2e6a697822d6380b4e007999ae752102cefc297ac04",
+    "width": 1024,
+    "height": 597,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/01/Foto-4-461x1024.png",
+    "path": "/media/c18ad8c17177.png",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/"
+    ],
+    "bytes": 617379,
+    "sha256": "7739cae41bde8acd53d98a1b1b2c27b85e018d63655ce1d09dbff8fbdbc01f87",
+    "width": 461,
+    "height": 1024,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/03/Design-sem-nome-8-1024x577.jpg",
+    "path": "/media/5505876b501f.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/"
+    ],
+    "bytes": 45692,
+    "sha256": "a00e6a5e1f712e6d12afd033b49a652a0a34dbb88f4ada8282d96797f4f24aa0",
+    "width": 1024,
+    "height": 577,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/03/Design-sem-nome-9-1024x577.jpg",
+    "path": "/media/24d2093c5ab4.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/"
+    ],
+    "bytes": 37579,
+    "sha256": "0fd064ef2f8f0f2110dca0014bce2359117dc3b5c2079241d5d82e082fdff0b2",
+    "width": 1024,
+    "height": 577,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/03/Design-sem-nome-11-1024x577.jpg",
+    "path": "/media/fba9f7b0bd26.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/"
+    ],
+    "bytes": 54301,
+    "sha256": "e6532e1116aa4226c4262c6fa0ac39105d44a1a186594c608f2ddbae80a26c81",
+    "width": 1024,
+    "height": 577,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": ["Foto: Canva"],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-29-at-11.41.25.jpeg",
+    "path": "/media/bfee455d394b.jpeg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/"
+    ],
+    "bytes": 281488,
+    "sha256": "dfe6c60edc2f75b8cb7eb5382073d73191882f9271523efcc6edc575b4d0af67",
+    "width": 1600,
+    "height": 901,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": ["Foto: Canva"],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/05/IMG_7129-300x174.jpeg",
+    "path": "/media/7677f6f344e5.jpeg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/"
+    ],
+    "bytes": 14011,
+    "sha256": "13f03d3a6267784a9e7a060deee8d467fbd7a8237d87214f93d39f27da2e0acb",
+    "width": 300,
+    "height": 174,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/05/IMG_7193-300x193.jpeg",
+    "path": "/media/f082980bbf34.jpeg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/"
+    ],
+    "bytes": 16855,
+    "sha256": "915e4b2688369b85882ccf6b03632a8d3e8cf3814cc30fdf2e29f9fb908e4530",
+    "width": 300,
+    "height": 193,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/05/IMG_7201-300x203.jpeg",
+    "path": "/media/24162de10af7.jpeg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/"
+    ],
+    "bytes": 21220,
+    "sha256": "730628f1363c69970d1d6d6df1974e1270e6d44cd6cc367ac3e1a2077080861c",
+    "width": 300,
+    "height": 203,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/05/IMG_7189-300x171.jpg",
+    "path": "/media/52c638602b02.jpg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/"
+    ],
+    "bytes": 15980,
+    "sha256": "b2c281b63a6fee10258b7aae4dcf92a02b3bd5e010e9f85347122cdec6a29f30",
+    "width": 300,
+    "height": 171,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2023/10/Premios-IA-1.jpeg",
+    "path": "/media/8dc2ef19a636.jpeg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/"
+    ],
+    "bytes": 179934,
+    "sha256": "564abc3313f2a8fb8428f9a43ab8449ed7af619e20abfa66a81778007f3f7d6b",
+    "width": 1024,
+    "height": 1024,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai2023.webhostusp.sti.usp.br/wp-content/uploads/2023/10/Premios-IA.jpeg",
+    "path": "/media/304ae3d1ab24.jpeg",
+    "uses": [
+      "https://c4ai.inova.usp.br/pt/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/"
+    ],
+    "bytes": 179934,
+    "sha256": "564abc3313f2a8fb8428f9a43ab8449ed7af619e20abfa66a81778007f3f7d6b",
+    "width": 1024,
+    "height": 1024,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [""],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/11/LogoCenter_footer.png",
+    "path": "/media/4473cc03b74b.png",
+    "uses": ["shared"],
+    "bytes": 6558,
+    "sha256": "1da5b41fe24d21090a9581b667122335528b4e1417f478da1186e01d1b64a1ac",
+    "width": 181,
+    "height": 72,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__usp.png",
+    "path": "/media/8fac65123c21.png",
+    "uses": ["shared"],
+    "bytes": 1616,
+    "sha256": "2f97d373a9b9cf47cac32e09a057a4640e75802f7a4a47d327b1e16eb605aacb",
+    "width": 230,
+    "height": 100,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/logo__ibm2.png",
+    "path": "/media/d4721947351f.png",
+    "uses": ["shared"],
+    "bytes": 3544,
+    "sha256": "fb9a19e635d815fca90ae3aa3b26563bcbfa34e4020c7cbfa3739a250794f015",
+    "width": 230,
+    "height": 100,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2021/12/logo__fapesp.png",
+    "path": "/media/6c56525c49cf.png",
+    "uses": ["shared"],
+    "bytes": 2384,
+    "sha256": "3fbf5948cb7d1531aa402211bc0af4eb0d4dafc95a01df8dce75c937c9680f34",
+    "width": 230,
+    "height": 100,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": true
+  },
+  {
+    "url": "https://c4ai.inova.usp.br/wp-content/uploads/2022/02/inova-logo_semdescricao.png",
+    "path": "/media/620de94e717c.png",
+    "uses": ["shared"],
+    "bytes": 7431,
+    "sha256": "3387d549f9c79b26ef507df9adc023fd800bd0eb1b68fda4133052bd52015110",
+    "width": 190,
+    "height": 39,
+    "retrievedAt": "2026-09-19",
+    "reuseRights": "Revisão institucional pendente; disponibilidade pública não é licença",
+    "sourceAlts": [],
+    "shipped": true
+  }
+]

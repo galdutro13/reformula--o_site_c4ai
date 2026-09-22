@@ -1,6 +1,6 @@
 # Site institucional C4AI
 
-Base demonstrativa para a reformulação do site: Astro estático, TypeScript estrito, componentes `.astro` e CSS nativo. Conteúdo e navegação funcionam sem JavaScript. O conteúdo institucional completo, o design definitivo e a migração do WordPress são etapas futuras.
+Migração local de Home, Sobre, Pesquisas e Notícias em português e inglês, com 26 artigos do acervo inventariado. Astro estático, TypeScript estrito, componentes `.astro` e CSS nativo. Conteúdo, navegação, painéis e paginação funcionam sem JavaScript; busca e incorporações são melhorias progressivas. A migração técnica não representa aprovação editorial ou publicação. Veja [fontes, diferenças e pendências](docs/migration.md).
 
 ## Começar
 
@@ -41,28 +41,38 @@ Não é preciso criar `.env` para desenvolver ou executar `quality`. Para prepar
 
 ## Organização
 
-| Local                                          | Responsabilidade                                                           |
-| ---------------------------------------------- | -------------------------------------------------------------------------- |
-| `src/pages/pt/`, `src/pages/en/`               | Entradas das páginas localizadas                                           |
-| `src/pages/index.astro`, `src/pages/404.astro` | Escolha de idioma e erro bilíngue                                          |
-| `src/components/`, `src/layouts/`              | Apresentação reutilizável e documento HTML compartilhado                   |
-| `src/content/`, `src/content.config.ts`        | Markdown demonstrativo, consulta com validação de pares e esquemas         |
-| `src/i18n/`                                    | Traduções de interface e correspondência explícita por ID de página        |
-| `src/styles/`                                  | Tokens e todo CSS utilizado; não há `<style>` nem `style=` nos componentes |
-| `public/`                                      | Arquivos copiados sem transformação; favicon tipográfico provisório        |
-| `scripts/`                                     | Execução dos modos Astro e validação de publicação                         |
-| `tests/config/`, `tests/e2e/`                  | Contratos de configuração e site compilado                                 |
-| `docs/`, `.github/`                            | Requisitos, decisões, qualidade, publicação e CI                           |
+| Local                                          | Responsabilidade                                                             |
+| ---------------------------------------------- | ---------------------------------------------------------------------------- |
+| `src/pages/pt/`, `src/pages/en/`               | Entradas das páginas localizadas                                             |
+| `src/pages/index.astro`, `src/pages/404.astro` | Escolha de idioma e erro bilíngue                                            |
+| `src/components/`, `src/layouts/`              | Apresentação reutilizável e documento HTML compartilhado                     |
+| `src/content/`, `src/content.config.ts`        | Coleções JSON de páginas, desafios e artigos; esquemas e pares validados     |
+| `src/i18n/`                                    | Traduções de interface e correspondência explícita por ID de página          |
+| `src/styles/`                                  | Tokens, CSS por responsabilidade e fontes locais; sem estilos embutidos      |
+| `public/`                                      | Imagens e marcas locais, licença tipográfica; favicon tipográfico provisório |
+| `scripts/`                                     | Execução dos modos Astro e validação de publicação                           |
+| `tests/config/`, `tests/e2e/`                  | Contratos de configuração e site compilado                                   |
+| `docs/`, `.github/`                            | Requisitos, decisões, qualidade, publicação e CI                             |
 
 ## Exemplos de edição
 
-**Texto demonstrativo:** edite `src/content/demonstrations/home-pt.md` e sua tradução `home-en.md`. Preserve o mesmo `translationId: home`, o idioma de cada arquivo e `demonstration: true`. Título e descrição são obrigatórios; o corpo Markdown é renderizado na página. Pares ausentes ou duplicados causam erro no build.
+**Conteúdo institucional:** edite, por exemplo, `src/content/pages/about-pt.json` e `about-en.json`. `source` e `retrievedAt` registram a origem, sem substituir aprovação editorial. Título, descrição, idioma, identificador e blocos são validados. Páginas principais exigem ambos os idiomas. Os blocos têm tipos explícitos: `heading`, `html` sem scripts/estilos/eventos, `image`, `group` (linha/coluna/seção), `details`, `embed` e referência `challenge`. Preserve IDs de âncora usados por submenus e links antigos.
 
-**Interface:** altere as duas entradas de `src/i18n/ui.ts`, por exemplo `explore`. Os nomes das chaves devem permanecer correspondentes. IDs de página não são traduzidos: `home` aponta explicitamente para `/pt/` e `/en/` em `src/i18n/routes.ts`.
+```json
+{ "type": "html", "html": "<p>Texto aprovado pela equipe editorial.</p>" }
+```
 
-**Estilo:** altere tokens como `--color-accent` em `src/styles/tokens.css`. Regras de apresentação ficam em `global.css`. Reconfira contraste, foco e larguras móveis. Se passar a usar CSS dentro de Astro, configure sua análise no Stylelint na mesma alteração; não deixe CSS sem verificação.
+**Desafios:** edite `src/content/challenges/nlp2-pt.json` e sua contraparte. A página Pesquisas referencia os registros por `ref`; os oito pares são obrigatórios. Equipes e recursos ficam em painéis `details`. Não confunda os oito desafios com os dois subprojetos ainda não definidos.
 
-**Nova página bilíngue:** quando seu conteúdo for aprovado, crie as duas páginas em `src/pages/pt/` e `src/pages/en/`, acrescente um ID estável e os dois caminhos ao mapa, reutilize `BaseLayout` com esse `pageId` e só então acrescente links. Atualize requisitos e fixtures de aceitação com títulos, rotas e metadados esperados, sem importar o mapa da aplicação nos testes. O seletor passa a apontar para a contraparte desse ID. Não crie antecipadamente páginas vazias ou links futuros.
+**Artigos:** `src/content/articles/` contém título, descrição, data original, autoria, categorias, blocos, caminho local e origem. O `id` é o slug da rota. Para uma tradução confirmada, ambos os artigos recebem o mesmo `translationId`; use `null` sem par. O seletor informa a ausência em vez de inventar tradução. `sourceOrder` desempata artigos publicados no mesmo dia conforme a listagem original. Artigos portugueses que a fonte classificava somente como `News` estão em uma listagem complementar, documentada na migração. Para adicionar conteúdo além dos 26, obtenha escopo editorial, atualize as fixtures independentes e revise paginação, pares e ordenação.
+
+**Imagens:** copie o arquivo aprovado para `public/media/`, registre dimensões em `src/data/media.json` e procedência/crédito/licença no registro da migração. Use `Media.astro` ou bloco `image`, com `alt` contextual quando necessário. O build não busca arquivos remotos. Retratos com nome adjacente e ilustrações decorativas não precisam duplicar texto acessível.
+
+**Interface e navegação:** `src/i18n/ui.ts` e `navigation.ts` guardam os rótulos; `routes.ts` relaciona IDs `home`, `about`, `research`, `news` aos caminhos PT/EN. Não traduza identificadores. Links externos e destinos temporários são explícitos; confira antes de incorporá-los.
+
+**Estilo:** edite `src/styles/tokens.css` e os arquivos CSS por responsabilidade, importados em `global.css`: navegação, rodapé, conteúdo editorial, páginas institucionais e notícias. Reconfira contraste, foco e larguras móveis. Fontes locais estão em `src/styles/fonts/`, com licença distribuída em `public/fonts/OFL.txt`.
+
+**Nova página bilíngue:** crie seus registros e entradas Astro, acrescente o ID e os caminhos no mapa, reutilize `BaseLayout`/componentes e então inclua links. Atualize requisitos e fixtures com expectativas aprovadas, sem importar coleções ou rotas da aplicação nos testes. Não crie páginas vazias antecipadamente.
 
 Depois de editar:
 
@@ -73,6 +83,8 @@ npm run quality
 
 ## Referências do projeto
 
+- [Inventário preservado](docs/inventory.md)
+- [Migração e evidências](docs/migration.md)
 - [Requisitos implementados e futuros](docs/requirements.md)
 - [Política de qualidade e limites](docs/quality.md)
 - [Decisão arquitetural e versões](docs/decisions/001-static-astro.md)

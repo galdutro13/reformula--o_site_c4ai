@@ -1,0 +1,122 @@
+{
+  "id": "demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos",
+  "kind": "article",
+  "locale": "pt",
+  "source": "https://c4ai.inova.usp.br/pt/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/",
+  "retrievedAt": "2026-09-19T17:42:05.312503+00:00",
+  "path": "/pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/",
+  "title": "Aplicativo desenvolvido na USP vence prêmio internacional e do IABsp",
+  "blocks": [
+    {
+      "type": "html",
+      "html": "<p><em>Iniciativa realizada com apoio do Centro de Inteligência Artificial da Universidade trouxe uma nova forma de conhecer os monumentos históricos da cidade de São Paulo</em></p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/3b3e3f341d63.png",
+      "alt": "",
+      "width": 837,
+      "height": 601
+    },
+    {
+      "type": "html",
+      "html": "Foto: Ana Ottoni"
+    },
+    {
+      "type": "html",
+      "html": "<p>O <a href=\"https://doity.com.br/x-festival-games-for-change-america-latina\">X Festival Games for Change América Latina</a>, evento realizado no final de 2022 com o objetivo de valorizar games criativos e com poder transformador, aliando qualidade estética e audiovisual, premiou como Projeto de Impacto no IV Pitch for Change, a categoria competitiva do evento, a exposição-jogo <a href=\"http://demonumenta.fau.usp.br/sobre/\"><em>demonumentaRA</em></a>, experiência imersiva que conta com um aplicativo interativo com interface de realidade aumentada (RA) criado na Faculdade de Arquitetura e Urbanismo (FAU) da USP, com apoio do Centro de Inteligência Artificial (C4AI) da Universidade. Em dezembro, o projeto também foi premiado, na categoria “Cultura Arquitetônica | Técnica e Tecnologia”, durante a 24ª Premiação do Instituto dos Arquitetos do Brasil – Departamento de São Paulo (IABsp).</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>A tecnologia, desenvolvida por estudantes de graduação e pós-graduação em arquitetura e design da Faculdade, funciona como uma espécie de caça ao tesouro em que os usuários devem localizar, no espaço público em que a experiência estiver instalada, monumentos e patrimônios arquitetônicos problemáticos relacionados às comemorações da Independência do Brasil e à Semana de Arte Moderna de 1922 e suas reverberações em 1932, 1954 e 1972. A cada nova partida, o visitante da exposição-jogo poderá realizar o seu próprio percurso na busca pelos 22 marcadores de realidade aumentada, que carregam modelos 3D e audioguias com as histórias sobre os monumentos, narrados sob uma ótica decolonial. A experiência foi projetada visando sua ampla possibilidade de reprodução, de modo que os marcadores de realidade aumentada poderão ser impressos e implantados em diferentes locais da cidade, como escolas, praças e exposições culturais. O <em>demonumentaRA</em> é gratuito e está disponível nas lojas de aplicativo dos celulares (Google Play e Apple Store). </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>“A criação do <em>demonumentaRA</em> partiu da nossa consciência de que os monumentos são incômodos e as pessoas não os conhecem profundamente. Nós temos dois grandes protagonistas, o Monumento às Bandeiras e o Borba Gato, que são nacionalmente conhecidos, mas nossa ideia foi chamar atenção para o fato de que eles são uma espécie de arquivo distribuído da memória do poder. Cada um deles traz questões que o colonialismo nos levou”, detalhou Giselle Beiguelman, professora da FAU e uma das idealizadoras da experiência.</p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/d6ce154b3589.png",
+      "alt": "",
+      "width": 837,
+      "height": 487
+    },
+    {
+      "type": "html",
+      "html": "Foto: Ana Ottoni"
+    },
+    {
+      "type": "html",
+      "html": "<p>Derivado do projeto <em>demonumenta</em>, de 2021, que envolveu mais de 100 integrantes da Faculdade, entre alunos e professores, o aplicativo <em>demonumentaRA</em>, baseado  na remodelagem em 3D dos monumentos estudados da cidade de São Paulo e na organização de suas informações históricas em narrativas relacionáveis com os dias de hoje e as discussões socioculturais vigentes, surgiu como uma tentativa de desenvolver uma interface para expor o conjunto dessa produção acadêmica realizada na Instituição. “O desafio pedagógico dessa experiência foi algo muito forte e valioso. É um projeto que está, originalmente, propondo novas formas, mídias e tecnologias para que possamos cada vez mais entender esses pedaços de pedra que estão soltos pelas cidades contando sobre nossas histórias, sobre quem somos”, afirma Luís Felipe Abbud, doutorando em design da FAUUSP e também idealizador e coordenador da exposição-game.  </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Segundo o pesquisador, buscou-se entender quem eram os personagens representados nos monumentos, por meio da estruturação de uma ação pedagógica aberta e multidisciplinar. “Tudo foi investigado e debatido. Foi um projeto em que todos aprenderam juntos, inclusive questões sobre a própria modelagem, uma vez que utilizamos o software open source Blender, que não tínhamos um conhecimento aprofundado. Originalmente, 11 monumentos foram modelados completamente do zero para o site do projeto <em>demonumenta</em>, lançado em Setembro de 2021, sendo possível acessá-los em 360° pela plataforma SketchFab. Para o desenvolvimento do aplicativo, foram modelados mais 11 monumentos, juntamente à gravação de narrações em áudio para serem ouvidas ao acessar os monumentos em interface de realidade aumentada (RA). Este recurso pode ser acionado pelo  aplicativo quando você aponta a câmera do aparelho celular para os marcadores instalados no ambiente da exposição, que contêm as imagens das reconstituições em 3D dos respectivos monumentos, e carregá-los como objetos no ambiente em que desejarem pela interface de realidade aumentada (RA), como uma forma de empoderar os usuários a ressignificarem os monumentos, e a posição deles em diferentes espaços da cidade”, explicou.</p>"
+    },
+    {
+      "type": "image",
+      "src": "/media/c18ad8c17177.png",
+      "alt": "",
+      "width": 461,
+      "height": 1024
+    },
+    {
+      "type": "html",
+      "html": "Foto: demonumentaRA/Divulgação"
+    },
+    {
+      "type": "html",
+      "html": "<p>Alunos de arquitetura, design, matemática e computação, juntamente com professores dessas áreas, foram os responsáveis por uma força-tarefa que deu ao aplicativo do grupo <a href=\"https://latam.gamesforchange.org/xfestival2022\"> um dos prêmios do Festival</a>. O app aproveita para propor um debate sobre a colonialidade embarcada nas instituições e acervos públicos. “O projeto faz um recorte das comemorações em torno do ano de 1922, abordando o centenário da Semana de Arte Moderna e contemplando as manifestações culturais que acompanharam o primeiro centenário da Independência do Brasil em São Paulo. Este marco gerou um patrimônio cultural complexo, que é parte significativa do acervo do Museu do Ipiranga e uma quantidade significativa de monumentos que foram criados por conta dessa celebração na cidade paulista”, afirma Giselle.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>A ideia era que a elaboração do app não fosse unicamente um projeto de extensão, pesquisa ou ensino, mas sim algo que unisse todas essas frentes. Outro diferencial foi a proposta de que a hierarquia entre professor e aluno, e a divisão entre teoria e prática fossem quebradas. Já no início dos trabalhos do projeto <em>demonumenta</em>, grupos temáticos trabalharam em uma constelação de acervos do Museu do Ipiranga, em projetos que contemplavam narrativas, oficinas de texto online, modelagem 3D, design, inteligência artificial, cultura visual, entre outros. Cada uma dessas vertentes foram desenvolvidas a partir de encontros semanais com uma série de experimentos – tanto no campo da IA quanto no da modelagem 3D – que caminharam para o desenvolvimento do aplicativo <em>demonumentaRA</em>. Para deixá-lo ainda mais interativo, os criadores tiveram como principal referência o PokémonGO, um jogo para smartphones que proporciona aos usuários uma experiência em realidade aumentada em contato com os personagens do popular desenho animado do Japão. </p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>O papel do C4AI – </strong>A professora Giselle Beiguelman, junto com o pesquisador e pós-doutorando Bruno Moreschi, também idealizador do projeto <em>demonumenta </em>de 2021 que deu origem ao aplicativo <em>demonumentaRA</em>, são coordenadores do  <a href=\"https://sites.usp.br/gaia/quem-somos/\">Grupo de Arte e Inteligência Artificial (GAIA) da USP</a>, ligado ao  C4AI como um dos pólos das investigações do Centro no campo das humanidades. O GAIA é uma rede de pesquisadores e artistas interessados em refletir e problematizar as infraestruturas digitais contemporâneas de forma experimental e artística. Desde 2019 seus membros realizam pesquisas, supervisões e produzem artigos acadêmicos, além de participarem de congressos, residências artísticas, performances e manter um grupo quinzenal de leitura. Em 2021, ainda no contexto do projeto demonumenta, Moreschi, Beiguelman e Bernardo Fontes foram contemplados pelo Edital intelligent.museum, do ZKM (Center for Art and Medien Karlsruhe) e Deutsches Museum (Museu de Ciencia e Tecnologia da Alemanha), para expandir as pesquisas feitas com Inteligência Artificial aplicada a experimentações em museus.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>Dessa forma, as formulações do GAIA buscam engajar tanto o universo acadêmico como o público em geral. O grupo tem como diretriz de trabalho contemplar a diversidade de gênero e de raça, desafio necessário não só para grupos como o GAIA, mas também para toda grande área que inclui arte, tecnologia e Inteligência Artificial.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>“O papel do Centro foi decisivo, pois permitiu que o ciclo preparatório fosse feito em diálogo com as questões contemporâneas das tecnologias e as suas relações e aplicações no campo das humanidades. Isso seria impossível sem a retaguarda do C4AI, que ajudou a definir as possibilidades de exportação das relações do campo do patrimônio cultural a partir da ótica da inteligência artificial”, comentou Beiguelman.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>A iniciativa teve apoio financeiro do Programa de Ação Cultural (ProAC), da Secretaria de Cultura e Economia Criativa do Estado de São Paulo, além da colaboração do Centro Interdisciplinar de Tecnologias Interativas (CITI) da USP, do Museu Paulista da Universidade, do MIT Open Documentary Lab, do Programa Internacional de Avaliação de Alunos (PISA) e da Pró-Reitoria de Cultura e Extensão da USP.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>O C4AI recebe financiamento da Fundação de Amparo à Pesquisa do Estado de São Paulo (Fapesp) e da IBM.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><em>Por Fabrício Santos e Henrique Fontes, da Assessoria de Comunicação do C4AI/USP</em></p>"
+    },
+    {
+      "type": "html",
+      "html": "<p><strong>Contato para esta pauta</strong><br/>Assessoria de Comunicação do C4AI/USP<br/>E-mail: fontesccientifica@gmail.com </p>"
+    }
+  ],
+  "description": "Iniciativa realizada com apoio do Centro de Inteligência Artificial da Universidade trouxe uma nova forma de conhecer os monumentos históricos da cidade de São Paulo",
+  "dateLabel": "janeiro 17, 2023",
+  "date": "2023-01-17",
+  "author": "Henrique Fontes",
+  "authorUrl": "https://c4ai2023.webhostusp.sti.usp.br/pt/author/henrique/",
+  "categories": [
+    {
+      "label": "News",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/news/"
+    },
+    {
+      "label": "Press",
+      "href": "https://c4ai2023.webhostusp.sti.usp.br/category/press/"
+    }
+  ],
+  "image": "",
+  "translationId": null,
+  "sourceOrder": 99
+}

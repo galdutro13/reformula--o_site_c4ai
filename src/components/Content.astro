@@ -1,0 +1,63 @@
+---
+import { getEntry } from 'astro:content';
+import Content from './Content.astro';
+import Embed from './Embed.astro';
+import Media from './Media.astro';
+import type { Block } from '../content/model';
+import type { Locale } from '../i18n/ui';
+import { contentHtml } from '../i18n/routes';
+interface Props {
+  blocks: Block[];
+  locale: Locale;
+}
+const { blocks, locale } = Astro.props;
+const resolved = await Promise.all(
+  blocks.map(async (block) => {
+    if (block.type !== 'challenge') return [block];
+    const entry = await getEntry('challenges', block.ref);
+    if (!entry) throw new Error(`Desafio ausente: ${block.ref}`);
+    return entry.data.blocks;
+  }),
+);
+const rendered = resolved.flat();
+---
+
+{rendered.map((block) => (
+  <>
+    {block.type === 'html' && (
+      <div class="rich-text" set:html={contentHtml(block.html)} />
+    )}
+    {block.type === 'heading' &&
+      (block.level === 2 ? <h2>{block.text}</h2> : <h3>{block.text}</h3>)}
+    {block.type === 'image' && (
+      <Media
+        class="editorial-image"
+        src={block.src}
+        alt={block.alt}
+        loading="lazy"
+      />
+    )}
+    {block.type === 'group' && (
+      <div
+        id={block.id}
+        class:list={[
+          `layout-${block.layout}`,
+          `columns-${Math.min(block.children.length, 5)}`,
+        ]}
+      >
+        <Content blocks={block.children} locale={locale} />
+      </div>
+    )}
+    {block.type === 'details' && (
+      <details class="content-panel" id={block.id || undefined}>
+        <summary>{block.label}</summary>
+        <div class="panel-body">
+          <Content blocks={block.children} locale={locale} />
+        </div>
+      </details>
+    )}
+    {block.type === 'embed' && (
+      <Embed url={block.url} label={block.label} locale={locale} />
+    )}
+  </>
+))}
