@@ -13,188 +13,42 @@
       "children": [
         {
           "type": "group",
-          "layout": "section",
+          "layout": "row",
           "children": [
             {
               "type": "group",
-              "layout": "row",
+              "layout": "column",
               "children": [
                 {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/en/about/\"> Read more</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "image",
-                      "src": "/media/d59b07c37db0.png",
-                      "alt": "",
-                      "width": 856,
-                      "height": 580
-                    }
-                  ]
+                  "type": "heading",
+                  "level": 2,
+                  "text": "We care about diversity and inclusion!"
                 }
               ]
             },
             {
               "type": "group",
-              "layout": "row",
+              "layout": "column",
               "children": [
                 {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "heading",
-                      "level": 2,
-                      "text": "Some examples of research activities in the C4AI:"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#NLP2_B_eng\">Resources for automatic processing of Portuguese.</a>\n</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#ProIndL_B_eng\">Preserving Brazilian indigenous languages with AI.</a>\n</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#OceanML_B_eng\">Exploring the ocean with machine learning.</a>\n</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#Climate_B_eng\">Climate decision-making with multiple criteria.</a>\n</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#OBIA_B_eng\">AI observatory: impacts and regulation.</a>\n</p>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#AlHealth_B_eng\">Machine learning for diagnosis and rehabilitation.</a>\n</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#KEML_B_eng\">Agents for reasoning and conversation.</a>\n</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"/en/research/#AgriBio_B_eng\">AI in sustainable agribusiness and food networks.</a>\n</p>"
-                    }
-                  ]
+                  "type": "html",
+                  "html": "<a href=\"https://c4ai.inova.usp.br/cid/\"> See our initiatives</a>"
                 }
               ]
             }
-          ],
-          "id": "reusable-sections"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "heading",
-                      "level": 2,
-                      "text": "We care about diversity and inclusion!"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://c4ai.inova.usp.br/cid/\"> See our initiatives</a>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "cta"
+          ]
         }
       ],
-      "id": "source-content"
+      "id": "cta"
     }
   ],
   "title": "A research center for advanced artificial intelligence in Brazil",
-  "description": "A research center for advanced artificial intelligence in Brazil",
-  "image": "/media/d59b07c37db0.png"
+  "description": "C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance and the evaluation of large language models (LLMs).",
+  "image": "/media/d59b07c37db0.png",
+  "revision": {
+    "date": "2026-09-22",
+    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
+  },
+  "heroBlocks": [],
+  "titleLang": "en"
 }

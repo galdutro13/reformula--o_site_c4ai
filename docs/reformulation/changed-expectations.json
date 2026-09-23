@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/pt/",
+    "removed": [
+      "Um centro de pesquisa para inteligência artificial avançada no Brasil",
+      "Exemplos de atividades de pesquisa do C4AI:",
+      "Recursos para processamento automático do português.",
+      "Preservando as línguas indígenas brasileiras com IA.",
+      "Explorando o oceano com aprendizado de máquina.",
+      "Tomada de decisões climáticas com múltiplos critérios.",
+      "Observatório da IA: impactos e regulamentação.",
+      "Aprendizado de máquina para diagnóstico e reabilitação.",
+      "A no agronegócio sustentável e redes alimentares."
+    ],
+    "reason": "Apresentação e índice antigos substituídos pelo escopo autorizado de duas linhas. Demais textos históricos preservados."
+  },
+  {
+    "path": "/pt/pesquisas/",
+    "removed": [
+      "processamento de linguagem nATURAL para o português",
+      "aprendizado de Máquina baseado em oceanografia",
+      "omada de Decisões Multicritério sobre o Clima",
+      "Fortalecimento das Línguas Indígenas Brasileiras com IA",
+      "Aprendizado de Máquina com Conhecimento Aprimorado",
+      "Aprendizado de Máquina para Diagnóstico e Reabilitação",
+      "A missão principal do C4AI é produzir pesquisas avançadas em Inteligência Artificial. O centro reúne cerca de 250 pesquisadores, incluindo professores, pós-doutorados, estudantes de pós-graduação e graduação. Esses pesquisadores investigam uma variedade de questões, desde Aprendizado de Máquina até Representação de Conhecimento, desde Raciocínio até Planejamento.",
+      "Muitas atividades de pesquisa no C4AI são organizadas em torno de Desafios de Pesquisa selecionados que combinam aspectos fundamentais de inteligência artificial com aplicações em campos específicos, como agribusiness, clima e saúde. Os desafios atuais são:"
+    ],
+    "reason": "Apresentação e índice antigos substituídos pelo escopo autorizado de duas linhas. Demais textos históricos preservados."
+  },
+  {
+    "path": "/en/",
+    "removed": [
+      "A research center for advanced artificial intelligence in Brazil",
+      "Some examples of research activities in the C4AI:",
+      "Resources for automatic processing of Portuguese.",
+      "Preserving Brazilian indigenous languages with AI.",
+      "Exploring the ocean with machine learning.",
+      "Climate decision-making with multiple criteria.",
+      "Machine learning for diagnosis and rehabilitation.",
+      "AI in sustainable agribusiness and food networks."
+    ],
+    "reason": "Apresentação e índice antigos substituídos pelo escopo autorizado de duas linhas. Demais textos históricos preservados."
+  },
+  {
+    "path": "/en/research/",
+    "removed": [
+      "NATURAL LANGUAGE PROCESSING FOR PORTUGUESE",
+      "MULTICRITERIA DECISION-MAKING ON CLIMATE",
+      "STRENGTHENING BRAZILIAN INDIGENOUS LANGUAGES",
+      "MACHINE LEARNING FOR DIAGNOSIS AND REHABILITATION",
+      "A key mission of the C4AI is to produce advanced research in Artificial Intelligence. The center congregates about 250 researchers, including faculty, post-docs, graduate and undergraduate students. These researchers investigate a variety of issues, from Machine Learning to Knowledge Representation, from Reasoning to Planning.",
+      "Many research activities in the C4AI are organized around selected Research Challenges that combine fundamental aspects of artificial intelligence with applications in selected fields such as agribusiness, climate, and health. The current challenges are:"
+    ],
+    "reason": "Apresentação e índice antigos substituídos pelo escopo autorizado de duas linhas. Demais textos históricos preservados."
+  }
+]

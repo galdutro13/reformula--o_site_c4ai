@@ -2,6 +2,8 @@
 
 Migração local de Home, Sobre, Pesquisas e Notícias em português e inglês, com 26 artigos do acervo inventariado. Astro estático, TypeScript estrito, componentes `.astro` e CSS nativo. Conteúdo, navegação, painéis e paginação funcionam sem JavaScript; busca e incorporações são melhorias progressivas. A migração técnica não representa aprovação editorial ou publicação. Veja [fontes, diferenças e pendências](docs/migration.md).
 
+Home e Pesquisas já refletem a reformulação de 22/09/2026: duas linhas atuais e registros históricos identificados. Consulte [reformulação e validação](docs/reformulation.md).
+
 ## Começar
 
 Instale um gerenciador de versões de Node, como nvm, e use a versão exata de `.nvmrc`. Node 24.21.0 inclui npm 11.19.0; `engine-strict` impede instalações incompatíveis. Não é necessário instalar ferramentas globalmente além do ambiente Node.
@@ -62,7 +64,9 @@ Não é preciso criar `.env` para desenvolver ou executar `quality`. Para prepar
 { "type": "html", "html": "<p>Texto aprovado pela equipe editorial.</p>" }
 ```
 
-**Desafios:** edite `src/content/challenges/nlp2-pt.json` e sua contraparte. A página Pesquisas referencia os registros por `ref`; os oito pares são obrigatórios. Equipes e recursos ficam em painéis `details`. Não confunda os oito desafios com os dois subprojetos ainda não definidos.
+**Linhas atuais:** edite os quatro registros de `src/content/research-lines/`. Nomes, sínteses, âncoras e associação de grupos são compartilhados por Home e Pesquisas. Os IDs `languages` e `governance` exigem pares PT/EN, com NLP2/ProIndL e OBIA/KEML respectivamente. `revision` registra data e fundamento editorial; não atribua texto novo à coleta do WordPress. Os quatro grupos de trabalhos anteriores são referenciados, em ordem, nos blocos de `research-pt.json` e `research-en.json`.
+
+**Registros históricos dos desafios:** edite `src/content/challenges/nlp2-pt.json` e sua contraparte. A página Pesquisas referencia os registros por `ref`; os oito pares são obrigatórios, quatro associados aos eixos atuais e quatro em Trabalhos anteriores. As descrições detalhadas de todos continuam identificadas como dados da fase anterior. Equipes e recursos ficam em painéis `details`. Não confunda os oito desafios com os dois subprojetos ainda não definidos.
 
 **Artigos:** `src/content/articles/` contém título, descrição, data original, autoria, categorias, blocos, caminho local e origem. O `id` é o slug da rota. Para uma tradução confirmada, ambos os artigos recebem o mesmo `translationId`; use `null` sem par. O seletor informa a ausência em vez de inventar tradução. `sourceOrder` desempata artigos publicados no mesmo dia conforme a listagem original. Artigos portugueses que a fonte classificava somente como `News` estão em uma listagem complementar, documentada na migração. Para adicionar conteúdo além dos 26, obtenha escopo editorial, atualize as fixtures independentes e revise paginação, pares e ordenação.
 

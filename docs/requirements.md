@@ -22,6 +22,10 @@ Permitir que outro desenvolvedor compreenda, execute, edite, valide e publique o
 
 O favicon continua provisório. A identidade visual foi adaptada das referências existentes, com diferenças intencionais documentadas na migração; não representa nova aprovação institucional. A raiz oferece escolha de idioma, sem inferência por navegador, geolocalização ou JavaScript. A 404 usa português como idioma principal e marca seus trechos ingleses com `lang="en"`.
 
+## Reformulação de 22/09/2026
+
+Home e Pesquisas apresentam dois eixos atuais: processamento de linguagem natural para as línguas do Brasil (NLP2/ProIndL) e governança de IA e avaliação de LLMs (OBIA/KEML). OceanML, MClimate, AI Health e AgriBio aparecem ao final em Trabalhos anteriores. Os dados detalhados dos oito grupos permanecem históricos, sem confirmação de atualidade de equipes ou contatos. Rotas e âncoras antigas são preservadas; não há novas páginas. O contrato inclui duas linhas, agrupamento, ordem e cartões de acesso, conforme [reformulação](reformulation.md).
+
 ## Escopo migrado e futuro
 
 A tarefa de migração autorizou Home, Sobre, Pesquisas e Notícias em PT/EN, mais os 26 artigos distintos inventariados (14 PT/12 EN). As rotas e o mapa antigo–novo estão em [migração](migration.md). Sobre mantém pessoas, comitês, difusão, diversidade, parceiros e contato como seções; Pesquisas mantém os oito desafios com descrições, lideranças, equipes, recursos e contatos. Notícias mantém submenus temáticos, oito entradas por página, busca progressiva e indicação de traduções ausentes. Fontes e imagens recuperáveis são locais. Arquivos de categoria/autor/data, bibliografia, oportunidades, parceiros e portais associados permanecem externos.

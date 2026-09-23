@@ -1,0 +1,82 @@
+---
+import Content from './Content.astro';
+import { researchLines } from '../content/research';
+import { pagePath } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+import type { Block } from '../content/model';
+interface Props {
+  locale: Locale;
+  compact: boolean;
+  historical: Block[];
+}
+const { locale, compact, historical } = Astro.props;
+const lines = await researchLines(locale);
+const pt = locale === 'pt';
+---
+
+{compact ? (
+  <section class="research-overview" aria-labelledby="research-focus-title">
+    <h2 id="research-focus-title">
+      {pt ? 'Nossas linhas de pesquisa' : 'Our research areas'}
+    </h2>
+    <div class="focus-cards">
+      {lines.map((line) => (
+        <article class="focus-card">
+          <h3>
+            <a href={`${pagePath('research', locale)}#${line.anchor}`}>
+              {line.title}
+            </a>
+          </h3>
+          <p>{line.summary}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+) : (
+  <>
+    <nav
+      class="research-sections"
+      aria-label={pt ? 'Nesta página' : 'On this page'}
+    >
+      <ul>
+        {lines.map((line) => (
+          <li>
+            <a href={`#${line.anchor}`}>{line.title}</a>
+          </li>
+        ))}
+        <li>
+          <a href="#previous-research">
+            {pt ? 'Trabalhos anteriores' : 'Previous research'}
+          </a>
+        </li>
+      </ul>
+    </nav>
+    {lines.map((line) => (
+      <section
+        class="current-research"
+        id={line.anchor}
+        aria-labelledby={`${line.anchor}-title`}
+      >
+        <h2 id={`${line.anchor}-title`}>{line.title}</h2>
+        <p class="focus-summary">{line.summary}</p>
+        <div class="group-records">
+          {line.groups.map((ref) => (
+            <Content locale={locale} blocks={[{ type: 'challenge', ref }]} />
+          ))}
+        </div>
+      </section>
+    ))}
+    <section
+      class="previous-research"
+      id="previous-research"
+      aria-labelledby="previous-research-title"
+    >
+      <h2 id="previous-research-title">
+        {pt ? 'Trabalhos anteriores' : 'Previous research'}
+      </h2>
+      <div class="group-records">
+        <Content locale={locale} blocks={historical} />
+      </div>
+    </section>
+  </>
+)}

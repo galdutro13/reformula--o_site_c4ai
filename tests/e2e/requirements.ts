@@ -78,7 +78,14 @@ export const requiredPages: RequiredPage[] = [
       'Escolha o idioma do site do C4AI. Choose the language of the C4AI website.',
     pair: '/en/',
   },
-  ...principalPages.map((p) => ({ ...p, description: p.heading })),
+  ...principalPages.map((p) => ({
+    ...p,
+    description: ['/pt/', '/pt/pesquisas/'].includes(p.path)
+      ? 'O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA e avaliação de grandes modelos de linguagem (LLMs).'
+      : ['/en/', '/en/research/'].includes(p.path)
+        ? 'C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance and the evaluation of large language models (LLMs).'
+        : p.heading,
+  })),
   {
     path: '/pt/noticias/page/2/',
     lang: 'pt-BR',

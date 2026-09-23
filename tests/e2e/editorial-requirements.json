@@ -2,18 +2,7 @@
   {
     "path": "/pt/",
     "source": "https://c4ai.inova.usp.br/pt/inicio/",
-    "texts": [
-      "Um centro de pesquisa para inteligência artificial avançada no Brasil",
-      "Exemplos de atividades de pesquisa do C4AI:",
-      "Recursos para processamento automático do português.",
-      "Preservando as línguas indígenas brasileiras com IA.",
-      "Explorando o oceano com aprendizado de máquina.",
-      "Tomada de decisões climáticas com múltiplos critérios.",
-      "Observatório da IA: impactos e regulamentação.",
-      "Aprendizado de máquina para diagnóstico e reabilitação.",
-      "A no agronegócio sustentável e redes alimentares.",
-      "Nós nos preocupamos com diversidade e inclusão!"
-    ]
+    "texts": ["Nós nos preocupamos com diversidade e inclusão!"]
   },
   {
     "path": "/pt/sobre/",
@@ -64,12 +53,6 @@
     "path": "/pt/pesquisas/",
     "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/",
     "texts": [
-      "processamento de linguagem nATURAL para o português",
-      "aprendizado de Máquina baseado em oceanografia",
-      "omada de Decisões Multicritério sobre o Clima",
-      "Fortalecimento das Línguas Indígenas Brasileiras com IA",
-      "Aprendizado de Máquina com Conhecimento Aprimorado",
-      "Aprendizado de Máquina para Diagnóstico e Reabilitação",
       "Processamento de Linguagem Natural para o Português",
       "Marcelo Finger, Sandra M. Aluísio e Thiago A. S. Pardo",
       "O objetivo deste desafio de pesquisa é reunir dados abertos e ferramentas para habilitar o PLN (Processamento de Linguagem Natural) de alto nível para o português (escrito e falado). O grupo de pesquisa concentrou-se em:",
@@ -95,9 +78,7 @@
       "O objetivo deste grande desafio é mapear, entender e debater o impacto da IA no Brasil e estender essa análise a outros países emergentes. Os interesses da equipe variam desde desinformação até regulamentação e comportamento ético. Dado o amplo impacto da IA, essas questões urgentes só podem ser abordadas com sucesso a partir de uma perspectiva multidisciplinar. Desde junho de 2022, a equipe tem participado como um ramo acadêmico no Observatório Brasileiro de IA liderado pelo NIC.br (a agência que regula e controla a internet brasileira). O Observatório de IA foi criado pelo Ministério Federal de Ciência, Tecnologia e Inovação e é geralmente referido como “OBIA” (para Observatório Brasileiro de Inteligência Artificial).",
       "Os avanços recentes do aprendizado de máquina na medicina têm sido notáveis. No entanto, ainda existem questões importantes a serem abordadas; por exemplo: 1) Como integrar e selecionar características médicas relevantes (biomarcadores) a partir de fontes heterogêneas e dinâmicas em larga escala? 2) Como interpretar as decisões tomadas por algoritmos de aprendizado de máquina e como integrar a inteligência humana e artificial? Este grupo de pesquisa aborda tais questões, concentrando-se em grande parte em acidentes cerebrovasculares (ACV), câncer e Covid-19. A equipe desenvolveu uma série de técnicas de IA.",
       "Tomada de Decisão Causal Multicritério em Redes de Produção Alimentar",
-      "Este grupo de pesquisa está interessado em modelos de IA multicritério causais para tomada de decisões em ambientes de produção de alimentos, especialmente relacionados à segurança alimentar, em meio à incerteza. A equipe investiga métodos para encontrar e representar automaticamente as estruturas fundamentais de subsistemas sociais, econômicos e físicos relacionados à produção de alimentos, criando modelos confiáveis (causais). Muitas das investigações em AgriBio são orientadas por dados, utilizando bancos de dados heterogêneos de várias fontes com milhares de variáveis da Parceria para Governo Aberto (OGP).",
-      "A missão principal do C4AI é produzir pesquisas avançadas em Inteligência Artificial. O centro reúne cerca de 250 pesquisadores, incluindo professores, pós-doutorados, estudantes de pós-graduação e graduação. Esses pesquisadores investigam uma variedade de questões, desde Aprendizado de Máquina até Representação de Conhecimento, desde Raciocínio até Planejamento.",
-      "Muitas atividades de pesquisa no C4AI são organizadas em torno de Desafios de Pesquisa selecionados que combinam aspectos fundamentais de inteligência artificial com aplicações em campos específicos, como agribusiness, clima e saúde. Os desafios atuais são:"
+      "Este grupo de pesquisa está interessado em modelos de IA multicritério causais para tomada de decisões em ambientes de produção de alimentos, especialmente relacionados à segurança alimentar, em meio à incerteza. A equipe investiga métodos para encontrar e representar automaticamente as estruturas fundamentais de subsistemas sociais, econômicos e físicos relacionados à produção de alimentos, criando modelos confiáveis (causais). Muitas das investigações em AgriBio são orientadas por dados, utilizando bancos de dados heterogêneos de várias fontes com milhares de variáveis da Parceria para Governo Aberto (OGP)."
     ]
   },
   {
@@ -224,16 +205,7 @@
   {
     "path": "/en/",
     "source": "https://c4ai.inova.usp.br/",
-    "texts": [
-      "A research center for advanced artificial intelligence in Brazil",
-      "Some examples of research activities in the C4AI:",
-      "Resources for automatic processing of Portuguese.",
-      "Preserving Brazilian indigenous languages with AI.",
-      "Exploring the ocean with machine learning.",
-      "Climate decision-making with multiple criteria.",
-      "Machine learning for diagnosis and rehabilitation.",
-      "AI in sustainable agribusiness and food networks."
-    ]
+    "texts": ["We care about diversity and inclusion!"]
   },
   {
     "path": "/en/about/",
@@ -283,10 +255,6 @@
     "path": "/en/research/",
     "source": "https://c4ai.inova.usp.br/research_2/",
     "texts": [
-      "NATURAL LANGUAGE PROCESSING FOR PORTUGUESE",
-      "MULTICRITERIA DECISION-MAKING ON CLIMATE",
-      "STRENGTHENING BRAZILIAN INDIGENOUS LANGUAGES",
-      "MACHINE LEARNING FOR DIAGNOSIS AND REHABILITATION",
       "Natural Language Processing for Portuguese",
       "Marcelo Finger, Sandra M. Aluísio and Thiago A. S. Pardo",
       "The goal of this research challenge is to put together open data and tools to enable high-level NLP for Portuguese (written and spoken). The research group has focused on:",
@@ -311,9 +279,7 @@
       "The goal of this big challenge is to map, understand, and debate the impact of AI in Brazil and to extent this analysis to other emerging countries. Interests in the team range from disinformation to regulation to ethical behavior. Given AI’s broad impact, these pressing questions can only be successfully addressed from a multi-disciplinary perspective. Since June 2022 the team has participated as an academic branch in the Brazilian AI Observatory led by NIC.br (the agency that regulates and controls the Brazilian internet). The AI Observatory has been created by the federal Ministry of Science, Technology and Innovation, and is usually referred to as “OBIA” (for Observatório Brasileiro de Inteligência Artificial”).",
       "The recent advances of machine learning in medicine have been remarkable. However, there are still important issues that need to be addressed; for instance: 1) How to integrate and select relevant medical features (biomarkers) from large-scale heterogeneous and dynamical sources? 2) How to interpret decisions made by machine learning algorithms and how to integrate human and artificial intelligence? This research group addresses such questions, focusing to a great extent on cerebrovascular accidents (CVA), cancer, and Covid-19. The team has developed a host of AI techniques in connection with that applied side, in particular by relying on graph-oriented machine learning.",
       "Causal Multicriteria Decision Making in Food Production Networks",
-      "This research group is interested in causal multicriteria AI models for decision making under uncertainty within food production networks, in particular as related to food security. The team investigates methods to automatically find and represent the fundamental structures of social, economic and physical subsystems related to food production by creating reliable (causal) models. Many AgriBio investigations are data-driven, using multi-source heterogeneous databases with thousands of variables from the Open Government Partnership (OGP). Advances in representation learning, resilience enhancement of the learned models, and multicriteria decision-making are pursued in that context.",
-      "A key mission of the C4AI is to produce advanced research in Artificial Intelligence. The center congregates about 250 researchers, including faculty, post-docs, graduate and undergraduate students. These researchers investigate a variety of issues, from Machine Learning to Knowledge Representation, from Reasoning to Planning.",
-      "Many research activities in the C4AI are organized around selected Research Challenges that combine fundamental aspects of artificial intelligence with applications in selected fields such as agribusiness, climate, and health. The current challenges are:"
+      "This research group is interested in causal multicriteria AI models for decision making under uncertainty within food production networks, in particular as related to food security. The team investigates methods to automatically find and represent the fundamental structures of social, economic and physical subsystems related to food production by creating reliable (causal) models. Many AgriBio investigations are data-driven, using multi-source heterogeneous databases with thousands of variables from the Open Government Partnership (OGP). Advances in representation learning, resilience enhancement of the learned models, and multicriteria decision-making are pursued in that context."
     ]
   },
   {

@@ -1,0 +1,13 @@
+{
+  "id": "governance-en",
+  "translationId": "governance",
+  "locale": "en",
+  "anchor": "governance",
+  "title": "AI governance and LLM evaluation",
+  "summary": "Research in artificial intelligence governance and the evaluation of large language models (LLMs).",
+  "groups": ["obia-en", "keml-en"],
+  "revision": {
+    "date": "2026-09-22",
+    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
+  }
+}

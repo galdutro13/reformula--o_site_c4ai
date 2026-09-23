@@ -1,0 +1,53 @@
+
+
+Running 1 test using 1 worker
+
+
+
+[1/1] [desktop] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado
+  1) [desktop] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ──────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('.current-research')
+    Expected: 2
+    Received: 1
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('.current-research') with timeout 5000ms
+      - waiting for locator('.current-research')
+        14 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+      399 |     }
+      400 |     await page.goto(scenario.research);
+    > 401 |     await expect(page.locator('.current-research')).toHaveCount(2);
+          |                                                     ^
+      402 |     for (const [i, anchor] of ['languages', 'governance'].entries()) {
+      403 |       const section = page.locator(`#${anchor}`);
+      404 |       await expect(
+        at /Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts:401:53
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    [desktop] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ───────
+[WebServer] (node:9793) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+(node:9822) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

@@ -8,306 +8,33 @@
   "translationId": "research",
   "blocks": [
     {
-      "type": "group",
-      "layout": "section",
-      "children": [
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#NLP2_B_eng\">\nprocessamento de linguagem nATURAL para o português\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#NLP2_B_eng\"> NLP2</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#OceanML_B_eng\">\naprendizado de Máquina baseado em oceanografia\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#OceanML_B_eng\"> OceanML</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#Climate_B_eng\">\nTomada de Decisões Multicritério sobre o Clima\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#Climate_B_eng\"> MClimate</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#OBIA_B_eng\">\nobservatório da ia: IMPACTo da IA\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#OBIA_B_eng\">OBIA@C4AI</a>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#ProIndL_B_eng\">\nFortalecimento das Línguas Indígenas Brasileiras com IA\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#ProIndL_B_eng\"> ProIndL</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#KEML_B_eng\">\nAprendizado de Máquina com Conhecimento Aprimorado\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#KEML_B_eng\"> KEML</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#AlHealth_B_eng\">\nAprendizado de Máquina para Diagnóstico e Reabilitação\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#AlHealth_B_eng\"> AI Health</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#AgriBio_B_eng\">\nTOMADA DE DECISÃO EM REDES DE ALIMENTOS\n</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"/pt/pesquisas/#AgriBio_B_eng\"> AgriBio</a>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "overlappable"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "nlp2-pt"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "proindl-pt"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "editorial-source-content"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "keml-pt"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "oceanml-pt"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "testimonials"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "mclimate-pt"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "obia-pt"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "reusable-sections"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "ai-health-pt"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "challenge",
-                      "ref": "agribio-pt"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "reusable-sections-2"
-        }
-      ],
-      "id": "source-content"
+      "type": "challenge",
+      "ref": "oceanml-pt"
+    },
+    {
+      "type": "challenge",
+      "ref": "mclimate-pt"
+    },
+    {
+      "type": "challenge",
+      "ref": "ai-health-pt"
+    },
+    {
+      "type": "challenge",
+      "ref": "agribio-pt"
     }
   ],
   "title": "Pesquisas no C4AI",
   "heroBlocks": [
     {
-      "type": "group",
-      "layout": "section",
-      "children": [
-        {
-          "type": "group",
-          "layout": "row",
-          "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "html",
-                  "html": "<p>A missão principal do C4AI é produzir pesquisas avançadas em Inteligência Artificial. O centro reúne cerca de 250 pesquisadores, incluindo professores, pós-doutorados, estudantes de pós-graduação e graduação. Esses pesquisadores investigam uma variedade de questões, desde Aprendizado de Máquina até Representação de Conhecimento, desde Raciocínio até Planejamento.</p>"
-                },
-                {
-                  "type": "html",
-                  "html": "<p>Muitas atividades de pesquisa no C4AI são organizadas em torno de Desafios de Pesquisa selecionados que combinam aspectos fundamentais de inteligência artificial com aplicações em campos específicos, como agribusiness, clima e saúde. Os desafios atuais são:</p>"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "id": "hero-section-1"
+      "type": "html",
+      "html": "<p>O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA e avaliação de grandes modelos de linguagem (LLMs).</p>"
     }
   ],
   "heroImages": [],
-  "description": "Pesquisas no C4AI"
+  "description": "O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA e avaliação de grandes modelos de linguagem (LLMs).",
+  "revision": {
+    "date": "2026-09-22",
+    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
+  }
 }

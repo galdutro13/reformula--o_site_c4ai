@@ -67,7 +67,24 @@ export const blockSchema: z.ZodType<Block> = z.lazy(() =>
   ]),
 );
 const link = z.object({ label: z.string().min(1), href: z.string().min(1) });
+const revisionSchema = z.object({
+  date: z.iso.date(),
+  basis: z.string().min(1),
+});
+
+export const researchLineSchema = z.object({
+  id: z.string().min(1),
+  translationId: z.enum(['languages', 'governance']),
+  locale: z.enum(['pt', 'en']),
+  anchor: z.enum(['languages', 'governance']),
+  title: z.string().min(1),
+  summary: z.string().min(1),
+  groups: z.array(z.string().min(1)).length(2),
+  revision: revisionSchema,
+});
+
 export const editorialSchema = z.object({
+  revision: revisionSchema.optional(),
   id: z.string().min(1),
   kind: z.enum(['home', 'about', 'research', 'news', 'article']),
   locale: z.enum(['pt', 'en']),
@@ -75,6 +92,7 @@ export const editorialSchema = z.object({
   retrievedAt: z.iso.datetime({ offset: true }),
   path: z.string().regex(/^\/(pt|en)\//),
   title: z.string().min(1),
+  titleLang: z.enum(['pt-BR', 'en']).optional(),
   description: z.string().min(1),
   translationId: z.string().nullable(),
   blocks: z.array(blockSchema).min(1),

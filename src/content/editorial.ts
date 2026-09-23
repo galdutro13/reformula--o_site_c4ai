@@ -36,9 +36,20 @@ export async function getPage(id: PageId, locale: Locale): Promise<Editorial> {
         );
     }
   }
-  return entries.find(
+  const entry = entries.find(
     (e) => e.data.translationId === id && e.data.locale === locale,
   )!.data;
+  if (id === 'research') {
+    const expected = ['oceanml', 'mclimate', 'ai-health', 'agribio'].map(
+      (group) => `${group}-${locale}`,
+    );
+    const actual = entry.blocks.map((block) =>
+      block.type === 'challenge' ? block.ref : '',
+    );
+    if (actual.join(',') !== expected.join(','))
+      throw new Error(`Histórico de pesquisas inválido: ${locale}`);
+  }
+  return entry;
 }
 export async function articles(locale?: Locale): Promise<Editorial[]> {
   const entries = (await getCollection('articles')).map((e) => e.data);

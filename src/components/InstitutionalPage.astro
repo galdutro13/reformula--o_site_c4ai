@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Content from './Content.astro';
+import ResearchFocus from './ResearchFocus.astro';
 import Media from './Media.astro';
 import { getPage } from '../content/editorial';
 import { pagePath, type PageId } from '../i18n/routes';
@@ -12,20 +13,6 @@ interface Props {
 const { locale, pageId } = Astro.props;
 const entry = await getPage(pageId, locale);
 const home = pageId === 'home';
-const body = home
-  ? entry.blocks.map((block) =>
-      block.type === 'group'
-        ? {
-            ...block,
-            children: block.children.map((child) =>
-              child.type === 'group' && child.id === 'reusable-sections'
-                ? { ...child, children: child.children.slice(1) }
-                : child,
-            ),
-          }
-        : block,
-    )
-  : entry.blocks;
 ---
 
 <BaseLayout
@@ -47,13 +34,12 @@ const body = home
       )}
       <div class="container hero-inner">
         <div>
-          <h1>{entry.title}</h1>
-          {home ? (
+          <h1 lang={entry.titleLang}>{entry.title}</h1>
+          <Content blocks={entry.heroBlocks} locale={locale} />
+          {home && (
             <a class="button-link" href={pagePath('about', locale)}>
               {locale === 'pt' ? 'Saiba mais' : 'About us'}
             </a>
-          ) : (
-            <Content blocks={entry.heroBlocks} locale={locale} />
           )}
         </div>
         {home && (
@@ -73,7 +59,16 @@ const body = home
           <Content blocks={entry.promos} locale={locale} />
         </div>
       )}
-      <Content blocks={body} locale={locale} />
+      {(home || pageId === 'research') && (
+        <ResearchFocus
+          locale={locale}
+          compact={home}
+          historical={entry.blocks}
+        />
+      )}
+      {pageId !== 'research' && (
+        <Content blocks={entry.blocks} locale={locale} />
+      )}
       {entry.heroImages.length > 1 && (
         <div
           class="source-gallery"
