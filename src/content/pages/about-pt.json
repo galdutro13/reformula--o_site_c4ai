@@ -30,27 +30,15 @@
                     },
                     {
                       "type": "html",
-                      "html": "<p>Centro de Inteligência Artificial</p>"
+                      "html": "<p>O Centro de Inteligência Artificial (Center for Artificial Intelligence – C4AI) tem o compromisso de desenvolver pesquisas no estado da arte em Inteligência Artificial (IA), explorando tanto aspectos básicos quanto aplicados nesta área.</p>"
                     },
                     {
                       "type": "html",
-                      "html": "<p>O <strong>Centro de Inteligência Artificial </strong><strong>(Center for Artificial Intelligence – C4AI)</strong> tem o compromisso de desenvolver pesquisas no estado da arte em Inteligência\nArtificial (IA), explorando tanto aspectos básicos quanto aplicados nesta área. Com suporte da IBM e da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), o C4AI também desenvolve estudos sobre o impacto social e econômico\nda IA e conduz atividades de disseminação de conhecimento e transferência de tecnologia, procurando formas de melhorar a qualidade de vida humana e incrementar diversidade e inclusão.</p>"
+                      "html": "<p>O C4AI foi criado em 2020 com apoio da IBM e da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), dentro do Programa de Centros de Pesquisa Aplicada.</p>"
                     },
                     {
                       "type": "html",
-                      "html": "<p>O C4AI foi estabelecido em 2020 por meio de significativo aporte da IBM e FAPESP. A instituição sede é a Universidade de São Paulo (USP), operando em parceria com as instituições associadas ITA, PUC-SP e FEI. A USP dá suporte a pessoal\ne espaço para o C4AI de forma a corresponder aos aportes feitos.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI considera que o próximo nível de desempenho em IA só poderá ser alcançado enfatizando a combinação de aprendizado de máquina, tomada de decisão, representação de conhecimento e raciocínio, e incrementando a colaboração entre\nessas áreas e suas aplicações. A conexão entre as tópicos básicos de pesquisa e áreas de aplicação de IA funciona nos dois sentidos: os tópicos básicos permitem a abordagem de problemas de grande escala nas áreas de aplicação selecionadas,\ne por outro lado são alimentados pelos desafios de escala nessas áreas de aplicação.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI é parte da IBM’s AI Horizons Network (AIHN), rede de centros de pesquisa criada em 2016 para promover colaboração entre universidades líderes ao redor do mundo, com o objetivo de acelerar a pesquisa e a aplicação de IA.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI é parte do Programa de Centros de Pesquisa em Engenharia da FAPESP em que financiamento de longo prazo é direcionado para temas amplos e essenciais.</p>"
+                      "html": "<p>O C4AI considera que o próximo nível de desempenho em IA só poderá ser alcançado enfatizando a combinação de aprendizado de máquina, tomada de decisão, representação de conhecimento e raciocínio, e incrementando a colaboração entre essas áreas e suas aplicações. O C4AI também desenvolve estudos sobre o impacto social e econômico da IA e conduz atividades de disseminação de conhecimento e transferência de tecnologia, procurando formas de melhorar a qualidade de vida humana.</p>"
                     }
                   ]
                 },
@@ -73,7 +61,7 @@
                             },
                             {
                               "type": "html",
-                              "html": "<p>O C4AI é sediado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar, localizado no coração do campus Butantã da USP. Um segundo espaço é situado no ICMC em São Carlos.</p>"
+                              "html": "<p>O C4AI é sediado no CIAAM e localizado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar no coração do campus Butantã da USP.</p>"
                             }
                           ]
                         }
@@ -92,10 +80,6 @@
                       "alt": "",
                       "width": 626,
                       "height": 448
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>Além disso, o C4AI possui uma equipe de Difusão que visa a disseminação de tecnologia e educação da IA ​​na sociedade. Além disso, o C4AI possui uma equipe de Impacto com o objetivo de fomentar o uso de IA nas empresas e o crescimento\ne criação de provedores de tecnologia de IA no Brasil.</p>"
                     },
                     {
                       "type": "group",
@@ -165,7 +149,7 @@
                     },
                     {
                       "type": "html",
-                      "html": "<p>O C4AI é coordenado por seu Comitê Executivo sob supervisão de seu Comitê de Direção e um Comitê de Estratégia. O C4AI é aconselhado por três comitês: o Comitê de Indústria e Sociedade (CIS), o Comitê de Diversidade e Inclusão (CID),\ne o Comitê Consultivo Internacional (CCI).</p>"
+                      "html": "<p>O C4AI é coordenado por um Comitê Executivo.</p>"
                     }
                   ]
                 }
@@ -227,44 +211,6 @@
                           "children": [
                             {
                               "type": "image",
-                              "src": "/media/aa650db47c54.jpg",
-                              "alt": "",
-                              "width": 388,
-                              "height": 373
-                            },
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Vice Diretor Claudio Pinhanez, IBM"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>Obteve seu PhD. em 1999 no MIT Media Laboratory. Claudio é o atual gerente do grupo de Pesquisa de Inteligência Conversacional no laboratório da IBM Brazil.</p>"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<span>Pesquisador IBM — indisponível; revisão editorial pendente</span>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "image",
                               "src": "/media/f907124dd99d.jpg",
                               "alt": "",
                               "width": 939,
@@ -282,44 +228,6 @@
                             {
                               "type": "html",
                               "html": "<a href=\"http://lattes.cnpq.br/7396818382676736\"> Lattes</a>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "image",
-                              "src": "/media/6ba22890a385.jpg",
-                              "alt": "",
-                              "width": 400,
-                              "height": 400
-                            },
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Coordenador de Impacto Glauco Arbix, USP (de licença)"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>Doutor em Sociologia pela USP, com pós-doutorado no MIT (2010), Columbia University (2009) e University of California at Berkeley (2008). Professor Titular da USP e ex-presidente da FINEP (2011-2015) e IPEA (2003-2006).</p>"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<a href=\"http://lattes.cnpq.br/6513212204220783\"> Lattes</a>"
                             }
                           ]
                         }
@@ -364,45 +272,14 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "image",
-                              "src": "/media/92426cbf59c5.jpg",
-                              "alt": "",
-                              "width": 540,
-                              "height": 540
-                            },
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Coordenador de Infraestrutura Alexandre Delbem, USP"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>Professor Titular do Departamento de Sistemas de Computação do Instituto de Ciências Matemáticas e de Computação da Universidade de São Paulo (ICMC-USP) e Pesquisador Assistente em Produtividade 1C do CNPq. Bacharel, Mestre\ne Doutor em Engenharia Elétrica pela USP.</p>"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<a href=\"http://lattes.cnpq.br/1201079310363734\"> Lattes</a>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
+                }
+              ],
+              "id": "leadership-executive"
+            },
+            {
+              "type": "group",
+              "layout": "row",
+              "children": [
                 {
                   "type": "group",
                   "layout": "column",
@@ -505,195 +382,32 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "id": "leadership-management"
             }
           ],
           "id": "lideranca"
         },
         {
           "type": "group",
-          "layout": "section",
+          "layout": "row",
           "children": [
             {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Comitê Executivo"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<ul>\n<li>\n\n \n Diretor: Fabio Cozman, USP\n\n\n\n\n\n</li>\n<li>\n\n\n Vice-Diretor: Claudio Pinhanez, IBM\n\n\n\n\n\n</li>\n<li>\n\n\n Coordenador de Difusão: Fernando Osório, USP\n\n\n\n\n\n</li>\n<li>\n\n\n Coordenador de Impacto: Glauco Arbix, USP\n\n\n\n\n\n\n</li>\n</ul>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Comitê de Direção"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<ul>\n<li>\n\n \n Lisa Amini, IBM\n\n\n\n\n\n</li>\n<li>\n\n\n Bruno Flach, IBM\n\n\n\n\n\n</li>\n<li>\n\n\n USP\n\n\n\n\n\n</li>\n<li>\n\n\n USP\n\n\n\n\n\n\n</li>\n</ul>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Comitê de Estratégia"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<ul>\n<li>\n\n \n Dario Gil, Director of IBM Research\n\n\n\n\n\n</li>\n<li>\n\n\n USP, Provost of Research\n\n\n\n\n\n\n</li>\n</ul>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "reusable-sections-6"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
+              "type": "image",
+              "src": "/media/d353c08ee8d0.jpg",
+              "alt": "Espaço de trabalho com mesas, cadeiras e grandes janelas no InovaUSP.",
+              "width": 1920,
+              "height": 1149
+            },
             {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "image",
-                              "src": "/media/d353c08ee8d0.jpg",
-                              "alt": "",
-                              "width": 1920,
-                              "height": 1149
-                            }
-                          ]
-                        },
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Comitê de Indústria e Sociedade"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p><strong>Comitê de Indústria e Sociedade</strong> é um órgão de aconselhamento da direção do C4AI, visando uma melhor aproximação entre os pesquisadores do centro e lideranças empresariais,\nprivadas e públicas, e a facilitação do processo de transferência de tecnologia do centro para o mercado e a sociedade.</p>"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<a href=\"mailto:c4ai-cis@usp.br\"> Contato CIS</a>"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "O Comitê Consultivo Internacional"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>O Comitê Consultivo Internacional, composto por um conjunto de pesquisadores internacionalmente reconhecidos, aconselha o Centro sobre sua operação, direcionando-o na direção de novas\noportunidades de pesquisa, com o objetivo de aumentar sua competitividade internacional.</p>"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "image",
-                              "src": "/media/face5360cac4.jpg",
-                              "alt": "",
-                              "width": 2560,
-                              "height": 1707
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "type": "image",
+              "src": "/media/face5360cac4.jpg",
+              "alt": "Público acompanha uma apresentação em um auditório do InovaUSP.",
+              "width": 2560,
+              "height": 1707
             }
           ],
-          "id": "cis"
+          "id": "about-gallery"
         },
         {
           "type": "group",
@@ -723,7 +437,7 @@
                     },
                     {
                       "type": "html",
-                      "html": "<p><strong>Coordenadores:</strong></p>"
+                      "html": "<p><strong>Coordenador:</strong></p>"
                     },
                     {
                       "type": "html",
@@ -731,11 +445,7 @@
                     },
                     {
                       "type": "html",
-                      "html": "<p>Claudio Pinhanez, IBM</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"mailto:c4ai-outreach@usp.br\"> Contato</a>"
+                      "html": "<a href=\"mailto:c4ai@usp.br\"> Contato</a>"
                     }
                   ]
                 }
@@ -757,148 +467,9 @@
                   "layout": "column",
                   "children": [
                     {
-                      "type": "heading",
-                      "level": 2,
-                      "text": "Diversidade e Inclusão"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI também é ativo no apoio a atividades de diversidade e inclusão in IA para comunidades sub- representadas, e em especial com atividades para pesquisadoras em início de carreira, estudantes e professores afrodescendentes e grupos\nsimilares, objetivando maior diversidade e inclusão nos profissionais presentes e futuros de IA.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p><strong>Coordenadores:</strong></p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>Valdinei Freire da Silva, USP</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>Renata Wassermann, USP</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"mailto:c4ai-cid@usp.br\"> Contato</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://c4ai.inova.usp.br/cid/\"> Veja mais</a>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "diversidade"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "heading",
-                      "level": 2,
-                      "text": "Impacto & Parceiros"
-                    },
-                    {
-                      "type": "heading",
-                      "level": 3,
-                      "text": "Inovação, Parcerias, e Spin-offs"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>Trabalhando com universidades, empresas, governo, startups e outras organizações para efetivamente empregar tecnologia de IA na promoção de impacto econômico e social.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p><strong>Coordenadores:</strong></p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>Glauco Arbix, USP</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>Claudio Pinhanez, IBM</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"mailto:c4ai-impact@usp.br\"> contato</a>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://c4ai.inova.usp.br/pt/parceiros/\"> parceiros</a>"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI trabalha ativamente com o ecossistema de pesquisa e indústria para o emprego da tecnologia por ele desenvolvida na promoção de impacto econômico e social.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI está estabelecendo parcerias de colaboração com outras universidades e centros de pesquisa no Brasil e no mundo, para integrar e diversificar a disponibilidade de tecnologia e ferramentas\nde IA.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI objetiva auxiliar na coleta, estruturação, e organização de dados e códigos abertos relacionados a IA no contexto da comunidade científica e tecnológica brasileira.</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>Trabalhando com parceiros, a meta é dar suporte à criação de repositórios de bases de dados de treinamentos, código aberto de ferramentas, e bases de conhecimento para promover pesquisa (básica e aplicada) e desenvolvimento econômico\nbaseado em IA.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI almeja trabalhar com empresas, com o ecossistema de startups, e com governos para promover aplicações de IA em negócios e o empoderamento e criação de provedores de tecnologia de IA no Brasil\nde forma sustentável. O centro planeja tornar-se um participante ativo nas discussões relacionadas a políticas públicas de IA e roadmaps estratégicos de research e adoção de IA no Brasil.</p>"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "impacto"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
                       "type": "embed",
                       "url": "https://youtu.be/F5WwcP-bYEA",
-                      "label": "Vídeo do workshop"
+                      "label": "Vídeo do workshop — 2022"
                     }
                   ]
                 }
@@ -920,58 +491,12 @@
                   "layout": "column",
                   "children": [
                     {
-                      "type": "heading",
-                      "level": 2,
-                      "text": "Assista o vídeo do Workshop!"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "reusable-sections-3"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
                       "type": "html",
-                      "html": "<p>O C4AI tem o compromisso de preservar os dados pessoais e a privacidade dos usuários e parceiros, além de aderir às diretrizes LGPD (Lei Geral de Proteção de Dados). Em caso de questionamentos, por favor, entre em contato por meio dos seguintes endereços de e-mail:</p>"
+                      "html": "<p>O C4AI tem o compromisso de preservar os dados pessoais e a privacidade dos usuários e parceiros, além de aderir às diretrizes LGPD (Lei Geral de Proteção de Dados). Em caso de questionamentos, por favor, entre em contato por meio do seguinte endereço de e-mail:</p>"
                     },
                     {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "html",
-                              "html": "<a href=\"mailto:c4ai-ouvidoria@usp.br\"> c4ai-ouvidoria@usp.br</a>"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "html",
-                              "html": "<a href=\"mailto:c4ai-ombudsman@usp.br\"> c4ai-ombudsman@usp.br</a>"
-                            }
-                          ]
-                        }
-                      ]
+                      "type": "html",
+                      "html": "<a href=\"mailto:c4ai@usp.br\"> c4ai@usp.br</a>"
                     }
                   ]
                 }
@@ -1071,7 +596,7 @@
       "id": "source-content"
     }
   ],
-  "title": "Um centro de pesquisa de inteligência artificial no Brasil",
+  "title": "Um centro de pesquisa em inteligência artificial avançada no Brasil.",
   "heroBlocks": [],
   "promos": [
     {
@@ -1082,33 +607,6 @@
           "type": "group",
           "layout": "row",
           "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "heading",
-                          "level": 2,
-                          "text": "C4Ai DOIS ANOS"
-                        },
-                        {
-                          "type": "html",
-                          "html": "<p>Para mais informações visite\n<a href=\"/pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/\">nosso website.</a>\n</p>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "type": "group",
               "layout": "column",
@@ -1174,5 +672,9 @@
     "/media/d353c08ee8d0.jpg",
     "/media/452d5f95428a.jpg"
   ],
-  "description": "Um centro de pesquisa de inteligência artificial no Brasil"
+  "description": "Um centro de pesquisa em inteligência artificial avançada no Brasil.",
+  "revision": {
+    "date": "2026-10-06",
+    "basis": "Reunião de 2026-09-29, texto de Fábio Cozman de 2026-09-30 e plano editorial aprovado."
+  }
 }

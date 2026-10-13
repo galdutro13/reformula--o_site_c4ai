@@ -1,0 +1,406 @@
+[
+  {
+    "file": "screenshots/home-pt-desktop.png",
+    "page": "/pt/",
+    "locale": "pt",
+    "state": "full",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:26.646Z"
+  },
+  {
+    "file": "screenshots/about-pt-desktop.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "full",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:27.056Z"
+  },
+  {
+    "file": "screenshots/about-pt-desktop-leadership.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "leadership",
+    "viewport": {
+      "width": 1440,
+      "height": 1406
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:03:58.362Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-pt-desktop-intro.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "intro",
+    "viewport": {
+      "width": 1440,
+      "height": 1681
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:03:59.102Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-pt-desktop-gallery.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "gallery",
+    "viewport": {
+      "width": 1440,
+      "height": 595
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:03:59.852Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-pt-desktop-contact.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "contact",
+    "viewport": {
+      "width": 1440,
+      "height": 698
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:00.547Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/research-pt-desktop.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "full",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:05:23.969Z"
+  },
+  {
+    "file": "screenshots/research-pt-desktop-governance.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "governance",
+    "viewport": {
+      "width": 1440,
+      "height": 1125
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:01.235Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/home-en-desktop.png",
+    "page": "/en/",
+    "locale": "en",
+    "state": "full",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:27.804Z"
+  },
+  {
+    "file": "screenshots/about-en-desktop.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "full",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:28.218Z"
+  },
+  {
+    "file": "screenshots/about-en-desktop-leadership.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "leadership",
+    "viewport": {
+      "width": 1440,
+      "height": 1433
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:01.969Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-en-desktop-intro.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "intro",
+    "viewport": {
+      "width": 1440,
+      "height": 1681
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:02.702Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-en-desktop-gallery.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "gallery",
+    "viewport": {
+      "width": 1440,
+      "height": 595
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:03.470Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-en-desktop-contact.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "contact",
+    "viewport": {
+      "width": 1440,
+      "height": 698
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:04.147Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/research-en-desktop.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "full",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:05:24.737Z"
+  },
+  {
+    "file": "screenshots/research-en-desktop-governance.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "governance",
+    "viewport": {
+      "width": 1440,
+      "height": 1189
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:04.857Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/home-pt-mobile.png",
+    "page": "/pt/",
+    "locale": "pt",
+    "state": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:29.004Z"
+  },
+  {
+    "file": "screenshots/about-pt-mobile.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:29.230Z"
+  },
+  {
+    "file": "screenshots/about-pt-mobile-leadership.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "leadership",
+    "viewport": {
+      "width": 390,
+      "height": 3233
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:05.548Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-pt-mobile-intro.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "intro",
+    "viewport": {
+      "width": 390,
+      "height": 2198
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:06.273Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-pt-mobile-gallery.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "gallery",
+    "viewport": {
+      "width": 390,
+      "height": 673
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:06.963Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-pt-mobile-contact.png",
+    "page": "/pt/sobre/",
+    "locale": "pt",
+    "state": "contact",
+    "viewport": {
+      "width": 390,
+      "height": 1043
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:07.652Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/research-pt-mobile.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:05:25.403Z"
+  },
+  {
+    "file": "screenshots/research-pt-mobile-governance.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "governance",
+    "viewport": {
+      "width": 390,
+      "height": 2020
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:08.318Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/home-en-mobile.png",
+    "page": "/en/",
+    "locale": "en",
+    "state": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:29.805Z"
+  },
+  {
+    "file": "screenshots/about-en-mobile.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:00:30.031Z"
+  },
+  {
+    "file": "screenshots/about-en-mobile-leadership.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "leadership",
+    "viewport": {
+      "width": 390,
+      "height": 3308
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:09.041Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-en-mobile-intro.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "intro",
+    "viewport": {
+      "width": 390,
+      "height": 2171
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:09.739Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-en-mobile-gallery.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "gallery",
+    "viewport": {
+      "width": 390,
+      "height": 673
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:10.465Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/about-en-mobile-contact.png",
+    "page": "/en/about/",
+    "locale": "en",
+    "state": "contact",
+    "viewport": {
+      "width": 390,
+      "height": 1017
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:11.137Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  },
+  {
+    "file": "screenshots/research-en-mobile.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "full",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:05:26.090Z"
+  },
+  {
+    "file": "screenshots/research-en-mobile-governance.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "governance",
+    "viewport": {
+      "width": 390,
+      "height": 2031
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-06T19:04:11.840Z",
+    "captureMethod": "Section screenshot contained in an expanded viewport; no CSS changes."
+  }
+]

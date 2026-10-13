@@ -3,7 +3,7 @@ import type { Locale } from '../i18n/ui';
 
 const associations = {
   languages: ['nlp2', 'proindl'],
-  governance: ['obia', 'keml'],
+  governance: ['obia', 'harpia'],
 } as const;
 
 export async function researchLines(locale: Locale) {

@@ -1,5 +1,7 @@
 # Primeira reformulação — 22/09/2026
 
+Este documento preserva o histórico da primeira reformulação e seus resultados. A [atualização editorial de 06/10/2026](#atualização-editorial--06102026) define as mudanças posteriores; resultados e capturas abaixo não devem ser apresentados como validação da atualização de outubro.
+
 Home e Pesquisas, em PT/EN, passam a comunicar o novo foco autorizado pelo mantenedor. Esta etapa altera a apresentação e a organização; não confirma dados atuais de equipes, contatos, resultados ou financiamento.
 
 ## Organização adotada
@@ -69,3 +71,11 @@ As expectativas independentes do título foram atualizadas e a verificação exi
 Foram removidos os avisos `historical-notice` das duas linhas e de Trabalhos anteriores, em português e inglês, além do parágrafo explicativo sobre o histórico. Os títulos, grupos, conteúdo, painéis e âncoras permanecem. Observações destinadas ao mantenedor devem ser comunicadas no Codex e registradas na documentação, sem inserção automática na página pública.
 
 Os testes que exigiam os avisos agora verificam sua ausência, conforme a nova solicitação editorial. As verificações de preservação dos oito grupos e de sua organização permanecem. A remoção dos avisos não constitui aprovação editorial dos dados antigos.
+
+## Atualização editorial — 06/10/2026
+
+O plano expressamente autorizado pelo mantenedor consolida a reunião de 29/09 e o email de 30/09 de Fábio Cozman. A nova organização mantém dois eixos, subdivide governança em Macro (OBIA e regulação de IA) e Micro (implantação em empresas e HarpIA), e desloca KEML para o final de Trabalhos anteriores, preservando integralmente seu registro. Home e Sobre recebem a frase e os textos aprovados; Sobre mantém a liderança selecionada como Comitê Executivo e duas fotografias dos comitês, mas retira os demais conteúdos indicados. O workshop permanece com a data 2022. A assinatura CIAAM/USP substitui o conjunto anterior no rodapé de todo o site.
+
+O [registro editorial](reformulation/2026-10-06/editorial.md) discrimina decisões, fontes consultadas, traduções e fragmentos retirados. O [registro de expectativas](reformulation/2026-10-06/changed-expectations.json) documenta as substituições nos testes. O [registro de validação](reformulation/2026-10-06/validation.md) distingue resultados efetivamente executados de verificações pendentes.
+
+Esta etapa não reescreve inventários, relatórios, capturas ou demais evidências anteriores de migração e reformulação. Os artigos e notícias preservam seus conteúdos datados, recebendo apenas a navegação e o rodapé compartilhados. A aprovação das alterações editoriais não confirma a atualidade de equipes e contatos históricos nem autoriza publicação.

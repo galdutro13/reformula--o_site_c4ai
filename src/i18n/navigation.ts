@@ -25,8 +25,7 @@ export const labels = {
     load: 'Carregar conteúdo externo',
     open: 'Abrir no site de origem',
     source: 'Fonte original',
-    partnership: 'Uma parceria de:',
-    hosted: 'C4AI é sediado por',
+    hosted: 'C4AI é sediado no CIAAM',
     page: 'Página',
   },
   en: {
@@ -54,8 +53,7 @@ export const labels = {
     load: 'Load external content',
     open: 'Open the original site',
     source: 'Original source',
-    partnership: 'A partnership of:',
-    hosted: 'C4AI is hosted by',
+    hosted: 'C4AI is hosted by CIAAM',
     page: 'Page',
   },
 };
@@ -63,15 +61,11 @@ export const aboutSections = {
   pt: [
     ['lideranca', 'Liderança'],
     ['difusao', 'Difusão'],
-    ['diversidade', 'Diversidade & Inclusão'],
-    ['impacto', 'Impacto & Parceiros'],
     ['contato', 'Contato'],
   ],
   en: [
     ['leadership', 'Leadership'],
     ['outreach', 'Outreach'],
-    ['diversity', 'Diversity & Inclusion'],
-    ['impact', 'Impact & Partners'],
     ['contact', 'Contact'],
   ],
 } as const;
@@ -103,16 +97,6 @@ export function externalResources(locale: Locale) {
     {
       label: 'NLP2 – Web Portal',
       href: 'https://sites.google.com/icmc.usp.br/nlp2',
-    },
-    {
-      label: pt
-        ? 'Diversidade & Inclusão Portal'
-        : 'Diversity & Inclusion Portal',
-      href: 'https://c4ai.inova.usp.br/cid/',
-    },
-    {
-      label: pt ? 'Parceiros Portal' : 'Partners Portal',
-      href: `https://c4ai.inova.usp.br/${pt ? 'pt/parceiros' : 'partners'}/`,
     },
   ];
 }

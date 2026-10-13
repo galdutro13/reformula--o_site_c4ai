@@ -10,6 +10,7 @@ import {
 import editorial from './editorial-requirements.json' with { type: 'json' };
 import articleRequirements from './article-requirements.json' with { type: 'json' };
 import newsOrder from './news-order.json' with { type: 'json' };
+import { assertSharedEditorial } from './editorial-update';
 const origin = 'http://127.0.0.1:4321';
 const compact = (value: string) => value.replace(/\s/g, '');
 test.beforeEach(async ({ page }) => {
@@ -76,6 +77,7 @@ for (const required of requiredPages) {
           ).toHaveAttribute('href', origin + path);
       }
     }
+    await assertSharedEditorial(page, required.lang);
     const article = articleRequirements.find((a) => a.path === required.path);
     if (article) {
       await expect(page.locator('.article-heading')).toContainText(
@@ -177,7 +179,9 @@ for (const locale of ['pt', 'en'] as const) {
     for (const id of newsAnchors[locale])
       await expect(page.locator(`[id="${id}"]`)).toHaveCount(1);
   });
-  test(`${locale}: oito desafios e painéis nativos`, async ({ page }) => {
+  test(`${locale}: nove registros de pesquisa e painéis nativos`, async ({
+    page,
+  }) => {
     await page.goto(pt ? '/pt/pesquisas/' : '/en/research/');
     for (const name of challenges)
       await expect(
@@ -347,16 +351,11 @@ for (const scenario of [
     research: '/pt/pesquisas/',
     titles: [
       'Processamento de linguagem natural para as línguas do Brasil',
-      'Governança de IA e avaliação de LLMs',
+      'Governança de IA',
     ],
     history: 'Trabalhos anteriores',
     notice: 'Registro da fase anterior:',
-    terms: [
-      'português',
-      'línguas indígenas',
-      'governança',
-      'grandes modelos de linguagem',
-    ],
+    terms: ['português', 'línguas indígenas', 'governança'],
   },
   {
     locale: 'en',
@@ -364,16 +363,11 @@ for (const scenario of [
     research: '/en/research/',
     titles: [
       'Natural language processing for the languages of Brazil',
-      'AI governance and LLM evaluation',
+      'AI governance',
     ],
     history: 'Previous research',
     notice: 'Record of the previous phase:',
-    terms: [
-      'Portuguese',
-      'Indigenous languages',
-      'governance',
-      'large language models',
-    ],
+    terms: ['Portuguese', 'Indigenous languages', 'governance'],
   },
 ]) {
   test(`${scenario.locale}: duas linhas atuais e histórico preservado`, async ({
@@ -418,9 +412,11 @@ for (const scenario of [
     ).toEqual(['NLP2_B_eng', 'ProIndL_B_eng']);
     expect(
       await page
-        .locator('#governance .group-records > [id]')
+        .locator(
+          '#governance-macro .group-records > [id], #governance-micro .group-records > [id]',
+        )
         .evaluateAll((els) => els.map((el) => el.id)),
-    ).toEqual(['OBIA_B_eng', 'KEML_B_eng']);
+    ).toEqual(['OBIA_B_eng', 'harpia']);
     const history = page.locator('#previous-research');
     await expect(
       history.getByRole('heading', { name: scenario.history, exact: true }),
@@ -435,6 +431,7 @@ for (const scenario of [
       'Climate_B_eng',
       'AlHealth_B_eng',
       'AgriBio_B_eng',
+      'KEML_B_eng',
     ]);
     expect(
       await page

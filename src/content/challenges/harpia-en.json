@@ -1,0 +1,34 @@
+{
+  "id": "harpia-en",
+  "translationId": "harpia",
+  "locale": "en",
+  "source": "https://sites.usp.br/keml/en/harpia-2/",
+  "retrievedAt": "2026-10-06T18:54:19Z",
+  "revision": {
+    "date": "2026-10-06",
+    "basis": "Reunião de 29/09/2026, email de 30/09/2026 e decisões editoriais confirmadas pelo mantenedor em 06/10/2026."
+  },
+  "anchor": "harpia",
+  "blocks": [
+    {
+      "type": "group",
+      "id": "harpia",
+      "layout": "section",
+      "children": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "HarpIA"
+        },
+        {
+          "type": "html",
+          "html": "<p>HarpIA is an open-source platform for evaluating large language models (LLMs), with tools to make this process more standardized, reproducible and transparent.</p>"
+        },
+        {
+          "type": "html",
+          "html": "<a href=\"https://sites.usp.br/keml/en/harpia-2/\">Explore the HarpIA platform</a>"
+        }
+      ]
+    }
+  ]
+}

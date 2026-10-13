@@ -22,19 +22,23 @@
     {
       "type": "challenge",
       "ref": "agribio-pt"
+    },
+    {
+      "type": "challenge",
+      "ref": "keml-pt"
     }
   ],
   "title": "Pesquisas no C4AI",
   "heroBlocks": [
     {
       "type": "html",
-      "html": "<p>O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA e avaliação de grandes modelos de linguagem (LLMs).</p>"
+      "html": "<p>O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).</p>"
     }
   ],
   "heroImages": [],
-  "description": "O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA e avaliação de grandes modelos de linguagem (LLMs).",
+  "description": "O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).",
   "revision": {
-    "date": "2026-09-22",
-    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
+    "date": "2026-10-06",
+    "basis": "Reunião de 29/09/2026, email de 30/09/2026 e decisões editoriais confirmadas pelo mantenedor em 06/10/2026."
   }
 }

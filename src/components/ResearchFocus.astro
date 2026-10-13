@@ -28,6 +28,17 @@ const pt = locale === 'pt';
             </a>
           </h3>
           <p>{line.summary}</p>
+          {line.subareas.length > 0 && (
+            <ul class="focus-subareas">
+              {line.subareas.map((area) => (
+                <li>
+                  <a href={`${pagePath('research', locale)}#${area.anchor}`}>
+                    {area.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
         </article>
       ))}
     </div>
@@ -42,6 +53,15 @@ const pt = locale === 'pt';
         {lines.map((line) => (
           <li>
             <a href={`#${line.anchor}`}>{line.title}</a>
+            {line.subareas.length > 0 && (
+              <ul>
+                {line.subareas.map((area) => (
+                  <li>
+                    <a href={`#${area.anchor}`}>{area.title}</a>
+                  </li>
+                ))}
+              </ul>
+            )}
           </li>
         ))}
         <li>
@@ -59,11 +79,37 @@ const pt = locale === 'pt';
       >
         <h2 id={`${line.anchor}-title`}>{line.title}</h2>
         <p class="focus-summary">{line.summary}</p>
-        <div class="group-records">
-          {line.groups.map((ref) => (
-            <Content locale={locale} blocks={[{ type: 'challenge', ref }]} />
-          ))}
-        </div>
+        {line.subareas.length > 0 ? (
+          <div class="governance-subareas">
+            {line.subareas.map((area) => (
+              <section
+                class="research-subarea"
+                id={area.anchor}
+                aria-labelledby={`${area.anchor}-title`}
+              >
+                <h3 id={`${area.anchor}-title`}>{area.title}</h3>
+                <p>{area.summary}</p>
+                <div class="group-records">
+                  <Content
+                    locale={locale}
+                    blocks={[{ type: 'challenge', ref: area.group }]}
+                    headingOffset={2}
+                  />
+                </div>
+              </section>
+            ))}
+          </div>
+        ) : (
+          <div class="group-records">
+            {line.groups.map((ref) => (
+              <Content
+                locale={locale}
+                blocks={[{ type: 'challenge', ref }]}
+                headingOffset={1}
+              />
+            ))}
+          </div>
+        )}
       </section>
     ))}
     <section
@@ -75,7 +121,7 @@ const pt = locale === 'pt';
         {pt ? 'Trabalhos anteriores' : 'Previous research'}
       </h2>
       <div class="group-records">
-        <Content locale={locale} blocks={historical} />
+        <Content locale={locale} blocks={historical} headingOffset={1} />
       </div>
     </section>
   </>

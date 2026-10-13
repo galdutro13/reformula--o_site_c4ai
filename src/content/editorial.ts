@@ -9,6 +9,7 @@ export async function getPage(id: PageId, locale: Locale): Promise<Editorial> {
     'nlp2',
     'proindl',
     'keml',
+    'harpia',
     'oceanml',
     'mclimate',
     'obia',
@@ -40,9 +41,13 @@ export async function getPage(id: PageId, locale: Locale): Promise<Editorial> {
     (e) => e.data.translationId === id && e.data.locale === locale,
   )!.data;
   if (id === 'research') {
-    const expected = ['oceanml', 'mclimate', 'ai-health', 'agribio'].map(
-      (group) => `${group}-${locale}`,
-    );
+    const expected = [
+      'oceanml',
+      'mclimate',
+      'ai-health',
+      'agribio',
+      'keml',
+    ].map((group) => `${group}-${locale}`);
     const actual = entry.blocks.map((block) =>
       block.type === 'challenge' ? block.ref : '',
     );

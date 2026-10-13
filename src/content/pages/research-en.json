@@ -22,19 +22,23 @@
     {
       "type": "challenge",
       "ref": "agribio-en"
+    },
+    {
+      "type": "challenge",
+      "ref": "keml-en"
     }
   ],
   "title": "Research in the C4AI",
   "heroBlocks": [
     {
       "type": "html",
-      "html": "<p>C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance and the evaluation of large language models (LLMs).</p>"
+      "html": "<p>C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance, with macro governance (AI and public policy) and micro governance (AI deployment and evaluation).</p>"
     }
   ],
   "heroImages": [],
-  "description": "C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance and the evaluation of large language models (LLMs).",
+  "description": "C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance, with macro governance (AI and public policy) and micro governance (AI deployment and evaluation).",
   "revision": {
-    "date": "2026-09-22",
-    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
+    "date": "2026-10-06",
+    "basis": "Reunião de 29/09/2026, email de 30/09/2026 e decisões editoriais confirmadas pelo mantenedor em 06/10/2026."
   }
 }

@@ -76,7 +76,7 @@ for (const locale of ['pt', 'en']) {
     ]);
     await expect(embed.locator('iframe')).toHaveAttribute(
       'title',
-      locale === 'pt' ? 'Vídeo do workshop' : 'Workshop video',
+      locale === 'pt' ? 'Vídeo do workshop — 2022' : 'Workshop video — 2022',
     );
     await expect(embed.locator('iframe')).toHaveAttribute(
       'allowfullscreen',

@@ -9,8 +9,9 @@ import { contentHtml } from '../i18n/routes';
 interface Props {
   blocks: Block[];
   locale: Locale;
+  headingOffset?: 0 | 1 | 2;
 }
-const { blocks, locale } = Astro.props;
+const { blocks, locale, headingOffset = 0 } = Astro.props;
 const resolved = await Promise.all(
   blocks.map(async (block) => {
     if (block.type !== 'challenge') return [block];
@@ -28,7 +29,11 @@ const rendered = resolved.flat();
       <div class="rich-text" set:html={contentHtml(block.html)} />
     )}
     {block.type === 'heading' &&
-      (block.level === 2 ? <h2>{block.text}</h2> : <h3>{block.text}</h3>)}
+      (() => {
+        const Heading = `h${block.level + headingOffset}` as
+          'h2' | 'h3' | 'h4' | 'h5';
+        return <Heading>{block.text}</Heading>;
+      })()}
     {block.type === 'image' && (
       <Media
         class="editorial-image"
@@ -45,14 +50,22 @@ const rendered = resolved.flat();
           `columns-${Math.min(block.children.length, 5)}`,
         ]}
       >
-        <Content blocks={block.children} locale={locale} />
+        <Content
+          blocks={block.children}
+          locale={locale}
+          headingOffset={headingOffset}
+        />
       </div>
     )}
     {block.type === 'details' && (
       <details class="content-panel" id={block.id || undefined}>
         <summary>{block.label}</summary>
         <div class="panel-body">
-          <Content blocks={block.children} locale={locale} />
+          <Content
+            blocks={block.children}
+            locale={locale}
+            headingOffset={headingOffset}
+          />
         </div>
       </details>
     )}

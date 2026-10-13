@@ -19,29 +19,28 @@ const social = [
 ---
 
 <footer class="site-footer container">
-  <p>{t.partnership}</p>
-  <div class="partner-marks">
-    {(['usp', 'ibm', 'fapesp'] as const).map((name) => (
+  <p>{t.hosted}</p>
+  <div class="host-marks">
+    <a href={`https://ciaam.usp.br/${locale}/`}>
       <img
-        src={withBase(marks[name])}
-        alt={name.toUpperCase()}
+        src={withBase(marks.ciaam)}
+        alt="CIAAM"
+        width="1648"
+        height="646"
+        loading="lazy"
+      />
+    </a>
+    <a href="https://www.usp.br/">
+      <img
+        src={withBase(marks.usp)}
+        alt="USP"
         width="230"
         height="100"
         loading="lazy"
       />
-    ))}
+    </a>
   </div>
   <div class="footer-bottom">
-    <a class="host-mark" href="https://inova.usp.br/">
-      {t.hosted}
-      <img
-        src={withBase(marks.inova)}
-        alt="Inova USP"
-        width="190"
-        height="39"
-        loading="lazy"
-      />
-    </a>
     <nav aria-label={locale === 'pt' ? 'Redes sociais' : 'Social media'}>
       <ul>
         {social.map(([name, href]) => (

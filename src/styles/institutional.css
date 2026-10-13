@@ -149,34 +149,6 @@
   background: #367d7e;
 }
 
-.page-home #cta {
-  margin-top: 3rem;
-  background: var(--color-accent);
-  color: #fff;
-  padding: 1.5rem;
-}
-
-.page-about #lideranca h3,
-.page-about #leadership h3 {
-  margin-top: 1.5rem;
-}
-
-.page-home #cta a {
-  color: #fff;
-}
-
-.page-about #lideranca .editorial-image,
-.page-about #leadership .editorial-image {
-  width: 12rem;
-  height: 12rem;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.page-home #cta .rich-text a {
-  box-shadow: none;
-}
-
 @media (width <= 600px) {
   .page-hero {
     padding: 2.5rem 0;
@@ -198,7 +170,8 @@
 }
 
 .focus-cards,
-.group-records {
+.group-records,
+.governance-subareas {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
@@ -218,11 +191,53 @@
   text-align: left;
 }
 
+.focus-subareas {
+  margin-block: 1rem 0;
+  padding-left: 1.25rem;
+}
+
+.focus-subareas li + li {
+  margin-top: 0.75rem;
+}
+
+.research-subarea {
+  min-width: 0;
+  border-top: 3px solid var(--color-accent);
+  padding-top: 0.5rem;
+}
+
+.research-subarea > h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.research-subarea .group-records {
+  display: block;
+}
+
+.group-records h4,
+.group-records h5 {
+  overflow-wrap: anywhere;
+}
+
+.group-records h3,
+.research-subarea .group-records h4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-block: 1.5rem 1rem;
+}
+
 .research-sections ul {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem 2rem;
   padding-left: 1.25rem;
+}
+
+.research-sections ul ul {
+  display: block;
+  margin-block: 0.5rem;
 }
 
 .current-research,
@@ -245,7 +260,8 @@
 
 @media (width <= 700px) {
   .focus-cards,
-  .group-records {
+  .group-records,
+  .governance-subareas {
     grid-template-columns: minmax(0, 1fr);
   }
 }

@@ -3,11 +3,25 @@
   "translationId": "governance",
   "locale": "pt",
   "anchor": "governance",
-  "title": "Governança de IA e avaliação de LLMs",
-  "summary": "Pesquisa em governança de inteligência artificial e avaliação de grandes modelos de linguagem (LLMs).",
-  "groups": ["obia-pt", "keml-pt"],
+  "title": "Governança de IA",
+  "summary": "Pesquisa em governança de IA, articulando IA e políticas públicas com implantação e avaliação de IA em empresas.",
+  "groups": ["obia-pt", "harpia-pt"],
   "revision": {
-    "date": "2026-09-22",
-    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
-  }
+    "date": "2026-10-06",
+    "basis": "Reunião de 29/09/2026, email de 30/09/2026 e decisões editoriais confirmadas pelo mantenedor em 06/10/2026."
+  },
+  "subareas": [
+    {
+      "anchor": "governance-macro",
+      "title": "Governança Macro — IA e políticas públicas",
+      "summary": "IA e políticas públicas, incluindo OBIA e regulação de IA.",
+      "group": "obia-pt"
+    },
+    {
+      "anchor": "governance-micro",
+      "title": "Governança Micro — Implantação e avaliação de IA",
+      "summary": "Governança em empresas, implantação e avaliação de IA, incluindo avaliação de LLMs com HarpIA.",
+      "group": "harpia-pt"
+    }
+  ]
 }

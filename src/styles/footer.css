@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.partner-marks {
+.host-marks {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,17 +23,9 @@
   font-size: 0.8rem;
 }
 
-.host-mark {
-  display: grid;
-  gap: 0.5rem;
-}
-
-.partner-marks img {
-  width: 160px;
-}
-
-.host-mark img {
-  width: 140px;
+.host-marks img {
+  display: block;
+  width: 180px;
 }
 
 .site-footer ul {
@@ -50,7 +42,7 @@
 }
 
 @media (width <= 600px) {
-  .partner-marks {
+  .host-marks {
     flex-direction: column;
   }
 }
