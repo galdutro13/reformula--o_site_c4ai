@@ -6,11 +6,16 @@ import {
   challenges,
   aboutAnchors,
   newsAnchors,
+  researchIndex,
 } from './requirements';
 import editorial from './editorial-requirements.json' with { type: 'json' };
 import articleRequirements from './article-requirements.json' with { type: 'json' };
 import newsOrder from './news-order.json' with { type: 'json' };
 import { assertSharedEditorial } from './editorial-update';
+import './research-index';
+import './harpia';
+import './language-projects';
+import './governance-projects';
 const origin = 'http://127.0.0.1:4321';
 const compact = (value: string) => value.replace(/\s/g, '');
 test.beforeEach(async ({ page }) => {
@@ -183,7 +188,7 @@ for (const locale of ['pt', 'en'] as const) {
     page,
   }) => {
     await page.goto(pt ? '/pt/pesquisas/' : '/en/research/');
-    for (const name of challenges)
+    for (const name of challenges[locale])
       await expect(
         page.getByRole('heading', { name, exact: true }),
       ).toBeVisible();
@@ -441,10 +446,13 @@ for (const scenario of [
     await expect(page.locator('.page-hero')).not.toContainText('250');
     await page
       .getByRole('navigation', {
-        name: scenario.locale === 'pt' ? 'Nesta página' : 'On this page',
+        name: researchIndex[scenario.locale as 'pt' | 'en'].title,
         exact: true,
       })
-      .getByRole('link', { name: scenario.history, exact: true })
+      .getByRole('link', {
+        name: researchIndex[scenario.locale as 'pt' | 'en'].links[3].label,
+        exact: true,
+      })
       .click();
     await expect(page).toHaveURL(
       origin + scenario.research + '#previous-research',

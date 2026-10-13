@@ -1,0 +1,34 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arte vetorial">
+<path id="Fundo-organico" d="M107 39C128 27 161 23 188 30C212 35 224 47 224 70C225 104 213 133 192 157C174 179 152 189 125 182C95 176 66 155 58 129C48 98 65 69 86 50C92 46 100 42 107 39Z" fill="url(#paint0_linear_0_4)"/>
+<g id="Geometria-losangos" opacity="0.92">
+<path id="Losango-externo" d="M45 145L71 118L113 161L71 203L45 177" stroke="#CCE1E8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Losango-medio" d="M71 135L96 160L71 185L46 160L71 135Z" stroke="#CCE1E8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Losango-interno" d="M71 147L84 160L71 173L58 160L71 147Z" stroke="#CCE1E8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Diagonal-geometrica" d="M90 148L102 138" stroke="#CCE1E8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Pena-maior" d="M126 164C117 160 113 145 112 130C111 121 112 113 113 105L124 118L115 100C117 90 120 79 123 71L135 88L126 65C130 56 135 48 139 42L146 56L142 36C152 24 163 15 172 9C175 6 178 7 177 13C178 28 177 41 175 52L159 67L174 59C173 68 171 77 169 84L151 97L168 91C165 103 161 115 157 125C148 146 137 161 126 164Z" fill="url(#paint1_linear_0_4)"/>
+<path id="Haste-maior" d="M125 194C124 170 128 146 136 120C144 91 157 62 165 39" stroke="#578C82" stroke-width="3.5" stroke-linecap="round"/>
+<path id="Eixo-maior" d="M127 163C131 132 146 94 165 39" stroke="#B2D2C8" stroke-width="1.55" stroke-linecap="round"/>
+<path id="Nervuras-maiores" d="M133 128L115 108M143 101L130 74M153 72L146 51M133 131L153 121M144 99L164 87" stroke="#9CC7BA" stroke-width="1.1"/>
+<path id="Pena-menor" d="M158 212C150 200 150 185 153 170C155 159 160 149 165 141L174 161L176 132C179 126 182 119 187 114L188 137C192 122 197 107 211 97C214 94 214 98 215 103C215 107 216 110 215 115L202 134L217 123C218 131 217 139 216 146L192 166L214 158C212 168 209 177 205 184L176 194H198C190 205 178 214 158 212Z" fill="url(#paint2_linear_0_4)"/>
+<path id="Eixo-menor" d="M157 211C167 188 181 161 201 124" stroke="#D0E7DB" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Nervuras-menores" d="M171 185L157 165M181 165V142M174 180L207 162M164 201L187 195" stroke="#B4DACB" stroke-width="1.1"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_4" x1="62" y1="68" x2="218" y2="146" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8F2F3"/>
+<stop offset="1" stop-color="#DCEBE8"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_4" x1="118" y1="45" x2="163" y2="150" gradientUnits="userSpaceOnUse">
+<stop stop-color="#56867F"/>
+<stop offset="0.48" stop-color="#60958C"/>
+<stop offset="1" stop-color="#4D8078"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_4" x1="206" y1="111" x2="159" y2="211" gradientUnits="userSpaceOnUse">
+<stop stop-color="#91C2B6"/>
+<stop offset="0.6" stop-color="#87BCAF"/>
+<stop offset="1" stop-color="#79B0A3"/>
+</linearGradient>
+</defs>
+</svg>

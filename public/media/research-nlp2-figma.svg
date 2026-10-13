@@ -1,0 +1,28 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arte vetorial">
+<path id="Fundo-organico" d="M108 18C80 12 63 36 47 60C29 86 34 119 55 142C73 162 91 174 114 188C139 202 164 195 181 181C202 163 205 128 197 101C191 77 180 53 160 39C145 28 126 20 108 18Z" fill="url(#paint0_linear_0_4)"/>
+<path id="Balao-principal" d="M119 44H185C197 44 207 53 207 65V96C207 109 199 119 185 119H177V135C177 137 175 137 173 135L155 119H119C107 119 101 110 101 98V66C101 52 108 44 119 44Z" fill="url(#paint1_linear_0_4)"/>
+<path id="Linha-superior" d="M122 68H187" stroke="#F5FAF9" stroke-width="2.4"/>
+<path id="Linha-central" d="M122 81H187" stroke="#F5FAF9" stroke-width="2.4"/>
+<path id="Linha-inferior" d="M122 95H163" stroke="#F5FAF9" stroke-width="2.4"/>
+<path id="Balao-secundario" d="M87 114H135C146 114 153 121 153 133V153C153 164 146 171 135 171V186C135 189 133 190 130 187L113 171H87C76 171 70 164 70 153V133C70 121 76 114 87 114Z" fill="url(#paint2_linear_0_4)"/>
+<path id="Ponto-1" d="M93 149.1C95.8167 149.1 98.1 146.817 98.1 144C98.1 141.183 95.8167 138.9 93 138.9C90.1833 138.9 87.9 141.183 87.9 144C87.9 146.817 90.1833 149.1 93 149.1Z" fill="white"/>
+<path id="Ponto-2" d="M111.5 149.1C114.317 149.1 116.6 146.817 116.6 144C116.6 141.183 114.317 138.9 111.5 138.9C108.683 138.9 106.4 141.183 106.4 144C106.4 146.817 108.683 149.1 111.5 149.1Z" fill="white"/>
+<path id="Ponto-3" d="M130 149.1C132.817 149.1 135.1 146.817 135.1 144C135.1 141.183 132.817 138.9 130 138.9C127.183 138.9 124.9 141.183 124.9 144C124.9 146.817 127.183 149.1 130 149.1Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_4" x1="54" y1="33" x2="186" y2="189" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8F2F6"/>
+<stop offset="1" stop-color="#DFEEEB"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_4" x1="105" y1="49" x2="204" y2="126" gradientUnits="userSpaceOnUse">
+<stop stop-color="#56867F"/>
+<stop offset="0.56" stop-color="#588E85"/>
+<stop offset="1" stop-color="#4D8078"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_4" x1="79" y1="115" x2="147" y2="182" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BBDDD8"/>
+<stop offset="1" stop-color="#B5D8D2"/>
+</linearGradient>
+</defs>
+</svg>

@@ -3,32 +3,81 @@
   "translationId": "harpia",
   "locale": "en",
   "source": "https://sites.usp.br/keml/en/harpia-2/",
-  "retrievedAt": "2026-10-06T18:54:19Z",
+  "retrievedAt": "2026-10-13T19:31:08Z",
   "revision": {
-    "date": "2026-10-06",
-    "basis": "Reunião de 29/09/2026, email de 30/09/2026 e decisões editoriais confirmadas pelo mantenedor em 06/10/2026."
+    "date": "2026-10-13",
+    "basis": "Complementação solicitada pelo mantenedor em 13/10/2026, com síntese das páginas oficiais HarpIA, módulos, arquitetura, créditos e perguntas frequentes; funcionalidades planejadas identificadas como tal. O painel Módulos foi retirado por solicitação posterior do mantenedor na mesma data. Redesign dos cards de OBIA e HarpIA solicitado pelo mantenedor em 13/10/2026; resumos, frentes e lideranças da proposta fornecida em português, com tradução fiel em inglês. Descrições completas e recursos preservados em painéis nativos, mantendo a classificação Macro/Micro. A consolidação dos dois painéis Resources idênticos de OBIA EN foi autorizada expressamente, preservando as duas âncoras."
   },
   "anchor": "harpia",
   "blocks": [
     {
-      "type": "group",
-      "id": "harpia",
-      "layout": "section",
+      "type": "html",
+      "html": "<p>HarpIA is an open-source platform for evaluating large language models (LLMs), with tools to make this process more standardized, reproducible and transparent.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>The platform brings together independent modules supporting evaluations with human participants and automated procedures. Shared input and output interfaces allow tools to be combined into an evaluation workflow and data and results to be recorded for auditing and reproducing studies.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>The code must be installed on the user’s own infrastructure. The focus is model evaluation; the platform does not provide LLM training or optimization, or an online service hosted by the team.</p>"
+    }
+  ],
+  "overview": {
+    "acronym": "HarpIA",
+    "title": "Evaluation of Large Language Models",
+    "summary": "An open-source platform dedicated to evaluating large language models (LLMs), with tools to make this process more standardized, reproducible and transparent.",
+    "focusAreas": [
+      {
+        "title": "Human and automated LLM evaluation",
+        "description": "Tools for conducting evaluations with human participants and automated procedures.",
+        "icon": "chart"
+      },
+      {
+        "title": "Modular evaluation architecture",
+        "description": "Integration of independent modules through shared interfaces, allowing different evaluation workflows to be configured.",
+        "icon": "modules"
+      },
+      {
+        "title": "Reproducibility and transparency",
+        "description": "Structured recording of data, procedures and results to enable auditing and reproduction of studies.",
+        "icon": "document"
+      }
+    ],
+    "leadership": "Sarajane Marques Peres and Fabio Gagliardi Cozman.",
+    "about": {
+      "id": "harpia-about",
+      "label": "About the platform"
+    },
+    "cta": {
+      "label": "Explore the HarpIA platform",
+      "href": "https://sites.usp.br/keml/en/harpia-2/"
+    },
+    "contact": {
+      "label": "Contact the project team",
+      "href": "https://sites.usp.br/keml/en/contact/"
+    },
+    "team": {
+      "id": "harpia-team",
       "children": [
         {
-          "type": "heading",
-          "level": 2,
-          "text": "HarpIA"
+          "type": "html",
+          "html": "<p>The project credits list the following responsibilities:</p><ul><li><strong>Principal investigators:</strong> Anarosa Alvez Franco Brandão, Fabio Gagliardi Cozman and Sarajane Marques Peres.</li><li><strong>Researchers:</strong> Bernardo Nunes Gonçalves, Fabio José Muneratti Ortega, Marcos Lopes and Paulo Pirozelli.</li><li><strong>Development leadership and architecture:</strong> Vinícius Bitencourt Matos.</li><li><strong>Quality management and dissemination:</strong> André Paulino de Lima.</li></ul>"
         },
         {
           "type": "html",
-          "html": "<p>HarpIA is an open-source platform for evaluating large language models (LLMs), with tools to make this process more standardized, reproducible and transparent.</p>"
-        },
+          "html": "<a href=\"https://sites.usp.br/keml/en/credits/\">Full HarpIA team and credits</a>"
+        }
+      ]
+    },
+    "resources": {
+      "id": "harpia-resources",
+      "children": [
         {
           "type": "html",
-          "html": "<a href=\"https://sites.usp.br/keml/en/harpia-2/\">Explore the HarpIA platform</a>"
+          "html": "<ul><li><a href=\"https://sites.usp.br/keml/en/harpia-survey-2/\">HarpIA Survey documentation</a></li><li><a href=\"https://sites.usp.br/keml/en/harpia-lab-2/\">HarpIA Lab documentation</a></li><li><a href=\"https://sites.usp.br/keml/en/harpia-twin-2/\">HarpIA Twin documentation</a></li><li><a href=\"https://sites.usp.br/keml/en/harpia-resources/\">HarpIA Resources — under construction</a></li><li><a href=\"https://sites.usp.br/keml/en/architecture/\">Platform architecture</a></li><li><a href=\"https://sites.usp.br/keml/en/faq/\">FAQ and installation guidance</a></li></ul>"
         }
       ]
     }
-  ]
+  }
 }

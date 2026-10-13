@@ -1,0 +1,194 @@
+[
+  {
+    "locale": "pt",
+    "state": "closed",
+    "viewport": {
+      "width": 1440,
+      "height": 1208
+    },
+    "name": "desktop",
+    "path": "/pt/pesquisas/",
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-nlp2-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-proindl-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/languages-pt-desktop.png",
+    "timestamp": "2026-10-13T20:30:59.983Z"
+  },
+  {
+    "locale": "pt",
+    "state": "closed",
+    "viewport": {
+      "width": 800,
+      "height": 2077
+    },
+    "name": "tablet",
+    "path": "/pt/pesquisas/",
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-nlp2-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-proindl-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/languages-pt-tablet.png",
+    "timestamp": "2026-10-13T20:31:00.195Z"
+  },
+  {
+    "locale": "pt",
+    "state": "closed",
+    "viewport": {
+      "width": 390,
+      "height": 2303
+    },
+    "name": "mobile",
+    "path": "/pt/pesquisas/",
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-nlp2-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-proindl-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/languages-pt-mobile.png",
+    "timestamp": "2026-10-13T20:31:00.366Z"
+  },
+  {
+    "locale": "en",
+    "state": "closed",
+    "viewport": {
+      "width": 1440,
+      "height": 1208
+    },
+    "name": "desktop",
+    "path": "/en/research/",
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-nlp2-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-proindl-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/languages-en-desktop.png",
+    "timestamp": "2026-10-13T20:31:00.550Z"
+  },
+  {
+    "locale": "en",
+    "state": "closed",
+    "viewport": {
+      "width": 800,
+      "height": 2077
+    },
+    "name": "tablet",
+    "path": "/en/research/",
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-nlp2-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-proindl-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/languages-en-tablet.png",
+    "timestamp": "2026-10-13T20:31:00.744Z"
+  },
+  {
+    "locale": "en",
+    "state": "closed",
+    "viewport": {
+      "width": 390,
+      "height": 2240
+    },
+    "name": "mobile",
+    "path": "/en/research/",
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-nlp2-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-proindl-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/languages-en-mobile.png",
+    "timestamp": "2026-10-13T20:31:00.912Z"
+  }
+]

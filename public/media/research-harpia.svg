@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="harpia-wash" x1="50" y1="32" x2="194" y2="204" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6F1ED"/>
+      <stop offset="1" stop-color="#D4E8E6" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="harpia-board" x1="70" y1="51" x2="154" y2="158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D9C94"/>
+      <stop offset="1" stop-color="#477E77"/>
+    </linearGradient>
+  </defs>
+  <path d="M105 23C74 18 50 38 37 65C24 92 32 124 51 147C67 166 88 182 112 197C136 211 168 204 186 185C207 164 212 133 202 106C193 80 180 56 157 41C142 30 123 27 105 23Z" fill="url(#harpia-wash)"/>
+  <path d="M71 51h77c10 0 18 8 18 18v91c0 10-8 18-18 18H71c-10 0-18-8-18-18V69c0-10 8-18 18-18Z" fill="url(#harpia-board)"/>
+  <rect x="86" y="42" width="48" height="18" rx="7" fill="#AACDC4"/>
+  <g stroke="#EFF7F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m73 82 5 5 10-12m-15 37 5 5 10-12m-15 37 5 5 10-12"/>
+    <path d="M102 81h44m-44 8h31m-31 18h44m-44 8h31m-31 18h27m-27 8h20"/>
+  </g>
+  <rect x="120" y="115" width="90" height="78" rx="15" fill="#EDF6F7" stroke="#B7D2D7" stroke-width="2"/>
+  <path d="M139 171h53" stroke="#94B9C1" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="141" y="149" width="10" height="21" rx="3" fill="#7EAEA8"/>
+  <rect x="158" y="137" width="10" height="33" rx="3" fill="#528998"/>
+  <rect x="175" y="127" width="10" height="43" rx="3" fill="#2E6877"/>
+  <g fill="#8AB6B0">
+    <circle cx="55" cy="184" r="5"/>
+    <circle cx="190" cy="63" r="6"/>
+    <circle cx="203" cy="89" r="3"/>
+  </g>
+  <path d="m184 51 3-8m13 12 7-5M40 168l-7 3" stroke="#ABCAC5" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

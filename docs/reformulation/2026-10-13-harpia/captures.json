@@ -1,0 +1,106 @@
+[
+  {
+    "file": "screenshots/harpia-pt-desktop-closed.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "closed",
+    "viewport": {
+      "width": 1440,
+      "height": 1235
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:46.130Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  },
+  {
+    "file": "screenshots/harpia-pt-desktop-expanded.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "expanded",
+    "viewport": {
+      "width": 1440,
+      "height": 1408
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:46.270Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  },
+  {
+    "file": "screenshots/harpia-en-desktop-closed.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "closed",
+    "viewport": {
+      "width": 1440,
+      "height": 1209
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:46.390Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  },
+  {
+    "file": "screenshots/harpia-en-desktop-expanded.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "expanded",
+    "viewport": {
+      "width": 1440,
+      "height": 1355
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:46.534Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  },
+  {
+    "file": "screenshots/harpia-pt-mobile-closed.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "closed",
+    "viewport": {
+      "width": 390,
+      "height": 2567
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:46.704Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  },
+  {
+    "file": "screenshots/harpia-pt-mobile-expanded.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "expanded",
+    "viewport": {
+      "width": 390,
+      "height": 1725
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:46.849Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  },
+  {
+    "file": "screenshots/harpia-en-mobile-closed.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "closed",
+    "viewport": {
+      "width": 390,
+      "height": 2604
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:46.982Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  },
+  {
+    "file": "screenshots/harpia-en-mobile-expanded.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "expanded",
+    "viewport": {
+      "width": 390,
+      "height": 1751
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T19:44:47.123Z",
+    "captureMethod": "Section capture with explicit viewport height; no CSS changes"
+  }
+]

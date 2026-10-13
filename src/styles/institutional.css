@@ -228,18 +228,6 @@
   margin-block: 1.5rem 1rem;
 }
 
-.research-sections ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 2rem;
-  padding-left: 1.25rem;
-}
-
-.research-sections ul ul {
-  display: block;
-  margin-block: 0.5rem;
-}
-
 .current-research,
 .previous-research {
   padding-block: 2rem;

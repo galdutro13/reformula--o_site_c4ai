@@ -193,6 +193,7 @@ test('registros de pesquisa exigem conteúdo e procedência mesmo quando há rev
     retrievedAt: '2026-10-06T12:00:00Z',
     anchor: 'harpia',
     blocks: [{ type: 'heading', level: 2, text: 'HarpIA' }],
+    overview: governanceProject('harpia', 'pt').overview,
     revision: { date: '2026-10-06', basis: 'Síntese aprovada' },
   };
   assert.equal(challengeSchema.safeParse(valid).success, true);
@@ -218,3 +219,332 @@ test('registros de pesquisa exigem conteúdo e procedência mesmo quando há rev
     false,
   );
 });
+
+/**
+ * @param {'nlp2' | 'proindl'} project
+ * @param {'pt' | 'en'} locale
+ */
+function languageProject(project, locale) {
+  return {
+    id: `${project}-${locale}`,
+    translationId: project,
+    locale,
+    source: 'https://usp.br/',
+    retrievedAt: '2026-10-13T12:00:00Z',
+    anchor: `${project}-fixture`,
+    blocks: [{ type: 'html', html: '<p>Descrição completa preservada.</p>' }],
+    overview: {
+      acronym: project === 'nlp2' ? 'NLP2' : 'ProIndL',
+      title: 'Nome completo do projeto',
+      summary: 'Resumo independente para descoberta do projeto.',
+      focusAreas: ['Frente de pesquisa.'],
+      leadership: 'Nome da liderança.',
+      team: {
+        id: 'equipe-fixture',
+        children: [{ type: 'html', html: '<p>Equipe preservada.</p>' }],
+      },
+      resources: {
+        id: 'recursos-fixture',
+        children: [{ type: 'html', html: '<p>Recursos preservados.</p>' }],
+      },
+      contact: `c4ai-${project}@usp.br`,
+    },
+  };
+}
+
+for (const locale of /** @type {const} */ (['pt', 'en'])) {
+  for (const project of /** @type {const} */ (['nlp2', 'proindl'])) {
+    test(`${locale}/${project}: card exige visão geral completa, conteúdo e painéis preservados`, () => {
+      const valid = languageProject(project, locale);
+      assert.equal(challengeSchema.safeParse(valid).success, true);
+      assert.equal(
+        challengeSchema.safeParse({ ...valid, overview: undefined }).success,
+        false,
+      );
+      assert.equal(
+        challengeSchema.safeParse({ ...valid, blocks: [] }).success,
+        false,
+      );
+      for (const field of Object.keys(valid.overview)) {
+        const incomplete = Object.fromEntries(
+          Object.entries(valid.overview).filter(([key]) => key !== field),
+        );
+        assert.equal(
+          challengeSchema.safeParse({ ...valid, overview: incomplete }).success,
+          false,
+          field,
+        );
+      }
+      for (const field of [
+        'acronym',
+        'title',
+        'summary',
+        'leadership',
+        'contact',
+      ])
+        assert.equal(
+          challengeSchema.safeParse({
+            ...valid,
+            overview: { ...valid.overview, [field]: '' },
+          }).success,
+          false,
+          field,
+        );
+      for (const focusAreas of [[], ['']])
+        assert.equal(
+          challengeSchema.safeParse({
+            ...valid,
+            overview: { ...valid.overview, focusAreas },
+          }).success,
+          false,
+        );
+      assert.equal(
+        challengeSchema.safeParse({
+          ...valid,
+          overview: { ...valid.overview, contact: 'email-sem-dominio' },
+        }).success,
+        false,
+      );
+      assert.equal(
+        challengeSchema.safeParse({
+          ...valid,
+          overview: {
+            ...valid.overview,
+            contact: { label: 'Contato externo', href: 'https://usp.br/' },
+          },
+        }).success,
+        false,
+        'projetos de línguas mantêm email obrigatório',
+      );
+      for (const panel of ['team', 'resources']) {
+        for (const incomplete of [
+          { children: [{ type: 'html', html: '<p>Conteúdo.</p>' }] },
+          { id: `${panel}-fixture` },
+          { id: '', children: [{ type: 'html', html: '<p>Conteúdo.</p>' }] },
+        ])
+          assert.equal(
+            challengeSchema.safeParse({
+              ...valid,
+              overview: { ...valid.overview, [panel]: incomplete },
+            }).success,
+            false,
+            panel,
+          );
+        for (const children of [
+          [],
+          [{ type: 'html', html: '' }],
+          [{ type: 'html', html: '<script>alert(1)</script>' }],
+        ])
+          assert.equal(
+            challengeSchema.safeParse({
+              ...valid,
+              overview: {
+                ...valid.overview,
+                [panel]: { id: `${panel}-fixture`, children },
+              },
+            }).success,
+            false,
+            panel,
+          );
+      }
+    });
+  }
+}
+
+/**
+ * @param {'obia' | 'harpia'} project
+ * @param {'pt' | 'en'} locale
+ */
+function governanceProject(project, locale) {
+  return {
+    id: `${project}-${locale}`,
+    translationId: project,
+    locale,
+    source: 'https://usp.br/',
+    retrievedAt: '2026-10-13T12:00:00Z',
+    anchor: `${project}-fixture`,
+    blocks: [{ type: 'html', html: '<p>Descrição integral preservada.</p>' }],
+    overview: {
+      acronym: project,
+      title: 'Nome completo do projeto',
+      summary: 'Resumo independente para descoberta do projeto.',
+      focusAreas: [
+        {
+          title: 'Frente de pesquisa',
+          description: 'Descrição da frente de pesquisa.',
+          icon: 'observation',
+        },
+      ],
+      leadership: 'Nome da liderança.',
+      about: { id: `${project}-about`, label: 'Sobre o projeto' },
+      cta: { label: 'Conhecer o projeto', href: `#${project}-description` },
+      ...(project === 'harpia'
+        ? {
+            team: {
+              id: 'equipe-fixture',
+              children: [{ type: 'html', html: '<p>Equipe preservada.</p>' }],
+            },
+          }
+        : {}),
+      resources: {
+        id: 'recursos-fixture',
+        children: [{ type: 'html', html: '<p>Recursos preservados.</p>' }],
+      },
+      contact:
+        project === 'obia'
+          ? 'c4ai-humanities@usp.br'
+          : {
+              label: 'Contato com a equipe',
+              href: 'https://sites.usp.br/keml/contato/',
+            },
+    },
+  };
+}
+
+for (const locale of /** @type {const} */ (['pt', 'en'])) {
+  for (const project of /** @type {const} */ (['obia', 'harpia'])) {
+    test(`${locale}/${project}: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos`, () => {
+      const valid = governanceProject(project, locale);
+      assert.equal(challengeSchema.safeParse(valid).success, true);
+      assert.equal(
+        challengeSchema.safeParse({ ...valid, overview: undefined }).success,
+        false,
+      );
+      assert.equal(
+        challengeSchema.safeParse({ ...valid, blocks: [] }).success,
+        false,
+      );
+      assert.equal(
+        challengeSchema.safeParse({
+          ...valid,
+          overview: {
+            ...valid.overview,
+            cta: { label: 'Página oficial', href: 'https://usp.br/' },
+            team: {
+              id: 'equipe-fixture',
+              children: [{ type: 'html', html: '<p>Equipe.</p>' }],
+            },
+          },
+        }).success,
+        true,
+      );
+      for (const field of Object.keys(valid.overview)) {
+        const incomplete = Object.fromEntries(
+          Object.entries(valid.overview).filter(([key]) => key !== field),
+        );
+        assert.equal(
+          challengeSchema.safeParse({ ...valid, overview: incomplete }).success,
+          false,
+          field,
+        );
+      }
+      for (const focusAreas of [
+        [],
+        ['Frente sem descrição'],
+        [{ title: '', description: 'Descrição', icon: 'observation' }],
+        [{ title: 'Título', description: '', icon: 'observation' }],
+        [
+          {
+            title: 'Título',
+            description: 'Descrição',
+            icon: 'ícone-desconhecido',
+          },
+        ],
+        [{ title: 'Título', description: 'Descrição' }],
+      ])
+        assert.equal(
+          challengeSchema.safeParse({
+            ...valid,
+            overview: { ...valid.overview, focusAreas },
+          }).success,
+          false,
+          JSON.stringify(focusAreas),
+        );
+      for (const about of [
+        { id: '', label: 'Sobre' },
+        { id: 'sobre', label: '' },
+        { label: 'Sobre' },
+        { id: 'sobre' },
+      ])
+        assert.equal(
+          challengeSchema.safeParse({
+            ...valid,
+            overview: { ...valid.overview, about },
+          }).success,
+          false,
+          JSON.stringify(about),
+        );
+      for (const href of [
+        '',
+        '#',
+        'javascript:alert(1)',
+        'data:text/html,test',
+        'mailto:c4ai@usp.br',
+      ])
+        assert.equal(
+          challengeSchema.safeParse({
+            ...valid,
+            overview: { ...valid.overview, cta: { label: 'Conhecer', href } },
+          }).success,
+          false,
+          href,
+        );
+      for (const contact of [
+        '',
+        'endereco-sem-dominio',
+        { label: '', href: 'https://usp.br/' },
+        { label: 'Contato', href: '#contato' },
+        { label: 'Contato', href: 'javascript:alert(1)' },
+        { label: 'Contato' },
+      ])
+        assert.equal(
+          challengeSchema.safeParse({
+            ...valid,
+            overview: { ...valid.overview, contact },
+          }).success,
+          false,
+          JSON.stringify(contact),
+        );
+      assert.equal(
+        challengeSchema.safeParse({
+          ...valid,
+          overview: {
+            ...valid.overview,
+            contact:
+              project === 'obia'
+                ? { label: 'Contato externo', href: 'https://usp.br/' }
+                : 'c4ai@usp.br',
+          },
+        }).success,
+        false,
+        'OBIA mantém email e HarpIA mantém o contato externo original',
+      );
+      if (project === 'harpia')
+        assert.equal(
+          challengeSchema.safeParse({
+            ...valid,
+            overview: { ...valid.overview, team: undefined },
+          }).success,
+          false,
+          'equipe preservada de HarpIA é obrigatória',
+        );
+      for (const panel of ['team', 'resources'])
+        for (const children of [
+          [],
+          [{ type: 'html', html: '' }],
+          [{ type: 'html', html: '<script>alert(1)</script>' }],
+        ])
+          assert.equal(
+            challengeSchema.safeParse({
+              ...valid,
+              overview: {
+                ...valid.overview,
+                [panel]: { id: `${panel}-fixture`, children },
+              },
+            }).success,
+            false,
+            panel,
+          );
+    });
+  }
+}

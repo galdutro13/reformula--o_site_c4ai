@@ -7,105 +7,62 @@
   "anchor": "NLP2_B_eng",
   "blocks": [
     {
-      "type": "group",
-      "layout": "section",
+      "type": "html",
+      "html": "<p>The goal of this research challenge is to put together open data and tools to enable high-level NLP for Portuguese (written and spoken). The research group has focused on:</p>"
+    },
+    {
+      "type": "html",
+      "html": "<ul>\n<li>\n\n \n with a syntactical perspective, a multi-genre corpus of syntactically annotated texts for building robust tagging and parsing models;\n\n\n\n\n\n</li>\n<li>\n\n\n with a linguistic and computational perspective, a general corpus of Brazilian Portuguese that can serve, among other uses, as a basis for foundational models; and,\n\n\n\n\n\n</li>\n<li>\n\n\n for spoken language, multitask corpora for speech recognition, multi-speaker synthesis, speaker identification and voice cloning. Applications have included sentiment analysis-related tasks, opinion aspect extraction and categorization, and fake news detection.\n\n\n\n\n\n\n</li>\n</ul>"
+    }
+  ],
+  "overview": {
+    "title": "Natural Language Processing for Portuguese",
+    "summary": "Development of linguistic resources and open tools to improve the automatic processing of written and spoken Brazilian Portuguese.",
+    "focusAreas": [
+      "Syntactic analysis and linguistic annotation.",
+      "Building corpora and language models.",
+      "Speech recognition, synthesis and processing."
+    ],
+    "leadership": "Marcelo Finger, Sandra M. Aluísio and Thiago A. S. Pardo.",
+    "team": {
+      "id": "5-c53",
       "children": [
         {
-          "type": "group",
-          "layout": "row",
-          "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "text": "NLP2"
-                },
-                {
-                  "type": "heading",
-                  "level": 3,
-                  "text": "Natural Language Processing for Portuguese Leaders: Marcelo Finger, Sandra M. Aluísio and Thiago A. S. Pardo"
-                },
-                {
-                  "type": "html",
-                  "html": "<p>The goal of this research challenge is to put together open data and tools to enable high-level NLP for Portuguese (written and spoken). The research group has focused on:</p>"
-                },
-                {
-                  "type": "html",
-                  "html": "<ul>\n<li>\n\n \n with a syntactical perspective, a multi-genre corpus of syntactically annotated texts for building robust tagging and parsing models;\n\n\n\n\n\n</li>\n<li>\n\n\n with a linguistic and computational perspective, a general corpus of Brazilian Portuguese that can serve, among other uses, as a basis for foundational models; and,\n\n\n\n\n\n</li>\n<li>\n\n\n for spoken language, multitask corpora for speech recognition, multi-speaker synthesis, speaker identification and voice cloning. Applications have included sentiment analysis-related tasks, opinion aspect extraction and categorization, and fake news detection.\n\n\n\n\n\n\n</li>\n</ul>"
-                },
-                {
-                  "type": "details",
-                  "id": "5-c53",
-                  "label": "Team",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2 _Ingles_Equipes_modeloC4AI_23.pdf\"> View NLP2 team</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "details",
-                  "id": "5-c56",
-                  "label": "Resources",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"https://sites.google.com/icmc.usp.br/nlp2\"><strong>NLP2</strong></a> – Web portal</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"https://sites.google.com/icmc.usp.br/poetisa\"><strong>POeTiSA </strong></a>– Portuguese processing: Towards Syntactic Analysis and parsing</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"https://sites.google.com/view/tarsila-c4ai\"><strong>TaRSila</strong></a><strong> </strong>– Tarefa de Anotação para o Reconhecimento e Síntese de fala da Língua Portuguesa</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"https://sites.usp.br/corpuscarolina\"><strong>Carolina</strong></a> – General corpus of contemporary Brazilian Portuguese</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>\n<a href=\"https://synestech.ai\"><strong>Synestech</strong></a> – Heterogeneous Computing for Computational Vision and Natural Language Processing</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "html",
-                          "html": "<a href=\"mailto:c4ai-nlp2@usp.br\"> contact</a>"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "html",
-                          "html": " c4ai-nlp2@usp.br"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "html",
+          "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2 _Ingles_Equipes_modeloC4AI_23.pdf\"> View NLP2 team</a>"
         }
-      ],
-      "id": "NLP2_B_eng"
-    }
-  ]
+      ]
+    },
+    "resources": {
+      "id": "5-c56",
+      "children": [
+        {
+          "type": "html",
+          "html": "<p>\n<a href=\"https://sites.google.com/icmc.usp.br/nlp2\"><strong>NLP2</strong></a> – Web portal</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>\n<a href=\"https://sites.google.com/icmc.usp.br/poetisa\"><strong>POeTiSA </strong></a>– Portuguese processing: Towards Syntactic Analysis and parsing</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>\n<a href=\"https://sites.google.com/view/tarsila-c4ai\"><strong>TaRSila</strong></a><strong> </strong>– Tarefa de Anotação para o Reconhecimento e Síntese de fala da Língua Portuguesa</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>\n<a href=\"https://sites.usp.br/corpuscarolina\"><strong>Carolina</strong></a> – General corpus of contemporary Brazilian Portuguese</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>\n<a href=\"https://synestech.ai\"><strong>Synestech</strong></a> – Heterogeneous Computing for Computational Vision and Natural Language Processing</p>"
+        }
+      ]
+    },
+    "contact": "c4ai-nlp2@usp.br",
+    "acronym": "NLP2"
+  },
+  "revision": {
+    "date": "2026-10-13",
+    "basis": "Redesign dos cards de NLP2 e ProIndL solicitado pelo mantenedor; síntese fornecida em português e traduzida para inglês; descrição e recursos migrados preservados em painéis nativos."
+  }
 }

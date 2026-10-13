@@ -1,0 +1,126 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+  lines: CollectionEntry<'researchLines'>['data'][];
+}
+
+const { locale, lines } = Astro.props;
+const copy = {
+  pt: {
+    title: 'Explore nossas pesquisas',
+    introduction:
+      'Conheça nossas linhas de pesquisa e acesse as áreas temáticas.',
+    governance:
+      'Estudos sobre políticas públicas, implantação e avaliação de sistemas de inteligência artificial.',
+    explore: 'Conhecer esta linha de pesquisa',
+    history: 'Trabalhos anteriores',
+    historyDescription: 'Conheça os registros de pesquisas anteriores do C4AI.',
+    historyLink: 'Consultar trabalhos anteriores',
+  },
+  en: {
+    title: 'Explore our research',
+    introduction: 'Discover our research areas and explore their themes.',
+    governance:
+      'Studies of public policy, deployment and evaluation of artificial intelligence systems.',
+    explore: 'Explore this research area',
+    history: 'Previous research',
+    historyDescription: 'Explore records of previous C4AI research.',
+    historyLink: 'Browse previous research',
+  },
+}[locale];
+---
+
+<nav class="research-sections" aria-labelledby="research-index-title">
+  <h2 id="research-index-title" class="research-index-title">
+    {copy.title}
+  </h2>
+  <p class="research-index-introduction">{copy.introduction}</p>
+  <ul class="research-index-lines" role="list">
+    {lines.map((line) => (
+      <li class="research-index-card">
+        <span class="research-index-icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            width="28"
+            height="28"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            focusable="false"
+          >
+            {line.translationId === 'languages' ? (
+              <>
+                <path d="M14 2H5v20h14V7Z" />
+                <path d="M14 2v5h5M8 11h8M8 15h8M8 19h5" />
+              </>
+            ) : (
+              <>
+                <path d="M12 3v17M5 20h14M5 7h14" />
+                <path d="m5 7-4 8h8L5 7Zm14 0-4 8h8l-4-8Z" />
+              </>
+            )}
+          </svg>
+        </span>
+        <div class="research-index-content">
+          <h3>{line.title}</h3>
+          <p>
+            {line.translationId === 'governance'
+              ? copy.governance
+              : line.summary}
+          </p>
+          <ul class="research-index-links" role="list">
+            {line.subareas.length > 0 ? (
+              line.subareas.map((area) => (
+                <li>
+                  <a href={`#${area.anchor}`}>
+                    <span>{area.title}</span>
+                    <span aria-hidden="true">→</span>
+                  </a>
+                </li>
+              ))
+            ) : (
+              <li>
+                <a href={`#${line.anchor}`}>
+                  <span>{copy.explore}</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              </li>
+            )}
+          </ul>
+        </div>
+      </li>
+    ))}
+  </ul>
+  <ul class="research-index-history" role="list">
+    <li>
+      <span class="research-index-icon" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          width="28"
+          height="28"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          focusable="false"
+        >
+          <path d="M3 7V5h7l2 2h9v13H3Z" />
+        </svg>
+      </span>
+      <div class="research-index-content">
+        <h3>{copy.history}</h3>
+        <p>{copy.historyDescription}</p>
+      </div>
+      <a href="#previous-research">
+        <span>{copy.historyLink}</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </li>
+  </ul>
+</nav>

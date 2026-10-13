@@ -1,5 +1,7 @@
 ---
 import Content from './Content.astro';
+import ResearchIndex from './ResearchIndex.astro';
+import ResearchProjectCard from './ResearchProjectCard.astro';
 import { researchLines } from '../content/research';
 import { pagePath } from '../i18n/routes';
 import type { Locale } from '../i18n/ui';
@@ -45,32 +47,7 @@ const pt = locale === 'pt';
   </section>
 ) : (
   <>
-    <nav
-      class="research-sections"
-      aria-label={pt ? 'Nesta página' : 'On this page'}
-    >
-      <ul>
-        {lines.map((line) => (
-          <li>
-            <a href={`#${line.anchor}`}>{line.title}</a>
-            {line.subareas.length > 0 && (
-              <ul>
-                {line.subareas.map((area) => (
-                  <li>
-                    <a href={`#${area.anchor}`}>{area.title}</a>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))}
-        <li>
-          <a href="#previous-research">
-            {pt ? 'Trabalhos anteriores' : 'Previous research'}
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <ResearchIndex locale={locale} lines={lines} />
     {lines.map((line) => (
       <section
         class="current-research"
@@ -87,26 +64,24 @@ const pt = locale === 'pt';
                 id={area.anchor}
                 aria-labelledby={`${area.anchor}-title`}
               >
-                <h3 id={`${area.anchor}-title`}>{area.title}</h3>
-                <p>{area.summary}</p>
-                <div class="group-records">
-                  <Content
+                <header class="research-subarea-introduction">
+                  <h3 id={`${area.anchor}-title`}>{area.title}</h3>
+                  <p>{area.summary}</p>
+                </header>
+                <div class="group-records governance-project">
+                  <ResearchProjectCard
                     locale={locale}
-                    blocks={[{ type: 'challenge', ref: area.group }]}
-                    headingOffset={2}
+                    ref={area.group}
+                    headingLevel={4}
                   />
                 </div>
               </section>
             ))}
           </div>
         ) : (
-          <div class="group-records">
+          <div class="group-records language-projects">
             {line.groups.map((ref) => (
-              <Content
-                locale={locale}
-                blocks={[{ type: 'challenge', ref }]}
-                headingOffset={1}
-              />
+              <ResearchProjectCard locale={locale} ref={ref} />
             ))}
           </div>
         )}

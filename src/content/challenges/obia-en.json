@@ -7,73 +7,60 @@
   "anchor": "OBIA_B_eng",
   "blocks": [
     {
-      "type": "group",
-      "layout": "section",
+      "type": "html",
+      "html": "<p>The goal of this big challenge is to map, understand, and debate the impact of AI in Brazil and to extent this analysis to other emerging countries. Interests in the team range from disinformation to regulation to ethical behavior. Given AI’s broad impact, these pressing questions can only be successfully addressed from a multi-disciplinary perspective. Since June 2022 the team has participated as an academic branch in the Brazilian AI Observatory led by NIC.br (the agency that regulates and controls the Brazilian internet). The AI Observatory has been created by the federal Ministry of Science, Technology and Innovation, and is usually referred to as “OBIA” (for Observatório Brasileiro de Inteligência Artificial”).</p>"
+    }
+  ],
+  "overview": {
+    "acronym": "OBIA@C4AI",
+    "title": "Observing and Discussing the Impact of Artificial Intelligence",
+    "summary": "Multidisciplinary research dedicated to mapping, understanding and debating the impacts of artificial intelligence in Brazil and other emerging countries.",
+    "focusAreas": [
+      {
+        "title": "Social and political impacts of AI",
+        "description": "Investigation of the effects of artificial intelligence on Brazilian society and other emerging countries.",
+        "icon": "people"
+      },
+      {
+        "title": "Disinformation, regulation and ethics",
+        "description": "Studies on disinformation, artificial intelligence regulation and ethical behavior.",
+        "icon": "document"
+      },
+      {
+        "title": "Multidisciplinary research and AI observation",
+        "description": "Bringing together different academic perspectives and participating in initiatives related to the Brazilian Artificial Intelligence Observatory.",
+        "icon": "observation"
+      }
+    ],
+    "leadership": "Cristina Oliveira and João Veiga.",
+    "about": {
+      "id": "obia-about",
+      "label": "About the project"
+    },
+    "cta": {
+      "label": "Explore the project",
+      "href": "#OBIA_B_eng-description"
+    },
+    "contact": "c4ai-humanities@usp.br",
+    "resources": {
+      "id": "5-c147",
       "children": [
         {
-          "type": "heading",
-          "level": 2,
-          "text": "OBIA@C4AI"
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Observing and Discussing the Impact of Artificial Intelligence Leaders: Cristina Oliveira and João Veiga"
-        },
-        {
-          "type": "html",
-          "html": "<p>The goal of this big challenge is to map, understand, and debate the impact of AI in Brazil and to extent this analysis to other emerging countries. Interests in the team range from disinformation to regulation to ethical behavior. Given AI’s broad impact, these pressing questions can only be successfully addressed from a multi-disciplinary perspective. Since June 2022 the team has participated as an academic branch in the Brazilian AI Observatory led by NIC.br (the agency that regulates and controls the Brazilian internet). The AI Observatory has been created by the federal Ministry of Science, Technology and Innovation, and is usually referred to as “OBIA” (for Observatório Brasileiro de Inteligência Artificial”).</p>"
-        },
-        {
-          "type": "details",
-          "id": "5-c147",
-          "label": "Resources",
-          "children": [
-            {
-              "type": "html",
-              "html": "<a href=\"https://obia.nic.br/\"> OBIA – Main Site</a>"
-            }
-          ]
-        },
-        {
-          "type": "details",
-          "id": "5-c151",
-          "label": "Resources",
-          "children": [
-            {
-              "type": "html",
-              "html": "<a href=\"https://obia.nic.br/\"> OBIA – Main Site</a>"
-            }
-          ]
-        },
-        {
           "type": "group",
-          "layout": "row",
+          "layout": "column",
+          "id": "5-c151",
           "children": [
             {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "html",
-                  "html": " Contact"
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "html",
-                  "html": "<p>c4ai-humanities@usp.br</p>"
-                }
-              ]
+              "type": "html",
+              "html": "<a href=\"https://obia.nic.br/\"> OBIA – Main Site</a>"
             }
           ]
         }
-      ],
-      "id": "OBIA_B_eng"
+      ]
     }
-  ]
+  },
+  "revision": {
+    "date": "2026-10-13",
+    "basis": "Redesign dos cards de OBIA e HarpIA solicitado pelo mantenedor em 13/10/2026; resumos, frentes e lideranças da proposta fornecida em português, com tradução fiel em inglês. Descrições completas e recursos preservados em painéis nativos, mantendo a classificação Macro/Micro. A consolidação dos dois painéis Resources idênticos de OBIA EN foi autorizada expressamente, preservando as duas âncoras."
+  }
 }

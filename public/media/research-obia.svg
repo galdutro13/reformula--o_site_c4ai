@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="obia-wash" x1="47" y1="36" x2="192" y2="205" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F3F5"/>
+      <stop offset="1" stop-color="#D8EAED" stop-opacity="0.58"/>
+    </linearGradient>
+    <linearGradient id="obia-lens" x1="94" y1="76" x2="164" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#487D89"/>
+      <stop offset="1" stop-color="#1D5C68"/>
+    </linearGradient>
+  </defs>
+  <path d="M111 22C82 16 57 34 42 57C24 85 31 116 48 141C64 165 83 177 109 192C137 208 165 202 185 182C208 159 210 126 200 98C191 73 178 49 154 35C141 27 126 25 111 22Z" fill="url(#obia-wash)"/>
+  <g stroke="#A3C4CD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m50 112 29-52 60-19 52 35 13 72-53 43-66-14-35-65Z"/>
+    <path d="m79 60 6 117 106-101M50 112l101 79-12-150m65 107L79 60m-29 52 154 36"/>
+  </g>
+  <g fill="#568A97">
+    <circle cx="50" cy="112" r="7"/>
+    <circle cx="79" cy="60" r="9"/>
+    <circle cx="139" cy="41" r="5"/>
+    <circle cx="191" cy="76" r="9"/>
+    <circle cx="204" cy="148" r="5"/>
+    <circle cx="151" cy="191" r="7"/>
+    <circle cx="85" cy="177" r="8"/>
+  </g>
+  <circle cx="128" cy="116" r="51" fill="#F4FAFA" fill-opacity="0.92"/>
+  <circle cx="128" cy="116" r="43" stroke="url(#obia-lens)" stroke-width="14"/>
+  <path d="M95 116c8-14 20-22 33-22s25 8 33 22c-8 14-20 22-33 22s-25-8-33-22Z" fill="#B5D4DC"/>
+  <circle cx="128" cy="116" r="13" fill="#2A6978"/>
+  <circle cx="132" cy="112" r="4" fill="#F4FAFA"/>
+  <path d="m163 151 20 20" stroke="#296674" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -37,7 +37,7 @@
   },
   {
     "path": "/pt/pesquisas/",
-    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/; HarpIA: síntese aprovada no plano de 06/10/2026",
+    "source": "https://c4ai.inova.usp.br/pt/pesquisas_2/; HarpIA: síntese aprovada no plano de 06/10/2026; complementação HarpIA: páginas oficiais consultadas em 13/10/2026",
     "texts": [
       "O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).",
       "Processamento de Linguagem Natural para o Português",
@@ -66,7 +66,11 @@
       "Os avanços recentes do aprendizado de máquina na medicina têm sido notáveis. No entanto, ainda existem questões importantes a serem abordadas; por exemplo: 1) Como integrar e selecionar características médicas relevantes (biomarcadores) a partir de fontes heterogêneas e dinâmicas em larga escala? 2) Como interpretar as decisões tomadas por algoritmos de aprendizado de máquina e como integrar a inteligência humana e artificial? Este grupo de pesquisa aborda tais questões, concentrando-se em grande parte em acidentes cerebrovasculares (ACV), câncer e Covid-19. A equipe desenvolveu uma série de técnicas de IA.",
       "Tomada de Decisão Causal Multicritério em Redes de Produção Alimentar",
       "Este grupo de pesquisa está interessado em modelos de IA multicritério causais para tomada de decisões em ambientes de produção de alimentos, especialmente relacionados à segurança alimentar, em meio à incerteza. A equipe investiga métodos para encontrar e representar automaticamente as estruturas fundamentais de subsistemas sociais, econômicos e físicos relacionados à produção de alimentos, criando modelos confiáveis (causais). Muitas das investigações em AgriBio são orientadas por dados, utilizando bancos de dados heterogêneos de várias fontes com milhares de variáveis da Parceria para Governo Aberto (OGP).",
-      "HarpIA é uma plataforma de código aberto voltada à avaliação de grandes modelos de linguagem (LLMs), com ferramentas para tornar esse processo mais padronizado, reprodutível e transparente."
+      "HarpIA é uma plataforma de código aberto voltada à avaliação de grandes modelos de linguagem (LLMs), com ferramentas para tornar esse processo mais padronizado, reprodutível e transparente.",
+      "Avaliação de Grandes Modelos de Linguagem",
+      "Sarajane Marques Peres e Fabio Gagliardi Cozman.",
+      "A plataforma reúne módulos independentes que apoiam avaliações com participantes humanos e procedimentos automatizados. Interfaces de entrada e saída compartilhadas permitem combinar ferramentas em um fluxo de avaliação e registrar dados e resultados para auditoria e reprodução dos estudos.",
+      "O código deve ser instalado na infraestrutura do usuário. O foco é avaliar modelos; a plataforma não oferece treinamento ou otimização de LLMs nem um serviço online hospedado pela equipe."
     ]
   },
   {
@@ -229,7 +233,7 @@
   },
   {
     "path": "/en/research/",
-    "source": "https://c4ai.inova.usp.br/research_2/; HarpIA: síntese aprovada no plano de 06/10/2026",
+    "source": "https://c4ai.inova.usp.br/research_2/; HarpIA: síntese aprovada no plano de 06/10/2026; complementação HarpIA: páginas oficiais consultadas em 13/10/2026",
     "texts": [
       "C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance, with macro governance (AI and public policy) and micro governance (AI deployment and evaluation).",
       "Natural Language Processing for Portuguese",
@@ -244,7 +248,7 @@
       "– Heterogeneous Computing for Computational Vision and Natural Language Processing",
       "Strengthening Brazilian Indigenous Languages with AI",
       "This research challenge explores three key questions:",
-      "How can AI technologies improve documentation and related efforts for Brazilian indigenous languages?syntactically annotated texts for building robust tagging and parsing models;",
+      "How can AI technologies improve documentation and related efforts for Brazilian indigenous languages?",
       "How should current tools be adapted to work with low-resource and endangered languages?",
       "How can AI tools be developed for indigenous communities in an ethical way?",
       "The team empowers indigenous communities with AI, ethically collaborates with São Paulo’s indigenous groups, investigating Guarani Mbya language and developing student support tools.",
@@ -257,7 +261,11 @@
       "The recent advances of machine learning in medicine have been remarkable. However, there are still important issues that need to be addressed; for instance: 1) How to integrate and select relevant medical features (biomarkers) from large-scale heterogeneous and dynamical sources? 2) How to interpret decisions made by machine learning algorithms and how to integrate human and artificial intelligence? This research group addresses such questions, focusing to a great extent on cerebrovascular accidents (CVA), cancer, and Covid-19. The team has developed a host of AI techniques in connection with that applied side, in particular by relying on graph-oriented machine learning.",
       "Causal Multicriteria Decision Making in Food Production Networks",
       "This research group is interested in causal multicriteria AI models for decision making under uncertainty within food production networks, in particular as related to food security. The team investigates methods to automatically find and represent the fundamental structures of social, economic and physical subsystems related to food production by creating reliable (causal) models. Many AgriBio investigations are data-driven, using multi-source heterogeneous databases with thousands of variables from the Open Government Partnership (OGP). Advances in representation learning, resilience enhancement of the learned models, and multicriteria decision-making are pursued in that context.",
-      "HarpIA is an open-source platform for evaluating large language models (LLMs), with tools to make this process more standardized, reproducible and transparent."
+      "HarpIA is an open-source platform for evaluating large language models (LLMs), with tools to make this process more standardized, reproducible and transparent.",
+      "Evaluation of Large Language Models",
+      "Sarajane Marques Peres and Fabio Gagliardi Cozman.",
+      "The platform brings together independent modules supporting evaluations with human participants and automated procedures. Shared input and output interfaces allow tools to be combined into an evaluation workflow and data and results to be recorded for auditing and reproducing studies.",
+      "The code must be installed on the user’s own infrastructure. The focus is model evaluation; the platform does not provide LLM training or optimization, or an online service hosted by the team."
     ]
   },
   {

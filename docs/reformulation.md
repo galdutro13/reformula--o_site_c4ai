@@ -79,3 +79,55 @@ O plano expressamente autorizado pelo mantenedor consolida a reunião de 29/09 e
 O [registro editorial](reformulation/2026-10-06/editorial.md) discrimina decisões, fontes consultadas, traduções e fragmentos retirados. O [registro de expectativas](reformulation/2026-10-06/changed-expectations.json) documenta as substituições nos testes. O [registro de validação](reformulation/2026-10-06/validation.md) distingue resultados efetivamente executados de verificações pendentes.
 
 Esta etapa não reescreve inventários, relatórios, capturas ou demais evidências anteriores de migração e reformulação. Os artigos e notícias preservam seus conteúdos datados, recebendo apenas a navegação e o rodapé compartilhados. A aprovação das alterações editoriais não confirma a atualidade de equipes e contatos históricos nem autoriza publicação.
+
+## Redesign do índice de Pesquisas — 13/10/2026
+
+O mantenedor solicitou corrigir somente a navegação inicial de Pesquisas, cuja distribuição em três colunas equiparava os dois eixos e Trabalhos anteriores. A segunda imagem anexada orienta o redesign: dois cartões discretos, de largura equivalente, com título, descrição e links subordinados; histórico em faixa complementar inferior. A composição usa as cores e a tipografia existentes, CSS Grid no desktop e empilhamento no mobile.
+
+A navegação recebe o título “Explore nossas pesquisas” (“Explore our research”) e a introdução “Conheça nossas linhas de pesquisa e acesse as áreas temáticas.” (“Discover our research areas and explore their themes.”). Os títulos dos cartões identificam línguas do Brasil e Governança de IA, sem funcionar como links adicionais. Os destinos continuam sendo `#languages`, `#governance-macro`, `#governance-micro` e `#previous-research`, nessa ordem. `#governance` permanece disponível na seção e no acesso da Home.
+
+A descrição de línguas é preservada; a síntese do índice de governança passa a ser “Estudos sobre políticas públicas, implantação e avaliação de sistemas de inteligência artificial.”, traduzida como “Studies of public policy, deployment and evaluation of artificial intelligence systems.”. O histórico usa “Conheça os registros de pesquisas anteriores do C4AI.” (“Explore records of previous C4AI research.”), limitando a descrição aos registros disponíveis. As chamadas de ação são “Conhecer esta linha de pesquisa” / “Explore this research area” e “Consultar trabalhos anteriores” / “Browse previous research”. Macro e Micro mantêm seus nomes completos.
+
+O contrato independente em `tests/e2e/requirements.ts` fixa esses textos e destinos. A expectativa anterior do nome “Nesta página” / “On this page” e do link direto “Trabalhos anteriores” / “Previous research” foi substituída pelo título e pela chamada de ação aprovados. Foram acrescentadas verificações de hierarquia, agrupamento, geometria, ordem de foco e navegação por teclado nos quatro projetos, inclusive sem JavaScript. Os resultados anteriores de qualidade não validam este redesign; a nova execução e a revisão visual são documentadas no [registro de validação desta etapa](reformulation/2026-10-13/validation.md).
+
+Esta alteração não modifica o conteúdo completo das linhas, as associações dos grupos, os registros históricos nem os demais componentes. Não autoriza commit, push ou publicação e não acrescenta dependências ou JavaScript cliente.
+
+## Complementação do HarpIA — 13/10/2026
+
+Por solicitação do mantenedor, o registro HarpIA PT/EN passa da síntese inicial para uma apresentação com idealização/gestão, propósito, instalação própria, seleção da equipe conforme créditos oficiais, documentação e formulário de contato. Dois painéis nativos organizam Equipe e Recursos, mantendo o link principal e a âncora `harpia`. A equipe não é copiada do registro histórico de KEML.
+
+O [registro editorial](reformulation/2026-10-13-harpia/editorial.md) relaciona as páginas consultadas e as divergências entre versões PT/EN. O [registro de validação](reformulation/2026-10-13-harpia/validation.md) contém os resultados desta complementação, preservando separadamente a evidência do redesign do índice feito na mesma data.
+
+Durante a revisão da complementação, o mantenedor pediu retirar a seção Módulos. O painel foi removido em PT/EN, com contrato de ausência explícito; a descrição geral, a equipe e os links de documentação e contato permanecem.
+
+## Cards de NLP2 e ProIndL — 13/10/2026
+
+Na correção seguinte de Pesquisas, o mantenedor solicitou preservar a disposição lado a lado dos projetos de línguas do Brasil, mas padronizar sua organização interna para apoiar descoberta e navegação. A segunda imagem anexada orienta cards com bordas discretas, ilustrações decorativas, sigla subordinada ao nome completo, resumo curto, três frentes de pesquisa, liderança separada, controles expansíveis e contato.
+
+O componente reutilizável em Astro apresenta NLP2 e ProIndL nessa ordem em PT/EN. O grid usa duas colunas quando há espaço para cards de pelo menos 30 rem, com gap de 2 rem, e empilha os projetos quando esse espaço não existe. O controle “Conhecer o projeto” abre a descrição detalhada no próprio card; não se cria uma página específica nem se presume um destino externo ausente do pedido. Equipe e Recursos e publicações permanecem expansíveis por controles HTML nativos, com IDs e destinos históricos preservados.
+
+Os resumos e as frentes seguem a síntese editorial autorizada pelo mantenedor; as traduções e os limites de procedência estão no [registro editorial](reformulation/2026-10-13-languages/editorial.md). O [registro de validação](reformulation/2026-10-13-languages/validation.md) destina-se exclusivamente aos resultados e capturas desta correção. Não se sobrescrevem as evidências anteriores de migração, atualização de 06/10, índice ou HarpIA. Os registros extensos dos dois projetos e os demais grupos continuam disponíveis, sem converter a revisão visual em confirmação institucional da atualidade de equipes, contatos ou resultados.
+
+Durante a tarefa, o mantenedor autorizou corrigir a primeira pergunta da descrição detalhada de ProIndL EN, removendo um fragmento estranho sobre textos sintaticamente anotados, relacionado a NLP2 e ausente do texto português. A pergunta e sua expectativa independente passam a corresponder ao equivalente português; nenhum outro trecho detalhado é reescrito.
+
+## Ilustrações dos cards fornecidas no Figma — 13/10/2026
+
+O mantenedor recriou as ilustrações do mockup e solicitou adotar os dois componentes do [arquivo C4AI — Ícones NLP2 e ProIndL](https://www.figma.com/design/R70QFAvYNAN8NpocOdiBeA/?node-id=0-1). “NLP2 — Balões de conversa” substitui a ilustração de NLP2; “ProIndL — Penas e geometria” substitui a de ProIndL. Os SVGs exportados são servidos localmente, preservando os desenhos, os fundos orgânicos transparentes e suas dimensões intrínsecas de 240 × 240.
+
+A substituição aplica-se aos cabeçalhos dos dois cards em PT/EN. Os pequenos símbolos de frentes, painéis e contato pertencem à implementação anterior; os componentes fornecidos no arquivo são as duas ilustrações grandes. Conteúdo, ordem, âncoras, controles nativos e organização dos cards permanecem. A procedência, os IDs de origem e os hashes estão no [registro editorial](reformulation/2026-10-13-figma-icons/editorial.md). Resultados da nova execução de qualidade e capturas devem constar do [registro de validação desta substituição](reformulation/2026-10-13-figma-icons/validation.md), separado das evidências anteriores.
+
+## Cards de OBIA e HarpIA — 13/10/2026
+
+Por solicitação do mantenedor, os dois projetos de governança reutilizam o padrão visual e o componente dos cards de línguas. Os cabeçalhos Macro e Micro permanecem fora dos cards; a hierarquia distingue eixo, frente e projeto em `h2`, `h3` e `h4`. O grid intrínseco e o subgrid alinham as duas frentes e cinco regiões dos cards, preservando cada frente junto ao seu projeto nas telas pequenas.
+
+Os nomes completos, resumos, três frentes descritivas e lideranças seguem a proposta fornecida, com tradução equivalente em EN. A descrição integral fica em Sobre o projeto / Sobre a plataforma, sem remover a história do OBIA ou as condições de instalação e utilização do HarpIA. Equipe e Recursos mantêm conteúdo e destinos; o componente admite a diferença de quantidade de painéis e o contato externo do HarpIA. NLP2 e ProIndL conservam suas apresentações e SVGs originais do Figma.
+
+O mantenedor autorizou consolidar os dois painéis Resources idênticos de OBIA EN, mantendo `5-c147` no painel e `5-c151` em seu conteúdo real. A chamada OBIA revela esse conteúdo por navegação nativa até a descrição no painel; HarpIA conserva o destino oficial. As ilustrações de rede/observação e checklist/métricas são SVGs decorativos próprios desta implementação, sem alegação de logos institucionais.
+
+As fontes, datas de consulta originais e textos detalhados permanecem preservados. O [registro editorial](reformulation/2026-10-13-governance-cards/editorial.md) contém a tradução e a justificativa da reorganização; [test-expectations.json](reformulation/2026-10-13-governance-cards/test-expectations.json) discrimina as expectativas substituídas. Resultados reais e capturas desta etapa pertencem ao [registro de validação](reformulation/2026-10-13-governance-cards/validation.md). Não houve autorização para commit, push ou publicação.
+
+## Ilustrações de OBIA e HarpIA fornecidas no Figma — 13/10/2026
+
+O mantenedor forneceu um [arquivo Figma com as ilustrações de governança](https://www.figma.com/design/oRyXiLWMBUDsiVWzDeSs4k/?node-id=2-81) e solicitou adotá-las nos cards. OBIA passa a usar a arte de olho com conexões; HarpIA passa a usar a composição completa de ave com circuitos e fundo. Os SVGs exportados são servidos localmente e preservados integralmente, com dimensões intrínsecas de 240 × 240. A descrição do arquivo Figma atribui a arte de HarpIA à importação de `mascote_colorido.svg`, com retirada do lettering e adaptação de enquadramento e cores; esse registro identifica a procedência fornecida, sem atestar um logo oficial.
+
+A troca altera somente a seleção das ilustrações dos cabeçalhos em PT/EN. Layout, CSS, conteúdo, pequenos símbolos, controles e contatos permanecem; os assets próprios usados anteriormente e todas as evidências anteriores são preservados. A consulta aos componentes visuais é registrada separadamente da procedência e das datas dos textos institucionais. Nós, arquivos e hashes estão no [registro editorial](reformulation/2026-10-13-governance-figma-icons/editorial.md). A nova execução de qualidade e as capturas devem constar do [registro de validação desta substituição](reformulation/2026-10-13-governance-figma-icons/validation.md), sem reutilizar resultados anteriores como aprovação automática.

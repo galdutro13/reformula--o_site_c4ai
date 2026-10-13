@@ -100,7 +100,7 @@ for (const locale of ['pt', 'en'] as const) {
       ).toBeVisible();
       await expect(
         section.getByRole('heading', {
-          name: subarea.name,
+          name: subarea.projectTitle,
           exact: true,
           level: 4,
         }),
@@ -122,14 +122,25 @@ for (const locale of ['pt', 'en'] as const) {
       pt ? 'empresas' : 'companies',
     );
     const harpia = page.locator('#governance-micro #harpia');
-    await expect(harpia.locator('a')).toHaveCount(1);
-    await expect(harpia.locator('a')).toHaveAttribute(
+    await expect(
+      harpia.getByRole('link', {
+        name: pt
+          ? 'Conhecer a plataforma HarpIA'
+          : 'Explore the HarpIA platform',
+        exact: true,
+      }),
+    ).toHaveAttribute(
       'href',
       pt
         ? 'https://sites.usp.br/keml/harpia/'
         : 'https://sites.usp.br/keml/en/harpia-2/',
     );
-    await expect(harpia.locator('details, a[href^="mailto:"]')).toHaveCount(0);
+    await expect(harpia.locator('details > summary')).toHaveText(
+      pt
+        ? ['Sobre a plataforma', 'Equipe', 'Recursos']
+        : ['About the platform', 'Team', 'Resources'],
+    );
+    await expect(harpia.locator('a[href^="mailto:"]')).toHaveCount(0);
   });
 
   test(`${locale}: KEML preserva equipe, recursos, contatos e painéis no histórico`, async ({

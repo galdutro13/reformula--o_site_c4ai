@@ -7,93 +7,50 @@
   "anchor": "ProIndL_B_eng",
   "blocks": [
     {
-      "type": "group",
-      "layout": "section",
+      "type": "html",
+      "html": "<p>Este desafio de pesquisa explora três questões-chave: </p>"
+    },
+    {
+      "type": "html",
+      "html": "<ul>\n<li>\n\n \n Como as tecnologias de IA podem melhorar a documentação e esforços relacionados às línguas indígenas brasileiras?\n\n\n\n\n\n</li>\n<li>\n\n\n Como as ferramentas atuais devem ser adaptadas para trabalhar com línguas de recursos limitados e em perigo de extinção?\n\n\n\n\n\n</li>\n<li>\n\n\n Como as ferramentas de IA podem ser desenvolvidas para comunidades indígenas de maneira ética?\n\n\n\n\n\n\n</li>\n</ul>"
+    },
+    {
+      "type": "html",
+      "html": "<p>A equipe investigou maneiras de capacitar comunidades indígenas a usar ferramentas de IA, ao mesmo tempo em que acomoda restrições relevantes, e envolveu-se com comunidades indígenas para operar de maneira ética. A equipe trabalhou com algumas\ncomunidades indígenas em São Paulo explorando questões linguísticas relacionadas à língua Guarani Mbya e desenvolver uma ferramenta de apoio a jovens estudantes dessa língua.</p>"
+    }
+  ],
+  "overview": {
+    "title": "Fortalecimento das Línguas Indígenas Brasileiras com IA",
+    "summary": "Pesquisa colaborativa sobre o desenvolvimento de tecnologias de inteligência artificial para apoiar a documentação e o fortalecimento das línguas indígenas brasileiras.",
+    "focusAreas": [
+      "Documentação e preservação linguística.",
+      "Ferramentas de IA para línguas com poucos recursos digitais.",
+      "Desenvolvimento ético de tecnologias em colaboração com comunidades indígenas."
+    ],
+    "leadership": "Luciana Storto e Claudio Pinhanez.",
+    "team": {
+      "id": "16252-c69",
       "children": [
         {
-          "type": "group",
-          "layout": "row",
-          "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "text": "ProIndL"
-                },
-                {
-                  "type": "heading",
-                  "level": 3,
-                  "text": "Fortalecimento das Línguas Indígenas Brasileiras com IA Líderes: Luciana Storto e Claudio Pinhanez"
-                },
-                {
-                  "type": "html",
-                  "html": "<p>Este desafio de pesquisa explora três questões-chave: </p>"
-                },
-                {
-                  "type": "html",
-                  "html": "<ul>\n<li>\n\n \n Como as tecnologias de IA podem melhorar a documentação e esforços relacionados às línguas indígenas brasileiras?\n\n\n\n\n\n</li>\n<li>\n\n\n Como as ferramentas atuais devem ser adaptadas para trabalhar com línguas de recursos limitados e em perigo de extinção?\n\n\n\n\n\n</li>\n<li>\n\n\n Como as ferramentas de IA podem ser desenvolvidas para comunidades indígenas de maneira ética?\n\n\n\n\n\n\n</li>\n</ul>"
-                },
-                {
-                  "type": "html",
-                  "html": "<p>A equipe investigou maneiras de capacitar comunidades indígenas a usar ferramentas de IA, ao mesmo tempo em que acomoda restrições relevantes, e envolveu-se com comunidades indígenas para operar de maneira ética. A equipe trabalhou com algumas\ncomunidades indígenas em São Paulo explorando questões linguísticas relacionadas à língua Guarani Mbya e desenvolver uma ferramenta de apoio a jovens estudantes dessa língua.</p>"
-                },
-                {
-                  "type": "details",
-                  "id": "16252-c69",
-                  "label": "Equipe",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf\"> Clique para ver a equipe PROINDL</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "details",
-                  "id": "16252-c72",
-                  "label": "Recursos",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://conexoesoriginarias.github.io/\"> Conexões Originárias</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "html",
-                          "html": "<a href=\"mailto:c4ai-proindl@usp.br\"> contato</a>"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "html",
-                          "html": " c4ai-proindl@usp.br"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "html",
+          "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf\"> Clique para ver a equipe PROINDL</a>"
         }
-      ],
-      "id": "ProIndL_B_eng"
-    }
-  ]
+      ]
+    },
+    "resources": {
+      "id": "16252-c72",
+      "children": [
+        {
+          "type": "html",
+          "html": "<a href=\"https://conexoesoriginarias.github.io/\"> Conexões Originárias</a>"
+        }
+      ]
+    },
+    "contact": "c4ai-proindl@usp.br",
+    "acronym": "ProIndL"
+  },
+  "revision": {
+    "date": "2026-10-13",
+    "basis": "Redesign dos cards de NLP2 e ProIndL solicitado pelo mantenedor; síntese fornecida em português e traduzida para inglês; descrição e recursos migrados preservados em painéis nativos."
+  }
 }

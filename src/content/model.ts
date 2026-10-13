@@ -141,13 +141,125 @@ export const editorialSchema = z
     path: ['blocks'],
   });
 
-export const challengeSchema = z.object({
-  revision: revisionSchema.optional(),
-  id: z.string(),
-  translationId: z.string(),
-  locale: z.enum(['pt', 'en']),
-  source: z.url(),
-  retrievedAt: z.iso.datetime({ offset: true }),
-  anchor: z.string(),
-  blocks: z.array(blockSchema).min(1),
+const projectPanelSchema = z.object({
+  id: z.string().min(1),
+  children: z.array(blockSchema).min(1),
 });
+
+const projectFocusSchema = z.object({
+  title: z.string().min(1),
+  description: z.string().min(1),
+  icon: z.enum([
+    'document',
+    'database',
+    'sound',
+    'book',
+    'tools',
+    'people',
+    'observation',
+    'chart',
+    'modules',
+  ]),
+});
+
+const projectExternalUrlSchema = z
+  .url()
+  .refine((value) => /^https?:\/\//.test(value));
+const projectDestinationSchema = z.union([
+  projectExternalUrlSchema,
+  z.string().regex(/^#[A-Za-z0-9_-]+$/),
+]);
+
+export const projectOverviewSchema = z
+  .object({
+    acronym: z.string().min(1),
+    title: z.string().min(1),
+    summary: z.string().min(1),
+    focusAreas: z
+      .array(z.union([z.string().min(1), projectFocusSchema]))
+      .min(1),
+    leadership: z.string().min(1),
+    about: z
+      .object({ id: z.string().min(1), label: z.string().min(1) })
+      .optional(),
+    cta: z
+      .object({
+        label: z.string().min(1),
+        href: projectDestinationSchema,
+      })
+      .optional(),
+    team: projectPanelSchema.optional(),
+    resources: projectPanelSchema,
+    contact: z.union([
+      z.email(),
+      z.object({ label: z.string().min(1), href: projectExternalUrlSchema }),
+    ]),
+  })
+  .refine((project) => Boolean(project.about) === Boolean(project.cta), {
+    message: 'Apresentação e chamada separadas devem ser definidas em conjunto',
+  });
+
+function hasLanguagePresentation(
+  project: z.infer<typeof projectOverviewSchema>,
+) {
+  return Boolean(project.team) && typeof project.contact === 'string';
+}
+
+function hasGovernancePresentation(
+  project: z.infer<typeof projectOverviewSchema>,
+  projectId: string,
+) {
+  const hasRequiredContact =
+    projectId === 'harpia'
+      ? Boolean(project.team) && typeof project.contact !== 'string'
+      : typeof project.contact === 'string';
+  return (
+    Boolean(project.about && project.cta && hasRequiredContact) &&
+    project.focusAreas.every((area) => typeof area !== 'string')
+  );
+}
+
+export const challengeSchema = z
+  .object({
+    revision: revisionSchema.optional(),
+    id: z.string(),
+    translationId: z.string(),
+    locale: z.enum(['pt', 'en']),
+    source: z.url(),
+    retrievedAt: z.iso.datetime({ offset: true }),
+    anchor: z.string(),
+    blocks: z.array(blockSchema).min(1),
+    overview: projectOverviewSchema.optional(),
+  })
+  .superRefine((entry, context) => {
+    const languages = ['nlp2', 'proindl'].includes(entry.translationId);
+    const governance = ['obia', 'harpia'].includes(entry.translationId);
+    if (!languages && !governance) return;
+    const project = entry.overview;
+    if (!project) {
+      context.addIssue({
+        code: 'custom',
+        message: 'Projetos atuais exigem uma apresentação estruturada',
+        path: ['overview'],
+      });
+      return;
+    }
+    if (languages && !hasLanguagePresentation(project)) {
+      context.addIssue({
+        code: 'custom',
+        message: 'NLP2 e ProIndL exigem equipe e email de contato',
+        path: ['overview'],
+      });
+    }
+    if (
+      governance &&
+      !hasGovernancePresentation(project, entry.translationId)
+    ) {
+      context.addIssue({
+        code: 'custom',
+        message:
+          'Governança exige apresentação, chamada, contato próprio e frentes descritivas',
+        path: ['overview'],
+      });
+    }
+  });

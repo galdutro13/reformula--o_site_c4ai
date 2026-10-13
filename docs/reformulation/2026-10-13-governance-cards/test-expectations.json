@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-13",
+  "basis": "Redesign OBIA/HarpIA solicitado pelo mantenedor e consolidação dos Resources duplicados de OBIA EN expressamente autorizada.",
+  "replacements": [
+    {
+      "files": ["tests/e2e/requirements.ts", "tests/e2e/editorial-update.ts"],
+      "previous": "OBIA@C4AI e HarpIA como headings de nível 4 nas subdivisões; siglas como títulos obrigatórios dos nove registros.",
+      "current": "Títulos completos dos projetos como headings de nível 4; siglas como identificadores discretos, preservando os nove registros e os headings Macro/Micro de nível 3.",
+      "reason": "Hierarquia visual e semântica solicitada para reutilizar o padrão dos cards de línguas sem apagar as frentes de governança."
+    },
+    {
+      "files": [
+        "tests/e2e/requirements.ts",
+        "tests/e2e/editorial-update.ts",
+        "tests/e2e/harpia.ts"
+      ],
+      "previous": "HarpIA tinha apenas os painéis Equipe/Recursos e a liderança introduzida por Líderes:/Leaders:.",
+      "current": "HarpIA passa a ter Sobre a plataforma, Equipe e Recursos; liderança separada sob Liderança/Leadership.",
+      "reason": "Descrição integral foi transferida para o novo painel nativo. Permanecem as restrições de uso, os integrantes, os links, os recursos e a ausência de painel Módulos."
+    },
+    {
+      "files": ["tests/e2e/editorial-update.ts"],
+      "previous": "Chamada PT Conheça a plataforma HarpIA.",
+      "current": "Chamada PT Conhecer a plataforma HarpIA, mantendo a URL oficial PT e o equivalente EN existente.",
+      "reason": "Rótulo adotado na proposta do mantenedor e consistente com Conhecer o projeto dos cards anteriores."
+    },
+    {
+      "files": ["tests/e2e/editorial-requirements.json"],
+      "previous": "Título de HarpIA em sentence case e liderança em uma linha com o prefixo Líderes:/Leaders:.",
+      "current": "Título de HarpIA na capitalização solicitada; nomes de liderança continuam obrigatórios, com seu rótulo verificado separadamente no novo teste.",
+      "reason": "Separa conteúdo da apresentação. Todos os parágrafos integrais anteriores de OBIA e HarpIA continuam obrigatórios no fixture manual, inclusive a instalação na infraestrutura do usuário."
+    },
+    {
+      "files": ["tests/config/content-model.test.mjs"],
+      "previous": "Fixture sintético de procedência de HarpIA não tinha overview.",
+      "current": "Fixture sintético inclui apresentação completa independente, mantendo todos os casos negativos anteriores de conteúdo, procedência e revisão.",
+      "reason": "O novo contrato exige apresentação estruturada dos quatro projetos atuais; o teste continua a validar conteúdo e origem sem derivar entradas das coleções."
+    }
+  ],
+  "additional_checks": [
+    "Seção h2, frente h3 externa ao card, projeto h4 e rótulos h5, com tipografia igual aos projetos de línguas.",
+    "Três frentes com título e descrição, liderança separada, contato original e painéis não artificiais (dois OBIA; três HarpIA).",
+    "Conteúdo integral e restrições em painéis nativos inicialmente fechados, operados com Enter/Space e foco visível, nos quatro projetos de navegador com e sem JavaScript.",
+    "Chamada de OBIA abre os detalhes por âncora interna; HarpIA preserva destino oficial externo PT/EN.",
+    "Um Resources de OBIA EN, preservando os IDs 5-c147 e 5-c151 e o conteúdo único do recurso original.",
+    "Cards de mesma altura e bandas alinhadas no desktop; cada frente imediatamente antes de seu projeto em 800, 390 e 320 px, sem transbordamento.",
+    "Schema rejeita apresentação ausente, frentes sem descrição/ícone válido, pares incompletos de apresentação/chamada, destinos ativos inseguros, contato inválido e painéis vazios; OBIA mantém seu email e HarpIA mantém equipe obrigatória e contato externo original."
+  ],
+  "unchanged": "Fixtures, conteúdo histórico, testes de línguas e ilustrações Figma, limites, exclusões, quatro projetos de navegador e verificações globais de acessibilidade/metadados/publicação mantidos."
+}

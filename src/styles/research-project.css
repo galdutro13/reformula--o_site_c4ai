@@ -1,0 +1,268 @@
+.language-projects,
+.governance-subareas {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+  gap: 0 2rem;
+  align-items: stretch;
+}
+
+.research-subarea {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.research-subarea-introduction > h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.research-subarea .governance-project {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+}
+
+.research-project-card {
+  display: grid;
+  grid-template-rows: auto 1fr auto auto auto;
+  min-width: 0;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #f2f7f7, #fff 45%);
+}
+
+.project-card-introduction {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  align-items: start;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.project-card-badge {
+  display: inline-block;
+  margin: 0 0 0.75rem;
+  padding: 0.15rem 0.75rem;
+  border-radius: 2rem;
+  background: #dfeef0;
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.project-card-indigenous .project-card-badge {
+  background: #e1eee7;
+}
+
+.project-card-obia {
+  background: linear-gradient(135deg, #eef6f8, #fff 45%);
+}
+
+.project-card-harpia {
+  background: linear-gradient(135deg, #eef6f2, #fff 45%);
+}
+
+.project-card-obia .project-card-badge {
+  background: #dceef4;
+}
+
+.project-card-harpia .project-card-badge {
+  background: #dceee7;
+}
+
+.research-project-card .project-card-title,
+.research-subarea .research-project-card .project-card-title {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.project-card-summary {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.project-card-illustration {
+  align-self: center;
+}
+
+.project-card-focus {
+  padding-block: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.project-card-focus :is(h4, h5),
+.project-card-leadership :is(h4, h5) {
+  margin: 0 0 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.project-card-focus ul {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.project-card-focus li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  line-height: 1.5;
+}
+
+.project-card-focus-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: #edf3f3;
+  color: var(--color-accent);
+}
+
+.project-card-focus-text {
+  min-width: 0;
+}
+
+.project-card-focus-text strong {
+  display: block;
+}
+
+.project-card-focus-text p {
+  margin: 0.25rem 0 0;
+  color: var(--color-muted);
+}
+
+.project-card-leadership {
+  border-top: 1px solid var(--color-border);
+  padding-block: 0.75rem;
+}
+
+.project-card-leadership p {
+  margin: 0;
+}
+
+.project-card-description {
+  margin-bottom: 1rem;
+}
+
+.project-card-description > summary,
+.project-card-primary-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius);
+  background: var(--color-accent);
+  color: #fff;
+  font-weight: 700;
+  list-style: none;
+}
+
+.project-card-primary-link {
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.project-card-description > summary::-webkit-details-marker,
+.project-card-panel > summary::-webkit-details-marker {
+  display: none;
+}
+
+.project-card-description .panel-body {
+  margin-top: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.project-card-panel {
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.project-card-panel > summary {
+  display: grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr) 1.5rem;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 3.25rem;
+  padding: 0.6rem 0.75rem;
+  color: var(--color-text);
+  line-height: 1.4;
+  list-style: none;
+}
+
+.project-card-contact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  color: var(--color-accent);
+}
+
+.project-card-contact > svg {
+  flex-shrink: 0;
+}
+
+.project-card-contact > div {
+  display: grid;
+  min-width: 0;
+}
+
+.project-card-contact span {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.project-card-contact a {
+  font-weight: 700;
+}
+
+.project-card-description > summary:hover,
+.project-card-primary-link:hover {
+  background: var(--color-teal);
+}
+
+.project-card-panel[open] > summary > svg:last-child {
+  transform: rotate(180deg);
+}
+
+@supports (grid-template-rows: subgrid) {
+  .governance-subareas > .research-subarea {
+    grid-template-rows: subgrid;
+    grid-row: span 6;
+  }
+
+  .research-subarea .governance-project {
+    grid-template-rows: subgrid;
+    grid-row: span 5;
+  }
+
+  .research-project-card {
+    grid-template-rows: subgrid;
+    grid-row: span 5;
+  }
+}
+
+@media (width <= 600px) {
+  .project-card-introduction {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .project-card-illustration {
+    display: none;
+  }
+}

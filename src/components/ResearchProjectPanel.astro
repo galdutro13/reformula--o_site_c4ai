@@ -1,0 +1,26 @@
+---
+import Content from './Content.astro';
+import ResearchProjectIcon from './ResearchProjectIcon.astro';
+import type { Block } from '../content/model';
+import type { Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  id: string;
+  label: string;
+  icon: 'document' | 'people' | 'book';
+  children: Block[];
+  bodyId?: string;
+}
+const { locale, id, label, icon, children, bodyId } = Astro.props;
+---
+
+<details class="project-card-panel" id={id}>
+  <summary>
+    <ResearchProjectIcon kind={icon} />
+    <span>{label}</span>
+    <ResearchProjectIcon kind="chevron" />
+  </summary>
+  <div class="panel-body" id={bodyId} tabindex={bodyId ? -1 : undefined}>
+    <Content locale={locale} blocks={children} />
+  </div>
+</details>

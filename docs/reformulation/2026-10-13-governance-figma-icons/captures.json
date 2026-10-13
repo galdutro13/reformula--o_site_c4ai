@@ -1,0 +1,194 @@
+[
+  {
+    "locale": "pt",
+    "name": "desktop",
+    "state": "closed",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 1440,
+      "height": 1549
+    },
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-obia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-desktop.png",
+    "timestamp": "2026-10-13T21:36:39.176Z"
+  },
+  {
+    "locale": "pt",
+    "name": "tablet",
+    "state": "closed",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 800,
+      "height": 2607
+    },
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-obia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-tablet.png",
+    "timestamp": "2026-10-13T21:36:39.403Z"
+  },
+  {
+    "locale": "pt",
+    "name": "mobile",
+    "state": "closed",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 390,
+      "height": 3264
+    },
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-obia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-harpia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-mobile.png",
+    "timestamp": "2026-10-13T21:36:39.597Z"
+  },
+  {
+    "locale": "en",
+    "name": "desktop",
+    "state": "closed",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 1440,
+      "height": 1527
+    },
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-obia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-desktop.png",
+    "timestamp": "2026-10-13T21:36:39.814Z"
+  },
+  {
+    "locale": "en",
+    "name": "tablet",
+    "state": "closed",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 800,
+      "height": 2559
+    },
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-obia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-tablet.png",
+    "timestamp": "2026-10-13T21:36:40.038Z"
+  },
+  {
+    "locale": "en",
+    "name": "mobile",
+    "state": "closed",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 390,
+      "height": 3165
+    },
+    "javaScriptEnabled": false,
+    "illustrations": [
+      {
+        "src": "/media/research-obia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-harpia-figma.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-mobile.png",
+    "timestamp": "2026-10-13T21:36:40.227Z"
+  }
+]
