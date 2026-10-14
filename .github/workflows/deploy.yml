@@ -1,0 +1,53 @@
+name: Publicar no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm install --global npm@11.19.0
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run quality
+
+      - uses: actions/configure-pages@v5
+
+      - name: Gerar site para publicação
+        run: npm run build
+        env:
+          SITE_URL: https://galdutro13.github.io
+          BASE_PATH: /reformula--o_site_c4ai/
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v5
