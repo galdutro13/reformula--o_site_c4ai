@@ -7,62 +7,53 @@
   "anchor": "OBIA_B_eng",
   "blocks": [
     {
-      "type": "group",
-      "layout": "section",
+      "type": "html",
+      "html": "<p>O objetivo deste grande desafio é mapear, entender e debater o impacto da IA no Brasil e estender essa análise a outros países emergentes. Os interesses da equipe variam desde desinformação até regulamentação e comportamento ético. Dado\no amplo impacto da IA, essas questões urgentes só podem ser abordadas com sucesso a partir de uma perspectiva multidisciplinar. Desde junho de 2022, a equipe tem participado como um ramo acadêmico no Observatório Brasileiro de IA liderado\npelo NIC.br (a agência que regula e controla a internet brasileira). O Observatório de IA foi criado pelo Ministério Federal de Ciência, Tecnologia e Inovação e é geralmente referido como “OBIA” (para Observatório Brasileiro de Inteligência\nArtificial).</p>"
+    }
+  ],
+  "overview": {
+    "acronym": "OBIA@C4AI",
+    "title": "Observação e Discussão do Impacto da Inteligência Artificial",
+    "summary": "Pesquisa multidisciplinar dedicada a mapear, compreender e debater os impactos da inteligência artificial no Brasil e em outros países emergentes.",
+    "focusAreas": [
+      {
+        "title": "Impactos sociais e políticos da IA",
+        "description": "Investigação dos efeitos da inteligência artificial sobre a sociedade brasileira e outros países emergentes.",
+        "icon": "people"
+      },
+      {
+        "title": "Desinformação, regulamentação e ética",
+        "description": "Estudos sobre desinformação, regulamentação da inteligência artificial e comportamento ético.",
+        "icon": "document"
+      },
+      {
+        "title": "Pesquisa multidisciplinar e observação da IA",
+        "description": "Articulação de diferentes perspectivas acadêmicas e participação em iniciativas relacionadas ao Observatório Brasileiro de Inteligência Artificial.",
+        "icon": "observation"
+      }
+    ],
+    "leadership": "Cristina Oliveira e João Veiga.",
+    "about": {
+      "id": "obia-about",
+      "label": "Sobre o projeto"
+    },
+    "cta": {
+      "label": "Conhecer o projeto",
+      "href": "#OBIA_B_eng-description"
+    },
+    "contact": "c4ai-humanities@usp.br",
+    "resources": {
+      "id": "16252-c190",
       "children": [
         {
-          "type": "heading",
-          "level": 2,
-          "text": "OBIA@C4AI"
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Observação e Discussão do Impacto da Inteligência Artificial Líderes: Cristina Oliveira e João Veiga"
-        },
-        {
           "type": "html",
-          "html": "<p>O objetivo deste grande desafio é mapear, entender e debater o impacto da IA no Brasil e estender essa análise a outros países emergentes. Os interesses da equipe variam desde desinformação até regulamentação e comportamento ético. Dado\no amplo impacto da IA, essas questões urgentes só podem ser abordadas com sucesso a partir de uma perspectiva multidisciplinar. Desde junho de 2022, a equipe tem participado como um ramo acadêmico no Observatório Brasileiro de IA liderado\npelo NIC.br (a agência que regula e controla a internet brasileira). O Observatório de IA foi criado pelo Ministério Federal de Ciência, Tecnologia e Inovação e é geralmente referido como “OBIA” (para Observatório Brasileiro de Inteligência\nArtificial).</p>"
-        },
-        {
-          "type": "details",
-          "id": "16252-c190",
-          "label": "Recursos",
-          "children": [
-            {
-              "type": "html",
-              "html": "<a href=\"https://obia.nic.br/\"> OBIA – Página Principal</a>"
-            }
-          ]
-        },
-        {
-          "type": "group",
-          "layout": "row",
-          "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "html",
-                  "html": " Contato"
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "html",
-                  "html": " c4ai-humanities@usp.br"
-                }
-              ]
-            }
-          ]
+          "html": "<a href=\"https://obia.nic.br/\"> OBIA – Página Principal</a>"
         }
-      ],
-      "id": "OBIA_B_eng"
+      ]
     }
-  ]
+  },
+  "revision": {
+    "date": "2026-10-13",
+    "basis": "Redesign dos cards de OBIA e HarpIA solicitado pelo mantenedor em 13/10/2026; resumos, frentes e lideranças da proposta fornecida em português, com tradução fiel em inglês. Descrições completas e recursos preservados em painéis nativos, mantendo a classificação Macro/Micro. A consolidação dos dois painéis Resources idênticos de OBIA EN foi autorizada expressamente, preservando as duas âncoras."
+  }
 }

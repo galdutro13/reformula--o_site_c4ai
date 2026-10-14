@@ -1,0 +1,164 @@
+---
+import { getEntry } from 'astro:content';
+import Content from './Content.astro';
+import ResearchProjectIcon from './ResearchProjectIcon.astro';
+import ResearchProjectIllustration from './ResearchProjectIllustration.astro';
+import ResearchProjectPanel from './ResearchProjectPanel.astro';
+import { contentUrl } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  ref: string;
+  headingLevel?: 3 | 4;
+}
+const { locale, ref, headingLevel = 3 } = Astro.props;
+const entry = await getEntry('challenges', ref);
+if (!entry?.data.overview)
+  throw new Error(`Apresentação do projeto ausente: ${ref}`);
+const project = entry.data.overview;
+const projectId = entry.data.translationId as
+  'nlp2' | 'proindl' | 'obia' | 'harpia';
+const indigenous = projectId === 'proindl';
+const acronym = project.acronym;
+const icons = indigenous
+  ? (['book', 'tools', 'people'] as const)
+  : (['document', 'database', 'sound'] as const);
+const pt = locale === 'pt';
+const titleId = `${entry.data.anchor}-title`;
+const Heading = headingLevel === 4 ? 'h4' : 'h3';
+const SectionHeading = headingLevel === 4 ? 'h5' : 'h4';
+const panels = [
+  ...(project.about
+    ? [
+        {
+          id: project.about.id,
+          label: project.about.label,
+          children: entry.data.blocks,
+          icon: 'document' as const,
+          bodyId: `${entry.data.anchor}-description`,
+        },
+      ]
+    : []),
+  ...(project.team
+    ? [
+        {
+          ...project.team,
+          label: pt ? 'Equipe' : 'Team',
+          icon: 'people' as const,
+          bodyId: undefined,
+        },
+      ]
+    : []),
+  {
+    ...project.resources,
+    label: project.about
+      ? pt
+        ? 'Recursos'
+        : 'Resources'
+      : pt
+        ? 'Recursos e publicações'
+        : 'Resources and publications',
+    icon: 'book' as const,
+    bodyId: undefined,
+  },
+];
+const contact =
+  typeof project.contact === 'string'
+    ? { label: project.contact, href: `mailto:${project.contact}` }
+    : project.contact;
+---
+
+<article
+  class:list={[
+    'research-project-card',
+    { 'project-card-indigenous': indigenous },
+    { 'project-card-obia': projectId === 'obia' },
+    { 'project-card-harpia': projectId === 'harpia' },
+  ]}
+  id={entry.data.anchor}
+  aria-labelledby={titleId}
+>
+  <header class="project-card-introduction">
+    <div>
+      <p class="project-card-badge">{acronym}</p>
+      <Heading class="project-card-title" id={titleId}>
+        {project.title}
+      </Heading>
+      <p class="project-card-summary">{project.summary}</p>
+    </div>
+    <ResearchProjectIllustration project={projectId} />
+  </header>
+  <section
+    class="project-card-focus"
+    aria-labelledby={`${entry.data.anchor}-focus-title`}
+  >
+    <SectionHeading id={`${entry.data.anchor}-focus-title`}>
+      {pt ? 'Principais frentes de pesquisa' : 'Main research areas'}
+    </SectionHeading>
+    <ul role="list">
+      {project.focusAreas.map((area, index) => (
+        <li>
+          <span class="project-card-focus-icon">
+            <ResearchProjectIcon
+              kind={
+                typeof area === 'string'
+                  ? icons[index % icons.length]
+                  : area.icon
+              }
+            />
+          </span>
+          {typeof area === 'string' ? (
+            <span>{area}</span>
+          ) : (
+            <div class="project-card-focus-text">
+              <strong>{area.title}</strong>
+              <p>{area.description}</p>
+            </div>
+          )}
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section
+    class="project-card-leadership"
+    aria-labelledby={`${entry.data.anchor}-leadership-title`}
+  >
+    <SectionHeading id={`${entry.data.anchor}-leadership-title`}>
+      {pt ? 'Liderança' : 'Leadership'}
+    </SectionHeading>
+    <p>{project.leadership}</p>
+  </section>
+  <div class="project-card-panels">
+    {project.cta ? (
+      <a class="project-card-primary-link" href={contentUrl(project.cta.href)}>
+        <span>{project.cta.label}</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    ) : (
+      <details
+        class="project-card-description"
+        id={`${entry.data.anchor}-description`}
+      >
+        <summary
+          aria-label={`${pt ? 'Conhecer o projeto' : 'Explore the project'} ${acronym}`}
+        >
+          <span>{pt ? 'Conhecer o projeto' : 'Explore the project'}</span>
+          <span aria-hidden="true">→</span>
+        </summary>
+        <div class="panel-body">
+          <Content locale={locale} blocks={entry.data.blocks} />
+        </div>
+      </details>
+    )}
+    {panels.map((panel) => (
+      <ResearchProjectPanel locale={locale} {...panel} />
+    ))}
+  </div>
+  <footer class="project-card-contact">
+    <ResearchProjectIcon kind="mail" />
+    <div>
+      <span>{pt ? 'Contato' : 'Contact'}</span>
+      <a href={contentUrl(contact.href)}>{contact.label}</a>
+    </div>
+  </footer>
+</article>

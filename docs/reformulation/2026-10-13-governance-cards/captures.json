@@ -1,0 +1,332 @@
+[
+  {
+    "locale": "pt",
+    "name": "desktop",
+    "state": "closed",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 1440,
+      "height": 1549
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-desktop.png",
+    "timestamp": "2026-10-13T21:14:25.160Z"
+  },
+  {
+    "locale": "pt",
+    "name": "desktop",
+    "state": "expanded",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 1440,
+      "height": 2465
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-desktop-expanded.png",
+    "timestamp": "2026-10-13T21:14:25.594Z"
+  },
+  {
+    "locale": "pt",
+    "name": "tablet",
+    "state": "closed",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 800,
+      "height": 2607
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-tablet.png",
+    "timestamp": "2026-10-13T21:14:25.820Z"
+  },
+  {
+    "locale": "pt",
+    "name": "mobile",
+    "state": "closed",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 390,
+      "height": 3264
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-mobile.png",
+    "timestamp": "2026-10-13T21:14:26.010Z"
+  },
+  {
+    "locale": "pt",
+    "name": "mobile",
+    "state": "expanded",
+    "path": "/pt/pesquisas/",
+    "viewport": {
+      "width": 390,
+      "height": 5436
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-pt-mobile-expanded.png",
+    "timestamp": "2026-10-13T21:14:26.403Z"
+  },
+  {
+    "locale": "en",
+    "name": "desktop",
+    "state": "closed",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 1440,
+      "height": 1527
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-desktop.png",
+    "timestamp": "2026-10-13T21:14:26.620Z"
+  },
+  {
+    "locale": "en",
+    "name": "desktop",
+    "state": "expanded",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 1440,
+      "height": 2470
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-desktop-expanded.png",
+    "timestamp": "2026-10-13T21:22:02.396Z"
+  },
+  {
+    "locale": "en",
+    "name": "tablet",
+    "state": "closed",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 800,
+      "height": 2559
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 240,
+        "height": 240,
+        "display": "block"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-tablet.png",
+    "timestamp": "2026-10-13T21:14:27.269Z"
+  },
+  {
+    "locale": "en",
+    "name": "mobile",
+    "state": "closed",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 390,
+      "height": 3165
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-mobile.png",
+    "timestamp": "2026-10-13T21:14:27.458Z"
+  },
+  {
+    "locale": "en",
+    "name": "mobile",
+    "state": "expanded",
+    "path": "/en/research/",
+    "viewport": {
+      "width": 390,
+      "height": 5232
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "illustrations": [
+      {
+        "src": "/media/research-obia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      },
+      {
+        "src": "/media/research-harpia.svg",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "width": 0,
+        "height": 0,
+        "display": "none"
+      }
+    ],
+    "overflow": false,
+    "file": "screenshots/governance-en-mobile-expanded.png",
+    "timestamp": "2026-10-13T21:22:02.774Z"
+  }
+]

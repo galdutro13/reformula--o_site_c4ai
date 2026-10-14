@@ -1,0 +1,13 @@
+{
+  "id": "languages-en",
+  "translationId": "languages",
+  "locale": "en",
+  "anchor": "languages",
+  "title": "Natural language processing for the languages of Brazil",
+  "summary": "Research in natural language processing for Portuguese and Brazilian Indigenous languages.",
+  "groups": ["nlp2-en", "proindl-en"],
+  "revision": {
+    "date": "2026-09-22",
+    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
+  }
+}

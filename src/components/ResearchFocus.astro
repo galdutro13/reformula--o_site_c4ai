@@ -1,0 +1,103 @@
+---
+import Content from './Content.astro';
+import ResearchIndex from './ResearchIndex.astro';
+import ResearchProjectCard from './ResearchProjectCard.astro';
+import { researchLines } from '../content/research';
+import { pagePath } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+import type { Block } from '../content/model';
+interface Props {
+  locale: Locale;
+  compact: boolean;
+  historical: Block[];
+}
+const { locale, compact, historical } = Astro.props;
+const lines = await researchLines(locale);
+const pt = locale === 'pt';
+---
+
+{compact ? (
+  <section class="research-overview" aria-labelledby="research-focus-title">
+    <h2 id="research-focus-title">
+      {pt ? 'Nossas linhas de pesquisa' : 'Our research areas'}
+    </h2>
+    <div class="focus-cards">
+      {lines.map((line) => (
+        <article class="focus-card">
+          <h3>
+            <a href={`${pagePath('research', locale)}#${line.anchor}`}>
+              {line.title}
+            </a>
+          </h3>
+          <p>{line.summary}</p>
+          {line.subareas.length > 0 && (
+            <ul class="focus-subareas">
+              {line.subareas.map((area) => (
+                <li>
+                  <a href={`${pagePath('research', locale)}#${area.anchor}`}>
+                    {area.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </article>
+      ))}
+    </div>
+  </section>
+) : (
+  <>
+    <ResearchIndex locale={locale} lines={lines} />
+    {lines.map((line) => (
+      <section
+        class="current-research"
+        id={line.anchor}
+        aria-labelledby={`${line.anchor}-title`}
+      >
+        <h2 id={`${line.anchor}-title`}>{line.title}</h2>
+        <p class="focus-summary">{line.summary}</p>
+        {line.subareas.length > 0 ? (
+          <div class="governance-subareas">
+            {line.subareas.map((area) => (
+              <section
+                class="research-subarea"
+                id={area.anchor}
+                aria-labelledby={`${area.anchor}-title`}
+              >
+                <header class="research-subarea-introduction">
+                  <h3 id={`${area.anchor}-title`}>{area.title}</h3>
+                  <p>{area.summary}</p>
+                </header>
+                <div class="group-records governance-project">
+                  <ResearchProjectCard
+                    locale={locale}
+                    ref={area.group}
+                    headingLevel={4}
+                  />
+                </div>
+              </section>
+            ))}
+          </div>
+        ) : (
+          <div class="group-records language-projects">
+            {line.groups.map((ref) => (
+              <ResearchProjectCard locale={locale} ref={ref} />
+            ))}
+          </div>
+        )}
+      </section>
+    ))}
+    <section
+      class="previous-research"
+      id="previous-research"
+      aria-labelledby="previous-research-title"
+    >
+      <h2 id="previous-research-title">
+        {pt ? 'Trabalhos anteriores' : 'Previous research'}
+      </h2>
+      <div class="group-records">
+        <Content locale={locale} blocks={historical} headingOffset={1} />
+      </div>
+    </section>
+  </>
+)}

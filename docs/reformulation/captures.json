@@ -1,0 +1,90 @@
+[
+  {
+    "file": "history-pt-desktop.png",
+    "path": "/pt/pesquisas/#previous-research",
+    "width": 1440,
+    "height": 900,
+    "state": "history",
+    "date": "2026-09-22T15:07:17.462034+00:00"
+  },
+  {
+    "file": "history-pt-mobile.png",
+    "path": "/pt/pesquisas/#previous-research",
+    "width": 390,
+    "height": 844,
+    "state": "history",
+    "date": "2026-09-22T15:05:31.568238+00:00"
+  },
+  {
+    "file": "home-en-desktop.png",
+    "path": "/en/",
+    "width": 1440,
+    "height": 900,
+    "state": "default",
+    "date": "2026-09-22T15:01:27.811Z"
+  },
+  {
+    "file": "home-en-mobile-cards.png",
+    "path": "/en/",
+    "width": 390,
+    "height": 844,
+    "state": "cards",
+    "date": "2026-09-22T15:04:06.361147+00:00"
+  },
+  {
+    "file": "home-en-mobile.png",
+    "path": "/en/",
+    "width": 390,
+    "height": 844,
+    "state": "default",
+    "date": "2026-09-22T15:03:53.005742+00:00"
+  },
+  {
+    "file": "home-pt-desktop.png",
+    "path": "/pt/",
+    "width": 1440,
+    "height": 900,
+    "state": "default",
+    "date": "2026-09-22T15:00:50.568Z"
+  },
+  {
+    "file": "home-pt-mobile.png",
+    "path": "/pt/",
+    "width": 390,
+    "height": 844,
+    "state": "default",
+    "date": "2026-09-22T15:04:15.953953+00:00"
+  },
+  {
+    "file": "research-en-desktop.png",
+    "path": "/en/research/",
+    "width": 1440,
+    "height": 900,
+    "state": "default",
+    "date": "2026-09-22T15:01:59.170754+00:00"
+  },
+  {
+    "file": "research-en-mobile.png",
+    "path": "/en/research/",
+    "width": 390,
+    "height": 844,
+    "state": "default",
+    "date": "2026-09-22T15:02:12.135514+00:00"
+  },
+  {
+    "file": "research-pt-desktop.png",
+    "path": "/pt/pesquisas/",
+    "width": 1440,
+    "height": 900,
+    "state": "default",
+    "date": "2026-09-22T15:01:00.513Z"
+  },
+  {
+    "file": "research-pt-mobile.png",
+    "path": "/pt/pesquisas/",
+    "width": 390,
+    "height": 844,
+    "state": "default",
+    "date": "2026-09-22T15:03:09.486989+00:00"
+  }
+]

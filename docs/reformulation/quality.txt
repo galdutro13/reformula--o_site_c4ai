@@ -1,0 +1,13 @@
+22/09/2026 — npm run quality — saída 0 após restauração da falha induzida e ajustes finais
+Node 24.21.0 / npm 11.19.0
+Prettier: aprovado
+ESLint: 0 erros; aviso preexistente complexity 15 > 10 em tests/e2e/site.spec.ts
+Stylelint: aprovado
+Astro check: 52 arquivos; 0 erros, 0 avisos, 0 hints
+Configuração: 5 testes aprovados
+Build: 38 páginas estáticas
+486 passed (1.9m)
+88 cenários axe WCAG A/AA sem violações selecionadas
+Capturas: 11 PNGs conferidos
+Falha induzida: seção governance removida do HTML de /pt/pesquisas/; teste esperava 2 linhas e encontrou 1; restauração byte a byte
+Sem alterações de dependências, limites de qualidade, exclusões ou retries.

@@ -1,0 +1,83 @@
+{
+  "id": "harpia-pt",
+  "translationId": "harpia",
+  "locale": "pt",
+  "source": "https://sites.usp.br/keml/harpia/",
+  "retrievedAt": "2026-10-13T19:31:08Z",
+  "revision": {
+    "date": "2026-10-13",
+    "basis": "Complementação solicitada pelo mantenedor em 13/10/2026, com síntese das páginas oficiais HarpIA, módulos, arquitetura, créditos e perguntas frequentes; funcionalidades planejadas identificadas como tal. O painel Módulos foi retirado por solicitação posterior do mantenedor na mesma data. Redesign dos cards de OBIA e HarpIA solicitado pelo mantenedor em 13/10/2026; resumos, frentes e lideranças da proposta fornecida em português, com tradução fiel em inglês. Descrições completas e recursos preservados em painéis nativos, mantendo a classificação Macro/Micro. A consolidação dos dois painéis Resources idênticos de OBIA EN foi autorizada expressamente, preservando as duas âncoras."
+  },
+  "anchor": "harpia",
+  "blocks": [
+    {
+      "type": "html",
+      "html": "<p>HarpIA é uma plataforma de código aberto voltada à avaliação de grandes modelos de linguagem (LLMs), com ferramentas para tornar esse processo mais padronizado, reprodutível e transparente.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>A plataforma reúne módulos independentes que apoiam avaliações com participantes humanos e procedimentos automatizados. Interfaces de entrada e saída compartilhadas permitem combinar ferramentas em um fluxo de avaliação e registrar dados e resultados para auditoria e reprodução dos estudos.</p>"
+    },
+    {
+      "type": "html",
+      "html": "<p>O código deve ser instalado na infraestrutura do usuário. O foco é avaliar modelos; a plataforma não oferece treinamento ou otimização de LLMs nem um serviço online hospedado pela equipe.</p>"
+    }
+  ],
+  "overview": {
+    "acronym": "HarpIA",
+    "title": "Avaliação de Grandes Modelos de Linguagem",
+    "summary": "Plataforma de código aberto dedicada à avaliação de grandes modelos de linguagem (LLMs), com ferramentas para tornar esse processo mais padronizado, reprodutível e transparente.",
+    "focusAreas": [
+      {
+        "title": "Avaliação humana e automatizada de LLMs",
+        "description": "Ferramentas para conduzir avaliações com participantes humanos e procedimentos automatizados.",
+        "icon": "chart"
+      },
+      {
+        "title": "Arquitetura modular de avaliação",
+        "description": "Integração de módulos independentes por meio de interfaces compartilhadas, permitindo configurar diferentes fluxos de avaliação.",
+        "icon": "modules"
+      },
+      {
+        "title": "Reprodutibilidade e transparência",
+        "description": "Registro estruturado de dados, procedimentos e resultados para permitir auditoria e reprodução dos estudos.",
+        "icon": "document"
+      }
+    ],
+    "leadership": "Sarajane Marques Peres e Fabio Gagliardi Cozman.",
+    "about": {
+      "id": "harpia-about",
+      "label": "Sobre a plataforma"
+    },
+    "cta": {
+      "label": "Conhecer a plataforma HarpIA",
+      "href": "https://sites.usp.br/keml/harpia/"
+    },
+    "contact": {
+      "label": "Contato com a equipe do projeto",
+      "href": "https://sites.usp.br/keml/contato/"
+    },
+    "team": {
+      "id": "harpia-team",
+      "children": [
+        {
+          "type": "html",
+          "html": "<p>Os créditos do projeto apresentam as seguintes responsabilidades:</p><ul><li><strong>Líderes de pesquisa:</strong> Anarosa Alvez Franco Brandão, Fabio Gagliardi Cozman e Sarajane Marques Peres.</li><li><strong>Pesquisadores:</strong> Bernardo Nunes Gonçalves, Fabio José Muneratti Ortega, Marcos Lopes e Paulo Pirozelli.</li><li><strong>Liderança de desenvolvimento e arquitetura:</strong> Vinícius Bitencourt Matos.</li><li><strong>Gestão de qualidade e divulgação:</strong> André Paulino de Lima.</li></ul>"
+        },
+        {
+          "type": "html",
+          "html": "<a href=\"https://sites.usp.br/keml/creditos/\">Equipe completa e créditos do HarpIA</a>"
+        }
+      ]
+    },
+    "resources": {
+      "id": "harpia-resources",
+      "children": [
+        {
+          "type": "html",
+          "html": "<ul><li><a href=\"https://sites.usp.br/keml/harpia-survey/\">Documentação do HarpIA Survey</a></li><li><a href=\"https://sites.usp.br/keml/harpia-lab/\">Documentação do HarpIA Lab</a></li><li><a href=\"https://sites.usp.br/keml/harpia-twin/\">Documentação do HarpIA Twin</a></li><li><a href=\"https://sites.usp.br/keml/harpia-modelos-e-conjuntos-de-dados/\">HarpIA Recursos — em construção</a></li><li><a href=\"https://sites.usp.br/keml/harpia-arquitetura/\">Arquitetura da plataforma</a></li><li><a href=\"https://sites.usp.br/keml/perguntas-frequentes/\">Perguntas frequentes e orientações de instalação</a></li></ul>"
+        }
+      ]
+    }
+  }
+}

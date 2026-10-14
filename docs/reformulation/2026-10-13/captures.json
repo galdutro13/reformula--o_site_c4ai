@@ -1,0 +1,50 @@
+[
+  {
+    "file": "screenshots/research-index-pt-desktop.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "research-index",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T18:39:23.418Z"
+  },
+  {
+    "file": "screenshots/research-index-en-desktop.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "research-index",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T18:39:23.518Z"
+  },
+  {
+    "file": "screenshots/research-index-pt-mobile.png",
+    "page": "/pt/pesquisas/",
+    "locale": "pt",
+    "state": "research-index",
+    "viewport": {
+      "width": 390,
+      "height": 1199
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T18:39:23.663Z"
+  },
+  {
+    "file": "screenshots/research-index-en-mobile.png",
+    "page": "/en/research/",
+    "locale": "en",
+    "state": "research-index",
+    "viewport": {
+      "width": 390,
+      "height": 1118
+    },
+    "javaScriptEnabled": false,
+    "capturedAt": "2026-10-13T18:39:23.763Z"
+  }
+]

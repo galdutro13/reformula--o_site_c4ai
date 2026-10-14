@@ -1,8 +1,16 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
-import { editorialSchema, challengeSchema } from './content/model';
+import {
+  editorialSchema,
+  challengeSchema,
+  researchLineSchema,
+} from './content/model';
 
 export const collections = {
+  researchLines: defineCollection({
+    loader: glob({ pattern: '*.json', base: './src/content/research-lines' }),
+    schema: researchLineSchema,
+  }),
   challenges: defineCollection({
     loader: glob({ pattern: '*.json', base: './src/content/challenges' }),
     schema: challengeSchema,

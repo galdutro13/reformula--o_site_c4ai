@@ -7,93 +7,50 @@
   "anchor": "ProIndL_B_eng",
   "blocks": [
     {
-      "type": "group",
-      "layout": "section",
+      "type": "html",
+      "html": "<p>This research challenge explores three key questions:</p>"
+    },
+    {
+      "type": "html",
+      "html": "<ul>\n<li>\n\n \n How can AI technologies improve documentation and related efforts for Brazilian indigenous languages?\n\n\n\n\n\n</li>\n<li>\n\n\n How should current tools be adapted to work with low-resource and endangered languages?\n\n\n\n\n\n</li>\n<li>\n\n\n How can AI tools be developed for indigenous communities in an ethical way?\n\n\n\n\n\n\n</li>\n</ul>"
+    },
+    {
+      "type": "html",
+      "html": "<p>The team empowers indigenous communities with AI, ethically collaborates with São Paulo’s indigenous groups, investigating Guarani Mbya language and developing student support tools.</p>"
+    }
+  ],
+  "overview": {
+    "title": "Strengthening Brazilian Indigenous Languages with AI",
+    "summary": "Collaborative research into the development of artificial intelligence technologies to support the documentation and strengthening of Brazilian Indigenous languages.",
+    "focusAreas": [
+      "Language documentation and preservation.",
+      "AI tools for languages with few digital resources.",
+      "Ethical development of technologies in collaboration with Indigenous communities."
+    ],
+    "leadership": "Luciana Storto and Claudio Pinhanez.",
+    "team": {
+      "id": "5-c76",
       "children": [
         {
-          "type": "group",
-          "layout": "row",
-          "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "text": "ProIndL"
-                },
-                {
-                  "type": "heading",
-                  "level": 3,
-                  "text": "Strengthening Brazilian Indigenous Languages with AI Leaders: Luciana Storto and Claudio Pinhanez"
-                },
-                {
-                  "type": "html",
-                  "html": "<p>This research challenge explores three key questions:</p>"
-                },
-                {
-                  "type": "html",
-                  "html": "<ul>\n<li>\n\n \n How can AI technologies improve documentation and related efforts for Brazilian indigenous languages?syntactically annotated texts for building robust tagging and parsing models;\n\n\n\n\n\n</li>\n<li>\n\n\n How should current tools be adapted to work with low-resource and endangered languages?\n\n\n\n\n\n</li>\n<li>\n\n\n How can AI tools be developed for indigenous communities in an ethical way?\n\n\n\n\n\n\n</li>\n</ul>"
-                },
-                {
-                  "type": "html",
-                  "html": "<p>The team empowers indigenous communities with AI, ethically collaborates with São Paulo’s indigenous groups, investigating Guarani Mbya language and developing student support tools.</p>"
-                },
-                {
-                  "type": "details",
-                  "id": "5-c76",
-                  "label": "Team",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL _eng.pdf\"> View PROINDL team</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "details",
-                  "id": "5-c79",
-                  "label": "Resources",
-                  "children": [
-                    {
-                      "type": "html",
-                      "html": "<a href=\"https://conexoesoriginarias.github.io/\"> Conexões Originárias</a>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "html",
-                          "html": "<a href=\"mailto:c4ai-proindl@usp.br\"> contact</a>"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "html",
-                          "html": " c4ai-proindl@usp.br"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "html",
+          "html": "<a href=\"https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL _eng.pdf\"> View PROINDL team</a>"
         }
-      ],
-      "id": "ProIndL_B_eng"
-    }
-  ]
+      ]
+    },
+    "resources": {
+      "id": "5-c79",
+      "children": [
+        {
+          "type": "html",
+          "html": "<a href=\"https://conexoesoriginarias.github.io/\"> Conexões Originárias</a>"
+        }
+      ]
+    },
+    "contact": "c4ai-proindl@usp.br",
+    "acronym": "ProIndL"
+  },
+  "revision": {
+    "date": "2026-10-13",
+    "basis": "Redesign dos cards de NLP2 e ProIndL solicitado pelo mantenedor; síntese fornecida em português e traduzida para inglês; descrição e recursos migrados preservados em painéis nativos. Correção do trecho indevido na pergunta de ProIndL EN autorizada pelo mantenedor."
+  }
 }

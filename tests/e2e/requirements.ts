@@ -7,28 +7,31 @@ export const principalPages = [
     lang: 'pt-BR',
     title: 'C4AI | Início',
     heading:
-      'Um centro de pesquisa para inteligência artificial avançada no Brasil',
+      'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
     pair: '/en/',
   },
   {
     path: '/en/',
     lang: 'en',
     title: 'C4AI | Home',
-    heading: 'A research center for advanced artificial intelligence in Brazil',
+    heading:
+      'A research center for advanced artificial intelligence in Brazil.',
     pair: '/pt/',
   },
   {
     path: '/pt/sobre/',
     lang: 'pt-BR',
     title: 'C4AI | Sobre',
-    heading: 'Um centro de pesquisa de inteligência artificial no Brasil',
+    heading:
+      'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
     pair: '/en/about/',
   },
   {
     path: '/en/about/',
     lang: 'en',
     title: 'C4AI | About',
-    heading: 'A research center for advanced artificial intelligence in Brazil',
+    heading:
+      'A research center for advanced artificial intelligence in Brazil.',
     pair: '/pt/sobre/',
   },
   {
@@ -78,7 +81,14 @@ export const requiredPages: RequiredPage[] = [
       'Escolha o idioma do site do C4AI. Choose the language of the C4AI website.',
     pair: '/en/',
   },
-  ...principalPages.map((p) => ({ ...p, description: p.heading })),
+  ...principalPages.map((p) => ({
+    ...p,
+    description: ['/pt/', '/pt/pesquisas/'].includes(p.path)
+      ? 'O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).'
+      : ['/en/', '/en/research/'].includes(p.path)
+        ? 'C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance, with macro governance (AI and public policy) and micro governance (AI deployment and evaluation).'
+        : p.heading,
+  })),
   {
     path: '/pt/noticias/page/2/',
     lang: 'pt-BR',
@@ -117,19 +127,35 @@ export const requiredPages: RequiredPage[] = [
       'Página não encontrada. Volte ao início. Page not found. Return to the home page.',
   },
 ];
-export const challenges = [
-  'NLP2',
-  'ProIndL',
-  'KEML',
-  'OceanML',
-  'MClimate',
-  'OBIA@C4AI',
-  'AI Health',
-  'AgriBio',
-];
+// Redesign dos projetos autorizado em 13/10/2026: os títulos completos de
+// línguas e governança substituem as siglas como headings; os nove registros permanecem.
+export const challenges = {
+  pt: [
+    'Processamento de Linguagem Natural para o Português',
+    'Fortalecimento das Línguas Indígenas Brasileiras com IA',
+    'Avaliação de Grandes Modelos de Linguagem',
+    'KEML',
+    'OceanML',
+    'MClimate',
+    'Observação e Discussão do Impacto da Inteligência Artificial',
+    'AI Health',
+    'AgriBio',
+  ],
+  en: [
+    'Natural Language Processing for Portuguese',
+    'Strengthening Brazilian Indigenous Languages with AI',
+    'Evaluation of Large Language Models',
+    'KEML',
+    'OceanML',
+    'MClimate',
+    'Observing and Discussing the Impact of Artificial Intelligence',
+    'AI Health',
+    'AgriBio',
+  ],
+} as const;
 export const aboutAnchors = {
-  pt: ['lideranca', 'difusao', 'diversidade', 'impacto', 'contato'],
-  en: ['leadership', 'outreach', 'diversity', 'impact', 'contact'],
+  pt: ['lideranca', 'difusao', 'contato'],
+  en: ['leadership', 'outreach', 'contact'],
 };
 export const newsAnchors = {
   pt: [
@@ -142,3 +168,530 @@ export const newsAnchors = {
   ],
   en: ['chat', 'seminar', 'roundTable', 'techLaw', '05', 'others'],
 };
+
+// Decisões editoriais da reunião/email e plano de 06/10/2026. Este contrato
+// permanece manual e independente das coleções e dos componentes renderizados.
+export const researchSubareas = {
+  pt: [
+    {
+      anchor: 'governance-macro',
+      title: 'Governança Macro — IA e políticas públicas',
+      record: 'OBIA_B_eng',
+      name: 'OBIA@C4AI',
+      projectTitle:
+        'Observação e Discussão do Impacto da Inteligência Artificial',
+    },
+    {
+      anchor: 'governance-micro',
+      title: 'Governança Micro — Implantação e avaliação de IA',
+      record: 'harpia',
+      name: 'HarpIA',
+      projectTitle: 'Avaliação de Grandes Modelos de Linguagem',
+    },
+  ],
+  en: [
+    {
+      anchor: 'governance-macro',
+      title: 'Macro governance — AI and public policy',
+      record: 'OBIA_B_eng',
+      name: 'OBIA@C4AI',
+      projectTitle:
+        'Observing and Discussing the Impact of Artificial Intelligence',
+    },
+    {
+      anchor: 'governance-micro',
+      title: 'Micro governance — AI deployment and evaluation',
+      record: 'harpia',
+      name: 'HarpIA',
+      projectTitle: 'Evaluation of Large Language Models',
+    },
+  ],
+} as const;
+// Redesign do índice autorizado em 13/10/2026; expectativas independentes
+// do componente e das coleções, preservando os quatro destinos de navegação.
+export const researchIndex = {
+  pt: {
+    path: '/pt/pesquisas/',
+    title: 'Explore nossas pesquisas',
+    introduction:
+      'Conheça nossas linhas de pesquisa e acesse as áreas temáticas.',
+    areas: [
+      {
+        title: 'Processamento de linguagem natural para as línguas do Brasil',
+        description:
+          'Pesquisa em processamento de linguagem natural para o português e as línguas indígenas brasileiras.',
+      },
+      {
+        title: 'Governança de IA',
+        description:
+          'Estudos sobre políticas públicas, implantação e avaliação de sistemas de inteligência artificial.',
+      },
+    ],
+    history: 'Trabalhos anteriores',
+    historyDescription: 'Conheça os registros de pesquisas anteriores do C4AI.',
+    links: [
+      { label: 'Conhecer esta linha de pesquisa', anchor: 'languages' },
+      {
+        label: 'Governança Macro — IA e políticas públicas',
+        anchor: 'governance-macro',
+      },
+      {
+        label: 'Governança Micro — Implantação e avaliação de IA',
+        anchor: 'governance-micro',
+      },
+      { label: 'Consultar trabalhos anteriores', anchor: 'previous-research' },
+    ],
+  },
+  en: {
+    path: '/en/research/',
+    title: 'Explore our research',
+    introduction: 'Discover our research areas and explore their themes.',
+    areas: [
+      {
+        title: 'Natural language processing for the languages of Brazil',
+        description:
+          'Research in natural language processing for Portuguese and Brazilian Indigenous languages.',
+      },
+      {
+        title: 'AI governance',
+        description:
+          'Studies of public policy, deployment and evaluation of artificial intelligence systems.',
+      },
+    ],
+    history: 'Previous research',
+    historyDescription: 'Explore records of previous C4AI research.',
+    links: [
+      { label: 'Explore this research area', anchor: 'languages' },
+      {
+        label: 'Macro governance — AI and public policy',
+        anchor: 'governance-macro',
+      },
+      {
+        label: 'Micro governance — AI deployment and evaluation',
+        anchor: 'governance-micro',
+      },
+      { label: 'Browse previous research', anchor: 'previous-research' },
+    ],
+  },
+} as const;
+export const aboutUpdate = {
+  pt: {
+    path: '/pt/sobre/',
+    leadership: 'lideranca',
+    outreach: 'difusao',
+    contact: 'contato',
+    people: [
+      'Diretor Fabio Cozman, USP',
+      'Coordenador de Divulgação Fernando Osório, USP',
+      'Coordenador de Impacto João Paulo Veiga, USP (atuação)',
+      'Gerente Executivo Jairo Carlos Filho, USP',
+      'Gerente de Difusão Maurício Klein, USP',
+      'Assistente Administrativo Eliana Futenma, FUSP',
+    ],
+    removedAnchors: ['diversidade', 'impacto', 'reusable-sections-6', 'cis'],
+    workshop: 'Vídeo do workshop — 2022',
+    committees: [
+      'Comitê Executivo',
+      'Comitê de Direção',
+      'Comitê de Estratégia',
+      'Comitê de Indústria e Sociedade',
+      'Comitê Consultivo Internacional',
+    ],
+  },
+  en: {
+    path: '/en/about/',
+    leadership: 'leadership',
+    outreach: 'outreach',
+    contact: 'contact',
+    people: [
+      'Director Fabio Cozman, USP',
+      'Outreach Coordinator Fernando Osório, USP',
+      'Impact Coordinator João Paulo Veiga, USP (acting)',
+      'Executive Manager Jairo Carlos Filho, USP',
+      'Diffusion Manager Maurício Klein, USP',
+      'Administrative Assistant Eliana Futenma, FUSP',
+    ],
+    removedAnchors: ['diversity', 'impact', 'reusable-sections-6', 'features'],
+    workshop: 'Workshop video — 2022',
+    committees: [
+      'Executive Committee',
+      'Steering Committee',
+      'Strategy Committee',
+      'The Industry and Society Committee',
+      'The International Advisory Board',
+    ],
+  },
+} as const;
+export const leadershipPhotos = [
+  '/media/efe3a205cbf2.jpg',
+  '/media/f907124dd99d.jpg',
+  '/media/b6008f555305.jpg',
+  '/media/c071e689c793.jpg',
+  '/media/73844d6075ec.jpg',
+  '/media/109798fa012e.jpg',
+];
+export const footerSocialLinks = [
+  'https://www.youtube.com/c/C4AIUSP',
+  'https://www.instagram.com/c4aiusp/',
+  'https://www.facebook.com/groups/C4AI.USP',
+  'https://bit.ly/C4AI-Linkedin',
+  'https://www.flickr.com/photos/195298871@N06/albums',
+  'https://linktr.ee/c4aiusp',
+];
+
+// Complementação HarpIA: contrato editorial das fontes oficiais consultadas em
+// 13/10/2026; independente das coleções e do HTML produzido pela aplicação.
+export const harpiaContent = {
+  pt: {
+    path: '/pt/pesquisas/',
+    panels: ['Sobre a plataforma', 'Equipe', 'Recursos'],
+    leadership: 'Liderança',
+    ownInfrastructure:
+      'O código deve ser instalado na infraestrutura do usuário.',
+    credits: 'https://sites.usp.br/keml/creditos/',
+    contact: 'https://sites.usp.br/keml/contato/',
+    resources: [
+      'https://sites.usp.br/keml/harpia-survey/',
+      'https://sites.usp.br/keml/harpia-lab/',
+      'https://sites.usp.br/keml/harpia-twin/',
+      'https://sites.usp.br/keml/harpia-modelos-e-conjuntos-de-dados/',
+      'https://sites.usp.br/keml/harpia-arquitetura/',
+      'https://sites.usp.br/keml/perguntas-frequentes/',
+    ],
+  },
+  en: {
+    path: '/en/research/',
+    panels: ['About the platform', 'Team', 'Resources'],
+    leadership: 'Leadership',
+    ownInfrastructure:
+      'The code must be installed on the user’s own infrastructure.',
+    credits: 'https://sites.usp.br/keml/en/credits/',
+    contact: 'https://sites.usp.br/keml/en/contact/',
+    resources: [
+      'https://sites.usp.br/keml/en/harpia-survey-2/',
+      'https://sites.usp.br/keml/en/harpia-lab-2/',
+      'https://sites.usp.br/keml/en/harpia-twin-2/',
+      'https://sites.usp.br/keml/en/harpia-resources/',
+      'https://sites.usp.br/keml/en/architecture/',
+      'https://sites.usp.br/keml/en/faq/',
+    ],
+  },
+} as const;
+
+// Cards de línguas: textos da solicitação de 13/10/2026 e tradução equivalente;
+// IDs e URLs são o contrato legado inventariado, não derivados da aplicação.
+const nlp2ResourceUrls = [
+  'https://sites.google.com/icmc.usp.br/nlp2',
+  'https://sites.google.com/icmc.usp.br/poetisa',
+  'https://sites.google.com/view/tarsila-c4ai',
+  'https://sites.usp.br/corpuscarolina',
+  'https://synestech.ai',
+] as const;
+// Ilustrações fornecidas pelo usuário no Figma em 13/10/2026:
+// arquivo R70QFAvYNAN8NpocOdiBeA, artes 2:25 (NLP2) e 2:36 (ProIndL).
+// O contrato é manual, independente do componente e dos exports da aplicação.
+export const languageProjectIllustrations = [
+  {
+    anchor: 'NLP2_B_eng',
+    src: '/media/research-nlp2-figma.svg',
+    width: 240,
+    height: 240,
+  },
+  {
+    anchor: 'ProIndL_B_eng',
+    src: '/media/research-proindl-figma.svg',
+    width: 240,
+    height: 240,
+  },
+] as const;
+export const languageProjects = {
+  pt: {
+    path: '/pt/pesquisas/',
+    focus: 'Principais frentes de pesquisa',
+    leadership: 'Liderança',
+    panels: ['Conhecer o projeto', 'Equipe', 'Recursos e publicações'],
+    cards: [
+      {
+        anchor: 'NLP2_B_eng',
+        acronym: 'NLP2',
+        title: 'Processamento de Linguagem Natural para o Português',
+        summary:
+          'Desenvolvimento de recursos linguísticos e ferramentas abertas para aprimorar o processamento automático do português brasileiro escrito e falado.',
+        focusAreas: [
+          'Análise sintática e anotação linguística.',
+          'Construção de corpora e modelos de linguagem.',
+          'Reconhecimento, síntese e processamento da fala.',
+        ],
+        leaders: 'Marcelo Finger, Sandra M. Aluísio e Thiago A. S. Pardo.',
+        contact: 'c4ai-nlp2@usp.br',
+        teamId: '16252-c50',
+        resourceId: '16252-c53',
+        teamUrls: [
+          'https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2%20_Portugues_Equipes_modeloC4AI_23.pdf',
+        ],
+        resourceUrls: nlp2ResourceUrls,
+        detailedText:
+          'O objetivo deste desafio de pesquisa é reunir dados abertos e ferramentas para habilitar o PLN (Processamento de Linguagem Natural) de alto nível para o português (escrito e falado). O grupo de pesquisa concentrou-se em:',
+      },
+      {
+        anchor: 'ProIndL_B_eng',
+        acronym: 'ProIndL',
+        title: 'Fortalecimento das Línguas Indígenas Brasileiras com IA',
+        summary:
+          'Pesquisa colaborativa sobre o desenvolvimento de tecnologias de inteligência artificial para apoiar a documentação e o fortalecimento das línguas indígenas brasileiras.',
+        focusAreas: [
+          'Documentação e preservação linguística.',
+          'Ferramentas de IA para línguas com poucos recursos digitais.',
+          'Desenvolvimento ético de tecnologias em colaboração com comunidades indígenas.',
+        ],
+        leaders: 'Luciana Storto e Claudio Pinhanez.',
+        contact: 'c4ai-proindl@usp.br',
+        teamId: '16252-c69',
+        resourceId: '16252-c72',
+        teamUrls: [
+          'https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL%20_port.pdf',
+        ],
+        resourceUrls: ['https://conexoesoriginarias.github.io/'],
+        detailedText: 'Este desafio de pesquisa explora três questões-chave:',
+      },
+    ],
+  },
+  en: {
+    path: '/en/research/',
+    focus: 'Main research areas',
+    leadership: 'Leadership',
+    panels: ['Explore the project', 'Team', 'Resources and publications'],
+    cards: [
+      {
+        anchor: 'NLP2_B_eng',
+        acronym: 'NLP2',
+        title: 'Natural Language Processing for Portuguese',
+        summary:
+          'Development of linguistic resources and open tools to improve the automatic processing of written and spoken Brazilian Portuguese.',
+        focusAreas: [
+          'Syntactic analysis and linguistic annotation.',
+          'Building corpora and language models.',
+          'Speech recognition, synthesis and processing.',
+        ],
+        leaders: 'Marcelo Finger, Sandra M. Aluísio and Thiago A. S. Pardo.',
+        contact: 'c4ai-nlp2@usp.br',
+        teamId: '5-c53',
+        resourceId: '5-c56',
+        teamUrls: [
+          'https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/NLP2 _Ingles_Equipes_modeloC4AI_23.pdf',
+        ],
+        resourceUrls: nlp2ResourceUrls,
+        detailedText:
+          'The goal of this research challenge is to put together open data and tools to enable high-level NLP for Portuguese (written and spoken). The research group has focused on:',
+      },
+      {
+        anchor: 'ProIndL_B_eng',
+        acronym: 'ProIndL',
+        title: 'Strengthening Brazilian Indigenous Languages with AI',
+        summary:
+          'Collaborative research into the development of artificial intelligence technologies to support the documentation and strengthening of Brazilian Indigenous languages.',
+        focusAreas: [
+          'Language documentation and preservation.',
+          'AI tools for languages with few digital resources.',
+          'Ethical development of technologies in collaboration with Indigenous communities.',
+        ],
+        leaders: 'Luciana Storto and Claudio Pinhanez.',
+        contact: 'c4ai-proindl@usp.br',
+        teamId: '5-c76',
+        resourceId: '5-c79',
+        teamUrls: [
+          'https://c4ai.inova.usp.br/C4AIrepositorios/Equipes/PROINDL _eng.pdf',
+        ],
+        resourceUrls: ['https://conexoesoriginarias.github.io/'],
+        detailedText: 'This research challenge explores three key questions:',
+      },
+    ],
+  },
+} as const;
+
+// Cards de governança: proposta editorial de 13/10/2026 e tradução fiel.
+// IDs, recursos e restrições são o contrato anterior preservado. A consolidação
+// dos dois Resources ingleses de OBIA foi autorizada, com ambas as âncoras.
+// Ilustrações de governança fornecidas pelo usuário no Figma:
+// arquivo oRyXiLWMBUDsiVWzDeSs4k, artes 2:19 (OBIA) e 7:63 (HarpIA).
+// Associação manual independente do componente e dos exports da aplicação.
+export const governanceProjectIllustrations = [
+  {
+    anchor: 'OBIA_B_eng',
+    src: '/media/research-obia-figma.svg',
+    width: 240,
+    height: 240,
+  },
+  {
+    anchor: 'harpia',
+    src: '/media/research-harpia-figma.svg',
+    width: 240,
+    height: 240,
+  },
+] as const;
+export const governanceProjects = {
+  pt: {
+    path: '/pt/pesquisas/',
+    sectionTitle: 'Governança de IA',
+    focus: 'Principais frentes de pesquisa',
+    leadership: 'Liderança',
+    contact: 'Contato',
+    cards: [
+      {
+        subarea: 'governance-macro',
+        anchor: 'OBIA_B_eng',
+        acronym: 'OBIA@C4AI',
+        title: 'Observação e Discussão do Impacto da Inteligência Artificial',
+        summary:
+          'Pesquisa multidisciplinar dedicada a mapear, compreender e debater os impactos da inteligência artificial no Brasil e em outros países emergentes.',
+        focusAreas: [
+          {
+            title: 'Impactos sociais e políticos da IA',
+            description:
+              'Investigação dos efeitos da inteligência artificial sobre a sociedade brasileira e outros países emergentes.',
+          },
+          {
+            title: 'Desinformação, regulamentação e ética',
+            description:
+              'Estudos sobre desinformação, regulamentação da inteligência artificial e comportamento ético.',
+          },
+          {
+            title: 'Pesquisa multidisciplinar e observação da IA',
+            description:
+              'Articulação de diferentes perspectivas acadêmicas e participação em iniciativas relacionadas ao Observatório Brasileiro de Inteligência Artificial.',
+          },
+        ],
+        leaders: 'Cristina Oliveira e João Veiga.',
+        cta: {
+          label: 'Conhecer o projeto',
+          href: '#OBIA_B_eng-description',
+        },
+        aboutId: 'obia-about',
+        panels: ['Sobre o projeto', 'Recursos'],
+        resourcesId: '16252-c190',
+        contact: 'c4ai-humanities@usp.br',
+        contactHref: 'mailto:c4ai-humanities@usp.br',
+        history: 'Desde junho de 2022, a equipe tem participado',
+      },
+      {
+        subarea: 'governance-micro',
+        anchor: 'harpia',
+        acronym: 'HarpIA',
+        title: 'Avaliação de Grandes Modelos de Linguagem',
+        summary:
+          'Plataforma de código aberto dedicada à avaliação de grandes modelos de linguagem (LLMs), com ferramentas para tornar esse processo mais padronizado, reprodutível e transparente.',
+        focusAreas: [
+          {
+            title: 'Avaliação humana e automatizada de LLMs',
+            description:
+              'Ferramentas para conduzir avaliações com participantes humanos e procedimentos automatizados.',
+          },
+          {
+            title: 'Arquitetura modular de avaliação',
+            description:
+              'Integração de módulos independentes por meio de interfaces compartilhadas, permitindo configurar diferentes fluxos de avaliação.',
+          },
+          {
+            title: 'Reprodutibilidade e transparência',
+            description:
+              'Registro estruturado de dados, procedimentos e resultados para permitir auditoria e reprodução dos estudos.',
+          },
+        ],
+        leaders: 'Sarajane Marques Peres e Fabio Gagliardi Cozman.',
+        cta: {
+          label: 'Conhecer a plataforma HarpIA',
+          href: 'https://sites.usp.br/keml/harpia/',
+        },
+        aboutId: 'harpia-about',
+        panels: ['Sobre a plataforma', 'Equipe', 'Recursos'],
+        resourcesId: 'harpia-resources',
+        contact: 'Contato com a equipe do projeto',
+        contactHref: 'https://sites.usp.br/keml/contato/',
+        restrictions:
+          'O código deve ser instalado na infraestrutura do usuário. O foco é avaliar modelos; a plataforma não oferece treinamento ou otimização de LLMs nem um serviço online hospedado pela equipe.',
+      },
+    ],
+  },
+  en: {
+    path: '/en/research/',
+    sectionTitle: 'AI governance',
+    focus: 'Main research areas',
+    leadership: 'Leadership',
+    contact: 'Contact',
+    cards: [
+      {
+        subarea: 'governance-macro',
+        anchor: 'OBIA_B_eng',
+        acronym: 'OBIA@C4AI',
+        title: 'Observing and Discussing the Impact of Artificial Intelligence',
+        summary:
+          'Multidisciplinary research dedicated to mapping, understanding and debating the impacts of artificial intelligence in Brazil and other emerging countries.',
+        focusAreas: [
+          {
+            title: 'Social and political impacts of AI',
+            description:
+              'Investigation of the effects of artificial intelligence on Brazilian society and other emerging countries.',
+          },
+          {
+            title: 'Disinformation, regulation and ethics',
+            description:
+              'Studies on disinformation, artificial intelligence regulation and ethical behavior.',
+          },
+          {
+            title: 'Multidisciplinary research and AI observation',
+            description:
+              'Bringing together different academic perspectives and participating in initiatives related to the Brazilian Artificial Intelligence Observatory.',
+          },
+        ],
+        leaders: 'Cristina Oliveira and João Veiga.',
+        cta: {
+          label: 'Explore the project',
+          href: '#OBIA_B_eng-description',
+        },
+        aboutId: 'obia-about',
+        panels: ['About the project', 'Resources'],
+        resourcesId: '5-c147',
+        contact: 'c4ai-humanities@usp.br',
+        contactHref: 'mailto:c4ai-humanities@usp.br',
+        history: 'Since June 2022 the team has participated',
+      },
+      {
+        subarea: 'governance-micro',
+        anchor: 'harpia',
+        acronym: 'HarpIA',
+        title: 'Evaluation of Large Language Models',
+        summary:
+          'An open-source platform dedicated to evaluating large language models (LLMs), with tools to make this process more standardized, reproducible and transparent.',
+        focusAreas: [
+          {
+            title: 'Human and automated LLM evaluation',
+            description:
+              'Tools for conducting evaluations with human participants and automated procedures.',
+          },
+          {
+            title: 'Modular evaluation architecture',
+            description:
+              'Integration of independent modules through shared interfaces, allowing different evaluation workflows to be configured.',
+          },
+          {
+            title: 'Reproducibility and transparency',
+            description:
+              'Structured recording of data, procedures and results to enable auditing and reproduction of studies.',
+          },
+        ],
+        leaders: 'Sarajane Marques Peres and Fabio Gagliardi Cozman.',
+        cta: {
+          label: 'Explore the HarpIA platform',
+          href: 'https://sites.usp.br/keml/en/harpia-2/',
+        },
+        aboutId: 'harpia-about',
+        panels: ['About the platform', 'Team', 'Resources'],
+        resourcesId: 'harpia-resources',
+        contact: 'Contact the project team',
+        contactHref: 'https://sites.usp.br/keml/en/contact/',
+        restrictions:
+          'The code must be installed on the user’s own infrastructure. The focus is model evaluation; the platform does not provide LLM training or optimization, or an online service hosted by the team.',
+      },
+    ],
+  },
+} as const;

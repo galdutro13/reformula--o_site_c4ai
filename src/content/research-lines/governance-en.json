@@ -1,0 +1,27 @@
+{
+  "id": "governance-en",
+  "translationId": "governance",
+  "locale": "en",
+  "anchor": "governance",
+  "title": "AI governance",
+  "summary": "Research in AI governance, connecting AI and public policy with AI deployment and evaluation in companies.",
+  "groups": ["obia-en", "harpia-en"],
+  "revision": {
+    "date": "2026-10-06",
+    "basis": "Reunião de 29/09/2026, email de 30/09/2026 e decisões editoriais confirmadas pelo mantenedor em 06/10/2026."
+  },
+  "subareas": [
+    {
+      "anchor": "governance-macro",
+      "title": "Macro governance — AI and public policy",
+      "summary": "AI and public policy, including OBIA and AI regulation.",
+      "group": "obia-en"
+    },
+    {
+      "anchor": "governance-micro",
+      "title": "Micro governance — AI deployment and evaluation",
+      "summary": "Governance in companies, AI deployment and evaluation, including LLM evaluation with HarpIA.",
+      "group": "harpia-en"
+    }
+  ]
+}

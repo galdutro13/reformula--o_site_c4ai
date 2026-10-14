@@ -1,0 +1,22 @@
+---
+import { withBase } from '../i18n/routes';
+interface Props {
+  project: 'nlp2' | 'proindl' | 'obia' | 'harpia';
+}
+const { project } = Astro.props;
+const images = {
+  nlp2: '/media/research-nlp2-figma.svg',
+  proindl: '/media/research-proindl-figma.svg',
+  obia: '/media/research-obia-figma.svg',
+  harpia: '/media/research-harpia-figma.svg',
+} as const;
+---
+
+<img
+  class="project-card-illustration"
+  src={withBase(images[project])}
+  width="240"
+  height="240"
+  alt=""
+  aria-hidden="true"
+/>

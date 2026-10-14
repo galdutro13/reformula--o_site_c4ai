@@ -1,0 +1,63 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ilustra&#195;&#167;&#195;&#163;o/OBIA &#194;&#183; Olho e conex&#195;&#181;es">
+<g id="Arte vetorial">
+<path id="Fundo-organico" d="M88 26C59 31 42 54 33 83C23 112 23 158 46 183C66 206 111 213 148 205C182 198 210 177 215 144C220 114 199 81 174 59C151 40 118 21 88 26Z" fill="url(#paint0_linear_2_18)"/>
+<path id="Rede-cupula" d="M23 174C23 132 41 92 76 69C100 53 126 49 144 49C171 49 194 62 209 87C230 123 221 153 196 174C205 162 209 150 208 136C207 100 181 73 144 71C107 72 80 99 81 136C81 151 86 164 93 174H23Z" fill="url(#paint1_linear_2_18)"/>
+<path id="Faceta-superior-esquerda" opacity="0.44" d="M56 89L144 49L115 76L56 89Z" fill="#A3C4CD"/>
+<path id="Faceta-superior-direita" opacity="0.42" d="M144 49L209 87L170 77L144 71V49Z" fill="#568A97"/>
+<path id="Faceta-rede-esquerda" opacity="0.6" d="M23 174L56 89V174H23Z" fill="#A3C4CD"/>
+<path id="Faceta-rede-diagonal" opacity="0.75" d="M56 89L93 174H56V89Z" fill="#B5D4DC"/>
+<path id="Faceta-rede-inferior" opacity="0.32" d="M23 174L84 110L93 174H23Z" fill="#568A97"/>
+<path id="Faceta-rede-direita" opacity="0.38" d="M209 87C230 123 221 153 196 174C208 153 209 142 205 122L209 87Z" fill="#568A97"/>
+<path id="Conexoes-da-rede" opacity="0.5" d="M56 89V174M144 49V71M23 174H93" stroke="#D8EAED" stroke-width="1.1"/>
+<path id="Halo-do-olho" d="M144 199.4C179.015 199.4 207.4 171.015 207.4 136C207.4 100.985 179.015 72.6 144 72.6C108.985 72.6 80.6 100.985 80.6 136C80.6 171.015 108.985 199.4 144 199.4Z" fill="#F4FAFA"/>
+<path id="Anel-do-olho" d="M144 192.5C175.204 192.5 200.5 167.204 200.5 136C200.5 104.796 175.204 79.5 144 79.5C112.796 79.5 87.5 104.796 87.5 136C87.5 167.204 112.796 192.5 144 192.5Z" fill="url(#paint2_linear_2_18)"/>
+<path id="Iris" d="M144 176C166.091 176 184 158.091 184 136C184 113.909 166.091 96 144 96C121.909 96 104 113.909 104 136C104 158.091 121.909 176 144 176Z" fill="url(#paint3_linear_2_18)"/>
+<path id="Reflexo-na-iris" opacity="0.62" d="M144 140C141 130 151 125 160 127C178 130 177 148 168 147C177 144 182 139 184 131C187 151 176 168 162 172C151 165 144 153 144 140Z" fill="#A3C4CD"/>
+<path id="Brilho-central" d="M144 146.9C150.02 146.9 154.9 142.02 154.9 136C154.9 129.98 150.02 125.1 144 125.1C137.98 125.1 133.1 129.98 133.1 136C133.1 142.02 137.98 146.9 144 146.9Z" fill="#F4FAFA"/>
+<path id="Brilho-menor" d="M164.2 145C165.857 145 167.2 143.657 167.2 142C167.2 140.343 165.857 139 164.2 139C162.543 139 161.2 140.343 161.2 142C161.2 143.657 162.543 145 164.2 145Z" fill="#F4FAFA"/>
+<path id="No-superior" d="M144 52C145.657 52 147 50.6569 147 49C147 47.3431 145.657 46 144 46C142.343 46 141 47.3431 141 49C141 50.6569 142.343 52 144 52Z" fill="#296674"/>
+<path id="No-superior-interno" d="M144 74C145.657 74 147 72.6569 147 71C147 69.3431 145.657 68 144 68C142.343 68 141 69.3431 141 71C141 72.6569 142.343 74 144 74Z" fill="#296674"/>
+<path id="No-lateral-esquerdo" d="M56 100C62.0751 100 67 95.0751 67 89C67 82.9249 62.0751 78 56 78C49.9249 78 45 82.9249 45 89C45 95.0751 49.9249 100 56 100Z" fill="url(#paint4_linear_2_18)"/>
+<path id="No-lateral-direito" d="M209 98.8C215.075 98.8 220 93.8751 220 87.8C220 81.7249 215.075 76.8 209 76.8C202.925 76.8 198 81.7249 198 87.8C198 93.8751 202.925 98.8 209 98.8Z" fill="url(#paint5_linear_2_18)"/>
+<path id="No-inferior-esquerdo" d="M23 177C24.6569 177 26 175.657 26 174C26 172.343 24.6569 171 23 171C21.3431 171 20 172.343 20 174C20 175.657 21.3431 177 23 177Z" fill="#296674"/>
+<path id="No-inferior-central" d="M56 185C62.0751 185 67 180.075 67 174C67 167.925 62.0751 163 56 163C49.9249 163 45 167.925 45 174C45 180.075 49.9249 185 56 185Z" fill="url(#paint6_linear_2_18)"/>
+<path id="No-inferior-interno" d="M93 177C94.6569 177 96 175.657 96 174C96 172.343 94.6569 171 93 171C91.3431 171 90 172.343 90 174C90 175.657 91.3431 177 93 177Z" fill="#296674"/>
+<path id="No-inferior-direito" d="M196 177C197.657 177 199 175.657 199 174C199 172.343 197.657 171 196 171C194.343 171 193 172.343 193 174C193 175.657 194.343 177 196 177Z" fill="#296674"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2_18" x1="42" y1="54" x2="203" y2="198" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8F3F5"/>
+<stop offset="1" stop-color="#D8EAED"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_18" x1="50" y1="62" x2="201" y2="158" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B5D4DC"/>
+<stop offset="1" stop-color="#A3C4CD"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2_18" x1="106" y1="96" x2="179" y2="188" gradientUnits="userSpaceOnUse">
+<stop stop-color="#487D89"/>
+<stop offset="0.56" stop-color="#2A6978"/>
+<stop offset="1" stop-color="#1D5C68"/>
+</linearGradient>
+<linearGradient id="paint3_linear_2_18" x1="111" y1="111" x2="179" y2="164" gradientUnits="userSpaceOnUse">
+<stop stop-color="#568A97"/>
+<stop offset="1" stop-color="#487D89"/>
+</linearGradient>
+<linearGradient id="paint4_linear_2_18" x1="106" y1="96" x2="179" y2="188" gradientUnits="userSpaceOnUse">
+<stop stop-color="#487D89"/>
+<stop offset="0.56" stop-color="#568A97"/>
+<stop offset="1" stop-color="#2A6978"/>
+</linearGradient>
+<linearGradient id="paint5_linear_2_18" x1="106" y1="96" x2="179" y2="188" gradientUnits="userSpaceOnUse">
+<stop stop-color="#487D89"/>
+<stop offset="0.56" stop-color="#568A97"/>
+<stop offset="1" stop-color="#2A6978"/>
+</linearGradient>
+<linearGradient id="paint6_linear_2_18" x1="106" y1="96" x2="179" y2="188" gradientUnits="userSpaceOnUse">
+<stop stop-color="#487D89"/>
+<stop offset="0.56" stop-color="#568A97"/>
+<stop offset="1" stop-color="#2A6978"/>
+</linearGradient>
+</defs>
+</svg>

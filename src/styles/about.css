@@ -1,0 +1,35 @@
+.page-about #lideranca h3,
+.page-about #leadership h3 {
+  margin-top: 1.5rem;
+}
+
+.page-about #lideranca .editorial-image,
+.page-about #leadership .editorial-image {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.page-about #about-gallery {
+  margin-block: 2rem;
+  align-items: center;
+}
+
+.page-about #about-gallery .editorial-image {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (width <= 700px) {
+  .page-about .promotional-cards .layout-row.columns-2,
+  .page-about #about-2 > .layout-row,
+  .page-about #leadership-executive,
+  .page-about #leadership-management,
+  .page-about #about-gallery,
+  .page-about #contato > .layout-row,
+  .page-about #contact > .layout-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

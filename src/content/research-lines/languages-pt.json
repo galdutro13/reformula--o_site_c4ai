@@ -1,0 +1,13 @@
+{
+  "id": "languages-pt",
+  "translationId": "languages",
+  "locale": "pt",
+  "anchor": "languages",
+  "title": "Processamento de linguagem natural para as línguas do Brasil",
+  "summary": "Pesquisa em processamento de linguagem natural para o português e as línguas indígenas brasileiras.",
+  "groups": ["nlp2-pt", "proindl-pt"],
+  "revision": {
+    "date": "2026-09-22",
+    "basis": "Reformulação de escopo autorizada pelo mantenedor: duas linhas atuais; dados migrados preservados como históricos."
+  }
+}

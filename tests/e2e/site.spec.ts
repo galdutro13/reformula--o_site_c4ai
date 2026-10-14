@@ -6,10 +6,16 @@ import {
   challenges,
   aboutAnchors,
   newsAnchors,
+  researchIndex,
 } from './requirements';
 import editorial from './editorial-requirements.json' with { type: 'json' };
 import articleRequirements from './article-requirements.json' with { type: 'json' };
 import newsOrder from './news-order.json' with { type: 'json' };
+import { assertSharedEditorial } from './editorial-update';
+import './research-index';
+import './harpia';
+import './language-projects';
+import './governance-projects';
 const origin = 'http://127.0.0.1:4321';
 const compact = (value: string) => value.replace(/\s/g, '');
 test.beforeEach(async ({ page }) => {
@@ -76,6 +82,7 @@ for (const required of requiredPages) {
           ).toHaveAttribute('href', origin + path);
       }
     }
+    await assertSharedEditorial(page, required.lang);
     const article = articleRequirements.find((a) => a.path === required.path);
     if (article) {
       await expect(page.locator('.article-heading')).toContainText(
@@ -177,9 +184,11 @@ for (const locale of ['pt', 'en'] as const) {
     for (const id of newsAnchors[locale])
       await expect(page.locator(`[id="${id}"]`)).toHaveCount(1);
   });
-  test(`${locale}: oito desafios e painéis nativos`, async ({ page }) => {
+  test(`${locale}: nove registros de pesquisa e painéis nativos`, async ({
+    page,
+  }) => {
     await page.goto(pt ? '/pt/pesquisas/' : '/en/research/');
-    for (const name of challenges)
+    for (const name of challenges[locale])
       await expect(
         page.getByRole('heading', { name, exact: true }),
       ).toBeVisible();
@@ -339,3 +348,114 @@ test('par real de artigos: seletor explícito e retorno', async ({ page }) => {
     .click();
   await expect(page).toHaveURL(pt.path);
 });
+
+for (const scenario of [
+  {
+    locale: 'pt',
+    home: '/pt/',
+    research: '/pt/pesquisas/',
+    titles: [
+      'Processamento de linguagem natural para as línguas do Brasil',
+      'Governança de IA',
+    ],
+    history: 'Trabalhos anteriores',
+    notice: 'Registro da fase anterior:',
+    terms: ['português', 'línguas indígenas', 'governança'],
+  },
+  {
+    locale: 'en',
+    home: '/en/',
+    research: '/en/research/',
+    titles: [
+      'Natural language processing for the languages of Brazil',
+      'AI governance',
+    ],
+    history: 'Previous research',
+    notice: 'Record of the previous phase:',
+    terms: ['Portuguese', 'Indigenous languages', 'governance'],
+  },
+]) {
+  test(`${scenario.locale}: duas linhas atuais e histórico preservado`, async ({
+    page,
+  }) => {
+    await page.goto(scenario.home);
+    await expect(page.locator('.home-hero h1')).toHaveAttribute(
+      'lang',
+      scenario.locale === 'pt' ? 'pt-BR' : 'en',
+    );
+    await expect(page.locator('.home-hero .rich-text')).toHaveCount(0);
+    const cards = page.locator('.focus-card');
+    await expect(cards).toHaveCount(2);
+    for (const term of scenario.terms)
+      await expect(page.locator('main')).toContainText(term);
+    for (const [i, anchor] of ['languages', 'governance'].entries()) {
+      const link = cards
+        .nth(i)
+        .getByRole('link', { name: scenario.titles[i], exact: true });
+      await expect(link).toHaveAttribute(
+        'href',
+        `${scenario.research}#${anchor}`,
+      );
+      await link.focus();
+      await page.keyboard.press('Enter');
+      await expect(page).toHaveURL(origin + scenario.research + '#' + anchor);
+      await page.goto(scenario.home);
+    }
+    await page.goto(scenario.research);
+    await expect(page.locator('.current-research')).toHaveCount(2);
+    for (const [i, anchor] of ['languages', 'governance'].entries()) {
+      const section = page.locator(`#${anchor}`);
+      await expect(
+        section.getByRole('heading', { name: scenario.titles[i], exact: true }),
+      ).toBeVisible();
+      await expect(section).not.toContainText(scenario.notice);
+    }
+    expect(
+      await page
+        .locator('#languages .group-records > [id]')
+        .evaluateAll((els) => els.map((el) => el.id)),
+    ).toEqual(['NLP2_B_eng', 'ProIndL_B_eng']);
+    expect(
+      await page
+        .locator(
+          '#governance-macro .group-records > [id], #governance-micro .group-records > [id]',
+        )
+        .evaluateAll((els) => els.map((el) => el.id)),
+    ).toEqual(['OBIA_B_eng', 'harpia']);
+    const history = page.locator('#previous-research');
+    await expect(
+      history.getByRole('heading', { name: scenario.history, exact: true }),
+    ).toBeVisible();
+    await expect(history).not.toContainText(scenario.notice);
+    expect(
+      await history
+        .locator('.group-records > [id]')
+        .evaluateAll((els) => els.map((el) => el.id)),
+    ).toEqual([
+      'OceanML_B_eng',
+      'Climate_B_eng',
+      'AlHealth_B_eng',
+      'AgriBio_B_eng',
+      'KEML_B_eng',
+    ]);
+    expect(
+      await page
+        .locator('.current-research, .previous-research')
+        .evaluateAll((els) => els.map((el) => el.id)),
+    ).toEqual(['languages', 'governance', 'previous-research']);
+    await expect(page.locator('.page-hero')).not.toContainText('250');
+    await page
+      .getByRole('navigation', {
+        name: researchIndex[scenario.locale as 'pt' | 'en'].title,
+        exact: true,
+      })
+      .getByRole('link', {
+        name: researchIndex[scenario.locale as 'pt' | 'en'].links[3].label,
+        exact: true,
+      })
+      .click();
+    await expect(page).toHaveURL(
+      origin + scenario.research + '#previous-research',
+    );
+  });
+}
