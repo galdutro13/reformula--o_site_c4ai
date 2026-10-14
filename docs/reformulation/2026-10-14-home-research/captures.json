@@ -1,0 +1,114 @@
+[
+  {
+    "locale": "pt",
+    "name": "desktop",
+    "path": "/pt/",
+    "viewport": {
+      "width": 1440,
+      "height": 695
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-pt-desktop.png",
+    "timestamp": "2026-10-14T17:02:24.064Z"
+  },
+  {
+    "locale": "pt",
+    "name": "tablet",
+    "path": "/pt/",
+    "viewport": {
+      "width": 800,
+      "height": 1137
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-pt-tablet.png",
+    "timestamp": "2026-10-14T17:02:24.214Z"
+  },
+  {
+    "locale": "pt",
+    "name": "mobile",
+    "path": "/pt/",
+    "viewport": {
+      "width": 390,
+      "height": 1471
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-pt-mobile.png",
+    "timestamp": "2026-10-14T17:02:24.360Z"
+  },
+  {
+    "locale": "pt",
+    "name": "narrow",
+    "path": "/pt/",
+    "viewport": {
+      "width": 320,
+      "height": 1712
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-pt-narrow.png",
+    "timestamp": "2026-10-14T17:02:24.507Z"
+  },
+  {
+    "locale": "en",
+    "name": "desktop",
+    "path": "/en/",
+    "viewport": {
+      "width": 1440,
+      "height": 695
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-en-desktop.png",
+    "timestamp": "2026-10-14T17:02:24.657Z"
+  },
+  {
+    "locale": "en",
+    "name": "tablet",
+    "path": "/en/",
+    "viewport": {
+      "width": 800,
+      "height": 1131
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-en-tablet.png",
+    "timestamp": "2026-10-14T17:02:24.808Z"
+  },
+  {
+    "locale": "en",
+    "name": "mobile",
+    "path": "/en/",
+    "viewport": {
+      "width": 390,
+      "height": 1433
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-en-mobile.png",
+    "timestamp": "2026-10-14T17:02:24.953Z"
+  },
+  {
+    "locale": "en",
+    "name": "narrow",
+    "path": "/en/",
+    "viewport": {
+      "width": 320,
+      "height": 1597
+    },
+    "javaScriptEnabled": false,
+    "subgrid": true,
+    "overflow": false,
+    "file": "screenshots/home-research-en-narrow.png",
+    "timestamp": "2026-10-14T17:02:25.098Z"
+  }
+]

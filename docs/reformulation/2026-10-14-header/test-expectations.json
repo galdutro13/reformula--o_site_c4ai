@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-14",
+  "scope": "Cabeçalho global PT/EN",
+  "requirements": {
+    "file": "tests/e2e/requirements.ts",
+    "fixture": "globalHeader",
+    "source": "Redesign do cabeçalho global autorizado pelo mantenedor em 14/10/2026",
+    "independence": "Ordem, rótulos, nomes acessíveis, URLs preservados e estados ativos escritos manualmente, sem importar mapa de navegação ou coleções da aplicação."
+  },
+  "editorialChanges": [
+    {
+      "locale": "pt",
+      "previous": "Home",
+      "replacement": "Início",
+      "reason": "A navegação da versão portuguesa usa o rótulo em português. O destino /pt/ permanece."
+    },
+    {
+      "locale": "en",
+      "previous": "Home",
+      "replacement": "Home",
+      "reason": "A versão inglesa mantém o rótulo e o destino /en/."
+    }
+  ],
+  "structuralExpectationChanges": [
+    {
+      "file": "tests/e2e/site.spec.ts",
+      "scenarios": "idioma correspondente e retorno — todas as páginas principais PT/EN",
+      "previous": "Idioma acessível diretamente no cabeçalho em qualquer largura",
+      "replacement": "Abrir o details Menu por Enter quando seu summary estiver visível, antes de selecionar o idioma, tanto na ida quanto no retorno",
+      "reason": "Idiomas passam a integrar o painel móvel. Preservados nomes acessíveis, destinos correspondentes, cliques e retorno à página original; não se exclui nenhum projeto sem JavaScript."
+    },
+    {
+      "file": "tests/e2e/site.spec.ts",
+      "scenarios": "submenus, âncoras e teclado — PT/EN",
+      "previous": "Decisão de menu móvel por largura menor que 1050 px",
+      "replacement": "Decisão por visibilidade real do summary Menu e abertura nativa por Enter",
+      "reason": "O cabeçalho responde ao espaço disponível com uma nova faixa de transição. A fixture de geometria exige desktop em 1440/1280 e menu móvel em 1024/800/390/320. Permanecem sequência Tab/Shift+Tab, foco visível, ativação do link, URL do fragmento e todas as âncoras."
+    },
+    {
+      "file": "tests/e2e/site.spec.ts",
+      "scenarios": "par real de artigos: seletor explícito e retorno",
+      "previous": "Idioma acessível diretamente no cabeçalho móvel do artigo",
+      "replacement": "Abrir Menu por Enter quando seu summary estiver visível antes da seleção de idioma em cada página",
+      "reason": "Preservadas a correspondência explícita dos dois artigos, as duas ações de idioma e as URLs exatas de ida e volta."
+    },
+    {
+      "file": "tests/e2e/site.spec.ts",
+      "scenarios": "paginação e ausência de tradução — PT/EN",
+      "previous": "Seleção global de .translation-missing e de seu link de notícias no outro idioma",
+      "replacement": "Abrir Menu quando seu summary estiver visível e limitar os seletores à navegação de idioma acessível na variante visível",
+      "reason": "As variantes desktop e móvel mantêm dois LanguageSwitcher no DOM, mas somente um fica acessível. Preservados literalmente os dois avisos de tradução ausente, a ausência de hreflang e o clique para a URL de notícias do outro idioma. Paginação, contagens, ordem das notícias e disponibilidade progressiva da busca permanecem iguais."
+    }
+  ],
+  "expectationsRemoved": [],
+  "expectationsAdded": [
+    "Seis grupos principais com rótulos e destinos preservados; PT Início/EN Home e link do logo correspondentes à versão atual.",
+    "Desktop em 1440/1280 px com logo de 181 × 72, cabeçalho de 96–104 px, gap principal de 20–24 px e separação de idiomas de 24–32 px.",
+    "Menu móvel em 1024/800/390/320 px, logo de 160 px proporcional, acionamento Menu à direita, cabeçalho fechado de 72–80 px e expansão em fluxo normal sem transbordamento.",
+    "Um seletor de idiomas visível por variante, idiomas após a navegação móvel e idioma atual identificado semanticamente.",
+    "Menus Sobre/About, Notícias/News e Recursos/Resources nativos, inicialmente fechados, com foco visível, abertura por Enter e fechamento por Espaço.",
+    "Menu móvel aberto por Enter e fechado por Espaço; troca de idioma disponível por teclado dentro do painel em PT/EN, inclusive sem JavaScript.",
+    "Links e summaries visíveis com área mínima de 44 × 44 px, estados de foco/hover e navegação principal por Enter.",
+    "aria-current=page na página principal exata, aria-current=location no contexto Notícias/News de paginação e artigos; nenhum item principal ativo na raiz de idioma ou 404."
+  ],
+  "preserved": [
+    "Logo local já adotado do Figma, sem troca de asset.",
+    "Nomes acessíveis e âncoras dos menus Sobre e Notícias, recursos e destino externo de Oportunidades.",
+    "Troca de idioma, retorno, link do logo, salto ao conteúdo e interação dos submenus sem JavaScript.",
+    "Conteúdos, títulos, metadados, hero, cards de pesquisas, rodapé e registros históricos.",
+    "Quatro projetos Chromium, axe, tags WCAG, links e fragmentos, imagens, publicação em subdiretório, regras, limites, exclusões e retries."
+  ],
+  "newScenarios": {
+    "perLocale": 4,
+    "locales": 2,
+    "browserProjects": 4,
+    "executionsAdded": 32
+  }
+}

@@ -2,8 +2,8 @@
 import Content from './Content.astro';
 import ResearchIndex from './ResearchIndex.astro';
 import ResearchProjectCard from './ResearchProjectCard.astro';
+import HomeResearchOverview from './HomeResearchOverview.astro';
 import { researchLines } from '../content/research';
-import { pagePath } from '../i18n/routes';
 import type { Locale } from '../i18n/ui';
 import type { Block } from '../content/model';
 interface Props {
@@ -17,34 +17,7 @@ const pt = locale === 'pt';
 ---
 
 {compact ? (
-  <section class="research-overview" aria-labelledby="research-focus-title">
-    <h2 id="research-focus-title">
-      {pt ? 'Nossas linhas de pesquisa' : 'Our research areas'}
-    </h2>
-    <div class="focus-cards">
-      {lines.map((line) => (
-        <article class="focus-card">
-          <h3>
-            <a href={`${pagePath('research', locale)}#${line.anchor}`}>
-              {line.title}
-            </a>
-          </h3>
-          <p>{line.summary}</p>
-          {line.subareas.length > 0 && (
-            <ul class="focus-subareas">
-              {line.subareas.map((area) => (
-                <li>
-                  <a href={`${pagePath('research', locale)}#${area.anchor}`}>
-                    {area.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          )}
-        </article>
-      ))}
-    </div>
-  </section>
+  <HomeResearchOverview locale={locale} lines={lines} />
 ) : (
   <>
     <ResearchIndex locale={locale} lines={lines} />

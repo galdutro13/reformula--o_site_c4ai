@@ -1,0 +1,161 @@
+.research-overview > h2 {
+  font-weight: 700;
+}
+
+.focus-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+  gap: 0 2rem;
+  align-items: stretch;
+}
+
+.focus-card {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  row-gap: 1.25rem;
+  min-width: 0;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-accent);
+  border-radius: var(--radius);
+  background: #edf3f3;
+  text-align: left;
+}
+
+.focus-card-header {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+
+.focus-card-header h3 {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.focus-card-icon {
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+  background: #d7ebed;
+  color: var(--color-accent);
+}
+
+.focus-card-summary {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.focus-card-navigation {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.focus-card-label {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.focus-subareas {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.focus-card-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 1.5rem;
+  align-content: start;
+  align-items: center;
+  gap: 0.25rem 0.75rem;
+  height: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid #d8e6e8;
+  border-radius: var(--radius);
+  background: #f8fbfc;
+  color: var(--color-accent);
+  line-height: 1.5;
+  transition: background-color 150ms ease;
+}
+
+.focus-link-title {
+  font-weight: 700;
+}
+
+.focus-link-description {
+  grid-column: 1;
+  color: var(--color-muted);
+}
+
+.focus-link-arrow {
+  justify-self: end;
+  font-size: 1.2rem;
+  transition: transform 150ms ease;
+}
+
+.focus-card-link:is(:hover, :focus-visible) {
+  background: #e1eef0;
+}
+
+.focus-card-link:is(:hover, :focus-visible) .focus-link-arrow {
+  transform: translateX(0.15rem);
+}
+
+@supports (grid-template-rows: subgrid) {
+  .focus-card {
+    grid-template-rows: subgrid;
+    grid-row: span 5;
+  }
+
+  .focus-card-navigation {
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+    row-gap: inherit;
+  }
+
+  .focus-subareas {
+    grid-template-rows: subgrid;
+    grid-row: span 2;
+    row-gap: inherit;
+  }
+}
+
+@media (width <= 600px) {
+  .focus-card {
+    padding: 1.25rem;
+  }
+
+  .focus-card-header {
+    grid-template-columns: 3rem minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .focus-card-header h3 {
+    font-size: 1.25rem;
+  }
+
+  .focus-card-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .focus-card-link {
+    padding: 0.75rem;
+  }
+}

@@ -1,0 +1,29 @@
+
+> c4ai-institutional-site@0.1.0 quality
+> npm run format:check && npm run lint && npm run check && npm run test:config && npm run test:e2e
+
+
+> c4ai-institutional-site@0.1.0 format:check
+> prettier . --check
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> c4ai-institutional-site@0.1.0 lint
+> eslint . && stylelint 'src/**/*.css'
+
+
+/private/tmp/c4ai-header-quality-W9Nmbo/tests/e2e/site.spec.ts
+  34:6  warning  Async arrow function has a complexity of 15. Maximum allowed is 10  complexity
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+src/styles/navigation.css
+   86:1  ✖  Expected selector ".mobile-navigation > summary" to come before selector ".main-menu details > summary", at line 72                no-descending-specificity
+  132:1  ✖  Expected selector ".language-switcher > a" to come before selector ".main-menu > li > a", at line 72                               no-descending-specificity
+  150:1  ✖  Expected selector ".translation-missing a" to come before selector ".main-menu > li > a", at line 72                               no-descending-specificity
+  157:1  ✖  Expected selector ".language-switcher > a[aria-current]" to come before selector ".main-menu > li > a[aria-current]", at line 156  no-descending-specificity
+
+✖ 4 problems (4 errors, 0 warnings)
+

@@ -1,5 +1,6 @@
 ---
-import { pagePath } from '../i18n/routes';
+import { pagePath, type PageId } from '../i18n/routes';
+import NavigationChevron from './NavigationChevron.astro';
 import {
   labels,
   aboutSections,
@@ -9,28 +10,48 @@ import {
 import type { Locale } from '../i18n/ui';
 interface Props {
   locale: Locale;
+  currentPath: string;
+  group: string;
 }
-const { locale } = Astro.props;
+const { locale, currentPath, group } = Astro.props;
 const t = labels[locale];
+const current = (id: PageId) => {
+  const href = pagePath(id, locale);
+  if (currentPath === href) return 'page';
+  if (id === 'news' && currentPath.startsWith(href)) return 'location';
+  return undefined;
+};
 ---
 
-<ul class="main-menu">
+<ul class="main-menu" role="list">
   <li>
-    <a href={pagePath('home', locale)}>{t.home}</a>
+    <a href={pagePath('home', locale)} aria-current={current('home')}>
+      {t.home}
+    </a>
   </li>
   {[
     { id: 'about' as const, sections: aboutSections[locale] },
     { id: 'research' as const, sections: [] },
     { id: 'news' as const, sections: newsSections[locale] },
   ].map((item) => (
-    <li>
-      <a href={pagePath(item.id, locale)}>{t[item.id]}</a>
-      {item.sections.length > 0 && (
-        <details class="submenu">
+    <li class:list={{ 'nav-expandable': item.sections.length > 0 }}>
+      <a href={pagePath(item.id, locale)} aria-current={current(item.id)}>
+        {t[item.id]}
+      </a>
+      {item.sections.length > 0 ? (
+        <details class="submenu" name={group} data-nav-submenu>
           <summary aria-label={`${t.sections} ${t[item.id]}`}>
-            <span aria-hidden="true">⌄</span>
+            <NavigationChevron />
           </summary>
-          <ul>
+          <ul role="list">
+            <li>
+              <a
+                href={pagePath(item.id, locale)}
+                aria-current={current(item.id) === 'page' ? 'page' : undefined}
+              >
+                {item.id === 'about' ? t.overview : t.allNews}
+              </a>
+            </li>
             {item.sections.map(([id, label]) => (
               <li>
                 <a href={`${pagePath(item.id, locale)}#${id}`}>{label}</a>
@@ -38,15 +59,18 @@ const t = labels[locale];
             ))}
           </ul>
         </details>
-      )}
+      ) : null}
     </li>
   ))}
   <li>
-    <details class="resource-menu">
+    <details class="resource-menu" name={group} data-nav-submenu>
       <summary>
-        {t.resources} <span aria-hidden="true">⌄</span>
+        <span class="resource-label">{t.resources}</span>
+        <span class="nav-arrow-slot" aria-hidden="true">
+          <NavigationChevron />
+        </span>
       </summary>
-      <ul>
+      <ul role="list">
         {externalResources(locale).map((link) => (
           <li>
             <a href={link.href}>
@@ -62,7 +86,7 @@ const t = labels[locale];
       href={`https://c4ai.inova.usp.br/${locale === 'pt' ? 'pt/oportunidades' : 'opportunities'}/`}
     >
       {t.opportunities}{' '}
-      <small>
+      <small class="nav-external">
         ↗ <span class="sr-only">{t.external}</span>
       </small>
     </a>

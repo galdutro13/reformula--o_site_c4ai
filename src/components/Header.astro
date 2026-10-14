@@ -8,8 +8,9 @@ import marks from '../data/marks.json';
 interface Props {
   locale: Locale;
   translations: Translations;
+  currentPath: string;
 }
-const { locale, translations } = Astro.props;
+const { locale, translations, currentPath } = Astro.props;
 ---
 
 <header class="site-header">
@@ -30,18 +31,44 @@ const { locale, translations } = Astro.props;
       class="desktop-navigation"
       aria-label={locale === 'pt' ? 'Principal' : 'Main'}
     >
-      <Navigation locale={locale} />
+      <Navigation
+        locale={locale}
+        currentPath={currentPath}
+        group="desktop-header"
+      />
     </nav>
+    <div class="desktop-language">
+      <LanguageSwitcher locale={locale} translations={translations} />
+    </div>
     <details class="mobile-navigation">
       <summary>
-        {labels[locale].menu} <span aria-hidden="true">☰</span>
+        <span class="mobile-menu-button">
+          <span class="menu-label-closed">{labels[locale].menu}</span>
+          <span class="menu-label-open">{labels[locale].closeMenu}</span>
+          <span class="menu-label-closed" aria-hidden="true">
+            ☰
+          </span>
+          <span class="menu-label-open" aria-hidden="true">
+            ×
+          </span>
+        </span>
       </summary>
-      <nav aria-label={locale === 'pt' ? 'Principal móvel' : 'Mobile main'}>
-        <Navigation locale={locale} />
-      </nav>
+      <div class="mobile-navigation-panel">
+        <nav aria-label={locale === 'pt' ? 'Principal móvel' : 'Mobile main'}>
+          <Navigation
+            locale={locale}
+            currentPath={currentPath}
+            group="mobile-header"
+          />
+        </nav>
+        <div class="mobile-language">
+          <LanguageSwitcher locale={locale} translations={translations} />
+        </div>
+      </div>
     </details>
   </div>
-  <div class="language-bar container">
-    <LanguageSwitcher locale={locale} translations={translations} />
-  </div>
 </header>
+
+<script>
+  import '../navigation/header';
+</script>

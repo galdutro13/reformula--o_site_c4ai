@@ -1,0 +1,148 @@
+
+> c4ai-institutional-site@0.1.0 quality
+> npm run format:check && npm run lint && npm run check && npm run test:config && npm run test:e2e
+
+
+> c4ai-institutional-site@0.1.0 format:check
+> prettier . --check
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> c4ai-institutional-site@0.1.0 lint
+> eslint . && stylelint 'src/**/*.css'
+
+
+/private/tmp/c4ai-header-interactions-quality-8wd83fb3/tests/e2e/site.spec.ts
+  34:6  warning  Async arrow function has a complexity of 15. Maximum allowed is 10  complexity
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+> c4ai-institutional-site@0.1.0 check
+> node --env-file-if-exists=.env scripts/astro.mjs check local
+
+.env not found. Continuing without it.
+16:56:21 [vite] Re-optimizing dependencies because vite config has changed
+16:56:21 [content] Syncing content
+16:56:21 [content] Synced content
+16:56:21 [types] Generated 253ms
+16:56:21 [check] Getting diagnostics for Astro files in /private/tmp/c4ai-header-interactions-quality-8wd83fb3...
+Result (70 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+> c4ai-institutional-site@0.1.0 test:config
+> node --test tests/config/*.test.mjs
+
+✔ somente Home pode ter blocks vazio; campo obrigatório continua exigido (4.501833ms)
+✔ a exceção de Home não aceita grupos ou painéis vazios nem HTML inseguro (1.3395ms)
+✔ pt: governança exige Macro/OBIA e Micro/HarpIA na ordem e no idioma corretos (0.919792ms)
+✔ en: governança exige Macro/OBIA e Micro/HarpIA na ordem e no idioma corretos (0.1955ms)
+✔ eixo de línguas preserva dois registros e não admite as subdivisões de governança (0.093834ms)
+✔ registros de pesquisa exigem conteúdo e procedência mesmo quando há revisão (2.803333ms)
+✔ pt/nlp2: card exige visão geral completa, conteúdo e painéis preservados (0.991833ms)
+✔ pt/proindl: card exige visão geral completa, conteúdo e painéis preservados (0.3995ms)
+✔ en/nlp2: card exige visão geral completa, conteúdo e painéis preservados (0.696625ms)
+✔ en/proindl: card exige visão geral completa, conteúdo e painéis preservados (0.412375ms)
+✔ pt/obia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.999333ms)
+✔ pt/harpia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.783917ms)
+✔ en/obia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.712292ms)
+✔ en/harpia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.845792ms)
+✔ OBIA: preserva integralmente o SVG original do Figma de 240×240 (3.077917ms)
+✔ HarpIA: preserva integralmente o SVG original do Figma de 240×240 (1.171792ms)
+✔ rejeita origem ausente, local, demonstrativa ou com partes indevidas (4.053042ms)
+✔ valida BASE_PATH sem normalização silenciosa (0.127ms)
+✔ comando publicável falha sem SITE_URL e com domínio demonstrativo (54.9765ms)
+✔ build de publicação em subdiretório: HTML, metadados e assets (870.420125ms)
+✔ índice inclui conteúdo recursivo sem IDs, URLs e campos estruturais (1.120625ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 972.032209
+
+> c4ai-institutional-site@0.1.0 test:e2e
+> npm run build:local && playwright test
+
+
+> c4ai-institutional-site@0.1.0 build:local
+> node scripts/astro.mjs build local
+
+16:56:26 [content] Syncing content
+16:56:26 [content] Astro config changed
+16:56:26 [content] Clearing content store
+16:56:26 [content] Synced content
+16:56:26 [types] Generated 203ms
+16:56:26 [build] output: "static"
+16:56:26 [build] mode: "static"
+16:56:26 [build] directory: /private/tmp/c4ai-header-interactions-quality-8wd83fb3/.test-dist/
+16:56:26 [build] Collecting build info...
+16:56:26 [build] ✓ Completed in 214ms.
+16:56:26 [build] Building static entrypoints...
+16:56:26 [vite] ✓ built in 88ms
+16:56:26 [vite] ✓ built in 22ms
+16:56:26 [build] Rearranging server assets...
+
+ generating static routes 
+16:56:26   ├─ /404.html (+5ms) 
+16:56:26   ├─ /en/about/index.html (+3ms) 
+16:56:26   ├─ /en/news/page/2/index.html (+2ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/index.html (+1ms) 
+16:56:26   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/index.html (+1ms) 
+16:56:26   ├─ /en/news/index.html (+9ms) 
+16:56:26   ├─ /en/research/index.html (+3ms) 
+16:56:26   ├─ /en/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/page/2/index.html (+2ms) 
+16:56:26   ├─ /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/corpus-carolina-nlp-c4ai/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/index.html (+1ms) 
+16:56:26   ├─ /pt/noticias/index.html (+2ms) 
+16:56:26   ├─ /pt/pesquisas/index.html (+2ms) 
+16:56:26   ├─ /pt/sobre/index.html (+1ms) 
+16:56:26   ├─ /pt/index.html (+1ms) 
+16:56:26   ├─ /index.html (+1ms) 
+16:56:26 ✓ Completed in 71ms.
+
+16:56:26 [build] ✓ Completed in 195ms.
+16:56:26 [build] 38 page(s) built in 410ms
+16:56:26 [build] Complete!
+[WebServer] (node:37175) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 16:56:26 [ERROR] Error: listen EPERM: operation not permitted 127.0.0.1:4321
+[WebServer]     at Server.setupListenHandle [as _listen2] (node:net:1986:21)
+[WebServer]     at listenInCluster (node:net:2065:12)
+[WebServer]     at node:net:2274:7
+[WebServer]     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[WebServer] listen EPERM: operation not permitted 127.0.0.1:4321
+[WebServer]   Stack trace:
+[WebServer]     at Server.setupListenHandle [as _listen2] (node:net:1986:21)
+[WebServer]     at node:net:2274:7
+Error: Process from config.webServer was not able to start. Exit code: 1
+

@@ -14,6 +14,60 @@ import { join } from 'node:path';
 import process from 'node:process';
 import { basePath, productionOrigin } from '../../scripts/publication.mjs';
 
+/** @param {string} html @param {string} output */
+function assertHomeHeaderScript(html, output) {
+  // Exceção autorizada em 14/10/2026: somente fechamento progressivo do
+  // cabeçalho. Não liberar scripts arbitrários, hidratação ou outras seções.
+  const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)];
+  assert.equal(
+    scripts.length,
+    1,
+    'Home deve conter apenas o módulo do cabeçalho',
+  );
+  const [, attributes, body] = scripts[0];
+  assert.match(attributes, /\btype="module"/);
+  assert.equal(
+    attributes.replace(/\b(?:type|src)="[^"]*"/g, '').trim(),
+    '',
+    'O módulo do cabeçalho não admite outros atributos executáveis',
+  );
+  const src = attributes.match(/\bsrc="([^"]*)"/)?.[1];
+  let code = body;
+  if (src !== undefined) {
+    assert.match(src, /^\/centro\/_astro\/[^/"?#]+\.js$/);
+    assert.equal(body.trim(), '');
+    code = readFileSync(join(output, src.slice('/centro/'.length)), 'utf8');
+  }
+  assert.match(code, /\.desktop-navigation/);
+  assert.match(code, /Escape/);
+  assert.doesNotMatch(
+    code,
+    /\b(?:fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|localStorage|sessionStorage|eval|Function)\b|\bimport\s*(?:\(|[^.\s])/,
+  );
+  assert.doesNotMatch(
+    code,
+    /astro-island|client:|\b(?:React|Vue|Svelte|hydrate|createRoot)\b|data-news-search|data-embed|load-embed|news-search|search-results|HomeResearchOverview|research-overview|home-hero/,
+  );
+  const header = readFileSync('src/components/Header.astro', 'utf8');
+  const entries = [
+    ...header.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g),
+  ];
+  assert.equal(entries.length, 1);
+  assert.equal(entries[0][1].trim(), '');
+  assert.match(
+    entries[0][2].trim(),
+    /^import ['"]\.\.\/navigation\/header['"];$/,
+  );
+  const source = readFileSync('src/navigation/header.ts', 'utf8');
+  assert.doesNotMatch(source, /(?:^|\n)\s*import\b|\bimport\s*\(/);
+  assert.doesNotMatch(
+    source,
+    /\b(?:fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|localStorage|sessionStorage|eval|Function)\b|astro-island|client:|\b(?:React|Vue|Svelte|hydrate|createRoot)\b/,
+  );
+  assert.match(source, /\.desktop-navigation/);
+  assert.match(source, /Escape/);
+}
+
 test('rejeita origem ausente, local, demonstrativa ou com partes indevidas', () => {
   for (const value of [
     undefined,
@@ -109,7 +163,7 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
       assert.match(html, /href="\/centro\/pt\/"/);
       assert.match(html, /href="\/centro\/en\/"/);
       assert.doesNotMatch(html, /name="robots"/);
-      assert.doesNotMatch(html, /<script\b/);
+      assertHomeHeaderScript(html, output);
     }
     const files = readdirSync(output, { recursive: true, encoding: 'utf8' });
     for (const file of files.filter((f) => f.endsWith('.html'))) {

@@ -1,0 +1,101 @@
+---
+import { getEntry, type CollectionEntry } from 'astro:content';
+import ResearchProjectIcon from './ResearchProjectIcon.astro';
+import { homeResearchContent } from '../content/home-research';
+import { pagePath } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+interface Props {
+  locale: Locale;
+  lines: CollectionEntry<'researchLines'>['data'][];
+}
+const { locale, lines } = Astro.props;
+const copy = homeResearchContent[locale];
+const cards = await Promise.all(
+  lines.map(async (line) => {
+    const links =
+      line.translationId === 'languages'
+        ? await Promise.all(
+            copy.languages.projects.map(async (item, index) => {
+              const project = await getEntry('challenges', line.groups[index]);
+              if (!project || project.data.translationId !== item.project)
+                throw new Error(
+                  `Projeto da Home ausente ou inválido: ${item.project}/${locale}`,
+                );
+              return {
+                anchor: project.data.anchor,
+                title: item.title,
+                description: item.description,
+              };
+            }),
+          )
+        : line.subareas.map((area) => ({
+            anchor: area.anchor,
+            title: area.title,
+            description: copy.governance.descriptions[area.anchor],
+          }));
+    return { line, ...copy[line.translationId], links };
+  }),
+);
+---
+
+<section class="research-overview" aria-labelledby="research-focus-title">
+  <h2 id="research-focus-title">
+    {locale === 'pt' ? 'Nossas linhas de pesquisa' : 'Our research areas'}
+  </h2>
+  <div class="focus-cards">
+    {cards.map(({ line, summary, label, links }) => (
+      <article class="focus-card" aria-labelledby={`home-${line.anchor}-title`}>
+        <header class="focus-card-header">
+          <span class="focus-card-icon" aria-hidden="true">
+            <ResearchProjectIcon
+              kind={line.translationId === 'languages' ? 'chat' : 'institution'}
+              size={32}
+            />
+          </span>
+          <h3 id={`home-${line.anchor}-title`}>
+            <a href={`${pagePath('research', locale)}#${line.anchor}`}>
+              {line.title}
+            </a>
+          </h3>
+        </header>
+        <p class="focus-card-summary">{summary}</p>
+        <nav
+          class="focus-card-navigation"
+          aria-labelledby={`home-${line.anchor}-links-title`}
+        >
+          <h4 class="focus-card-label" id={`home-${line.anchor}-links-title`}>
+            {label}
+          </h4>
+          <ul class="focus-subareas" role="list">
+            {links.map((link) => (
+              <li>
+                <a
+                  class="focus-card-link"
+                  href={`${pagePath('research', locale)}#${link.anchor}`}
+                  aria-labelledby={`home-${link.anchor}-link-title`}
+                  aria-describedby={`home-${link.anchor}-link-description`}
+                >
+                  <span
+                    class="focus-link-title"
+                    id={`home-${link.anchor}-link-title`}
+                  >
+                    {link.title}
+                  </span>
+                  <span class="focus-link-arrow" aria-hidden="true">
+                    →
+                  </span>
+                  <span
+                    class="focus-link-description"
+                    id={`home-${link.anchor}-link-description`}
+                  >
+                    {link.description}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </article>
+    ))}
+  </div>
+</section>

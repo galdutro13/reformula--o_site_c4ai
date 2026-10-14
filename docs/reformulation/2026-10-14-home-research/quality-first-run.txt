@@ -1,0 +1,973 @@
+
+> c4ai-institutional-site@0.1.0 quality
+> npm run format:check && npm run lint && npm run check && npm run test:config && npm run test:e2e
+
+
+> c4ai-institutional-site@0.1.0 format:check
+> prettier . --check
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> c4ai-institutional-site@0.1.0 lint
+> eslint . && stylelint 'src/**/*.css'
+
+
+/Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts
+  32:6  warning  Async arrow function has a complexity of 15. Maximum allowed is 10  complexity
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+> c4ai-institutional-site@0.1.0 check
+> node --env-file-if-exists=.env scripts/astro.mjs check local
+
+.env not found. Continuing without it.
+14:15:05 [content] Syncing content
+14:15:05 [content] Synced content
+14:15:05 [types] Generated 199ms
+14:15:05 [check] Getting diagnostics for Astro files in /Users/gregassagra/workspaces/reformulação_site_c4ai...
+Result (67 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+
+> c4ai-institutional-site@0.1.0 test:config
+> node --test tests/config/*.test.mjs
+
+✔ somente Home pode ter blocks vazio; campo obrigatório continua exigido (4.049834ms)
+✔ a exceção de Home não aceita grupos ou painéis vazios nem HTML inseguro (0.549459ms)
+✔ pt: governança exige Macro/OBIA e Micro/HarpIA na ordem e no idioma corretos (0.815709ms)
+✔ en: governança exige Macro/OBIA e Micro/HarpIA na ordem e no idioma corretos (0.185ms)
+✔ eixo de línguas preserva dois registros e não admite as subdivisões de governança (0.097792ms)
+✔ registros de pesquisa exigem conteúdo e procedência mesmo quando há revisão (2.411375ms)
+✔ pt/nlp2: card exige visão geral completa, conteúdo e painéis preservados (0.821791ms)
+✔ pt/proindl: card exige visão geral completa, conteúdo e painéis preservados (0.385209ms)
+✔ en/nlp2: card exige visão geral completa, conteúdo e painéis preservados (0.351959ms)
+✔ en/proindl: card exige visão geral completa, conteúdo e painéis preservados (0.311833ms)
+✔ pt/obia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.953084ms)
+✔ pt/harpia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.783959ms)
+✔ en/obia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.693083ms)
+✔ en/harpia: card aceita painéis distintos e exige frentes descritivas, apresentação, chamada e contato válidos (0.731042ms)
+✔ OBIA: preserva integralmente o SVG original do Figma de 240×240 (1.521583ms)
+✔ HarpIA: preserva integralmente o SVG original do Figma de 240×240 (0.477083ms)
+✔ rejeita origem ausente, local, demonstrativa ou com partes indevidas (4.449ms)
+✔ valida BASE_PATH sem normalização silenciosa (0.1545ms)
+✔ comando publicável falha sem SITE_URL e com domínio demonstrativo (52.903375ms)
+✔ build de publicação em subdiretório: HTML, metadados e assets (737.356375ms)
+✔ índice inclui conteúdo recursivo sem IDs, URLs e campos estruturais (0.629291ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 833.177917
+
+> c4ai-institutional-site@0.1.0 test:e2e
+> npm run build:local && playwright test
+
+
+> c4ai-institutional-site@0.1.0 build:local
+> node scripts/astro.mjs build local
+
+14:15:09 [content] Syncing content
+14:15:09 [content] Astro config changed
+14:15:09 [content] Clearing content store
+14:15:09 [content] Synced content
+14:15:09 [types] Generated 192ms
+14:15:09 [build] output: "static"
+14:15:09 [build] mode: "static"
+14:15:09 [build] directory: /Users/gregassagra/workspaces/reformulação_site_c4ai/.test-dist/
+14:15:09 [build] Collecting build info...
+14:15:09 [build] ✓ Completed in 204ms.
+14:15:09 [build] Building static entrypoints...
+14:15:09 [vite] ✓ built in 95ms
+14:15:09 [vite] ✓ built in 22ms
+14:15:09 [build] Rearranging server assets...
+
+ generating static routes 
+14:15:09   ├─ /404.html (+8ms) 
+14:15:09   ├─ /en/about/index.html (+7ms) 
+14:15:09   ├─ /en/news/page/2/index.html (+3ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/index.html (+2ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/index.html (+2ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/index.html (+1ms) 
+14:15:09   ├─ /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/index.html (+1ms) 
+14:15:09   ├─ /en/news/index.html (+2ms) 
+14:15:09   ├─ /en/research/index.html (+3ms) 
+14:15:09   ├─ /en/index.html (+2ms) 
+14:15:09   ├─ /pt/noticias/page/2/index.html (+3ms) 
+14:15:09   ├─ /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/index.html (+2ms) 
+14:15:09   ├─ /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/index.html (+2ms) 
+14:15:09   ├─ /pt/noticias/corpus-carolina-nlp-c4ai/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/index.html (+6ms) 
+14:15:09   ├─ /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/index.html (+1ms) 
+14:15:09   ├─ /pt/noticias/index.html (+2ms) 
+14:15:09   ├─ /pt/pesquisas/index.html (+1ms) 
+14:15:09   ├─ /pt/sobre/index.html (+1ms) 
+14:15:09   ├─ /pt/index.html (+1ms) 
+14:15:09   ├─ /index.html (+1ms) 
+14:15:09 ✓ Completed in 82ms.
+
+14:15:09 [build] ✓ Completed in 212ms.
+14:15:09 [build] 38 page(s) built in 426ms
+14:15:09 [build] Complete!
+[WebServer] (node:19934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 638 tests using 4 workers
+
+(node:19947) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19945) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19946) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19948) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    4 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /: acessibilidade WCAG A/AA (585ms)
+  ✓    3 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/: acessibilidade WCAG A/AA (608ms)
+  ✓    1 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/: acessibilidade WCAG A/AA (624ms)
+  ✓    2 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/sobre/: acessibilidade WCAG A/AA (763ms)
+  ✓    5 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/about/: acessibilidade WCAG A/AA (704ms)
+  ✓    6 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/pesquisas/: acessibilidade WCAG A/AA (778ms)
+  ✓    7 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/research/: acessibilidade WCAG A/AA (795ms)
+  ✓    8 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/: acessibilidade WCAG A/AA (868ms)
+  ✓    9 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/: acessibilidade WCAG A/AA (858ms)
+  ✓   10 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/page/2/: acessibilidade WCAG A/AA (798ms)
+  ✓   11 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/page/2/: acessibilidade WCAG A/AA (793ms)
+  ✓   12 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: acessibilidade WCAG A/AA (628ms)
+  ✓   13 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: acessibilidade WCAG A/AA (649ms)
+  ✓   15 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: acessibilidade WCAG A/AA (669ms)
+  ✓   14 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: acessibilidade WCAG A/AA (691ms)
+  ✓   16 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: acessibilidade WCAG A/AA (734ms)
+  ✓   17 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: acessibilidade WCAG A/AA (836ms)
+  ✓   19 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (760ms)
+  ✓   18 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (759ms)
+  ✓   20 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (915ms)
+  ✓   21 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (630ms)
+  ✓   22 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (647ms)
+  ✓   23 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (665ms)
+  ✓   24 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: acessibilidade WCAG A/AA (642ms)
+  ✓   25 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: acessibilidade WCAG A/AA (602ms)
+  ✓   26 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: acessibilidade WCAG A/AA (609ms)
+  ✓   27 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: acessibilidade WCAG A/AA (606ms)
+  ✓   28 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: acessibilidade WCAG A/AA (619ms)
+  ✓   29 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: acessibilidade WCAG A/AA (606ms)
+  ✓   30 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: acessibilidade WCAG A/AA (621ms)
+  ✓   31 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: acessibilidade WCAG A/AA (644ms)
+  ✓   32 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: acessibilidade WCAG A/AA (658ms)
+  ✓   33 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: acessibilidade WCAG A/AA (617ms)
+  ✓   34 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: acessibilidade WCAG A/AA (675ms)
+  ✓   35 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: acessibilidade WCAG A/AA (637ms)
+  ✓   36 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: acessibilidade WCAG A/AA (643ms)
+  ✓   38 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /404.html: acessibilidade WCAG A/AA (456ms)
+  ✓   37 [desktop] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: acessibilidade WCAG A/AA (651ms)
+  ✓   39 [desktop] › tests/e2e/accessibility.spec.ts:30:3 › /pt/sobre/: WCAG com painéis e navegação expandidos (775ms)
+  ✓   40 [desktop] › tests/e2e/accessibility.spec.ts:30:3 › /en/about/: WCAG com painéis e navegação expandidos (714ms)
+  ✓   43 [desktop] › tests/e2e/accessibility.spec.ts:30:3 › /pt/noticias/: WCAG com painéis e navegação expandidos (899ms)
+  ✓   44 [desktop] › tests/e2e/accessibility.spec.ts:30:3 › /en/news/: WCAG com painéis e navegação expandidos (898ms)
+  ✓   41 [desktop] › tests/e2e/accessibility.spec.ts:30:3 › /pt/pesquisas/: WCAG com painéis e navegação expandidos (1.6s)
+  ✓   42 [desktop] › tests/e2e/accessibility.spec.ts:30:3 › /en/research/: WCAG com painéis e navegação expandidos (1.5s)
+  ✓   45 [desktop] › tests/e2e/progressive.spec.ts:3:3 › pt: busca local e incorporação sob ação explícita (536ms)
+  ✓   46 [desktop] › tests/e2e/progressive.spec.ts:3:3 › en: busca local e incorporação sob ação explícita (672ms)
+  ✓   49 [desktop] › tests/e2e/progressive.spec.ts:116:3 › busca textual: o Laboratório Virtual (402ms)
+  ✓   47 [desktop] › tests/e2e/progressive.spec.ts:45:3 › pt: workshop envia somente a origem como Referer (627ms)
+  ✓   48 [desktop] › tests/e2e/progressive.spec.ts:45:3 › en: workshop envia somente a origem como Referer (629ms)
+  ✓   51 [desktop] › tests/e2e/progressive.spec.ts:116:3 › busca textual: CEO & Founder (446ms)
+  ✓   52 [desktop] › tests/e2e/progressive.spec.ts:116:3 › busca textual: html (492ms)
+  ✓   50 [desktop] › tests/e2e/progressive.spec.ts:116:3 › busca textual:   O   LABORATORIO VIRTUAL   (508ms)
+  ✓   53 [desktop] › tests/e2e/progressive.spec.ts:137:1 › busca interpreta HTML inerte e preserva limites textuais (671ms)
+  ✓   55 [desktop] › tests/e2e/editorial-update.ts:146:3 › pt: KEML preserva equipe, recursos, contatos e painéis no histórico (424ms)
+  ✓   56 [desktop] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (484ms)
+  ✓   54 [desktop] › tests/e2e/editorial-update.ts:56:3 › pt: Macro/OBIA e Micro/HarpIA, grid e links (905ms)
+  ✓   57 [desktop] › tests/e2e/editorial-update.ts:206:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (784ms)
+  ✓   59 [desktop] › tests/e2e/editorial-update.ts:146:3 › en: KEML preserva equipe, recursos, contatos e painéis no histórico (414ms)
+  ✓   60 [desktop] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (373ms)
+  ✓   58 [desktop] › tests/e2e/editorial-update.ts:56:3 › en: Macro/OBIA e Micro/HarpIA, grid e links (921ms)
+  ✓   61 [desktop] › tests/e2e/editorial-update.ts:206:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (567ms)
+  ✓   62 [desktop] › tests/e2e/research-index.ts:33:3 › pt: índice de pesquisas com duas áreas e histórico complementar (652ms)
+  ✓   64 [desktop] › tests/e2e/harpia.ts:5:3 › pt: HarpIA apresenta equipe e recursos sem o painel de módulos (462ms)
+  ✓   63 [desktop] › tests/e2e/research-index.ts:33:3 › en: índice de pesquisas com duas áreas e histórico complementar (566ms)
+  ✓   65 [desktop] › tests/e2e/harpia.ts:5:3 › en: HarpIA apresenta equipe e recursos sem o painel de módulos (506ms)
+  ✓   66 [desktop] › tests/e2e/language-projects.ts:55:3 › pt: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (420ms)
+  ✓   67 [desktop] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (445ms)
+  ✓   70 [desktop] › tests/e2e/language-projects.ts:55:3 › en: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (339ms)
+  ✓   69 [desktop] › tests/e2e/language-projects.ts:252:3 › pt: cards de línguas alinham componentes e empilham quando falta espaço (529ms)
+  ✓   68 [desktop] › tests/e2e/language-projects.ts:197:3 › pt: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (824ms)
+  ✓   71 [desktop] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (419ms)
+  ✓   74 [desktop] › tests/e2e/governance-projects.ts:26:3 › pt: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (335ms)
+  ✓   73 [desktop] › tests/e2e/language-projects.ts:252:3 › en: cards de línguas alinham componentes e empilham quando falta espaço (510ms)
+  ✓   75 [desktop] › tests/e2e/governance-projects.ts:98:3 › pt: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (500ms)
+  ✓   72 [desktop] › tests/e2e/language-projects.ts:197:3 › en: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (818ms)
+  ✓   77 [desktop] › tests/e2e/governance-projects.ts:236:3 › pt: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (326ms)
+  ✓   79 [desktop] › tests/e2e/governance-projects.ts:26:3 › en: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (390ms)
+  ✓   76 [desktop] › tests/e2e/governance-projects.ts:194:3 › pt: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (690ms)
+  ✓   78 [desktop] › tests/e2e/governance-projects.ts:277:3 › pt: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (562ms)
+  ✓   80 [desktop] › tests/e2e/governance-projects.ts:98:3 › en: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (558ms)
+  ✓   82 [desktop] › tests/e2e/governance-projects.ts:236:3 › en: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (313ms)
+  ✓   81 [desktop] › tests/e2e/governance-projects.ts:194:3 › en: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (716ms)
+  ✓   84 [desktop] › tests/e2e/home-research.ts:39:3 › pt: início apresenta linhas, resumos e dois blocos navegáveis por card (428ms)
+  ✓   83 [desktop] › tests/e2e/governance-projects.ts:277:3 › en: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (638ms)
+  ✓   85 [desktop] › tests/e2e/home-research.ts:110:3 › pt: projetos e subdivisões do início levam a âncoras existentes por teclado (757ms)
+  ✓   88 [desktop] › tests/e2e/home-research.ts:39:3 › en: início apresenta linhas, resumos e dois blocos navegáveis por card (371ms)
+  ✓   87 [desktop] › tests/e2e/home-research.ts:177:3 › pt: cards iniciais alinham regiões e empilham sem transbordar (470ms)
+  ✓   86 [desktop] › tests/e2e/home-research.ts:134:3 › pt: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (947ms)
+  ✓   91 [desktop] › tests/e2e/home-research.ts:177:3 › en: cards iniciais alinham regiões e empilham sem transbordar (479ms)
+  ✓   89 [desktop] › tests/e2e/home-research.ts:110:3 › en: projetos e subdivisões do início levam a âncoras existentes por teclado (666ms)
+  ✓   93 [desktop] › tests/e2e/site.spec.ts:106:3 › /: sem transbordamento (129ms)
+  ✓   92 [desktop] › tests/e2e/site.spec.ts:30:3 › /: conteúdo, metadados e estrutura (188ms)
+  ✓   95 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/: sem transbordamento (171ms)
+  ✓   90 [desktop] › tests/e2e/home-research.ts:134:3 › en: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (878ms)
+  ✓   94 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/: conteúdo, metadados e estrutura (236ms)
+  ✓   96 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/: conteúdo, metadados e estrutura (228ms)
+  ✓   97 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/: sem transbordamento (156ms)
+  ✓   99 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/sobre/: sem transbordamento (219ms)
+  ✓  101 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/about/: sem transbordamento (208ms)
+  ✓   98 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/sobre/: conteúdo, metadados e estrutura (398ms)
+  ✓  100 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/about/: conteúdo, metadados e estrutura (507ms)
+  ✓  103 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/pesquisas/: sem transbordamento (331ms)
+  ✓  102 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/pesquisas/: conteúdo, metadados e estrutura (529ms)
+  ✓  105 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/research/: sem transbordamento (185ms)
+  ✓  104 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/research/: conteúdo, metadados e estrutura (453ms)
+  ✓  107 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/: sem transbordamento (151ms)
+  ✓  106 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/: conteúdo, metadados e estrutura (294ms)
+  ✓  109 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/: sem transbordamento (165ms)
+  ✓  108 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/: conteúdo, metadados e estrutura (284ms)
+  ✓  111 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/page/2/: sem transbordamento (162ms)
+  ✓  110 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/page/2/: conteúdo, metadados e estrutura (275ms)
+  ✓  113 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/page/2/: sem transbordamento (167ms)
+  ✓  112 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/page/2/: conteúdo, metadados e estrutura (275ms)
+  ✓  115 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: sem transbordamento (163ms)
+  ✓  114 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: conteúdo, metadados e estrutura (337ms)
+  ✓  117 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: sem transbordamento (209ms)
+  ✓  116 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: conteúdo, metadados e estrutura (325ms)
+  ✓  119 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: sem transbordamento (166ms)
+  ✓  118 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (337ms)
+  ✓  121 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: sem transbordamento (230ms)
+  ✓  120 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: conteúdo, metadados e estrutura (326ms)
+  ✓  123 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: sem transbordamento (189ms)
+  ✓  122 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (345ms)
+  ✓  125 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: sem transbordamento (185ms)
+  ✓  124 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: conteúdo, metadados e estrutura (345ms)
+  ✓  127 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: sem transbordamento (187ms)
+  ✓  126 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (368ms)
+  ✓  129 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: sem transbordamento (207ms)
+  ✓  128 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (354ms)
+  ✓  131 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: sem transbordamento (222ms)
+  ✓  133 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: sem transbordamento (236ms)
+  ✓  130 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (420ms)
+  ✓  132 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (326ms)
+  ✓  134 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (305ms)
+  ✓  135 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: sem transbordamento (219ms)
+  ✓  137 [desktop] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: sem transbordamento (197ms)
+  ✓  136 [desktop] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (314ms)
+  ✓  139 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: sem transbordamento (193ms)
+  ✓  141 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: sem transbordamento (191ms)
+  ✓  138 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: conteúdo, metadados e estrutura (349ms)
+  ✓  140 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: conteúdo, metadados e estrutura (353ms)
+  ✓  143 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: sem transbordamento (207ms)
+  ✓  142 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: conteúdo, metadados e estrutura (315ms)
+  ✓  145 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: sem transbordamento (196ms)
+  ✓  144 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: conteúdo, metadados e estrutura (320ms)
+  ✓  147 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: sem transbordamento (180ms)
+  ✓  146 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: conteúdo, metadados e estrutura (333ms)
+  ✓  149 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: sem transbordamento (206ms)
+  ✓  148 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: conteúdo, metadados e estrutura (379ms)
+  ✓  151 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: sem transbordamento (192ms)
+  ✓  150 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: conteúdo, metadados e estrutura (362ms)
+  ✓  152 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: conteúdo, metadados e estrutura (327ms)
+  ✓  153 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: sem transbordamento (215ms)
+  ✓  155 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: sem transbordamento (193ms)
+  ✓  154 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: conteúdo, metadados e estrutura (333ms)
+  ✓  157 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: sem transbordamento (185ms)
+  ✓  156 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: conteúdo, metadados e estrutura (354ms)
+  ✓  159 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: sem transbordamento (233ms)
+  ✓  158 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: conteúdo, metadados e estrutura (376ms)
+  ✓  161 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: sem transbordamento (207ms)
+  ✓  160 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: conteúdo, metadados e estrutura (342ms)
+  ✓  163 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: sem transbordamento (196ms)
+  ✓  165 [desktop] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: sem transbordamento (185ms)
+  ✓  162 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: conteúdo, metadados e estrutura (387ms)
+  ✓  166 [desktop] › tests/e2e/site.spec.ts:30:3 › /404.html: conteúdo, metadados e estrutura (219ms)
+  ✓  164 [desktop] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: conteúdo, metadados e estrutura (317ms)
+  ✓  167 [desktop] › tests/e2e/site.spec.ts:106:3 › /404.html: sem transbordamento (137ms)
+  ✓  168 [desktop] › tests/e2e/site.spec.ts:121:3 › /pt/: idioma correspondente e retorno (407ms)
+  ✓  169 [desktop] › tests/e2e/site.spec.ts:121:3 › /en/: idioma correspondente e retorno (409ms)
+  ✓  170 [desktop] › tests/e2e/site.spec.ts:121:3 › /pt/sobre/: idioma correspondente e retorno (606ms)
+  ✓  171 [desktop] › tests/e2e/site.spec.ts:121:3 › /en/about/: idioma correspondente e retorno (576ms)
+  ✓  172 [desktop] › tests/e2e/site.spec.ts:121:3 › /pt/pesquisas/: idioma correspondente e retorno (521ms)
+  ✓  173 [desktop] › tests/e2e/site.spec.ts:121:3 › /en/research/: idioma correspondente e retorno (462ms)
+  ✓  175 [desktop] › tests/e2e/site.spec.ts:121:3 › /en/news/: idioma correspondente e retorno (407ms)
+  ✓  174 [desktop] › tests/e2e/site.spec.ts:121:3 › /pt/noticias/: idioma correspondente e retorno (413ms)
+  ✓  176 [desktop] › tests/e2e/site.spec.ts:152:3 › pt: submenus, âncoras e teclado (379ms)
+  ✓  179 [desktop] › tests/e2e/site.spec.ts:152:3 › en: submenus, âncoras e teclado (417ms)
+  ✓  178 [desktop] › tests/e2e/site.spec.ts:208:3 › pt: paginação e ausência de tradução (595ms)
+  ✓  177 [desktop] › tests/e2e/site.spec.ts:188:3 › pt: nove registros de pesquisa e painéis nativos (979ms)
+  ✓  181 [desktop] › tests/e2e/site.spec.ts:208:3 › en: paginação e ausência de tradução (604ms)
+  ✓  180 [desktop] › tests/e2e/site.spec.ts:188:3 › en: nove registros de pesquisa e painéis nativos (1.0s)
+  ✓  182 [desktop] › tests/e2e/site.spec.ts:245:1 › escolha de idioma, recuperação da 404 e salto por teclado (768ms)
+  ✓  184 [desktop] › tests/e2e/site.spec.ts:333:1 › par real de artigos: seletor explícito e retorno (488ms)
+  ✓  186 [desktop] › tests/e2e/site.spec.ts:379:3 › en: duas linhas atuais e histórico preservado (550ms)
+(node:20283) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20284) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  187 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /: acessibilidade WCAG A/AA (449ms)
+  ✓  188 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/: acessibilidade WCAG A/AA (513ms)
+  ✓  189 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/: acessibilidade WCAG A/AA (465ms)
+  ✓  190 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/sobre/: acessibilidade WCAG A/AA (530ms)
+  ✓  191 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/about/: acessibilidade WCAG A/AA (530ms)
+  ✓  192 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/pesquisas/: acessibilidade WCAG A/AA (658ms)
+  ✓  193 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/research/: acessibilidade WCAG A/AA (659ms)
+  ✓  195 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/: acessibilidade WCAG A/AA (730ms)
+  ✓  194 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/: acessibilidade WCAG A/AA (773ms)
+  ✓  183 [desktop] › tests/e2e/site.spec.ts:279:1 › links, âncoras, imagens e arquivos locais de todos os HTML compilados (4.3s)
+(node:20311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  196 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/page/2/: acessibilidade WCAG A/AA (722ms)
+  ✓  197 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/page/2/: acessibilidade WCAG A/AA (785ms)
+  ✓  198 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: acessibilidade WCAG A/AA (599ms)
+  ✓  199 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: acessibilidade WCAG A/AA (545ms)
+  ✓  200 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: acessibilidade WCAG A/AA (518ms)
+  ✘  185 [desktop] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado (5.3s)
+  ✓  201 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: acessibilidade WCAG A/AA (546ms)
+  ✓  202 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: acessibilidade WCAG A/AA (542ms)
+  ✓  203 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: acessibilidade WCAG A/AA (507ms)
+(node:20327) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  204 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (757ms)
+  ✓  205 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (735ms)
+  ✓  206 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (723ms)
+  ✓  207 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (631ms)
+  ✓  208 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (567ms)
+  ✓  210 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: acessibilidade WCAG A/AA (547ms)
+  ✓  209 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: acessibilidade WCAG A/AA (582ms)
+  ✓  211 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: acessibilidade WCAG A/AA (547ms)
+  ✓  213 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: acessibilidade WCAG A/AA (560ms)
+  ✓  212 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: acessibilidade WCAG A/AA (601ms)
+  ✓  214 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: acessibilidade WCAG A/AA (598ms)
+  ✓  215 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: acessibilidade WCAG A/AA (607ms)
+  ✓  216 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: acessibilidade WCAG A/AA (596ms)
+  ✓  218 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: acessibilidade WCAG A/AA (590ms)
+  ✓  217 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: acessibilidade WCAG A/AA (625ms)
+  ✓  219 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: acessibilidade WCAG A/AA (590ms)
+  ✓  220 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: acessibilidade WCAG A/AA (596ms)
+  ✓  221 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: acessibilidade WCAG A/AA (568ms)
+  ✓  222 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: acessibilidade WCAG A/AA (571ms)
+  ✓  223 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: acessibilidade WCAG A/AA (528ms)
+  ✓  224 [mobile] › tests/e2e/accessibility.spec.ts:7:3 › /404.html: acessibilidade WCAG A/AA (416ms)
+  ✓  226 [mobile] › tests/e2e/accessibility.spec.ts:30:3 › /en/about/: WCAG com painéis e navegação expandidos (672ms)
+  ✓  225 [mobile] › tests/e2e/accessibility.spec.ts:30:3 › /pt/sobre/: WCAG com painéis e navegação expandidos (689ms)
+  ✓  229 [mobile] › tests/e2e/accessibility.spec.ts:30:3 › /pt/noticias/: WCAG com painéis e navegação expandidos (995ms)
+  ✓  230 [mobile] › tests/e2e/accessibility.spec.ts:30:3 › /en/news/: WCAG com painéis e navegação expandidos (1.0s)
+  ✓  227 [mobile] › tests/e2e/accessibility.spec.ts:30:3 › /pt/pesquisas/: WCAG com painéis e navegação expandidos (1.5s)
+  ✓  228 [mobile] › tests/e2e/accessibility.spec.ts:30:3 › /en/research/: WCAG com painéis e navegação expandidos (1.5s)
+  ✓  232 [mobile] › tests/e2e/progressive.spec.ts:3:3 › en: busca local e incorporação sob ação explícita (398ms)
+  ✓  231 [mobile] › tests/e2e/progressive.spec.ts:3:3 › pt: busca local e incorporação sob ação explícita (463ms)
+  ✓  233 [mobile] › tests/e2e/progressive.spec.ts:45:3 › pt: workshop envia somente a origem como Referer (353ms)
+  ✓  234 [mobile] › tests/e2e/progressive.spec.ts:45:3 › en: workshop envia somente a origem como Referer (359ms)
+  ✓  235 [mobile] › tests/e2e/progressive.spec.ts:116:3 › busca textual: o Laboratório Virtual (202ms)
+  ✓  236 [mobile] › tests/e2e/progressive.spec.ts:116:3 › busca textual:   O   LABORATORIO VIRTUAL   (192ms)
+  ✓  238 [mobile] › tests/e2e/progressive.spec.ts:116:3 › busca textual: html (174ms)
+  ✓  237 [mobile] › tests/e2e/progressive.spec.ts:116:3 › busca textual: CEO & Founder (200ms)
+  ✓  239 [mobile] › tests/e2e/progressive.spec.ts:137:1 › busca interpreta HTML inerte e preserva limites textuais (321ms)
+  ✓  241 [mobile] › tests/e2e/editorial-update.ts:146:3 › pt: KEML preserva equipe, recursos, contatos e painéis no histórico (239ms)
+  ✓  242 [mobile] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (227ms)
+  ✓  245 [mobile] › tests/e2e/editorial-update.ts:146:3 › en: KEML preserva equipe, recursos, contatos e painéis no histórico (256ms)
+  ✓  240 [mobile] › tests/e2e/editorial-update.ts:56:3 › pt: Macro/OBIA e Micro/HarpIA, grid e links (603ms)
+  ✓  243 [mobile] › tests/e2e/editorial-update.ts:206:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (411ms)
+  ✓  246 [mobile] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (242ms)
+  ✓  244 [mobile] › tests/e2e/editorial-update.ts:56:3 › en: Macro/OBIA e Micro/HarpIA, grid e links (595ms)
+  ✓  247 [mobile] › tests/e2e/editorial-update.ts:206:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (409ms)
+  ✓  248 [mobile] › tests/e2e/research-index.ts:33:3 › pt: índice de pesquisas com duas áreas e histórico complementar (492ms)
+  ✓  249 [mobile] › tests/e2e/research-index.ts:33:3 › en: índice de pesquisas com duas áreas e histórico complementar (495ms)
+  ✓  250 [mobile] › tests/e2e/harpia.ts:5:3 › pt: HarpIA apresenta equipe e recursos sem o painel de módulos (422ms)
+  ✓  251 [mobile] › tests/e2e/harpia.ts:5:3 › en: HarpIA apresenta equipe e recursos sem o painel de módulos (414ms)
+  ✓  252 [mobile] › tests/e2e/language-projects.ts:55:3 › pt: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (366ms)
+  ✓  253 [mobile] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (366ms)
+  ✓  256 [mobile] › tests/e2e/language-projects.ts:55:3 › en: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (337ms)
+  ✓  255 [mobile] › tests/e2e/language-projects.ts:252:3 › pt: cards de línguas alinham componentes e empilham quando falta espaço (507ms)
+  ✓  257 [mobile] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (353ms)
+  ✓  254 [mobile] › tests/e2e/language-projects.ts:197:3 › pt: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (769ms)
+  ✓  260 [mobile] › tests/e2e/governance-projects.ts:26:3 › pt: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (362ms)
+  ✓  259 [mobile] › tests/e2e/language-projects.ts:252:3 › en: cards de línguas alinham componentes e empilham quando falta espaço (588ms)
+  ✓  261 [mobile] › tests/e2e/governance-projects.ts:98:3 › pt: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (548ms)
+  ✓  258 [mobile] › tests/e2e/language-projects.ts:197:3 › en: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (891ms)
+  ✓  263 [mobile] › tests/e2e/governance-projects.ts:236:3 › pt: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (281ms)
+  ✓  262 [mobile] › tests/e2e/governance-projects.ts:194:3 › pt: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (674ms)
+  ✓  265 [mobile] › tests/e2e/governance-projects.ts:26:3 › en: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (362ms)
+  ✓  264 [mobile] › tests/e2e/governance-projects.ts:277:3 › pt: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (593ms)
+  ✓  266 [mobile] › tests/e2e/governance-projects.ts:98:3 › en: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (482ms)
+  ✓  268 [mobile] › tests/e2e/governance-projects.ts:236:3 › en: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (312ms)
+  ✓  270 [mobile] › tests/e2e/home-research.ts:39:3 › pt: início apresenta linhas, resumos e dois blocos navegáveis por card (367ms)
+  ✓  267 [mobile] › tests/e2e/governance-projects.ts:194:3 › en: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (626ms)
+  ✓  269 [mobile] › tests/e2e/governance-projects.ts:277:3 › en: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (545ms)
+  ✓  271 [mobile] › tests/e2e/home-research.ts:110:3 › pt: projetos e subdivisões do início levam a âncoras existentes por teclado (624ms)
+  ✓  274 [mobile] › tests/e2e/home-research.ts:39:3 › en: início apresenta linhas, resumos e dois blocos navegáveis por card (349ms)
+  ✓  273 [mobile] › tests/e2e/home-research.ts:177:3 › pt: cards iniciais alinham regiões e empilham sem transbordar (480ms)
+  ✓  272 [mobile] › tests/e2e/home-research.ts:134:3 › pt: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (925ms)
+  ✓  277 [mobile] › tests/e2e/home-research.ts:177:3 › en: cards iniciais alinham regiões e empilham sem transbordar (423ms)
+  ✓  275 [mobile] › tests/e2e/home-research.ts:110:3 › en: projetos e subdivisões do início levam a âncoras existentes por teclado (559ms)
+  ✓  279 [mobile] › tests/e2e/site.spec.ts:106:3 › /: sem transbordamento (132ms)
+  ✓  278 [mobile] › tests/e2e/site.spec.ts:30:3 › /: conteúdo, metadados e estrutura (196ms)
+  ✓  281 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/: sem transbordamento (137ms)
+  ✓  280 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/: conteúdo, metadados e estrutura (237ms)
+  ✓  276 [mobile] › tests/e2e/home-research.ts:134:3 › en: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (867ms)
+  ✓  282 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/: conteúdo, metadados e estrutura (219ms)
+  ✓  283 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/: sem transbordamento (134ms)
+  ✓  285 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/sobre/: sem transbordamento (272ms)
+  ✓  284 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/sobre/: conteúdo, metadados e estrutura (374ms)
+  ✓  287 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/about/: sem transbordamento (304ms)
+  ✓  286 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/about/: conteúdo, metadados e estrutura (352ms)
+  ✓  289 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/pesquisas/: sem transbordamento (183ms)
+  ✓  291 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/research/: sem transbordamento (180ms)
+  ✓  288 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/pesquisas/: conteúdo, metadados e estrutura (286ms)
+  ✓  290 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/research/: conteúdo, metadados e estrutura (278ms)
+  ✓  293 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/: sem transbordamento (162ms)
+  ✓  292 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/: conteúdo, metadados e estrutura (294ms)
+  ✓  295 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/: sem transbordamento (165ms)
+  ✓  294 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/: conteúdo, metadados e estrutura (258ms)
+  ✓  297 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/page/2/: sem transbordamento (160ms)
+  ✓  296 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/page/2/: conteúdo, metadados e estrutura (264ms)
+  ✓  299 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/page/2/: sem transbordamento (171ms)
+  ✓  298 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/page/2/: conteúdo, metadados e estrutura (277ms)
+  ✓  301 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: sem transbordamento (194ms)
+  ✓  300 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: conteúdo, metadados e estrutura (315ms)
+  ✓  303 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: sem transbordamento (196ms)
+  ✓  302 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: conteúdo, metadados e estrutura (279ms)
+  ✓  305 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: sem transbordamento (197ms)
+  ✓  307 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: sem transbordamento (187ms)
+  ✓  304 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (297ms)
+  ✓  306 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: conteúdo, metadados e estrutura (277ms)
+  ✓  309 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: sem transbordamento (204ms)
+  ✓  310 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: conteúdo, metadados e estrutura (267ms)
+  ✓  308 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (284ms)
+  ✓  311 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: sem transbordamento (193ms)
+  ✓  313 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: sem transbordamento (190ms)
+  ✓  315 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: sem transbordamento (188ms)
+  ✓  312 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (285ms)
+  ✓  314 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (262ms)
+  ✓  317 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: sem transbordamento (232ms)
+  ✓  319 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: sem transbordamento (242ms)
+  ✓  316 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (357ms)
+  ✓  318 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (375ms)
+  ✓  321 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: sem transbordamento (243ms)
+  ✓  320 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (344ms)
+  ✓  323 [mobile] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: sem transbordamento (217ms)
+  ✓  322 [mobile] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (319ms)
+  ✓  325 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: sem transbordamento (198ms)
+  ✓  324 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: conteúdo, metadados e estrutura (292ms)
+  ✓  327 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: sem transbordamento (199ms)
+  ✓  326 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: conteúdo, metadados e estrutura (278ms)
+  ✓  328 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: conteúdo, metadados e estrutura (260ms)
+  ✓  329 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: sem transbordamento (207ms)
+  ✓  331 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: sem transbordamento (194ms)
+  ✓  330 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: conteúdo, metadados e estrutura (237ms)
+  ✓  333 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: sem transbordamento (176ms)
+  ✓  335 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: sem transbordamento (175ms)
+  ✓  332 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: conteúdo, metadados e estrutura (250ms)
+  ✓  334 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: conteúdo, metadados e estrutura (276ms)
+  ✓  337 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: sem transbordamento (162ms)
+  ✓  336 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: conteúdo, metadados e estrutura (243ms)
+  ✓  338 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: conteúdo, metadados e estrutura (228ms)
+  ✓  339 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: sem transbordamento (176ms)
+  ✓  341 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: sem transbordamento (163ms)
+  ✓  340 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: conteúdo, metadados e estrutura (263ms)
+  ✓  343 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: sem transbordamento (183ms)
+  ✓  342 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: conteúdo, metadados e estrutura (248ms)
+  ✓  345 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: sem transbordamento (202ms)
+  ✓  344 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: conteúdo, metadados e estrutura (287ms)
+  ✓  347 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: sem transbordamento (177ms)
+  ✓  346 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: conteúdo, metadados e estrutura (242ms)
+  ✓  349 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: sem transbordamento (170ms)
+  ✓  351 [mobile] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: sem transbordamento (177ms)
+  ✓  348 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: conteúdo, metadados e estrutura (261ms)
+  ✓  350 [mobile] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: conteúdo, metadados e estrutura (268ms)
+  ✓  353 [mobile] › tests/e2e/site.spec.ts:106:3 › /404.html: sem transbordamento (142ms)
+  ✓  352 [mobile] › tests/e2e/site.spec.ts:30:3 › /404.html: conteúdo, metadados e estrutura (201ms)
+  ✓  354 [mobile] › tests/e2e/site.spec.ts:121:3 › /pt/: idioma correspondente e retorno (323ms)
+  ✓  355 [mobile] › tests/e2e/site.spec.ts:121:3 › /en/: idioma correspondente e retorno (329ms)
+  ✓  357 [mobile] › tests/e2e/site.spec.ts:121:3 › /en/about/: idioma correspondente e retorno (393ms)
+  ✓  356 [mobile] › tests/e2e/site.spec.ts:121:3 › /pt/sobre/: idioma correspondente e retorno (408ms)
+  ✓  358 [mobile] › tests/e2e/site.spec.ts:121:3 › /pt/pesquisas/: idioma correspondente e retorno (414ms)
+  ✓  359 [mobile] › tests/e2e/site.spec.ts:121:3 › /en/research/: idioma correspondente e retorno (382ms)
+  ✓  360 [mobile] › tests/e2e/site.spec.ts:121:3 › /pt/noticias/: idioma correspondente e retorno (386ms)
+  ✓  361 [mobile] › tests/e2e/site.spec.ts:121:3 › /en/news/: idioma correspondente e retorno (393ms)
+  ✓  362 [mobile] › tests/e2e/site.spec.ts:152:3 › pt: submenus, âncoras e teclado (335ms)
+  ✓  365 [mobile] › tests/e2e/site.spec.ts:152:3 › en: submenus, âncoras e teclado (341ms)
+  ✓  364 [mobile] › tests/e2e/site.spec.ts:208:3 › pt: paginação e ausência de tradução (441ms)
+  ✓  363 [mobile] › tests/e2e/site.spec.ts:188:3 › pt: nove registros de pesquisa e painéis nativos (771ms)
+  ✓  367 [mobile] › tests/e2e/site.spec.ts:208:3 › en: paginação e ausência de tradução (465ms)
+  ✓  366 [mobile] › tests/e2e/site.spec.ts:188:3 › en: nove registros de pesquisa e painéis nativos (770ms)
+  ✓  368 [mobile] › tests/e2e/site.spec.ts:245:1 › escolha de idioma, recuperação da 404 e salto por teclado (738ms)
+  ✓  370 [mobile] › tests/e2e/site.spec.ts:333:1 › par real de artigos: seletor explícito e retorno (512ms)
+  ✓  372 [mobile] › tests/e2e/site.spec.ts:379:3 › en: duas linhas atuais e histórico preservado (507ms)
+(node:20558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20559) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  373 [desktop-no-js] › tests/e2e/editorial-update.ts:56:3 › pt: Macro/OBIA e Micro/HarpIA, grid e links (645ms)
+  ✓  374 [desktop-no-js] › tests/e2e/editorial-update.ts:146:3 › pt: KEML preserva equipe, recursos, contatos e painéis no histórico (332ms)
+  ✓  375 [desktop-no-js] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (296ms)
+  ✓  376 [desktop-no-js] › tests/e2e/editorial-update.ts:206:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (472ms)
+  ✓  378 [desktop-no-js] › tests/e2e/editorial-update.ts:146:3 › en: KEML preserva equipe, recursos, contatos e painéis no histórico (347ms)
+  ✓  377 [desktop-no-js] › tests/e2e/editorial-update.ts:56:3 › en: Macro/OBIA e Micro/HarpIA, grid e links (612ms)
+  ✓  379 [desktop-no-js] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (333ms)
+  ✓  380 [desktop-no-js] › tests/e2e/editorial-update.ts:206:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (453ms)
+  ✓  381 [desktop-no-js] › tests/e2e/research-index.ts:33:3 › pt: índice de pesquisas com duas áreas e histórico complementar (451ms)
+  ✓  382 [desktop-no-js] › tests/e2e/research-index.ts:33:3 › en: índice de pesquisas com duas áreas e histórico complementar (434ms)
+  ✓  383 [desktop-no-js] › tests/e2e/harpia.ts:5:3 › pt: HarpIA apresenta equipe e recursos sem o painel de módulos (360ms)
+  ✓  384 [desktop-no-js] › tests/e2e/harpia.ts:5:3 › en: HarpIA apresenta equipe e recursos sem o painel de módulos (363ms)
+  ✓  385 [desktop-no-js] › tests/e2e/language-projects.ts:55:3 › pt: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (274ms)
+  ✓  369 [mobile] › tests/e2e/site.spec.ts:279:1 › links, âncoras, imagens e arquivos locais de todos os HTML compilados (4.3s)
+  ✓  386 [desktop-no-js] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (358ms)
+(node:20581) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  388 [desktop-no-js] › tests/e2e/language-projects.ts:55:3 › en: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (277ms)
+  ✓  387 [desktop-no-js] › tests/e2e/language-projects.ts:197:3 › pt: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (629ms)
+  ✓  390 [desktop-no-js] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (373ms)
+  ✓  389 [desktop-no-js] › tests/e2e/language-projects.ts:252:3 › pt: cards de línguas alinham componentes e empilham quando falta espaço (543ms)
+  ✓  391 [desktop-no-js] › tests/e2e/language-projects.ts:197:3 › en: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (647ms)
+  ✓  392 [desktop-no-js] › tests/e2e/language-projects.ts:252:3 › en: cards de línguas alinham componentes e empilham quando falta espaço (460ms)
+  ✓  393 [desktop-no-js] › tests/e2e/governance-projects.ts:26:3 › pt: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (311ms)
+  ✘  371 [mobile] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado (5.4s)
+  ✓  396 [desktop-no-js] › tests/e2e/governance-projects.ts:236:3 › pt: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (272ms)
+  ✓  394 [desktop-no-js] › tests/e2e/governance-projects.ts:98:3 › pt: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (507ms)
+(node:20594) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  395 [desktop-no-js] › tests/e2e/governance-projects.ts:194:3 › pt: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (577ms)
+  ✓  397 [desktop-no-js] › tests/e2e/governance-projects.ts:26:3 › en: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (331ms)
+  ✓  398 [desktop-no-js] › tests/e2e/governance-projects.ts:98:3 › en: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (584ms)
+  ✓  401 [desktop-no-js] › tests/e2e/governance-projects.ts:236:3 › en: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (344ms)
+  ✓  399 [desktop-no-js] › tests/e2e/governance-projects.ts:194:3 › en: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (722ms)
+  ✓  403 [desktop-no-js] › tests/e2e/home-research.ts:39:3 › pt: início apresenta linhas, resumos e dois blocos navegáveis por card (387ms)
+  ✓  400 [desktop-no-js] › tests/e2e/governance-projects.ts:277:3 › pt: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (729ms)
+  ✓  402 [desktop-no-js] › tests/e2e/governance-projects.ts:277:3 › en: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (546ms)
+  ✓  407 [desktop-no-js] › tests/e2e/home-research.ts:39:3 › en: início apresenta linhas, resumos e dois blocos navegáveis por card (389ms)
+  ✓  404 [desktop-no-js] › tests/e2e/home-research.ts:110:3 › pt: projetos e subdivisões do início levam a âncoras existentes por teclado (730ms)
+  ✓  406 [desktop-no-js] › tests/e2e/home-research.ts:177:3 › pt: cards iniciais alinham regiões e empilham sem transbordar (536ms)
+  ✓  405 [desktop-no-js] › tests/e2e/home-research.ts:134:3 › pt: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (921ms)
+  ✓  410 [desktop-no-js] › tests/e2e/home-research.ts:177:3 › en: cards iniciais alinham regiões e empilham sem transbordar (544ms)
+  ✓  411 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /: conteúdo, metadados e estrutura (215ms)
+  ✓  408 [desktop-no-js] › tests/e2e/home-research.ts:110:3 › en: projetos e subdivisões do início levam a âncoras existentes por teclado (713ms)
+  ✓  412 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /: sem transbordamento (128ms)
+  ✓  413 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/: conteúdo, metadados e estrutura (217ms)
+  ✓  409 [desktop-no-js] › tests/e2e/home-research.ts:134:3 › en: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (829ms)
+  ✓  414 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/: sem transbordamento (148ms)
+  ✓  415 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/: conteúdo, metadados e estrutura (244ms)
+  ✓  416 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/: sem transbordamento (155ms)
+  ✓  418 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/sobre/: sem transbordamento (219ms)
+  ✓  420 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/about/: sem transbordamento (196ms)
+  ✓  417 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/sobre/: conteúdo, metadados e estrutura (436ms)
+  ✓  419 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/about/: conteúdo, metadados e estrutura (400ms)
+  ✓  422 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/pesquisas/: sem transbordamento (203ms)
+  ✓  421 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/pesquisas/: conteúdo, metadados e estrutura (346ms)
+  ✓  424 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/research/: sem transbordamento (180ms)
+  ✓  426 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/: sem transbordamento (167ms)
+  ✓  423 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/research/: conteúdo, metadados e estrutura (341ms)
+  ✓  425 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/: conteúdo, metadados e estrutura (309ms)
+  ✓  428 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/: sem transbordamento (177ms)
+  ✓  430 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/page/2/: sem transbordamento (179ms)
+  ✓  427 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/: conteúdo, metadados e estrutura (336ms)
+  ✓  429 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/page/2/: conteúdo, metadados e estrutura (275ms)
+  ✓  432 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/page/2/: sem transbordamento (192ms)
+  ✓  434 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: sem transbordamento (196ms)
+  ✓  431 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/page/2/: conteúdo, metadados e estrutura (297ms)
+  ✓  433 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: conteúdo, metadados e estrutura (341ms)
+  ✓  436 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: sem transbordamento (194ms)
+  ✓  437 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (321ms)
+  ✓  438 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: sem transbordamento (185ms)
+  ✓  435 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: conteúdo, metadados e estrutura (341ms)
+  ✓  440 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: sem transbordamento (198ms)
+  ✓  442 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: sem transbordamento (199ms)
+  ✓  439 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: conteúdo, metadados e estrutura (401ms)
+  ✓  441 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (340ms)
+  ✓  444 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: sem transbordamento (213ms)
+  ✓  443 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: conteúdo, metadados e estrutura (336ms)
+  ✓  446 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: sem transbordamento (182ms)
+  ✓  445 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (365ms)
+  ✓  448 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: sem transbordamento (183ms)
+  ✓  447 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (340ms)
+  ✓  450 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: sem transbordamento (199ms)
+  ✓  449 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (342ms)
+  ✓  452 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: sem transbordamento (215ms)
+  ✓  454 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: sem transbordamento (221ms)
+  ✓  451 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (391ms)
+  ✓  453 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (366ms)
+  ✓  456 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: sem transbordamento (226ms)
+  ✓  455 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (378ms)
+  ✓  458 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: sem transbordamento (181ms)
+  ✓  457 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: conteúdo, metadados e estrutura (359ms)
+  ✓  460 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: sem transbordamento (210ms)
+  ✓  462 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: sem transbordamento (215ms)
+  ✓  459 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: conteúdo, metadados e estrutura (377ms)
+  ✓  461 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: conteúdo, metadados e estrutura (393ms)
+  ✓  464 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: sem transbordamento (227ms)
+  ✓  463 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: conteúdo, metadados e estrutura (383ms)
+  ✓  466 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: sem transbordamento (254ms)
+  ✓  465 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: conteúdo, metadados e estrutura (392ms)
+  ✓  468 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: sem transbordamento (270ms)
+  ✓  467 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: conteúdo, metadados e estrutura (397ms)
+  ✓  470 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: sem transbordamento (236ms)
+  ✓  469 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: conteúdo, metadados e estrutura (389ms)
+  ✓  472 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: sem transbordamento (259ms)
+  ✓  471 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: conteúdo, metadados e estrutura (398ms)
+  ✓  474 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: sem transbordamento (209ms)
+  ✓  473 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: conteúdo, metadados e estrutura (395ms)
+  ✓  476 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: sem transbordamento (224ms)
+  ✓  478 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: sem transbordamento (239ms)
+  ✓  475 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: conteúdo, metadados e estrutura (405ms)
+  ✓  477 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: conteúdo, metadados e estrutura (457ms)
+  ✓  480 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: sem transbordamento (221ms)
+  ✓  479 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: conteúdo, metadados e estrutura (429ms)
+  ✓  482 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: sem transbordamento (208ms)
+  ✓  481 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: conteúdo, metadados e estrutura (461ms)
+  ✓  484 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: sem transbordamento (200ms)
+  ✓  486 [desktop-no-js] › tests/e2e/site.spec.ts:106:3 › /404.html: sem transbordamento (194ms)
+  ✓  483 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: conteúdo, metadados e estrutura (459ms)
+  ✓  485 [desktop-no-js] › tests/e2e/site.spec.ts:30:3 › /404.html: conteúdo, metadados e estrutura (295ms)
+  ✓  487 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/: idioma correspondente e retorno (462ms)
+  ✓  489 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/sobre/: idioma correspondente e retorno (922ms)
+  ✓  490 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /en/about/: idioma correspondente e retorno (952ms)
+  ✓  491 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/pesquisas/: idioma correspondente e retorno (726ms)
+  ✓  493 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/noticias/: idioma correspondente e retorno (405ms)
+  ✓  492 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /en/research/: idioma correspondente e retorno (450ms)
+  ✓  494 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /en/news/: idioma correspondente e retorno (373ms)
+  ✓  495 [desktop-no-js] › tests/e2e/site.spec.ts:152:3 › pt: submenus, âncoras e teclado (395ms)
+  ✓  497 [desktop-no-js] › tests/e2e/site.spec.ts:208:3 › pt: paginação e ausência de tradução (603ms)
+  ✓  498 [desktop-no-js] › tests/e2e/site.spec.ts:152:3 › en: submenus, âncoras e teclado (409ms)
+  ✓  496 [desktop-no-js] › tests/e2e/site.spec.ts:188:3 › pt: nove registros de pesquisa e painéis nativos (912ms)
+  ✓  500 [desktop-no-js] › tests/e2e/site.spec.ts:208:3 › en: paginação e ausência de tradução (499ms)
+  ✓  499 [desktop-no-js] › tests/e2e/site.spec.ts:188:3 › en: nove registros de pesquisa e painéis nativos (888ms)
+  ✓  501 [desktop-no-js] › tests/e2e/site.spec.ts:245:1 › escolha de idioma, recuperação da 404 e salto por teclado (672ms)
+  ✓  503 [desktop-no-js] › tests/e2e/site.spec.ts:333:1 › par real de artigos: seletor explícito e retorno (432ms)
+  ✓  505 [desktop-no-js] › tests/e2e/site.spec.ts:379:3 › en: duas linhas atuais e histórico preservado (478ms)
+(node:20710) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  506 [mobile-no-js] › tests/e2e/editorial-update.ts:56:3 › pt: Macro/OBIA e Micro/HarpIA, grid e links (537ms)
+  ✓  507 [mobile-no-js] › tests/e2e/editorial-update.ts:146:3 › pt: KEML preserva equipe, recursos, contatos e painéis no histórico (196ms)
+  ✓  508 [mobile-no-js] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (187ms)
+  ✓  488 [desktop-no-js] › tests/e2e/site.spec.ts:121:3 › /en/: idioma correspondente e retorno (5.4s)
+  ✓  509 [mobile-no-js] › tests/e2e/editorial-update.ts:206:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (323ms)
+(node:20720) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  510 [mobile-no-js] › tests/e2e/editorial-update.ts:146:3 › en: KEML preserva equipe, recursos, contatos e painéis no histórico (197ms)
+  ✓  511 [mobile-no-js] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (211ms)
+  ✓  513 [mobile-no-js] › tests/e2e/editorial-update.ts:206:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (298ms)
+  ✓  512 [mobile-no-js] › tests/e2e/editorial-update.ts:56:3 › en: Macro/OBIA e Micro/HarpIA, grid e links (516ms)
+  ✓  514 [mobile-no-js] › tests/e2e/research-index.ts:33:3 › pt: índice de pesquisas com duas áreas e histórico complementar (385ms)
+  ✓  502 [desktop-no-js] › tests/e2e/site.spec.ts:279:1 › links, âncoras, imagens e arquivos locais de todos os HTML compilados (4.1s)
+  ✓  515 [mobile-no-js] › tests/e2e/research-index.ts:33:3 › en: índice de pesquisas com duas áreas e histórico complementar (429ms)
+  ✓  516 [mobile-no-js] › tests/e2e/harpia.ts:5:3 › pt: HarpIA apresenta equipe e recursos sem o painel de módulos (334ms)
+(node:20731) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  517 [mobile-no-js] › tests/e2e/language-projects.ts:55:3 › pt: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (312ms)
+  ✓  518 [mobile-no-js] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (302ms)
+  ✓  519 [mobile-no-js] › tests/e2e/harpia.ts:5:3 › en: HarpIA apresenta equipe e recursos sem o painel de módulos (431ms)
+  ✓  521 [mobile-no-js] › tests/e2e/language-projects.ts:252:3 › pt: cards de línguas alinham componentes e empilham quando falta espaço (485ms)
+  ✓  520 [mobile-no-js] › tests/e2e/language-projects.ts:197:3 › pt: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (686ms)
+  ✓  522 [mobile-no-js] › tests/e2e/language-projects.ts:55:3 › en: cards usam as ilustrações locais do Figma com proporção e decoração preservadas (359ms)
+  ✓  523 [mobile-no-js] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (321ms)
+  ✘  504 [desktop-no-js] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado (5.2s)
+  ✓  526 [mobile-no-js] › tests/e2e/governance-projects.ts:26:3 › pt: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (328ms)
+  ✓  524 [mobile-no-js] › tests/e2e/language-projects.ts:197:3 › en: descrição completa, equipe e recursos permanecem em painéis nativos com teclado (709ms)
+  ✓  525 [mobile-no-js] › tests/e2e/language-projects.ts:252:3 › en: cards de línguas alinham componentes e empilham quando falta espaço (526ms)
+(node:20745) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  528 [mobile-no-js] › tests/e2e/governance-projects.ts:236:3 › pt: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (277ms)
+  ✓  527 [mobile-no-js] › tests/e2e/governance-projects.ts:194:3 › pt: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (620ms)
+  ✓  529 [mobile-no-js] › tests/e2e/governance-projects.ts:277:3 › pt: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (592ms)
+  ✓  531 [mobile-no-js] › tests/e2e/governance-projects.ts:26:3 › en: governança usa as ilustrações locais do Figma em tamanho nativo e como decoração (371ms)
+  ✓  530 [mobile-no-js] › tests/e2e/governance-projects.ts:98:3 › pt: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (594ms)
+  ✓  534 [mobile-no-js] › tests/e2e/governance-projects.ts:236:3 › en: a chamada OBIA abre o conteúdo e as âncoras legadas de recursos continuam funcionais (290ms)
+  ✓  532 [mobile-no-js] › tests/e2e/governance-projects.ts:98:3 › en: governança mantém Macro/Micro fora dos cards e usa a hierarquia dos projetos de línguas (454ms)
+  ✓  533 [mobile-no-js] › tests/e2e/governance-projects.ts:194:3 › en: os painéis de governança preservam descrições, restrições e recursos e funcionam com teclado (643ms)
+  ✓  536 [mobile-no-js] › tests/e2e/home-research.ts:39:3 › pt: início apresenta linhas, resumos e dois blocos navegáveis por card (389ms)
+  ✓  535 [mobile-no-js] › tests/e2e/governance-projects.ts:277:3 › en: governança alinha cards no desktop e mantém cada frente junto ao projeto em telas pequenas (687ms)
+  ✓  537 [mobile-no-js] › tests/e2e/home-research.ts:110:3 › pt: projetos e subdivisões do início levam a âncoras existentes por teclado (630ms)
+  ✓  539 [mobile-no-js] › tests/e2e/home-research.ts:177:3 › pt: cards iniciais alinham regiões e empilham sem transbordar (467ms)
+  ✓  540 [mobile-no-js] › tests/e2e/home-research.ts:39:3 › en: início apresenta linhas, resumos e dois blocos navegáveis por card (356ms)
+  ✓  538 [mobile-no-js] › tests/e2e/home-research.ts:134:3 › pt: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (843ms)
+  ✓  541 [mobile-no-js] › tests/e2e/home-research.ts:110:3 › en: projetos e subdivisões do início levam a âncoras existentes por teclado (599ms)
+  ✓  544 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /: conteúdo, metadados e estrutura (187ms)
+  ✓  545 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /: sem transbordamento (134ms)
+  ✓  543 [mobile-no-js] › tests/e2e/home-research.ts:177:3 › en: cards iniciais alinham regiões e empilham sem transbordar (451ms)
+  ✓  547 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/: sem transbordamento (139ms)
+  ✓  546 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/: conteúdo, metadados e estrutura (205ms)
+  ✓  548 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/: conteúdo, metadados e estrutura (215ms)
+  ✓  549 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/: sem transbordamento (138ms)
+  ✓  542 [mobile-no-js] › tests/e2e/home-research.ts:134:3 › en: navegação dos cards tem ordem lógica, foco visível e resposta ao mouse (873ms)
+  ✓  551 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/sobre/: sem transbordamento (210ms)
+  ✓  550 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/sobre/: conteúdo, metadados e estrutura (317ms)
+  ✓  552 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/about/: conteúdo, metadados e estrutura (282ms)
+  ✓  553 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/about/: sem transbordamento (226ms)
+  ✓  555 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/pesquisas/: sem transbordamento (166ms)
+  ✓  557 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/research/: sem transbordamento (192ms)
+  ✓  554 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/pesquisas/: conteúdo, metadados e estrutura (289ms)
+  ✓  556 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/research/: conteúdo, metadados e estrutura (286ms)
+  ✓  559 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/: sem transbordamento (174ms)
+  ✓  558 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/: conteúdo, metadados e estrutura (315ms)
+  ✓  561 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/: sem transbordamento (164ms)
+  ✓  560 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/: conteúdo, metadados e estrutura (279ms)
+  ✓  563 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/page/2/: sem transbordamento (178ms)
+  ✓  562 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/page/2/: conteúdo, metadados e estrutura (267ms)
+  ✓  565 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/page/2/: sem transbordamento (177ms)
+  ✓  564 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/page/2/: conteúdo, metadados e estrutura (248ms)
+  ✓  567 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: sem transbordamento (193ms)
+  ✓  566 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/: conteúdo, metadados e estrutura (291ms)
+  ✓  569 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: sem transbordamento (197ms)
+  ✓  568 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/: conteúdo, metadados e estrutura (262ms)
+  ✓  571 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: sem transbordamento (191ms)
+  ✓  570 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-vaishak-belle-june-8th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (277ms)
+  ✓  573 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: sem transbordamento (197ms)
+  ✓  572 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-irina-rish-august-31th-2022-17h-18h30-brazil-time/: conteúdo, metadados e estrutura (279ms)
+  ✓  575 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: sem transbordamento (189ms)
+  ✓  574 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-bouveyron-and-dr-villata-october-10th-2022-16h-17h30-brazil-time/: conteúdo, metadados e estrutura (292ms)
+  ✓  577 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: sem transbordamento (213ms)
+  ✓  576 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-tommie-meyer-nov-09th-2022-16h-brazil-time/: conteúdo, metadados e estrutura (288ms)
+  ✓  579 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: sem transbordamento (190ms)
+  ✓  578 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (288ms)
+  ✓  581 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: sem transbordamento (182ms)
+  ✓  580 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-fabio-ramos-april-26th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (267ms)
+  ✓  583 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: sem transbordamento (173ms)
+  ✓  582 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-felipe-w-trevizan-sept-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (258ms)
+  ✓  584 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (256ms)
+  ✓  585 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-prof-dr-scott-sanner-nov-8th-2023-16h-brazil-time/: sem transbordamento (189ms)
+  ✓  587 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: sem transbordamento (188ms)
+  ✓  586 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-franz-baader-oct-31th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (287ms)
+  ✓  589 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: sem transbordamento (194ms)
+  ✓  588 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/: conteúdo, metadados e estrutura (269ms)
+  ✓  591 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: sem transbordamento (197ms)
+  ✓  590 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/: conteúdo, metadados e estrutura (314ms)
+  ✓  592 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: conteúdo, metadados e estrutura (274ms)
+  ✓  593 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/: sem transbordamento (212ms)
+  ✓  594 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: conteúdo, metadados e estrutura (287ms)
+  ✓  595 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-accountability-algoritmica-e-politicas-publicas/: sem transbordamento (208ms)
+  ✓  597 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: sem transbordamento (207ms)
+  ✓  596 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-discriminacao-algoritmica-o-papel-da-diversidade-e-inclusao-em-ia/: conteúdo, metadados e estrutura (260ms)
+  ✓  599 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: sem transbordamento (183ms)
+  ✓  600 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: conteúdo, metadados e estrutura (263ms)
+  ✓  598 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-mesa-redonda-c4ai-ai-em-foco-ia-e-o-combate-a-fome-e-a-inseguranca-alimentar/: conteúdo, metadados e estrutura (278ms)
+  ✓  601 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-debate-marco-regulatorio-da-inteligencia-artificial-no-brasil/: sem transbordamento (224ms)
+  ✓  603 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: sem transbordamento (211ms)
+  ✓  602 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/c4ai-da-usp-desenvolve-tecnicas-que-aprimoram-previsao-de-condicoes-oceanicas-em-areas-portuarias/: conteúdo, metadados e estrutura (302ms)
+  ✓  605 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: sem transbordamento (211ms)
+  ✓  604 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/usp-lanca-programa-que-estimula-a-diversidade-entre-futuros-profissionais-da-area-de-inteligencia-artificial/: conteúdo, metadados e estrutura (280ms)
+  ✓  607 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: sem transbordamento (185ms)
+  ✓  606 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/: conteúdo, metadados e estrutura (269ms)
+  ✓  609 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: sem transbordamento (203ms)
+  ✓  608 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/corpus-carolina-nlp-c4ai/: conteúdo, metadados e estrutura (274ms)
+  ✓  613 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: sem transbordamento (212ms)
+  ✓  611 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: sem transbordamento (260ms)
+  ✓  610 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/demonumentara-aplicativo-para-localizacao-de-monumentos-e-patrimonios-arquitetonicos/: conteúdo, metadados e estrutura (348ms)
+  ✓  612 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/: conteúdo, metadados e estrutura (293ms)
+  ✓  615 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: sem transbordamento (186ms)
+  ✓  617 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: sem transbordamento (216ms)
+  ✓  614 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/projeto-que-utiliza-inteligencia-artificial-pretende-fortalecer-linguas-indigenas-no-brasil/: conteúdo, metadados e estrutura (302ms)
+  ✓  616 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /pt/noticias/trabalhos-do-c4ai-sao-best-paper-do-bracis23-e-do-stil23/: conteúdo, metadados e estrutura (277ms)
+  ✓  618 [mobile-no-js] › tests/e2e/site.spec.ts:30:3 › /404.html: conteúdo, metadados e estrutura (207ms)
+  ✓  619 [mobile-no-js] › tests/e2e/site.spec.ts:106:3 › /404.html: sem transbordamento (151ms)
+  ✓  620 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/: idioma correspondente e retorno (339ms)
+  ✓  621 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /en/: idioma correspondente e retorno (372ms)
+  ✓  623 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /en/about/: idioma correspondente e retorno (535ms)
+  ✓  622 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/sobre/: idioma correspondente e retorno (585ms)
+  ✓  624 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/pesquisas/: idioma correspondente e retorno (563ms)
+  ✓  625 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /en/research/: idioma correspondente e retorno (573ms)
+  ✓  626 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /pt/noticias/: idioma correspondente e retorno (539ms)
+  ✓  627 [mobile-no-js] › tests/e2e/site.spec.ts:121:3 › /en/news/: idioma correspondente e retorno (503ms)
+  ✓  628 [mobile-no-js] › tests/e2e/site.spec.ts:152:3 › pt: submenus, âncoras e teclado (420ms)
+  ✓  631 [mobile-no-js] › tests/e2e/site.spec.ts:152:3 › en: submenus, âncoras e teclado (416ms)
+  ✓  630 [mobile-no-js] › tests/e2e/site.spec.ts:208:3 › pt: paginação e ausência de tradução (576ms)
+  ✓  629 [mobile-no-js] › tests/e2e/site.spec.ts:188:3 › pt: nove registros de pesquisa e painéis nativos (973ms)
+  ✓  633 [mobile-no-js] › tests/e2e/site.spec.ts:208:3 › en: paginação e ausência de tradução (574ms)
+  ✓  632 [mobile-no-js] › tests/e2e/site.spec.ts:188:3 › en: nove registros de pesquisa e painéis nativos (948ms)
+  ✓  634 [mobile-no-js] › tests/e2e/site.spec.ts:245:1 › escolha de idioma, recuperação da 404 e salto por teclado (767ms)
+  ✓  636 [mobile-no-js] › tests/e2e/site.spec.ts:333:1 › par real de artigos: seletor explícito e retorno (401ms)
+  ✓  638 [mobile-no-js] › tests/e2e/site.spec.ts:379:3 › en: duas linhas atuais e histórico preservado (524ms)
+  ✓  635 [mobile-no-js] › tests/e2e/site.spec.ts:279:1 › links, âncoras, imagens e arquivos locais de todos os HTML compilados (3.2s)
+  ✘  637 [mobile-no-js] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado (5.2s)
+
+
+  1) [desktop] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ──────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('main')
+    Expected substring: "governança"
+    Received string:    "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('main') with timeout 5000ms
+      - waiting for locator('main')
+        14 × locator resolved to <main id="main" tabindex="-1">…</main>
+           - unexpected value "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+
+
+      389 |     await expect(cards).toHaveCount(2);
+      390 |     for (const term of scenario.terms)
+    > 391 |       await expect(page.locator('main')).toContainText(term);
+          |                                          ^
+      392 |     for (const [i, anchor] of ['languages', 'governance'].entries()) {
+      393 |       const link = cards
+      394 |         .nth(i)
+        at /Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts:391:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ───────
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('main')
+    Expected substring: "governança"
+    Received string:    "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('main') with timeout 5000ms
+      - waiting for locator('main')
+        14 × locator resolved to <main id="main" tabindex="-1">…</main>
+           - unexpected value "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+
+
+      389 |     await expect(cards).toHaveCount(2);
+      390 |     for (const term of scenario.terms)
+    > 391 |       await expect(page.locator('main')).toContainText(term);
+          |                                          ^
+      392 |     for (const [i, anchor] of ['languages', 'governance'].entries()) {
+      393 |       const link = cards
+      394 |         .nth(i)
+        at /Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts:391:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop-no-js] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('main')
+    Expected substring: "governança"
+    Received string:    "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('main') with timeout 5000ms
+      - waiting for locator('main')
+        14 × locator resolved to <main id="main" tabindex="-1">…</main>
+           - unexpected value "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+
+
+      389 |     await expect(cards).toHaveCount(2);
+      390 |     for (const term of scenario.terms)
+    > 391 |       await expect(page.locator('main')).toContainText(term);
+          |                                          ^
+      392 |     for (const [i, anchor] of ['languages', 'governance'].entries()) {
+      393 |       const link = cards
+      394 |         .nth(i)
+        at /Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts:391:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop-no-js/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop-no-js/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop-no-js/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-desktop-no-js/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile-no-js] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ─
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('main')
+    Expected substring: "governança"
+    Received string:    "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('main') with timeout 5000ms
+      - waiting for locator('main')
+        14 × locator resolved to <main id="main" tabindex="-1">…</main>
+           - unexpected value "Um centro de pesquisa em inteligência artificial avançada no Brasil.Saiba maisNossas linhas de pesquisaProcessamento de linguagem natural para as línguas do BrasilDesenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.Projetos de pesquisaNLP2 — Português brasileiro→Desenvolvimento de recursos e ferramentas para o processamento do português.ProIndL — Línguas indígenas brasileiras→Desenvolvimento de tecnologias linguísticas para línguas indígenas.Governança de IAInvestigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.Áreas de pesquisaGovernança Macro — IA e políticas públicas→Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.Governança Micro — Implantação e avaliação de IA→Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial."
+
+
+      389 |     await expect(cards).toHaveCount(2);
+      390 |     for (const term of scenario.terms)
+    > 391 |       await expect(page.locator('main')).toContainText(term);
+          |                                          ^
+      392 |     for (const [i, anchor] of ['languages', 'governance'].entries()) {
+      393 |       const link = cards
+      394 |         .nth(i)
+        at /Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts:391:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile-no-js/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile-no-js/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile-no-js/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/site-pt-duas-linhas-atuais-e-histórico-preservado-mobile-no-js/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4 failed
+    [desktop] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ───────
+    [mobile] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ────────
+    [desktop-no-js] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ─
+    [mobile-no-js] › tests/e2e/site.spec.ts:379:3 › pt: duas linhas atuais e histórico preservado ──
+  634 passed (1.4m)

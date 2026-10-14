@@ -7,6 +7,7 @@ import {
   aboutAnchors,
   newsAnchors,
   researchIndex,
+  globalHeader,
 } from './requirements';
 import editorial from './editorial-requirements.json' with { type: 'json' };
 import articleRequirements from './article-requirements.json' with { type: 'json' };
@@ -16,6 +17,9 @@ import './research-index';
 import './harpia';
 import './language-projects';
 import './governance-projects';
+import './home-research';
+import './home-hero';
+import { openMobileHeader } from './header';
 const origin = 'http://127.0.0.1:4321';
 const compact = (value: string) => value.replace(/\s/g, '');
 test.beforeEach(async ({ page }) => {
@@ -122,6 +126,7 @@ for (const required of principalPages) {
   }) => {
     await page.goto(required.path);
     const english = required.lang === 'pt-BR';
+    await openMobileHeader(page);
     await page
       .getByRole('navigation', {
         name: english ? 'Idioma' : 'Language',
@@ -133,6 +138,7 @@ for (const required of principalPages) {
       })
       .click();
     await expect(page).toHaveURL(required.pair);
+    await openMobileHeader(page);
     await page
       .getByRole('navigation', {
         name: english ? 'Language' : 'Idioma',
@@ -150,11 +156,7 @@ for (const locale of ['pt', 'en'] as const) {
   const pt = locale === 'pt';
   test(`${locale}: submenus, âncoras e teclado`, async ({ page }) => {
     await page.goto(pt ? '/pt/sobre/' : '/en/about/');
-    const mobile = page.viewportSize()!.width < 1050;
-    if (mobile) {
-      await page.locator('.mobile-navigation>summary').focus();
-      await page.keyboard.press('Enter');
-    }
+    const mobile = await openMobileHeader(page);
     const nav = page.getByRole('navigation', {
       name: pt
         ? mobile
@@ -165,16 +167,34 @@ for (const locale of ['pt', 'en'] as const) {
           : 'Main',
       exact: true,
     });
-    const summary = nav.locator('summary').filter({ hasText: '⌄' }).first();
+    const summary = nav.locator('.submenu > summary').first();
+    await expect(summary).toHaveAccessibleName(
+      globalHeader[locale].menus[0].name,
+    );
     await summary.focus();
     await page.keyboard.press('Enter');
     await expect(summary).toHaveCSS('outline-style', 'solid');
     await page.keyboard.press('Tab');
     await expect(
+      nav.getByRole('link', {
+        name: pt ? 'Visão geral' : 'Overview',
+        exact: true,
+      }),
+    ).toBeFocused();
+    await page.keyboard.press('Tab');
+    await expect(
       nav.locator(`a[href$="#${aboutAnchors[locale][0]}"]`),
     ).toBeFocused();
     await page.keyboard.press('Shift+Tab');
+    await expect(
+      nav.getByRole('link', {
+        name: pt ? 'Visão geral' : 'Overview',
+        exact: true,
+      }),
+    ).toBeFocused();
+    await page.keyboard.press('Shift+Tab');
     await expect(summary).toBeFocused();
+    await page.keyboard.press('Tab');
     await page.keyboard.press('Tab');
     await page.keyboard.press('Enter');
     await expect(page).toHaveURL(new RegExp(`#${aboutAnchors[locale][0]}$`));
@@ -231,13 +251,18 @@ for (const locale of ['pt', 'en'] as const) {
       (a) => a.locale === locale && !a.path.includes('luis-lamb'),
     )!;
     await page.goto(unpaired.path);
-    await expect(page.locator('.translation-missing')).toContainText(
+    await openMobileHeader(page);
+    const languages = page.getByRole('navigation', {
+      name: pt ? 'Idioma' : 'Language',
+      exact: true,
+    });
+    await expect(languages.locator('.translation-missing')).toContainText(
       pt
         ? 'Este artigo não possui tradução disponível.'
         : 'No translation is available for this article.',
     );
     await expect(page.locator('link[rel="alternate"]')).toHaveCount(0);
-    await page.locator('.translation-missing a').click();
+    await languages.locator('.translation-missing a').click();
     await expect(page).toHaveURL(pt ? '/en/news/' : '/pt/noticias/');
   });
 }
@@ -264,7 +289,7 @@ test('escolha de idioma, recuperação da 404 e salto por teclado', async ({
   await expect(page.getByRole('main')).toBeFocused();
   await page.keyboard.press('Tab');
   await expect(
-    page.getByRole('link', { name: 'Saiba mais', exact: true }),
+    page.getByRole('link', { name: 'Conheça o C4AI', exact: true }),
   ).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page).toHaveURL('/pt/sobre/');
@@ -337,11 +362,13 @@ test('par real de artigos: seletor explícito e retorno', async ({ page }) => {
     (a) => a.locale === 'en' && a.path.includes('luis-lamb'),
   )!;
   await page.goto(pt.path);
+  await openMobileHeader(page);
   await page
     .getByRole('navigation', { name: 'Idioma', exact: true })
     .getByRole('link', { name: 'English', exact: true })
     .click();
   await expect(page).toHaveURL(en.path);
+  await openMobileHeader(page);
   await page
     .getByRole('navigation', { name: 'Language', exact: true })
     .getByRole('link', { name: 'Português', exact: true })
@@ -360,7 +387,7 @@ for (const scenario of [
     ],
     history: 'Trabalhos anteriores',
     notice: 'Registro da fase anterior:',
-    terms: ['português', 'línguas indígenas', 'governança'],
+    terms: ['português', 'línguas indígenas', 'Governança'],
   },
   {
     locale: 'en',

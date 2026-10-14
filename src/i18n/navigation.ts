@@ -1,13 +1,16 @@
 import type { Locale } from './ui';
 export const labels = {
   pt: {
-    home: 'Home',
+    home: 'Início',
     about: 'Sobre',
     research: 'Pesquisas',
     news: 'Notícias',
     resources: 'Recursos',
     opportunities: 'Oportunidades',
     menu: 'Menu',
+    closeMenu: 'Fechar',
+    overview: 'Visão geral',
+    allNews: 'Todas as notícias',
     sections: 'Seções de',
     external: 'site externo',
     unavailable: 'Recurso indisponível',
@@ -36,6 +39,9 @@ export const labels = {
     resources: 'Resources',
     opportunities: 'Opportunities',
     menu: 'Menu',
+    closeMenu: 'Close',
+    overview: 'Overview',
+    allNews: 'All news',
     sections: 'Sections of',
     external: 'external site',
     unavailable: 'Resource unavailable',

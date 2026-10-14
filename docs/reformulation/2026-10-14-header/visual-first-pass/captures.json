@@ -1,0 +1,738 @@
+[
+  {
+    "locale": "pt",
+    "name": "home-desktop",
+    "path": "/pt/",
+    "width": 1440,
+    "full": true,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-home-desktop.png",
+    "timestamp": "2026-10-14T18:41:25.673Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "home-compact-desktop",
+    "path": "/pt/",
+    "width": 1280,
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-home-compact-desktop.png",
+    "timestamp": "2026-10-14T18:41:25.824Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "boundary-desktop",
+    "path": "/pt/",
+    "width": 1241,
+    "viewport": {
+      "width": 1241,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-boundary-desktop.png",
+    "timestamp": "2026-10-14T18:41:25.961Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "boundary-mobile",
+    "path": "/pt/",
+    "width": 1240,
+    "viewport": {
+      "width": 1240,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-boundary-mobile.png",
+    "timestamp": "2026-10-14T18:41:26.113Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "home-tablet",
+    "path": "/pt/",
+    "width": 800,
+    "viewport": {
+      "width": 800,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-home-tablet.png",
+    "timestamp": "2026-10-14T18:41:26.264Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "home-mobile",
+    "path": "/pt/",
+    "width": 390,
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-home-mobile.png",
+    "timestamp": "2026-10-14T18:41:26.415Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "home-narrow",
+    "path": "/pt/",
+    "width": 320,
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-home-narrow.png",
+    "timestamp": "2026-10-14T18:41:26.583Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "mobile-expanded",
+    "path": "/pt/",
+    "width": 390,
+    "open": true,
+    "submenus": true,
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-mobile-expanded.png",
+    "timestamp": "2026-10-14T18:41:26.853Z",
+    "height": 1016,
+    "menuOpen": true,
+    "submenusOpen": ["submenu", "submenu", "resource-menu"],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "narrow-expanded",
+    "path": "/pt/",
+    "width": 320,
+    "open": true,
+    "submenus": true,
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-narrow-expanded.png",
+    "timestamp": "2026-10-14T18:41:27.127Z",
+    "height": 1016,
+    "menuOpen": true,
+    "submenusOpen": ["submenu", "submenu", "resource-menu"],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "about-desktop",
+    "path": "/pt/sobre/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-about-desktop.png",
+    "timestamp": "2026-10-14T18:41:27.284Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Sobre",
+        "current": "page",
+        "href": "/pt/sobre/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "research-desktop",
+    "path": "/pt/pesquisas/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-research-desktop.png",
+    "timestamp": "2026-10-14T18:41:27.439Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Pesquisas",
+        "current": "page",
+        "href": "/pt/pesquisas/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "news-desktop",
+    "path": "/pt/noticias/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-news-desktop.png",
+    "timestamp": "2026-10-14T18:41:27.595Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Notícias",
+        "current": "page",
+        "href": "/pt/noticias/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "missing-desktop",
+    "path": "/pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-missing-desktop.png",
+    "timestamp": "2026-10-14T18:41:27.751Z",
+    "height": 145.390625,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Notícias",
+        "current": "location",
+        "href": "/pt/noticias/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "missing-mobile",
+    "path": "/pt/noticias/banco-inedito-de-audios-facilita-o-reconhecimento-automatico-de-falas-espontaneas-em-portugues/",
+    "width": 390,
+    "open": true,
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-missing-mobile.png",
+    "timestamp": "2026-10-14T18:41:27.940Z",
+    "height": 554.390625,
+    "menuOpen": true,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Notícias",
+        "current": "location",
+        "href": "/pt/noticias/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "desktop-submenu",
+    "path": "/pt/",
+    "width": 1440,
+    "about": true,
+    "full": true,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-pt-desktop-submenu.png",
+    "timestamp": "2026-10-14T18:41:28.111Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": ["submenu"],
+    "active": [
+      {
+        "text": "Início",
+        "current": "page",
+        "href": "/pt/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "home-desktop",
+    "path": "/en/",
+    "width": 1440,
+    "full": true,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-home-desktop.png",
+    "timestamp": "2026-10-14T18:41:28.210Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "home-compact-desktop",
+    "path": "/en/",
+    "width": 1280,
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-home-compact-desktop.png",
+    "timestamp": "2026-10-14T18:41:28.359Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "boundary-desktop",
+    "path": "/en/",
+    "width": 1241,
+    "viewport": {
+      "width": 1241,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-boundary-desktop.png",
+    "timestamp": "2026-10-14T18:41:28.494Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "boundary-mobile",
+    "path": "/en/",
+    "width": 1240,
+    "viewport": {
+      "width": 1240,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-boundary-mobile.png",
+    "timestamp": "2026-10-14T18:41:28.647Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "home-tablet",
+    "path": "/en/",
+    "width": 800,
+    "viewport": {
+      "width": 800,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-home-tablet.png",
+    "timestamp": "2026-10-14T18:41:28.796Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "home-mobile",
+    "path": "/en/",
+    "width": 390,
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-home-mobile.png",
+    "timestamp": "2026-10-14T18:41:28.928Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "home-narrow",
+    "path": "/en/",
+    "width": 320,
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-home-narrow.png",
+    "timestamp": "2026-10-14T18:41:29.062Z",
+    "height": 80,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "mobile-expanded",
+    "path": "/en/",
+    "width": 390,
+    "open": true,
+    "submenus": true,
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-mobile-expanded.png",
+    "timestamp": "2026-10-14T18:41:29.336Z",
+    "height": 1016,
+    "menuOpen": true,
+    "submenusOpen": ["submenu", "submenu", "resource-menu"],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "narrow-expanded",
+    "path": "/en/",
+    "width": 320,
+    "open": true,
+    "submenus": true,
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-narrow-expanded.png",
+    "timestamp": "2026-10-14T18:41:29.615Z",
+    "height": 1016,
+    "menuOpen": true,
+    "submenusOpen": ["submenu", "submenu", "resource-menu"],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "about-desktop",
+    "path": "/en/about/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-about-desktop.png",
+    "timestamp": "2026-10-14T18:41:29.769Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "About",
+        "current": "page",
+        "href": "/en/about/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "research-desktop",
+    "path": "/en/research/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-research-desktop.png",
+    "timestamp": "2026-10-14T18:41:29.922Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "Research",
+        "current": "page",
+        "href": "/en/research/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "news-desktop",
+    "path": "/en/news/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-news-desktop.png",
+    "timestamp": "2026-10-14T18:41:30.074Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "News",
+        "current": "page",
+        "href": "/en/news/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "missing-desktop",
+    "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+    "width": 1440,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-missing-desktop.png",
+    "timestamp": "2026-10-14T18:41:30.229Z",
+    "height": 145.390625,
+    "menuOpen": false,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "News",
+        "current": "location",
+        "href": "/en/news/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "missing-mobile",
+    "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-antonio-horta-branco-may-31th-2023-16h-brazil-time/",
+    "width": 390,
+    "open": true,
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-missing-mobile.png",
+    "timestamp": "2026-10-14T18:41:30.417Z",
+    "height": 554.390625,
+    "menuOpen": true,
+    "submenusOpen": [],
+    "active": [
+      {
+        "text": "News",
+        "current": "location",
+        "href": "/en/news/"
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "desktop-submenu",
+    "path": "/en/",
+    "width": 1440,
+    "about": true,
+    "full": true,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/header-en-desktop-submenu.png",
+    "timestamp": "2026-10-14T18:41:30.588Z",
+    "height": 100,
+    "menuOpen": false,
+    "submenusOpen": ["submenu"],
+    "active": [
+      {
+        "text": "Home",
+        "current": "page",
+        "href": "/en/"
+      }
+    ],
+    "overflow": false
+  }
+]
