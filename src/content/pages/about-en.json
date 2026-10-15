@@ -26,125 +26,6 @@
                     {
                       "type": "heading",
                       "level": 2,
-                      "text": "C4AI"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>The Center for Artificial Intelligence (Centro de Inteligência Artificial – C4AI) is committed to developing state-of-the-art research in Artificial Intelligence (AI), exploring both basic and applied aspects of this field.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>C4AI was created in 2020 with support from IBM and the São Paulo Research Foundation (FAPESP), within the Applied Research Centers Program.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>C4AI considers that the next level of AI performance can only be achieved by emphasizing the combination of machine learning, decision-making, knowledge representation and reasoning, and increasing collaboration between these areas and their applications. C4AI also conducts studies on the social and economic impact of AI and carries out knowledge dissemination and technology transfer activities, seeking ways to improve human quality of life.</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Location"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>C4AI is hosted by CIAAM and located at InovaUSP, a space for innovation and multidisciplinary research in the heart of USP’s Butantã campus.</p>"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "image",
-                      "src": "/media/8b64dc5090e1.jpg",
-                      "alt": "",
-                      "width": 1067,
-                      "height": 1067
-                    },
-                    {
-                      "type": "image",
-                      "src": "/media/42ddc70db70c.jpg",
-                      "alt": "",
-                      "width": 626,
-                      "height": 448
-                    },
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Mission"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>To produce advanced research in Artificial Intelligence in Brazil, disseminate and debate its main results, train students and professionals, and transfer the technology to society.</p>"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Vision"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>To be a world-class center of excellence in Artificial Intelligence and an essential organization for the scientific community and the society in Brazil.</p>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "about-2"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "heading",
-                      "level": 2,
                       "text": "Leadership"
                     },
                     {
@@ -596,85 +477,22 @@
       "id": "source-content"
     }
   ],
-  "title": "A research center for advanced artificial intelligence in Brazil.",
-  "heroBlocks": [],
-  "promos": [
+  "title": "Advanced artificial intelligence research in Brazil",
+  "heroBlocks": [
     {
-      "type": "group",
-      "layout": "section",
-      "children": [
-        {
-          "type": "group",
-          "layout": "row",
-          "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "heading",
-                          "level": 2,
-                          "text": "Youtube Channel"
-                        },
-                        {
-                          "type": "html",
-                          "html": "<p>Follow our\n<a href=\"https://www.youtube.com/c/C4AIUSP\">YouTube Channel</a> with seminars and talks.</p>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "heading",
-                          "level": 2,
-                          "text": "Flickr"
-                        },
-                        {
-                          "type": "html",
-                          "html": "<p>See our photo Gallery of\n<a href=\"https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753\">events and workshops.</a>\n</p>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "id": "Overlappable"
+      "type": "html",
+      "html": "<p>C4AI conducts fundamental and applied research in artificial intelligence, bringing together different fields of knowledge.</p>"
     }
   ],
+  "promos": [],
   "heroImages": [
     "/media/06fcd48f000b.jpg",
     "/media/d353c08ee8d0.jpg",
     "/media/452d5f95428a.jpg"
   ],
-  "description": "A research center for advanced artificial intelligence in Brazil.",
+  "description": "Advanced artificial intelligence research in Brazil",
   "revision": {
-    "date": "2026-10-06",
-    "basis": "Reunião de 2026-09-29, texto de Fábio Cozman de 2026-09-30 e plano editorial aprovado."
+    "date": "2026-10-15",
+    "basis": "Reunião de 2026-09-29, texto de Fábio Cozman de 2026-09-30 e plano editorial aprovado. Redesign do banner e canais de divulgação autorizado em 15/10/2026, conforme recomendação e referência visual fornecidas pelo mantenedor. Reorganização da apresentação, missão/visão e localização autorizada em 15/10/2026, preservando o texto institucional completo."
   }
 }

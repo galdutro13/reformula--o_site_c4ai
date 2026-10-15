@@ -1,0 +1,104 @@
+---
+import Media from './Media.astro';
+import { aboutOverviewContent } from '../content/about-overview';
+import { pagePath } from '../i18n/routes';
+import type { Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const copy = aboutOverviewContent[locale];
+---
+
+<section
+  id="about-2"
+  class="about-overview"
+  aria-labelledby="about-overview-title"
+>
+  <div class="about-presentation">
+    <div class="about-presentation-copy">
+      <h2 id="about-overview-title">{copy.title}</h2>
+      {copy.paragraphs.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+      <details class="about-institution-details" id="about-details">
+        <summary>
+          <span>{copy.moreLabel}</span>
+          <span class="about-details-arrow" aria-hidden="true">
+            →
+          </span>
+        </summary>
+        <div class="about-institution-body">
+          <p>{copy.details}</p>
+        </div>
+      </details>
+    </div>
+    <Media
+      class="about-presentation-image"
+      src={copy.image.src}
+      alt={copy.image.alt}
+    />
+  </div>
+  <section class="about-principles" aria-label={copy.principlesLabel}>
+    {copy.principles.map((principle, index) => (
+      <article
+        class="about-principle"
+        aria-labelledby={`about-principle-${index}-title`}
+      >
+        <span class="about-principle-icon" aria-hidden="true">
+          <svg
+            viewBox="0 0 24 24"
+            width="26"
+            height="26"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            focusable="false"
+          >
+            {index === 0 ? (
+              <>
+                <circle cx="11" cy="13" r="9" />
+                <circle cx="11" cy="13" r="5" />
+                <path d="m11 13 9-10m-4 0h4v4" />
+              </>
+            ) : (
+              <>
+                <path d="M4 13h3v8H4Zm7-6h3v14h-3Zm7-5h3v19h-3Z" />
+              </>
+            )}
+          </svg>
+        </span>
+        <div>
+          <h3 id={`about-principle-${index}-title`}>{principle.title}</h3>
+          <p>{principle.text}</p>
+        </div>
+      </article>
+    ))}
+  </section>
+  <section class="about-location" aria-labelledby="about-location-title">
+    <div class="about-location-copy">
+      <p class="about-location-label">{copy.location.label}</p>
+      <h2 id="about-location-title">{copy.location.title}</h2>
+      <p>{copy.location.text}</p>
+      <address>
+        <span>{copy.location.address}</span>
+        <span>{copy.location.postalCode}</span>
+      </address>
+      <a
+        class="about-directions-link"
+        href={`${pagePath('about', locale)}#${copy.location.contactAnchor}`}
+      >
+        <span>{copy.location.action}</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <Media
+      class="about-location-image"
+      src={copy.location.image.src}
+      alt={copy.location.image.alt}
+    />
+  </section>
+</section>

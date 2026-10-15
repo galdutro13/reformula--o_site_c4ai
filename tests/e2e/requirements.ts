@@ -22,16 +22,14 @@ export const principalPages = [
     path: '/pt/sobre/',
     lang: 'pt-BR',
     title: 'C4AI | Sobre',
-    heading:
-      'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
+    heading: 'Pesquisa avançada em inteligência artificial no Brasil',
     pair: '/en/about/',
   },
   {
     path: '/en/about/',
     lang: 'en',
     title: 'C4AI | About',
-    heading:
-      'A research center for advanced artificial intelligence in Brazil.',
+    heading: 'Advanced artificial intelligence research in Brazil',
     pair: '/pt/sobre/',
   },
   {
@@ -157,6 +155,136 @@ export const aboutAnchors = {
   pt: ['lideranca', 'difusao', 'contato'],
   en: ['leadership', 'outreach', 'contact'],
 };
+// Redesign da introdução de Sobre autorizado em 15/10/2026. Expectativas
+// editoriais manuais; os textos institucionais seguintes permanecem obrigatórios.
+export const aboutIntro = {
+  pt: {
+    path: '/pt/sobre/',
+    lang: 'pt-BR',
+    eyebrow: 'C4AI — USP',
+    title: 'Pesquisa avançada em inteligência artificial no Brasil',
+    description:
+      'O C4AI desenvolve pesquisas fundamentais e aplicadas em inteligência artificial, reunindo diferentes áreas do conhecimento.',
+    action: 'Conheça nossas pesquisas',
+    destination: '/pt/pesquisas/',
+    image: '/media/06fcd48f000b.jpg',
+    activities: 'Acompanhe nossas atividades',
+    cards: [
+      {
+        title: 'Seminários e palestras',
+        description:
+          'Assista às apresentações e aos encontros promovidos pelo C4AI.',
+        action: 'Acessar YouTube',
+        href: 'https://www.youtube.com/c/C4AIUSP',
+      },
+      {
+        title: 'Eventos e workshops',
+        description:
+          'Explore os registros fotográficos das atividades do centro.',
+        action: 'Acessar Flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+      },
+    ],
+  },
+  en: {
+    path: '/en/about/',
+    lang: 'en',
+    eyebrow: 'C4AI — USP',
+    title: 'Advanced artificial intelligence research in Brazil',
+    description:
+      'C4AI conducts fundamental and applied research in artificial intelligence, bringing together different fields of knowledge.',
+    action: 'Explore our research',
+    destination: '/en/research/',
+    image: '/media/06fcd48f000b.jpg',
+    activities: 'Follow our activities',
+    cards: [
+      {
+        title: 'Seminars and talks',
+        description: 'Watch presentations and meetings organized by C4AI.',
+        action: 'Visit YouTube',
+        href: 'https://www.youtube.com/c/C4AIUSP',
+      },
+      {
+        title: 'Events and workshops',
+        description: 'Explore photographs of the center’s activities.',
+        action: 'Visit Flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+      },
+    ],
+  },
+} as const;
+// Reorganização institucional de Sobre autorizada em 15/10/2026. Contrato
+// manual: preserva os parágrafos originais e separa três grupos temáticos.
+export const aboutOverview = {
+  pt: {
+    path: '/pt/sobre/',
+    title: 'C4AI',
+    presentation: [
+      'O Centro de Inteligência Artificial (Center for Artificial Intelligence – C4AI) tem o compromisso de desenvolver pesquisas no estado da arte em Inteligência Artificial (IA), explorando tanto aspectos básicos quanto aplicados nesta área.',
+      'O C4AI foi criado em 2020 com apoio da IBM e da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), dentro do Programa de Centros de Pesquisa Aplicada.',
+    ],
+    detailsAction: 'Saiba mais sobre o C4AI',
+    details:
+      'O C4AI considera que o próximo nível de desempenho em IA só poderá ser alcançado enfatizando a combinação de aprendizado de máquina, tomada de decisão, representação de conhecimento e raciocínio, e incrementando a colaboração entre essas áreas e suas aplicações. O C4AI também desenvolve estudos sobre o impacto social e econômico da IA e conduz atividades de disseminação de conhecimento e transferência de tecnologia, procurando formas de melhorar a qualidade de vida humana.',
+    principles: 'Missão e visão',
+    mission: {
+      title: 'Missão',
+      description:
+        'Produzir pesquisa avançada em Inteligência Artificial no Brasil, disseminando e debatendo os principais resultados, treinando estudantes e profissionais, e transferindo a tecnologia para a sociedade.',
+    },
+    vision: {
+      title: 'Visão',
+      description:
+        'Ser um centro de excelência de nível mundial em Inteligência Artificial e uma organização essencial para a comunidade científica e a sociedade no Brasil.',
+    },
+    locationLabel: 'Localização',
+    locationTitle: 'Onde estamos',
+    location:
+      'O C4AI é sediado no CIAAM e localizado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar no coração do campus Butantã da USP.',
+    address:
+      'Av. Profº Lúcio Martins Rodrigues, 370 – Butantã – São Paulo – SP',
+    postalCode: 'CEP: 05508-020',
+    locationAction: 'Como chegar',
+    locationDestination: '/pt/sobre/#contato',
+    contact: 'contato',
+    presentationImage: '/media/8b64dc5090e1.jpg',
+    locationImage: '/media/42ddc70db70c.jpg',
+  },
+  en: {
+    path: '/en/about/',
+    title: 'C4AI',
+    presentation: [
+      'The Center for Artificial Intelligence (Centro de Inteligência Artificial – C4AI) is committed to developing state-of-the-art research in Artificial Intelligence (AI), exploring both basic and applied aspects of this field.',
+      'C4AI was created in 2020 with support from IBM and the São Paulo Research Foundation (FAPESP), within the Applied Research Centers Program.',
+    ],
+    detailsAction: 'Learn more about C4AI',
+    details:
+      'C4AI considers that the next level of AI performance can only be achieved by emphasizing the combination of machine learning, decision-making, knowledge representation and reasoning, and increasing collaboration between these areas and their applications. C4AI also conducts studies on the social and economic impact of AI and carries out knowledge dissemination and technology transfer activities, seeking ways to improve human quality of life.',
+    principles: 'Mission and vision',
+    mission: {
+      title: 'Mission',
+      description:
+        'To produce advanced research in Artificial Intelligence in Brazil, disseminate and debate its main results, train students and professionals, and transfer the technology to society.',
+    },
+    vision: {
+      title: 'Vision',
+      description:
+        'To be a world-class center of excellence in Artificial Intelligence and an essential organization for the scientific community and the society in Brazil.',
+    },
+    locationLabel: 'Location',
+    locationTitle: 'Where we are',
+    location:
+      'C4AI is hosted by CIAAM and located at InovaUSP, a space for innovation and multidisciplinary research in the heart of USP’s Butantã campus.',
+    address:
+      'Av. Profº Lúcio Martins Rodrigues, 370 – Butantã – São Paulo – SP',
+    postalCode: 'CEP: 05508-020',
+    locationAction: 'Getting here',
+    locationDestination: '/en/about/#contact',
+    contact: 'contact',
+    presentationImage: '/media/8b64dc5090e1.jpg',
+    locationImage: '/media/42ddc70db70c.jpg',
+  },
+} as const;
 export const newsAnchors = {
   pt: [
     'chat_port',

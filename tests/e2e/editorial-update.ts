@@ -198,9 +198,10 @@ for (const locale of ['pt', 'en'] as const) {
     const photos = page.locator(`#${required.leadership} img`);
     await expect(photos).toHaveCount(6);
     await assertGridColumns(photos, desktop ? 3 : 1);
-    const promos = page.locator('#Overlappable h2');
+    const promos = page.locator('#Overlappable h3');
     await expect(promos).toHaveCount(2);
-    await assertGridColumns(promos, desktop ? 2 : 1);
+    await expect(page.locator('#Overlappable h2')).toHaveCount(1);
+    await assertGridColumns(promos, page.viewportSize()!.width > 700 ? 2 : 1);
   });
 
   test(`${locale}: Sobre preserva seis lideranças, fotografias, Difusão e contato`, async ({
@@ -292,7 +293,8 @@ for (const locale of ['pt', 'en'] as const) {
       await expect(map.getByRole('button')).toBeHidden();
     }
     const promos = page.locator('#Overlappable');
-    await expect(promos.getByRole('heading', { level: 2 })).toHaveCount(2);
+    await expect(promos.getByRole('heading', { level: 2 })).toHaveCount(1);
+    await expect(promos.getByRole('heading', { level: 3 })).toHaveCount(2);
     await expect(
       promos.locator('a[href="https://www.youtube.com/c/C4AIUSP"]'),
     ).toHaveCount(1);

@@ -19,6 +19,8 @@ import './language-projects';
 import './governance-projects';
 import './home-research';
 import './home-hero';
+import './about-intro';
+import './about-overview';
 import { openMobileHeader } from './header';
 const origin = 'http://127.0.0.1:4321';
 const compact = (value: string) => value.replace(/\s/g, '');

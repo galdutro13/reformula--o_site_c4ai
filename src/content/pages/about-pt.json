@@ -26,125 +26,6 @@
                     {
                       "type": "heading",
                       "level": 2,
-                      "text": "C4AI"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O Centro de Inteligência Artificial (Center for Artificial Intelligence – C4AI) tem o compromisso de desenvolver pesquisas no estado da arte em Inteligência Artificial (IA), explorando tanto aspectos básicos quanto aplicados nesta área.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI foi criado em 2020 com apoio da IBM e da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), dentro do Programa de Centros de Pesquisa Aplicada.</p>"
-                    },
-                    {
-                      "type": "html",
-                      "html": "<p>O C4AI considera que o próximo nível de desempenho em IA só poderá ser alcançado enfatizando a combinação de aprendizado de máquina, tomada de decisão, representação de conhecimento e raciocínio, e incrementando a colaboração entre essas áreas e suas aplicações. O C4AI também desenvolve estudos sobre o impacto social e econômico da IA e conduz atividades de disseminação de conhecimento e transferência de tecnologia, procurando formas de melhorar a qualidade de vida humana.</p>"
-                    }
-                  ]
-                },
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Localização"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>O C4AI é sediado no CIAAM e localizado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar no coração do campus Butantã da USP.</p>"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "image",
-                      "src": "/media/8b64dc5090e1.jpg",
-                      "alt": "",
-                      "width": 1067,
-                      "height": 1067
-                    },
-                    {
-                      "type": "image",
-                      "src": "/media/42ddc70db70c.jpg",
-                      "alt": "",
-                      "width": 626,
-                      "height": 448
-                    },
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Missão"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>Produzir pesquisa avançada em Inteligência Artificial no Brasil, disseminando e debatendo os principais resultados, treinando estudantes e profissionais, e transferindo a tecnologia para a sociedade.</p>"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "group",
-                      "layout": "row",
-                      "children": [
-                        {
-                          "type": "group",
-                          "layout": "column",
-                          "children": [
-                            {
-                              "type": "heading",
-                              "level": 3,
-                              "text": "Visão"
-                            },
-                            {
-                              "type": "html",
-                              "html": "<p>Ser um centro de excelência de nível mundial em Inteligência Artificial e uma organização essencial para a comunidade científica e a sociedade no Brasil.</p>"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "id": "about-2"
-        },
-        {
-          "type": "group",
-          "layout": "section",
-          "children": [
-            {
-              "type": "group",
-              "layout": "row",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "column",
-                  "children": [
-                    {
-                      "type": "heading",
-                      "level": 2,
                       "text": "Liderança"
                     },
                     {
@@ -596,85 +477,22 @@
       "id": "source-content"
     }
   ],
-  "title": "Um centro de pesquisa em inteligência artificial avançada no Brasil.",
-  "heroBlocks": [],
-  "promos": [
+  "title": "Pesquisa avançada em inteligência artificial no Brasil",
+  "heroBlocks": [
     {
-      "type": "group",
-      "layout": "section",
-      "children": [
-        {
-          "type": "group",
-          "layout": "row",
-          "children": [
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "heading",
-                          "level": 2,
-                          "text": "canal do Youtube"
-                        },
-                        {
-                          "type": "html",
-                          "html": "<p>Assista no \n<a href=\"https://www.youtube.com/c/C4AIUSP\">YouTube</a> nossos seminários e palestras.</p>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "group",
-              "layout": "column",
-              "children": [
-                {
-                  "type": "group",
-                  "layout": "row",
-                  "children": [
-                    {
-                      "type": "group",
-                      "layout": "column",
-                      "children": [
-                        {
-                          "type": "heading",
-                          "level": 2,
-                          "text": "FLICKR"
-                        },
-                        {
-                          "type": "html",
-                          "html": "<p>Veja a nossa galeria de fotos dos\n<a href=\"https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753\">eventos e workshops.</a>\n</p>"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "id": "Overlappable"
+      "type": "html",
+      "html": "<p>O C4AI desenvolve pesquisas fundamentais e aplicadas em inteligência artificial, reunindo diferentes áreas do conhecimento.</p>"
     }
   ],
+  "promos": [],
   "heroImages": [
     "/media/06fcd48f000b.jpg",
     "/media/d353c08ee8d0.jpg",
     "/media/452d5f95428a.jpg"
   ],
-  "description": "Um centro de pesquisa em inteligência artificial avançada no Brasil.",
+  "description": "Pesquisa avançada em inteligência artificial no Brasil",
   "revision": {
-    "date": "2026-10-06",
-    "basis": "Reunião de 2026-09-29, texto de Fábio Cozman de 2026-09-30 e plano editorial aprovado."
+    "date": "2026-10-15",
+    "basis": "Reunião de 2026-09-29, texto de Fábio Cozman de 2026-09-30 e plano editorial aprovado. Redesign do banner e canais de divulgação autorizado em 15/10/2026, conforme recomendação e referência visual fornecidas pelo mantenedor. Reorganização da apresentação, missão/visão e localização autorizada em 15/10/2026, preservando o texto institucional completo."
   }
 }

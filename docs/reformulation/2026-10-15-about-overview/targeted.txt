@@ -1,0 +1,103 @@
+[WebServer] (node:4439) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 64 tests using 4 workers
+
+(node:4456) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4459) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4458) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4457) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [desktop] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (525ms)
+  ✓   2 [desktop] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (531ms)
+  ✓   4 [desktop] › tests/e2e/editorial-update.ts:207:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (618ms)
+  ✓   1 [desktop] › tests/e2e/editorial-update.ts:207:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (619ms)
+  ✓   6 [desktop] › tests/e2e/about-intro.ts:208:3 › pt: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (396ms)
+  ✓   5 [desktop] › tests/e2e/about-intro.ts:125:3 › pt: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (430ms)
+  ✓   8 [desktop] › tests/e2e/about-intro.ts:236:3 › pt: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (338ms)
+  ✓   7 [desktop] › tests/e2e/about-intro.ts:125:3 › en: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (392ms)
+  ✓   9 [desktop] › tests/e2e/about-intro.ts:208:3 › en: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (347ms)
+  ✓  12 [desktop] › tests/e2e/about-overview.ts:225:3 › pt: detalhamento nativo e acesso ao contato funcionam pelo teclado (311ms)
+  ✓  10 [desktop] › tests/e2e/about-intro.ts:236:3 › en: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (384ms)
+  ✓  11 [desktop] › tests/e2e/about-overview.ts:109:3 › pt: apresentação, missão e visão e localização formam grupos próprios (397ms)
+  ✓  15 [desktop] › tests/e2e/about-overview.ts:225:3 › en: detalhamento nativo e acesso ao contato funcionam pelo teclado (406ms)
+  ✓  14 [desktop] › tests/e2e/about-overview.ts:109:3 › en: apresentação, missão e visão e localização formam grupos próprios (498ms)
+  ✓  13 [desktop] › tests/e2e/about-overview.ts:255:3 › pt: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (589ms)
+  ✓  16 [desktop] › tests/e2e/about-overview.ts:255:3 › en: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (556ms)
+(node:4506) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4507) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4509) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [mobile] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (266ms)
+  ✓  19 [mobile] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (235ms)
+  ✓  18 [mobile] › tests/e2e/editorial-update.ts:207:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (376ms)
+  ✓  20 [mobile] › tests/e2e/editorial-update.ts:207:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (370ms)
+  ✓  21 [mobile] › tests/e2e/about-intro.ts:125:3 › pt: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (319ms)
+  ✓  22 [mobile] › tests/e2e/about-intro.ts:208:3 › pt: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (281ms)
+  ✓  23 [mobile] › tests/e2e/about-intro.ts:236:3 › pt: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (358ms)
+  ✓  25 [mobile] › tests/e2e/about-intro.ts:208:3 › en: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (247ms)
+  ✓  24 [mobile] › tests/e2e/about-intro.ts:125:3 › en: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (273ms)
+  ✓  26 [mobile] › tests/e2e/about-intro.ts:236:3 › en: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (339ms)
+  ✓  28 [mobile] › tests/e2e/about-overview.ts:225:3 › pt: detalhamento nativo e acesso ao contato funcionam pelo teclado (319ms)
+  ✓  27 [mobile] › tests/e2e/about-overview.ts:109:3 › pt: apresentação, missão e visão e localização formam grupos próprios (397ms)
+  ✓  30 [mobile] › tests/e2e/about-overview.ts:109:3 › en: apresentação, missão e visão e localização formam grupos próprios (337ms)
+  ✓  29 [mobile] › tests/e2e/about-overview.ts:255:3 › pt: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (487ms)
+  ✓  31 [mobile] › tests/e2e/about-overview.ts:225:3 › en: detalhamento nativo e acesso ao contato funcionam pelo teclado (232ms)
+(node:4540) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  32 [mobile] › tests/e2e/about-overview.ts:255:3 › en: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (367ms)
+(node:4541) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4542) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  33 [desktop-no-js] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (360ms)
+  ✓  35 [desktop-no-js] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (372ms)
+  ✓  34 [desktop-no-js] › tests/e2e/editorial-update.ts:207:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (495ms)
+  ✓  38 [desktop-no-js] › tests/e2e/about-intro.ts:208:3 › pt: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (445ms)
+  ✓  37 [desktop-no-js] › tests/e2e/about-intro.ts:125:3 › pt: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (516ms)
+  ✓  39 [desktop-no-js] › tests/e2e/about-intro.ts:236:3 › pt: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (374ms)
+  ✓  36 [desktop-no-js] › tests/e2e/editorial-update.ts:207:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (593ms)
+  ✓  41 [desktop-no-js] › tests/e2e/about-intro.ts:208:3 › en: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (387ms)
+  ✓  42 [desktop-no-js] › tests/e2e/about-intro.ts:236:3 › en: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (374ms)
+  ✓  40 [desktop-no-js] › tests/e2e/about-intro.ts:125:3 › en: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (461ms)
+  ✓  43 [desktop-no-js] › tests/e2e/about-overview.ts:109:3 › pt: apresentação, missão e visão e localização formam grupos próprios (477ms)
+  ✓  44 [desktop-no-js] › tests/e2e/about-overview.ts:225:3 › pt: detalhamento nativo e acesso ao contato funcionam pelo teclado (312ms)
+  ✓  47 [desktop-no-js] › tests/e2e/about-overview.ts:225:3 › en: detalhamento nativo e acesso ao contato funcionam pelo teclado (285ms)
+  ✓  46 [desktop-no-js] › tests/e2e/about-overview.ts:109:3 › en: apresentação, missão e visão e localização formam grupos próprios (428ms)
+  ✓  45 [desktop-no-js] › tests/e2e/about-overview.ts:255:3 › pt: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (511ms)
+  ✓  48 [desktop-no-js] › tests/e2e/about-overview.ts:255:3 › en: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (374ms)
+(node:4573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4574) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4575) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  49 [mobile-no-js] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (493ms)
+  ✓  51 [mobile-no-js] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (473ms)
+  ✓  50 [mobile-no-js] › tests/e2e/editorial-update.ts:207:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (577ms)
+  ✓  54 [mobile-no-js] › tests/e2e/about-intro.ts:208:3 › pt: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (397ms)
+  ✓  53 [mobile-no-js] › tests/e2e/about-intro.ts:125:3 › pt: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (444ms)
+  ✓  52 [mobile-no-js] › tests/e2e/editorial-update.ts:207:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (554ms)
+  ✓  55 [mobile-no-js] › tests/e2e/about-intro.ts:236:3 › pt: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (521ms)
+  ✓  57 [mobile-no-js] › tests/e2e/about-intro.ts:208:3 › en: Sobre mantém sequência de teclado, foco e acesso nativo a pesquisas (311ms)
+  ✓  56 [mobile-no-js] › tests/e2e/about-intro.ts:125:3 › en: Sobre apresenta identidade, descrição, pesquisas e dois canais complementares (367ms)
+  ✓  58 [mobile-no-js] › tests/e2e/about-intro.ts:236:3 › en: introdução de Sobre alinha conteúdo, compacta canais e adapta a largura (397ms)
+  ✓  60 [mobile-no-js] › tests/e2e/about-overview.ts:225:3 › pt: detalhamento nativo e acesso ao contato funcionam pelo teclado (236ms)
+  ✓  59 [mobile-no-js] › tests/e2e/about-overview.ts:109:3 › pt: apresentação, missão e visão e localização formam grupos próprios (458ms)
+  ✓  63 [mobile-no-js] › tests/e2e/about-overview.ts:225:3 › en: detalhamento nativo e acesso ao contato funcionam pelo teclado (255ms)
+  ✓  61 [mobile-no-js] › tests/e2e/about-overview.ts:255:3 › pt: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (518ms)
+  ✓  62 [mobile-no-js] › tests/e2e/about-overview.ts:109:3 › en: apresentação, missão e visão e localização formam grupos próprios (392ms)
+  ✓  64 [mobile-no-js] › tests/e2e/about-overview.ts:255:3 › en: blocos institucionais equilibram colunas e preservam leitura nas larguras menores (347ms)
+
+  64 passed (9.1s)

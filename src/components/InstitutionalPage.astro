@@ -3,6 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Content from './Content.astro';
 import ResearchFocus from './ResearchFocus.astro';
 import Media from './Media.astro';
+import AboutActivities from './AboutActivities.astro';
+import AboutOverview from './AboutOverview.astro';
+import { aboutIntroContent } from '../content/about-intro';
 import { getPage } from '../content/editorial';
 import { pagePath, type PageId } from '../i18n/routes';
 import type { Locale } from '../i18n/ui';
@@ -13,6 +16,7 @@ interface Props {
 const { locale, pageId } = Astro.props;
 const entry = await getPage(pageId, locale);
 const home = pageId === 'home';
+const about = pageId === 'about';
 ---
 
 <BaseLayout
@@ -33,7 +37,12 @@ const home = pageId === 'home';
         />
       )}
       <div class="container hero-inner">
-        <div class:list={{ 'home-hero-copy': home }}>
+        <div class:list={{ 'home-hero-copy': home, 'about-hero-copy': about }}>
+          {about && (
+            <p class="about-hero-eyebrow">
+              {aboutIntroContent[locale].eyebrow}
+            </p>
+          )}
           <h1 lang={entry.titleLang}>{entry.title}</h1>
           <Content blocks={entry.heroBlocks} locale={locale} />
           {home && (
@@ -49,6 +58,15 @@ const home = pageId === 'home';
               </span>
             </a>
           )}
+          {about && (
+            <a
+              class="button-link about-hero-action"
+              href={pagePath('research', locale)}
+            >
+              <span>{aboutIntroContent[locale].action}</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          )}
         </div>
         {home && (
           <Media
@@ -62,6 +80,8 @@ const home = pageId === 'home';
       </div>
     </section>
     <div class="container source-content">
+      {about && <AboutActivities locale={locale} />}
+      {about && <AboutOverview locale={locale} />}
       {entry.promos.length > 0 && (
         <div class="promotional-cards">
           <Content blocks={entry.promos} locale={locale} />
