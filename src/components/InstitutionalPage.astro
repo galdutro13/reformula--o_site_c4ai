@@ -33,12 +33,20 @@ const home = pageId === 'home';
         />
       )}
       <div class="container hero-inner">
-        <div>
+        <div class:list={{ 'home-hero-copy': home }}>
           <h1 lang={entry.titleLang}>{entry.title}</h1>
           <Content blocks={entry.heroBlocks} locale={locale} />
           {home && (
-            <a class="button-link" href={pagePath('about', locale)}>
-              {locale === 'pt' ? 'Saiba mais' : 'About us'}
+            <a
+              class="button-link home-hero-action"
+              href={pagePath('about', locale)}
+            >
+              <span>
+                {locale === 'pt' ? 'Conheça o C4AI' : 'Discover C4AI'}
+              </span>
+              <span class="home-hero-arrow" aria-hidden="true">
+                →
+              </span>
             </a>
           )}
         </div>

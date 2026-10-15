@@ -1,0 +1,20 @@
+{
+  "copied_files": 721,
+  "source_and_config_files": 226,
+  "snapshot_files_changed": [],
+  "root_files_changed_since_snapshot": [],
+  "core_match": true,
+  "quality_exit_code": 0,
+  "node": "24.21.0",
+  "npm": "11.19.0",
+  "config_tests_passed": 21,
+  "browser_tests_passed": 726,
+  "browser_projects": ["desktop", "mobile", "desktop-no-js", "mobile-no-js"],
+  "browser_duration": "1.6m",
+  "astro_checked_files": 71,
+  "astro_errors": 0,
+  "astro_warnings": 0,
+  "astro_hints": 0,
+  "built_static_pages": 38,
+  "lint_warning": "tests/e2e/site.spec.ts:35 complexity 15 (limit 10), preexisting"
+}

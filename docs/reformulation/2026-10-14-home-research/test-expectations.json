@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-14",
+  "scope": "Home PT/EN — Nossas linhas de pesquisa",
+  "requirements": {
+    "file": "tests/e2e/requirements.ts",
+    "fixture": "homeResearch",
+    "source": "Recomendação e mockup fornecidos pelo usuário em 14/10/2026",
+    "independence": "Textos, ordem e URLs escritos manualmente, sem importar conteúdo da aplicação."
+  },
+  "expectationsAdded": [
+    "Dois cards com títulos de nível 3, resumos próprios e regiões de navegação nomeadas por rótulos de nível 4.",
+    "Dois projetos de línguas e duas subdivisões de governança, com descrições e quatro âncoras estáveis.",
+    "Links subordinados com nomes descritivos e descrições acessíveis, indicadores decorativos e navegação por Enter nos quatro projetos Playwright.",
+    "Ordem lógica de seis links, estados de foco visível e resposta ao hover.",
+    "Larguras e regiões alinhadas no desktop, empilhamento em 800/390/320 px e ausência de transbordamento."
+  ],
+  "editorialFixture": {
+    "file": "tests/e2e/editorial-requirements.json",
+    "changes": "Acrescentados os dois novos resumos em cada entrada Home e atualizada a procedência. As entradas originais possuíam apenas a frase inicial, que foi preservada. Nenhuma expectativa removida."
+  },
+  "expectationsReplaced": [
+    {
+      "file": "tests/e2e/site.spec.ts",
+      "scenario": "pt: duas linhas atuais e histórico preservado",
+      "previous": "governança",
+      "replacement": "Governança",
+      "reason": "O resumo português aprovado para a Home substitui a síntese anterior e não contém a palavra minúscula ‘governança’. A presença da linha continua sendo exigida literalmente pela capitalização dos títulos preservados: ‘Governança de IA’, ‘Governança Macro’ e ‘Governança Micro’. A primeira execução completa identificou quatro falhas desta expectativa antiga, uma em cada projeto Chromium. A correção mantém a assertiva de presença, sem regex tolerante ou redução de requisitos. EN e os demais termos permanecem inalterados."
+    }
+  ],
+  "preserved": [
+    "Lista independente de páginas, metadados e histórico.",
+    "Links principais para languages/governance e links Macro/Micro existentes.",
+    "Testes de conteúdo, teclado, acessibilidade, imagens, links, JavaScript desativado e publicação em subdiretório."
+  ]
+}

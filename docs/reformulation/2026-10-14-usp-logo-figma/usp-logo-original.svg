@@ -1,0 +1,17 @@
+<svg width="912" height="492" viewBox="0 0 912 492" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="USP &#226;&#128;&#148; reconstru&#195;&#167;&#195;&#163;o vetorial &#194;&#183; propor&#195;&#167;&#195;&#163;o original">
+<rect width="912" height="492" fill="white"/>
+<g id="Letra U &#226;&#128;&#148; contorno e haste">
+<path id="U &#194;&#183; barra superior e contorno inferior" d="M349 109H129.5V318C129.5 350.585 155.915 377 188.5 377H300.5C332.533 377 358.5 351.033 358.5 319" stroke="#231F20" stroke-width="20"/>
+<path id="U &#194;&#183; haste interna vertical" d="M245 109V319" stroke="#231F20" stroke-width="20.5"/>
+</g>
+<g id="Letra S &#226;&#128;&#148; arcos e diagonais">
+<path id="S &#194;&#183; arco superior e diagonal inferior" d="M587 166.5C587 134.744 561.256 109 529.5 109H416C384.244 109 358.5 134.744 358.5 166.5V204L473 318.5" stroke="#231F20" stroke-width="20"/>
+<path id="S &#194;&#183; diagonal superior e arco inferior" d="M473 166.5L587 280.5V319C587 351.033 561.033 377 529 377H416.5C384.467 377 358.5 351.033 358.5 319" stroke="#231F20" stroke-width="20"/>
+</g>
+<g id="Letra P &#226;&#128;&#148; contorno, haste e base">
+<path id="P &#194;&#183; arco superior e bojo" d="M587 166.5C587 134.744 612.744 109 644.5 109H757C789.033 109 815 134.967 815 167V281H701.5" stroke="#231F20" stroke-width="20"/>
+<path id="P &#194;&#183; haste vertical e base" d="M701.5 166.5V377H596.5" stroke="#231F20" stroke-width="20"/>
+</g>
+</g>
+</svg>

@@ -207,6 +207,334 @@ export const researchSubareas = {
     },
   ],
 } as const;
+// Redesign do destaque inicial autorizado em 14/10/2026. Títulos e asset
+// anteriores preservados; CTA e destinos definidos manualmente pelo requisito.
+export const homeHero = {
+  pt: {
+    path: '/pt/',
+    title:
+      'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
+    lang: 'pt-BR',
+    action: 'Conheça o C4AI',
+    destination: '/pt/sobre/',
+    previousAction: 'Saiba mais',
+    image: '/media/d59b07c37db0.png',
+    imageWidth: 856,
+    imageHeight: 580,
+  },
+  en: {
+    path: '/en/',
+    title: 'A research center for advanced artificial intelligence in Brazil.',
+    lang: 'en',
+    action: 'Discover C4AI',
+    destination: '/en/about/',
+    previousAction: 'About us',
+    image: '/media/d59b07c37db0.png',
+    imageWidth: 856,
+    imageHeight: 580,
+  },
+} as const;
+// Cabeçalho global e correção de interação autorizados em 14/10/2026.
+// A orientação posterior preserva links diretos Sobre/Notícias, com setas
+// separadas e hover desktop. Expectativas manuais, sem importar aplicação.
+export const globalHeader = {
+  pt: {
+    path: '/pt/',
+    pair: '/en/',
+    mainName: 'Principal',
+    mobileMainName: 'Principal móvel',
+    languageName: 'Idioma',
+    home: 'Início',
+    brand: 'C4AI — Início',
+    menu: 'Menu',
+    close: 'Fechar',
+    currentLanguage: 'Português',
+    otherLanguage: 'English',
+    items: [
+      { label: 'Início', href: '/pt/' },
+      { label: 'Sobre', href: '/pt/sobre/' },
+      { label: 'Pesquisas', href: '/pt/pesquisas/' },
+      { label: 'Notícias', href: '/pt/noticias/' },
+    ],
+    resources: 'Recursos',
+    opportunities: {
+      label: 'Oportunidades',
+      href: 'https://c4ai.inova.usp.br/pt/oportunidades/',
+    },
+    menus: [
+      {
+        name: 'Seções de Sobre',
+        className: 'submenu',
+        index: 0,
+        firstLink: 'Visão geral',
+        firstHref: '/pt/sobre/',
+        links: [
+          ['Visão geral', '/pt/sobre/'],
+          ['Liderança', '/pt/sobre/#lideranca'],
+          ['Difusão', '/pt/sobre/#difusao'],
+          ['Contato', '/pt/sobre/#contato'],
+        ],
+      },
+      {
+        name: 'Seções de Notícias',
+        className: 'submenu',
+        index: 1,
+        firstLink: 'Todas as notícias',
+        firstHref: '/pt/noticias/',
+        links: [
+          ['Todas as notícias', '/pt/noticias/'],
+          ['ChatBot & ChatGPT', '/pt/noticias/#chat_port'],
+          ['Perspectivas', '/pt/noticias/#seminar_port'],
+          ['Mesa Redonda', '/pt/noticias/#mesaRedonda'],
+          ['Tech Law', '/pt/noticias/#techLaw_port'],
+          ['Encontros C4AI', '/pt/noticias/#05_port'],
+          ['Press & Media', '/pt/noticias/#press'],
+        ],
+      },
+      {
+        name: 'Recursos',
+        className: 'resource-menu',
+        index: 0,
+        firstLink: 'Publicações (site externo)',
+        firstHref: 'https://c4ai.inova.usp.br/pt/publicacoes/',
+        links: [
+          [
+            'Publicações (site externo)',
+            'https://c4ai.inova.usp.br/pt/publicacoes/',
+          ],
+          [
+            'NLP2 – Web Portal (site externo)',
+            'https://sites.google.com/icmc.usp.br/nlp2',
+          ],
+        ],
+      },
+    ],
+    activePages: [
+      { path: '/pt/', href: '/pt/', current: 'page' },
+      {
+        path: '/pt/sobre/',
+        href: '/pt/sobre/',
+        current: 'page',
+      },
+      { path: '/pt/pesquisas/', href: '/pt/pesquisas/', current: 'page' },
+      {
+        path: '/pt/noticias/',
+        href: '/pt/noticias/',
+        current: 'page',
+      },
+      {
+        path: '/pt/noticias/page/2/',
+        href: '/pt/noticias/',
+        current: 'location',
+      },
+      {
+        path: '/pt/noticias/centro-de-inteligencia-artificial-da-usp-completa-2-anos-com-significativas-contribuicoes/',
+        href: '/pt/noticias/',
+        current: 'location',
+      },
+    ],
+  },
+  en: {
+    path: '/en/',
+    pair: '/pt/',
+    mainName: 'Main',
+    mobileMainName: 'Mobile main',
+    languageName: 'Language',
+    home: 'Home',
+    brand: 'C4AI — Home',
+    menu: 'Menu',
+    close: 'Close',
+    currentLanguage: 'English',
+    otherLanguage: 'Português',
+    items: [
+      { label: 'Home', href: '/en/' },
+      { label: 'About', href: '/en/about/' },
+      { label: 'Research', href: '/en/research/' },
+      { label: 'News', href: '/en/news/' },
+    ],
+    resources: 'Resources',
+    opportunities: {
+      label: 'Opportunities',
+      href: 'https://c4ai.inova.usp.br/opportunities/',
+    },
+    menus: [
+      {
+        name: 'Sections of About',
+        className: 'submenu',
+        index: 0,
+        firstLink: 'Overview',
+        firstHref: '/en/about/',
+        links: [
+          ['Overview', '/en/about/'],
+          ['Leadership', '/en/about/#leadership'],
+          ['Outreach', '/en/about/#outreach'],
+          ['Contact', '/en/about/#contact'],
+        ],
+      },
+      {
+        name: 'Sections of News',
+        className: 'submenu',
+        index: 1,
+        firstLink: 'All news',
+        firstHref: '/en/news/',
+        links: [
+          ['All news', '/en/news/'],
+          ['ChatBot & ChatGPT', '/en/news/#chat'],
+          ['Perspectives', '/en/news/#seminar'],
+          ['Round Table', '/en/news/#roundTable'],
+          ['Tech Law', '/en/news/#techLaw'],
+          ['C4AI Meetings', '/en/news/#05'],
+          ['Press & Media', '/en/news/#others'],
+        ],
+      },
+      {
+        name: 'Resources',
+        className: 'resource-menu',
+        index: 0,
+        firstLink: 'Publications (external site)',
+        firstHref: 'https://c4ai.inova.usp.br/publications/',
+        links: [
+          [
+            'Publications (external site)',
+            'https://c4ai.inova.usp.br/publications/',
+          ],
+          [
+            'NLP2 – Web Portal (external site)',
+            'https://sites.google.com/icmc.usp.br/nlp2',
+          ],
+        ],
+      },
+    ],
+    activePages: [
+      { path: '/en/', href: '/en/', current: 'page' },
+      {
+        path: '/en/about/',
+        href: '/en/about/',
+        current: 'page',
+      },
+      { path: '/en/research/', href: '/en/research/', current: 'page' },
+      { path: '/en/news/', href: '/en/news/', current: 'page' },
+      {
+        path: '/en/news/page/2/',
+        href: '/en/news/',
+        current: 'location',
+      },
+      {
+        path: '/en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/',
+        href: '/en/news/',
+        current: 'location',
+      },
+    ],
+  },
+} as const;
+// Redesign da seção inicial autorizado em 14/10/2026. Conteúdo, ordem e
+// destinos congelados manualmente; não derivar das coleções ou componentes.
+export const homeResearch = {
+  pt: {
+    path: '/pt/',
+    title: 'Nossas linhas de pesquisa',
+    cards: [
+      {
+        title: 'Processamento de linguagem natural para as línguas do Brasil',
+        href: '/pt/pesquisas/#languages',
+        summary:
+          'Desenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.',
+        navigation: 'Projetos de pesquisa',
+        links: [
+          {
+            title: 'NLP2 — Português brasileiro',
+            description:
+              'Desenvolvimento de recursos e ferramentas para o processamento do português.',
+            href: '/pt/pesquisas/#NLP2_B_eng',
+            anchor: 'NLP2_B_eng',
+          },
+          {
+            title: 'ProIndL — Línguas indígenas brasileiras',
+            description:
+              'Desenvolvimento de tecnologias linguísticas para línguas indígenas.',
+            href: '/pt/pesquisas/#ProIndL_B_eng',
+            anchor: 'ProIndL_B_eng',
+          },
+        ],
+      },
+      {
+        title: 'Governança de IA',
+        href: '/pt/pesquisas/#governance',
+        summary:
+          'Investigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA.',
+        navigation: 'Áreas de pesquisa',
+        links: [
+          {
+            title: 'Governança Macro — IA e políticas públicas',
+            description:
+              'Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.',
+            href: '/pt/pesquisas/#governance-macro',
+            anchor: 'governance-macro',
+          },
+          {
+            title: 'Governança Micro — Implantação e avaliação de IA',
+            description:
+              'Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial.',
+            href: '/pt/pesquisas/#governance-micro',
+            anchor: 'governance-micro',
+          },
+        ],
+      },
+    ],
+  },
+  en: {
+    path: '/en/',
+    title: 'Our research areas',
+    cards: [
+      {
+        title: 'Natural language processing for the languages of Brazil',
+        href: '/en/research/#languages',
+        summary:
+          'Development of linguistic resources, computational models and natural language processing technologies for Portuguese and Brazilian Indigenous languages.',
+        navigation: 'Research projects',
+        links: [
+          {
+            title: 'NLP2 — Brazilian Portuguese',
+            description:
+              'Development of resources and tools for processing Portuguese.',
+            href: '/en/research/#NLP2_B_eng',
+            anchor: 'NLP2_B_eng',
+          },
+          {
+            title: 'ProIndL — Brazilian Indigenous languages',
+            description:
+              'Development of language technologies for Indigenous languages.',
+            href: '/en/research/#ProIndL_B_eng',
+            anchor: 'ProIndL_B_eng',
+          },
+        ],
+      },
+      {
+        title: 'AI governance',
+        href: '/en/research/#governance',
+        summary:
+          'Investigation of the social and political impacts of artificial intelligence, focusing on public policy, regulation, deployment and evaluation of AI systems.',
+        navigation: 'Research areas',
+        links: [
+          {
+            title: 'Macro governance — AI and public policy',
+            description:
+              'Studies of the impacts of AI on society, regulation and public policy.',
+            href: '/en/research/#governance-macro',
+            anchor: 'governance-macro',
+          },
+          {
+            title: 'Micro governance — AI deployment and evaluation',
+            description:
+              'Research on the implementation, management and evaluation of artificial intelligence systems.',
+            href: '/en/research/#governance-micro',
+            anchor: 'governance-micro',
+          },
+        ],
+      },
+    ],
+  },
+} as const;
 // Redesign do índice autorizado em 13/10/2026; expectativas independentes
 // do componente e das coleções, preservando os quatro destinos de navegação.
 export const researchIndex = {

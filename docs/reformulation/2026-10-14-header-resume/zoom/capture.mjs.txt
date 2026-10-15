@@ -1,0 +1,157 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import os from 'node:os';
+import crypto from 'node:crypto';
+import { createRequire } from 'node:module';
+
+const root = process.cwd();
+const require = createRequire(path.join(root, 'package.json'));
+const { chromium } = require('playwright');
+const output = path.join(root, 'docs/reformulation/2026-10-14-header-resume/zoom');
+const origin = 'http://127.0.0.1:4340';
+const workspace = await fs.mkdtemp(path.join(os.tmpdir(), 'c4ai-resume-zoom-'));
+const extension = path.join(workspace, 'extension');
+await fs.mkdir(extension);
+await fs.mkdir(output, { recursive: true });
+await fs.writeFile(path.join(extension, 'manifest.json'), JSON.stringify({
+  manifest_version: 3,
+  name: 'C4AI isolated zoom evidence',
+  version: '1.0',
+  permissions: ['tabs'],
+  background: { service_worker: 'background.js' },
+}));
+await fs.writeFile(path.join(extension, 'background.js'), 'chrome.runtime.onInstalled.addListener(() => {});\n');
+
+async function sourceHashes(dir = path.join(root, 'src'), hashes = {}) {
+  for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) await sourceHashes(full, hashes);
+    else if (entry.isFile()) hashes[path.relative(root, full)] = crypto.createHash('sha256').update(await fs.readFile(full)).digest('hex');
+  }
+  return hashes;
+}
+const before = await sourceHashes();
+const context = await chromium.launchPersistentContext(path.join(workspace, 'profile'), {
+  channel: 'chromium',
+  headless: true,
+  viewport: null,
+  args: [`--disable-extensions-except=${extension}`, `--load-extension=${extension}`, '--window-size=1440,900', '--force-device-scale-factor=1'],
+});
+const errors = [];
+const records = [];
+try {
+  const worker = context.serviceWorkers()[0] ?? await context.waitForEvent('serviceworker');
+  const page = context.pages()[0] ?? await context.newPage();
+  page.on('pageerror', (error) => errors.push(error.message));
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  const browser = await context.browser().version();
+  const cdp = await context.newCDPSession(page);
+
+  async function settle() {
+    await page.evaluate(async () => {
+      await document.fonts.ready;
+      await new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    });
+  }
+
+  async function setZoom(zoom) {
+    const result = await worker.evaluate(async ({ origin, zoom }) => {
+      const tabs = await chrome.tabs.query({});
+      const tab = tabs.find((candidate) => candidate.url?.startsWith(origin));
+      if (!tab) throw new Error('No local C4AI tab found');
+      await chrome.tabs.setZoomSettings(tab.id, { mode: 'automatic', scope: 'per-tab' });
+      await chrome.tabs.setZoom(tab.id, zoom);
+      return { tabId: tab.id, zoom: await chrome.tabs.getZoom(tab.id) };
+    }, { origin, zoom });
+    if (Math.abs(result.zoom - zoom) > 0.001) throw new Error(`Unexpected tab zoom ${result.zoom}`);
+    await page.waitForFunction((zoom) => Math.abs(window.innerWidth - 1440 / zoom) <= 1 && Math.abs(window.devicePixelRatio - zoom) < 0.001, zoom);
+    return result;
+  }
+
+  async function geometry() {
+    return await page.evaluate(() => {
+      const rect = (element) => {
+        const box = element.getBoundingClientRect();
+        return { x: box.x, y: box.y, width: box.width, height: box.height, right: box.right, bottom: box.bottom };
+      };
+      const mobile = document.querySelector('.mobile-navigation');
+      const nav = document.querySelector('.mobile-navigation-panel nav');
+      const icons = mobile.open ? [...nav.querySelectorAll('.nav-chevron, .nav-external')].map((element) => {
+        const box = rect(element);
+        return { ...box, center: box.x + box.width / 2, transform: getComputedStyle(element).transform };
+      }) : [];
+      return {
+        width: window.innerWidth,
+        height: window.innerHeight,
+        dpr: window.devicePixelRatio,
+        scrollY: window.scrollY,
+        overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
+        mobileVisible: getComputedStyle(mobile).display !== 'none',
+        mobileOpen: mobile.open,
+        aboutOpen: nav.querySelector('details.submenu').open,
+        header: rect(document.querySelector('.site-header')),
+        logo: rect(document.querySelector('.wordmark img')),
+        nav: mobile.open ? rect(nav) : null,
+        icons,
+      };
+    });
+  }
+
+  for (const locale of ['pt', 'en']) {
+    for (const zoom of [2, 4]) {
+      await page.goto(`${origin}/${locale}/`, { waitUntil: 'networkidle' });
+      const verified = await setZoom(zoom);
+      await settle();
+      const mobile = page.locator('.mobile-navigation');
+      const about = mobile.locator('details.submenu').first();
+      for (const state of ['closed', 'about']) {
+        if (state === 'about') {
+          await mobile.locator(':scope > summary').click();
+          await about.locator(':scope > summary').click();
+        }
+        await page.waitForFunction((state) => {
+          const element = document.querySelector('.mobile-navigation details.submenu > summary .nav-chevron');
+          const transform = getComputedStyle(element).transform;
+          return state === 'about'
+            ? transform === 'matrix(-1, 0, 0, -1, 0, 0)'
+            : transform === 'none' || transform === 'matrix(1, 0, 0, 1, 0, 0)';
+        }, state);
+        await page.evaluate(() => window.scrollTo(0, 0));
+        await settle();
+        const measured = await geometry();
+        if (measured.overflow) throw new Error(`Horizontal overflow in ${locale} at ${zoom}`);
+        if (state === 'about') {
+          if (!measured.aboutOpen || measured.icons[0].transform !== 'matrix(-1, 0, 0, -1, 0, 0)') throw new Error('Chevron not fully inverted');
+          if (measured.icons.length !== 4 || measured.icons.some((icon) => Math.abs(icon.center - measured.nav.right + 22) > 1)) throw new Error('Compact icon misalignment');
+        }
+        const file = `${locale}-zoom-${zoom * 100}-${state}.png`;
+        const shot = await cdp.send('Page.captureScreenshot', { format: 'png', fromSurface: true, captureBeyondViewport: false });
+        const pixels = Buffer.from(shot.data, 'base64');
+        await fs.writeFile(path.join(output, file), pixels);
+        const pngDimensions = { width: pixels.readUInt32BE(16), height: pixels.readUInt32BE(20) };
+        const settledChevron = await about.locator(':scope > summary .nav-chevron').evaluate((element) => getComputedStyle(element).transform);
+        let languageScroll = null;
+        if (state === 'about') {
+          const languages = mobile.locator('.language-switcher');
+          await languages.scrollIntoViewIfNeeded();
+          languageScroll = await languages.evaluate((element) => {
+            const box = element.getBoundingClientRect();
+            return { scrollY: window.scrollY, x: box.x, y: box.y, width: box.width, height: box.height, viewportHeight: window.innerHeight, visible: box.top >= 0 && box.bottom <= window.innerHeight, links: [...element.querySelectorAll('a')].map((link) => ({ text: link.textContent.trim(), href: link.getAttribute('href') })) };
+          });
+          if (!languageScroll.visible || languageScroll.links.length !== 2) throw new Error('Languages unreachable by normal scrolling');
+        }
+        records.push({ file, url: `${origin}/${locale}/`, locale, state, physicalWindow: { width: 1440, height: 900 }, pngDimensions, zoom, verifiedZoom: verified.zoom, reducedMotion: 'reduce', fontsReady: true, twoAnimationFrames: true, settledChevron, geometry: measured, languageScroll });
+        console.log(JSON.stringify({ file, cssViewport: [measured.width, measured.height], zoom: verified.zoom, transform: state === 'about' ? measured.icons[0].transform : 'closed', overflow: measured.overflow }));
+      }
+    }
+  }
+  const after = await sourceHashes();
+  const differences = Object.keys({ ...before, ...after }).filter((file) => before[file] !== after[file]);
+  const report = { date: '2026-10-14', origin, browser: { name: 'Chromium', version: browser, engine: 'Blink', channel: 'chromium', headless: true }, zoomMethod: 'Temporary isolated extension chrome.tabs.setZoom/getZoom; full physical viewport captured with CDP Page.captureScreenshot without clip. Browser zoom, not viewport emulation.', errors, sourceIntegrity: { files: Object.keys(before).length, changed: differences, unchanged: differences.length === 0 }, records };
+  await fs.writeFile(path.join(output, 'index.json'), `${JSON.stringify(report, null, 2)}\n`);
+  await fs.copyFile('/private/tmp/c4ai-resume-zoom.mjs', path.join(output, 'capture.mjs.txt'));
+  if (differences.length) throw new Error('Application source changed while capturing');
+  console.log(JSON.stringify({ completed: records.length, errors, sourceIntegrity: report.sourceIntegrity, output }));
+} finally {
+  await context.close();
+}

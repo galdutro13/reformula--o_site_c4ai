@@ -1,5 +1,7 @@
 ---
 const paths = {
+  chat: ['M21 11a8 8 0 0 1-8 8H9l-6 3 2-6a8 8 0 0 1-2-5 9 9 0 0 1 18 0Z'],
+  institution: ['m2 9 10-6 10 6H2ZM3 21h18M4 18h16M6 11v7m4-7v7m4-7v7m4-7v7'],
   document: ['M14 2H5v20h14V7Z', 'M14 2v5h5M8 11h8M8 15h8M8 19h5'],
   database: [
     'M20 5c0 2-4 3-8 3S4 7 4 5s4-3 8-3 8 1 8 3Z',
@@ -31,14 +33,15 @@ const paths = {
 } as const;
 interface Props {
   kind: keyof typeof paths;
+  size?: number;
 }
-const { kind } = Astro.props;
+const { kind, size = 24 } = Astro.props;
 ---
 
 <svg
   viewBox="0 0 24 24"
-  width="24"
-  height="24"
+  width={size}
+  height={size}
   fill="none"
   stroke="currentColor"
   stroke-width="1.5"

@@ -1,0 +1,2606 @@
+{
+  "date": "2026-10-14",
+  "origin": "http://[::1]:4321",
+  "browser": "153.0.8010.12",
+  "zoomBrowser": "153.0.8010.12",
+  "zoomMethod": "Chrome tabs.setZoom in temporary isolated Chromium profile; confirmed by getZoom, innerWidth and devicePixelRatio",
+  "errors": [],
+  "records": [
+    {
+      "file": "pt-1440-closed.png",
+      "locale": "pt",
+      "state": "closed",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 582.109375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 594.109375,
+            "bottom": 55.5,
+            "center": 588.109375
+          },
+          {
+            "x": 811.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 823.25,
+            "bottom": 55.5,
+            "center": 817.25
+          },
+          {
+            "x": 936.625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 948.625,
+            "bottom": 55.5,
+            "center": 942.625
+          },
+          {
+            "x": 1104,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1113.171875,
+            "bottom": 58.5,
+            "center": 1108.5859375
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-1440-about.png",
+      "locale": "pt",
+      "state": "about",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 582.109375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 594.109375,
+            "bottom": 55.5,
+            "center": 588.109375
+          },
+          {
+            "x": 811.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 823.25,
+            "bottom": 55.5,
+            "center": 817.25
+          },
+          {
+            "x": 936.625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 948.625,
+            "bottom": 55.5,
+            "center": 942.625
+          },
+          {
+            "x": 1104,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1113.171875,
+            "bottom": 58.5,
+            "center": 1108.5859375
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-1440-news.png",
+      "locale": "pt",
+      "state": "news",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 582.109375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 594.109375,
+            "bottom": 55.5,
+            "center": 588.109375
+          },
+          {
+            "x": 811.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 823.25,
+            "bottom": 55.5,
+            "center": 817.25
+          },
+          {
+            "x": 936.625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 948.625,
+            "bottom": 55.5,
+            "center": 942.625
+          },
+          {
+            "x": 1104,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1113.171875,
+            "bottom": 58.5,
+            "center": 1108.5859375
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-1440-resources.png",
+      "locale": "pt",
+      "state": "resources",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 582.109375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 594.109375,
+            "bottom": 55.5,
+            "center": 588.109375
+          },
+          {
+            "x": 811.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 823.25,
+            "bottom": 55.5,
+            "center": 817.25
+          },
+          {
+            "x": 936.625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 948.625,
+            "bottom": 55.5,
+            "center": 942.625
+          },
+          {
+            "x": 1104,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1113.171875,
+            "bottom": 58.5,
+            "center": 1108.5859375
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-1241-closed.png",
+      "locale": "pt",
+      "state": "closed",
+      "viewport": 1241,
+      "zoom": 1,
+      "geometry": {
+        "width": 1241,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1241,
+          "height": 100,
+          "right": 1241,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 24,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 205,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 471.109375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 483.109375,
+            "bottom": 55.5,
+            "center": 477.109375
+          },
+          {
+            "x": 700.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 712.25,
+            "bottom": 55.5,
+            "center": 706.25
+          },
+          {
+            "x": 825.625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 837.625,
+            "bottom": 55.5,
+            "center": 831.625
+          },
+          {
+            "x": 993,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1002.171875,
+            "bottom": 58.5,
+            "center": 997.5859375
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-1240-closed.png",
+      "locale": "pt",
+      "state": "closed",
+      "viewport": 1240,
+      "zoom": 1,
+      "geometry": {
+        "width": 1240,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1240,
+          "height": 80,
+          "right": 1240,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 1188,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 168.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 264.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 312.5,
+            "center": 1194
+          },
+          {
+            "x": 1172,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 1216,
+            "bottom": 363.5,
+            "center": 1194
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-1240-about.png",
+      "locale": "pt",
+      "state": "about",
+      "viewport": 1240,
+      "zoom": 1,
+      "geometry": {
+        "width": 1240,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1240,
+          "height": 642,
+          "right": 1240,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 1188,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 168.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 452.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 500.5,
+            "center": 1194
+          },
+          {
+            "x": 1172,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 1216,
+            "bottom": 551.5,
+            "center": 1194
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-390-closed.png",
+      "locale": "pt",
+      "state": "closed",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 80,
+          "right": 390,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 363.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-390-menu.png",
+      "locale": "pt",
+      "state": "menu",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 454,
+          "right": 390,
+          "bottom": 454
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 363.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-390-about.png",
+      "locale": "pt",
+      "state": "about",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 642,
+          "right": 390,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 452.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 500.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 551.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-390-resources.png",
+      "locale": "pt",
+      "state": "resources",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 554,
+          "right": 390,
+          "bottom": 554
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 445.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 463.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-320-closed.png",
+      "locale": "pt",
+      "state": "closed",
+      "viewport": 320,
+      "zoom": 1,
+      "geometry": {
+        "width": 320,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 80,
+          "right": 320,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 276,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 168.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 264.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 312.5,
+            "center": 282
+          },
+          {
+            "x": 260,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 304,
+            "bottom": 363.5,
+            "center": 282
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-320-about.png",
+      "locale": "pt",
+      "state": "about",
+      "viewport": 320,
+      "zoom": 1,
+      "geometry": {
+        "width": 320,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 642,
+          "right": 320,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 276,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 168.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 452.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 500.5,
+            "center": 282
+          },
+          {
+            "x": 260,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 304,
+            "bottom": 551.5,
+            "center": 282
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-1440-unpaired.png",
+      "locale": "pt",
+      "state": "unpaired",
+      "path": "/pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 145.390625,
+          "right": 1440,
+          "bottom": 145.390625
+        },
+        "logo": {
+          "x": 112,
+          "y": 36.1875,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 108.1875
+        },
+        "icons": [
+          {
+            "x": 513.671875,
+            "y": 66.1875,
+            "width": 12,
+            "height": 12,
+            "right": 525.671875,
+            "bottom": 78.1875,
+            "center": 519.671875
+          },
+          {
+            "x": 745.078125,
+            "y": 66.1875,
+            "width": 12,
+            "height": 12,
+            "right": 757.078125,
+            "bottom": 78.1875,
+            "center": 751.078125
+          },
+          {
+            "x": 870.453125,
+            "y": 66.1875,
+            "width": 12,
+            "height": 12,
+            "right": 882.453125,
+            "bottom": 78.1875,
+            "center": 876.453125
+          },
+          {
+            "x": 1037.828125,
+            "y": 63.1875,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1047,
+            "bottom": 81.1875,
+            "center": 1042.4140625
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-390-unpaired.png",
+      "locale": "pt",
+      "state": "unpaired",
+      "path": "/pt/noticias/solucao-criada-na-usp-facilita-tomada-de-decisao-para-o-combate-a-fome/",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 530.390625,
+          "right": 390,
+          "bottom": 530.390625
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 363.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1440-closed.png",
+      "locale": "en",
+      "state": "closed",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 605.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 617.25,
+            "bottom": 55.5,
+            "center": 611.25
+          },
+          {
+            "x": 812.359375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 824.359375,
+            "bottom": 55.5,
+            "center": 818.359375
+          },
+          {
+            "x": 946.0625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 958.0625,
+            "bottom": 55.5,
+            "center": 952.0625
+          },
+          {
+            "x": 1104.9375,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1114.109375,
+            "bottom": 58.5,
+            "center": 1109.5234375
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1440-about.png",
+      "locale": "en",
+      "state": "about",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 605.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 617.25,
+            "bottom": 55.5,
+            "center": 611.25
+          },
+          {
+            "x": 812.359375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 824.359375,
+            "bottom": 55.5,
+            "center": 818.359375
+          },
+          {
+            "x": 946.0625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 958.0625,
+            "bottom": 55.5,
+            "center": 952.0625
+          },
+          {
+            "x": 1104.9375,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1114.109375,
+            "bottom": 58.5,
+            "center": 1109.5234375
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1440-news.png",
+      "locale": "en",
+      "state": "news",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 605.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 617.25,
+            "bottom": 55.5,
+            "center": 611.25
+          },
+          {
+            "x": 812.359375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 824.359375,
+            "bottom": 55.5,
+            "center": 818.359375
+          },
+          {
+            "x": 946.0625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 958.0625,
+            "bottom": 55.5,
+            "center": 952.0625
+          },
+          {
+            "x": 1104.9375,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1114.109375,
+            "bottom": 58.5,
+            "center": 1109.5234375
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1440-resources.png",
+      "locale": "en",
+      "state": "resources",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 100,
+          "right": 1440,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 112,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 605.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 617.25,
+            "bottom": 55.5,
+            "center": 611.25
+          },
+          {
+            "x": 812.359375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 824.359375,
+            "bottom": 55.5,
+            "center": 818.359375
+          },
+          {
+            "x": 946.0625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 958.0625,
+            "bottom": 55.5,
+            "center": 952.0625
+          },
+          {
+            "x": 1104.9375,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1114.109375,
+            "bottom": 58.5,
+            "center": 1109.5234375
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1241-closed.png",
+      "locale": "en",
+      "state": "closed",
+      "viewport": 1241,
+      "zoom": 1,
+      "geometry": {
+        "width": 1241,
+        "height": 540,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1241,
+          "height": 100,
+          "right": 1241,
+          "bottom": 100
+        },
+        "logo": {
+          "x": 24,
+          "y": 13.5,
+          "width": 181,
+          "height": 72,
+          "right": 205,
+          "bottom": 85.5
+        },
+        "icons": [
+          {
+            "x": 494.25,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 506.25,
+            "bottom": 55.5,
+            "center": 500.25
+          },
+          {
+            "x": 701.359375,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 713.359375,
+            "bottom": 55.5,
+            "center": 707.359375
+          },
+          {
+            "x": 835.0625,
+            "y": 43.5,
+            "width": 12,
+            "height": 12,
+            "right": 847.0625,
+            "bottom": 55.5,
+            "center": 841.0625
+          },
+          {
+            "x": 993.9375,
+            "y": 40.5,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1003.109375,
+            "bottom": 58.5,
+            "center": 998.5234375
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1240-closed.png",
+      "locale": "en",
+      "state": "closed",
+      "viewport": 1240,
+      "zoom": 1,
+      "geometry": {
+        "width": 1240,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1240,
+          "height": 80,
+          "right": 1240,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 1188,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 168.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 264.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 312.5,
+            "center": 1194
+          },
+          {
+            "x": 1172,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 1216,
+            "bottom": 363.5,
+            "center": 1194
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1240-about.png",
+      "locale": "en",
+      "state": "about",
+      "viewport": 1240,
+      "zoom": 1,
+      "geometry": {
+        "width": 1240,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1240,
+          "height": 642,
+          "right": 1240,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 1188,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 168.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 452.5,
+            "center": 1194
+          },
+          {
+            "x": 1188,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 1200,
+            "bottom": 500.5,
+            "center": 1194
+          },
+          {
+            "x": 1172,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 1216,
+            "bottom": 551.5,
+            "center": 1194
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-390-closed.png",
+      "locale": "en",
+      "state": "closed",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 80,
+          "right": 390,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 363.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-390-menu.png",
+      "locale": "en",
+      "state": "menu",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 454,
+          "right": 390,
+          "bottom": 454
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 363.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-390-about.png",
+      "locale": "en",
+      "state": "about",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 642,
+          "right": 390,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 452.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 500.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 551.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-390-resources.png",
+      "locale": "en",
+      "state": "resources",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 554,
+          "right": 390,
+          "bottom": 554
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 445.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 463.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-320-closed.png",
+      "locale": "en",
+      "state": "closed",
+      "viewport": 320,
+      "zoom": 1,
+      "geometry": {
+        "width": 320,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 80,
+          "right": 320,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 276,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 168.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 264.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 312.5,
+            "center": 282
+          },
+          {
+            "x": 260,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 304,
+            "bottom": 363.5,
+            "center": 282
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-320-about.png",
+      "locale": "en",
+      "state": "about",
+      "viewport": 320,
+      "zoom": 1,
+      "geometry": {
+        "width": 320,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 642,
+          "right": 320,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 276,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 168.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 452.5,
+            "center": 282
+          },
+          {
+            "x": 276,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 288,
+            "bottom": 500.5,
+            "center": 282
+          },
+          {
+            "x": 260,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 304,
+            "bottom": 551.5,
+            "center": 282
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-1440-unpaired.png",
+      "locale": "en",
+      "state": "unpaired",
+      "path": "/en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+      "viewport": 1440,
+      "zoom": 1,
+      "geometry": {
+        "width": 1440,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 145.390625,
+          "right": 1440,
+          "bottom": 145.390625
+        },
+        "logo": {
+          "x": 112,
+          "y": 36.1875,
+          "width": 181,
+          "height": 72,
+          "right": 293,
+          "bottom": 108.1875
+        },
+        "icons": [
+          {
+            "x": 537.578125,
+            "y": 66.1875,
+            "width": 12,
+            "height": 12,
+            "right": 549.578125,
+            "bottom": 78.1875,
+            "center": 543.578125
+          },
+          {
+            "x": 745.25,
+            "y": 66.1875,
+            "width": 12,
+            "height": 12,
+            "right": 757.25,
+            "bottom": 78.1875,
+            "center": 751.25
+          },
+          {
+            "x": 878.953125,
+            "y": 66.1875,
+            "width": 12,
+            "height": 12,
+            "right": 890.953125,
+            "bottom": 78.1875,
+            "center": 884.953125
+          },
+          {
+            "x": 1037.828125,
+            "y": 63.1875,
+            "width": 9.171875,
+            "height": 18,
+            "right": 1047,
+            "bottom": 81.1875,
+            "center": 1042.4140625
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-390-unpaired.png",
+      "locale": "en",
+      "state": "unpaired",
+      "path": "/en/news/c4ai-seminario-perspectives-in-ai-dr-guy-van-den-broeck-31-marco-22-16h-brasil-time/",
+      "viewport": 390,
+      "zoom": 1,
+      "geometry": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 530.390625,
+          "right": 390,
+          "bottom": 530.390625
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 176,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 346,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 168.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 264.5,
+            "center": 352
+          },
+          {
+            "x": 346,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 358,
+            "bottom": 312.5,
+            "center": 352
+          },
+          {
+            "x": 330,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 374,
+            "bottom": 363.5,
+            "center": 352
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-zoom-200-closed.png",
+      "locale": "pt",
+      "state": "closed",
+      "viewport": 1440,
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 80,
+          "right": 720,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 668,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 168.5,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 264.5,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 312.5,
+            "center": 674
+          },
+          {
+            "x": 652,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 696,
+            "bottom": 363.5,
+            "center": 674
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-zoom-200-about.png",
+      "locale": "pt",
+      "state": "about",
+      "viewport": 1440,
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 642,
+          "right": 720,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 668,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 168.5,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 452.5,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 500.5,
+            "center": 674
+          },
+          {
+            "x": 652,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 696,
+            "bottom": 551.5,
+            "center": 674
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-zoom-200-closed.png",
+      "locale": "en",
+      "state": "closed",
+      "viewport": 1440,
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 80,
+          "right": 720,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 668,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 168.5,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 264.5,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 312.5,
+            "center": 674
+          },
+          {
+            "x": 652,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 696,
+            "bottom": 363.5,
+            "center": 674
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-zoom-200-about.png",
+      "locale": "en",
+      "state": "about",
+      "viewport": 1440,
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 642,
+          "right": 720,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "icons": [
+          {
+            "x": 666.3009643554688,
+            "y": 154.8009796142578,
+            "width": 15.3980712890625,
+            "height": 15.398040771484375,
+            "right": 681.6990356445312,
+            "bottom": 170.1990203857422,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 452.5,
+            "center": 674
+          },
+          {
+            "x": 668,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 500.5,
+            "center": 674
+          },
+          {
+            "x": 652,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 696,
+            "bottom": 551.5,
+            "center": 674
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-zoom-400-closed.png",
+      "locale": "pt",
+      "state": "closed",
+      "viewport": 1440,
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 80,
+          "right": 360,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "icons": [
+          {
+            "x": 316,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 168.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 264.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 312.5,
+            "center": 322
+          },
+          {
+            "x": 300,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 344,
+            "bottom": 363.5,
+            "center": 322
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-zoom-400-about.png",
+      "locale": "pt",
+      "state": "about",
+      "viewport": 1440,
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 642,
+          "right": 360,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "icons": [
+          {
+            "x": 316,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 168.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 452.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 500.5,
+            "center": 322
+          },
+          {
+            "x": 300,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 344,
+            "bottom": 551.5,
+            "center": 322
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-zoom-400-closed.png",
+      "locale": "en",
+      "state": "closed",
+      "viewport": 1440,
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 80,
+          "right": 360,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "icons": [
+          {
+            "x": 316,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 168.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 252.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 264.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 300.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 312.5,
+            "center": 322
+          },
+          {
+            "x": 300,
+            "y": 345.5,
+            "width": 44,
+            "height": 18,
+            "right": 344,
+            "bottom": 363.5,
+            "center": 322
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-zoom-400-about.png",
+      "locale": "en",
+      "state": "about",
+      "viewport": 1440,
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "overflow": false,
+        "mobile": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 642,
+          "right": 360,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "icons": [
+          {
+            "x": 316,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 168.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 452.5,
+            "center": 322
+          },
+          {
+            "x": 316,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 500.5,
+            "center": 322
+          },
+          {
+            "x": 300,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 344,
+            "bottom": 551.5,
+            "center": 322
+          }
+        ]
+      }
+    }
+  ]
+}

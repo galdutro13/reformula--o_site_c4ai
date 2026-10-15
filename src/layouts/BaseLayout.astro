@@ -67,7 +67,11 @@ const paired = Boolean(translations.pt && translations.en);
     <a class="skip-link" href="#main">
       {ui[locale].skip}
     </a>
-    <Header locale={locale} translations={translations} />
+    <Header
+      locale={locale}
+      translations={translations}
+      currentPath={canonical}
+    />
     <main id="main" tabindex="-1">
       <slot />
     </main>

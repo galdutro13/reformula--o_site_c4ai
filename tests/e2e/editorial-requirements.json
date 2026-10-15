@@ -1,9 +1,11 @@
 [
   {
     "path": "/pt/",
-    "source": "Reunião de 29/09/2026, email de Fábio de 30/09/2026 e plano autorizado de 06/10/2026",
+    "source": "Reunião de 29/09/2026, email de Fábio de 30/09/2026, plano autorizado de 06/10/2026 e redesign da página inicial autorizado de 14/10/2026",
     "texts": [
-      "Um centro de pesquisa em inteligência artificial avançada no Brasil."
+      "Um centro de pesquisa em inteligência artificial avançada no Brasil.",
+      "Desenvolvimento de recursos linguísticos, modelos computacionais e tecnologias de processamento de linguagem natural para o português e as línguas indígenas brasileiras.",
+      "Investigação dos impactos sociais e políticos da inteligência artificial, com foco em políticas públicas, regulamentação, implantação e avaliação de sistemas de IA."
     ]
   },
   {
@@ -196,9 +198,11 @@
   },
   {
     "path": "/en/",
-    "source": "Reunião de 29/09/2026, email de Fábio de 30/09/2026 e plano autorizado de 06/10/2026",
+    "source": "Reunião de 29/09/2026, email de Fábio de 30/09/2026, plano autorizado de 06/10/2026 e redesign da página inicial autorizado de 14/10/2026",
     "texts": [
-      "A research center for advanced artificial intelligence in Brazil."
+      "A research center for advanced artificial intelligence in Brazil.",
+      "Development of linguistic resources, computational models and natural language processing technologies for Portuguese and Brazilian Indigenous languages.",
+      "Investigation of the social and political impacts of artificial intelligence, focusing on public policy, regulation, deployment and evaluation of AI systems."
     ]
   },
   {

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "scope": "Home PT/EN — destaque inicial",
+  "requirements": {
+    "file": "tests/e2e/requirements.ts",
+    "fixture": "homeHero",
+    "source": "Redesign do destaque inicial autorizado pelo mantenedor em 14/10/2026",
+    "independence": "Títulos, rótulos, URLs, asset preservado e critérios de geometria registrados manualmente; nenhum requisito é importado do componente ou das coleções."
+  },
+  "editorialChanges": [
+    {
+      "locale": "pt",
+      "previous": "Saiba mais",
+      "replacement": "Conheça o C4AI"
+    },
+    {
+      "locale": "en",
+      "previous": "About us",
+      "replacement": "Discover C4AI"
+    }
+  ],
+  "expectationsReplaced": [
+    {
+      "file": "tests/e2e/site.spec.ts",
+      "scenario": "escolha de idioma, recuperação da 404 e salto por teclado",
+      "previous": "Saiba mais",
+      "replacement": "Conheça o C4AI",
+      "reason": "A chamada genérica é substituída pela chamada descritiva autorizada. O salto ao conteúdo, foco da primeira ação, ativação por Enter, destino /pt/sobre/ e recuperação da 404 permanecem exigidos. A assertiva continua literal e exata."
+    }
+  ],
+  "expectationsAdded": [
+    "CTA PT/EN com nome descritivo exato, seta decorativa e único link nativo no hero, com destino correto em Sobre/About.",
+    "Título H1 e idioma preservados; mesmo arquivo de ilustração /media/d59b07c37db0.png, dimensões naturais 856 × 580 e alt vazio.",
+    "Estados de foco visível e hover, sequência Tab/Shift+Tab e ativação por Enter em PT/EN nos quatro projetos Chromium com/sem JavaScript.",
+    "Duas colunas em 1440/1024 px, centralização vertical do bloco textual com a imagem, intervalo entre colunas de 48–64 px e padding vertical de 48–64 px.",
+    "Título desktop de 40–44 px, entrelinha de 1,15–1,2, intervalo título/CTA de 24–32 px e ação com altura mínima de 48 px.",
+    "Imagem proporcional, altura máxima de 400 px no desktop e 288 px no layout empilhado; título, CTA e ilustração nessa ordem em 800/390/320 px.",
+    "Altura do hero determinada pelo conteúdo e pelos paddings, mantendo legibilidade e ausência de transbordamento horizontal nos cinco tamanhos."
+  ],
+  "preserved": [
+    "Frase principal e idioma de cada Home, metadados e asset histórico da ilustração.",
+    "Cards de linhas de pesquisa e respectivos conteúdos e destinos, cobertos pelo contrato homeResearch anterior.",
+    "Demais páginas, arquivos institucionais e conteúdo histórico.",
+    "Lista independente de páginas e testes vigentes de acessibilidade, teclado, links, imagens, metadados, publicação em subdiretório e Home sem scripts.",
+    "Quatro projetos Chromium desktop/mobile com e sem JavaScript, regras, limites, exclusões e retries."
+  ],
+  "newScenarios": {
+    "perLocale": 3,
+    "locales": 2,
+    "browserProjects": 4,
+    "executionsAdded": 24
+  }
+}

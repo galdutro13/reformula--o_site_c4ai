@@ -1,0 +1,600 @@
+[
+  {
+    "locale": "pt",
+    "name": "desktop",
+    "path": "/pt/",
+    "viewport": {
+      "width": 1440,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-pt-desktop.png",
+    "timestamp": "2026-10-14T17:59:06.033Z",
+    "hero": {
+      "x": 0,
+      "y": 124.203125,
+      "width": 1440,
+      "height": 470.671875,
+      "bottom": 594.875,
+      "right": 1440
+    },
+    "title": {
+      "x": 112,
+      "y": 249.53125,
+      "width": 599.03125,
+      "height": 144,
+      "bottom": 393.53125,
+      "right": 711.03125
+    },
+    "button": {
+      "x": 112,
+      "y": 421.53125,
+      "width": 186.671875,
+      "height": 48,
+      "bottom": 469.53125,
+      "right": 298.671875
+    },
+    "image": {
+      "x": 775.03125,
+      "y": 172.203125,
+      "width": 552.953125,
+      "height": 374.671875,
+      "bottom": 546.875,
+      "right": 1327.984375
+    },
+    "researchTitle": {
+      "x": 112,
+      "y": 594.875,
+      "width": 1216,
+      "height": 38.390625,
+      "bottom": 633.265625,
+      "right": 1328
+    },
+    "fontSize": "40px",
+    "lineHeight": "48px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 48,
+    "overflow": false,
+    "actionStates": {
+      "idle": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgb(32, 84, 92)"
+      },
+      "hover": {
+        "background": "rgb(237, 243, 243)",
+        "border": "rgb(32, 84, 92)"
+      },
+      "active": {
+        "background": "rgb(215, 235, 237)",
+        "border": "rgb(36, 61, 64)"
+      }
+    }
+  },
+  {
+    "locale": "pt",
+    "name": "compact-desktop",
+    "path": "/pt/",
+    "viewport": {
+      "width": 1024,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-pt-compact-desktop.png",
+    "timestamp": "2026-10-14T17:59:06.678Z",
+    "hero": {
+      "x": 0,
+      "y": 186.78125,
+      "width": 1024,
+      "height": 397.8125,
+      "bottom": 584.59375,
+      "right": 1024
+    },
+    "title": {
+      "x": 24,
+      "y": 275.6875,
+      "width": 482.546875,
+      "height": 144,
+      "bottom": 419.6875,
+      "right": 506.546875
+    },
+    "button": {
+      "x": 24,
+      "y": 447.6875,
+      "width": 186.671875,
+      "height": 48,
+      "bottom": 495.6875,
+      "right": 210.671875
+    },
+    "image": {
+      "x": 554.5625,
+      "y": 234.78125,
+      "width": 445.421875,
+      "height": 301.8125,
+      "bottom": 536.59375,
+      "right": 999.984375
+    },
+    "researchTitle": {
+      "x": 24,
+      "y": 584.59375,
+      "width": 976,
+      "height": 38.390625,
+      "bottom": 622.984375,
+      "right": 1000
+    },
+    "fontSize": "40px",
+    "lineHeight": "48px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 48,
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "tablet",
+    "path": "/pt/",
+    "viewport": {
+      "width": 800,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-pt-tablet.png",
+    "timestamp": "2026-10-14T17:59:06.833Z",
+    "hero": {
+      "x": 0,
+      "y": 186.78125,
+      "width": 800,
+      "height": 556,
+      "bottom": 742.78125,
+      "right": 800
+    },
+    "title": {
+      "x": 24,
+      "y": 218.78125,
+      "width": 752,
+      "height": 96,
+      "bottom": 314.78125,
+      "right": 776
+    },
+    "button": {
+      "x": 24,
+      "y": 342.78125,
+      "width": 186.671875,
+      "height": 48,
+      "bottom": 390.78125,
+      "right": 210.671875
+    },
+    "image": {
+      "x": 187.46875,
+      "y": 422.78125,
+      "width": 425.046875,
+      "height": 288,
+      "bottom": 710.78125,
+      "right": 612.515625
+    },
+    "researchTitle": {
+      "x": 24,
+      "y": 742.78125,
+      "width": 752,
+      "height": 38.390625,
+      "bottom": 781.171875,
+      "right": 776
+    },
+    "fontSize": "40px",
+    "lineHeight": "48px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 32,
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "mobile",
+    "path": "/pt/",
+    "viewport": {
+      "width": 390,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-pt-mobile.png",
+    "timestamp": "2026-10-14T17:59:06.983Z",
+    "hero": {
+      "x": 0,
+      "y": 198,
+      "width": 390,
+      "height": 529.734375,
+      "bottom": 727.734375,
+      "right": 390
+    },
+    "title": {
+      "x": 16,
+      "y": 230,
+      "width": 358,
+      "height": 115.171875,
+      "bottom": 345.171875,
+      "right": 374
+    },
+    "button": {
+      "x": 16,
+      "y": 373.171875,
+      "width": 186.671875,
+      "height": 48,
+      "bottom": 421.171875,
+      "right": 202.671875
+    },
+    "image": {
+      "x": 16,
+      "y": 453.171875,
+      "width": 357.984375,
+      "height": 242.5625,
+      "bottom": 695.734375,
+      "right": 373.984375
+    },
+    "researchTitle": {
+      "x": 16,
+      "y": 727.734375,
+      "width": 358,
+      "height": 76.78125,
+      "bottom": 804.515625,
+      "right": 374
+    },
+    "fontSize": "32px",
+    "lineHeight": "38.4px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 32,
+    "overflow": false
+  },
+  {
+    "locale": "pt",
+    "name": "narrow",
+    "path": "/pt/",
+    "viewport": {
+      "width": 320,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-pt-narrow.png",
+    "timestamp": "2026-10-14T17:59:07.134Z",
+    "hero": {
+      "x": 0,
+      "y": 198,
+      "width": 320,
+      "height": 559.078125,
+      "bottom": 757.078125,
+      "right": 320
+    },
+    "title": {
+      "x": 16,
+      "y": 230,
+      "width": 288,
+      "height": 191.953125,
+      "bottom": 421.953125,
+      "right": 304
+    },
+    "button": {
+      "x": 16,
+      "y": 449.953125,
+      "width": 186.671875,
+      "height": 48,
+      "bottom": 497.953125,
+      "right": 202.671875
+    },
+    "image": {
+      "x": 16.015625,
+      "y": 529.953125,
+      "width": 287.96875,
+      "height": 195.125,
+      "bottom": 725.078125,
+      "right": 303.984375
+    },
+    "researchTitle": {
+      "x": 16,
+      "y": 757.078125,
+      "width": 288,
+      "height": 76.78125,
+      "bottom": 833.859375,
+      "right": 304
+    },
+    "fontSize": "32px",
+    "lineHeight": "38.4px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 32,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "desktop",
+    "path": "/en/",
+    "viewport": {
+      "width": 1440,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-en-desktop.png",
+    "timestamp": "2026-10-14T17:59:07.295Z",
+    "hero": {
+      "x": 0,
+      "y": 124.203125,
+      "width": 1440,
+      "height": 470.671875,
+      "bottom": 594.875,
+      "right": 1440
+    },
+    "title": {
+      "x": 112,
+      "y": 273.53125,
+      "width": 599.03125,
+      "height": 96,
+      "bottom": 369.53125,
+      "right": 711.03125
+    },
+    "button": {
+      "x": 112,
+      "y": 397.53125,
+      "width": 173.71875,
+      "height": 48,
+      "bottom": 445.53125,
+      "right": 285.71875
+    },
+    "image": {
+      "x": 775.03125,
+      "y": 172.203125,
+      "width": 552.953125,
+      "height": 374.671875,
+      "bottom": 546.875,
+      "right": 1327.984375
+    },
+    "researchTitle": {
+      "x": 112,
+      "y": 594.875,
+      "width": 1216,
+      "height": 38.390625,
+      "bottom": 633.265625,
+      "right": 1328
+    },
+    "fontSize": "40px",
+    "lineHeight": "48px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 48,
+    "overflow": false,
+    "actionStates": {
+      "idle": {
+        "background": "rgb(255, 255, 255)",
+        "border": "rgb(32, 84, 92)"
+      },
+      "hover": {
+        "background": "rgb(237, 243, 243)",
+        "border": "rgb(32, 84, 92)"
+      },
+      "active": {
+        "background": "rgb(215, 235, 237)",
+        "border": "rgb(36, 61, 64)"
+      }
+    }
+  },
+  {
+    "locale": "en",
+    "name": "compact-desktop",
+    "path": "/en/",
+    "viewport": {
+      "width": 1024,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-en-compact-desktop.png",
+    "timestamp": "2026-10-14T17:59:07.952Z",
+    "hero": {
+      "x": 0,
+      "y": 186.78125,
+      "width": 1024,
+      "height": 397.8125,
+      "bottom": 584.59375,
+      "right": 1024
+    },
+    "title": {
+      "x": 24,
+      "y": 275.6875,
+      "width": 482.546875,
+      "height": 144,
+      "bottom": 419.6875,
+      "right": 506.546875
+    },
+    "button": {
+      "x": 24,
+      "y": 447.6875,
+      "width": 173.71875,
+      "height": 48,
+      "bottom": 495.6875,
+      "right": 197.71875
+    },
+    "image": {
+      "x": 554.5625,
+      "y": 234.78125,
+      "width": 445.421875,
+      "height": 301.8125,
+      "bottom": 536.59375,
+      "right": 999.984375
+    },
+    "researchTitle": {
+      "x": 24,
+      "y": 584.59375,
+      "width": 976,
+      "height": 38.390625,
+      "bottom": 622.984375,
+      "right": 1000
+    },
+    "fontSize": "40px",
+    "lineHeight": "48px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 48,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "tablet",
+    "path": "/en/",
+    "viewport": {
+      "width": 800,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-en-tablet.png",
+    "timestamp": "2026-10-14T17:59:08.107Z",
+    "hero": {
+      "x": 0,
+      "y": 186.78125,
+      "width": 800,
+      "height": 556,
+      "bottom": 742.78125,
+      "right": 800
+    },
+    "title": {
+      "x": 24,
+      "y": 218.78125,
+      "width": 752,
+      "height": 96,
+      "bottom": 314.78125,
+      "right": 776
+    },
+    "button": {
+      "x": 24,
+      "y": 342.78125,
+      "width": 173.71875,
+      "height": 48,
+      "bottom": 390.78125,
+      "right": 197.71875
+    },
+    "image": {
+      "x": 187.46875,
+      "y": 422.78125,
+      "width": 425.046875,
+      "height": 288,
+      "bottom": 710.78125,
+      "right": 612.515625
+    },
+    "researchTitle": {
+      "x": 24,
+      "y": 742.78125,
+      "width": 752,
+      "height": 38.390625,
+      "bottom": 781.171875,
+      "right": 776
+    },
+    "fontSize": "40px",
+    "lineHeight": "48px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 32,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "mobile",
+    "path": "/en/",
+    "viewport": {
+      "width": 390,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-en-mobile.png",
+    "timestamp": "2026-10-14T17:59:08.257Z",
+    "hero": {
+      "x": 0,
+      "y": 198,
+      "width": 390,
+      "height": 529.734375,
+      "bottom": 727.734375,
+      "right": 390
+    },
+    "title": {
+      "x": 16,
+      "y": 230,
+      "width": 358,
+      "height": 115.171875,
+      "bottom": 345.171875,
+      "right": 374
+    },
+    "button": {
+      "x": 16,
+      "y": 373.171875,
+      "width": 173.71875,
+      "height": 48,
+      "bottom": 421.171875,
+      "right": 189.71875
+    },
+    "image": {
+      "x": 16,
+      "y": 453.171875,
+      "width": 357.984375,
+      "height": 242.5625,
+      "bottom": 695.734375,
+      "right": 373.984375
+    },
+    "researchTitle": {
+      "x": 16,
+      "y": 727.734375,
+      "width": 358,
+      "height": 38.390625,
+      "bottom": 766.125,
+      "right": 374
+    },
+    "fontSize": "32px",
+    "lineHeight": "38.4px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 32,
+    "overflow": false
+  },
+  {
+    "locale": "en",
+    "name": "narrow",
+    "path": "/en/",
+    "viewport": {
+      "width": 320,
+      "height": 1100
+    },
+    "javaScriptEnabled": false,
+    "file": "screenshots/home-hero-en-narrow.png",
+    "timestamp": "2026-10-14T17:59:08.407Z",
+    "hero": {
+      "x": 0,
+      "y": 198,
+      "width": 320,
+      "height": 559.078125,
+      "bottom": 757.078125,
+      "right": 320
+    },
+    "title": {
+      "x": 16,
+      "y": 230,
+      "width": 288,
+      "height": 191.953125,
+      "bottom": 421.953125,
+      "right": 304
+    },
+    "button": {
+      "x": 16,
+      "y": 449.953125,
+      "width": 173.71875,
+      "height": 48,
+      "bottom": 497.953125,
+      "right": 189.71875
+    },
+    "image": {
+      "x": 16.015625,
+      "y": 529.953125,
+      "width": 287.96875,
+      "height": 195.125,
+      "bottom": 725.078125,
+      "right": 303.984375
+    },
+    "researchTitle": {
+      "x": 16,
+      "y": 757.078125,
+      "width": 288,
+      "height": 38.390625,
+      "bottom": 795.46875,
+      "right": 304
+    },
+    "fontSize": "32px",
+    "lineHeight": "38.4px",
+    "titleButtonGap": 28,
+    "imageToResearchTitleGap": 32,
+    "overflow": false
+  }
+]
