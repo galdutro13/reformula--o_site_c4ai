@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-14",
+  "origin": "http://127.0.0.1:4340",
+  "browser": {
+    "name": "Chromium",
+    "version": "153.0.8010.12",
+    "engine": "Blink",
+    "channel": "chromium",
+    "headless": true
+  },
+  "zoomMethod": "Temporary isolated extension chrome.tabs.setZoom/getZoom; full physical viewport captured with CDP Page.captureScreenshot without clip. Browser zoom, not viewport emulation.",
+  "errors": [],
+  "sourceIntegrity": {
+    "files": 123,
+    "changed": [],
+    "unchanged": true
+  },
+  "records": [
+    {
+      "file": "pt-zoom-200-closed.png",
+      "url": "http://127.0.0.1:4340/pt/",
+      "locale": "pt",
+      "state": "closed",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "none",
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": false,
+        "aboutOpen": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 80,
+          "right": 720,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "nav": null,
+        "icons": []
+      },
+      "languageScroll": null
+    },
+    {
+      "file": "pt-zoom-200-about.png",
+      "url": "http://127.0.0.1:4340/pt/",
+      "locale": "pt",
+      "state": "about",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "matrix(-1, 0, 0, -1, 0, 0)",
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": true,
+        "aboutOpen": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 642,
+          "right": 720,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "nav": {
+          "x": 24,
+          "y": 92.5,
+          "width": 672,
+          "height": 472,
+          "right": 696,
+          "bottom": 564.5
+        },
+        "icons": [
+          {
+            "x": 668,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 168.5,
+            "center": 674,
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)"
+          },
+          {
+            "x": 668,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 452.5,
+            "center": 674,
+            "transform": "none"
+          },
+          {
+            "x": 668,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 500.5,
+            "center": 674,
+            "transform": "none"
+          },
+          {
+            "x": 652,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 696,
+            "bottom": 551.5,
+            "center": 674,
+            "transform": "none"
+          }
+        ]
+      },
+      "languageScroll": {
+        "scrollY": 392.5,
+        "x": 24,
+        "y": 197,
+        "width": 672,
+        "height": 44,
+        "viewportHeight": 406,
+        "visible": true,
+        "links": [
+          {
+            "text": "Português",
+            "href": "/pt/"
+          },
+          {
+            "text": "English",
+            "href": "/en/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "pt-zoom-400-closed.png",
+      "url": "http://127.0.0.1:4340/pt/",
+      "locale": "pt",
+      "state": "closed",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "none",
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": false,
+        "aboutOpen": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 80,
+          "right": 360,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "nav": null,
+        "icons": []
+      },
+      "languageScroll": null
+    },
+    {
+      "file": "pt-zoom-400-about.png",
+      "url": "http://127.0.0.1:4340/pt/",
+      "locale": "pt",
+      "state": "about",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "matrix(-1, 0, 0, -1, 0, 0)",
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": true,
+        "aboutOpen": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 642,
+          "right": 360,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "nav": {
+          "x": 16,
+          "y": 92.5,
+          "width": 328,
+          "height": 472,
+          "right": 344,
+          "bottom": 564.5
+        },
+        "icons": [
+          {
+            "x": 316,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 168.5,
+            "center": 322,
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)"
+          },
+          {
+            "x": 316,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 452.5,
+            "center": 322,
+            "transform": "none"
+          },
+          {
+            "x": 316,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 500.5,
+            "center": 322,
+            "transform": "none"
+          },
+          {
+            "x": 300,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 344,
+            "bottom": 551.5,
+            "center": 322,
+            "transform": "none"
+          }
+        ]
+      },
+      "languageScroll": {
+        "scrollY": 494,
+        "x": 16,
+        "y": 95.5,
+        "width": 328,
+        "height": 44,
+        "viewportHeight": 203,
+        "visible": true,
+        "links": [
+          {
+            "text": "Português",
+            "href": "/pt/"
+          },
+          {
+            "text": "English",
+            "href": "/en/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-zoom-200-closed.png",
+      "url": "http://127.0.0.1:4340/en/",
+      "locale": "en",
+      "state": "closed",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "none",
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": false,
+        "aboutOpen": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 80,
+          "right": 720,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "nav": null,
+        "icons": []
+      },
+      "languageScroll": null
+    },
+    {
+      "file": "en-zoom-200-about.png",
+      "url": "http://127.0.0.1:4340/en/",
+      "locale": "en",
+      "state": "about",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 2,
+      "verifiedZoom": 2,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "matrix(-1, 0, 0, -1, 0, 0)",
+      "geometry": {
+        "width": 720,
+        "height": 406,
+        "dpr": 2,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": true,
+        "aboutOpen": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 720,
+          "height": 642,
+          "right": 720,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 24,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.640625,
+          "right": 184,
+          "bottom": 71.140625
+        },
+        "nav": {
+          "x": 24,
+          "y": 92.5,
+          "width": 672,
+          "height": 472,
+          "right": 696,
+          "bottom": 564.5
+        },
+        "icons": [
+          {
+            "x": 668,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 168.5,
+            "center": 674,
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)"
+          },
+          {
+            "x": 668,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 452.5,
+            "center": 674,
+            "transform": "none"
+          },
+          {
+            "x": 668,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 680,
+            "bottom": 500.5,
+            "center": 674,
+            "transform": "none"
+          },
+          {
+            "x": 652,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 696,
+            "bottom": 551.5,
+            "center": 674,
+            "transform": "none"
+          }
+        ]
+      },
+      "languageScroll": {
+        "scrollY": 392.5,
+        "x": 24,
+        "y": 197,
+        "width": 672,
+        "height": 44,
+        "viewportHeight": 406,
+        "visible": true,
+        "links": [
+          {
+            "text": "Português",
+            "href": "/pt/"
+          },
+          {
+            "text": "English",
+            "href": "/en/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "en-zoom-400-closed.png",
+      "url": "http://127.0.0.1:4340/en/",
+      "locale": "en",
+      "state": "closed",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "none",
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": false,
+        "aboutOpen": false,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 80,
+          "right": 360,
+          "bottom": 80
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "nav": null,
+        "icons": []
+      },
+      "languageScroll": null
+    },
+    {
+      "file": "en-zoom-400-about.png",
+      "url": "http://127.0.0.1:4340/en/",
+      "locale": "en",
+      "state": "about",
+      "physicalWindow": {
+        "width": 1440,
+        "height": 900
+      },
+      "pngDimensions": {
+        "width": 1440,
+        "height": 813
+      },
+      "zoom": 4,
+      "verifiedZoom": 3.9999999999999996,
+      "reducedMotion": "reduce",
+      "fontsReady": true,
+      "twoAnimationFrames": true,
+      "settledChevron": "matrix(-1, 0, 0, -1, 0, 0)",
+      "geometry": {
+        "width": 360,
+        "height": 203,
+        "dpr": 4,
+        "scrollY": 0,
+        "overflow": false,
+        "mobileVisible": true,
+        "mobileOpen": true,
+        "aboutOpen": true,
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 642,
+          "right": 360,
+          "bottom": 642
+        },
+        "logo": {
+          "x": 16,
+          "y": 7.5,
+          "width": 160,
+          "height": 63.64453125,
+          "right": 176,
+          "bottom": 71.14453125
+        },
+        "nav": {
+          "x": 16,
+          "y": 92.5,
+          "width": 328,
+          "height": 472,
+          "right": 344,
+          "bottom": 564.5
+        },
+        "icons": [
+          {
+            "x": 316,
+            "y": 156.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 168.5,
+            "center": 322,
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)"
+          },
+          {
+            "x": 316,
+            "y": 440.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 452.5,
+            "center": 322,
+            "transform": "none"
+          },
+          {
+            "x": 316,
+            "y": 488.5,
+            "width": 12,
+            "height": 12,
+            "right": 328,
+            "bottom": 500.5,
+            "center": 322,
+            "transform": "none"
+          },
+          {
+            "x": 300,
+            "y": 533.5,
+            "width": 44,
+            "height": 18,
+            "right": 344,
+            "bottom": 551.5,
+            "center": 322,
+            "transform": "none"
+          }
+        ]
+      },
+      "languageScroll": {
+        "scrollY": 494,
+        "x": 16,
+        "y": 95.5,
+        "width": 328,
+        "height": 44,
+        "viewportHeight": 203,
+        "visible": true,
+        "links": [
+          {
+            "text": "Português",
+            "href": "/pt/"
+          },
+          {
+            "text": "English",
+            "href": "/en/"
+          }
+        ]
+      }
+    }
+  ],
+  "visualInspection": {
+    "inspected": true,
+    "files": [
+      "pt-zoom-200-closed.png",
+      "pt-zoom-200-about.png",
+      "pt-zoom-400-closed.png",
+      "pt-zoom-400-about.png",
+      "en-zoom-200-closed.png",
+      "en-zoom-200-about.png",
+      "en-zoom-400-closed.png",
+      "en-zoom-400-about.png"
+    ],
+    "observedIssues": [],
+    "limit": "Screenshots cover the browser viewport, not the whole expanded menu. Language controls and all icon centers were additionally verified by DOM geometry and normal scrolling.",
+    "firstPassPreservedAt": "../zoom-first-pass/",
+    "finalPixelsIdenticalToInspectedFirstPass": true
+  }
+}

@@ -184,3 +184,7 @@ A orientação final substitui a opção inicialmente planejada de acionador ún
 No desktop, a abertura de um painel fechado por hover de mouse fica pendente de confirmação: o primeiro clique no acionador mantém o painel aberto e consome essa marcação; o segundo fecha normalmente. Reentrar em um painel já aberto não renova a confirmação. Fechamento, mudança de breakpoint e ativação por Enter/Espaço limpam a marcação. Teclado, toque, links diretos e navegação sem JavaScript preservam a alternância nativa.
 
 O teste de regressão cobre PT/EN e os três acionadores, com clique real partindo de fora do menu, segundo clique, hover explícito, reabertura, reentrada e Enter/Espaço após hover. Os projetos sem JavaScript verificam os dois cliques nativos; nenhuma verificação anterior é removida.
+
+## Retomada da validação do cabeçalho — 14/10/2026
+
+A qualidade da implementação vigente foi executada com as versões fixadas Node 24.21.0/npm 11.19.0: 21 testes de configuração e 726 testes de navegador aprovados, nos quatro projetos originais, sem alterar requisitos ou verificações. As oito capturas de zoom PT/EN foram refeitas com setas estabilizadas. A revisão nativa no Safari 27.0.1 conferiu destinos, cliques, Escape desktop e alinhamento compacto; hover isolado, sequência completa por Tab e matriz exata de larguras/artigos permanecem para homologação nativa. Resultados, integridade, capturas e limites estão no [registro da retomada](reformulation/2026-10-14-header-resume/validation.md). Esta etapa acrescenta somente documentação e evidências.
