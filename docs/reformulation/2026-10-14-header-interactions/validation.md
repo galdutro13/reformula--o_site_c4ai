@@ -47,3 +47,15 @@ Ambiente desta rodada: Node 24.15.0 e npm 11.12.1, ainda diferentes das versões
 ## Retomada posterior — 14/10/2026
 
 O [registro da retomada](../2026-10-14-header-resume/validation.md) atualiza as pendências sem substituir os resultados históricos acima. A qualidade passou com Node 24.21.0/npm 11.19.0, com 21 testes de configuração e 726 de navegador; as oito capturas de zoom foram refeitas com setas estabilizadas. A conferência nativa em Safari 27.0.1 verificou destinos, cliques, Escape desktop e alinhamento compacto em PT/EN. Permanecem delimitadas a homologação de hover isolado, sequência completa por Tab e matriz exata de larguras/artigos no Safari. Não houve alteração de implementação nesta retomada.
+
+## Movimento reduzido e saída do foco — 14/10/2026
+
+Os dois findings da revisão foram reproduzidos antes da correção: oito cenários C06/C10 falharam porque a duração da transição continuava em 0,15 s com movimento reduzido; quatro cenários C11 com JavaScript falharam porque o painel permanecia aberto após Tab sair do último link, com o ponteiro fora. Os quatro cenários de alternância nativa sem JavaScript passaram nessa mesma rodada.
+
+A correção CSS limita-se aos chevrons: transição desativada sob movimento reduzido e orientação aberta/fechada preservada. O módulo acompanha a presença do mouse no grupo e trata entrada/saída do foco, compartilhando o temporizador de 150 ms. Só fecha se ponteiro e foco estiverem fora, sem transferir foco. Entrada de foco ou mouse cancela o fechamento pendente; mudança de breakpoint limpa o acompanhamento do mouse e fecha os painéis.
+
+Após as correções, **24 testes direcionados passaram**, incluindo os dois novos contratos e a regressão do primeiro clique. Os novos cenários cobrem PT/EN, os três acionadores, preferência reduzida/normal, foco interno, Tab/Shift+Tab, permanência do ponteiro e reentrada antes do prazo. O teste misto usa relógio controlado para avançar o prazo sem espera variável. Nos projetos sem JavaScript, verifica-se a permanência nativa do painel ao sair do foco e o fechamento pelo controle.
+
+A execução integral de `npm run quality` terminou com código 0: formatação aprovada, lint sem erros (somente o aviso preexistente de complexidade em `tests/e2e/site.spec.ts`), Astro sem diagnósticos, **21 testes de configuração e 742 testes de navegador aprovados**, estes em 1,6 minuto. Saída: [quality-motion-focus.txt](quality-motion-focus.txt). `git diff --check` passou. Nenhum teste anterior, regra, limite, retry ou exclusão foi removido ou relaxado.
+
+Ambiente: Node 24.15.0/npm 11.12.1, diferentes das versões fixadas pelo projeto. A porta 4321 estava livre; servidor e navegador foram executados com a permissão necessária fora do sandbox. Esta rodada não incluiu Safari/WebKit, Firefox, leitor de tela ou nova revisão visual humana. Não houve instalação de dependências, commit, push ou publicação.

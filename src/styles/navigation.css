@@ -163,6 +163,12 @@
   transition: transform 150ms ease;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .nav-chevron {
+    transition: none;
+  }
+}
+
 .main-menu details > ul {
   position: absolute;
   z-index: 20;

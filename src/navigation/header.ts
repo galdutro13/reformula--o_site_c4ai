@@ -11,6 +11,7 @@ if (desktopNavigation) {
   const desktop = window.matchMedia('(min-width: 1241px)');
   const closeTimers = new Map<HTMLDetailsElement, number>();
   const hoverOpened = new Set<HTMLDetailsElement>();
+  const mouseWithin = new Set<HTMLDetailsElement>();
 
   function cancelClose(panel: HTMLDetailsElement) {
     window.clearTimeout(closeTimers.get(panel));
@@ -28,6 +29,18 @@ if (desktopNavigation) {
       if (panel === except) continue;
       closePanel(panel);
     }
+  }
+
+  function scheduleClose(panel: HTMLDetailsElement) {
+    cancelClose(panel);
+    closeTimers.set(
+      panel,
+      window.setTimeout(() => {
+        closeTimers.delete(panel);
+        if (!mouseWithin.has(panel) && !panel.contains(document.activeElement))
+          closePanel(panel);
+      }, 150),
+    );
   }
 
   // Also enforces exclusivity in browsers that do not support details[name].
@@ -52,6 +65,7 @@ if (desktopNavigation) {
     });
     item.addEventListener('pointerenter', (event) => {
       if (!desktop.matches || event.pointerType !== 'mouse') return;
+      mouseWithin.add(panel);
       cancelClose(panel);
       closePanels(panel);
       if (!panel.open) hoverOpened.add(panel);
@@ -59,14 +73,14 @@ if (desktopNavigation) {
     });
     item.addEventListener('pointerleave', (event) => {
       if (!desktop.matches || event.pointerType !== 'mouse') return;
-      cancelClose(panel);
-      closeTimers.set(
-        panel,
-        window.setTimeout(() => {
-          closeTimers.delete(panel);
-          if (!panel.contains(document.activeElement)) closePanel(panel);
-        }, 150),
-      );
+      mouseWithin.delete(panel);
+      scheduleClose(panel);
+    });
+    panel.addEventListener('focusin', () => {
+      if (desktop.matches) cancelClose(panel);
+    });
+    panel.addEventListener('focusout', () => {
+      if (desktop.matches && panel.open) scheduleClose(panel);
     });
     panel.addEventListener('toggle', () => {
       if (!panel.open) hoverOpened.delete(panel);
@@ -91,5 +105,8 @@ if (desktopNavigation) {
     openPanel.querySelector<HTMLElement>(':scope > summary')?.focus();
   });
 
-  desktop.addEventListener('change', () => closePanels());
+  desktop.addEventListener('change', () => {
+    mouseWithin.clear();
+    closePanels();
+  });
 }

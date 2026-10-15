@@ -566,6 +566,109 @@ for (const locale of ['pt', 'en'] as const) {
     }
   });
 
+  test(`${locale}: C06/C10 respeita movimento reduzido nos chevrons`, async ({
+    page,
+  }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.goto(required.path);
+    const navigation = await visibleMainNavigation(page, locale);
+    for (const expected of required.menus) {
+      const panel = navigation
+        .locator(`details.${expected.className}`)
+        .nth(expected.index);
+      const summary = panel.locator(':scope > summary');
+      const chevron = summary.locator('.nav-chevron');
+      await expect(chevron).toHaveCSS('transition-duration', '0s');
+      await expect(chevron).toHaveCSS('transform', 'none');
+      await summary.press('Enter');
+      await expect(panel).toHaveAttribute('open', '');
+      await expect(chevron).toHaveCSS(
+        'transform',
+        'matrix(-1, 0, 0, -1, 0, 0)',
+      );
+      await summary.press('Space');
+      await expect(panel).not.toHaveAttribute('open');
+      await expect(chevron).toHaveCSS('transform', 'none');
+    }
+    await page.emulateMedia({ reducedMotion: 'no-preference' });
+    for (const chevron of await navigation.locator('.nav-chevron').all())
+      await expect(chevron).toHaveCSS('transition-duration', '0.15s');
+  });
+
+  test(`${locale}: C11 fecha após saída conjunta de ponteiro e foco`, async ({
+    page,
+    javaScriptEnabled,
+  }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    if (javaScriptEnabled) {
+      await page.clock.install();
+      await page.clock.pauseAt(new Date());
+    }
+    await page.goto(required.path);
+    const navigation = await visibleMainNavigation(page, locale);
+    for (const expected of required.menus) {
+      await page.mouse.move(0, 0);
+      const panel = navigation
+        .locator(`details.${expected.className}`)
+        .nth(expected.index);
+      const summary = panel.locator(':scope > summary');
+      const links = panel.getByRole('link');
+      if (!javaScriptEnabled) {
+        await summary.press('Enter');
+        await links.last().focus();
+        await page.keyboard.press('Tab');
+        await expect(panel).toHaveAttribute('open', '');
+        await summary.press('Space');
+        continue;
+      }
+      await summary.hover();
+      await links.first().focus();
+      await page.mouse.move(0, 0);
+      await page.clock.runFor(200);
+      await expect(panel).toHaveAttribute('open', '');
+      await page.keyboard.press('Tab');
+      await page.clock.runFor(200);
+      await expect(links.nth(1)).toBeFocused();
+      await expect(panel).toHaveAttribute('open', '');
+      await links.last().focus();
+      await page.keyboard.press('Tab');
+      const nextFocus = await page.evaluateHandle(() => document.activeElement);
+      await page.clock.runFor(200);
+      await expect(panel).not.toHaveAttribute('open');
+      expect(
+        await page.evaluate((el) => document.activeElement === el, nextFocus),
+      ).toBe(true);
+      await nextFocus.dispose();
+
+      // Sair para trás também fecha, mas passar pelo summary mantém aberto.
+      await summary.hover();
+      await links.first().focus();
+      await page.mouse.move(0, 0);
+      await page.keyboard.press('Shift+Tab');
+      await page.clock.runFor(200);
+      await expect(summary).toBeFocused();
+      await expect(panel).toHaveAttribute('open', '');
+      await page.keyboard.press('Shift+Tab');
+      await page.clock.runFor(200);
+      await expect(panel).not.toHaveAttribute('open');
+
+      // O ponteiro mantém aberto após o foco sair; reentrada cancela fechamento.
+      await summary.hover();
+      await links.last().focus();
+      await page.keyboard.press('Tab');
+      await page.clock.runFor(200);
+      await expect(panel).toHaveAttribute('open', '');
+      await page.mouse.move(0, 0);
+      await page.clock.runFor(100);
+      await summary.hover();
+      await page.clock.runFor(200);
+      await expect(panel).toHaveAttribute('open', '');
+      await page.mouse.move(0, 0);
+      await page.clock.runFor(200);
+      await expect(panel).not.toHaveAttribute('open');
+    }
+  });
+
   test(`${locale}: primeiro clique confirma hover e segundo clique fecha submenu`, async ({
     page,
     javaScriptEnabled,
