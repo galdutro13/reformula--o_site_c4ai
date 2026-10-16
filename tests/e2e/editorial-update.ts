@@ -194,10 +194,15 @@ for (const locale of ['pt', 'en'] as const) {
   }) => {
     const required = aboutUpdate[locale];
     await page.goto(required.path);
-    const desktop = page.viewportSize()!.width >= 1050;
+    const width = page.viewportSize()!.width;
+    const columns = width >= 1100 ? 3 : width > 700 ? 2 : 1;
     const photos = page.locator(`#${required.leadership} img`);
     await expect(photos).toHaveCount(6);
-    await assertGridColumns(photos, desktop ? 3 : 1);
+    for (const id of ['leadership-executive', 'leadership-management']) {
+      const groupPhotos = page.locator(`#${required.leadership} #${id} img`);
+      await expect(groupPhotos).toHaveCount(3);
+      await assertGridColumns(groupPhotos, columns);
+    }
     const promos = page.locator('#Overlappable h3');
     await expect(promos).toHaveCount(2);
     await expect(page.locator('#Overlappable h2')).toHaveCount(1);
@@ -211,7 +216,7 @@ for (const locale of ['pt', 'en'] as const) {
     const required = aboutUpdate[locale];
     await page.goto(required.path);
     const leadership = page.locator(`#${required.leadership}`);
-    await expect(leadership.getByRole('heading', { level: 3 })).toHaveText([
+    await expect(leadership.getByRole('heading', { level: 4 })).toHaveText([
       ...required.people,
     ]);
     expect(

@@ -1,0 +1,57 @@
+---
+import Media from './Media.astro';
+import { aboutLeadershipContent } from '../content/about-leadership';
+import type { Locale } from '../i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const copy = aboutLeadershipContent[locale];
+---
+
+<section
+  class="about-leadership"
+  id={copy.id}
+  aria-labelledby="about-leadership-title"
+>
+  <header class="leadership-intro">
+    <h2 id="about-leadership-title">{copy.title}</h2>
+    <p>{copy.introduction}</p>
+  </header>
+  {copy.groups.map((group) => (
+    <section
+      class="leadership-group"
+      id={group.id}
+      aria-labelledby={`${group.id}-title`}
+    >
+      <h3 id={`${group.id}-title`}>{group.title}</h3>
+      <div class="leadership-grid">
+        {group.profiles.map((profile) => (
+          <article
+            class="leadership-card"
+            aria-labelledby={`leadership-${profile.id}`}
+          >
+            <Media
+              class="leadership-photo"
+              src={profile.image.src}
+              alt={profile.image.alt}
+            />
+            <header class="leadership-identity">
+              <h4 id={`leadership-${profile.id}`}>{profile.name}</h4>
+              <p class="leadership-role">{profile.role}</p>
+              <p class="leadership-affiliation">{profile.affiliation}</p>
+            </header>
+            <p class="leadership-biography">{profile.biography}</p>
+            {'link' in profile && (
+              <a class="leadership-card-link" href={profile.link.href}>
+                <span>{profile.link.label}</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+</section>
