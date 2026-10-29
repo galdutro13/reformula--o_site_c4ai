@@ -187,3 +187,36 @@ O [novo registro editorial](reformulation/2026-10-14-header-interactions/editori
 ## Retomada da conferência do cabeçalho — 14/10/2026
 
 O [registro da retomada](reformulation/2026-10-14-header-resume/validation.md) atualiza o estado da validação, preservando as notas históricas acima. Foram concluídos o `npm run quality` nas versões fixadas (21 testes de configuração e 726 de navegador) e oito novas capturas de zoom com setas estabilizadas. A conferência nativa em Safari 27.0.1 verificou os destinos e cliques, Escape desktop e o alinhamento dos quatro indicadores compactos em PT/EN. Hover isolado, sequência por Tab e matriz exata de larguras/artigos ainda exigem homologação no Safari, com limites e passos descritos no registro. A implementação permaneceu intacta.
+
+## Favicon circular — 29/10/2026
+
+Na primeira mudança da quarta fase, o mantenedor solicitou substituir o favicon tipográfico “C4” pelo logo circular do C4AI. `public/favicon.svg` reutiliza os três caminhos do símbolo de `public/media/c4ai-logo-figma.svg`, cuja [procedência e enquadramento estão documentados](reformulation/2026-10-14-logo-figma/validation.md). A geometria e a cor `#00707E` são preservadas; o favicon tem fundo transparente, sem o nome por extenso, e enquadramento quadrado com margem para evitar cortes em tamanhos pequenos.
+
+O endereço `/favicon.svg` e sua aplicação da base de publicação pelo layout compartilhado permanecem, atendendo PT/EN, raiz e 404 sem JavaScript adicional. A mudança não acrescenta dependências nem altera regras ou expectativas dos testes.
+
+A validação confirmou XML válido, três caminhos idênticos aos do símbolo do cabeçalho, fundo transparente e desenho inteiramente contido no enquadramento. A renderização em Chromium foi revisada em 16, 32 e 64 px, sobre fundos claro e escuro. `npm run quality` passou: formatação, ESLint/Stylelint com apenas o aviso de complexidade preexistente em `site.spec.ts`, Astro check sem diagnósticos, 21 testes de configuração, build estático de 38 páginas e 814 testes de navegador em 1,7 min. Safari e Firefox não foram verificados. Não houve commit, push ou publicação.
+
+## Acesso direto em português — 29/10/2026
+
+O mantenedor aprovou substituir a tela inicial de escolha de idioma pela Home portuguesa, mantendo o endereço principal `/` na barra do navegador. A entrada reutiliza o componente e o conteúdo da Home existente. O mapa estável passa a identificar a Home PT como `/` e mantém a Home EN em `/en/`; logo, Início, Português na Home inglesa e o retorno português da 404 acompanham esse destino.
+
+`/pt/` permanece disponível com o mesmo HTML estático da raiz, sem redirecionamento. Ambas as entradas portuguesas têm canonical `/`. Os três HTML das Homes usam hreflang PT `/`, EN `/en/` e x-default `/`, com aplicação da base de publicação. Trocas nas páginas internas e avisos de artigos sem tradução permanecem; os controles de idioma conservam sua posição no desktop e dentro do menu móvel. Não há detecção de idioma, armazenamento de preferência, dependências ou scripts adicionais. A classe de escolhas de idioma permanece necessária aos dois retornos da 404.
+
+O contrato independente substitui as expectativas da tela de escolha pelo conteúdo da Home, mantém 38 HTML e acrescenta o canonical explícito do alias. Os três trechos editoriais da Home portuguesa não mudam; sua associação passa à raiz e também é verificada no alias. Os testes de hero, cards e cabeçalho passam a validar a Home principal, com verificação adicional do contexto de navegação no alias. A [política de qualidade](quality.md#acesso-direto-em-português--29102026) documenta as substituições e os novos cenários, sem relaxar regras ou cobertura.
+
+**Validação final aprovada:** `npm run quality` foi executado no workspace com Node **24.21.0** e npm **11.19.0**, as versões fixadas pelo projeto. Formatação e lint passaram, permanecendo somente o aviso de complexidade do teste de metadados, agora 14 com limite 10; Astro check analisou 81 arquivos sem diagnósticos; os **22 testes de configuração** passaram, o build gerou **38 HTML** e os **826 testes de navegador** passaram em **1,8 min**, nos quatro projetos Chromium com/sem JavaScript. O [log integral](reformulation/2026-10-29-access-language/quality.txt) pertence a essa execução com as versões fixadas.
+
+O ambiente global tem Node 24.15.0/npm 11.12.1 e também passou pela suíte após as correções. Para a validação final, as versões fixadas foram preparadas em pasta temporária a partir das distribuições oficiais: SHA-256 de Node e integridade SHA-512 de npm conferidos, conforme a [procedência do runtime](reformulation/2026-10-29-access-language/runtime-provenance.json). A instalação global, as dependências e o lockfile do projeto não foram alterados.
+
+A revisão visual conferiu as duas Homes a 1440×900 e 390×844 em Chromium, com navegador `en-US` e JavaScript desabilitado: conteúdo direto em português na raiz, inglês em `/en/`, cabeçalhos e hero preservados, sem cortes ou tela intermediária. As capturas foram repetidas sobre o build das versões fixadas e coincidiram byte a byte com as revisadas. O favicon servido corresponde ao SVG circular preservado. Safari e Firefox não foram testados; a infraestrutura de publicação não foi modificada.
+
+| Home | Desktop                                                                  | Mobile                                                                 |
+| ---- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| PT   | [1440×900](reformulation/2026-10-29-access-language/home-pt-desktop.png) | [390×844](reformulation/2026-10-29-access-language/home-pt-mobile.png) |
+| EN   | [1440×900](reformulation/2026-10-29-access-language/home-en-desktop.png) | [390×844](reformulation/2026-10-29-access-language/home-en-mobile.png) |
+
+A prévia local foi reiniciada na raiz depois dos testes. Não houve commit, push ou publicação.
+
+Na primeira execução, `npm run quality` passou pela formatação e lint, mas parou na validação do conteúdo: o esquema anterior exigia `/pt/` ou `/en/` também para a Home portuguesa. O esquema foi atualizado para admitir `/` exclusivamente para Home PT com identificador de tradução `home`, com teste positivo e casos negativos independentes. As demais restrições de caminho permanecem. O endereço canônico esperado foi centralizado por entrada no teste de metadados, evitando repetição das condições.
+
+A segunda execução passou por formatação, lint, tipagem e 22 testes de configuração; nos testes de navegador, houve 818 aprovações e oito falhas no cenário de indicação de página atual. A expectativa antiga de ausência de item ativo em `/` foi substituída por Início ativo na raiz e no alias, já exigido no contrato manual. A repetição focada também detectou uma regressão na 404: o cabeçalho recebia o caminho padrão `/` e passou a marcar Início. O layout foi corrigido para usar `/404.html` como contexto de navegação nesse caso, preservando a exigência original de nenhum item ativo e a ausência de canonical/hreflang na página de erro.

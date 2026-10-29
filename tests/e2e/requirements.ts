@@ -3,7 +3,7 @@
 import articleRequirements from './article-requirements.json' with { type: 'json' };
 export const principalPages = [
   {
-    path: '/pt/',
+    path: '/',
     lang: 'pt-BR',
     title: 'C4AI | Início',
     heading:
@@ -16,7 +16,7 @@ export const principalPages = [
     title: 'C4AI | Home',
     heading:
       'A research center for advanced artificial intelligence in Brazil.',
-    pair: '/pt/',
+    pair: '/',
   },
   {
     path: '/pt/sobre/',
@@ -63,6 +63,7 @@ export const principalPages = [
 ] as const;
 export interface RequiredPage {
   path: string;
+  canonical?: string;
   lang: string;
   title: string;
   heading: string;
@@ -71,17 +72,19 @@ export interface RequiredPage {
 }
 export const requiredPages: RequiredPage[] = [
   {
-    path: '/',
+    path: '/pt/',
+    canonical: '/',
     lang: 'pt-BR',
-    title: 'C4AI | Português / English',
-    heading: 'Escolha seu idioma',
+    title: 'C4AI | Início',
+    heading:
+      'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
     description:
-      'Escolha o idioma do site do C4AI. Choose the language of the C4AI website.',
+      'O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).',
     pair: '/en/',
   },
   ...principalPages.map((p) => ({
     ...p,
-    description: ['/pt/', '/pt/pesquisas/'].includes(p.path)
+    description: ['/', '/pt/pesquisas/'].includes(p.path)
       ? 'O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).'
       : ['/en/', '/en/research/'].includes(p.path)
         ? 'C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance, with macro governance (AI and public policy) and micro governance (AI deployment and evaluation).'
@@ -339,7 +342,7 @@ export const researchSubareas = {
 // anteriores preservados; CTA e destinos definidos manualmente pelo requisito.
 export const homeHero = {
   pt: {
-    path: '/pt/',
+    path: '/',
     title:
       'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
     lang: 'pt-BR',
@@ -367,7 +370,7 @@ export const homeHero = {
 // separadas e hover desktop. Expectativas manuais, sem importar aplicação.
 export const globalHeader = {
   pt: {
-    path: '/pt/',
+    path: '/',
     pair: '/en/',
     mainName: 'Principal',
     mobileMainName: 'Principal móvel',
@@ -379,7 +382,7 @@ export const globalHeader = {
     currentLanguage: 'Português',
     otherLanguage: 'English',
     items: [
-      { label: 'Início', href: '/pt/' },
+      { label: 'Início', href: '/' },
       { label: 'Sobre', href: '/pt/sobre/' },
       { label: 'Pesquisas', href: '/pt/pesquisas/' },
       { label: 'Notícias', href: '/pt/noticias/' },
@@ -438,7 +441,8 @@ export const globalHeader = {
       },
     ],
     activePages: [
-      { path: '/pt/', href: '/pt/', current: 'page' },
+      { path: '/', href: '/', current: 'page' },
+      { path: '/pt/', href: '/', current: 'page' },
       {
         path: '/pt/sobre/',
         href: '/pt/sobre/',
@@ -464,7 +468,7 @@ export const globalHeader = {
   },
   en: {
     path: '/en/',
-    pair: '/pt/',
+    pair: '/',
     mainName: 'Main',
     mobileMainName: 'Mobile main',
     languageName: 'Language',
@@ -559,7 +563,7 @@ export const globalHeader = {
 // destinos congelados manualmente; não derivar das coleções ou componentes.
 export const homeResearch = {
   pt: {
-    path: '/pt/',
+    path: '/',
     title: 'Nossas linhas de pesquisa',
     cards: [
       {

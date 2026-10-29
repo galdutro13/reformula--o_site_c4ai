@@ -57,7 +57,8 @@ for (const locale of ['pt', 'en'] as const) {
     page,
   }) => {
     const researchPath = pt ? '/pt/pesquisas/' : '/en/research/';
-    await page.goto(`/${locale}/`);
+    const homePath = pt ? '/' : '/en/';
+    await page.goto(homePath);
     await expect(page.locator('main')).not.toContainText(
       /Nós nos preocupamos com diversidade e inclusão!|We care about diversity and inclusion!/,
     );
@@ -107,7 +108,7 @@ for (const locale of ['pt', 'en'] as const) {
       ).toBeVisible();
       await expect(section.locator('.group-records > [id]')).toHaveCount(1);
       await expect(section.locator(`#${subarea.record}`)).toHaveCount(1);
-      await page.goto(`/${locale}/`);
+      await page.goto(homePath);
     }
     await page.goto(researchPath);
     expect(

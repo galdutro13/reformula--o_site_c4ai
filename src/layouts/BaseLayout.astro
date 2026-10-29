@@ -29,6 +29,7 @@ const {
 } = Astro.props;
 const translations = Astro.props.translations ?? routes[pageId ?? 'home'];
 const canonical = withBase(path ?? (pageId ? routes[pageId][locale] : '/'));
+const currentPath = notFound ? withBase('/404.html') : canonical;
 const paired = Boolean(translations.pt && translations.en);
 ---
 
@@ -70,7 +71,7 @@ const paired = Boolean(translations.pt && translations.en);
     <Header
       locale={locale}
       translations={translations}
-      currentPath={canonical}
+      currentPath={currentPath}
     />
     <main id="main" tabindex="-1">
       <slot />

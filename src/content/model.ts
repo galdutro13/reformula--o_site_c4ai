@@ -116,7 +116,7 @@ export const editorialSchema = z
     locale: z.enum(['pt', 'en']),
     source: z.url(),
     retrievedAt: z.iso.datetime({ offset: true }),
-    path: z.string().regex(/^\/(pt|en)\//),
+    path: z.union([z.literal('/'), z.string().regex(/^\/(pt|en)\//)]),
     title: z.string().min(1),
     titleLang: z.enum(['pt-BR', 'en']).optional(),
     description: z.string().min(1),
@@ -139,7 +139,18 @@ export const editorialSchema = z
   .refine((entry) => entry.kind === 'home' || entry.blocks.length > 0, {
     message: 'Somente Home pode ter blocos editoriais adicionais vazios',
     path: ['blocks'],
-  });
+  })
+  .refine(
+    (entry) =>
+      entry.path !== '/' ||
+      (entry.kind === 'home' &&
+        entry.locale === 'pt' &&
+        entry.translationId === 'home'),
+    {
+      message: 'A raiz é reservada à Home portuguesa',
+      path: ['path'],
+    },
+  );
 
 const projectPanelSchema = z.object({
   id: z.string().min(1),

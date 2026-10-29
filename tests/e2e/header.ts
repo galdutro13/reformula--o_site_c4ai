@@ -416,13 +416,11 @@ for (const locale of ['pt', 'en'] as const) {
       await expect(current).toHaveAttribute('href', scenario.href);
       await expect(current).toHaveAttribute('aria-current', scenario.current);
     }
-    for (const path of ['/', '/404.html']) {
-      await page.goto(path);
-      const navigation = await visibleMainNavigation(page, 'pt');
-      await expect(
-        navigation.locator('a[aria-current], summary[data-current]'),
-      ).toHaveCount(0);
-    }
+    await page.goto('/404.html');
+    const navigation = await visibleMainNavigation(page, 'pt');
+    await expect(
+      navigation.locator('a[aria-current], summary[data-current]'),
+    ).toHaveCount(0);
   });
 
   test(`${locale}: navegação principal oferece foco visível, hover e retorno nativo à Home`, async ({

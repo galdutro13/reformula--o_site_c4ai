@@ -1,7 +1,7 @@
 import type { Locale } from './ui';
 
 export const routes = {
-  home: { pt: '/pt/', en: '/en/' },
+  home: { pt: '/', en: '/en/' },
   about: { pt: '/pt/sobre/', en: '/en/about/' },
   research: { pt: '/pt/pesquisas/', en: '/en/research/' },
   news: { pt: '/pt/noticias/', en: '/en/news/' },

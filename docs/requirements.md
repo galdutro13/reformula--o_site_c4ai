@@ -20,7 +20,15 @@ Permitir que outro desenvolvedor compreenda, execute, edite, valide e publique o
 | R10 | Layout responsivo sem transbordamento horizontal                          | Desktop 1440, mobile 390 e largura adicional 320                               |
 | R11 | Verificação única reproduzível e CI                                       | `npm run quality`, lockfile e workflow                                         |
 
-O favicon continua provisório. A identidade visual foi adaptada das referências existentes, com diferenças intencionais documentadas na migração; não representa nova aprovação institucional. A raiz oferece escolha de idioma, sem inferência por navegador, geolocalização ou JavaScript. A 404 usa português como idioma principal e marca seus trechos ingleses com `lang="en"`.
+O favicon usa o símbolo circular do logo C4AI presente no cabeçalho, conforme a [substituição de 29/10/2026](reformulation.md#favicon-circular--29102026). A identidade visual foi adaptada das referências existentes, com diferenças intencionais documentadas na migração; não representa nova aprovação institucional. Desde 29/10/2026, a raiz abre diretamente a Home portuguesa, conforme os requisitos de acesso abaixo. A 404 usa português como idioma principal e marca seus trechos ingleses com `lang="en"`.
+
+## Acesso direto e idioma — 29/10/2026
+
+O plano aprovado substitui a escolha inicial de idioma pela Home portuguesa em `/`, sem alterar a URL ou redirecionar o visitante. A Home inglesa continua em `/en/`; `/pt/` permanece como alias estático da Home portuguesa, sem redirecionamento. As duas entradas portuguesas usam canonical `/`; nas Homes, hreflang aponta para `/` em português e `/en/` em inglês, com x-default `/`. Todos esses caminhos incorporam a base de publicação.
+
+O idioma inicial é português mesmo com navegador configurado em inglês. Não há detecção por navegador/geolocalização nem armazenamento de preferência. Os controles existentes no cabeçalho e no menu móvel preservam a troca para a página equivalente; os avisos de artigos sem tradução permanecem. Logo, Início, Português na Home inglesa e retorno português da 404 apontam para `/` pelo mapa de identificadores estáveis.
+
+A lista obrigatória mantém 38 HTML, substituindo a entrada neutra por uma Home e incluindo explicitamente o alias `/pt/`. Conteúdo editorial, hero, cards, teclado, foco, acessibilidade, funcionamento com/sem JavaScript e publicação em subdiretório continuam obrigatórios. A mudança não acrescenta dependências ou scripts e tem [registro próprio](reformulation.md#acesso-direto-em-português--29102026).
 
 ## Reformulação de 22/09/2026
 

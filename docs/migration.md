@@ -1,6 +1,6 @@
 # Migração local do C4AI — 19/09/2026
 
-Esta entrega implementa o recorte aprovado nesta tarefa: **Home, Sobre, Pesquisas e Notícias em PT/EN e 26 artigos distintos (14 PT, 12 EN)**. São 38 documentos HTML: oito páginas principais, 26 artigos, duas páginas adicionais de paginação, entrada neutra e 404. Migração técnica não significa aprovação editorial nem autorização de publicação. O inventário de 12/09 e suas referências permanecem preservados.
+Esta entrega implementa o recorte aprovado nesta tarefa: **Home, Sobre, Pesquisas e Notícias em PT/EN e 26 artigos distintos (14 PT, 12 EN)**. Na migração inicial, os 38 documentos HTML eram oito páginas principais, 26 artigos, duas páginas adicionais de paginação, entrada neutra e 404. Desde 29/10/2026, a Home portuguesa ocupa a raiz e `/pt/` permanece como alias, mantendo os 38 HTML. Migração técnica não significa aprovação editorial nem autorização de publicação. O inventário de 12/09 e suas referências permanecem preservados.
 
 ## Fontes, rastreabilidade e cobertura
 
@@ -19,14 +19,16 @@ A suíte contém **787 trechos de texto congelados diretamente das fontes** em `
 
 | Fonte principal                              | Português local        | Inglês local       |
 | -------------------------------------------- | ---------------------- | ------------------ |
-| `/pt/inicio/` e `/`                          | `/pt/`                 | `/en/`             |
+| `/pt/inicio/` e `/`                          | `/` (alias `/pt/`)     | `/en/`             |
 | `/pt/sobre/` e `/about/`                     | `/pt/sobre/`           | `/en/about/`       |
 | `/pt/pesquisas_2/` e `/research_2/`          | `/pt/pesquisas/`       | `/en/research/`    |
 | `/pt/category/noticias/` e `/category/news/` | `/pt/noticias/`        | `/en/news/`        |
 | Artigos inventariados                        | `/pt/noticias/<slug>/` | `/en/news/<slug>/` |
 | Página 2 das listagens                       | `/pt/noticias/page/2/` | `/en/news/page/2/` |
 
-A raiz continua como escolha explícita de idioma. **É incompatível com um redirecionamento automático da antiga Home inglesa `/`**; essa decisão deve ser considerada no lançamento. O artigo sobre marco regulatório perde apenas o U+FFFC e o hífen residual do slug antigo `…-brasil-%ef%bf%bc/`, conforme mapa; seu texto não foi reescrito.
+A migração de 19/09/2026 usou a raiz como escolha explícita de idioma. Essa decisão foi substituída pelo [acesso direto aprovado em 29/10/2026](reformulation.md#acesso-direto-em-português--29102026): `/` serve a Home portuguesa sem redirecionamento; `/pt/` serve o mesmo HTML com canonical `/`; `/en/` é a Home inglesa. O mapa de URLs atualiza apenas o destino da antiga Home portuguesa. A equivalência editorial da antiga raiz inglesa com `/en/` permanece registrada, mas não configura um redirecionamento HTTP: no lançamento, a raiz abrirá em português e a versão inglesa terá acesso explícito em `/en/` e no cabeçalho.
+
+O artigo sobre marco regulatório perde apenas o U+FFFC e o hífen residual do slug antigo `…-brasil-%ef%bf%bc/`, conforme mapa; seu texto não foi reescrito.
 
 As quatro páginas principais têm pares completos obrigatórios. O único par de artigos confirmado neste recorte é o seminário de Luis Lamb; os demais 24 artigos não recebem tradução presumida. A interface informa a ausência e oferece um link separado para o índice de Notícias no outro idioma. Não há `hreflang` fictício para esses artigos. O par Lamb preserva a mistura de idiomas já presente no texto português; revisão linguística continua pendente.
 

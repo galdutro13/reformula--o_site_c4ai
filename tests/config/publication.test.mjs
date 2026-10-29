@@ -143,16 +143,18 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
       },
     );
     assert.equal(result.status, 0, result.stdout + result.stderr);
-    for (const locale of ['pt', 'en']) {
-      const html = readFileSync(join(output, locale, 'index.html'), 'utf8');
+    for (const [file, canonical, lang] of [
+      ['index.html', '/centro/', 'pt-BR'],
+      ['pt/index.html', '/centro/', 'pt-BR'],
+      ['en/index.html', '/centro/en/', 'en'],
+    ]) {
+      const html = readFileSync(join(output, file), 'utf8');
       assert.match(
         html,
-        new RegExp(`rel="canonical" href="https://usp.br/centro/${locale}/"`),
+        new RegExp(`rel="canonical" href="https://usp.br${canonical}"`),
       );
-      assert.match(
-        html,
-        /hreflang="pt-BR" href="https:\/\/usp.br\/centro\/pt\/"/,
-      );
+      assert.match(html, new RegExp(`<html lang="${lang}"`));
+      assert.match(html, /hreflang="pt-BR" href="https:\/\/usp.br\/centro\/"/);
       assert.match(html, /hreflang="en" href="https:\/\/usp.br\/centro\/en\/"/);
       assert.match(
         html,
@@ -160,11 +162,17 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
       );
       assert.match(html, /href="\/centro\/favicon.svg"/);
       assert.match(html, /href="\/centro\/_astro\//);
-      assert.match(html, /href="\/centro\/pt\/"/);
+      assert.match(html, /href="\/centro\/"/);
       assert.match(html, /href="\/centro\/en\/"/);
       assert.doesNotMatch(html, /name="robots"/);
+      assert.doesNotMatch(html, /http-equiv="refresh"|Escolha seu idioma/);
       assertHomeHeaderScript(html, output);
     }
+    assert.equal(
+      readFileSync(join(output, 'index.html'), 'utf8'),
+      readFileSync(join(output, 'pt/index.html'), 'utf8'),
+      'Raiz e alias devem publicar a mesma Home portuguesa',
+    );
     const files = readdirSync(output, { recursive: true, encoding: 'utf8' });
     for (const file of files.filter((f) => f.endsWith('.html'))) {
       const html = readFileSync(join(output, file), 'utf8');

@@ -1,10 +1,10 @@
 [
   {
     "source": "https://c4ai.inova.usp.br/pt/inicio/",
-    "destination": "/pt/",
+    "destination": "/",
     "locale": "pt",
     "translationId": "home",
-    "status": "Implementado localmente; sem redirecionamento de servidor"
+    "status": "Home portuguesa na raiz desde 29/10/2026; /pt/ preservado como alias, sem redirecionamento de servidor"
   },
   {
     "source": "https://c4ai.inova.usp.br/pt/sobre/",

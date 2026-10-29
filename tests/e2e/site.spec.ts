@@ -22,6 +22,7 @@ import './home-hero';
 import './about-intro';
 import './about-overview';
 import './about-leadership';
+import './access-entry';
 import { openMobileHeader } from './header';
 const origin = 'http://127.0.0.1:4321';
 const compact = (value: string) => value.replace(/\s/g, '');
@@ -33,10 +34,12 @@ test.beforeEach(async ({ page }) => {
   );
 });
 for (const required of requiredPages) {
+  const canonical = required.canonical ?? required.path;
   test(`${required.path}: conteúdo, metadados e estrutura`, async ({
     page,
   }) => {
     expect((await page.goto(required.path))?.status()).toBe(200);
+    await expect(page).toHaveURL(required.path);
     await expect(page).toHaveTitle(required.title);
     await expect(page.locator('html')).toHaveAttribute('lang', required.lang);
     await expect(page.getByRole('main')).toBeVisible();
@@ -66,18 +69,13 @@ for (const required of requiredPages) {
     } else {
       await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
         'href',
-        origin + required.path,
+        origin + canonical,
       );
       await expect(page.locator('link[rel="alternate"]')).toHaveCount(
         required.pair ? 3 : 0,
       );
       if (required.pair) {
-        const pt =
-          required.path === '/'
-            ? '/pt/'
-            : required.lang === 'pt-BR'
-              ? required.path
-              : required.pair;
+        const pt = required.lang === 'pt-BR' ? canonical : required.pair;
         const en = required.lang === 'en' ? required.path : required.pair;
         for (const [lang, path] of Object.entries({
           'pt-BR': pt,
@@ -99,7 +97,7 @@ for (const required of requiredPages) {
         article.dateLabel,
       );
     }
-    const expected = editorial.find((e) => e.path === required.path);
+    const expected = editorial.find((e) => e.path === canonical);
     if (expected) {
       const text = compact((await page.locator('main').textContent()) ?? '');
       for (const fragment of expected.texts)
@@ -269,20 +267,10 @@ for (const locale of ['pt', 'en'] as const) {
     await expect(page).toHaveURL(pt ? '/en/news/' : '/pt/noticias/');
   });
 }
-test('escolha de idioma, recuperação da 404 e salto por teclado', async ({
+test('entrada direta, recuperação da 404 e salto por teclado', async ({
   page,
 }) => {
   await page.goto('/');
-  await page
-    .getByRole('link', { name: 'Continue in English', exact: true })
-    .click();
-  await expect(page).toHaveURL('/en/');
-  await page.goto('/');
-  await page
-    .getByRole('link', { name: 'Continuar em português', exact: true })
-    .click();
-  await expect(page).toHaveURL('/pt/');
-  await page.goto('/pt/');
   await page.keyboard.press('Tab');
   const skip = page.getByRole('link', { name: 'Pular para o conteúdo' });
   await expect(skip).toBeFocused();
@@ -382,7 +370,7 @@ test('par real de artigos: seletor explícito e retorno', async ({ page }) => {
 for (const scenario of [
   {
     locale: 'pt',
-    home: '/pt/',
+    home: '/',
     research: '/pt/pesquisas/',
     titles: [
       'Processamento de linguagem natural para as línguas do Brasil',
