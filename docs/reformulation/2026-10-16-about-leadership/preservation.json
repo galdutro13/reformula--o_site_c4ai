@@ -1,0 +1,324 @@
+{
+  "generatedAt": "2026-10-16T15:32:21.842Z",
+  "baseCommit": "46f033d214460fd04b4883bbc895adcd65c76344",
+  "locales": [
+    {
+      "locale": "pt",
+      "previousLeadershipId": "lideranca",
+      "currentLeadershipId": "lideranca",
+      "unchangedFields": [
+        {
+          "field": "id",
+          "unchanged": true
+        },
+        {
+          "field": "kind",
+          "unchanged": true
+        },
+        {
+          "field": "locale",
+          "unchanged": true
+        },
+        {
+          "field": "source",
+          "unchanged": true
+        },
+        {
+          "field": "retrievedAt",
+          "unchanged": true
+        },
+        {
+          "field": "path",
+          "unchanged": true
+        },
+        {
+          "field": "translationId",
+          "unchanged": true
+        },
+        {
+          "field": "title",
+          "unchanged": true
+        },
+        {
+          "field": "heroBlocks",
+          "unchanged": true
+        },
+        {
+          "field": "promos",
+          "unchanged": true
+        },
+        {
+          "field": "heroImages",
+          "unchanged": true
+        },
+        {
+          "field": "description",
+          "unchanged": true
+        }
+      ],
+      "followingSectionsIdentical": true,
+      "sameSixPortraitsAndOrder": true,
+      "sameThreeDestinations": true,
+      "sameGroupIds": true,
+      "portraits": [
+        {
+          "src": "/media/efe3a205cbf2.jpg",
+          "sha256": "b349da4e08b4f3f8f4dd202ab1286b3948c0887af4a2c4a5fb323b6cb6829eac",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/f907124dd99d.jpg",
+          "sha256": "51376f475ea62e9ae677ea29c04fce277967b4ebe0bdc36e066342af790f1b73",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/b6008f555305.jpg",
+          "sha256": "2d60c6a0d5bfdb9aafd4e4bc3953f5e33b208526e8acf79dd7ef524f24a77ad7",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/c071e689c793.jpg",
+          "sha256": "ef077b44984aa9b5a6dd3dc58541270b35c48fcc6fadc6b154cd4be77e31b079",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/73844d6075ec.jpg",
+          "sha256": "9aa92f94acb810ff2856c1ddca660755b5c46c52b3b389dfce3d7d356c700d03",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/109798fa012e.jpg",
+          "sha256": "ffc77e68aee6d140f5454d180bccdeadeb069b69bddcb8051e8fc313795d1418",
+          "unchangedFromPublishedBase": true
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "previousLeadershipId": "leadership",
+      "currentLeadershipId": "leadership",
+      "unchangedFields": [
+        {
+          "field": "id",
+          "unchanged": true
+        },
+        {
+          "field": "kind",
+          "unchanged": true
+        },
+        {
+          "field": "locale",
+          "unchanged": true
+        },
+        {
+          "field": "source",
+          "unchanged": true
+        },
+        {
+          "field": "retrievedAt",
+          "unchanged": true
+        },
+        {
+          "field": "path",
+          "unchanged": true
+        },
+        {
+          "field": "translationId",
+          "unchanged": true
+        },
+        {
+          "field": "title",
+          "unchanged": true
+        },
+        {
+          "field": "heroBlocks",
+          "unchanged": true
+        },
+        {
+          "field": "promos",
+          "unchanged": true
+        },
+        {
+          "field": "heroImages",
+          "unchanged": true
+        },
+        {
+          "field": "description",
+          "unchanged": true
+        }
+      ],
+      "followingSectionsIdentical": true,
+      "sameSixPortraitsAndOrder": true,
+      "sameThreeDestinations": true,
+      "sameGroupIds": true,
+      "portraits": [
+        {
+          "src": "/media/efe3a205cbf2.jpg",
+          "sha256": "b349da4e08b4f3f8f4dd202ab1286b3948c0887af4a2c4a5fb323b6cb6829eac",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/f907124dd99d.jpg",
+          "sha256": "51376f475ea62e9ae677ea29c04fce277967b4ebe0bdc36e066342af790f1b73",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/b6008f555305.jpg",
+          "sha256": "2d60c6a0d5bfdb9aafd4e4bc3953f5e33b208526e8acf79dd7ef524f24a77ad7",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/c071e689c793.jpg",
+          "sha256": "ef077b44984aa9b5a6dd3dc58541270b35c48fcc6fadc6b154cd4be77e31b079",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/73844d6075ec.jpg",
+          "sha256": "9aa92f94acb810ff2856c1ddca660755b5c46c52b3b389dfce3d7d356c700d03",
+          "unchangedFromPublishedBase": true
+        },
+        {
+          "src": "/media/109798fa012e.jpg",
+          "sha256": "ffc77e68aee6d140f5454d180bccdeadeb069b69bddcb8051e8fc313795d1418",
+          "unchangedFromPublishedBase": true
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "src/components/AboutActivities.astro",
+      "beforeSha256": "bd7d089686b3b7a60e3896d47068884769131ddc241d472ee1b5a65b5c438460",
+      "afterSha256": "bd7d089686b3b7a60e3896d47068884769131ddc241d472ee1b5a65b5c438460",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/AboutOverview.astro",
+      "beforeSha256": "4048b8443ed253da780b27b6c02c36c69dcd5866f84201ae4012b5dc3577c8a4",
+      "afterSha256": "4048b8443ed253da780b27b6c02c36c69dcd5866f84201ae4012b5dc3577c8a4",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/about-intro.ts",
+      "beforeSha256": "9bd83e35b99a52197b35d7572631b76ee8fd411dc263a339a56a539cb22e620f",
+      "afterSha256": "9bd83e35b99a52197b35d7572631b76ee8fd411dc263a339a56a539cb22e620f",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/about-overview.ts",
+      "beforeSha256": "6346df89ff2f64ad3287d7e6c8ff37c8e903e96106bb2487785c54af5bf2ff99",
+      "afterSha256": "6346df89ff2f64ad3287d7e6c8ff37c8e903e96106bb2487785c54af5bf2ff99",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/about-overview.css",
+      "beforeSha256": "011dfe1852bad33e0c5f3c3770581ee28b1e8fc33bc470238670a483a6254ecd",
+      "afterSha256": "011dfe1852bad33e0c5f3c3770581ee28b1e8fc33bc470238670a483a6254ecd",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Header.astro",
+      "beforeSha256": "afd0f2df088d12a3711676897a0d9c4df5864d92a46ff98e0880ae7a895bae0d",
+      "afterSha256": "afd0f2df088d12a3711676897a0d9c4df5864d92a46ff98e0880ae7a895bae0d",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Footer.astro",
+      "beforeSha256": "83aa5a297bf4d9de0e666e84a9a9d5d948d1785cfc979550fedb458cd46532cc",
+      "afterSha256": "83aa5a297bf4d9de0e666e84a9a9d5d948d1785cfc979550fedb458cd46532cc",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/navigation.css",
+      "beforeSha256": "4b791648ba83cb2966acafe8e71e80f37014deda659f4fb718b7f5cb5a2b7c2b",
+      "afterSha256": "4b791648ba83cb2966acafe8e71e80f37014deda659f4fb718b7f5cb5a2b7c2b",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/pages/home-pt.json",
+      "beforeSha256": "8fb85099a54803bf05209109d3fa456692cbf87dcb8e2ead356831e090d14e19",
+      "afterSha256": "8fb85099a54803bf05209109d3fa456692cbf87dcb8e2ead356831e090d14e19",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/pages/home-en.json",
+      "beforeSha256": "72cd44f132077153ca0b507d23ad30eeb4cf9d0f8e4a674550f01582e43f1724",
+      "afterSha256": "72cd44f132077153ca0b507d23ad30eeb4cf9d0f8e4a674550f01582e43f1724",
+      "unchanged": true
+    },
+    {
+      "path": "tests/e2e/about-intro.ts",
+      "beforeSha256": "8ba402f86c54717f25f56cedc5463c633f78618cfa7e2c5033713db672c43d5d",
+      "afterSha256": "8ba402f86c54717f25f56cedc5463c633f78618cfa7e2c5033713db672c43d5d",
+      "unchanged": true
+    },
+    {
+      "path": "tests/e2e/about-overview.ts",
+      "beforeSha256": "138f62ce3f297df3b7a69d346e583abd1f47ff1f231319d35c2b71fefe07b096",
+      "afterSha256": "138f62ce3f297df3b7a69d346e583abd1f47ff1f231319d35c2b71fefe07b096",
+      "unchanged": true
+    }
+  ],
+  "dependenciesUnchanged": true,
+  "editorialFixture": {
+    "entriesBefore": 34,
+    "entriesAfter": 34,
+    "unchangedOtherPages": true,
+    "changedAbout": [
+      {
+        "path": "/pt/sobre/",
+        "textsBefore": 23,
+        "textsAfter": 23,
+        "replacedTexts": [
+          "Engenheiro (Escola Politécnica – USP) e Doutor (School of Computer Science, Carnegie Mellon University, EUA). Professor Titular da Escola Politécnica – USP.",
+          "PhD. em Ciência da Computação (Sistemas de IA Neuro-Simbólicos Híbridos) pelo Institut National Polytechique de Grenoble – INPG/IMAG, França (1998). Professor e Pesquisador do Instituto ICMC (Departamento de Computação) na USP – Universidade de São Paulo / Campus São Carlos.",
+          "Bacharel em Administração (FGV – SP,1983) e Ciências Sociais (USP, 1987), Mestre em Ciências Políticas pela USP (1994) e PhD. em Ciências Políticas pela Universidade de São Paulo (1999). Atualmente é professor assistente da Faculdade de Filosofia, Letras e Ciências Humanas (FFLCH – USP).",
+          "Formando em Engenharia Eletrônica pela Faculdade de Engenharia Industrial (FEI), com MBA em Engenharia da Qualidade pela Escola Politécnica da USP (EP-USP) e em Gestão Pública pela Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto (FEARP).",
+          "Bacharel em Design Arquitetônico e Urbanístico (1999) e Mestre em Engenharia de Segurança do Trabalho (2006). Analista de Comunicação, Designer Digital e Gerente de Mídia da USP desde 2006.",
+          "Técnica em secretariado pela ETEC e graduada em administração pela ESAN/FEI.",
+          "O C4AI é coordenado por um Comitê Executivo.",
+          "Coordenador de Impacto João Paulo Veiga, USP (atuação)"
+        ],
+        "replacementTexts": [
+          "Engenheiro pela Escola Politécnica da USP e doutor pela Carnegie Mellon University. Professor titular da Escola Politécnica da USP.",
+          "Doutor em Ciência da Computação pelo Institut National Polytechnique de Grenoble, França. Professor e pesquisador do ICMC-USP, em São Carlos, com atuação em inteligência artificial e robótica.",
+          "Bacharel em Ciências Sociais, mestre e doutor em Ciência Política pela USP. Professor do Departamento de Ciência Política da FFLCH-USP e do Instituto de Relações Internacionais da USP.",
+          "Estudos em Engenharia Eletrônica na FEI, com MBA em Engenharia da Qualidade pela Escola Politécnica da USP e formação em Gestão Pública pela FEARP-USP.",
+          "Bacharel em Design Arquitetônico e Urbanístico e mestre em Engenharia de Segurança do Trabalho. Atua em comunicação, design digital e mídia na USP desde 2006.",
+          "Técnica em Secretariado pela ETEC e graduada em Administração pela ESAN/FEI.",
+          "Conheça os profissionais responsáveis pela direção, coordenação, gestão e apoio administrativo do C4AI.",
+          "Coordenador de Impacto (atuação)"
+        ],
+        "imagesUnchanged": true,
+        "linksUnchanged": true
+      },
+      {
+        "path": "/en/about/",
+        "textsBefore": 24,
+        "textsAfter": 24,
+        "replacedTexts": [
+          "Engineer (Escola Politécnica – USP) and PhD (School of Computer Science, Carnegie Mellon University, USA). Full Professor at Escola Politécnica – USP.",
+          "PhD. in Computer Science (AI Hybrid Neuro-Symbolic Systems) from Institut National Polytechique de Grenoble – INPG/IMAG, France (1998). Professor and Researcher of the ICMC Institute (Computing Dept.) at USP – University of São Paulo / Campus São Carlos.",
+          "He holds bachelor's degrees in Business Administration (FGV – SP, 1983) and Social Sciences (USP, 1987), a master's degree in Political Science from USP (1994), and a PhD in Political Science from the University of São Paulo (1999). He is currently an assistant professor at the Faculty of Philosophy, Letters and Human Sciences (FFLCH – USP).",
+          "Bachelor in Electronics/Electrical Engineering from Faculdade de Engenharia Industrial (FEI) with a MBA in Quality Engineering from Escola Politécnica da USP (EP-USP) and Public Management from Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto (FEARP).",
+          "Bachelor in Urban and Architectural Design (1999) and Master in Work’s Security Engineer (2006). Communication Analyst, Digital Designer and Media Manager at USP since 2006.",
+          "Bachelor in business administration from ESAN/FEI Business School with technical formation in secretariat from ETEC.",
+          "C4AI is coordinated by an Executive Committee.",
+          "Impact Coordinator João Paulo Veiga, USP (acting)"
+        ],
+        "replacementTexts": [
+          "Engineer from USP’s Polytechnic School and PhD from Carnegie Mellon University. Full professor at USP’s Polytechnic School.",
+          "PhD in Computer Science from Institut National Polytechnique de Grenoble, France. Professor and researcher at ICMC-USP in São Carlos, working in artificial intelligence and robotics.",
+          "Bachelor’s degree in Social Sciences and a master’s degree and PhD in Political Science from USP. Professor at USP’s Department of Political Science (FFLCH) and Institute of International Relations.",
+          "Studies in Electronic Engineering at FEI, with an MBA in Quality Engineering from USP’s Polytechnic School and training in Public Management at FEARP-USP.",
+          "Bachelor’s degree in Architectural and Urban Design and a master’s degree in Occupational Safety Engineering. Has worked in communication, digital design and media at USP since 2006.",
+          "Technical training in Secretarial Studies at ETEC and a degree in Business Administration from ESAN/FEI.",
+          "Meet the professionals responsible for C4AI’s direction, coordination, management and administrative support.",
+          "Impact Coordinator (acting)"
+        ],
+        "imagesUnchanged": true,
+        "linksUnchanged": true
+      }
+    ]
+  }
+}

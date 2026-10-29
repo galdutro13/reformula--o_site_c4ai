@@ -1,0 +1,203 @@
+.about-overview {
+  display: grid;
+  gap: 3rem;
+  margin-block: 2rem 1.5rem;
+}
+
+.about-presentation,
+.about-location {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: clamp(2.5rem, 4vw, 4rem);
+}
+
+.about-presentation-copy,
+.about-location-copy {
+  min-width: 0;
+}
+
+.about-presentation h2 {
+  margin: 0 0 1.25rem;
+  font-size: 3.25rem;
+  line-height: 1.15;
+}
+
+.about-overview p {
+  margin: 0 0 1.125rem;
+  line-height: 1.6;
+}
+
+.about-presentation-image,
+.about-location-image {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.about-presentation-image {
+  height: 20rem;
+  object-position: center 65%;
+}
+
+.about-institution-details {
+  margin-top: 1.25rem;
+}
+
+.about-institution-details summary,
+.about-directions-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 2.75rem;
+  color: var(--color-accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.about-institution-details summary {
+  list-style: none;
+}
+
+.about-institution-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.about-institution-details summary:is(:hover, :focus-visible),
+.about-directions-link:is(:hover, :focus-visible) {
+  text-decoration-thickness: 0.15em;
+}
+
+.about-institution-details[open] .about-details-arrow {
+  transform: rotate(90deg);
+}
+
+.about-institution-body {
+  padding-top: 1rem;
+}
+
+.about-institution-body p {
+  margin-bottom: 0;
+}
+
+.about-principles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.about-principle {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border: 1px solid #cfe0e3;
+  border-radius: 0.5rem;
+  background: #f1f7f8;
+}
+
+.about-principle-icon {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: var(--color-accent);
+  background: #d9eaed;
+}
+
+.about-principle h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.about-principle p {
+  margin: 0;
+}
+
+.about-location {
+  padding-top: 2rem;
+  border-top: 1px solid #cfe0e3;
+}
+
+.about-location-image {
+  order: -1;
+  height: 16rem;
+  object-position: center bottom;
+}
+
+.about-location .about-location-label {
+  margin-bottom: 0.5rem;
+  color: var(--color-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about-location h2 {
+  margin: 0 0 1.25rem;
+  font-size: 2.25rem;
+}
+
+.about-location address {
+  display: grid;
+  margin-block: 1.25rem;
+  font-size: 0.95rem;
+  font-style: normal;
+}
+
+@media (width <= 900px) {
+  .about-overview {
+    gap: 2rem;
+  }
+
+  .about-presentation,
+  .about-principles,
+  .about-location {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .about-presentation h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-location h2 {
+    font-size: 2rem;
+  }
+
+  .about-presentation-image {
+    height: clamp(14rem, 45vw, 20rem);
+  }
+
+  .about-location-image {
+    order: 0;
+    height: clamp(14rem, 40vw, 16rem);
+  }
+
+  .about-principle {
+    padding: 1.25rem;
+  }
+}
+
+@media (width <= 600px) {
+  .about-principle {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .about-principle-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .about-principle-icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

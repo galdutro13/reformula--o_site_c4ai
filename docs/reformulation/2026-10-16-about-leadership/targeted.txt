@@ -1,0 +1,87 @@
+[WebServer] (node:5643) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 48 tests using 4 workers
+
+(node:5647) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5646) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5645) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [desktop] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (533ms)
+  ✓   4 [desktop] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (533ms)
+  ✓   2 [desktop] › tests/e2e/editorial-update.ts:212:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (635ms)
+  ✓   1 [desktop] › tests/e2e/editorial-update.ts:212:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (635ms)
+  ✓   8 [desktop] › tests/e2e/about-leadership.ts:205:3 › pt: links institucionais da liderança mantêm ordem e foco pelo teclado (354ms)
+  ✓   5 [desktop] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (465ms)
+  ✓   6 [desktop] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (480ms)
+  ✓  11 [desktop] › tests/e2e/about-leadership.ts:205:3 › en: links institucionais da liderança mantêm ordem e foco pelo teclado (399ms)
+  ✓   7 [desktop] › tests/e2e/about-leadership.ts:125:3 › pt: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (849ms)
+(node:5703) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [desktop] › tests/e2e/about-leadership.ts:125:3 › en: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (795ms)
+  ✓   9 [desktop] › tests/e2e/about-leadership.ts:223:3 › pt: cartões da liderança alinham retratos e texto em três, duas e uma colunas (857ms)
+  ✓  12 [desktop] › tests/e2e/about-leadership.ts:223:3 › en: cartões da liderança alinham retratos e texto em três, duas e uma colunas (568ms)
+(node:5705) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5707) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [mobile] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (186ms)
+(node:5711) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [mobile] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (308ms)
+  ✓  16 [mobile] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (268ms)
+  ✓  15 [mobile] › tests/e2e/editorial-update.ts:212:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (432ms)
+  ✓  18 [mobile] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (564ms)
+  ✓  20 [mobile] › tests/e2e/about-leadership.ts:205:3 › pt: links institucionais da liderança mantêm ordem e foco pelo teclado (346ms)
+  ✓  17 [mobile] › tests/e2e/editorial-update.ts:212:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (589ms)
+  ✓  23 [mobile] › tests/e2e/about-leadership.ts:205:3 › en: links institucionais da liderança mantêm ordem e foco pelo teclado (272ms)
+  ✓  19 [mobile] › tests/e2e/about-leadership.ts:125:3 › pt: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (804ms)
+  ✓  22 [mobile] › tests/e2e/about-leadership.ts:125:3 › en: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (558ms)
+(node:5732) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [mobile] › tests/e2e/about-leadership.ts:223:3 › pt: cartões da liderança alinham retratos e texto em três, duas e uma colunas (708ms)
+(node:5733) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  24 [mobile] › tests/e2e/about-leadership.ts:223:3 › en: cartões da liderança alinham retratos e texto em três, duas e uma colunas (561ms)
+(node:5735) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  25 [desktop-no-js] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (297ms)
+(node:5740) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  28 [desktop-no-js] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (362ms)
+  ✓  26 [desktop-no-js] › tests/e2e/editorial-update.ts:212:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (475ms)
+  ✓  27 [desktop-no-js] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (387ms)
+  ✓  32 [desktop-no-js] › tests/e2e/about-leadership.ts:205:3 › pt: links institucionais da liderança mantêm ordem e foco pelo teclado (303ms)
+  ✓  30 [desktop-no-js] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (401ms)
+  ✓  29 [desktop-no-js] › tests/e2e/editorial-update.ts:212:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (580ms)
+  ✓  31 [desktop-no-js] › tests/e2e/about-leadership.ts:125:3 › pt: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (737ms)
+  ✓  35 [desktop-no-js] › tests/e2e/about-leadership.ts:205:3 › en: links institucionais da liderança mantêm ordem e foco pelo teclado (255ms)
+  ✓  34 [desktop-no-js] › tests/e2e/about-leadership.ts:125:3 › en: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (664ms)
+(node:5760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  33 [desktop-no-js] › tests/e2e/about-leadership.ts:223:3 › pt: cartões da liderança alinham retratos e texto em três, duas e uma colunas (758ms)
+  ✓  36 [desktop-no-js] › tests/e2e/about-leadership.ts:223:3 › en: cartões da liderança alinham retratos e texto em três, duas e uma colunas (597ms)
+(node:5762) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5765) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  37 [mobile-no-js] › tests/e2e/editorial-update.ts:192:3 › pt: destaques e liderança respeitam colunas e ordem visual (235ms)
+(node:5794) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  39 [mobile-no-js] › tests/e2e/language-projects.ts:122:3 › pt: projetos de línguas têm título dominante, resumo, frentes e liderança separados (342ms)
+  ✓  40 [mobile-no-js] › tests/e2e/editorial-update.ts:192:3 › en: destaques e liderança respeitam colunas e ordem visual (265ms)
+  ✓  38 [mobile-no-js] › tests/e2e/editorial-update.ts:212:3 › pt: Sobre preserva seis lideranças, fotografias, Difusão e contato (425ms)
+  ✓  44 [mobile-no-js] › tests/e2e/about-leadership.ts:205:3 › pt: links institucionais da liderança mantêm ordem e foco pelo teclado (268ms)
+  ✓  42 [mobile-no-js] › tests/e2e/language-projects.ts:122:3 › en: projetos de línguas têm título dominante, resumo, frentes e liderança separados (400ms)
+  ✓  41 [mobile-no-js] › tests/e2e/editorial-update.ts:212:3 › en: Sobre preserva seis lideranças, fotografias, Difusão e contato (432ms)
+  ✓  43 [mobile-no-js] › tests/e2e/about-leadership.ts:125:3 › pt: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (738ms)
+  ✓  47 [mobile-no-js] › tests/e2e/about-leadership.ts:205:3 › en: links institucionais da liderança mantêm ordem e foco pelo teclado (347ms)
+  ✓  46 [mobile-no-js] › tests/e2e/about-leadership.ts:125:3 › en: liderança distingue grupos, nomes, cargos e biografias nos seis cartões (658ms)
+  ✓  45 [mobile-no-js] › tests/e2e/about-leadership.ts:223:3 › pt: cartões da liderança alinham retratos e texto em três, duas e uma colunas (788ms)
+  ✓  48 [mobile-no-js] › tests/e2e/about-leadership.ts:223:3 › en: cartões da liderança alinham retratos e texto em três, duas e uma colunas (476ms)
+
+  48 passed (9.2s)

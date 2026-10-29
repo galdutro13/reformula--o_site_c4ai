@@ -64,13 +64,6 @@
   font-size: 2rem;
 }
 
-.page-about .page-hero {
-  min-height: 23rem;
-  display: grid;
-  align-items: center;
-  text-align: center;
-}
-
 .page-research .hero-inner {
   max-width: 58rem;
   text-align: center;
@@ -83,10 +76,6 @@
 .page-home .source-content {
   text-align: center;
   padding-top: 0;
-}
-
-.page-about .hero-inner {
-  max-width: 52rem;
 }
 
 .promotional-cards .layout-section {

@@ -1,0 +1,554 @@
+[
+  {
+    "locale": "pt",
+    "label": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 1440,
+      "height": 1213
+    },
+    "javaScriptEnabled": false,
+    "top": 1713.953125,
+    "height": 1180.984375,
+    "width": 1216,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 112,
+        "width": 389.328125,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 525.328125,
+        "width": 389.328125,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 938.65625,
+        "width": 389.34375,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 112,
+        "width": 389.328125,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 525.328125,
+        "width": 389.328125,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 938.65625,
+        "width": 389.34375,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-pt-desktop.png",
+    "capturedAt": "2026-10-16T15:30:29.500Z"
+  },
+  {
+    "locale": "pt",
+    "label": "tablet",
+    "viewport": {
+      "width": 900,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 900,
+      "height": 2032
+    },
+    "javaScriptEnabled": false,
+    "top": 2385.125,
+    "height": 1999.953125,
+    "width": 852,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 24,
+        "width": 414,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 462,
+        "width": 414,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 24,
+        "width": 414,
+        "height": 437.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 24,
+        "width": 414,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 462,
+        "width": 414,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 24,
+        "width": 414,
+        "height": 344.921875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-pt-tablet.png",
+    "capturedAt": "2026-10-16T15:30:30.201Z"
+  },
+  {
+    "locale": "pt",
+    "label": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 390,
+      "height": 3034
+    },
+    "javaScriptEnabled": false,
+    "top": 2769.5625,
+    "height": 3001.453125,
+    "width": 358,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 16,
+        "width": 358,
+        "height": 437.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 16,
+        "width": 358,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 16,
+        "width": 358,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 16,
+        "width": 358,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 16,
+        "width": 358,
+        "height": 417.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 16,
+        "width": 358,
+        "height": 365.921875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-pt-mobile.png",
+    "capturedAt": "2026-10-16T15:30:30.844Z"
+  },
+  {
+    "locale": "pt",
+    "label": "narrow",
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 320,
+      "height": 3232
+    },
+    "javaScriptEnabled": false,
+    "top": 3047.109375,
+    "height": 3199.328125,
+    "width": 288,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 16,
+        "width": 288,
+        "height": 437.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 16,
+        "width": 288,
+        "height": 510.484375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 16,
+        "width": 288,
+        "height": 510.171875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 16,
+        "width": 288,
+        "height": 417.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 16,
+        "width": 288,
+        "height": 442.171875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 16,
+        "width": 288,
+        "height": 390.234375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-pt-narrow.png",
+    "capturedAt": "2026-10-16T15:30:31.540Z"
+  },
+  {
+    "locale": "en",
+    "label": "desktop",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 1440,
+      "height": 1238
+    },
+    "javaScriptEnabled": false,
+    "top": 1688.359375,
+    "height": 1205.296875,
+    "width": 1216,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 112,
+        "width": 389.328125,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 525.328125,
+        "width": 389.328125,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 938.65625,
+        "width": 389.34375,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 112,
+        "width": 389.328125,
+        "height": 417.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 525.328125,
+        "width": 389.328125,
+        "height": 417.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 938.65625,
+        "width": 389.34375,
+        "height": 417.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-en-desktop.png",
+    "capturedAt": "2026-10-16T15:38:05.137Z"
+  },
+  {
+    "locale": "en",
+    "label": "tablet",
+    "viewport": {
+      "width": 900,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 900,
+      "height": 2008
+    },
+    "javaScriptEnabled": false,
+    "top": 2359.53125,
+    "height": 1975.640625,
+    "width": 852,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 24,
+        "width": 414,
+        "height": 437.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 462,
+        "width": 414,
+        "height": 437.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 24,
+        "width": 414,
+        "height": 437.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 24,
+        "width": 414,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 462,
+        "width": 414,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 24,
+        "width": 414,
+        "height": 344.921875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-en-tablet.png",
+    "capturedAt": "2026-10-16T15:38:05.979Z"
+  },
+  {
+    "locale": "en",
+    "label": "mobile",
+    "viewport": {
+      "width": 390,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 390,
+      "height": 3062
+    },
+    "javaScriptEnabled": false,
+    "top": 2743.96875,
+    "height": 3029.453125,
+    "width": 358,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 16,
+        "width": 358,
+        "height": 413.234375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 16,
+        "width": 358,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 16,
+        "width": 358,
+        "height": 461.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 16,
+        "width": 358,
+        "height": 393.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 16,
+        "width": 358,
+        "height": 417.859375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 16,
+        "width": 358,
+        "height": 390.234375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-en-mobile.png",
+    "capturedAt": "2026-10-16T15:38:06.816Z"
+  },
+  {
+    "locale": "en",
+    "label": "narrow",
+    "viewport": {
+      "width": 320,
+      "height": 900
+    },
+    "captureViewport": {
+      "width": 320,
+      "height": 3311
+    },
+    "javaScriptEnabled": false,
+    "top": 2919.53125,
+    "height": 3278.34375,
+    "width": 288,
+    "cards": [
+      {
+        "name": "Fabio Cozman",
+        "x": 16,
+        "width": 288,
+        "height": 437.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Fernando Osório",
+        "x": 16,
+        "width": 288,
+        "height": 486.171875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "João Paulo Veiga",
+        "x": 16,
+        "width": 288,
+        "height": 510.484375,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Jairo Carlos Filho",
+        "x": 16,
+        "width": 288,
+        "height": 442.171875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Maurício Klein",
+        "x": 16,
+        "width": 288,
+        "height": 442.171875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      },
+      {
+        "name": "Eliana Futenma",
+        "x": 16,
+        "width": 288,
+        "height": 414.546875,
+        "photoWidth": 128,
+        "photoHeight": 128
+      }
+    ],
+    "overflow": false,
+    "path": "docs/reformulation/2026-10-16-about-leadership/screenshots/leadership-en-narrow.png",
+    "capturedAt": "2026-10-16T15:38:07.655Z"
+  }
+]

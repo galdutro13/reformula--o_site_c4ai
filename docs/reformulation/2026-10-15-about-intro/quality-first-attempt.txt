@@ -1,0 +1,27 @@
+
+> c4ai-institutional-site@0.1.0 quality
+> npm run format:check && npm run lint && npm run check && npm run test:config && npm run test:e2e
+
+
+> c4ai-institutional-site@0.1.0 format:check
+> prettier . --check
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> c4ai-institutional-site@0.1.0 lint
+> eslint . && stylelint 'src/**/*.css'
+
+
+/Users/gregassagra/workspaces/reformulação_site_c4ai/tests/e2e/site.spec.ts
+  36:6  warning  Async arrow function has a complexity of 15. Maximum allowed is 10  complexity
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+src/styles/about.css
+  153:1  ✖  Expected selector ".about-activity-copy p" to come before selector ".about-hero-copy p:last-child", at line 65  no-descending-specificity
+  180:5  ✖  Expected shorthand property "gap"                                                                               declaration-block-no-redundant-longhand-properties
+
+✖ 2 problems (2 errors, 0 warnings)
+  1 error potentially fixable with the "--fix" option.

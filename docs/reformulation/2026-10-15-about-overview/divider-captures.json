@@ -1,0 +1,36 @@
+{
+  "capturedAt": "2026-10-15T16:23:19.991Z",
+  "javascript": false,
+  "captures": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "file": "screenshots/about-divider-pt-desktop.png",
+      "startY": 532,
+      "frameHeight": 581.578125,
+      "lineWidth": 1216,
+      "borderWidth": "1px",
+      "borderColor": "rgb(207, 224, 227)",
+      "referenceColor": "rgb(207, 224, 227)",
+      "spaceBefore": 32,
+      "spaceAfter": 32,
+      "institutionY": 777.578125,
+      "overflow": false
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "file": "screenshots/about-divider-pt-mobile.png",
+      "startY": 480.46875,
+      "frameHeight": 1120.5,
+      "lineWidth": 358,
+      "borderWidth": "1px",
+      "borderColor": "rgb(207, 224, 227)",
+      "referenceColor": "rgb(207, 224, 227)",
+      "spaceBefore": 32,
+      "spaceAfter": 32,
+      "institutionY": 958.625,
+      "overflow": false
+    }
+  ]
+}

@@ -1,0 +1,1265 @@
+{
+  "capturedAt": "2026-10-15T16:06:51.384Z",
+  "captures": [
+    {
+      "locale": "pt",
+      "label": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1440,
+        "height": 913
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-pt-desktop.png",
+      "activities": {
+        "x": 112,
+        "y": 596,
+        "width": 1216,
+        "height": 116.578125,
+        "bottom": 712.578125,
+        "right": 1328
+      },
+      "overview": {
+        "x": 112,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 912.375,
+        "bottom": 1672.953125,
+        "right": 1328
+      },
+      "presentation": {
+        "x": 112,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1328
+      },
+      "copy": {
+        "x": 112,
+        "y": 760.578125,
+        "width": 579.203125,
+        "height": 315.359375,
+        "bottom": 1075.9375,
+        "right": 691.203125
+      },
+      "image": {
+        "x": 748.796875,
+        "y": 760.578125,
+        "width": 579.203125,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1328
+      },
+      "principles": {
+        "x": 112,
+        "y": 1128.578125,
+        "width": 1216,
+        "height": 186.375,
+        "bottom": 1314.953125,
+        "right": 1328
+      },
+      "cards": [
+        {
+          "x": 112,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 186.375,
+          "bottom": 1314.953125,
+          "right": 708
+        },
+        {
+          "x": 732,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 186.375,
+          "bottom": 1314.953125,
+          "right": 1328
+        }
+      ],
+      "location": {
+        "x": 112,
+        "y": 1362.953125,
+        "width": 1216,
+        "height": 310,
+        "bottom": 1672.953125,
+        "right": 1328
+      },
+      "locationCopy": {
+        "x": 748.796875,
+        "y": 1395.953125,
+        "width": 579.203125,
+        "height": 277,
+        "bottom": 1672.953125,
+        "right": 1328
+      },
+      "locationImage": {
+        "x": 112,
+        "y": 1395.953125,
+        "width": 579.203125,
+        "height": 256,
+        "bottom": 1651.953125,
+        "right": 691.203125
+      },
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "label": "notebook",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 1280,
+        "height": 913
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-pt-notebook.png",
+      "activities": {
+        "x": 32,
+        "y": 596,
+        "width": 1216,
+        "height": 116.578125,
+        "bottom": 712.578125,
+        "right": 1248
+      },
+      "overview": {
+        "x": 32,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 912.375,
+        "bottom": 1672.953125,
+        "right": 1248
+      },
+      "presentation": {
+        "x": 32,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1248
+      },
+      "copy": {
+        "x": 32,
+        "y": 760.578125,
+        "width": 582.40625,
+        "height": 315.359375,
+        "bottom": 1075.9375,
+        "right": 614.40625
+      },
+      "image": {
+        "x": 665.59375,
+        "y": 760.578125,
+        "width": 582.40625,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1248
+      },
+      "principles": {
+        "x": 32,
+        "y": 1128.578125,
+        "width": 1216,
+        "height": 186.375,
+        "bottom": 1314.953125,
+        "right": 1248
+      },
+      "cards": [
+        {
+          "x": 32,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 186.375,
+          "bottom": 1314.953125,
+          "right": 628
+        },
+        {
+          "x": 652,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 186.375,
+          "bottom": 1314.953125,
+          "right": 1248
+        }
+      ],
+      "location": {
+        "x": 32,
+        "y": 1362.953125,
+        "width": 1216,
+        "height": 310,
+        "bottom": 1672.953125,
+        "right": 1248
+      },
+      "locationCopy": {
+        "x": 665.59375,
+        "y": 1395.953125,
+        "width": 582.40625,
+        "height": 277,
+        "bottom": 1672.953125,
+        "right": 1248
+      },
+      "locationImage": {
+        "x": 32,
+        "y": 1395.953125,
+        "width": 582.40625,
+        "height": 256,
+        "bottom": 1651.953125,
+        "right": 614.40625
+      },
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "label": "compact",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1024,
+        "height": 985
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-pt-compact.png",
+      "activities": {
+        "x": 24,
+        "y": 576,
+        "width": 976,
+        "height": 172.578125,
+        "bottom": 748.578125,
+        "right": 1000
+      },
+      "overview": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 976,
+        "height": 984.515625,
+        "bottom": 1781.09375,
+        "right": 1000
+      },
+      "presentation": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 976,
+        "height": 340.953125,
+        "bottom": 1137.53125,
+        "right": 1000
+      },
+      "copy": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 467.515625,
+        "height": 340.953125,
+        "bottom": 1137.53125,
+        "right": 491.515625
+      },
+      "image": {
+        "x": 532.46875,
+        "y": 796.578125,
+        "width": 467.53125,
+        "height": 320,
+        "bottom": 1116.578125,
+        "right": 1000
+      },
+      "principles": {
+        "x": 24,
+        "y": 1185.53125,
+        "width": 976,
+        "height": 211.96875,
+        "bottom": 1397.5,
+        "right": 1000
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 1185.53125,
+          "width": 476,
+          "height": 211.96875,
+          "bottom": 1397.5,
+          "right": 500
+        },
+        {
+          "x": 524,
+          "y": 1185.53125,
+          "width": 476,
+          "height": 211.96875,
+          "bottom": 1397.5,
+          "right": 1000
+        }
+      ],
+      "location": {
+        "x": 24,
+        "y": 1445.5,
+        "width": 976,
+        "height": 335.59375,
+        "bottom": 1781.09375,
+        "right": 1000
+      },
+      "locationCopy": {
+        "x": 532.46875,
+        "y": 1478.5,
+        "width": 467.53125,
+        "height": 302.59375,
+        "bottom": 1781.09375,
+        "right": 1000
+      },
+      "locationImage": {
+        "x": 24,
+        "y": 1478.5,
+        "width": 467.515625,
+        "height": 256,
+        "bottom": 1734.5,
+        "right": 491.515625
+      },
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "label": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 768,
+        "height": 1574
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-pt-tablet.png",
+      "activities": {
+        "x": 24,
+        "y": 576,
+        "width": 720,
+        "height": 172.578125,
+        "bottom": 748.578125,
+        "right": 744
+      },
+      "overview": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 720,
+        "height": 1573.140625,
+        "bottom": 2369.71875,
+        "right": 744
+      },
+      "presentation": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 720,
+        "height": 619.96875,
+        "bottom": 1416.546875,
+        "right": 744
+      },
+      "copy": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 720,
+        "height": 275.96875,
+        "bottom": 1072.546875,
+        "right": 744
+      },
+      "image": {
+        "x": 24,
+        "y": 1096.546875,
+        "width": 720,
+        "height": 320,
+        "bottom": 1416.546875,
+        "right": 744
+      },
+      "principles": {
+        "x": 24,
+        "y": 1448.546875,
+        "width": 720,
+        "height": 303.96875,
+        "bottom": 1752.515625,
+        "right": 744
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 1448.546875,
+          "width": 720,
+          "height": 152.78125,
+          "bottom": 1601.328125,
+          "right": 744
+        },
+        {
+          "x": 24,
+          "y": 1625.328125,
+          "width": 720,
+          "height": 127.1875,
+          "bottom": 1752.515625,
+          "right": 744
+        }
+      ],
+      "location": {
+        "x": 24,
+        "y": 1784.515625,
+        "width": 720,
+        "height": 585.203125,
+        "bottom": 2369.71875,
+        "right": 744
+      },
+      "locationCopy": {
+        "x": 24,
+        "y": 1817.515625,
+        "width": 720,
+        "height": 272.203125,
+        "bottom": 2089.71875,
+        "right": 744
+      },
+      "locationImage": {
+        "x": 24,
+        "y": 2113.71875,
+        "width": 720,
+        "height": 256,
+        "bottom": 2369.71875,
+        "right": 744
+      },
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "captureViewport": {
+        "width": 390,
+        "height": 1787
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-pt-mobile.png",
+      "activities": {
+        "x": 16,
+        "y": 544.46875,
+        "width": 358,
+        "height": 349.15625,
+        "bottom": 893.625,
+        "right": 374
+      },
+      "overview": {
+        "x": 16,
+        "y": 941.625,
+        "width": 358,
+        "height": 1786.9375,
+        "bottom": 2728.5625,
+        "right": 374
+      },
+      "presentation": {
+        "x": 16,
+        "y": 941.625,
+        "width": 358,
+        "height": 626.34375,
+        "bottom": 1567.96875,
+        "right": 374
+      },
+      "copy": {
+        "x": 16,
+        "y": 941.625,
+        "width": 358,
+        "height": 378.34375,
+        "bottom": 1319.96875,
+        "right": 374
+      },
+      "image": {
+        "x": 16,
+        "y": 1343.96875,
+        "width": 358,
+        "height": 224,
+        "bottom": 1567.96875,
+        "right": 374
+      },
+      "principles": {
+        "x": 16,
+        "y": 1599.96875,
+        "width": 358,
+        "height": 467.125,
+        "bottom": 2067.09375,
+        "right": 374
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 1599.96875,
+          "width": 358,
+          "height": 247.15625,
+          "bottom": 1847.125,
+          "right": 374
+        },
+        {
+          "x": 16,
+          "y": 1871.125,
+          "width": 358,
+          "height": 195.96875,
+          "bottom": 2067.09375,
+          "right": 374
+        }
+      ],
+      "location": {
+        "x": 16,
+        "y": 2099.09375,
+        "width": 358,
+        "height": 629.46875,
+        "bottom": 2728.5625,
+        "right": 374
+      },
+      "locationCopy": {
+        "x": 16,
+        "y": 2132.09375,
+        "width": 358,
+        "height": 348.46875,
+        "bottom": 2480.5625,
+        "right": 374
+      },
+      "locationImage": {
+        "x": 16,
+        "y": 2504.5625,
+        "width": 358,
+        "height": 224,
+        "bottom": 2728.5625,
+        "right": 374
+      },
+      "overflow": false
+    },
+    {
+      "locale": "pt",
+      "label": "narrow",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 320,
+        "height": 1941
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-pt-narrow.png",
+      "activities": {
+        "x": 16,
+        "y": 599.46875,
+        "width": 288,
+        "height": 418.140625,
+        "bottom": 1017.609375,
+        "right": 304
+      },
+      "overview": {
+        "x": 16,
+        "y": 1065.609375,
+        "width": 288,
+        "height": 1940.5,
+        "bottom": 3006.109375,
+        "right": 304
+      },
+      "presentation": {
+        "x": 16,
+        "y": 1065.609375,
+        "width": 288,
+        "height": 703.125,
+        "bottom": 1768.734375,
+        "right": 304
+      },
+      "copy": {
+        "x": 16,
+        "y": 1065.609375,
+        "width": 288,
+        "height": 455.125,
+        "bottom": 1520.734375,
+        "right": 304
+      },
+      "image": {
+        "x": 16,
+        "y": 1544.734375,
+        "width": 288,
+        "height": 224,
+        "bottom": 1768.734375,
+        "right": 304
+      },
+      "principles": {
+        "x": 16,
+        "y": 1800.734375,
+        "width": 288,
+        "height": 518.3125,
+        "bottom": 2319.046875,
+        "right": 304
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 1800.734375,
+          "width": 288,
+          "height": 272.75,
+          "bottom": 2073.484375,
+          "right": 304
+        },
+        {
+          "x": 16,
+          "y": 2097.484375,
+          "width": 288,
+          "height": 221.5625,
+          "bottom": 2319.046875,
+          "right": 304
+        }
+      ],
+      "location": {
+        "x": 16,
+        "y": 2351.046875,
+        "width": 288,
+        "height": 655.0625,
+        "bottom": 3006.109375,
+        "right": 304
+      },
+      "locationCopy": {
+        "x": 16,
+        "y": 2384.046875,
+        "width": 288,
+        "height": 374.0625,
+        "bottom": 2758.109375,
+        "right": 304
+      },
+      "locationImage": {
+        "x": 16,
+        "y": 2782.109375,
+        "width": 288,
+        "height": 224,
+        "bottom": 3006.109375,
+        "right": 304
+      },
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "label": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1440,
+        "height": 887
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-en-desktop.png",
+      "activities": {
+        "x": 112,
+        "y": 596,
+        "width": 1216,
+        "height": 116.578125,
+        "bottom": 712.578125,
+        "right": 1328
+      },
+      "overview": {
+        "x": 112,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 886.78125,
+        "bottom": 1647.359375,
+        "right": 1328
+      },
+      "presentation": {
+        "x": 112,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1328
+      },
+      "copy": {
+        "x": 112,
+        "y": 760.578125,
+        "width": 579.203125,
+        "height": 289.765625,
+        "bottom": 1050.34375,
+        "right": 691.203125
+      },
+      "image": {
+        "x": 748.796875,
+        "y": 760.578125,
+        "width": 579.203125,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1328
+      },
+      "principles": {
+        "x": 112,
+        "y": 1128.578125,
+        "width": 1216,
+        "height": 160.78125,
+        "bottom": 1289.359375,
+        "right": 1328
+      },
+      "cards": [
+        {
+          "x": 112,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 160.78125,
+          "bottom": 1289.359375,
+          "right": 708
+        },
+        {
+          "x": 732,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 160.78125,
+          "bottom": 1289.359375,
+          "right": 1328
+        }
+      ],
+      "location": {
+        "x": 112,
+        "y": 1337.359375,
+        "width": 1216,
+        "height": 310,
+        "bottom": 1647.359375,
+        "right": 1328
+      },
+      "locationCopy": {
+        "x": 748.796875,
+        "y": 1370.359375,
+        "width": 579.203125,
+        "height": 277,
+        "bottom": 1647.359375,
+        "right": 1328
+      },
+      "locationImage": {
+        "x": 112,
+        "y": 1370.359375,
+        "width": 579.203125,
+        "height": 256,
+        "bottom": 1626.359375,
+        "right": 691.203125
+      },
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "label": "notebook",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 1280,
+        "height": 887
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-en-notebook.png",
+      "activities": {
+        "x": 32,
+        "y": 596,
+        "width": 1216,
+        "height": 116.578125,
+        "bottom": 712.578125,
+        "right": 1248
+      },
+      "overview": {
+        "x": 32,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 886.78125,
+        "bottom": 1647.359375,
+        "right": 1248
+      },
+      "presentation": {
+        "x": 32,
+        "y": 760.578125,
+        "width": 1216,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1248
+      },
+      "copy": {
+        "x": 32,
+        "y": 760.578125,
+        "width": 582.40625,
+        "height": 289.765625,
+        "bottom": 1050.34375,
+        "right": 614.40625
+      },
+      "image": {
+        "x": 665.59375,
+        "y": 760.578125,
+        "width": 582.40625,
+        "height": 320,
+        "bottom": 1080.578125,
+        "right": 1248
+      },
+      "principles": {
+        "x": 32,
+        "y": 1128.578125,
+        "width": 1216,
+        "height": 160.78125,
+        "bottom": 1289.359375,
+        "right": 1248
+      },
+      "cards": [
+        {
+          "x": 32,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 160.78125,
+          "bottom": 1289.359375,
+          "right": 628
+        },
+        {
+          "x": 652,
+          "y": 1128.578125,
+          "width": 596,
+          "height": 160.78125,
+          "bottom": 1289.359375,
+          "right": 1248
+        }
+      ],
+      "location": {
+        "x": 32,
+        "y": 1337.359375,
+        "width": 1216,
+        "height": 310,
+        "bottom": 1647.359375,
+        "right": 1248
+      },
+      "locationCopy": {
+        "x": 665.59375,
+        "y": 1370.359375,
+        "width": 582.40625,
+        "height": 277,
+        "bottom": 1647.359375,
+        "right": 1248
+      },
+      "locationImage": {
+        "x": 32,
+        "y": 1370.359375,
+        "width": 582.40625,
+        "height": 256,
+        "bottom": 1626.359375,
+        "right": 614.40625
+      },
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "label": "compact",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1024,
+        "height": 959
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-en-compact.png",
+      "activities": {
+        "x": 24,
+        "y": 576,
+        "width": 976,
+        "height": 172.578125,
+        "bottom": 748.578125,
+        "right": 1000
+      },
+      "overview": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 976,
+        "height": 958.921875,
+        "bottom": 1755.5,
+        "right": 1000
+      },
+      "presentation": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 976,
+        "height": 340.953125,
+        "bottom": 1137.53125,
+        "right": 1000
+      },
+      "copy": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 467.515625,
+        "height": 340.953125,
+        "bottom": 1137.53125,
+        "right": 491.515625
+      },
+      "image": {
+        "x": 532.46875,
+        "y": 796.578125,
+        "width": 467.53125,
+        "height": 320,
+        "bottom": 1116.578125,
+        "right": 1000
+      },
+      "principles": {
+        "x": 24,
+        "y": 1185.53125,
+        "width": 976,
+        "height": 186.375,
+        "bottom": 1371.90625,
+        "right": 1000
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 1185.53125,
+          "width": 476,
+          "height": 186.375,
+          "bottom": 1371.90625,
+          "right": 500
+        },
+        {
+          "x": 524,
+          "y": 1185.53125,
+          "width": 476,
+          "height": 186.375,
+          "bottom": 1371.90625,
+          "right": 1000
+        }
+      ],
+      "location": {
+        "x": 24,
+        "y": 1419.90625,
+        "width": 976,
+        "height": 335.59375,
+        "bottom": 1755.5,
+        "right": 1000
+      },
+      "locationCopy": {
+        "x": 532.46875,
+        "y": 1452.90625,
+        "width": 467.53125,
+        "height": 302.59375,
+        "bottom": 1755.5,
+        "right": 1000
+      },
+      "locationImage": {
+        "x": 24,
+        "y": 1452.90625,
+        "width": 467.515625,
+        "height": 256,
+        "bottom": 1708.90625,
+        "right": 491.515625
+      },
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "label": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 768,
+        "height": 1574
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-en-tablet.png",
+      "activities": {
+        "x": 24,
+        "y": 576,
+        "width": 720,
+        "height": 172.578125,
+        "bottom": 748.578125,
+        "right": 744
+      },
+      "overview": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 720,
+        "height": 1573.140625,
+        "bottom": 2369.71875,
+        "right": 744
+      },
+      "presentation": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 720,
+        "height": 619.96875,
+        "bottom": 1416.546875,
+        "right": 744
+      },
+      "copy": {
+        "x": 24,
+        "y": 796.578125,
+        "width": 720,
+        "height": 275.96875,
+        "bottom": 1072.546875,
+        "right": 744
+      },
+      "image": {
+        "x": 24,
+        "y": 1096.546875,
+        "width": 720,
+        "height": 320,
+        "bottom": 1416.546875,
+        "right": 744
+      },
+      "principles": {
+        "x": 24,
+        "y": 1448.546875,
+        "width": 720,
+        "height": 303.96875,
+        "bottom": 1752.515625,
+        "right": 744
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 1448.546875,
+          "width": 720,
+          "height": 152.78125,
+          "bottom": 1601.328125,
+          "right": 744
+        },
+        {
+          "x": 24,
+          "y": 1625.328125,
+          "width": 720,
+          "height": 127.1875,
+          "bottom": 1752.515625,
+          "right": 744
+        }
+      ],
+      "location": {
+        "x": 24,
+        "y": 1784.515625,
+        "width": 720,
+        "height": 585.203125,
+        "bottom": 2369.71875,
+        "right": 744
+      },
+      "locationCopy": {
+        "x": 24,
+        "y": 1817.515625,
+        "width": 720,
+        "height": 272.203125,
+        "bottom": 2089.71875,
+        "right": 744
+      },
+      "locationImage": {
+        "x": 24,
+        "y": 2113.71875,
+        "width": 720,
+        "height": 256,
+        "bottom": 2369.71875,
+        "right": 744
+      },
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "captureViewport": {
+        "width": 390,
+        "height": 1762
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-en-mobile.png",
+      "activities": {
+        "x": 16,
+        "y": 544.46875,
+        "width": 358,
+        "height": 349.15625,
+        "bottom": 893.625,
+        "right": 374
+      },
+      "overview": {
+        "x": 16,
+        "y": 941.625,
+        "width": 358,
+        "height": 1761.34375,
+        "bottom": 2702.96875,
+        "right": 374
+      },
+      "presentation": {
+        "x": 16,
+        "y": 941.625,
+        "width": 358,
+        "height": 626.34375,
+        "bottom": 1567.96875,
+        "right": 374
+      },
+      "copy": {
+        "x": 16,
+        "y": 941.625,
+        "width": 358,
+        "height": 378.34375,
+        "bottom": 1319.96875,
+        "right": 374
+      },
+      "image": {
+        "x": 16,
+        "y": 1343.96875,
+        "width": 358,
+        "height": 224,
+        "bottom": 1567.96875,
+        "right": 374
+      },
+      "principles": {
+        "x": 16,
+        "y": 1599.96875,
+        "width": 358,
+        "height": 441.53125,
+        "bottom": 2041.5,
+        "right": 374
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 1599.96875,
+          "width": 358,
+          "height": 221.5625,
+          "bottom": 1821.53125,
+          "right": 374
+        },
+        {
+          "x": 16,
+          "y": 1845.53125,
+          "width": 358,
+          "height": 195.96875,
+          "bottom": 2041.5,
+          "right": 374
+        }
+      ],
+      "location": {
+        "x": 16,
+        "y": 2073.5,
+        "width": 358,
+        "height": 629.46875,
+        "bottom": 2702.96875,
+        "right": 374
+      },
+      "locationCopy": {
+        "x": 16,
+        "y": 2106.5,
+        "width": 358,
+        "height": 348.46875,
+        "bottom": 2454.96875,
+        "right": 374
+      },
+      "locationImage": {
+        "x": 16,
+        "y": 2478.96875,
+        "width": 358,
+        "height": 224,
+        "bottom": 2702.96875,
+        "right": 374
+      },
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "label": "narrow",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 320,
+        "height": 1864
+      },
+      "javascript": false,
+      "file": "screenshots/about-overview-en-narrow.png",
+      "activities": {
+        "x": 16,
+        "y": 571.46875,
+        "width": 288,
+        "height": 395.34375,
+        "bottom": 966.8125,
+        "right": 304
+      },
+      "overview": {
+        "x": 16,
+        "y": 1014.8125,
+        "width": 288,
+        "height": 1863.71875,
+        "bottom": 2878.53125,
+        "right": 304
+      },
+      "presentation": {
+        "x": 16,
+        "y": 1014.8125,
+        "width": 288,
+        "height": 651.9375,
+        "bottom": 1666.75,
+        "right": 304
+      },
+      "copy": {
+        "x": 16,
+        "y": 1014.8125,
+        "width": 288,
+        "height": 403.9375,
+        "bottom": 1418.75,
+        "right": 304
+      },
+      "image": {
+        "x": 16,
+        "y": 1442.75,
+        "width": 288,
+        "height": 224,
+        "bottom": 1666.75,
+        "right": 304
+      },
+      "principles": {
+        "x": 16,
+        "y": 1698.75,
+        "width": 288,
+        "height": 518.3125,
+        "bottom": 2217.0625,
+        "right": 304
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 1698.75,
+          "width": 288,
+          "height": 272.75,
+          "bottom": 1971.5,
+          "right": 304
+        },
+        {
+          "x": 16,
+          "y": 1995.5,
+          "width": 288,
+          "height": 221.5625,
+          "bottom": 2217.0625,
+          "right": 304
+        }
+      ],
+      "location": {
+        "x": 16,
+        "y": 2249.0625,
+        "width": 288,
+        "height": 629.46875,
+        "bottom": 2878.53125,
+        "right": 304
+      },
+      "locationCopy": {
+        "x": 16,
+        "y": 2282.0625,
+        "width": 288,
+        "height": 348.46875,
+        "bottom": 2630.53125,
+        "right": 304
+      },
+      "locationImage": {
+        "x": 16,
+        "y": 2654.53125,
+        "width": 288,
+        "height": 224,
+        "bottom": 2878.53125,
+        "right": 304
+      },
+      "overflow": false
+    }
+  ]
+}

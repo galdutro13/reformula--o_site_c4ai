@@ -1,0 +1,116 @@
+{
+  "checkedAt": "2026-10-15T16:08:37.663Z",
+  "success": true,
+  "files": [
+    {
+      "path": "src/components/AboutActivities.astro",
+      "before": "bd7d089686b3b7a60e3896d47068884769131ddc241d472ee1b5a65b5c438460",
+      "after": "bd7d089686b3b7a60e3896d47068884769131ddc241d472ee1b5a65b5c438460",
+      "unchanged": true
+    },
+    {
+      "path": "src/content/about-intro.ts",
+      "before": "9bd83e35b99a52197b35d7572631b76ee8fd411dc263a339a56a539cb22e620f",
+      "after": "9bd83e35b99a52197b35d7572631b76ee8fd411dc263a339a56a539cb22e620f",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Header.astro",
+      "before": "afd0f2df088d12a3711676897a0d9c4df5864d92a46ff98e0880ae7a895bae0d",
+      "after": "afd0f2df088d12a3711676897a0d9c4df5864d92a46ff98e0880ae7a895bae0d",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Footer.astro",
+      "before": "83aa5a297bf4d9de0e666e84a9a9d5d948d1785cfc979550fedb458cd46532cc",
+      "after": "83aa5a297bf4d9de0e666e84a9a9d5d948d1785cfc979550fedb458cd46532cc",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/institutional.css",
+      "before": "9425781a72ea9d76aa6e1a6b9b5655d08a44ac0b98c54e2ae1af376defb0a883",
+      "after": "9425781a72ea9d76aa6e1a6b9b5655d08a44ac0b98c54e2ae1af376defb0a883",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-hero.css",
+      "before": "0244f5cc8519a83323bf9f4ff1662ff9bcec5fd7db9774318e3828e03a497f2b",
+      "after": "0244f5cc8519a83323bf9f4ff1662ff9bcec5fd7db9774318e3828e03a497f2b",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-research.css",
+      "before": "0cb971385d7395cd0556b854e3b42faf9cc58d9617f9c6928407adc023f8da4f",
+      "after": "0cb971385d7395cd0556b854e3b42faf9cc58d9617f9c6928407adc023f8da4f",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/navigation.css",
+      "before": "4b791648ba83cb2966acafe8e71e80f37014deda659f4fb718b7f5cb5a2b7c2b",
+      "after": "4b791648ba83cb2966acafe8e71e80f37014deda659f4fb718b7f5cb5a2b7c2b",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/about.css",
+      "before": "1a5ef28f40ff3375931a89533ad77c8da9f9765399c4df9ab3b66dca3d8c8388",
+      "after": "1a5ef28f40ff3375931a89533ad77c8da9f9765399c4df9ab3b66dca3d8c8388",
+      "unchanged": true
+    }
+  ],
+  "pages": [
+    {
+      "locale": "pt",
+      "allSixParagraphsPreserved": true,
+      "remainingSectionsUnchanged": true,
+      "bannerFields": [
+        {
+          "field": "title",
+          "unchanged": true
+        },
+        {
+          "field": "heroBlocks",
+          "unchanged": true
+        },
+        {
+          "field": "promos",
+          "unchanged": true
+        },
+        {
+          "field": "heroImages",
+          "unchanged": true
+        },
+        {
+          "field": "description",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "allSixParagraphsPreserved": true,
+      "remainingSectionsUnchanged": true,
+      "bannerFields": [
+        {
+          "field": "title",
+          "unchanged": true
+        },
+        {
+          "field": "heroBlocks",
+          "unchanged": true
+        },
+        {
+          "field": "promos",
+          "unchanged": true
+        },
+        {
+          "field": "heroImages",
+          "unchanged": true
+        },
+        {
+          "field": "description",
+          "unchanged": true
+        }
+      ]
+    }
+  ]
+}

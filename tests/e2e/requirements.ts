@@ -22,16 +22,14 @@ export const principalPages = [
     path: '/pt/sobre/',
     lang: 'pt-BR',
     title: 'C4AI | Sobre',
-    heading:
-      'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
+    heading: 'Pesquisa avançada em inteligência artificial no Brasil',
     pair: '/en/about/',
   },
   {
     path: '/en/about/',
     lang: 'en',
     title: 'C4AI | About',
-    heading:
-      'A research center for advanced artificial intelligence in Brazil.',
+    heading: 'Advanced artificial intelligence research in Brazil',
     pair: '/pt/sobre/',
   },
   {
@@ -157,6 +155,136 @@ export const aboutAnchors = {
   pt: ['lideranca', 'difusao', 'contato'],
   en: ['leadership', 'outreach', 'contact'],
 };
+// Redesign da introdução de Sobre autorizado em 15/10/2026. Expectativas
+// editoriais manuais; os textos institucionais seguintes permanecem obrigatórios.
+export const aboutIntro = {
+  pt: {
+    path: '/pt/sobre/',
+    lang: 'pt-BR',
+    eyebrow: 'C4AI — USP',
+    title: 'Pesquisa avançada em inteligência artificial no Brasil',
+    description:
+      'O C4AI desenvolve pesquisas fundamentais e aplicadas em inteligência artificial, reunindo diferentes áreas do conhecimento.',
+    action: 'Conheça nossas pesquisas',
+    destination: '/pt/pesquisas/',
+    image: '/media/06fcd48f000b.jpg',
+    activities: 'Acompanhe nossas atividades',
+    cards: [
+      {
+        title: 'Seminários e palestras',
+        description:
+          'Assista às apresentações e aos encontros promovidos pelo C4AI.',
+        action: 'Acessar YouTube',
+        href: 'https://www.youtube.com/c/C4AIUSP',
+      },
+      {
+        title: 'Eventos e workshops',
+        description:
+          'Explore os registros fotográficos das atividades do centro.',
+        action: 'Acessar Flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+      },
+    ],
+  },
+  en: {
+    path: '/en/about/',
+    lang: 'en',
+    eyebrow: 'C4AI — USP',
+    title: 'Advanced artificial intelligence research in Brazil',
+    description:
+      'C4AI conducts fundamental and applied research in artificial intelligence, bringing together different fields of knowledge.',
+    action: 'Explore our research',
+    destination: '/en/research/',
+    image: '/media/06fcd48f000b.jpg',
+    activities: 'Follow our activities',
+    cards: [
+      {
+        title: 'Seminars and talks',
+        description: 'Watch presentations and meetings organized by C4AI.',
+        action: 'Visit YouTube',
+        href: 'https://www.youtube.com/c/C4AIUSP',
+      },
+      {
+        title: 'Events and workshops',
+        description: 'Explore photographs of the center’s activities.',
+        action: 'Visit Flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+      },
+    ],
+  },
+} as const;
+// Reorganização institucional de Sobre autorizada em 15/10/2026. Contrato
+// manual: preserva os parágrafos originais e separa três grupos temáticos.
+export const aboutOverview = {
+  pt: {
+    path: '/pt/sobre/',
+    title: 'C4AI',
+    presentation: [
+      'O Centro de Inteligência Artificial (Center for Artificial Intelligence – C4AI) tem o compromisso de desenvolver pesquisas no estado da arte em Inteligência Artificial (IA), explorando tanto aspectos básicos quanto aplicados nesta área.',
+      'O C4AI foi criado em 2020 com apoio da IBM e da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP), dentro do Programa de Centros de Pesquisa Aplicada.',
+    ],
+    detailsAction: 'Saiba mais sobre o C4AI',
+    details:
+      'O C4AI considera que o próximo nível de desempenho em IA só poderá ser alcançado enfatizando a combinação de aprendizado de máquina, tomada de decisão, representação de conhecimento e raciocínio, e incrementando a colaboração entre essas áreas e suas aplicações. O C4AI também desenvolve estudos sobre o impacto social e econômico da IA e conduz atividades de disseminação de conhecimento e transferência de tecnologia, procurando formas de melhorar a qualidade de vida humana.',
+    principles: 'Missão e visão',
+    mission: {
+      title: 'Missão',
+      description:
+        'Produzir pesquisa avançada em Inteligência Artificial no Brasil, disseminando e debatendo os principais resultados, treinando estudantes e profissionais, e transferindo a tecnologia para a sociedade.',
+    },
+    vision: {
+      title: 'Visão',
+      description:
+        'Ser um centro de excelência de nível mundial em Inteligência Artificial e uma organização essencial para a comunidade científica e a sociedade no Brasil.',
+    },
+    locationLabel: 'Localização',
+    locationTitle: 'Onde estamos',
+    location:
+      'O C4AI é sediado no CIAAM e localizado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar no coração do campus Butantã da USP.',
+    address:
+      'Av. Profº Lúcio Martins Rodrigues, 370 – Butantã – São Paulo – SP',
+    postalCode: 'CEP: 05508-020',
+    locationAction: 'Como chegar',
+    locationDestination: '/pt/sobre/#contato',
+    contact: 'contato',
+    presentationImage: '/media/8b64dc5090e1.jpg',
+    locationImage: '/media/42ddc70db70c.jpg',
+  },
+  en: {
+    path: '/en/about/',
+    title: 'C4AI',
+    presentation: [
+      'The Center for Artificial Intelligence (Centro de Inteligência Artificial – C4AI) is committed to developing state-of-the-art research in Artificial Intelligence (AI), exploring both basic and applied aspects of this field.',
+      'C4AI was created in 2020 with support from IBM and the São Paulo Research Foundation (FAPESP), within the Applied Research Centers Program.',
+    ],
+    detailsAction: 'Learn more about C4AI',
+    details:
+      'C4AI considers that the next level of AI performance can only be achieved by emphasizing the combination of machine learning, decision-making, knowledge representation and reasoning, and increasing collaboration between these areas and their applications. C4AI also conducts studies on the social and economic impact of AI and carries out knowledge dissemination and technology transfer activities, seeking ways to improve human quality of life.',
+    principles: 'Mission and vision',
+    mission: {
+      title: 'Mission',
+      description:
+        'To produce advanced research in Artificial Intelligence in Brazil, disseminate and debate its main results, train students and professionals, and transfer the technology to society.',
+    },
+    vision: {
+      title: 'Vision',
+      description:
+        'To be a world-class center of excellence in Artificial Intelligence and an essential organization for the scientific community and the society in Brazil.',
+    },
+    locationLabel: 'Location',
+    locationTitle: 'Where we are',
+    location:
+      'C4AI is hosted by CIAAM and located at InovaUSP, a space for innovation and multidisciplinary research in the heart of USP’s Butantã campus.',
+    address:
+      'Av. Profº Lúcio Martins Rodrigues, 370 – Butantã – São Paulo – SP',
+    postalCode: 'CEP: 05508-020',
+    locationAction: 'Getting here',
+    locationDestination: '/en/about/#contact',
+    contact: 'contact',
+    presentationImage: '/media/8b64dc5090e1.jpg',
+    locationImage: '/media/42ddc70db70c.jpg',
+  },
+} as const;
 export const newsAnchors = {
   pt: [
     'chat_port',
@@ -609,12 +737,12 @@ export const aboutUpdate = {
     outreach: 'difusao',
     contact: 'contato',
     people: [
-      'Diretor Fabio Cozman, USP',
-      'Coordenador de Divulgação Fernando Osório, USP',
-      'Coordenador de Impacto João Paulo Veiga, USP (atuação)',
-      'Gerente Executivo Jairo Carlos Filho, USP',
-      'Gerente de Difusão Maurício Klein, USP',
-      'Assistente Administrativo Eliana Futenma, FUSP',
+      'Fabio Cozman',
+      'Fernando Osório',
+      'João Paulo Veiga',
+      'Jairo Carlos Filho',
+      'Maurício Klein',
+      'Eliana Futenma',
     ],
     removedAnchors: ['diversidade', 'impacto', 'reusable-sections-6', 'cis'],
     workshop: 'Vídeo do workshop — 2022',
@@ -632,12 +760,12 @@ export const aboutUpdate = {
     outreach: 'outreach',
     contact: 'contact',
     people: [
-      'Director Fabio Cozman, USP',
-      'Outreach Coordinator Fernando Osório, USP',
-      'Impact Coordinator João Paulo Veiga, USP (acting)',
-      'Executive Manager Jairo Carlos Filho, USP',
-      'Diffusion Manager Maurício Klein, USP',
-      'Administrative Assistant Eliana Futenma, FUSP',
+      'Fabio Cozman',
+      'Fernando Osório',
+      'João Paulo Veiga',
+      'Jairo Carlos Filho',
+      'Maurício Klein',
+      'Eliana Futenma',
     ],
     removedAnchors: ['diversity', 'impact', 'reusable-sections-6', 'features'],
     workshop: 'Workshop video — 2022',
@@ -658,6 +786,186 @@ export const leadershipPhotos = [
   '/media/73844d6075ec.jpg',
   '/media/109798fa012e.jpg',
 ];
+
+// Contrato manual do redesign solicitado em 16/10/2026. Os grupos descrevem
+// funções; não representam novas unidades da organização. As sínteses seguem as
+// fontes oficiais e as ressalvas registradas na revisão editorial desta etapa.
+export const aboutLeadership = {
+  pt: {
+    path: '/pt/sobre/',
+    anchor: 'lideranca',
+    title: 'Liderança',
+    introduction:
+      'Conheça os profissionais responsáveis pela direção, coordenação, gestão e apoio administrativo do C4AI.',
+    groups: [
+      {
+        id: 'leadership-executive',
+        title: 'Direção e coordenação',
+        people: ['Fabio Cozman', 'Fernando Osório', 'João Paulo Veiga'],
+      },
+      {
+        id: 'leadership-management',
+        title: 'Gestão e apoio administrativo',
+        people: ['Jairo Carlos Filho', 'Maurício Klein', 'Eliana Futenma'],
+      },
+    ],
+    profiles: [
+      {
+        name: 'Fabio Cozman',
+        role: 'Diretor',
+        affiliation: 'Universidade de São Paulo — USP',
+        biography:
+          'Engenheiro pela Escola Politécnica da USP e doutor pela Carnegie Mellon University. Professor titular da Escola Politécnica da USP.',
+        image: '/media/efe3a205cbf2.jpg',
+        alt: 'Retrato de Fabio Cozman.',
+        link: {
+          label: 'Site pessoal',
+          href: 'http://sites.poli.usp.br/p/fabio.cozman/',
+        },
+      },
+      {
+        name: 'Fernando Osório',
+        role: 'Coordenador de Divulgação',
+        affiliation: 'Universidade de São Paulo — USP',
+        biography:
+          'Doutor em Ciência da Computação pelo Institut National Polytechnique de Grenoble, França. Professor e pesquisador do ICMC-USP, em São Carlos, com atuação em inteligência artificial e robótica.',
+        image: '/media/f907124dd99d.jpg',
+        alt: 'Retrato de Fernando Osório.',
+        link: {
+          label: 'Currículo Lattes',
+          href: 'http://lattes.cnpq.br/7396818382676736',
+        },
+      },
+      {
+        name: 'João Paulo Veiga',
+        role: 'Coordenador de Impacto (atuação)',
+        affiliation: 'Universidade de São Paulo — USP',
+        biography:
+          'Bacharel em Ciências Sociais, mestre e doutor em Ciência Política pela USP. Professor do Departamento de Ciência Política da FFLCH-USP e do Instituto de Relações Internacionais da USP.',
+        image: '/media/b6008f555305.jpg',
+        alt: 'Retrato de João Paulo Veiga.',
+        link: {
+          label: 'Currículo Lattes',
+          href: 'http://lattes.cnpq.br/1059788774957753',
+        },
+      },
+      {
+        name: 'Jairo Carlos Filho',
+        role: 'Gerente Executivo',
+        affiliation: 'Universidade de São Paulo — USP',
+        biography:
+          'Estudos em Engenharia Eletrônica na FEI, com MBA em Engenharia da Qualidade pela Escola Politécnica da USP e formação em Gestão Pública pela FEARP-USP.',
+        image: '/media/c071e689c793.jpg',
+        alt: 'Retrato de Jairo Carlos Filho.',
+      },
+      {
+        name: 'Maurício Klein',
+        role: 'Gerente de Difusão',
+        affiliation: 'Universidade de São Paulo — USP',
+        biography:
+          'Bacharel em Design Arquitetônico e Urbanístico e mestre em Engenharia de Segurança do Trabalho. Atua em comunicação, design digital e mídia na USP desde 2006.',
+        image: '/media/73844d6075ec.jpg',
+        alt: 'Retrato de Maurício Klein.',
+      },
+      {
+        name: 'Eliana Futenma',
+        role: 'Assistente Administrativo',
+        affiliation: 'Fundação de Apoio à Universidade de São Paulo — FUSP',
+        biography:
+          'Técnica em Secretariado pela ETEC e graduada em Administração pela ESAN/FEI.',
+        image: '/media/109798fa012e.jpg',
+        alt: 'Retrato de Eliana Futenma.',
+      },
+    ],
+  },
+  en: {
+    path: '/en/about/',
+    anchor: 'leadership',
+    title: 'Leadership',
+    introduction:
+      'Meet the professionals responsible for C4AI’s direction, coordination, management and administrative support.',
+    groups: [
+      {
+        id: 'leadership-executive',
+        title: 'Leadership and coordination',
+        people: ['Fabio Cozman', 'Fernando Osório', 'João Paulo Veiga'],
+      },
+      {
+        id: 'leadership-management',
+        title: 'Management and administrative support',
+        people: ['Jairo Carlos Filho', 'Maurício Klein', 'Eliana Futenma'],
+      },
+    ],
+    profiles: [
+      {
+        name: 'Fabio Cozman',
+        role: 'Director',
+        affiliation: 'University of São Paulo — USP',
+        biography:
+          'Engineer from USP’s Polytechnic School and PhD from Carnegie Mellon University. Full professor at USP’s Polytechnic School.',
+        image: '/media/efe3a205cbf2.jpg',
+        alt: 'Portrait of Fabio Cozman.',
+        link: {
+          label: 'Personal website',
+          href: 'http://sites.poli.usp.br/p/fabio.cozman/',
+        },
+      },
+      {
+        name: 'Fernando Osório',
+        role: 'Outreach Coordinator',
+        affiliation: 'University of São Paulo — USP',
+        biography:
+          'PhD in Computer Science from Institut National Polytechnique de Grenoble, France. Professor and researcher at ICMC-USP in São Carlos, working in artificial intelligence and robotics.',
+        image: '/media/f907124dd99d.jpg',
+        alt: 'Portrait of Fernando Osório.',
+        link: {
+          label: 'Lattes CV',
+          href: 'http://lattes.cnpq.br/7396818382676736',
+        },
+      },
+      {
+        name: 'João Paulo Veiga',
+        role: 'Impact Coordinator (acting)',
+        affiliation: 'University of São Paulo — USP',
+        biography:
+          'Bachelor’s degree in Social Sciences and a master’s degree and PhD in Political Science from USP. Professor at USP’s Department of Political Science (FFLCH) and Institute of International Relations.',
+        image: '/media/b6008f555305.jpg',
+        alt: 'Portrait of João Paulo Veiga.',
+        link: {
+          label: 'Lattes CV',
+          href: 'http://lattes.cnpq.br/1059788774957753',
+        },
+      },
+      {
+        name: 'Jairo Carlos Filho',
+        role: 'Executive Manager',
+        affiliation: 'University of São Paulo — USP',
+        biography:
+          'Studies in Electronic Engineering at FEI, with an MBA in Quality Engineering from USP’s Polytechnic School and training in Public Management at FEARP-USP.',
+        image: '/media/c071e689c793.jpg',
+        alt: 'Portrait of Jairo Carlos Filho.',
+      },
+      {
+        name: 'Maurício Klein',
+        role: 'Diffusion Manager',
+        affiliation: 'University of São Paulo — USP',
+        biography:
+          'Bachelor’s degree in Architectural and Urban Design and a master’s degree in Occupational Safety Engineering. Has worked in communication, digital design and media at USP since 2006.',
+        image: '/media/73844d6075ec.jpg',
+        alt: 'Portrait of Maurício Klein.',
+      },
+      {
+        name: 'Eliana Futenma',
+        role: 'Administrative Assistant',
+        affiliation: 'Fundação de Apoio à Universidade de São Paulo — FUSP',
+        biography:
+          'Technical training in Secretarial Studies at ETEC and a degree in Business Administration from ESAN/FEI.',
+        image: '/media/109798fa012e.jpg',
+        alt: 'Portrait of Eliana Futenma.',
+      },
+    ],
+  },
+} as const;
 export const footerSocialLinks = [
   'https://www.youtube.com/c/C4AIUSP',
   'https://www.instagram.com/c4aiusp/',

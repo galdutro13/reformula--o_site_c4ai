@@ -1,0 +1,1097 @@
+{
+  "capturedAt": "2026-10-15T14:19:28.159Z",
+  "captures": [
+    {
+      "locale": "pt",
+      "label": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1440,
+        "height": 959
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-pt-desktop.png",
+      "hero": {
+        "x": 0,
+        "y": 100,
+        "width": 1440,
+        "height": 416,
+        "bottom": 516,
+        "right": 1440
+      },
+      "title": {
+        "x": 112,
+        "y": 184.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 294.71875,
+        "right": 816
+      },
+      "description": {
+        "x": 112,
+        "y": 310.71875,
+        "width": 576,
+        "height": 90,
+        "bottom": 400.71875,
+        "right": 688
+      },
+      "action": {
+        "x": 112,
+        "y": 424.71875,
+        "width": 276.734375,
+        "height": 48,
+        "bottom": 472.71875,
+        "right": 388.734375
+      },
+      "activities": {
+        "x": 112,
+        "y": 548,
+        "width": 1216,
+        "height": 180.578125,
+        "bottom": 728.578125,
+        "right": 1328
+      },
+      "cards": [
+        {
+          "x": 112,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 710
+        },
+        {
+          "x": 730,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 1328
+        }
+      ],
+      "institution": {
+        "x": 112,
+        "y": 728.578125,
+        "width": 1216,
+        "height": 1440.140625,
+        "bottom": 2168.71875,
+        "right": 1328
+      },
+      "institutionHeading": {
+        "x": 112,
+        "y": 755.765625,
+        "width": 592,
+        "height": 43.1875,
+        "bottom": 798.953125,
+        "right": 704
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "pt",
+      "label": "notebook",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 1280,
+        "height": 955
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-pt-notebook.png",
+      "hero": {
+        "x": 0,
+        "y": 100,
+        "width": 1280,
+        "height": 416,
+        "bottom": 516,
+        "right": 1280
+      },
+      "title": {
+        "x": 32,
+        "y": 199.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 309.71875,
+        "right": 736
+      },
+      "description": {
+        "x": 32,
+        "y": 325.71875,
+        "width": 576,
+        "height": 60,
+        "bottom": 385.71875,
+        "right": 608
+      },
+      "action": {
+        "x": 32,
+        "y": 409.71875,
+        "width": 289.921875,
+        "height": 48,
+        "bottom": 457.71875,
+        "right": 321.921875
+      },
+      "activities": {
+        "x": 32,
+        "y": 548,
+        "width": 1216,
+        "height": 180.578125,
+        "bottom": 728.578125,
+        "right": 1248
+      },
+      "cards": [
+        {
+          "x": 32,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 630
+        },
+        {
+          "x": 650,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 1248
+        }
+      ],
+      "institution": {
+        "x": 32,
+        "y": 728.578125,
+        "width": 1216,
+        "height": 1440.140625,
+        "bottom": 2168.71875,
+        "right": 1248
+      },
+      "institutionHeading": {
+        "x": 32,
+        "y": 755.765625,
+        "width": 592,
+        "height": 38.390625,
+        "bottom": 794.15625,
+        "right": 624
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "pt",
+      "label": "compact",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1024,
+        "height": 984
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-pt-compact.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 1024,
+        "height": 416,
+        "bottom": 496,
+        "right": 1024
+      },
+      "title": {
+        "x": 24,
+        "y": 164.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 274.71875,
+        "right": 728
+      },
+      "description": {
+        "x": 24,
+        "y": 290.71875,
+        "width": 576,
+        "height": 90,
+        "bottom": 380.71875,
+        "right": 600
+      },
+      "action": {
+        "x": 24,
+        "y": 404.71875,
+        "width": 289.921875,
+        "height": 48,
+        "bottom": 452.71875,
+        "right": 313.921875
+      },
+      "activities": {
+        "x": 24,
+        "y": 528,
+        "width": 976,
+        "height": 236.578125,
+        "bottom": 764.578125,
+        "right": 1000
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 576,
+          "width": 478,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 502
+        },
+        {
+          "x": 522,
+          "y": 576,
+          "width": 478,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 1000
+        }
+      ],
+      "institution": {
+        "x": 24,
+        "y": 764.578125,
+        "width": 976,
+        "height": 1393.4375,
+        "bottom": 2158.015625,
+        "right": 1000
+      },
+      "institutionHeading": {
+        "x": 24,
+        "y": 791.765625,
+        "width": 472,
+        "height": 31.6875,
+        "bottom": 823.453125,
+        "right": 496
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "pt",
+      "label": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 768,
+        "height": 984
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-pt-tablet.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 768,
+        "height": 416,
+        "bottom": 496,
+        "right": 768
+      },
+      "title": {
+        "x": 24,
+        "y": 164.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 274.71875,
+        "right": 728
+      },
+      "description": {
+        "x": 24,
+        "y": 290.71875,
+        "width": 576,
+        "height": 90,
+        "bottom": 380.71875,
+        "right": 600
+      },
+      "action": {
+        "x": 24,
+        "y": 404.71875,
+        "width": 276.734375,
+        "height": 48,
+        "bottom": 452.71875,
+        "right": 300.734375
+      },
+      "activities": {
+        "x": 24,
+        "y": 528,
+        "width": 720,
+        "height": 236.578125,
+        "bottom": 764.578125,
+        "right": 744
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 576,
+          "width": 350,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 374
+        },
+        {
+          "x": 394,
+          "y": 576,
+          "width": 350,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 744
+        }
+      ],
+      "institution": {
+        "x": 24,
+        "y": 764.578125,
+        "width": 720,
+        "height": 1253,
+        "bottom": 2017.578125,
+        "right": 744
+      },
+      "institutionHeading": {
+        "x": 24,
+        "y": 791.765625,
+        "width": 344,
+        "height": 31.6875,
+        "bottom": 823.453125,
+        "right": 368
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "pt",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "captureViewport": {
+        "width": 390,
+        "height": 1129
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-pt-mobile.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 390,
+        "height": 384.46875,
+        "bottom": 464.46875,
+        "right": 390
+      },
+      "title": {
+        "x": 16,
+        "y": 153.078125,
+        "width": 358,
+        "height": 110.390625,
+        "bottom": 263.46875,
+        "right": 374
+      },
+      "description": {
+        "x": 16,
+        "y": 279.46875,
+        "width": 358,
+        "height": 81,
+        "bottom": 360.46875,
+        "right": 374
+      },
+      "action": {
+        "x": 16,
+        "y": 384.46875,
+        "width": 276.734375,
+        "height": 48,
+        "bottom": 432.46875,
+        "right": 292.734375
+      },
+      "activities": {
+        "x": 16,
+        "y": 496.46875,
+        "width": 358,
+        "height": 413.15625,
+        "bottom": 909.625,
+        "right": 374
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 544.46875,
+          "width": 358,
+          "height": 164.578125,
+          "bottom": 709.046875,
+          "right": 374
+        },
+        {
+          "x": 16,
+          "y": 729.046875,
+          "width": 358,
+          "height": 164.578125,
+          "bottom": 893.625,
+          "right": 374
+        }
+      ],
+      "institution": {
+        "x": 16,
+        "y": 909.625,
+        "width": 358,
+        "height": 1957.265625,
+        "bottom": 2866.890625,
+        "right": 374
+      },
+      "institutionHeading": {
+        "x": 16,
+        "y": 936.8125,
+        "width": 358,
+        "height": 31.6875,
+        "bottom": 968.5,
+        "right": 374
+      },
+      "overflow": false,
+      "titleSize": "32px",
+      "descriptionSize": "18px"
+    },
+    {
+      "locale": "pt",
+      "label": "narrow",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 320,
+        "height": 1253
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-pt-narrow.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 320,
+        "height": 411.46875,
+        "bottom": 491.46875,
+        "right": 320
+      },
+      "title": {
+        "x": 16,
+        "y": 153.078125,
+        "width": 288,
+        "height": 110.390625,
+        "bottom": 263.46875,
+        "right": 304
+      },
+      "description": {
+        "x": 16,
+        "y": 279.46875,
+        "width": 288,
+        "height": 108,
+        "bottom": 387.46875,
+        "right": 304
+      },
+      "action": {
+        "x": 16,
+        "y": 411.46875,
+        "width": 276.734375,
+        "height": 48,
+        "bottom": 459.46875,
+        "right": 292.734375
+      },
+      "activities": {
+        "x": 16,
+        "y": 523.46875,
+        "width": 288,
+        "height": 510.140625,
+        "bottom": 1033.609375,
+        "right": 304
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 599.46875,
+          "width": 288,
+          "height": 210.765625,
+          "bottom": 810.234375,
+          "right": 304
+        },
+        {
+          "x": 16,
+          "y": 830.234375,
+          "width": 288,
+          "height": 187.375,
+          "bottom": 1017.609375,
+          "right": 304
+        }
+      ],
+      "institution": {
+        "x": 16,
+        "y": 1033.609375,
+        "width": 288,
+        "height": 2074.671875,
+        "bottom": 3108.28125,
+        "right": 304
+      },
+      "institutionHeading": {
+        "x": 16,
+        "y": 1060.796875,
+        "width": 288,
+        "height": 31.6875,
+        "bottom": 1092.484375,
+        "right": 304
+      },
+      "overflow": false,
+      "titleSize": "32px",
+      "descriptionSize": "18px"
+    },
+    {
+      "locale": "en",
+      "label": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1440,
+        "height": 959
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-en-desktop.png",
+      "hero": {
+        "x": 0,
+        "y": 100,
+        "width": 1440,
+        "height": 416,
+        "bottom": 516,
+        "right": 1440
+      },
+      "title": {
+        "x": 112,
+        "y": 199.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 309.71875,
+        "right": 816
+      },
+      "description": {
+        "x": 112,
+        "y": 325.71875,
+        "width": 576,
+        "height": 60,
+        "bottom": 385.71875,
+        "right": 688
+      },
+      "action": {
+        "x": 112,
+        "y": 409.71875,
+        "width": 234.234375,
+        "height": 48,
+        "bottom": 457.71875,
+        "right": 346.234375
+      },
+      "activities": {
+        "x": 112,
+        "y": 548,
+        "width": 1216,
+        "height": 180.578125,
+        "bottom": 728.578125,
+        "right": 1328
+      },
+      "cards": [
+        {
+          "x": 112,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 710
+        },
+        {
+          "x": 730,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 1328
+        }
+      ],
+      "institution": {
+        "x": 112,
+        "y": 728.578125,
+        "width": 1216,
+        "height": 1440.140625,
+        "bottom": 2168.71875,
+        "right": 1328
+      },
+      "institutionHeading": {
+        "x": 112,
+        "y": 755.765625,
+        "width": 592,
+        "height": 43.1875,
+        "bottom": 798.953125,
+        "right": 704
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "en",
+      "label": "notebook",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 1280,
+        "height": 955
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-en-notebook.png",
+      "hero": {
+        "x": 0,
+        "y": 100,
+        "width": 1280,
+        "height": 416,
+        "bottom": 516,
+        "right": 1280
+      },
+      "title": {
+        "x": 32,
+        "y": 199.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 309.71875,
+        "right": 736
+      },
+      "description": {
+        "x": 32,
+        "y": 325.71875,
+        "width": 576,
+        "height": 60,
+        "bottom": 385.71875,
+        "right": 608
+      },
+      "action": {
+        "x": 32,
+        "y": 409.71875,
+        "width": 234.234375,
+        "height": 48,
+        "bottom": 457.71875,
+        "right": 266.234375
+      },
+      "activities": {
+        "x": 32,
+        "y": 548,
+        "width": 1216,
+        "height": 180.578125,
+        "bottom": 728.578125,
+        "right": 1248
+      },
+      "cards": [
+        {
+          "x": 32,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 630
+        },
+        {
+          "x": 650,
+          "y": 596,
+          "width": 598,
+          "height": 116.578125,
+          "bottom": 712.578125,
+          "right": 1248
+        }
+      ],
+      "institution": {
+        "x": 32,
+        "y": 728.578125,
+        "width": 1216,
+        "height": 1440.140625,
+        "bottom": 2168.71875,
+        "right": 1248
+      },
+      "institutionHeading": {
+        "x": 32,
+        "y": 755.765625,
+        "width": 592,
+        "height": 38.390625,
+        "bottom": 794.15625,
+        "right": 624
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "en",
+      "label": "compact",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 1024,
+        "height": 984
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-en-compact.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 1024,
+        "height": 416,
+        "bottom": 496,
+        "right": 1024
+      },
+      "title": {
+        "x": 24,
+        "y": 179.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 289.71875,
+        "right": 728
+      },
+      "description": {
+        "x": 24,
+        "y": 305.71875,
+        "width": 576,
+        "height": 60,
+        "bottom": 365.71875,
+        "right": 600
+      },
+      "action": {
+        "x": 24,
+        "y": 389.71875,
+        "width": 234.234375,
+        "height": 48,
+        "bottom": 437.71875,
+        "right": 258.234375
+      },
+      "activities": {
+        "x": 24,
+        "y": 528,
+        "width": 976,
+        "height": 236.578125,
+        "bottom": 764.578125,
+        "right": 1000
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 576,
+          "width": 478,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 502
+        },
+        {
+          "x": 522,
+          "y": 576,
+          "width": 478,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 1000
+        }
+      ],
+      "institution": {
+        "x": 24,
+        "y": 764.578125,
+        "width": 976,
+        "height": 1367.046875,
+        "bottom": 2131.625,
+        "right": 1000
+      },
+      "institutionHeading": {
+        "x": 24,
+        "y": 791.765625,
+        "width": 472,
+        "height": 31.6875,
+        "bottom": 823.453125,
+        "right": 496
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "en",
+      "label": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "captureViewport": {
+        "width": 768,
+        "height": 984
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-en-tablet.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 768,
+        "height": 416,
+        "bottom": 496,
+        "right": 768
+      },
+      "title": {
+        "x": 24,
+        "y": 179.34375,
+        "width": 704,
+        "height": 110.375,
+        "bottom": 289.71875,
+        "right": 728
+      },
+      "description": {
+        "x": 24,
+        "y": 305.71875,
+        "width": 576,
+        "height": 60,
+        "bottom": 365.71875,
+        "right": 600
+      },
+      "action": {
+        "x": 24,
+        "y": 389.71875,
+        "width": 234.234375,
+        "height": 48,
+        "bottom": 437.71875,
+        "right": 258.234375
+      },
+      "activities": {
+        "x": 24,
+        "y": 528,
+        "width": 720,
+        "height": 236.578125,
+        "bottom": 764.578125,
+        "right": 744
+      },
+      "cards": [
+        {
+          "x": 24,
+          "y": 576,
+          "width": 350,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 374
+        },
+        {
+          "x": 394,
+          "y": 576,
+          "width": 350,
+          "height": 172.578125,
+          "bottom": 748.578125,
+          "right": 744
+        }
+      ],
+      "institution": {
+        "x": 24,
+        "y": 764.578125,
+        "width": 720,
+        "height": 1253,
+        "bottom": 2017.578125,
+        "right": 744
+      },
+      "institutionHeading": {
+        "x": 24,
+        "y": 791.765625,
+        "width": 344,
+        "height": 31.6875,
+        "bottom": 823.453125,
+        "right": 368
+      },
+      "overflow": false,
+      "titleSize": "48px",
+      "descriptionSize": "20px"
+    },
+    {
+      "locale": "en",
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "captureViewport": {
+        "width": 390,
+        "height": 1129
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-en-mobile.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 390,
+        "height": 384.46875,
+        "bottom": 464.46875,
+        "right": 390
+      },
+      "title": {
+        "x": 16,
+        "y": 153.078125,
+        "width": 358,
+        "height": 110.390625,
+        "bottom": 263.46875,
+        "right": 374
+      },
+      "description": {
+        "x": 16,
+        "y": 279.46875,
+        "width": 358,
+        "height": 81,
+        "bottom": 360.46875,
+        "right": 374
+      },
+      "action": {
+        "x": 16,
+        "y": 384.46875,
+        "width": 234.234375,
+        "height": 48,
+        "bottom": 432.46875,
+        "right": 250.234375
+      },
+      "activities": {
+        "x": 16,
+        "y": 496.46875,
+        "width": 358,
+        "height": 413.15625,
+        "bottom": 909.625,
+        "right": 374
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 544.46875,
+          "width": 358,
+          "height": 164.578125,
+          "bottom": 709.046875,
+          "right": 374
+        },
+        {
+          "x": 16,
+          "y": 729.046875,
+          "width": 358,
+          "height": 164.578125,
+          "bottom": 893.625,
+          "right": 374
+        }
+      ],
+      "institution": {
+        "x": 16,
+        "y": 909.625,
+        "width": 358,
+        "height": 1930.875,
+        "bottom": 2840.5,
+        "right": 374
+      },
+      "institutionHeading": {
+        "x": 16,
+        "y": 936.8125,
+        "width": 358,
+        "height": 31.6875,
+        "bottom": 968.5,
+        "right": 374
+      },
+      "overflow": false,
+      "titleSize": "32px",
+      "descriptionSize": "18px"
+    },
+    {
+      "locale": "en",
+      "label": "narrow",
+      "viewport": {
+        "width": 320,
+        "height": 800
+      },
+      "captureViewport": {
+        "width": 320,
+        "height": 1202
+      },
+      "javascript": false,
+      "file": "screenshots/about-intro-en-narrow.png",
+      "hero": {
+        "x": 0,
+        "y": 80,
+        "width": 320,
+        "height": 411.46875,
+        "bottom": 491.46875,
+        "right": 320
+      },
+      "title": {
+        "x": 16,
+        "y": 153.078125,
+        "width": 288,
+        "height": 110.390625,
+        "bottom": 263.46875,
+        "right": 304
+      },
+      "description": {
+        "x": 16,
+        "y": 279.46875,
+        "width": 288,
+        "height": 108,
+        "bottom": 387.46875,
+        "right": 304
+      },
+      "action": {
+        "x": 16,
+        "y": 411.46875,
+        "width": 234.234375,
+        "height": 48,
+        "bottom": 459.46875,
+        "right": 250.234375
+      },
+      "activities": {
+        "x": 16,
+        "y": 523.46875,
+        "width": 288,
+        "height": 459.34375,
+        "bottom": 982.8125,
+        "right": 304
+      },
+      "cards": [
+        {
+          "x": 16,
+          "y": 571.46875,
+          "width": 288,
+          "height": 187.375,
+          "bottom": 758.84375,
+          "right": 304
+        },
+        {
+          "x": 16,
+          "y": 778.84375,
+          "width": 288,
+          "height": 187.96875,
+          "bottom": 966.8125,
+          "right": 304
+        }
+      ],
+      "institution": {
+        "x": 16,
+        "y": 982.8125,
+        "width": 288,
+        "height": 1916.328125,
+        "bottom": 2899.140625,
+        "right": 304
+      },
+      "institutionHeading": {
+        "x": 16,
+        "y": 1010,
+        "width": 288,
+        "height": 31.6875,
+        "bottom": 1041.6875,
+        "right": 304
+      },
+      "overflow": false,
+      "titleSize": "32px",
+      "descriptionSize": "18px"
+    }
+  ]
+}
