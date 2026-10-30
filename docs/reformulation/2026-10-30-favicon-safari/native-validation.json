@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-30T14:06:26.986856-03:00",
+  "method": "Interface nativa dos navegadores; favicon observado nas abas e na visao geral. Capturas exibidas na sessao do Codex, sem exportacao para arquivos.",
+  "server": "http://localhost:4321; servidor de desenvolvimento preexistente preservado. Build estatico verificado separadamente pela suite e por HTTP.",
+  "browsers": {
+    "Safari": "27.2",
+    "Chrome": "156.0.8078.48"
+  },
+  "nativeChecks": [
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/pt/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/en/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/pt/sobre/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/en/about/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": true,
+      "path": "/404.html",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/pt/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/en/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/pt/sobre/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/en/about/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Safari",
+      "version": "27.2",
+      "javaScriptEnabled": false,
+      "path": "/404.html",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/pt/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/en/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/pt/sobre/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/en/about/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": true,
+      "path": "/404.html",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/pt/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/en/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/pt/sobre/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/en/about/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/pt/noticias/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-neurosymbolic-ai-building-robust-al-models/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/en/news/c4ai-seminar-perspectives-in-ai-dr-luis-lamb-feb-24-18h-brazil-time-2/",
+      "circularFaviconVisible": true
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.48",
+      "javaScriptEnabled": false,
+      "path": "/404.html",
+      "circularFaviconVisible": true
+    }
+  ],
+  "originalJavaScriptPreference": {
+    "Safari": true,
+    "Chrome": true
+  },
+  "restoredJavaScriptPreference": {
+    "Safari": true,
+    "Chrome": true
+  },
+  "cacheHistoryCookiesCleared": false,
+  "temporaryQaWindowsClosed": true,
+  "faviconSha256": "04cd32b3d555d356806013acfd4a89ae63de633fc92a3925844632f124c82b3b",
+  "quality": {
+    "node": "24.21.0",
+    "npm": "11.19.0",
+    "configurationTests": 22,
+    "browserTests": 830,
+    "passed": true,
+    "preexistingWarning": "complexidade 14 em site.spec.ts; limite 10"
+  },
+  "limits": [
+    "Safari e Chrome nativos somente desktop; sem homologacao em dispositivos fisicos ou outras versoes.",
+    "Firefox nao verificado.",
+    "A interface nativa foi conferida no servidor de desenvolvimento; a publicacao com subdiretorio foi conferida em build estatico temporario por HTTP."
+  ]
+}

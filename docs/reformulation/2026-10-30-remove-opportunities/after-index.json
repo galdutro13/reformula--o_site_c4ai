@@ -1,0 +1,210 @@
+[
+  {
+    "file": "after/home-pt-1440-js-resources-hover.png",
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": true,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "resources-hover"
+  },
+  {
+    "file": "after/home-en-1440-js-resources-hover.png",
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": true,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "resources-hover"
+  },
+  {
+    "file": "after/home-pt-1440-no-js-menu.png",
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "menu"
+  },
+  {
+    "file": "after/home-pt-390-no-js-menu.png",
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "menu"
+  },
+  {
+    "file": "after/home-pt-390-no-js-submenu-0.png",
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "submenu-0"
+  },
+  {
+    "file": "after/home-pt-390-no-js-submenu-1.png",
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "submenu-1"
+  },
+  {
+    "file": "after/home-pt-390-no-js-submenu-2.png",
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "submenu-2"
+  },
+  {
+    "file": "after/home-en-1440-no-js-menu.png",
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "menu"
+  },
+  {
+    "file": "after/home-en-390-no-js-menu.png",
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "menu"
+  },
+  {
+    "file": "after/home-en-390-no-js-submenu-0.png",
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "submenu-0"
+  },
+  {
+    "file": "after/home-en-390-no-js-submenu-1.png",
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "submenu-1"
+  },
+  {
+    "file": "after/home-en-390-no-js-submenu-2.png",
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "submenu-2"
+  },
+  {
+    "file": "after/article-en-1240-no-js-menu.png",
+    "url": "http://127.0.0.1:4321/en/news/c4ai-seminar-perspectives-in-ai-dr-susan-ariel-aaronson-dec-20th-2023-16h-brazil-time/",
+    "locale": "en",
+    "width": 1240,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "state": "menu"
+  }
+]

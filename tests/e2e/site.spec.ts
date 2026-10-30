@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import {
   requiredPages,
   principalPages,
@@ -8,6 +9,7 @@ import {
   newsAnchors,
   researchIndex,
   globalHeader,
+  favicon,
 } from './requirements';
 import editorial from './editorial-requirements.json' with { type: 'json' };
 import articleRequirements from './article-requirements.json' with { type: 'json' };
@@ -41,6 +43,13 @@ for (const required of requiredPages) {
     expect((await page.goto(required.path))?.status()).toBe(200);
     await expect(page).toHaveURL(required.path);
     await expect(page).toHaveTitle(required.title);
+    const icon = page.locator('head link[rel~="icon"]');
+    await expect(icon).toHaveCount(1);
+    await expect(icon).toHaveAttribute(
+      'href',
+      `${favicon.href}&page=${encodeURIComponent(required.path)}`,
+    );
+    await expect(icon).toHaveAttribute('type', favicon.type);
     await expect(page.locator('html')).toHaveAttribute('lang', required.lang);
     await expect(page.getByRole('main')).toBeVisible();
     await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
@@ -121,6 +130,20 @@ for (const required of requiredPages) {
     }
   });
 }
+test('favicon versionado entrega o SVG circular preservado', async ({
+  request,
+}) => {
+  const response = await request.get(`${favicon.href}&page=%2F`);
+  expect(response.status()).toBe(200);
+  expect(response.headers()['content-type']).toMatch(
+    /^image\/svg\+xml(?:\s*;|$)/,
+  );
+  expect(
+    createHash('sha256')
+      .update(await response.body())
+      .digest('hex'),
+  ).toBe(favicon.sha256);
+});
 for (const required of principalPages) {
   test(`${required.path}: idioma correspondente e retorno`, async ({
     page,

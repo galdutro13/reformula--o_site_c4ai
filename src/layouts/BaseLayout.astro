@@ -30,6 +30,7 @@ const {
 const translations = Astro.props.translations ?? routes[pageId ?? 'home'];
 const canonical = withBase(path ?? (pageId ? routes[pageId][locale] : '/'));
 const currentPath = notFound ? withBase('/404.html') : canonical;
+const faviconPagePath = notFound ? currentPath : Astro.url.pathname;
 const paired = Boolean(translations.pt && translations.en);
 ---
 
@@ -40,7 +41,11 @@ const paired = Boolean(translations.pt && translations.en);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href={withBase('/favicon.svg')} type="image/svg+xml" />
+    <link
+      rel="icon"
+      href={`${withBase('/favicon.svg')}?v=c4ai-circular-1&page=${encodeURIComponent(faviconPagePath)}`}
+      type="image/svg+xml"
+    />
     {(!import.meta.env.PUBLIC_INDEXABLE || notFound) && (
       <meta name="robots" content="noindex, nofollow" />
     )}

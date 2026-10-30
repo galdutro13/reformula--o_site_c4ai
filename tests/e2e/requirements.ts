@@ -1,6 +1,13 @@
 // Contrato independente do mapa de rotas e das coleções. Textos e URLs congelados
 // das fontes inventariadas; alterações exigem justificativa editorial na revisão.
 import articleRequirements from './article-requirements.json' with { type: 'json' };
+// Versão fixa; cada página acrescenta seu caminho em `page` para renovar a
+// associação antiga no Safari. SHA-256 do SVG circular aprovado em 29/10.
+export const favicon = {
+  href: '/favicon.svg?v=c4ai-circular-1',
+  type: 'image/svg+xml',
+  sha256: '04cd32b3d555d356806013acfd4a89ae63de633fc92a3925844632f124c82b3b',
+} as const;
 export const principalPages = [
   {
     path: '/',
@@ -388,10 +395,6 @@ export const globalHeader = {
       { label: 'Notícias', href: '/pt/noticias/' },
     ],
     resources: 'Recursos',
-    opportunities: {
-      label: 'Oportunidades',
-      href: 'https://c4ai.inova.usp.br/pt/oportunidades/',
-    },
     menus: [
       {
         name: 'Seções de Sobre',
@@ -485,10 +488,6 @@ export const globalHeader = {
       { label: 'News', href: '/en/news/' },
     ],
     resources: 'Resources',
-    opportunities: {
-      label: 'Opportunities',
-      href: 'https://c4ai.inova.usp.br/opportunities/',
-    },
     menus: [
       {
         name: 'Sections of About',
@@ -976,7 +975,6 @@ export const footerSocialLinks = [
   'https://www.facebook.com/groups/C4AI.USP',
   'https://bit.ly/C4AI-Linkedin',
   'https://www.flickr.com/photos/195298871@N06/albums',
-  'https://linktr.ee/c4aiusp',
 ];
 
 // Complementação HarpIA: contrato editorial das fontes oficiais consultadas em

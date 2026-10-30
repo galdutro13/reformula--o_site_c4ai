@@ -160,7 +160,6 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
         html,
         /hreflang="x-default" href="https:\/\/usp.br\/centro\/"/,
       );
-      assert.match(html, /href="\/centro\/favicon.svg"/);
       assert.match(html, /href="\/centro\/_astro\//);
       assert.match(html, /href="\/centro\/"/);
       assert.match(html, /href="\/centro\/en\/"/);
@@ -169,13 +168,32 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
       assertHomeHeaderScript(html, output);
     }
     assert.equal(
-      readFileSync(join(output, 'index.html'), 'utf8'),
-      readFileSync(join(output, 'pt/index.html'), 'utf8'),
-      'Raiz e alias devem publicar a mesma Home portuguesa',
+      readFileSync(join(output, 'index.html'), 'utf8').replace(
+        '&amp;page=%2Fcentro%2F',
+        '',
+      ),
+      readFileSync(join(output, 'pt/index.html'), 'utf8').replace(
+        '&amp;page=%2Fcentro%2Fpt%2F',
+        '',
+      ),
+      'Raiz e alias devem diferir somente na associação do favicon por página',
     );
     const files = readdirSync(output, { recursive: true, encoding: 'utf8' });
+    assert.deepEqual(
+      readFileSync(join(output, 'favicon.svg')),
+      readFileSync('public/favicon.svg'),
+      'A publicação deve preservar o SVG circular',
+    );
     for (const file of files.filter((f) => f.endsWith('.html'))) {
       const html = readFileSync(join(output, file), 'utf8');
+      const pagePath = '/centro/' + file.replace(/(^|\/)index\.html$/, '$1');
+      assert.deepEqual(
+        html.match(/<link\b[^>]*\brel="icon"[^>]*>/g),
+        [
+          `<link rel="icon" href="/centro/favicon.svg?v=c4ai-circular-1&amp;page=${encodeURIComponent(pagePath)}" type="image/svg+xml">`,
+        ],
+        `${file}: favicon único, versionado e com BASE_PATH`,
+      );
       for (const match of html.matchAll(/(?:href|src)="(\/[^"]+)"/g)) {
         const raw = match[1];
         assert.ok(

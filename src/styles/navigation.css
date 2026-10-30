@@ -378,18 +378,6 @@
     width: 2.75rem;
   }
 
-  .main-menu > li:last-child > a {
-    padding-right: 0;
-  }
-
-  .nav-external {
-    display: inline-flex;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    width: 2.75rem;
-  }
-
   .main-menu details > ul {
     position: static;
     width: 100%;

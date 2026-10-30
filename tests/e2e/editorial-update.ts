@@ -8,6 +8,17 @@ import {
 const origin = 'http://127.0.0.1:4321';
 
 export async function assertSharedEditorial(page: Page, lang: string) {
+  await expect(
+    page.locator(
+      'header a[href="https://c4ai.inova.usp.br/pt/oportunidades/"], header a[href="https://c4ai.inova.usp.br/opportunities/"]',
+    ),
+  ).toHaveCount(0);
+  await expect(
+    page.getByRole('banner').getByRole('link', {
+      name: /^(Oportunidades|Opportunities)(?:\s|$)/,
+      includeHidden: true,
+    }),
+  ).toHaveCount(0);
   const footer = page.getByRole('contentinfo');
   await expect(footer).toContainText(
     lang === 'en' ? 'C4AI is hosted by CIAAM' : 'C4AI é sediado no CIAAM',
