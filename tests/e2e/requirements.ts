@@ -670,6 +670,7 @@ export const homeResearch = {
 } as const;
 // Redesign do índice autorizado em 13/10/2026; expectativas independentes
 // do componente e das coleções, preservando os quatro destinos de navegação.
+// Em 30/10/2026, os rótulos passam a Projetos anteriores/Previous projects.
 export const researchIndex = {
   pt: {
     path: '/pt/pesquisas/',
@@ -688,7 +689,7 @@ export const researchIndex = {
           'Estudos sobre políticas públicas, implantação e avaliação de sistemas de inteligência artificial.',
       },
     ],
-    history: 'Trabalhos anteriores',
+    history: 'Projetos anteriores',
     historyDescription: 'Conheça os registros de pesquisas anteriores do C4AI.',
     links: [
       { label: 'Conhecer esta linha de pesquisa', anchor: 'languages' },
@@ -700,7 +701,7 @@ export const researchIndex = {
         label: 'Implantação e avaliação de IAs',
         anchor: 'governance-micro',
       },
-      { label: 'Consultar trabalhos anteriores', anchor: 'previous-research' },
+      { label: 'Consultar projetos anteriores', anchor: 'previous-research' },
     ],
   },
   en: {
@@ -719,7 +720,7 @@ export const researchIndex = {
           'Studies of public policy, deployment and evaluation of artificial intelligence systems.',
       },
     ],
-    history: 'Previous research',
+    history: 'Previous projects',
     historyDescription: 'Explore records of previous C4AI research.',
     links: [
       { label: 'Explore this research area', anchor: 'languages' },
@@ -731,9 +732,17 @@ export const researchIndex = {
         label: 'AI deployment and evaluation',
         anchor: 'governance-micro',
       },
-      { label: 'Browse previous research', anchor: 'previous-research' },
+      { label: 'Browse previous projects', anchor: 'previous-research' },
     ],
   },
+} as const;
+// Fotografia e tratamento aprovados em 30/10/2026; contrato manual do destaque.
+export const researchHero = {
+  image: '/media/06fcd48f000b.jpg',
+  width: 2560,
+  height: 1707,
+  background: 'rgb(23, 63, 70)',
+  opacity: '0.25',
 } as const;
 export const aboutUpdate = {
   pt: {

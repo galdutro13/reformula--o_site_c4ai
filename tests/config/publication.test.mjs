@@ -209,6 +209,22 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
         );
       }
     }
+    for (const file of ['pt/pesquisas/index.html', 'en/research/index.html']) {
+      const html = readFileSync(join(output, file), 'utf8');
+      const backgrounds =
+        html.match(/<img\b[^>]*\bclass="hero-background"[^>]*>/g) ?? [];
+      assert.equal(backgrounds.length, 1, `${file}: uma foto no destaque`);
+      assert.match(
+        backgrounds[0],
+        /\bsrc="\/centro\/media\/06fcd48f000b\.jpg"/,
+        `${file}: fotografia de Pesquisas deve respeitar BASE_PATH`,
+      );
+    }
+    assert.deepEqual(
+      readFileSync(join(output, 'media/06fcd48f000b.jpg')),
+      readFileSync('public/media/06fcd48f000b.jpg'),
+      'A publicação deve preservar a fotografia existente',
+    );
     const news = readFileSync(join(output, 'pt/noticias/index.html'), 'utf8');
     assert.match(news, /"path":"\/centro\/pt\/noticias\//);
     for (const css of files.filter((f) => f.endsWith('.css'))) {

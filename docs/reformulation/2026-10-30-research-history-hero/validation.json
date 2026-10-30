@@ -1,0 +1,1056 @@
+{
+  "date": "2026-10-30",
+  "origin": "http://127.0.0.1:4321",
+  "browser": "Chromium 153.0.8010.12",
+  "cases": [
+    {
+      "locale": "pt",
+      "path": "/pt/pesquisas/",
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "hero": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "image": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "title": {
+          "x": 256,
+          "y": 164,
+          "width": 928,
+          "height": 63.34375,
+          "right": 1184,
+          "bottom": 227.34375
+        },
+        "description": {
+          "x": 256,
+          "y": 262.71875,
+          "width": 928,
+          "height": 79.171875,
+          "right": 1184,
+          "bottom": 341.890625
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Projetos anteriores",
+      "historyAction": "Consultar projetos anteriores",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Conhecer esta linha de pesquisa",
+          "IA e políticas públicas",
+          "Implantação e avaliação de IAs",
+          "Consultar projetos anteriores"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/pt/pesquisas/#previous-research"
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/pesquisas/",
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 358,
+          "height": 38.390625,
+          "right": 374,
+          "bottom": 158.390625
+        },
+        "description": {
+          "x": 16,
+          "y": 179.828125,
+          "width": 358,
+          "height": 158.34375,
+          "right": 374,
+          "bottom": 338.171875
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Projetos anteriores",
+      "historyAction": "Consultar projetos anteriores",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Conhecer esta linha de pesquisa",
+          "IA e políticas públicas",
+          "Implantação e avaliação de IAs",
+          "Consultar projetos anteriores"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/pt/pesquisas/#previous-research"
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/pesquisas/",
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 369.34375,
+          "right": 320,
+          "bottom": 449.34375
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 369.34375,
+          "right": 320,
+          "bottom": 449.34375
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 288,
+          "height": 38.390625,
+          "right": 304,
+          "bottom": 158.390625
+        },
+        "description": {
+          "x": 16,
+          "y": 179.828125,
+          "width": 288,
+          "height": 211.125,
+          "right": 304,
+          "bottom": 390.953125
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Projetos anteriores",
+      "historyAction": "Consultar projetos anteriores",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Conhecer esta linha de pesquisa",
+          "IA e políticas públicas",
+          "Implantação e avaliação de IAs",
+          "Consultar projetos anteriores"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/pt/pesquisas/#previous-research"
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/research/",
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "hero": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "image": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "title": {
+          "x": 256,
+          "y": 164,
+          "width": 928,
+          "height": 63.34375,
+          "right": 1184,
+          "bottom": 227.34375
+        },
+        "description": {
+          "x": 256,
+          "y": 262.71875,
+          "width": 928,
+          "height": 79.171875,
+          "right": 1184,
+          "bottom": 341.890625
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Previous projects",
+      "historyAction": "Browse previous projects",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Explore this research area",
+          "AI and public policy",
+          "AI deployment and evaluation",
+          "Browse previous projects"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/en/research/#previous-research"
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/research/",
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 358,
+          "height": 38.390625,
+          "right": 374,
+          "bottom": 158.390625
+        },
+        "description": {
+          "x": 16,
+          "y": 179.828125,
+          "width": 358,
+          "height": 158.34375,
+          "right": 374,
+          "bottom": 338.171875
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Previous projects",
+      "historyAction": "Browse previous projects",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Explore this research area",
+          "AI and public policy",
+          "AI deployment and evaluation",
+          "Browse previous projects"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/en/research/#previous-research"
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/research/",
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 407.734375,
+          "right": 320,
+          "bottom": 487.734375
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 407.734375,
+          "right": 320,
+          "bottom": 487.734375
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 288,
+          "height": 76.78125,
+          "right": 304,
+          "bottom": 196.78125
+        },
+        "description": {
+          "x": 16,
+          "y": 218.21875,
+          "width": 288,
+          "height": 211.125,
+          "right": 304,
+          "bottom": 429.34375
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Previous projects",
+      "historyAction": "Browse previous projects",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Explore this research area",
+          "AI and public policy",
+          "AI deployment and evaluation",
+          "Browse previous projects"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/en/research/#previous-research"
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/pesquisas/",
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "hero": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "image": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "title": {
+          "x": 256,
+          "y": 164,
+          "width": 928,
+          "height": 63.34375,
+          "right": 1184,
+          "bottom": 227.34375
+        },
+        "description": {
+          "x": 256,
+          "y": 262.71875,
+          "width": 928,
+          "height": 79.171875,
+          "right": 1184,
+          "bottom": 341.890625
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Projetos anteriores",
+      "historyAction": "Consultar projetos anteriores",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Conhecer esta linha de pesquisa",
+          "IA e políticas públicas",
+          "Implantação e avaliação de IAs",
+          "Consultar projetos anteriores"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/pt/pesquisas/#previous-research"
+      },
+      "screenshots": [
+        "screenshots/pt-1440-no-js-hero.png",
+        "screenshots/pt-1440-no-js-history-index.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/pesquisas/",
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 358,
+          "height": 38.390625,
+          "right": 374,
+          "bottom": 158.390625
+        },
+        "description": {
+          "x": 16,
+          "y": 179.828125,
+          "width": 358,
+          "height": 158.34375,
+          "right": 374,
+          "bottom": 338.171875
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Projetos anteriores",
+      "historyAction": "Consultar projetos anteriores",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Conhecer esta linha de pesquisa",
+          "IA e políticas públicas",
+          "Implantação e avaliação de IAs",
+          "Consultar projetos anteriores"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/pt/pesquisas/#previous-research"
+      },
+      "screenshots": [
+        "screenshots/pt-390-no-js-hero.png",
+        "screenshots/pt-390-no-js-history-index.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/pesquisas/",
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 369.34375,
+          "right": 320,
+          "bottom": 449.34375
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 369.34375,
+          "right": 320,
+          "bottom": 449.34375
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 288,
+          "height": 38.390625,
+          "right": 304,
+          "bottom": 158.390625
+        },
+        "description": {
+          "x": 16,
+          "y": 179.828125,
+          "width": 288,
+          "height": 211.125,
+          "right": 304,
+          "bottom": 390.953125
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Projetos anteriores",
+      "historyAction": "Consultar projetos anteriores",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Conhecer esta linha de pesquisa",
+          "IA e políticas públicas",
+          "Implantação e avaliação de IAs",
+          "Consultar projetos anteriores"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/pt/pesquisas/#previous-research"
+      },
+      "screenshots": [
+        "screenshots/pt-320-no-js-hero.png",
+        "screenshots/pt-320-no-js-history-index.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/research/",
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "hero": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "image": {
+          "x": 0,
+          "y": 100,
+          "width": 1440,
+          "height": 324.28125,
+          "right": 1440,
+          "bottom": 424.28125
+        },
+        "title": {
+          "x": 256,
+          "y": 164,
+          "width": 928,
+          "height": 63.34375,
+          "right": 1184,
+          "bottom": 227.34375
+        },
+        "description": {
+          "x": 256,
+          "y": 262.71875,
+          "width": 928,
+          "height": 79.171875,
+          "right": 1184,
+          "bottom": 341.890625
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Previous projects",
+      "historyAction": "Browse previous projects",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Explore this research area",
+          "AI and public policy",
+          "AI deployment and evaluation",
+          "Browse previous projects"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/en/research/#previous-research"
+      },
+      "screenshots": [
+        "screenshots/en-1440-no-js-hero.png",
+        "screenshots/en-1440-no-js-history-index.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/research/",
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 390,
+          "height": 316.5625,
+          "right": 390,
+          "bottom": 396.5625
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 358,
+          "height": 38.390625,
+          "right": 374,
+          "bottom": 158.390625
+        },
+        "description": {
+          "x": 16,
+          "y": 179.828125,
+          "width": 358,
+          "height": 158.34375,
+          "right": 374,
+          "bottom": 338.171875
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Previous projects",
+      "historyAction": "Browse previous projects",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Explore this research area",
+          "AI and public policy",
+          "AI deployment and evaluation",
+          "Browse previous projects"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/en/research/#previous-research"
+      },
+      "screenshots": [
+        "screenshots/en-390-no-js-hero.png",
+        "screenshots/en-390-no-js-history-index.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/research/",
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "image": {
+        "path": "/media/06fcd48f000b.jpg",
+        "status": 200,
+        "naturalWidth": 2560,
+        "naturalHeight": 1707
+      },
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "hero": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 407.734375,
+          "right": 320,
+          "bottom": 487.734375
+        },
+        "image": {
+          "x": 0,
+          "y": 80,
+          "width": 320,
+          "height": 407.734375,
+          "right": 320,
+          "bottom": 487.734375
+        },
+        "title": {
+          "x": 16,
+          "y": 120,
+          "width": 288,
+          "height": 76.78125,
+          "right": 304,
+          "bottom": 196.78125
+        },
+        "description": {
+          "x": 16,
+          "y": 218.21875,
+          "width": 288,
+          "height": 211.125,
+          "right": 304,
+          "bottom": 429.34375
+        },
+        "style": {
+          "background": "rgb(23, 63, 70)",
+          "opacity": 0.25,
+          "headingColor": "rgb(255, 255, 255)",
+          "paragraphColor": "rgb(255, 255, 255)",
+          "fit": "cover",
+          "position": "50% 50%"
+        }
+      },
+      "contrast": {
+        "method": "Limite conservador: texto branco sobre composicao da base real com fotografia inteiramente branca na opacidade real.",
+        "minimumRatio": 5.416561979748414
+      },
+      "historyLabel": "Previous projects",
+      "historyAction": "Browse previous projects",
+      "historicalIds": [
+        "OceanML_B_eng",
+        "Climate_B_eng",
+        "AlHealth_B_eng",
+        "AgriBio_B_eng",
+        "KEML_B_eng"
+      ],
+      "keyboard": {
+        "order": [
+          "Explore this research area",
+          "AI and public policy",
+          "AI deployment and evaluation",
+          "Browse previous projects"
+        ],
+        "focusVisible": true,
+        "enterDestination": "/en/research/#previous-research"
+      },
+      "screenshots": [
+        "screenshots/en-320-no-js-hero.png",
+        "screenshots/en-320-no-js-history-index.png"
+      ],
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Capturas feitas sem JavaScript; geometria, contraste e teclado conferidos nos dois modos.",
+    "Safari, Firefox, leitores de tela e dispositivos fisicos nao verificados nesta etapa."
+  ],
+  "visualReview": {
+    "reviewedCaptures": 12,
+    "locales": ["pt", "en"],
+    "widths": [1440, 390, 320],
+    "result": "Fotografia visivel, textos legiveis, quebras coerentes, sem cortes ou transbordamento; indice historico legivel em desktop e mobile."
+  },
+  "publication": {
+    "base": "/centro/",
+    "check": "npm run quality > test:config > build de publicação em subdiretório: HTML, metadados e assets",
+    "pages": ["/centro/pt/pesquisas/", "/centro/en/research/"],
+    "imagePath": "/centro/media/06fcd48f000b.jpg",
+    "imageBytesEqualToSource": true,
+    "passed": true
+  },
+  "preservedPhoto": {
+    "path": "/media/06fcd48f000b.jpg",
+    "sha256": "5883d807714208ea2206780ee08cc5f4c25b1f05e2440d6036c24b95fe831709",
+    "matchesHead": true
+  }
+}
