@@ -167,7 +167,9 @@ for (const locale of ['pt', 'en'] as const) {
       required.locationTitle,
     );
     const locationCopy = location.locator('.about-location-copy');
-    await expect(locationCopy).toContainText(required.locationLabel);
+    const locationLabel = locationCopy.locator('.about-location-label');
+    await expect(locationLabel).toHaveText(required.locationLabel);
+    await expect(locationLabel).toHaveCSS('text-transform', 'uppercase');
     await expect(locationCopy).toContainText(required.location);
     await expect(locationCopy.locator('address')).toContainText(
       required.address,

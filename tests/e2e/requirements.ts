@@ -167,6 +167,7 @@ export const aboutAnchors = {
 };
 // Redesign da introdução de Sobre autorizado em 15/10/2026. Expectativas
 // editoriais manuais; os textos institucionais seguintes permanecem obrigatórios.
+// Em 30/10/2026, a marca flickr e o destino da galeria substituem os originais.
 export const aboutIntro = {
   pt: {
     path: '/pt/sobre/',
@@ -191,8 +192,8 @@ export const aboutIntro = {
         title: 'Eventos e workshops',
         description:
           'Explore os registros fotográficos das atividades do centro.',
-        action: 'Acessar Flickr',
-        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+        action: 'Acessar flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/albums',
       },
     ],
   },
@@ -217,14 +218,15 @@ export const aboutIntro = {
       {
         title: 'Events and workshops',
         description: 'Explore photographs of the center’s activities.',
-        action: 'Visit Flickr',
-        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+        action: 'Visit flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/albums',
       },
     ],
   },
 } as const;
 // Reorganização institucional de Sobre autorizada em 15/10/2026. Contrato
 // manual: preserva os parágrafos originais e separa três grupos temáticos.
+// Em 30/10/2026, somente os rótulos passam a Sede/Headquarters.
 export const aboutOverview = {
   pt: {
     path: '/pt/sobre/',
@@ -247,7 +249,7 @@ export const aboutOverview = {
       description:
         'Ser um centro de excelência de nível mundial em Inteligência Artificial e uma organização essencial para a comunidade científica e a sociedade no Brasil.',
     },
-    locationLabel: 'Localização',
+    locationLabel: 'Sede',
     locationTitle: 'Onde estamos',
     location:
       'O C4AI é sediado no CIAAM e localizado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar no coração do campus Butantã da USP.',
@@ -281,7 +283,7 @@ export const aboutOverview = {
       description:
         'To be a world-class center of excellence in Artificial Intelligence and an essential organization for the scientific community and the society in Brazil.',
     },
-    locationLabel: 'Location',
+    locationLabel: 'Headquarters',
     locationTitle: 'Where we are',
     location:
       'C4AI is hosted by CIAAM and located at InovaUSP, a space for innovation and multidisciplinary research in the heart of USP’s Butantã campus.',

@@ -231,3 +231,9 @@ As rotas futuras não são usadas como origem da suíte. `tests/e2e/requirements
 No desktop, a abertura de um painel fechado por hover de mouse fica pendente de confirmação: o primeiro clique no acionador mantém o painel aberto e consome essa marcação; o segundo fecha normalmente. Reentrar em um painel já aberto não renova a confirmação. Fechamento, mudança de breakpoint e ativação por Enter/Espaço limpam a marcação. Teclado, toque, links diretos e navegação sem JavaScript preservam a alternância nativa.
 
 O teste de regressão cobre PT/EN e os três acionadores, com clique real partindo de fora do menu, segundo clique, hover explícito, reabertura, reentrada e Enter/Espaço após hover. Os projetos sem JavaScript verificam os dois cliques nativos; nenhuma verificação anterior é removida.
+
+## Marcas, galeria e sede em Sobre — 30/10/2026
+
+Em Sobre/About, os links dos canais devem usar exatamente “Acessar YouTube”/“Visit YouTube” e “Acessar flickr”/“Visit flickr”. O YouTube mantém `https://www.youtube.com/c/C4AIUSP`; o flickr passa a apontar para a galeria de álbuns do C4AI em `https://www.flickr.com/photos/195298871@N06/albums`, em vez de uma fotografia específica. Essa decisão substitui a preservação do destino original prevista em S03, mantendo os demais requisitos de conteúdo, semântica, nomes acessíveis e navegação.
+
+O pequeno rótulo acima de “Onde estamos”/“Where we are” passa a “Sede”/“Headquarters”, com a estilização existente em caixa alta. Títulos, descrição CIAAM/InovaUSP, endereço/CEP, fotografias, âncoras, contato e mapa permanecem. A alteração se restringe ao conteúdo de Sobre/About; rodapé e artigos históricos mantêm suas grafias e destinos. A implementação e os resultados pertencem ao [registro da etapa](reformulation.md#marcas-galeria-e-sede-em-sobre--30102026).
