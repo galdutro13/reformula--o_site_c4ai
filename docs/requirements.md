@@ -1,5 +1,9 @@
 # Requisitos
 
+## Títulos das áreas de governança — 30/10/2026
+
+Na Home e em Pesquisas, incluindo índice e seções, os títulos das áreas passam a ser “IA e políticas públicas” e “Implantação e avaliação de IAs”, com equivalentes “AI and public policy” e “AI deployment and evaluation”. Essa decisão substitui somente os títulos anteriormente prefixados por Governança Macro/Micro ou Macro/Micro governance. Textos explicativos e metadados permanecem, assim como as âncoras estáveis `governance-macro`/`governance-micro` e as associações OBIA/HarpIA. Ver [registro da alteração](reformulation.md#títulos-das-áreas-de-governança--30102026).
+
 ## Objetivo
 
 Permitir que outro desenvolvedor compreenda, execute, edite, valide e publique o projeto pela documentação. Site institucional bilíngue, com atualizações pouco frequentes por desenvolvedores e manutenção por uma pessoa com auxílio de agentes.

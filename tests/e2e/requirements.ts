@@ -306,7 +306,7 @@ export const researchSubareas = {
   pt: [
     {
       anchor: 'governance-macro',
-      title: 'Governança Macro — IA e políticas públicas',
+      title: 'IA e políticas públicas',
       record: 'OBIA_B_eng',
       name: 'OBIA@C4AI',
       projectTitle:
@@ -314,7 +314,7 @@ export const researchSubareas = {
     },
     {
       anchor: 'governance-micro',
-      title: 'Governança Micro — Implantação e avaliação de IA',
+      title: 'Implantação e avaliação de IAs',
       record: 'harpia',
       name: 'HarpIA',
       projectTitle: 'Avaliação de Grandes Modelos de Linguagem',
@@ -323,7 +323,7 @@ export const researchSubareas = {
   en: [
     {
       anchor: 'governance-macro',
-      title: 'Macro governance — AI and public policy',
+      title: 'AI and public policy',
       record: 'OBIA_B_eng',
       name: 'OBIA@C4AI',
       projectTitle:
@@ -331,7 +331,7 @@ export const researchSubareas = {
     },
     {
       anchor: 'governance-micro',
-      title: 'Micro governance — AI deployment and evaluation',
+      title: 'AI deployment and evaluation',
       record: 'harpia',
       name: 'HarpIA',
       projectTitle: 'Evaluation of Large Language Models',
@@ -597,14 +597,14 @@ export const homeResearch = {
         navigation: 'Áreas de pesquisa',
         links: [
           {
-            title: 'Governança Macro — IA e políticas públicas',
+            title: 'IA e políticas públicas',
             description:
               'Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.',
             href: '/pt/pesquisas/#governance-macro',
             anchor: 'governance-macro',
           },
           {
-            title: 'Governança Micro — Implantação e avaliação de IA',
+            title: 'Implantação e avaliação de IAs',
             description:
               'Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial.',
             href: '/pt/pesquisas/#governance-micro',
@@ -649,14 +649,14 @@ export const homeResearch = {
         navigation: 'Research areas',
         links: [
           {
-            title: 'Macro governance — AI and public policy',
+            title: 'AI and public policy',
             description:
               'Studies of the impacts of AI on society, regulation and public policy.',
             href: '/en/research/#governance-macro',
             anchor: 'governance-macro',
           },
           {
-            title: 'Micro governance — AI deployment and evaluation',
+            title: 'AI deployment and evaluation',
             description:
               'Research on the implementation, management and evaluation of artificial intelligence systems.',
             href: '/en/research/#governance-micro',
@@ -692,11 +692,11 @@ export const researchIndex = {
     links: [
       { label: 'Conhecer esta linha de pesquisa', anchor: 'languages' },
       {
-        label: 'Governança Macro — IA e políticas públicas',
+        label: 'IA e políticas públicas',
         anchor: 'governance-macro',
       },
       {
-        label: 'Governança Micro — Implantação e avaliação de IA',
+        label: 'Implantação e avaliação de IAs',
         anchor: 'governance-micro',
       },
       { label: 'Consultar trabalhos anteriores', anchor: 'previous-research' },
@@ -723,11 +723,11 @@ export const researchIndex = {
     links: [
       { label: 'Explore this research area', anchor: 'languages' },
       {
-        label: 'Macro governance — AI and public policy',
+        label: 'AI and public policy',
         anchor: 'governance-macro',
       },
       {
-        label: 'Micro governance — AI deployment and evaluation',
+        label: 'AI deployment and evaluation',
         anchor: 'governance-micro',
       },
       { label: 'Browse previous research', anchor: 'previous-research' },
