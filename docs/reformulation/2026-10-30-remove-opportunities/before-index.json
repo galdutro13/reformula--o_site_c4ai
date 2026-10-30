@@ -1,0 +1,50 @@
+[
+  {
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "state": "menu desktop fechado",
+    "file": "before/home-pt-1440-menu.png"
+  },
+  {
+    "url": "http://127.0.0.1:4321/",
+    "locale": "pt",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "state": "menu móvel aberto",
+    "file": "before/home-pt-390-menu.png"
+  },
+  {
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "state": "menu desktop fechado",
+    "file": "before/home-en-1440-menu.png"
+  },
+  {
+    "url": "http://127.0.0.1:4321/en/",
+    "locale": "en",
+    "width": 390,
+    "height": 900,
+    "deviceScaleFactor": 1,
+    "javaScript": false,
+    "engine": "Chromium",
+    "zoom": "100% (sem emulação de zoom)",
+    "state": "menu móvel aberto",
+    "file": "before/home-en-390-menu.png"
+  }
+]

@@ -1,0 +1,1202 @@
+{
+  "date": "2026-10-30",
+  "origin": "http://127.0.0.1:4321",
+  "browser": "Chromium 153.0.8010.12",
+  "externalNavigation": "Interceptada localmente: valida o destino acionado por Enter sem carregar os provedores.",
+  "cases": [
+    {
+      "locale": "pt",
+      "path": "/pt/sobre/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "javaScriptEnabled": true,
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "channels": [
+          {
+            "card": {
+              "x": 112,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 710,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 525.046875,
+              "y": 630.28125,
+              "width": 163.953125,
+              "height": 48,
+              "right": 689,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 546.046875,
+              "y": 642.390625,
+              "width": 113.546875,
+              "height": 23.765625,
+              "right": 659.59375,
+              "bottom": 666.15625
+            }
+          },
+          {
+            "card": {
+              "x": 730,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 1328,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 1166.359375,
+              "y": 630.28125,
+              "width": 140.640625,
+              "height": 48,
+              "right": 1307,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 1187.359375,
+              "y": 642.390625,
+              "width": 90.234375,
+              "height": 23.765625,
+              "right": 1277.59375,
+              "bottom": 666.15625
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 748.796875,
+            "y": 1412.953125,
+            "width": 579.203125,
+            "height": 20.46875,
+            "right": 1328,
+            "bottom": 1433.421875
+          },
+          "copy": {
+            "x": 748.796875,
+            "y": 1412.953125,
+            "width": 579.203125,
+            "height": 277,
+            "right": 1328,
+            "bottom": 1689.953125
+          },
+          "text": "Sede"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Acessar YouTube", "Acessar flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/pt/sobre/#contato",
+        "focusVisible": true
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/sobre/",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "javaScriptEnabled": true,
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 544.46875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 709.046875
+            },
+            "link": {
+              "x": 105,
+              "y": 644.046875,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 692.046875
+            },
+            "text": {
+              "x": 105,
+              "y": 656.15625,
+              "width": 113.546875,
+              "height": 23.765625,
+              "right": 218.546875,
+              "bottom": 679.921875
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 729.046875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 893.625
+            },
+            "link": {
+              "x": 105,
+              "y": 828.625,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 876.625
+            },
+            "text": {
+              "x": 105,
+              "y": 840.734375,
+              "width": 90.234375,
+              "height": 23.765625,
+              "right": 195.234375,
+              "bottom": 864.5
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2149.09375,
+            "width": 358,
+            "height": 20.46875,
+            "right": 374,
+            "bottom": 2169.5625
+          },
+          "copy": {
+            "x": 16,
+            "y": 2149.09375,
+            "width": 358,
+            "height": 348.46875,
+            "right": 374,
+            "bottom": 2497.5625
+          },
+          "text": "Sede"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Acessar YouTube", "Acessar flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/pt/sobre/#contato",
+        "focusVisible": true
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/sobre/",
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "javaScriptEnabled": true,
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 599.46875,
+              "width": 288,
+              "height": 210.765625,
+              "right": 304,
+              "bottom": 810.234375
+            },
+            "link": {
+              "x": 105,
+              "y": 745.234375,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 793.234375
+            },
+            "text": {
+              "x": 105,
+              "y": 757.34375,
+              "width": 113.546875,
+              "height": 23.765625,
+              "right": 218.546875,
+              "bottom": 781.109375
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 830.234375,
+              "width": 288,
+              "height": 187.375,
+              "right": 304,
+              "bottom": 1017.609375
+            },
+            "link": {
+              "x": 105,
+              "y": 952.609375,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 1000.609375
+            },
+            "text": {
+              "x": 105,
+              "y": 964.71875,
+              "width": 90.234375,
+              "height": 23.765625,
+              "right": 195.234375,
+              "bottom": 988.484375
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2401.046875,
+            "width": 288,
+            "height": 20.46875,
+            "right": 304,
+            "bottom": 2421.515625
+          },
+          "copy": {
+            "x": 16,
+            "y": 2401.046875,
+            "width": 288,
+            "height": 374.0625,
+            "right": 304,
+            "bottom": 2775.109375
+          },
+          "text": "Sede"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Acessar YouTube", "Acessar flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/pt/sobre/#contato",
+        "focusVisible": true
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/about/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "javaScriptEnabled": true,
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "channels": [
+          {
+            "card": {
+              "x": 112,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 710,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 547.546875,
+              "y": 630.28125,
+              "width": 141.453125,
+              "height": 48,
+              "right": 689,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 568.546875,
+              "y": 642.390625,
+              "width": 91.046875,
+              "height": 23.765625,
+              "right": 659.59375,
+              "bottom": 666.15625
+            }
+          },
+          {
+            "card": {
+              "x": 730,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 1328,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 1188.859375,
+              "y": 630.28125,
+              "width": 118.140625,
+              "height": 48,
+              "right": 1307,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 1209.859375,
+              "y": 642.390625,
+              "width": 67.734375,
+              "height": 23.765625,
+              "right": 1277.59375,
+              "bottom": 666.15625
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 748.796875,
+            "y": 1387.359375,
+            "width": 579.203125,
+            "height": 20.46875,
+            "right": 1328,
+            "bottom": 1407.828125
+          },
+          "copy": {
+            "x": 748.796875,
+            "y": 1387.359375,
+            "width": 579.203125,
+            "height": 277,
+            "right": 1328,
+            "bottom": 1664.359375
+          },
+          "text": "Headquarters"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Visit YouTube", "Visit flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/en/about/#contact",
+        "focusVisible": true
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/about/",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "javaScriptEnabled": true,
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 544.46875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 709.046875
+            },
+            "link": {
+              "x": 105,
+              "y": 644.046875,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 692.046875
+            },
+            "text": {
+              "x": 105,
+              "y": 656.15625,
+              "width": 91.046875,
+              "height": 23.765625,
+              "right": 196.046875,
+              "bottom": 679.921875
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 729.046875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 893.625
+            },
+            "link": {
+              "x": 105,
+              "y": 828.625,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 876.625
+            },
+            "text": {
+              "x": 105,
+              "y": 840.734375,
+              "width": 67.734375,
+              "height": 23.765625,
+              "right": 172.734375,
+              "bottom": 864.5
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2123.5,
+            "width": 358,
+            "height": 20.46875,
+            "right": 374,
+            "bottom": 2143.96875
+          },
+          "copy": {
+            "x": 16,
+            "y": 2123.5,
+            "width": 358,
+            "height": 348.46875,
+            "right": 374,
+            "bottom": 2471.96875
+          },
+          "text": "Headquarters"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Visit YouTube", "Visit flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/en/about/#contact",
+        "focusVisible": true
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/about/",
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "javaScriptEnabled": true,
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 571.46875,
+              "width": 288,
+              "height": 187.375,
+              "right": 304,
+              "bottom": 758.84375
+            },
+            "link": {
+              "x": 105,
+              "y": 693.84375,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 741.84375
+            },
+            "text": {
+              "x": 105,
+              "y": 705.953125,
+              "width": 91.046875,
+              "height": 23.765625,
+              "right": 196.046875,
+              "bottom": 729.71875
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 778.84375,
+              "width": 288,
+              "height": 187.96875,
+              "right": 304,
+              "bottom": 966.8125
+            },
+            "link": {
+              "x": 105,
+              "y": 901.8125,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 949.8125
+            },
+            "text": {
+              "x": 105,
+              "y": 913.921875,
+              "width": 67.734375,
+              "height": 23.765625,
+              "right": 172.734375,
+              "bottom": 937.6875
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2299.0625,
+            "width": 288,
+            "height": 20.46875,
+            "right": 304,
+            "bottom": 2319.53125
+          },
+          "copy": {
+            "x": 16,
+            "y": 2299.0625,
+            "width": 288,
+            "height": 348.46875,
+            "right": 304,
+            "bottom": 2647.53125
+          },
+          "text": "Headquarters"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Visit YouTube", "Visit flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/en/about/#contact",
+        "focusVisible": true
+      },
+      "screenshots": [],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/sobre/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "javaScriptEnabled": false,
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "channels": [
+          {
+            "card": {
+              "x": 112,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 710,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 525.046875,
+              "y": 630.28125,
+              "width": 163.953125,
+              "height": 48,
+              "right": 689,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 546.046875,
+              "y": 642.390625,
+              "width": 113.546875,
+              "height": 23.765625,
+              "right": 659.59375,
+              "bottom": 666.15625
+            }
+          },
+          {
+            "card": {
+              "x": 730,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 1328,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 1166.359375,
+              "y": 630.28125,
+              "width": 140.640625,
+              "height": 48,
+              "right": 1307,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 1187.359375,
+              "y": 642.390625,
+              "width": 90.234375,
+              "height": 23.765625,
+              "right": 1277.59375,
+              "bottom": 666.15625
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 748.796875,
+            "y": 1412.953125,
+            "width": 579.203125,
+            "height": 20.46875,
+            "right": 1328,
+            "bottom": 1433.421875
+          },
+          "copy": {
+            "x": 748.796875,
+            "y": 1412.953125,
+            "width": 579.203125,
+            "height": 277,
+            "right": 1328,
+            "bottom": 1689.953125
+          },
+          "text": "Sede"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Acessar YouTube", "Acessar flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/pt/sobre/#contato",
+        "focusVisible": true
+      },
+      "screenshots": [
+        "screenshots/pt-1440-no-js-channels.png",
+        "screenshots/pt-1440-no-js-headquarters.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/sobre/",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "javaScriptEnabled": false,
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 544.46875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 709.046875
+            },
+            "link": {
+              "x": 105,
+              "y": 644.046875,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 692.046875
+            },
+            "text": {
+              "x": 105,
+              "y": 656.15625,
+              "width": 113.546875,
+              "height": 23.765625,
+              "right": 218.546875,
+              "bottom": 679.921875
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 729.046875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 893.625
+            },
+            "link": {
+              "x": 105,
+              "y": 828.625,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 876.625
+            },
+            "text": {
+              "x": 105,
+              "y": 840.734375,
+              "width": 90.234375,
+              "height": 23.765625,
+              "right": 195.234375,
+              "bottom": 864.5
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2149.09375,
+            "width": 358,
+            "height": 20.46875,
+            "right": 374,
+            "bottom": 2169.5625
+          },
+          "copy": {
+            "x": 16,
+            "y": 2149.09375,
+            "width": 358,
+            "height": 348.46875,
+            "right": 374,
+            "bottom": 2497.5625
+          },
+          "text": "Sede"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Acessar YouTube", "Acessar flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/pt/sobre/#contato",
+        "focusVisible": true
+      },
+      "screenshots": [
+        "screenshots/pt-390-no-js-channels.png",
+        "screenshots/pt-390-no-js-headquarters.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "pt",
+      "path": "/pt/sobre/",
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "javaScriptEnabled": false,
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 599.46875,
+              "width": 288,
+              "height": 210.765625,
+              "right": 304,
+              "bottom": 810.234375
+            },
+            "link": {
+              "x": 105,
+              "y": 745.234375,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 793.234375
+            },
+            "text": {
+              "x": 105,
+              "y": 757.34375,
+              "width": 113.546875,
+              "height": 23.765625,
+              "right": 218.546875,
+              "bottom": 781.109375
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 830.234375,
+              "width": 288,
+              "height": 187.375,
+              "right": 304,
+              "bottom": 1017.609375
+            },
+            "link": {
+              "x": 105,
+              "y": 952.609375,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 1000.609375
+            },
+            "text": {
+              "x": 105,
+              "y": 964.71875,
+              "width": 90.234375,
+              "height": 23.765625,
+              "right": 195.234375,
+              "bottom": 988.484375
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2401.046875,
+            "width": 288,
+            "height": 20.46875,
+            "right": 304,
+            "bottom": 2421.515625
+          },
+          "copy": {
+            "x": 16,
+            "y": 2401.046875,
+            "width": 288,
+            "height": 374.0625,
+            "right": 304,
+            "bottom": 2775.109375
+          },
+          "text": "Sede"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Acessar YouTube", "Acessar flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/pt/sobre/#contato",
+        "focusVisible": true
+      },
+      "screenshots": [
+        "screenshots/pt-320-no-js-channels.png",
+        "screenshots/pt-320-no-js-headquarters.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/about/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "javaScriptEnabled": false,
+      "geometry": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "channels": [
+          {
+            "card": {
+              "x": 112,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 710,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 547.546875,
+              "y": 630.28125,
+              "width": 141.453125,
+              "height": 48,
+              "right": 689,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 568.546875,
+              "y": 642.390625,
+              "width": 91.046875,
+              "height": 23.765625,
+              "right": 659.59375,
+              "bottom": 666.15625
+            }
+          },
+          {
+            "card": {
+              "x": 730,
+              "y": 596,
+              "width": 598,
+              "height": 116.578125,
+              "right": 1328,
+              "bottom": 712.578125
+            },
+            "link": {
+              "x": 1188.859375,
+              "y": 630.28125,
+              "width": 118.140625,
+              "height": 48,
+              "right": 1307,
+              "bottom": 678.28125
+            },
+            "text": {
+              "x": 1209.859375,
+              "y": 642.390625,
+              "width": 67.734375,
+              "height": 23.765625,
+              "right": 1277.59375,
+              "bottom": 666.15625
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 748.796875,
+            "y": 1387.359375,
+            "width": 579.203125,
+            "height": 20.46875,
+            "right": 1328,
+            "bottom": 1407.828125
+          },
+          "copy": {
+            "x": 748.796875,
+            "y": 1387.359375,
+            "width": 579.203125,
+            "height": 277,
+            "right": 1328,
+            "bottom": 1664.359375
+          },
+          "text": "Headquarters"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Visit YouTube", "Visit flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/en/about/#contact",
+        "focusVisible": true
+      },
+      "screenshots": [
+        "screenshots/en-1440-no-js-channels.png",
+        "screenshots/en-1440-no-js-headquarters.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/about/",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "javaScriptEnabled": false,
+      "geometry": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 544.46875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 709.046875
+            },
+            "link": {
+              "x": 105,
+              "y": 644.046875,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 692.046875
+            },
+            "text": {
+              "x": 105,
+              "y": 656.15625,
+              "width": 91.046875,
+              "height": 23.765625,
+              "right": 196.046875,
+              "bottom": 679.921875
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 729.046875,
+              "width": 358,
+              "height": 164.578125,
+              "right": 374,
+              "bottom": 893.625
+            },
+            "link": {
+              "x": 105,
+              "y": 828.625,
+              "width": 252,
+              "height": 48,
+              "right": 357,
+              "bottom": 876.625
+            },
+            "text": {
+              "x": 105,
+              "y": 840.734375,
+              "width": 67.734375,
+              "height": 23.765625,
+              "right": 172.734375,
+              "bottom": 864.5
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2123.5,
+            "width": 358,
+            "height": 20.46875,
+            "right": 374,
+            "bottom": 2143.96875
+          },
+          "copy": {
+            "x": 16,
+            "y": 2123.5,
+            "width": 358,
+            "height": 348.46875,
+            "right": 374,
+            "bottom": 2471.96875
+          },
+          "text": "Headquarters"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Visit YouTube", "Visit flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/en/about/#contact",
+        "focusVisible": true
+      },
+      "screenshots": [
+        "screenshots/en-390-no-js-channels.png",
+        "screenshots/en-390-no-js-headquarters.png"
+      ],
+      "passed": true
+    },
+    {
+      "locale": "en",
+      "path": "/en/about/",
+      "viewport": {
+        "width": 320,
+        "height": 900
+      },
+      "javaScriptEnabled": false,
+      "geometry": {
+        "clientWidth": 320,
+        "scrollWidth": 320,
+        "channels": [
+          {
+            "card": {
+              "x": 16,
+              "y": 571.46875,
+              "width": 288,
+              "height": 187.375,
+              "right": 304,
+              "bottom": 758.84375
+            },
+            "link": {
+              "x": 105,
+              "y": 693.84375,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 741.84375
+            },
+            "text": {
+              "x": 105,
+              "y": 705.953125,
+              "width": 91.046875,
+              "height": 23.765625,
+              "right": 196.046875,
+              "bottom": 729.71875
+            }
+          },
+          {
+            "card": {
+              "x": 16,
+              "y": 778.84375,
+              "width": 288,
+              "height": 187.96875,
+              "right": 304,
+              "bottom": 966.8125
+            },
+            "link": {
+              "x": 105,
+              "y": 901.8125,
+              "width": 182,
+              "height": 48,
+              "right": 287,
+              "bottom": 949.8125
+            },
+            "text": {
+              "x": 105,
+              "y": 913.921875,
+              "width": 67.734375,
+              "height": 23.765625,
+              "right": 172.734375,
+              "bottom": 937.6875
+            }
+          }
+        ],
+        "headquarters": {
+          "label": {
+            "x": 16,
+            "y": 2299.0625,
+            "width": 288,
+            "height": 20.46875,
+            "right": 304,
+            "bottom": 2319.53125
+          },
+          "copy": {
+            "x": 16,
+            "y": 2299.0625,
+            "width": 288,
+            "height": 348.46875,
+            "right": 304,
+            "bottom": 2647.53125
+          },
+          "text": "Headquarters"
+        }
+      },
+      "keyboard": {
+        "channelOrder": ["Visit YouTube", "Visit flickr"],
+        "enterDestinations": [
+          "https://www.youtube.com/c/C4AIUSP",
+          "https://www.flickr.com/photos/195298871@N06/albums"
+        ],
+        "directions": "/en/about/#contact",
+        "focusVisible": true
+      },
+      "screenshots": [
+        "screenshots/en-320-no-js-channels.png",
+        "screenshots/en-320-no-js-headquarters.png"
+      ],
+      "passed": true
+    }
+  ],
+  "visualReview": {
+    "reviewedCaptures": 12,
+    "widths": [1440, 390, 320],
+    "locales": ["pt", "en"],
+    "result": "Textos legiveis, quebras coerentes e sem cortes ou transbordamento nas areas revisadas."
+  },
+  "initialAuxiliaryCheck": "A primeira execucao do roteiro auxiliar parou porque esperava somente Flickr no rodape e omitia o aviso acessivel preexistente. Corrigida para exigir o nome completo Flickr (site externo) / Flickr (external site), sem alterar o rodape.",
+  "limits": [
+    "Capturas obtidas sem JavaScript; geometria e teclado conferidos nos dois modos.",
+    "Safari, Firefox, leitores de tela e dispositivos fisicos nao foram verificados nesta etapa.",
+    "As navegacoes externas por Enter foram interceptadas localmente; a galeria foi consultada separadamente por HTTP."
+  ]
+}

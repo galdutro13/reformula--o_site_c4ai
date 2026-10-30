@@ -1,9 +1,16 @@
 // Contrato independente do mapa de rotas e das coleções. Textos e URLs congelados
 // das fontes inventariadas; alterações exigem justificativa editorial na revisão.
 import articleRequirements from './article-requirements.json' with { type: 'json' };
+// Versão fixa; cada página acrescenta seu caminho em `page` para renovar a
+// associação antiga no Safari. SHA-256 do SVG circular aprovado em 29/10.
+export const favicon = {
+  href: '/favicon.svg?v=c4ai-circular-1',
+  type: 'image/svg+xml',
+  sha256: '04cd32b3d555d356806013acfd4a89ae63de633fc92a3925844632f124c82b3b',
+} as const;
 export const principalPages = [
   {
-    path: '/pt/',
+    path: '/',
     lang: 'pt-BR',
     title: 'C4AI | Início',
     heading:
@@ -16,7 +23,7 @@ export const principalPages = [
     title: 'C4AI | Home',
     heading:
       'A research center for advanced artificial intelligence in Brazil.',
-    pair: '/pt/',
+    pair: '/',
   },
   {
     path: '/pt/sobre/',
@@ -63,6 +70,7 @@ export const principalPages = [
 ] as const;
 export interface RequiredPage {
   path: string;
+  canonical?: string;
   lang: string;
   title: string;
   heading: string;
@@ -71,17 +79,19 @@ export interface RequiredPage {
 }
 export const requiredPages: RequiredPage[] = [
   {
-    path: '/',
+    path: '/pt/',
+    canonical: '/',
     lang: 'pt-BR',
-    title: 'C4AI | Português / English',
-    heading: 'Escolha seu idioma',
+    title: 'C4AI | Início',
+    heading:
+      'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
     description:
-      'Escolha o idioma do site do C4AI. Choose the language of the C4AI website.',
+      'O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).',
     pair: '/en/',
   },
   ...principalPages.map((p) => ({
     ...p,
-    description: ['/pt/', '/pt/pesquisas/'].includes(p.path)
+    description: ['/', '/pt/pesquisas/'].includes(p.path)
       ? 'O C4AI concentra suas pesquisas em duas linhas: processamento de linguagem natural para as línguas do Brasil, incluindo português e línguas indígenas, e governança de IA, com governança macro (IA e políticas públicas) e micro (implantação e avaliação de IA).'
       : ['/en/', '/en/research/'].includes(p.path)
         ? 'C4AI focuses its research on two areas: natural language processing for the languages of Brazil, including Portuguese and Indigenous languages, and AI governance, with macro governance (AI and public policy) and micro governance (AI deployment and evaluation).'
@@ -157,6 +167,7 @@ export const aboutAnchors = {
 };
 // Redesign da introdução de Sobre autorizado em 15/10/2026. Expectativas
 // editoriais manuais; os textos institucionais seguintes permanecem obrigatórios.
+// Em 30/10/2026, a marca flickr e o destino da galeria substituem os originais.
 export const aboutIntro = {
   pt: {
     path: '/pt/sobre/',
@@ -181,8 +192,8 @@ export const aboutIntro = {
         title: 'Eventos e workshops',
         description:
           'Explore os registros fotográficos das atividades do centro.',
-        action: 'Acessar Flickr',
-        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+        action: 'Acessar flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/albums',
       },
     ],
   },
@@ -207,14 +218,15 @@ export const aboutIntro = {
       {
         title: 'Events and workshops',
         description: 'Explore photographs of the center’s activities.',
-        action: 'Visit Flickr',
-        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+        action: 'Visit flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/albums',
       },
     ],
   },
 } as const;
 // Reorganização institucional de Sobre autorizada em 15/10/2026. Contrato
 // manual: preserva os parágrafos originais e separa três grupos temáticos.
+// Em 30/10/2026, somente os rótulos passam a Sede/Headquarters.
 export const aboutOverview = {
   pt: {
     path: '/pt/sobre/',
@@ -237,7 +249,7 @@ export const aboutOverview = {
       description:
         'Ser um centro de excelência de nível mundial em Inteligência Artificial e uma organização essencial para a comunidade científica e a sociedade no Brasil.',
     },
-    locationLabel: 'Localização',
+    locationLabel: 'Sede',
     locationTitle: 'Onde estamos',
     location:
       'O C4AI é sediado no CIAAM e localizado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar no coração do campus Butantã da USP.',
@@ -271,7 +283,7 @@ export const aboutOverview = {
       description:
         'To be a world-class center of excellence in Artificial Intelligence and an essential organization for the scientific community and the society in Brazil.',
     },
-    locationLabel: 'Location',
+    locationLabel: 'Headquarters',
     locationTitle: 'Where we are',
     location:
       'C4AI is hosted by CIAAM and located at InovaUSP, a space for innovation and multidisciplinary research in the heart of USP’s Butantã campus.',
@@ -303,7 +315,7 @@ export const researchSubareas = {
   pt: [
     {
       anchor: 'governance-macro',
-      title: 'Governança Macro — IA e políticas públicas',
+      title: 'IA e políticas públicas',
       record: 'OBIA_B_eng',
       name: 'OBIA@C4AI',
       projectTitle:
@@ -311,7 +323,7 @@ export const researchSubareas = {
     },
     {
       anchor: 'governance-micro',
-      title: 'Governança Micro — Implantação e avaliação de IA',
+      title: 'Implantação e avaliação de IAs',
       record: 'harpia',
       name: 'HarpIA',
       projectTitle: 'Avaliação de Grandes Modelos de Linguagem',
@@ -320,7 +332,7 @@ export const researchSubareas = {
   en: [
     {
       anchor: 'governance-macro',
-      title: 'Macro governance — AI and public policy',
+      title: 'AI and public policy',
       record: 'OBIA_B_eng',
       name: 'OBIA@C4AI',
       projectTitle:
@@ -328,7 +340,7 @@ export const researchSubareas = {
     },
     {
       anchor: 'governance-micro',
-      title: 'Micro governance — AI deployment and evaluation',
+      title: 'AI deployment and evaluation',
       record: 'harpia',
       name: 'HarpIA',
       projectTitle: 'Evaluation of Large Language Models',
@@ -339,7 +351,7 @@ export const researchSubareas = {
 // anteriores preservados; CTA e destinos definidos manualmente pelo requisito.
 export const homeHero = {
   pt: {
-    path: '/pt/',
+    path: '/',
     title:
       'Um centro de pesquisa em inteligência artificial avançada no Brasil.',
     lang: 'pt-BR',
@@ -367,7 +379,7 @@ export const homeHero = {
 // separadas e hover desktop. Expectativas manuais, sem importar aplicação.
 export const globalHeader = {
   pt: {
-    path: '/pt/',
+    path: '/',
     pair: '/en/',
     mainName: 'Principal',
     mobileMainName: 'Principal móvel',
@@ -379,16 +391,12 @@ export const globalHeader = {
     currentLanguage: 'Português',
     otherLanguage: 'English',
     items: [
-      { label: 'Início', href: '/pt/' },
+      { label: 'Início', href: '/' },
       { label: 'Sobre', href: '/pt/sobre/' },
       { label: 'Pesquisas', href: '/pt/pesquisas/' },
       { label: 'Notícias', href: '/pt/noticias/' },
     ],
     resources: 'Recursos',
-    opportunities: {
-      label: 'Oportunidades',
-      href: 'https://c4ai.inova.usp.br/pt/oportunidades/',
-    },
     menus: [
       {
         name: 'Seções de Sobre',
@@ -438,7 +446,8 @@ export const globalHeader = {
       },
     ],
     activePages: [
-      { path: '/pt/', href: '/pt/', current: 'page' },
+      { path: '/', href: '/', current: 'page' },
+      { path: '/pt/', href: '/', current: 'page' },
       {
         path: '/pt/sobre/',
         href: '/pt/sobre/',
@@ -464,7 +473,7 @@ export const globalHeader = {
   },
   en: {
     path: '/en/',
-    pair: '/pt/',
+    pair: '/',
     mainName: 'Main',
     mobileMainName: 'Mobile main',
     languageName: 'Language',
@@ -481,10 +490,6 @@ export const globalHeader = {
       { label: 'News', href: '/en/news/' },
     ],
     resources: 'Resources',
-    opportunities: {
-      label: 'Opportunities',
-      href: 'https://c4ai.inova.usp.br/opportunities/',
-    },
     menus: [
       {
         name: 'Sections of About',
@@ -559,7 +564,7 @@ export const globalHeader = {
 // destinos congelados manualmente; não derivar das coleções ou componentes.
 export const homeResearch = {
   pt: {
-    path: '/pt/',
+    path: '/',
     title: 'Nossas linhas de pesquisa',
     cards: [
       {
@@ -593,14 +598,14 @@ export const homeResearch = {
         navigation: 'Áreas de pesquisa',
         links: [
           {
-            title: 'Governança Macro — IA e políticas públicas',
+            title: 'IA e políticas públicas',
             description:
               'Estudos sobre os impactos da IA na sociedade, regulamentação e políticas públicas.',
             href: '/pt/pesquisas/#governance-macro',
             anchor: 'governance-macro',
           },
           {
-            title: 'Governança Micro — Implantação e avaliação de IA',
+            title: 'Implantação e avaliação de IAs',
             description:
               'Pesquisa sobre a implementação, gestão e avaliação de sistemas de inteligência artificial.',
             href: '/pt/pesquisas/#governance-micro',
@@ -645,14 +650,14 @@ export const homeResearch = {
         navigation: 'Research areas',
         links: [
           {
-            title: 'Macro governance — AI and public policy',
+            title: 'AI and public policy',
             description:
               'Studies of the impacts of AI on society, regulation and public policy.',
             href: '/en/research/#governance-macro',
             anchor: 'governance-macro',
           },
           {
-            title: 'Micro governance — AI deployment and evaluation',
+            title: 'AI deployment and evaluation',
             description:
               'Research on the implementation, management and evaluation of artificial intelligence systems.',
             href: '/en/research/#governance-micro',
@@ -665,6 +670,7 @@ export const homeResearch = {
 } as const;
 // Redesign do índice autorizado em 13/10/2026; expectativas independentes
 // do componente e das coleções, preservando os quatro destinos de navegação.
+// Em 30/10/2026, os rótulos passam a Projetos anteriores/Previous projects.
 export const researchIndex = {
   pt: {
     path: '/pt/pesquisas/',
@@ -683,19 +689,19 @@ export const researchIndex = {
           'Estudos sobre políticas públicas, implantação e avaliação de sistemas de inteligência artificial.',
       },
     ],
-    history: 'Trabalhos anteriores',
+    history: 'Projetos anteriores',
     historyDescription: 'Conheça os registros de pesquisas anteriores do C4AI.',
     links: [
       { label: 'Conhecer esta linha de pesquisa', anchor: 'languages' },
       {
-        label: 'Governança Macro — IA e políticas públicas',
+        label: 'IA e políticas públicas',
         anchor: 'governance-macro',
       },
       {
-        label: 'Governança Micro — Implantação e avaliação de IA',
+        label: 'Implantação e avaliação de IAs',
         anchor: 'governance-micro',
       },
-      { label: 'Consultar trabalhos anteriores', anchor: 'previous-research' },
+      { label: 'Consultar projetos anteriores', anchor: 'previous-research' },
     ],
   },
   en: {
@@ -714,21 +720,29 @@ export const researchIndex = {
           'Studies of public policy, deployment and evaluation of artificial intelligence systems.',
       },
     ],
-    history: 'Previous research',
+    history: 'Previous projects',
     historyDescription: 'Explore records of previous C4AI research.',
     links: [
       { label: 'Explore this research area', anchor: 'languages' },
       {
-        label: 'Macro governance — AI and public policy',
+        label: 'AI and public policy',
         anchor: 'governance-macro',
       },
       {
-        label: 'Micro governance — AI deployment and evaluation',
+        label: 'AI deployment and evaluation',
         anchor: 'governance-micro',
       },
-      { label: 'Browse previous research', anchor: 'previous-research' },
+      { label: 'Browse previous projects', anchor: 'previous-research' },
     ],
   },
+} as const;
+// Fotografia e tratamento aprovados em 30/10/2026; contrato manual do destaque.
+export const researchHero = {
+  image: '/media/06fcd48f000b.jpg',
+  width: 2560,
+  height: 1707,
+  background: 'rgb(23, 63, 70)',
+  opacity: '0.25',
 } as const;
 export const aboutUpdate = {
   pt: {
@@ -972,7 +986,6 @@ export const footerSocialLinks = [
   'https://www.facebook.com/groups/C4AI.USP',
   'https://bit.ly/C4AI-Linkedin',
   'https://www.flickr.com/photos/195298871@N06/albums',
-  'https://linktr.ee/c4aiusp',
 ];
 
 // Complementação HarpIA: contrato editorial das fontes oficiais consultadas em

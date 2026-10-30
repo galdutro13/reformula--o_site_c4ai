@@ -1,5 +1,5 @@
 import { test, expect, type Locator } from '@playwright/test';
-import { researchIndex } from './requirements';
+import { researchIndex, researchHero } from './requirements';
 
 async function assertIndexLayout(
   cards: Locator,
@@ -30,6 +30,42 @@ async function assertIndexLayout(
 
 for (const locale of ['pt', 'en'] as const) {
   const required = researchIndex[locale];
+  test(`${locale}: destaque de pesquisas carrega uma fotografia decorativa local`, async ({
+    page,
+  }) => {
+    await page.goto(required.path);
+    const hero = page.locator('.page-research .page-hero');
+    const image = hero.locator('img.hero-background');
+    await expect(image).toHaveCount(1);
+    await expect(image).toBeVisible();
+    await expect(image).toHaveAttribute('src', researchHero.image);
+    await expect(image).toHaveAttribute('alt', '');
+    await expect(image).toHaveAttribute('width', String(researchHero.width));
+    await expect(image).toHaveAttribute('height', String(researchHero.height));
+    await expect(image).toHaveAttribute('loading', 'eager');
+    await expect(image).toHaveAttribute('fetchpriority', 'high');
+    await expect(image).toHaveCSS('object-fit', 'cover');
+    await expect(image).toHaveCSS('opacity', researchHero.opacity);
+    await expect(hero).toHaveCSS('background-color', researchHero.background);
+    await expect(hero).toHaveCSS('background-image', 'none');
+    await expect
+      .poll(() =>
+        image.evaluate((el: HTMLImageElement) => [
+          el.naturalWidth,
+          el.naturalHeight,
+        ]),
+      )
+      .toEqual([researchHero.width, researchHero.height]);
+    const imageBox = (await image.boundingBox())!;
+    const heroBox = (await hero.boundingBox())!;
+    for (const dimension of ['x', 'y', 'width', 'height'] as const)
+      expect(Math.abs(imageBox[dimension] - heroBox[dimension])).toBeLessThan(
+        1,
+      );
+    await expect(page.locator('.source-gallery')).toHaveCount(0);
+    await expect(hero.locator('script, astro-island')).toHaveCount(0);
+  });
+
   test(`${locale}: índice de pesquisas com duas áreas e histórico complementar`, async ({
     page,
   }) => {

@@ -55,7 +55,7 @@ export const aboutOverviewContent = {
       },
     ],
     location: {
-      label: 'Localização',
+      label: 'Sede',
       title: 'Onde estamos',
       text: 'O C4AI é sediado no CIAAM e localizado no InovaUSP, um espaço para inovação e pesquisa multidisciplinar no coração do campus Butantã da USP.',
       address:
@@ -94,7 +94,7 @@ export const aboutOverviewContent = {
       },
     ],
     location: {
-      label: 'Location',
+      label: 'Headquarters',
       title: 'Where we are',
       text: 'C4AI is hosted by CIAAM and located at InovaUSP, a space for innovation and multidisciplinary research in the heart of USP’s Butantã campus.',
       address:

@@ -59,6 +59,30 @@ test('somente Home pode ter blocks vazio; campo obrigatório continua exigido', 
   }
 });
 
+test('raiz é reservada à Home portuguesa; caminhos localizados continuam válidos', () => {
+  const root = { ...page, path: '/' };
+  assert.equal(editorialSchema.safeParse(root).success, true);
+  assert.equal(editorialSchema.safeParse(page).success, true);
+  assert.equal(
+    editorialSchema.safeParse({ ...page, locale: 'en', path: '/en/' }).success,
+    true,
+  );
+  for (const invalid of [
+    { ...root, locale: 'en' },
+    { ...root, translationId: 'about' },
+    { ...root, translationId: null },
+    ...['about', 'research', 'news', 'article'].map((kind) => ({
+      ...root,
+      kind,
+      blocks: [{ type: 'html', html: '<p>Conteúdo presente.</p>' }],
+    })),
+    { ...page, path: '/outro/' },
+    { ...page, path: 'pt/' },
+  ]) {
+    assert.equal(editorialSchema.safeParse(invalid).success, false);
+  }
+});
+
 test('a exceção de Home não aceita grupos ou painéis vazios nem HTML inseguro', () => {
   const invalidBlocks = [
     { type: 'group', layout: 'section', children: [] },

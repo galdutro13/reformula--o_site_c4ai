@@ -23,6 +23,10 @@
   font-size: 0.8rem;
 }
 
+.footer-bottom > p {
+  margin: 0;
+}
+
 .host-marks img {
   display: block;
   width: 180px;

@@ -18,7 +18,7 @@ npx playwright install chromium
 npm run dev
 ```
 
-Abra <http://localhost:4321/> e escolha o idioma. No Linux de CI, use `npx playwright install --with-deps chromium`. Downloads são necessários na preparação inicial; as verificações obrigatórias não dependem de serviços externos.
+Abra <http://localhost:4321/> para acessar diretamente a Home em português. Os botões do cabeçalho permitem trocar de idioma; `/en/` abre a Home inglesa e `/pt/` permanece como endereço compatível da portuguesa, cujo endereço principal é `/`. No Linux de CI, use `npx playwright install --with-deps chromium`. Downloads são necessários na preparação inicial; as verificações obrigatórias não dependem de serviços externos.
 
 Não é preciso criar `.env` para desenvolver ou executar `quality`. Para preparar publicação, copie `.env.example` para `.env` e preencha a origem HTTPS confirmada; consulte [publicação](docs/publishing.md).
 
@@ -43,18 +43,18 @@ Não é preciso criar `.env` para desenvolver ou executar `quality`. Para prepar
 
 ## Organização
 
-| Local                                          | Responsabilidade                                                             |
-| ---------------------------------------------- | ---------------------------------------------------------------------------- |
-| `src/pages/pt/`, `src/pages/en/`               | Entradas das páginas localizadas                                             |
-| `src/pages/index.astro`, `src/pages/404.astro` | Escolha de idioma e erro bilíngue                                            |
-| `src/components/`, `src/layouts/`              | Apresentação reutilizável e documento HTML compartilhado                     |
-| `src/content/`, `src/content.config.ts`        | Coleções JSON de páginas, desafios e artigos; esquemas e pares validados     |
-| `src/i18n/`                                    | Traduções de interface e correspondência explícita por ID de página          |
-| `src/styles/`                                  | Tokens, CSS por responsabilidade e fontes locais; sem estilos embutidos      |
-| `public/`                                      | Imagens e marcas locais, licença tipográfica; favicon tipográfico provisório |
-| `scripts/`                                     | Execução dos modos Astro e validação de publicação                           |
-| `tests/config/`, `tests/e2e/`                  | Contratos de configuração e site compilado                                   |
-| `docs/`, `.github/`                            | Requisitos, decisões, qualidade, publicação e CI                             |
+| Local                                          | Responsabilidade                                                         |
+| ---------------------------------------------- | ------------------------------------------------------------------------ |
+| `src/pages/pt/`, `src/pages/en/`               | Entradas das páginas localizadas                                         |
+| `src/pages/index.astro`, `src/pages/404.astro` | Home portuguesa na raiz e erro bilíngue                                  |
+| `src/components/`, `src/layouts/`              | Apresentação reutilizável e documento HTML compartilhado                 |
+| `src/content/`, `src/content.config.ts`        | Coleções JSON de páginas, desafios e artigos; esquemas e pares validados |
+| `src/i18n/`                                    | Traduções de interface e correspondência explícita por ID de página      |
+| `src/styles/`                                  | Tokens, CSS por responsabilidade e fontes locais; sem estilos embutidos  |
+| `public/`                                      | Imagens e marcas locais, licença tipográfica; favicon circular do C4AI   |
+| `scripts/`                                     | Execução dos modos Astro e validação de publicação                       |
+| `tests/config/`, `tests/e2e/`                  | Contratos de configuração e site compilado                               |
+| `docs/`, `.github/`                            | Requisitos, decisões, qualidade, publicação e CI                         |
 
 ## Exemplos de edição
 

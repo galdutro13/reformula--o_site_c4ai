@@ -15,7 +15,7 @@ interface AboutIntro {
   activities: Activity[];
 }
 
-// Redesign autorizado em 15/10/2026; os destinos dos canais são preservados.
+// Redesign de 15/10/2026; marca e galeria do flickr revisadas em 30/10/2026.
 export const aboutIntroContent = {
   pt: {
     eyebrow: 'C4AI — USP',
@@ -35,8 +35,8 @@ export const aboutIntroContent = {
         title: 'Eventos e workshops',
         description:
           'Explore os registros fotográficos das atividades do centro.',
-        action: 'Acessar Flickr',
-        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+        action: 'Acessar flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/albums',
       },
     ],
   },
@@ -56,8 +56,8 @@ export const aboutIntroContent = {
         id: 'photo',
         title: 'Events and workshops',
         description: 'Explore photographs of the center’s activities.',
-        action: 'Visit Flickr',
-        href: 'https://www.flickr.com/photos/195298871@N06/52014132992/in/album-72177720298226753',
+        action: 'Visit flickr',
+        href: 'https://www.flickr.com/photos/195298871@N06/albums',
       },
     ],
   },

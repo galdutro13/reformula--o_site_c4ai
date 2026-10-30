@@ -13,13 +13,13 @@
   "subareas": [
     {
       "anchor": "governance-macro",
-      "title": "Macro governance — AI and public policy",
+      "title": "AI and public policy",
       "summary": "AI and public policy, including OBIA and AI regulation.",
       "group": "obia-en"
     },
     {
       "anchor": "governance-micro",
-      "title": "Micro governance — AI deployment and evaluation",
+      "title": "AI deployment and evaluation",
       "summary": "Governance in companies, AI deployment and evaluation, including LLM evaluation with HarpIA.",
       "group": "harpia-en"
     }

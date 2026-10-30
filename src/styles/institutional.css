@@ -64,6 +64,10 @@
   font-size: 2rem;
 }
 
+.page-research .page-hero {
+  background: #173f46;
+}
+
 .page-research .hero-inner {
   max-width: 58rem;
   text-align: center;

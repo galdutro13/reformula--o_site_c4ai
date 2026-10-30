@@ -170,6 +170,7 @@ for (const locale of ['pt', 'en'] as const) {
         name: expected.action,
         exact: true,
       });
+      await expect(link.locator('span').first()).toHaveText(expected.action);
       await expect(link).toHaveAttribute('href', expected.href);
       await expect(card.getByRole('link')).toHaveCount(1);
       const icon = card.locator('svg');

@@ -13,13 +13,13 @@
   "subareas": [
     {
       "anchor": "governance-macro",
-      "title": "Governança Macro — IA e políticas públicas",
+      "title": "IA e políticas públicas",
       "summary": "IA e políticas públicas, incluindo OBIA e regulação de IA.",
       "group": "obia-pt"
     },
     {
       "anchor": "governance-micro",
-      "title": "Governança Micro — Implantação e avaliação de IA",
+      "title": "Implantação e avaliação de IAs",
       "summary": "Governança em empresas, implantação e avaliação de IA, incluindo avaliação de LLMs com HarpIA.",
       "group": "harpia-pt"
     }

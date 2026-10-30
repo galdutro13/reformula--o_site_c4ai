@@ -1,6 +1,6 @@
 # Migração local do C4AI — 19/09/2026
 
-Esta entrega implementa o recorte aprovado nesta tarefa: **Home, Sobre, Pesquisas e Notícias em PT/EN e 26 artigos distintos (14 PT, 12 EN)**. São 38 documentos HTML: oito páginas principais, 26 artigos, duas páginas adicionais de paginação, entrada neutra e 404. Migração técnica não significa aprovação editorial nem autorização de publicação. O inventário de 12/09 e suas referências permanecem preservados.
+Esta entrega implementa o recorte aprovado nesta tarefa: **Home, Sobre, Pesquisas e Notícias em PT/EN e 26 artigos distintos (14 PT, 12 EN)**. Na migração inicial, os 38 documentos HTML eram oito páginas principais, 26 artigos, duas páginas adicionais de paginação, entrada neutra e 404. Desde 29/10/2026, a Home portuguesa ocupa a raiz e `/pt/` permanece como alias, mantendo os 38 HTML. Migração técnica não significa aprovação editorial nem autorização de publicação. O inventário de 12/09 e suas referências permanecem preservados.
 
 ## Fontes, rastreabilidade e cobertura
 
@@ -19,14 +19,16 @@ A suíte contém **787 trechos de texto congelados diretamente das fontes** em `
 
 | Fonte principal                              | Português local        | Inglês local       |
 | -------------------------------------------- | ---------------------- | ------------------ |
-| `/pt/inicio/` e `/`                          | `/pt/`                 | `/en/`             |
+| `/pt/inicio/` e `/`                          | `/` (alias `/pt/`)     | `/en/`             |
 | `/pt/sobre/` e `/about/`                     | `/pt/sobre/`           | `/en/about/`       |
 | `/pt/pesquisas_2/` e `/research_2/`          | `/pt/pesquisas/`       | `/en/research/`    |
 | `/pt/category/noticias/` e `/category/news/` | `/pt/noticias/`        | `/en/news/`        |
 | Artigos inventariados                        | `/pt/noticias/<slug>/` | `/en/news/<slug>/` |
 | Página 2 das listagens                       | `/pt/noticias/page/2/` | `/en/news/page/2/` |
 
-A raiz continua como escolha explícita de idioma. **É incompatível com um redirecionamento automático da antiga Home inglesa `/`**; essa decisão deve ser considerada no lançamento. O artigo sobre marco regulatório perde apenas o U+FFFC e o hífen residual do slug antigo `…-brasil-%ef%bf%bc/`, conforme mapa; seu texto não foi reescrito.
+A migração de 19/09/2026 usou a raiz como escolha explícita de idioma. Essa decisão foi substituída pelo [acesso direto aprovado em 29/10/2026](reformulation.md#acesso-direto-em-português--29102026): `/` serve a Home portuguesa sem redirecionamento; `/pt/` serve o mesmo HTML com canonical `/`; `/en/` é a Home inglesa. O mapa de URLs atualiza apenas o destino da antiga Home portuguesa. A equivalência editorial da antiga raiz inglesa com `/en/` permanece registrada, mas não configura um redirecionamento HTTP: no lançamento, a raiz abrirá em português e a versão inglesa terá acesso explícito em `/en/` e no cabeçalho.
+
+O artigo sobre marco regulatório perde apenas o U+FFFC e o hífen residual do slug antigo `…-brasil-%ef%bf%bc/`, conforme mapa; seu texto não foi reescrito.
 
 As quatro páginas principais têm pares completos obrigatórios. O único par de artigos confirmado neste recorte é o seminário de Luis Lamb; os demais 24 artigos não recebem tradução presumida. A interface informa a ausência e oferece um link separado para o índice de Notícias no outro idioma. Não há `hreflang` fictício para esses artigos. O par Lamb preserva a mistura de idiomas já presente no texto português; revisão linguística continua pendente.
 
@@ -42,7 +44,7 @@ Categorias e arquivos de autor/data permanecem no WordPress. A categoria princip
 
 O arquivo PT tem 11 itens classificados como Notícias na fonte, em páginas de oito e três. Há outros três artigos em português que a fonte classificava no arquivo inglês: Corpus Carolina, DemonumentaRA e línguas indígenas. Permanecem em português, acessíveis na seção adicional “Outros artigos em português no acervo”, na busca e na navegação entre artigos. A listagem inglesa reúne os 12 artigos em inglês, em páginas de oito e quatro. Isso evita apresentar os três artigos portugueses como traduções inglesas. As oito entradas iniciais em cada idioma seguem a ordem observada; empates de data preservam a ordem da fonte.
 
-Recursos e Oportunidades mantêm destinos externos identificados; publicações bibliográficas, parceiros, CID, NLP2, arquivos temáticos e candidaturas não foram migrados. Não há páginas vazias simulando esses serviços. Seu destino definitivo continua pendente. A busca local abrange todos os artigos migrados do idioma atual, sem consultar o WordPress.
+Na migração inicial, Recursos e Oportunidades receberam destinos externos identificados. Oportunidades/Opportunities foi retirado do cabeçalho em 30/10/2026 por decisão do mantenedor; os destinos de Recursos permanecem. Publicações bibliográficas, parceiros, CID, NLP2, arquivos temáticos e candidaturas não foram migrados. Não há páginas vazias simulando esses serviços. Seu destino definitivo continua pendente. A busca local abrange todos os artigos migrados do idioma atual, sem consultar o WordPress.
 
 Fragmentos não são enviados ao servidor: eventual política de redirecionamentos deve combinar mapa de caminhos com preservação dos IDs. O mapa é documentação para decisão de lançamento, não configuração de redirecionamento. Não se propõe encaminhar material sem equivalente à Home.
 
@@ -78,3 +80,7 @@ Não houve commit, push, publicação ou configuração de redirecionamentos de 
 A busca agora extrai conteúdo editorial por tipo de bloco, incluindo grupos/painéis e referências a desafios, em vez de pesquisar a serialização JSON. Na inicialização do navegador, segmentos HTML são interpretados em `template` desconectado, sem carregar recursos; entidades viram caracteres e elementos inline preservam a continuidade das palavras. Quebras e limites de blocos separam palavras. Índice e consulta normalizam caixa, acentos e espaços, inclusive os não separáveis. Atributos, IDs e caminhos de imagens não são termos de busca; URLs exibidas no próprio texto continuam pesquisáveis. O índice normalizado é calculado uma vez e mantém ordem e idioma dos artigos, URLs com `BASE_PATH` e busca por substring.
 
 Somente o iframe de `www.youtube-nocookie.com` usa `strict-origin-when-cross-origin`, enviando a origem sem o caminho da página na requisição externa. Mapa e agenda continuam com `no-referrer`; todos continuam dependendo de acionamento explícito e oferecendo link externo sem JavaScript. A mudança atende à identificação por `Referer` descrita na [documentação oficial do YouTube](https://developers.google.com/youtube/terms/required-minimum-functionality#embedded-player-api-client-identity). Textos editoriais, coleções, rotas e dependências não foram alterados. Veja as regressões e resultados no [registro de validação](migration/validation.md#correções-p2--22092026).
+
+## Restauração da foto de Pesquisas — 30/10/2026
+
+O diagnóstico de 19/09 acima permanece histórico: as URLs do host de desenvolvimento falharam e não foram distribuídas. Por decisão posterior do mantenedor, Pesquisas PT/EN passa a reutilizar a fotografia equivalente já preservada a partir do host institucional e usada em Sobre, `/media/06fcd48f000b.jpg`. Não há nova coleta, alteração dos bytes ou reescrita do inventário de migração. O índice e a seção histórica passam a se chamar Projetos anteriores/Previous projects, preservando âncoras e conteúdo. A decisão e os resultados atuais estão no [registro da reformulação](reformulation.md#projetos-anteriores-e-foto-de-pesquisas--30102026).

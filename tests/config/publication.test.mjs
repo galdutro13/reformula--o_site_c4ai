@@ -143,31 +143,57 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
       },
     );
     assert.equal(result.status, 0, result.stdout + result.stderr);
-    for (const locale of ['pt', 'en']) {
-      const html = readFileSync(join(output, locale, 'index.html'), 'utf8');
+    for (const [file, canonical, lang] of [
+      ['index.html', '/centro/', 'pt-BR'],
+      ['pt/index.html', '/centro/', 'pt-BR'],
+      ['en/index.html', '/centro/en/', 'en'],
+    ]) {
+      const html = readFileSync(join(output, file), 'utf8');
       assert.match(
         html,
-        new RegExp(`rel="canonical" href="https://usp.br/centro/${locale}/"`),
+        new RegExp(`rel="canonical" href="https://usp.br${canonical}"`),
       );
-      assert.match(
-        html,
-        /hreflang="pt-BR" href="https:\/\/usp.br\/centro\/pt\/"/,
-      );
+      assert.match(html, new RegExp(`<html lang="${lang}"`));
+      assert.match(html, /hreflang="pt-BR" href="https:\/\/usp.br\/centro\/"/);
       assert.match(html, /hreflang="en" href="https:\/\/usp.br\/centro\/en\/"/);
       assert.match(
         html,
         /hreflang="x-default" href="https:\/\/usp.br\/centro\/"/,
       );
-      assert.match(html, /href="\/centro\/favicon.svg"/);
       assert.match(html, /href="\/centro\/_astro\//);
-      assert.match(html, /href="\/centro\/pt\/"/);
+      assert.match(html, /href="\/centro\/"/);
       assert.match(html, /href="\/centro\/en\/"/);
       assert.doesNotMatch(html, /name="robots"/);
+      assert.doesNotMatch(html, /http-equiv="refresh"|Escolha seu idioma/);
       assertHomeHeaderScript(html, output);
     }
+    assert.equal(
+      readFileSync(join(output, 'index.html'), 'utf8').replace(
+        '&amp;page=%2Fcentro%2F',
+        '',
+      ),
+      readFileSync(join(output, 'pt/index.html'), 'utf8').replace(
+        '&amp;page=%2Fcentro%2Fpt%2F',
+        '',
+      ),
+      'Raiz e alias devem diferir somente na associação do favicon por página',
+    );
     const files = readdirSync(output, { recursive: true, encoding: 'utf8' });
+    assert.deepEqual(
+      readFileSync(join(output, 'favicon.svg')),
+      readFileSync('public/favicon.svg'),
+      'A publicação deve preservar o SVG circular',
+    );
     for (const file of files.filter((f) => f.endsWith('.html'))) {
       const html = readFileSync(join(output, file), 'utf8');
+      const pagePath = '/centro/' + file.replace(/(^|\/)index\.html$/, '$1');
+      assert.deepEqual(
+        html.match(/<link\b[^>]*\brel="icon"[^>]*>/g),
+        [
+          `<link rel="icon" href="/centro/favicon.svg?v=c4ai-circular-1&amp;page=${encodeURIComponent(pagePath)}" type="image/svg+xml">`,
+        ],
+        `${file}: favicon único, versionado e com BASE_PATH`,
+      );
       for (const match of html.matchAll(/(?:href|src)="(\/[^"]+)"/g)) {
         const raw = match[1];
         assert.ok(
@@ -183,6 +209,22 @@ test('build de publicação em subdiretório: HTML, metadados e assets', () => {
         );
       }
     }
+    for (const file of ['pt/pesquisas/index.html', 'en/research/index.html']) {
+      const html = readFileSync(join(output, file), 'utf8');
+      const backgrounds =
+        html.match(/<img\b[^>]*\bclass="hero-background"[^>]*>/g) ?? [];
+      assert.equal(backgrounds.length, 1, `${file}: uma foto no destaque`);
+      assert.match(
+        backgrounds[0],
+        /\bsrc="\/centro\/media\/06fcd48f000b\.jpg"/,
+        `${file}: fotografia de Pesquisas deve respeitar BASE_PATH`,
+      );
+    }
+    assert.deepEqual(
+      readFileSync(join(output, 'media/06fcd48f000b.jpg')),
+      readFileSync('public/media/06fcd48f000b.jpg'),
+      'A publicação deve preservar a fotografia existente',
+    );
     const news = readFileSync(join(output, 'pt/noticias/index.html'), 'utf8');
     assert.match(news, /"path":"\/centro\/pt\/noticias\//);
     for (const css of files.filter((f) => f.endsWith('.css'))) {

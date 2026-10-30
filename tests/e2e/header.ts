@@ -2,6 +2,8 @@ import { test, expect, type Page, type Locator } from '@playwright/test';
 import { globalHeader } from './requirements';
 
 export async function openMobileHeader(page: Page) {
+  // Após trocar de idioma, a URL pode mudar antes de o CSS terminar de carregar.
+  await page.waitForLoadState('load');
   const menu = page.locator('.mobile-navigation');
   const summary = menu.locator(':scope > summary');
   const mobile = await summary.isVisible();
@@ -154,6 +156,7 @@ async function assertDesktopMenuSpacing(navigation: Locator) {
       };
     });
     return {
+      right: element.getBoundingClientRect().right,
       gaps: content
         .slice(1)
         .map((item, index) => item.start - content[index].end),
@@ -177,7 +180,7 @@ async function assertDesktopMenuSpacing(navigation: Locator) {
       }),
     };
   });
-  expect(geometry.gaps).toHaveLength(5);
+  expect(geometry.gaps).toHaveLength(4);
   for (const gap of geometry.gaps) {
     expect(gap).toBeGreaterThanOrEqual(39);
     expect(gap).toBeLessThanOrEqual(41);
@@ -185,7 +188,7 @@ async function assertDesktopMenuSpacing(navigation: Locator) {
   expect(Math.max(...geometry.gaps) - Math.min(...geometry.gaps)).toBeLessThan(
     1,
   );
-  expect(geometry.controls).toHaveLength(8);
+  expect(geometry.controls).toHaveLength(7);
   for (const [index, control] of geometry.controls.entries()) {
     expect(control.width).toBeGreaterThanOrEqual(
       control.desktopArrow ? 24 : 44,
@@ -197,25 +200,28 @@ async function assertDesktopMenuSpacing(navigation: Locator) {
       );
   }
   expect(geometry.arrowTargets).toHaveLength(3);
+  const arrowLimits = [
+    geometry.controls[3].left,
+    geometry.controls[6].left,
+    geometry.right,
+  ];
   for (const [index, target] of geometry.arrowTargets.entries()) {
     expect(Math.abs(target.width - 24)).toBeLessThanOrEqual(1);
     expect(target.height).toBeGreaterThanOrEqual(44);
     expect(target.interactiveGap).toBe(false);
-    expect(target.right).toBeLessThanOrEqual(
-      geometry.controls[[3, 6, 7][index]].left + 0.5,
-    );
+    expect(target.right).toBeLessThanOrEqual(arrowLimits[index] + 0.5);
   }
 }
 
 async function assertMobileNavigationAlignment(navigation: Locator) {
   const geometry = await navigation.evaluate((element) => {
     const right = element.getBoundingClientRect().right;
-    const centers = Array.from(
-      element.querySelectorAll('.nav-chevron, .nav-external'),
-    ).map((icon) => {
-      const box = icon.getBoundingClientRect();
-      return box.left + box.width / 2;
-    });
+    const centers = Array.from(element.querySelectorAll('.nav-chevron')).map(
+      (icon) => {
+        const box = icon.getBoundingClientRect();
+        return box.left + box.width / 2;
+      },
+    );
     const labels = Array.from(element.querySelectorAll(':scope > ul > li')).map(
       (row) => {
         const label = row.querySelector(':scope > a, .resource-label')!;
@@ -232,13 +238,13 @@ async function assertMobileNavigationAlignment(navigation: Locator) {
     );
     return { right, centers, labels };
   });
-  expect(geometry.centers).toHaveLength(4);
+  expect(geometry.centers).toHaveLength(3);
   for (const center of geometry.centers)
     expect(Math.abs(center - geometry.right + 22)).toBeLessThanOrEqual(1);
   expect(
     Math.max(...geometry.centers) - Math.min(...geometry.centers),
   ).toBeLessThan(1);
-  expect(geometry.labels).toHaveLength(6);
+  expect(geometry.labels).toHaveLength(5);
   expect(
     Math.max(...geometry.labels) - Math.min(...geometry.labels),
   ).toBeLessThan(1);
@@ -293,8 +299,22 @@ for (const locale of ['pt', 'en'] as const) {
       await expect(navigation).toBeVisible();
       if (width === 1440 || width === 1241)
         await assertDesktopMenuSpacing(navigation);
-      await expect(navigation.locator(':scope > ul > li')).toHaveCount(6);
-      await expect(navigation.locator(':scope > ul > li > a')).toHaveCount(5);
+      await expect(navigation.locator(':scope > ul > li')).toHaveCount(5);
+      await expect(navigation.locator(':scope > ul > li > a')).toHaveCount(4);
+      expect(
+        await navigation
+          .locator(':scope > ul > li')
+          .evaluateAll((rows) =>
+            rows.map((row) =>
+              row
+                .querySelector(':scope > a, .resource-label')
+                ?.textContent?.trim(),
+            ),
+          ),
+      ).toEqual([
+        ...required.items.map((item) => item.label),
+        required.resources,
+      ]);
       await expect(
         navigation.locator(':scope > ul > li > details'),
       ).toHaveCount(3);
@@ -305,9 +325,6 @@ for (const locale of ['pt', 'en'] as const) {
       await expect(
         navigation.locator('.resource-menu > summary'),
       ).toHaveAccessibleName(required.resources);
-      await expect(
-        navigation.locator(`a[href="${required.opportunities.href}"]`),
-      ).toContainText(required.opportunities.label);
       const languages = header.getByRole('navigation', {
         name: required.languageName,
         exact: true,
@@ -416,13 +433,11 @@ for (const locale of ['pt', 'en'] as const) {
       await expect(current).toHaveAttribute('href', scenario.href);
       await expect(current).toHaveAttribute('aria-current', scenario.current);
     }
-    for (const path of ['/', '/404.html']) {
-      await page.goto(path);
-      const navigation = await visibleMainNavigation(page, 'pt');
-      await expect(
-        navigation.locator('a[aria-current], summary[data-current]'),
-      ).toHaveCount(0);
-    }
+    await page.goto('/404.html');
+    const navigation = await visibleMainNavigation(page, 'pt');
+    await expect(
+      navigation.locator('a[aria-current], summary[data-current]'),
+    ).toHaveCount(0);
   });
 
   test(`${locale}: navegação principal oferece foco visível, hover e retorno nativo à Home`, async ({
@@ -515,7 +530,7 @@ for (const locale of ['pt', 'en'] as const) {
       );
       await assertMobileNavigationAlignment(navigation);
       const rows = navigation.locator(':scope > ul > li');
-      await expect(rows).toHaveCount(6);
+      await expect(rows).toHaveCount(5);
       const navBox = (await navigation.boundingBox())!;
       for (const row of await rows.all()) {
         const box = (await row.boundingBox())!;

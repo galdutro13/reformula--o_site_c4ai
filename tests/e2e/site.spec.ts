@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import {
   requiredPages,
   principalPages,
@@ -8,6 +9,7 @@ import {
   newsAnchors,
   researchIndex,
   globalHeader,
+  favicon,
 } from './requirements';
 import editorial from './editorial-requirements.json' with { type: 'json' };
 import articleRequirements from './article-requirements.json' with { type: 'json' };
@@ -22,6 +24,7 @@ import './home-hero';
 import './about-intro';
 import './about-overview';
 import './about-leadership';
+import './access-entry';
 import { openMobileHeader } from './header';
 const origin = 'http://127.0.0.1:4321';
 const compact = (value: string) => value.replace(/\s/g, '');
@@ -33,11 +36,20 @@ test.beforeEach(async ({ page }) => {
   );
 });
 for (const required of requiredPages) {
+  const canonical = required.canonical ?? required.path;
   test(`${required.path}: conteúdo, metadados e estrutura`, async ({
     page,
   }) => {
     expect((await page.goto(required.path))?.status()).toBe(200);
+    await expect(page).toHaveURL(required.path);
     await expect(page).toHaveTitle(required.title);
+    const icon = page.locator('head link[rel~="icon"]');
+    await expect(icon).toHaveCount(1);
+    await expect(icon).toHaveAttribute(
+      'href',
+      `${favicon.href}&page=${encodeURIComponent(required.path)}`,
+    );
+    await expect(icon).toHaveAttribute('type', favicon.type);
     await expect(page.locator('html')).toHaveAttribute('lang', required.lang);
     await expect(page.getByRole('main')).toBeVisible();
     await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
@@ -66,18 +78,13 @@ for (const required of requiredPages) {
     } else {
       await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
         'href',
-        origin + required.path,
+        origin + canonical,
       );
       await expect(page.locator('link[rel="alternate"]')).toHaveCount(
         required.pair ? 3 : 0,
       );
       if (required.pair) {
-        const pt =
-          required.path === '/'
-            ? '/pt/'
-            : required.lang === 'pt-BR'
-              ? required.path
-              : required.pair;
+        const pt = required.lang === 'pt-BR' ? canonical : required.pair;
         const en = required.lang === 'en' ? required.path : required.pair;
         for (const [lang, path] of Object.entries({
           'pt-BR': pt,
@@ -99,7 +106,7 @@ for (const required of requiredPages) {
         article.dateLabel,
       );
     }
-    const expected = editorial.find((e) => e.path === required.path);
+    const expected = editorial.find((e) => e.path === canonical);
     if (expected) {
       const text = compact((await page.locator('main').textContent()) ?? '');
       for (const fragment of expected.texts)
@@ -123,6 +130,20 @@ for (const required of requiredPages) {
     }
   });
 }
+test('favicon versionado entrega o SVG circular preservado', async ({
+  request,
+}) => {
+  const response = await request.get(`${favicon.href}&page=%2F`);
+  expect(response.status()).toBe(200);
+  expect(response.headers()['content-type']).toMatch(
+    /^image\/svg\+xml(?:\s*;|$)/,
+  );
+  expect(
+    createHash('sha256')
+      .update(await response.body())
+      .digest('hex'),
+  ).toBe(favicon.sha256);
+});
 for (const required of principalPages) {
   test(`${required.path}: idioma correspondente e retorno`, async ({
     page,
@@ -269,20 +290,10 @@ for (const locale of ['pt', 'en'] as const) {
     await expect(page).toHaveURL(pt ? '/en/news/' : '/pt/noticias/');
   });
 }
-test('escolha de idioma, recuperação da 404 e salto por teclado', async ({
+test('entrada direta, recuperação da 404 e salto por teclado', async ({
   page,
 }) => {
   await page.goto('/');
-  await page
-    .getByRole('link', { name: 'Continue in English', exact: true })
-    .click();
-  await expect(page).toHaveURL('/en/');
-  await page.goto('/');
-  await page
-    .getByRole('link', { name: 'Continuar em português', exact: true })
-    .click();
-  await expect(page).toHaveURL('/pt/');
-  await page.goto('/pt/');
   await page.keyboard.press('Tab');
   const skip = page.getByRole('link', { name: 'Pular para o conteúdo' });
   await expect(skip).toBeFocused();
@@ -382,13 +393,13 @@ test('par real de artigos: seletor explícito e retorno', async ({ page }) => {
 for (const scenario of [
   {
     locale: 'pt',
-    home: '/pt/',
+    home: '/',
     research: '/pt/pesquisas/',
     titles: [
       'Processamento de linguagem natural para as línguas do Brasil',
       'Governança de IA',
     ],
-    history: 'Trabalhos anteriores',
+    history: 'Projetos anteriores',
     notice: 'Registro da fase anterior:',
     terms: ['português', 'línguas indígenas', 'Governança'],
   },
@@ -400,7 +411,7 @@ for (const scenario of [
       'Natural language processing for the languages of Brazil',
       'AI governance',
     ],
-    history: 'Previous research',
+    history: 'Previous projects',
     notice: 'Record of the previous phase:',
     terms: ['Portuguese', 'Indigenous languages', 'governance'],
   },
